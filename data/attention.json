@@ -1,0 +1,59 @@
+{
+  "updated_at": "2026-08-30T07:22:30Z",
+  "items": [
+    {
+      "metric": "Videos posted",
+      "current": 81,
+      "prior": 168,
+      "pct": -51.8,
+      "direction": "down",
+      "effect": "Video supply ran 270 to 168 to 81 over three weeks, so the content base that converts to GMV in the next 2 to 3 weeks is collapsing.",
+      "action": "Greenlight outbound bidet and screen door samples now and revive Blitz #2 and the LIVE studio incentive to refill posting."
+    },
+    {
+      "metric": "Creators posting",
+      "current": 58,
+      "prior": 111,
+      "pct": -47.7,
+      "direction": "down",
+      "effect": "The active creator base halved in one week, concentrating GMV risk on a few live-heavy creators such as fortune0420.",
+      "action": "Re-engage dormant top creators and clear the sample backlog so approved creators ship and post again."
+    },
+    {
+      "metric": "Video views",
+      "current": 602017,
+      "prior": 1098089,
+      "pct": -45.2,
+      "direction": "down",
+      "effect": "Views are the earliest revenue signal and a repeat drop of this size halves the audience that converts to GMV.",
+      "action": "Brief creators to lead with proven hooks and show the product within the first 3 seconds, especially Spanish-language creators."
+    },
+    {
+      "metric": "Sample requests",
+      "current": 99,
+      "prior": 169,
+      "pct": -41.4,
+      "direction": "down",
+      "effect": "Fewer requests now mean fewer shipped samples and fewer videos in the 3 to 4 week window, pulling GMV down with them.",
+      "action": "Fix the reply leak (0.23% reply rate) and activate the Sample Follow-Up Sequence to convert replies into requests."
+    },
+    {
+      "metric": "Shop Wide GMV Max ROAS vs breakeven",
+      "current": 0.735,
+      "prior": 1.0,
+      "pct": -26.5,
+      "direction": "down",
+      "effect": "The campaign spends below break-even (week 0.735, month 0.717) against a 2.0 target, burning ad budget.",
+      "action": "Pause or reallocate Shop Wide budget to Screen Door (1.207) and the Back to School promo (1.964)."
+    },
+    {
+      "metric": "Sample rejection rate",
+      "current": 65.0,
+      "prior": 50.0,
+      "pct": 30.0,
+      "direction": "up",
+      "effect": "195 of 300 applications were rejected (65%), which starves the funnel of future video supply.",
+      "action": "Review rejection criteria with Jermin and Melodie and weight post rate and GPM higher in approvals."
+    }
+  ]
+}

@@ -307,7 +307,7 @@ function deltaChip(delta){
 
 function load(){
   Promise.all([
-    fetch("data/latest.json",{cache:"no-store"}).then(x=>{if(!x.ok)throw new Error("report data unavailable ("+x.status+")");return x.json();}),
+    fetch("data/latest.json",{cache:"no-store"}).then(async x=>{ if(!x.ok) throw new Error("report data unavailable ("+x.status+")"); return {json: await x.json(), lm: x.headers.get("last-modified")}; }),
     fetch("data/products.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/products_current.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/creative_brief.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
@@ -319,13 +319,18 @@ function load(){
     fetch("data/attention.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/trend_signals.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
   ]).then(([r,p,pc,b,fin,pd,gm,li,sa,at,tr])=>{
-    if(r.schema_version!=="1.0"||!r.periods||!r.periods.week||!r.periods.month) throw new Error("unsupported or incomplete report data");
-    REPORT=r; PRODUCTS=p; PROD_CURRENT=pc; BRIEF=b; FIN=fin; PROD_DAILY=pd;
+    if(r.json.schema_version!=="1.0"||!r.json.periods||!r.json.periods.week||!r.json.periods.month) throw new Error("unsupported or incomplete report data");
+    REPORT=r.json; PRODUCTS=p; PROD_CURRENT=pc; BRIEF=b; FIN=fin; PROD_DAILY=pd;
     GMVMAX=gm; LIVES=li; SAMPLES=sa; ATTENTION=at; TREND=tr;
-    $("footShop").textContent = r.shop? r.shop.name : "Upper Echelon Products";
-    $("footSrc").textContent = "Source: " + (r.source||"Cruva");
-    const fr = r.freshness||{};
-    $("freshChip").textContent = "data through " + (fr.data_through||"?") + " · pulled " + (fr.pulled_on||"?");
+    $("footShop").textContent = REPORT.shop? REPORT.shop.name : "Upper Echelon Products";
+    $("footSrc").textContent = "Source: " + (REPORT.source||"Cruva");
+    const fr = REPORT.freshness||{};
+    let syncText = "data through " + (fr.data_through||"?");
+    if(r.lm){
+      const d = new Date(r.lm);
+      if(!isNaN(d)) syncText = "synced "+d.toISOString().slice(5,16).replace("T"," ")+" UTC · data through "+(fr.data_through||"?");
+    }
+    $("freshChip").textContent = syncText;
     $("freshDot").className = "dot";
     applyDeepLink();
     renderAll();
