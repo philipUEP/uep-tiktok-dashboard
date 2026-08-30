@@ -260,10 +260,7 @@
       </div>
       <span class="chip"><span class="dot" id="freshDot"></span><span id="freshChip">data status</span></span>
       <button class="iconbtn" id="themeBtn" title="Toggle theme">◐</button>
-      <div class="seg" id="periodSeg">
-        <button data-period="week" class="active">Last 7 days</button>
-        <button data-period="month">Last 30 days</button>
-      </div>
+      <div class="seg" id="periodSeg"></div>
     </header>
 
     <div id="errorBox" class="error" hidden></div>
@@ -294,6 +291,7 @@ const num = (v)=> (v==null?"n/a":Number(v).toLocaleString("en-US"));
 const esc = (s)=> String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pct = (v)=> (v==null?"n/a":(v>0?"+":"")+Number(v).toFixed(1)+"%");
 const parseDelta = (s)=>{ const m = /([+-]?\d+(?:\.\d+)?)%/.exec(s||""); return m? parseFloat(m[1]) : null; };
+const rangeLabel = (k)=>{ const r=(REPORT&&REPORT.ranges||[]).find(x=>x.key===k); return r? r.label : k; };
 
 const TITLES = {overview:"Shop operations overview",financials:"Financials",outreach:"Outreach funnel",
   creators:"Creator network",videos:"Video performance",creative:"Creative direction",products:"Product-level content",
@@ -319,9 +317,13 @@ function load(){
     fetch("data/attention.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/trend_signals.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
   ]).then(([r,p,pc,b,fin,pd,gm,li,sa,at,tr])=>{
-    if(r.json.schema_version!=="1.0"||!r.json.periods||!r.json.periods.week||!r.json.periods.month) throw new Error("unsupported or incomplete report data");
+    if(!r.json.periods||!r.json.periods.week||!r.json.periods.month) throw new Error("unsupported or incomplete report data");
     REPORT=r.json; PRODUCTS=p; PROD_CURRENT=pc; BRIEF=b; FIN=fin; PROD_DAILY=pd;
     GMVMAX=gm; LIVES=li; SAMPLES=sa; ATTENTION=at; TREND=tr;
+    buildPeriodSeg((REPORT.ranges&&REPORT.ranges.length)? REPORT.ranges : [
+      {key:"week",label:"Last 7 days",days:7},{key:"14d",label:"Last 14 days",days:14},
+      {key:"month",label:"Last 30 days",days:30},{key:"60d",label:"Last 60 days",days:60},
+      {key:"90d",label:"Last 90 days",days:90}]);
     $("footShop").textContent = REPORT.shop? REPORT.shop.name : "Upper Echelon Products";
     $("footSrc").textContent = "Source: " + (REPORT.source||"Cruva");
     const fr = REPORT.freshness||{};
@@ -337,6 +339,25 @@ function load(){
   }).catch(err=>{
     $("errorBox").hidden = false;
     $("errorBox").textContent = "Could not load report data: " + err.message;
+  });
+}
+
+function buildPeriodSeg(ranges){
+  const seg = $("periodSeg");
+  seg.innerHTML = "";
+  ranges.forEach(r=>{
+    if(!REPORT.periods[r.key]) return;
+    const b = document.createElement("button");
+    b.dataset.period = r.key;
+    b.textContent = r.label;
+    if(r.key===PERIOD) b.classList.add("active");
+    b.onclick = ()=>{
+      PERIOD = b.dataset.period;
+      document.querySelectorAll("#periodSeg button").forEach(x=>x.classList.toggle("active",x===b));
+      try{ history.replaceState(null,"","?tab="+TAB+"&period="+PERIOD); }catch(e){}
+      renderAll();
+    };
+    seg.appendChild(b);
   });
 }
 
@@ -356,9 +377,9 @@ function spark(key){
   return '<svg class="spark" viewBox="0 0 70 30" preserveAspectRatio="none"><polyline points="'+pts+'" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>';
 }
 function renderOverview(){
-  const w = REPORT.periods.week, m = REPORT.periods.month;
-  const s = w.score, lsc = REPORT.latest_source_check||{};
-  const t = w.outreach.totals, m0 = s.m||{};
+  const p = REPORT.periods[PERIOD]||REPORT.periods.week, m = REPORT.periods.month;
+  const s = p.score, lsc = REPORT.latest_source_check||{};
+  const t = p.outreach.totals, m0 = s.m||{};
   const syncNote = s.sync ? '<span class="syncing">◔ attribution syncing</span>' : "";
 
   let html = '<div class="statusline">Upper Echelon Products · <b>Complete data through '+REPORT.freshness.data_through+
@@ -405,9 +426,9 @@ function renderOverview(){
 
   // two-column: trend + funnel
   html += '<div class="cols2">'+
-    '<div class="panel"><div class="pt">GMV &amp; order trend</div><div class="ps">Period totals from the source snapshot; the 7-day window sits inside the 30-day window.'+
-      runRate(m)+'</div>'+
-      trendBars(w,m)+'</div>'+
+    '<div class="panel"><div class="pt">GMV &amp; order trend</div><div class="ps">Period totals per selected range; every range ends at the same data date.'+
+      runRate(p)+'</div>'+
+      trendBars(p,m)+'</div>'+
     '<div class="panel"><div class="pt">Sample fulfillment pipeline</div><div class="ps">Creator seeding and delivery flow</div>'+
       funnel(t)+'</div>'+
     '</div>';
@@ -430,15 +451,16 @@ function trendPct(key){
   return c? c.pct : null;
 }
 function adsDelta(){
-  if(!GMVMAX||!GMVMAX.week||!GMVMAX.week.totals) return null;
-  const r = GMVMAX.week.totals.revenue, s = GMVMAX.week.totals.spend;
+  if(!GMVMAX||!GMVMAX.periods) return null;
+  const p = GMVMAX.periods[PERIOD]||GMVMAX.periods.week, r0 = p.totals||{};
+  const r = r0.revenue, s = r0.spend;
   return (s>0 && r>0)? ((r-s)/s*100) : null;
 }
-function runRate(m){
-  const gmv30 = m.score.gmv||0;
-  const daysInMonth = 30;
-  const pace = gmv30/daysInMonth*30.4;
-  return '<span class="runrate">30-day GMV '+money(gmv30)+' · on pace for <b>'+money(pace)+'</b> per 30-day cycle</span>';
+function runRate(p){
+  const gmv = p.score.gmv||0;
+  const days = p.score.days||30;
+  const pace = gmv/days*30.4;
+  return '<span class="runrate">'+days+'-day GMV '+money(gmv)+' · on pace for <b>'+money(pace)+'</b> per 30-day cycle</span>';
 }
 function fallbackAttention(){
   if(!TREND||!TREND.changes) return [];
@@ -469,12 +491,12 @@ function funnel(t){
   }).join("")+'</div>'+
   '<div class="muted small" style="margin-top:10px">Stage totals rendered exactly as supplied; they reflect independent operational states.</div>';
 }
-function trendBars(w,m){
-  const wg=w.score.gmv, mg=m.score.gmv, wo=w.score.m["Orders"]||0, mo=m.score.m["Orders"]||0;
+function trendBars(cur,mth){
+  const wg=cur.score.gmv, mg=mth.score.gmv, wo=cur.score.m["Orders"]||0, mo=mth.score.m["Orders"]||0;
   const max = Math.max(wg,mg);
   const h=(v)=>Math.max(3,Math.round(v/max*120));
   return '<div class="bars">'+
-    '<div class="bg"><div class="bt">Last 7 days</div><div class="brow">'+
+    '<div class="bg"><div class="bt">'+esc(rangeLabel(PERIOD))+'</div><div class="brow">'+
       '<div class="bar gmv" style="height:'+h(wg)+'px"><span class="bv">'+money(wg)+'</span><span class="bl">GMV</span></div>'+
       '<div class="bar ord" style="height:'+h(wo)+'px"><span class="bv">'+num(wo)+'</span><span class="bl">Orders</span></div>'+
     '</div></div>'+
@@ -588,11 +610,12 @@ function renderVideos(){
 
 /* ============================= CREATIVE ============================= */
 function renderCreative(){
-  if(!BRIEF||!BRIEF.videos||!BRIEF.videos.length){
+  const bp = (BRIEF&&BRIEF.periods)? (BRIEF.periods[PERIOD]||BRIEF.periods.week) : null;
+  if(!bp||!bp.videos||!bp.videos.length){
     $("view-creative").innerHTML='<div class="notice"><span class="title">Creative direction</span><br>No top-video analysis found. The brief renders once creative_brief.json exists.</div>'; return;
   }
-  const vids = BRIEF.videos, totalViews = vids.reduce((a,v)=>a+(v.view_count||0),0), totalGmv = vids.reduce((a,v)=>a+(v.gmv||0),0);
-  const briefRange = (BRIEF._provenance&&BRIEF._provenance.range)||"";
+  const vids = bp.videos, totalViews = vids.reduce((a,v)=>a+(v.view_count||0),0), totalGmv = vids.reduce((a,v)=>a+(v.gmv||0),0);
+  const briefRange = bp.range||"";
   const html = '<div class="head"><h2>Creative direction</h2><span class="range">'+briefRange+' · top videos with hook analysis</span></div>'+
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("Videos analyzed", num(vids.length))+
@@ -626,14 +649,15 @@ function visBits(v){
 
 /* ============================= PRODUCTS ============================= */
 function renderProducts(){
+  const pc = (PROD_CURRENT&&PROD_CURRENT.periods)? (PROD_CURRENT.periods[PERIOD]||PROD_CURRENT.periods.week) : null;
   let html = '<div class="head"><h2>Product-level content</h2><span class="range">'+
-    (PROD_CURRENT?"Per-product GMV, "+REPORT.periods[PERIOD].range:"Per-product series, pulled Jul 9 2026 (historical reference)")+'</span></div>';
-  if(PROD_CURRENT&&PROD_CURRENT.products&&PROD_CURRENT.products.length){
-    const rows = PROD_CURRENT.products.slice(0,15);
+    (pc?("Per-product GMV, "+REPORT.periods[PERIOD].range):"Per-product series, pulled Jul 9 2026 (historical reference)")+'</span></div>';
+  if(pc&&pc.products&&pc.products.length){
+    const rows = pc.products.slice(0,15);
     html += '<div class="tablewrap"><table><thead><tr><th>Product</th><th>Price</th><th>Total GMV</th><th>Affiliate GMV</th><th>Video GMV</th><th>LIVE GMV</th><th>Shop tab GMV</th><th>Units</th></tr></thead><tbody>'+
       rows.map(p=>'<tr data-product="'+esc(p.product_name||"")+'" style="cursor:pointer"><td style="text-align:left;max-width:340px;white-space:normal">'+esc(p.product_name||"?")+'</td><td>'+money(p.price||0)+'</td><td class="money">'+money(p.total_gmv||0)+'</td><td class="money">'+money(p.affiliate_gmv||0)+'</td><td class="money">'+money(p.video_gmv||0)+'</td><td class="money">'+money(p.live_gmv||0)+'</td><td class="money">'+money(p.shop_tab_gmv||0)+'</td><td>'+num(p.units_sold||0)+'</td></tr>').join("")+
       '</tbody></table></div>'+
-      (PROD_CURRENT.products.length>15?'<div class="muted small" style="margin-top:8px">Showing top 15 of '+PROD_CURRENT.products.length+' products.</div>':"");
+      (pc.products.length>15?'<div class="muted small" style="margin-top:8px">Showing top 15 of '+pc.products.length+' products.</div>':"");
   } else {
     html += '<div class="notice"><span class="title">Product view unavailable</span><br>No current product series was found.</div>';
   }
@@ -690,10 +714,10 @@ function fmtAxis(v){ return v>=1000? (v/1000).toFixed(1)+"k" : Math.round(v); }
 
 /* ============================= GMV MAX (ADS) ============================= */
 function renderAds(){
-  if(!GMVMAX||!GMVMAX.week){
+  if(!GMVMAX||!GMVMAX.periods){
     $("view-ads").innerHTML='<div class="notice"><span class="title">GMV Max unavailable</span><br>No campaign data was found.</div>'; return;
   }
-  const p = GMVMAX[PERIOD]||GMVMAX.week, t = p.totals;
+  const p = GMVMAX.periods[PERIOD]||GMVMAX.periods.week, t = p.totals;
   const roiCls = t.roi==null? "flat" : (t.roi>=1.5?"good":(t.roi>=1?"mid":"bad"));
   const rows = p.campaigns.map(c=>{
     const rCls = c.roi==null? "" : (c.roi>=c.roas_target||c.roi>=1.5?"":(c.roi>=1?"":"bad"));
@@ -721,11 +745,12 @@ function renderAds(){
 
 /* ============================= SAMPLING ============================= */
 function renderSampling(){
-  if(!SAMPLES){
+  const sp = (SAMPLES&&SAMPLES.periods)? (SAMPLES.periods[PERIOD]||SAMPLES.periods.week) : null;
+  if(!sp){
     $("view-sampling").innerHTML='<div class="notice"><span class="title">Sample pipeline unavailable</span><br>No sample data was found.</div>'; return;
   }
-  const c = SAMPLES.counts||{};
-  const pend = SAMPLES.pending||[];
+  const c = sp.counts||{};
+  const pend = sp.pending||[];
   const total = c["Total"]||0;
   const rejected = c["Rejected"]||0;
   const rejRate = total? Math.round(rejected/total*100):0;
@@ -738,7 +763,7 @@ function renderSampling(){
     '<td>'+esc(r.post_rate||"-")+'</td><td class="money">'+money(r.price)+'</td>'+
     '<td>'+esc((r.timestamp||"").slice(0,10))+'</td></tr>').join("");
   $("view-sampling").innerHTML =
-    '<div class="head"><h2>Sample pipeline</h2><span class="range">'+SAMPLES._provenance.range.from+' to '+SAMPLES._provenance.range.to+' · trailing 30 days</span></div>'+
+    '<div class="head"><h2>Sample pipeline</h2><span class="range">'+sp.range+'</span></div>'+
     '<div class="attention'+(rejRate>50?"":"")+'"><div class="at-head"><span class="at-title">Pipeline health</span></div>'+
     '<div class="at-item"><span class="at-metric">Rejection rate</span><span class="at-pct '+(rejRate>50?"bad":"good")+'">'+rejRate+'%</span>'+
     '<span class="at-effect">'+rejected+' of '+total+' requests rejected in the window.</span>'+
@@ -759,18 +784,19 @@ function renderSampling(){
 
 /* ============================= LIVE ============================= */
 function renderLIVE(){
-  if(!LIVES||!LIVES.lives){
+  const lp = (LIVES&&LIVES.periods)? (LIVES.periods[PERIOD]||LIVES.periods.week) : null;
+  if(!lp||!lp.lives){
     $("view-live").innerHTML='<div class="notice"><span class="title">Live streams unavailable</span><br>No live data was found.</div>'; return;
   }
-  const t = LIVES.totals||{};
-  const rows = LIVES.lives.map(l=>
+  const t = lp.totals||{};
+  const rows = lp.lives.map(l=>
     '<tr><td style="text-align:left"><span class="cname">'+esc(l.handle)+'</span></td>'+
     '<td style="text-align:left;max-width:280px;white-space:normal">'+esc(l.title||"")+'</td>'+
     '<td class="money">'+money(l.gmv)+'</td><td>'+num(l.units)+'</td><td>'+num(l.views)+'</td>'+
     '<td>'+num(l.likes)+'</td><td>'+num(l.comments)+'</td><td>'+l.duration_min+'m</td>'+
     '<td>'+esc(l.start||"")+'</td></tr>').join("");
   $("view-live").innerHTML =
-    '<div class="head"><h2>Live streams</h2><span class="range">'+LIVES._provenance.range.from+' to '+LIVES._provenance.range.to+' · '+LIVES.total+' streams in the week</span></div>'+
+    '<div class="head"><h2>Live streams</h2><span class="range">'+lp.range+' · '+lp.total+' streams in the window</span></div>'+
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("LIVE GMV", money(t.gmv))+kpi("Streams", num(t.streams))+
       kpi("Units", num(t.units))+kpi("Views", num(t.views))+'</div>'+
@@ -791,7 +817,8 @@ function creatorModal(handle){
   if(!row) return;
   const name = row[0], h = row[1];
   const digest = null; // creator_digest.json is not fetched; WoW from trend-less rows is not available here
-  const lives = (LIVES&&LIVES.lives)? LIVES.lives.filter(l=>l.handle===h).slice(0,6):[];
+  const lpd = (LIVES&&LIVES.periods)? (LIVES.periods[PERIOD]||LIVES.periods.week) : null;
+  const lives = lpd? lpd.lives.filter(l=>l.handle===h).slice(0,6):[];
   const videos = (REPORT.periods[PERIOD].videos||[]).filter(v=>v[3]===h||v[2]===h).slice(0,6);
   const gmvPerView = row[4]? (row[2]/row[4]) : null;
   openModal(
@@ -812,16 +839,18 @@ function creatorModal(handle){
   );
 }
 function productModal(name){
-  const prod = (PROD_CURRENT&&PROD_CURRENT.products)? PROD_CURRENT.products.find(p=>p.product_name===name):null;
+  const pc = (PROD_CURRENT&&PROD_CURRENT.periods)? (PROD_CURRENT.periods[PERIOD]||PROD_CURRENT.periods.week) : null;
+  const prod = (pc&&pc.products)? pc.products.find(p=>p.product_name===name):null;
   if(!prod) return;
   const daily = (PROD_DAILY&&PROD_DAILY.products)? PROD_DAILY.products.find(p=>p.product_id===prod.product_id):null;
-  const briefs = (BRIEF&&BRIEF.videos)? BRIEF.videos.filter(v=>v.product_name===name||v.product_id===prod.product_id).slice(0,6):[];
+  const bp = (BRIEF&&BRIEF.periods)? (BRIEF.periods[PERIOD]||BRIEF.periods.week) : null;
+  const briefs = (bp&&bp.videos)? bp.videos.filter(v=>v.product_name===name||v.product_id===prod.product_id).slice(0,6):[];
   openModal(
     '<div class="md-head"><div class="md-title">'+esc(prod.product_name)+'</div><button class="btn md-x" onclick="closeModal()">✕</button></div>'+
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("Price", money(prod.price))+kpi("Total GMV", money(prod.total_gmv))+
       kpi("Units", num(prod.units_sold))+
-      kpi("Share of GMV", prod.total_gmv&&REPORT.periods.week.score.gmv? (prod.total_gmv/REPORT.periods.week.score.gmv*100).toFixed(1)+"%":"n/a")+'</div>'+
+      kpi("Share of GMV", prod.total_gmv&&REPORT.periods[PERIOD].score.gmv? (prod.total_gmv/REPORT.periods[PERIOD].score.gmv*100).toFixed(1)+"%":"n/a")+'</div>'+
     (daily?'<div class="head" style="margin-top:14px"><h2>Daily GMV</h2><span class="range">last completed week</span></div>'+
       '<div class="tablewrap"><table class="dt"><thead><tr><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead><tbody><tr>'+
       daily.daily.map(d=>'<td><span class="dval">'+(d.gmv>=1000?"$"+(d.gmv/1000).toFixed(1)+"k":"$"+Math.round(d.gmv))+'</span><span class="dunit">'+d.units+'u</span></td>').join("")+
@@ -848,7 +877,7 @@ function applyDeepLink(){
   try{
     const p = new URLSearchParams(location.search);
     const per = p.get("period");
-    if(per==="week"||per==="month"){
+    if(per && REPORT && REPORT.periods && REPORT.periods[per]){
       PERIOD = per;
       document.querySelectorAll("#periodSeg button").forEach(x=>x.classList.toggle("active",x.dataset.period===per));
     }
@@ -858,14 +887,6 @@ function applyDeepLink(){
 }
 document.querySelectorAll("#nav button").forEach(b=>{
   b.onclick = ()=> setTab(b.dataset.tab);
-});
-document.querySelectorAll("#periodSeg button").forEach(b=>{
-  b.onclick = ()=>{
-    PERIOD = b.dataset.period;
-    document.querySelectorAll("#periodSeg button").forEach(x=>x.classList.toggle("active",x===b));
-    try{ history.replaceState(null,"","?tab="+TAB+"&period="+PERIOD); }catch(e){}
-    renderOverview(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos(); renderAds();
-  };
 });
 document.addEventListener("click", (e)=>{
   const pb = e.target.closest("[data-prod]");
