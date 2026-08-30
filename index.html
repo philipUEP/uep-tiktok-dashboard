@@ -168,6 +168,61 @@
   .dunit{display:block;font-size:9.5px;color:var(--faint)}
   .error{background:var(--bad-soft);color:var(--bad);border:1px solid var(--bad);border-radius:10px;padding:14px 18px;font-size:13px;margin-bottom:14px}
   .footline{margin-top:26px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--faint);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  /* attention panel */
+  .attention{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--bad);border-radius:12px;box-shadow:var(--shadow);padding:14px 18px;margin-bottom:16px}
+  .at-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+  .at-title{font-size:12px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--text)}
+  .at-time{font-size:11px;color:var(--faint)}
+  .at-item{display:flex;align-items:baseline;gap:10px;padding:7px 0;border-top:1px solid var(--line2);flex-wrap:wrap}
+  .at-item:first-of-type{border-top:0}
+  .at-metric{font-weight:800;font-size:12.5px;min-width:150px;color:var(--text)}
+  .at-pct{font-weight:800;font-size:12px;border-radius:6px;padding:2px 8px;flex:none}
+  .at-pct.good{color:var(--good);background:var(--good-soft)}
+  .at-pct.bad{color:var(--bad);background:var(--bad-soft)}
+  .at-effect{font-size:12px;color:var(--muted);flex:1;min-width:220px}
+  .at-action{font-size:12px;color:var(--accent);font-weight:600;width:100%}
+  .at-pct.mid{color:var(--amber);background:var(--amber-soft)}
+
+  /* sparklines */
+  .sparkwrap{margin-top:9px}
+  .spark{width:100%;height:30px;display:block}
+
+  /* run-rate */
+  .runrate{display:inline-block;margin-left:10px;font-size:11.5px;color:var(--muted);background:var(--accent-soft);color:var(--accent);border-radius:99px;padding:3px 10px;font-weight:700}
+
+  /* modal */
+  .modal{position:fixed;inset:0;background:rgba(10,12,16,.5);backdrop-filter:blur(3px);display:flex;align-items:flex-start;justify-content:center;padding:5vh 20px;z-index:50;overflow-y:auto}
+  .modalbox{background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.3);padding:22px 24px;max-width:860px;width:100%}
+  .md-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  .md-title{font-size:15px;font-weight:800}
+  .md-x{margin-left:auto}
+  .avatar.lg{width:38px;height:38px;font-size:15px}
+
+  /* print */
+  @media print{
+    .side,.top .chip,.iconbtn,.seg{display:none!important}
+    .side{display:none!important}
+    .main{padding:0}
+    .app{display:block}
+    body{background:#fff}
+    .panel,.kpi,.lsc,.attention,.tablewrap{box-shadow:none;break-inside:avoid}
+    .view{display:block!important;margin-bottom:22px}
+    .modal{display:none!important}
+  }
+  /* mobile */
+  @media(max-width:900px){
+    .app{flex-direction:column}
+    .side{width:100%;height:auto;position:static;flex-direction:row;align-items:center;gap:10px;padding:10px 14px;border-right:0;border-bottom:1px solid var(--line)}
+    .brand{border-bottom:0;padding:0}
+    .nav{flex-direction:row;overflow-x:auto;margin:0;gap:4px}
+    .nav .grp{display:none}
+    .nav button{white-space:nowrap;padding:6px 10px}
+    .side .foot{display:none}
+    .main{padding:16px}
+    .kpis{grid-template-columns:repeat(2,1fr)}
+    .mini4{grid-template-columns:repeat(2,1fr)}
+  }
 </style>
 </head>
 <body>
@@ -188,6 +243,10 @@
       <button data-tab="creative"><span class="ico">✦</span>Creative</button>
       <div class="grp">Catalog</div>
       <button data-tab="products"><span class="ico">□</span>Products</button>
+      <div class="grp">Growth</div>
+      <button data-tab="ads"><span class="ico">▲</span>GMV Max</button>
+      <button data-tab="sampling"><span class="ico">◇</span>Sampling</button>
+      <button data-tab="live"><span class="ico">●</span>LIVE</button>
     </nav>
     <div class="foot"><b id="footShop">Upper Echelon Products</b><span id="footSrc">Source: Cruva REST</span><br><span id="footVer">schema 1.0</span></div>
   </aside>
@@ -215,13 +274,18 @@
     <section id="view-videos" class="view"></section>
     <section id="view-creative" class="view"></section>
     <section id="view-products" class="view"></section>
+    <section id="view-ads" class="view"></section>
+    <section id="view-sampling" class="view"></section>
+    <section id="view-live" class="view"></section>
   </main>
 </div>
+<div id="modal" class="modal" hidden><div class="modalbox" id="modalBox"></div></div>
 
 <script>
 "use strict";
 const $ = (id) => document.getElementById(id);
 let REPORT=null, PRODUCTS=null, PROD_CURRENT=null, PROD_DAILY=null, BRIEF=null, FIN=null,
+    GMVMAX=null, LIVES=null, SAMPLES=null, ATTENTION=null, TREND=null,
     PERIOD="week", TAB="overview", PRODSEG="all";
 
 const money = (v)=> (v==null?"n/a":"$"+Number(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}));
@@ -231,7 +295,8 @@ const pct = (v)=> (v==null?"n/a":(v>0?"+":"")+Number(v).toFixed(1)+"%");
 const parseDelta = (s)=>{ const m = /([+-]?\d+(?:\.\d+)?)%/.exec(s||""); return m? parseFloat(m[1]) : null; };
 
 const TITLES = {overview:"Shop operations overview",financials:"Financials",outreach:"Outreach funnel",
-  creators:"Creator network",videos:"Video performance",creative:"Creative direction",products:"Product-level content"};
+  creators:"Creator network",videos:"Video performance",creative:"Creative direction",products:"Product-level content",
+  ads:"GMV Max campaigns",sampling:"Sample pipeline",live:"Live streams"};
 
 function deltaChip(delta){
   if(delta==null) return '<span class="delta flat">n/a</span>';
@@ -246,15 +311,22 @@ function load(){
     fetch("data/products_current.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/creative_brief.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/financials.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
-    fetch("data/products_daily.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
-  ]).then(([r,p,pc,b,fin,pd])=>{
+    fetch("data/products_daily.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/gmv_max.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/lives.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/samples.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/attention.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/trend_signals.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
+  ]).then(([r,p,pc,b,fin,pd,gm,li,sa,at,tr])=>{
     if(r.schema_version!=="1.0"||!r.periods||!r.periods.week||!r.periods.month) throw new Error("unsupported or incomplete report data");
     REPORT=r; PRODUCTS=p; PROD_CURRENT=pc; BRIEF=b; FIN=fin; PROD_DAILY=pd;
+    GMVMAX=gm; LIVES=li; SAMPLES=sa; ATTENTION=at; TREND=tr;
     $("footShop").textContent = r.shop? r.shop.name : "Upper Echelon Products";
     $("footSrc").textContent = "Source: " + (r.source||"Cruva");
     const fr = r.freshness||{};
     $("freshChip").textContent = "data through " + (fr.data_through||"?") + " · pulled " + (fr.pulled_on||"?");
     $("freshDot").className = "dot";
+    applyDeepLink();
     renderAll();
   }).catch(err=>{
     $("errorBox").hidden = false;
@@ -266,10 +338,17 @@ function renderAll(){
   $("pageTitle").textContent = TITLES[TAB]||"Overview";
   $("pageSub").textContent = "Upper Echelon Products · " + (REPORT.freshness.data_through||"") + " · Daily control room";
   renderOverview(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos();
-  renderCreative(); renderProducts();
+  renderCreative(); renderProducts(); renderAds(); renderSampling(); renderLIVE();
 }
 
 /* ============================= OVERVIEW ============================= */
+function spark(key){
+  if(!TREND||!TREND.series||!TREND.series[key]) return "";
+  const s = TREND.series[key];
+  const max = Math.max(...s,1);
+  const pts = s.map((v,i)=>[i*22, 26-(v/max)*22]).map(p=>p.join(",")).join(" ");
+  return '<svg class="spark" viewBox="0 0 70 30" preserveAspectRatio="none"><polyline points="'+pts+'" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+}
 function renderOverview(){
   const w = REPORT.periods.week, m = REPORT.periods.month;
   const s = w.score, lsc = REPORT.latest_source_check||{};
@@ -278,6 +357,21 @@ function renderOverview(){
 
   let html = '<div class="statusline">Upper Echelon Products · <b>Complete data through '+REPORT.freshness.data_through+
     '</b> · Pulled '+REPORT.freshness.pulled_on+'</div>';
+
+  // attention panel
+  const attItems = (ATTENTION&&ATTENTION.items&&ATTENTION.items.length)? ATTENTION.items
+    : fallbackAttention();
+  if(attItems.length){
+    html += '<div class="attention">'+
+      '<div class="at-head"><span class="at-title">What needs your attention</span>'+
+      (ATTENTION&&ATTENTION.updated_at?'<span class="at-time">'+ATTENTION.updated_at.slice(0,16)+'</span>':"")+'</div>'+
+      attItems.slice(0,5).map(a=>
+        '<div class="at-item"><span class="at-metric">'+esc(a.metric)+'</span>'+
+        '<span class="at-pct '+(a.direction==="down"?"bad":"good")+'">'+pct(a.pct)+'</span>'+
+        '<span class="at-effect">'+esc(a.effect||"")+'</span>'+
+        (a.action?'<span class="at-action">→ '+esc(a.action)+'</span>':"")+'</div>').join("")+
+      '</div>';
+  }
 
   // latest source check strip
   if(lsc.date){
@@ -291,21 +385,22 @@ function renderOverview(){
       '</div>'+syncNote+'</div>';
   }
 
-  // KPI row
+  // KPI row with deltas + sparklines
   const aff = m0["Affiliate GMV"], comm = m0["Commission"];
   const deltaPct = parseDelta(s.gmvDelta);
   html += '<div class="kpis">'+
-    kpi("Seller Center GMV", money(s.gmv), deltaChip(deltaPct), (s.gmvDelta||"").replace(" vs prior period",""))+
-    kpi("Orders", num(m0["Orders"]||0), "", "")+
-    kpi("GMV Max revenue", money(s.adRevenue), "", "Spend "+money(s.adSpend)+" · ROAS "+Number(s.roas).toFixed(2)+"x")+
-    kpi("Affiliate GMV", money(aff), "", "Commission "+money(comm))+
-    kpi("Creator output", num(m0["Videos posted"]||0), "", num(m0["Creators posting"]||0)+" creators posting")+
-    kpi("Video views", num(m0["Video views"]||0), "", money(m0["LIVE GMV"]||0)+" LIVE GMV · "+num(m0["LIVE streams"]||0)+" streams")+
+    kpi("Seller Center GMV", money(s.gmv), deltaChip(deltaPct), (s.gmvDelta||"").replace(" vs prior period",""), spark("total_gmv"))+
+    kpi("Orders", num(m0["Orders"]||0), deltaChip(trendPct("platform_orders")), "", spark("platform_orders"))+
+    kpi("GMV Max revenue", money(s.adRevenue), '<span class="delta '+(s.roas>=1.5?"up":(s.roas>=1?"flat":"down"))+'">ROAS '+Number(s.roas).toFixed(2)+'x</span>', "Spend "+money(s.adSpend), "")+
+    kpi("Affiliate GMV", money(aff), deltaChip(trendPct("affiliate_gmv")), "Commission "+money(comm), spark("affiliate_gmv"))+
+    kpi("Creator output", num(m0["Videos posted"]||0), deltaChip(trendPct("videos_posted")), num(m0["Creators posting"]||0)+" creators posting", spark("videos_posted"))+
+    kpi("Video views", num(m0["Video views"]||0), deltaChip(trendPct("video_views")), money(m0["LIVE GMV"]||0)+" LIVE GMV · "+num(m0["LIVE streams"]||0)+" streams", spark("video_views"))+
     '</div>';
 
   // two-column: trend + funnel
   html += '<div class="cols2">'+
-    '<div class="panel"><div class="pt">GMV &amp; order trend</div><div class="ps">Period totals from the source snapshot; the 7-day window sits inside the 30-day window.</div>'+
+    '<div class="panel"><div class="pt">GMV &amp; order trend</div><div class="ps">Period totals from the source snapshot; the 7-day window sits inside the 30-day window.'+
+      runRate(m)+'</div>'+
       trendBars(w,m)+'</div>'+
     '<div class="panel"><div class="pt">Sample fulfillment pipeline</div><div class="ps">Creator seeding and delivery flow</div>'+
       funnel(t)+'</div>'+
@@ -318,16 +413,41 @@ function renderOverview(){
 
   // roster
   const rows = (REPORT.periods[PERIOD].creators||[]).slice(0,8).map(rosterRow).join("");
-  html += '<div class="head" style="margin-top:6px"><h2>Creator sales roster</h2><span class="range">'+REPORT.periods[PERIOD].range+' · ranked by GMV</span></div>'+
+  html += '<div class="head" style="margin-top:6px"><h2>Creator sales roster</h2><span class="range">'+REPORT.periods[PERIOD].range+' · ranked by GMV · click a creator for details</span></div>'+
     '<div class="tablewrap"><table><thead><tr><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Commission</th><th>Videos</th><th>LIVE sessions</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
 
   $("view-overview").innerHTML = html;
 }
+function trendPct(key){
+  if(!TREND||!TREND.changes) return null;
+  const c = TREND.changes.find(x=>x.metric===key);
+  return c? c.pct : null;
+}
+function adsDelta(){
+  if(!GMVMAX||!GMVMAX.week||!GMVMAX.week.totals) return null;
+  const r = GMVMAX.week.totals.revenue, s = GMVMAX.week.totals.spend;
+  return (s>0 && r>0)? ((r-s)/s*100) : null;
+}
+function runRate(m){
+  const gmv30 = m.score.gmv||0;
+  const daysInMonth = 30;
+  const pace = gmv30/daysInMonth*30.4;
+  return '<span class="runrate">30-day GMV '+money(gmv30)+' · on pace for <b>'+money(pace)+'</b> per 30-day cycle</span>';
+}
+function fallbackAttention(){
+  if(!TREND||!TREND.changes) return [];
+  return TREND.changes.filter(c=>c.direction==="down").slice(0,4).map(c=>({
+    metric: c.label, current: c.current, prior: c.prior, pct: c.pct, direction: "down",
+    effect: "Declining week over week. Watch the funnel lag: this reaches GMV in 2 to 4 weeks.",
+    action: "Review in the relevant tab; check whether the leading indicators upstream are also down."
+  }));
+}
 
-function kpi(lbl, val, delta, sub){
+function kpi(lbl, val, delta, sub, spk){
   return '<div class="kpi"><div class="lbl">'+lbl+'</div><div class="val">'+val+'</div>'+
     (delta?'<div>'+delta+'</div>':"")+
-    (sub?'<div class="sub">'+sub+'</div>':"")+'</div>';
+    (sub?'<div class="sub">'+sub+'</div>':"")+
+    (spk?'<div class="sparkwrap">'+spk+'</div>':"")+'</div>';
 }
 function mini(lbl, val){
   return '<div class="mini"><div><div class="lbl">'+lbl+'</div><div class="val">'+num(val==null?0:val)+'</div></div></div>';
@@ -360,7 +480,7 @@ function trendBars(w,m){
 }
 function rosterRow(r){
   const init = (r[0]||"?").trim().charAt(0).toUpperCase();
-  return '<tr><td><span class="avatar">'+esc(init)+'</span><span class="cname">'+esc(r[0])+'</span><br><span class="chandle">'+esc(r[1])+'</span></td>'+
+  return '<tr data-creator="'+esc(r[1])+'" style="cursor:pointer"><td><span class="avatar">'+esc(init)+'</span><span class="cname">'+esc(r[0])+'</span><br><span class="chandle">'+esc(r[1])+'</span></td>'+
     '<td class="money">'+money(r[2])+'</td><td>'+num(r[3])+'</td><td>'+num(r[4])+'</td>'+
     '<td class="money">'+money(r[5])+'</td><td>'+num(r[6])+'</td><td>'+num(r[7])+'</td></tr>';
 }
@@ -372,7 +492,7 @@ function renderFinancials(){
   const net = f.net_after_ads_commissions_refunds;
   const netCls = net<0?"down":"up";
   let html = '<div class="head"><h2>Financials</h2><span class="range">Operational P&amp;L, '+f.range+'</span></div>'+
-    '<div class="notice"><span class="title">Scope</span><br>Operational P&amp;L from Cruva data. COGS is not exposed by the API, so the net line below excludes COGS. The formal P&amp;L projection lives in the TikTok P&amp;L task (86ak1mbh4).</div>'+
+    '<div class="notice"><span class="title">Scope</span><br>'+esc((FIN._provenance&&FIN._provenance.note)||"Operational P&L from Cruva data. The formal P&amp;L projection lives in the TikTok P&amp;L task (86ak1mbh4).")+'</div>'+
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("Total GMV", money(f.revenue.total_gmv), "", "All channels")+
       kpi("Net of ads, commissions, refunds", money(net), '<span class="delta '+netCls+'">'+(net<0?"negative":"positive")+'</span>', "Excludes COGS")+
@@ -491,6 +611,9 @@ function visBits(v){
   const bits=[];
   if(v.product_visible_3s!=null) bits.push(v.product_visible_3s?"<span><b>Product visible in first 3s</b></span>":"<span><b>Product NOT visible in first 3s</b></span>");
   if(v.product_screen_time_seconds!=null) bits.push("<span>Screen time <b>"+v.product_screen_time_seconds+"s</b></span>");
+  if(v.lighting_quality!=null) bits.push("<span>Lighting <b>"+esc(v.lighting_quality)+"</b></span>");
+  if(v.face_visible!=null) bits.push(v.face_visible?"<span><b>Face visible</b></span>":"<span>No face</span>");
+  if(v.tone) bits.push("<span>Tone <b>"+esc(v.tone)+"</b></span>");
   if(v.on_screen_text) bits.push("<span>On-screen text <b>"+esc(v.on_screen_text.slice(0,60))+"</b></span>");
   return bits.join("");
 }
@@ -502,7 +625,7 @@ function renderProducts(){
   if(PROD_CURRENT&&PROD_CURRENT.products&&PROD_CURRENT.products.length){
     const rows = PROD_CURRENT.products.slice(0,15);
     html += '<div class="tablewrap"><table><thead><tr><th>Product</th><th>Price</th><th>Total GMV</th><th>Affiliate GMV</th><th>Video GMV</th><th>LIVE GMV</th><th>Shop tab GMV</th><th>Units</th></tr></thead><tbody>'+
-      rows.map(p=>'<tr><td style="text-align:left;max-width:340px;white-space:normal">'+esc(p.product_name||"?")+'</td><td>'+money(p.price||0)+'</td><td class="money">'+money(p.total_gmv||0)+'</td><td class="money">'+money(p.affiliate_gmv||0)+'</td><td class="money">'+money(p.video_gmv||0)+'</td><td class="money">'+money(p.live_gmv||0)+'</td><td class="money">'+money(p.shop_tab_gmv||0)+'</td><td>'+num(p.units_sold||0)+'</td></tr>').join("")+
+      rows.map(p=>'<tr data-product="'+esc(p.product_name||"")+'" style="cursor:pointer"><td style="text-align:left;max-width:340px;white-space:normal">'+esc(p.product_name||"?")+'</td><td>'+money(p.price||0)+'</td><td class="money">'+money(p.total_gmv||0)+'</td><td class="money">'+money(p.affiliate_gmv||0)+'</td><td class="money">'+money(p.video_gmv||0)+'</td><td class="money">'+money(p.live_gmv||0)+'</td><td class="money">'+money(p.shop_tab_gmv||0)+'</td><td>'+num(p.units_sold||0)+'</td></tr>').join("")+
       '</tbody></table></div>'+
       (PROD_CURRENT.products.length>15?'<div class="muted small" style="margin-top:8px">Showing top 15 of '+PROD_CURRENT.products.length+' products.</div>':"");
   } else {
@@ -559,26 +682,192 @@ function svgSeries(title, sub, days, series){
 }
 function fmtAxis(v){ return v>=1000? (v/1000).toFixed(1)+"k" : Math.round(v); }
 
+/* ============================= GMV MAX (ADS) ============================= */
+function renderAds(){
+  if(!GMVMAX||!GMVMAX.week){
+    $("view-ads").innerHTML='<div class="notice"><span class="title">GMV Max unavailable</span><br>No campaign data was found.</div>'; return;
+  }
+  const p = GMVMAX[PERIOD]||GMVMAX.week, t = p.totals;
+  const roiCls = t.roi==null? "flat" : (t.roi>=1.5?"good":(t.roi>=1?"mid":"bad"));
+  const rows = p.campaigns.map(c=>{
+    const rCls = c.roi==null? "" : (c.roi>=c.roas_target||c.roi>=1.5?"":(c.roi>=1?"":"bad"));
+    return '<tr><td style="text-align:left"><span class="cname">'+esc(c.name)+'</span><br><span class="chandle">'+esc(c.start||"")+'</span></td>'+
+      '<td class="money">'+money(c.revenue)+'</td><td class="money">'+money(c.spend)+'</td>'+
+      '<td class="'+rCls+'">'+(c.roi==null?"n/a":Number(c.roi).toFixed(2)+"x")+'</td>'+
+      '<td>'+num(c.orders)+'</td><td>'+money(c.cost_per_order)+'</td>'+
+      '<td>'+(c.roas_target? Number(c.roas_target).toFixed(2)+"x":"-")+'</td></tr>';
+  }).join("");
+  const losing = p.campaigns.filter(c=>c.roi!=null && c.roi<1.0);
+  $("view-ads").innerHTML =
+    '<div class="head"><h2>GMV Max campaigns</h2><span class="range">'+p.range+'</span></div>'+
+    (losing.length?'<div class="attention"><div class="at-head"><span class="at-title">Campaigns losing money</span></div>'+
+      losing.slice(0,3).map(c=>'<div class="at-item"><span class="at-metric">'+esc(c.name)+'</span><span class="at-pct bad">'+Number(c.roi).toFixed(2)+'x ROAS</span>'+
+        '<span class="at-effect">Spend '+money(c.spend)+' returning '+money(c.revenue)+'. Below break-even.</span>'+
+        '<span class="at-action">→ Consider pausing or cutting budget to '+money((c.spend*0.5))+'</span></div>').join("")+'</div>':"")+
+    '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
+      kpi("GMV Max revenue", money(t.revenue))+
+      kpi("Ad spend", money(t.spend))+
+      kpi("Blended ROAS", t.roi==null?"n/a":Number(t.roi).toFixed(2)+"x", '<span class="delta '+roiCls+'">'+roiCls+'</span>')+
+      kpi("Orders", num(t.orders))+'</div>'+
+    '<div class="head" style="margin-top:14px"><h2>Campaigns</h2><span class="range">ranked by revenue</span></div>'+
+    '<div class="tablewrap"><table><thead><tr><th>Campaign</th><th>Revenue</th><th>Spend</th><th>ROAS</th><th>Orders</th><th>Cost / order</th><th>ROAS target</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+}
+
+/* ============================= SAMPLING ============================= */
+function renderSampling(){
+  if(!SAMPLES){
+    $("view-sampling").innerHTML='<div class="notice"><span class="title">Sample pipeline unavailable</span><br>No sample data was found.</div>'; return;
+  }
+  const c = SAMPLES.counts||{};
+  const pend = SAMPLES.pending||[];
+  const total = c["Total"]||0;
+  const rejected = c["Rejected"]||0;
+  const rejRate = total? Math.round(rejected/total*100):0;
+  const steps = ["To Review","Ready to Ship","Shipped","Content Pending","Posted"];
+  const maxStep = Math.max(...steps.map(s=>c[s]||0),1);
+  const pendRows = pend.slice(0,12).map(r=>
+    '<tr><td style="text-align:left"><span class="cname">'+esc(r.handle)+'</span></td>'+
+    '<td style="text-align:left;max-width:260px;white-space:normal">'+esc(r.product_name||"")+'</td>'+
+    '<td>'+num(r.follower_cnt)+'</td><td>'+num(r.commission_rate)+'%</td>'+
+    '<td>'+esc(r.post_rate||"-")+'</td><td class="money">'+money(r.price)+'</td>'+
+    '<td>'+esc((r.timestamp||"").slice(0,10))+'</td></tr>').join("");
+  $("view-sampling").innerHTML =
+    '<div class="head"><h2>Sample pipeline</h2><span class="range">'+SAMPLES._provenance.range.from+' to '+SAMPLES._provenance.range.to+' · trailing 30 days</span></div>'+
+    '<div class="attention'+(rejRate>50?"":"")+'"><div class="at-head"><span class="at-title">Pipeline health</span></div>'+
+    '<div class="at-item"><span class="at-metric">Rejection rate</span><span class="at-pct '+(rejRate>50?"bad":"good")+'">'+rejRate+'%</span>'+
+    '<span class="at-effect">'+rejected+' of '+total+' requests rejected in the window.</span>'+
+    (rejRate>50?'<span class="at-action">→ Review targeting; 65% rejection suggests the outreach lists miss the brief.</span>':"")+'</div>'+
+    '<div class="at-item"><span class="at-metric">Pending approvals</span><span class="at-pct '+(pend.length>0?"bad":"good")+'">'+pend.length+'</span>'+
+    '<span class="at-effect">Requests waiting on a decision.</span>'+
+    (pend.length?'<span class="at-action">→ Inbound requests are approved by default per the operating rule.</span>':"")+'</div></div>'+
+    '<div class="kpis" style="grid-template-columns:repeat(6,1fr)">'+
+      kpi("Requests", num(total))+kpi("To review", num(c["To Review"]||0))+
+      kpi("Ready to ship", num(c["Ready to Ship"]||0))+kpi("Shipped", num(c["Shipped"]||0))+
+      kpi("Posted", num(c["Posted"]||0))+kpi("Rejected", num(rejected))+'</div>'+
+    '<div class="panel" style="margin-top:12px"><div class="pt">Pipeline flow</div><div class="ps">Current statuses in the trailing 30 days</div>'+
+    '<div class="funnel">'+steps.map(s=>'<div class="fstep"><span class="fn">'+s+'</span><div class="fb"><div class="ff" style="width:'+Math.max(3,Math.round((c[s]||0)/maxStep*100))+'%"></div></div><span class="fv">'+num(c[s]||0)+'</span></div>').join("")+'</div></div>'+
+    '<div class="head" style="margin-top:16px"><h2>Pending approvals</h2><span class="range">'+pend.length+' request(s) waiting</span></div>'+
+    '<div class="tablewrap"><table><thead><tr><th>Creator</th><th>Product</th><th>Followers</th><th>Commission</th><th>Post rate</th><th>Price</th><th>Requested</th></tr></thead><tbody>'+
+    (pendRows||'<tr><td colspan="7" class="muted">Nothing pending.</td></tr>')+'</tbody></table></div>';
+}
+
+/* ============================= LIVE ============================= */
+function renderLIVE(){
+  if(!LIVES||!LIVES.lives){
+    $("view-live").innerHTML='<div class="notice"><span class="title">Live streams unavailable</span><br>No live data was found.</div>'; return;
+  }
+  const t = LIVES.totals||{};
+  const rows = LIVES.lives.map(l=>
+    '<tr><td style="text-align:left"><span class="cname">'+esc(l.handle)+'</span></td>'+
+    '<td style="text-align:left;max-width:280px;white-space:normal">'+esc(l.title||"")+'</td>'+
+    '<td class="money">'+money(l.gmv)+'</td><td>'+num(l.units)+'</td><td>'+num(l.views)+'</td>'+
+    '<td>'+num(l.likes)+'</td><td>'+num(l.comments)+'</td><td>'+l.duration_min+'m</td>'+
+    '<td>'+esc(l.start||"")+'</td></tr>').join("");
+  $("view-live").innerHTML =
+    '<div class="head"><h2>Live streams</h2><span class="range">'+LIVES._provenance.range.from+' to '+LIVES._provenance.range.to+' · '+LIVES.total+' streams in the week</span></div>'+
+    '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
+      kpi("LIVE GMV", money(t.gmv))+kpi("Streams", num(t.streams))+
+      kpi("Units", num(t.units))+kpi("Views", num(t.views))+'</div>'+
+    '<div class="head" style="margin-top:14px"><h2>Top streams</h2><span class="range">ranked by GMV</span></div>'+
+    '<div class="tablewrap"><table><thead><tr><th>Creator</th><th>Title</th><th>GMV</th><th>Units</th><th>Views</th><th>Likes</th><th>Comments</th><th>Duration</th><th>Start</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+}
+
+/* ============================= DRILL-DOWNS ============================= */
+function openModal(html){
+  $("modalBox").innerHTML = html;
+  $("modal").hidden = false;
+}
+function closeModal(){ $("modal").hidden = true; }
+$("modal").addEventListener("click", (e)=>{ if(e.target.id==="modal") closeModal(); });
+function creatorModal(handle){
+  const row = (REPORT.periods[PERIOD].creators||[]).find(r=>r[1]===handle) ||
+              (REPORT.periods[PERIOD].creators||[]).find(r=>r[0]===handle);
+  if(!row) return;
+  const name = row[0], h = row[1];
+  const digest = null; // creator_digest.json is not fetched; WoW from trend-less rows is not available here
+  const lives = (LIVES&&LIVES.lives)? LIVES.lives.filter(l=>l.handle===h).slice(0,6):[];
+  const videos = (REPORT.periods[PERIOD].videos||[]).filter(v=>v[3]===h||v[2]===h).slice(0,6);
+  const gmvPerView = row[4]? (row[2]/row[4]) : null;
+  openModal(
+    '<div class="md-head"><div class="avatar lg">'+esc(name.trim().charAt(0).toUpperCase())+'</div>'+
+    '<div><div class="md-title">'+esc(name)+'</div><div class="chandle">'+esc(h)+'</div></div>'+
+    '<button class="btn md-x" onclick="closeModal()">✕</button></div>'+
+    '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
+      kpi("GMV", money(row[2]))+kpi("Units", num(row[3]))+kpi("Views", num(row[4]))+
+      kpi("GMV / view", gmvPerView? "$"+gmvPerView.toFixed(4):"n/a")+'</div>'+
+    (videos.length?'<div class="head" style="margin-top:14px"><h2>Videos</h2><span class="range">this period</span></div>'+
+      '<div class="tablewrap"><table><thead><tr><th>Video</th><th>GMV</th><th>Views</th><th>Likes</th></tr></thead><tbody>'+
+      videos.map(v=>'<tr><td style="text-align:left;max-width:280px;white-space:normal"><a href="'+esc(v[8])+'" target="_blank" rel="noopener">'+esc(v[1])+'</a></td><td class="money">'+money(v[4])+'</td><td>'+num(v[6])+'</td><td>'+num(v[7])+'</td></tr>').join("")+
+      '</tbody></table></div>':"")+
+    (lives.length?'<div class="head" style="margin-top:14px"><h2>Live streams</h2><span class="range">this week</span></div>'+
+      '<div class="tablewrap"><table><thead><tr><th>Title</th><th>GMV</th><th>Units</th><th>Views</th></tr></thead><tbody>'+
+      lives.map(l=>'<tr><td style="text-align:left;max-width:280px;white-space:normal">'+esc(l.title||"")+'</td><td class="money">'+money(l.gmv)+'</td><td>'+num(l.units)+'</td><td>'+num(l.views)+'</td></tr>').join("")+
+      '</tbody></table></div>':"")
+  );
+}
+function productModal(name){
+  const prod = (PROD_CURRENT&&PROD_CURRENT.products)? PROD_CURRENT.products.find(p=>p.product_name===name):null;
+  if(!prod) return;
+  const daily = (PROD_DAILY&&PROD_DAILY.products)? PROD_DAILY.products.find(p=>p.product_id===prod.product_id):null;
+  const briefs = (BRIEF&&BRIEF.videos)? BRIEF.videos.filter(v=>v.product_name===name||v.product_id===prod.product_id).slice(0,6):[];
+  openModal(
+    '<div class="md-head"><div class="md-title">'+esc(prod.product_name)+'</div><button class="btn md-x" onclick="closeModal()">✕</button></div>'+
+    '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
+      kpi("Price", money(prod.price))+kpi("Total GMV", money(prod.total_gmv))+
+      kpi("Units", num(prod.units_sold))+
+      kpi("Share of GMV", prod.total_gmv&&REPORT.periods.week.score.gmv? (prod.total_gmv/REPORT.periods.week.score.gmv*100).toFixed(1)+"%":"n/a")+'</div>'+
+    (daily?'<div class="head" style="margin-top:14px"><h2>Daily GMV</h2><span class="range">last completed week</span></div>'+
+      '<div class="tablewrap"><table class="dt"><thead><tr><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead><tbody><tr>'+
+      daily.daily.map(d=>'<td><span class="dval">'+(d.gmv>=1000?"$"+(d.gmv/1000).toFixed(1)+"k":"$"+Math.round(d.gmv))+'</span><span class="dunit">'+d.units+'u</span></td>').join("")+
+      '</tr></tbody></table></div>':"")+
+    (briefs.length?'<div class="head" style="margin-top:14px"><h2>Top videos</h2><span class="range">with hook analysis</span></div>'+
+      '<div class="cards" style="grid-template-columns:1fr">'+briefs.map(v=>{
+        const hk = v.hooks&&v.hooks[0];
+        return '<div class="card"><div class="ct">'+esc(v.title||"")+'</div><div class="cm">'+esc(v.handle)+' · '+money(v.gmv)+' GMV · '+num(v.view_count)+' views</div>'+
+          (hk?'<div class="hook"><span class="sc '+(hk.score>=8?"good":(hk.score>=6?"mid":"low"))+'">'+hk.score+'/10</span><span>'+esc(hk.hook||"")+'</span></div>':"")+'</div>';
+      }).join("")+'</div>':"")
+  );
+}
+
 /* ============================= EVENTS ============================= */
+function setTab(tab){
+  document.querySelectorAll("#nav button").forEach(x=>x.classList.toggle("active",x.dataset.tab===tab));
+  document.querySelectorAll(".view").forEach(v=>v.classList.toggle("active",v.id==="view-"+tab));
+  TAB = tab;
+  $("pageTitle").textContent = TITLES[tab]||"Overview";
+  try{ history.replaceState(null,"","?tab="+tab+"&period="+PERIOD); }catch(e){}
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+function applyDeepLink(){
+  try{
+    const p = new URLSearchParams(location.search);
+    const per = p.get("period");
+    if(per==="week"||per==="month"){
+      PERIOD = per;
+      document.querySelectorAll("#periodSeg button").forEach(x=>x.classList.toggle("active",x.dataset.period===per));
+    }
+    const t = p.get("tab");
+    if(t && TITLES[t]) setTab(t);
+  }catch(e){}
+}
 document.querySelectorAll("#nav button").forEach(b=>{
-  b.onclick = ()=>{
-    document.querySelectorAll("#nav button").forEach(x=>x.classList.toggle("active",x===b));
-    document.querySelectorAll(".view").forEach(v=>v.classList.toggle("active",v.id==="view-"+b.dataset.tab));
-    TAB = b.dataset.tab;
-    $("pageTitle").textContent = TITLES[TAB]||"Overview";
-    window.scrollTo({top:0,behavior:"smooth"});
-  };
+  b.onclick = ()=> setTab(b.dataset.tab);
 });
 document.querySelectorAll("#periodSeg button").forEach(b=>{
   b.onclick = ()=>{
     PERIOD = b.dataset.period;
     document.querySelectorAll("#periodSeg button").forEach(x=>x.classList.toggle("active",x===b));
-    renderOverview(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos();
+    try{ history.replaceState(null,"","?tab="+TAB+"&period="+PERIOD); }catch(e){}
+    renderOverview(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos(); renderAds();
   };
 });
 document.addEventListener("click", (e)=>{
   const pb = e.target.closest("[data-prod]");
-  if(pb){ PRODSEG = pb.dataset.prod; renderProducts(); }
+  if(pb){ PRODSEG = pb.dataset.prod; renderProducts(); return; }
+  const cr = e.target.closest("[data-creator]");
+  if(cr){ creatorModal(cr.dataset.creator); return; }
+  const pr = e.target.closest("[data-product]");
+  if(pr){ productModal(pr.dataset.product); }
 });
 $("themeBtn").onclick = ()=>{
   const root = document.documentElement;
