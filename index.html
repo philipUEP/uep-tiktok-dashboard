@@ -1,465 +1,590 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
 <title>UEP TikTok Shop Performance Dashboard</title>
 <style>
-:root{--bg:#0b0c16;--surface:#151727;--card:#191c2f;--line:#30344d;--text:#f8f8fc;--muted:#a9aec3;--purple:#a995ff;--green:#6fd99b;--red:#ff8b92;--amber:#ffc47a;--blue:#18add9;--hero1:#32234f;--hero2:#171828;--shadow:0 18px 50px rgba(0,0,0,.18)}
-[data-theme=light]{--bg:#f5f4fa;--surface:#fff;--card:#f0eef7;--line:#d8d5e4;--text:#171521;--muted:#68657a;--purple:#6f52d8;--green:#087b46;--red:#c33448;--amber:#9a5900;--blue:#0e7d99;--hero1:#e8e1ff;--hero2:#fff;--shadow:0 14px 40px rgba(40,31,69,.09)}
-*{box-sizing:border-box}
-body{margin:0;background:radial-gradient(circle at 85% 0,color-mix(in srgb,var(--purple) 20%,transparent),transparent 34rem),var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,-apple-system,sans-serif;transition:.2s}
-.wrap{width:min(1160px,calc(100% - 32px));margin:auto;padding:32px 0 60px}
-.eyebrow,.label{font-size:11px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
-.eyebrow{color:var(--purple)}.label{color:var(--muted)}
-header{display:flex;justify-content:space-between;gap:22px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:21px}
-h1{font-size:clamp(31px,5vw,52px);line-height:1;letter-spacing:-.045em;margin:8px 0 10px}
-.muted{color:var(--muted)}
-.header-right{display:flex;gap:8px;align-items:stretch}
-.chip,.card,.panel,.hero{background:var(--surface);border:1px solid var(--line);border-radius:15px;box-shadow:var(--shadow)}
-.chip{padding:12px 14px;min-width:155px}.chip strong{display:block;margin-top:4px}
-.theme{width:46px;border:1px solid var(--line);border-radius:15px;background:var(--surface);color:var(--text);font-size:19px;cursor:pointer}
-.controls{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:18px 0 25px}
-.seg{display:flex;gap:6px;padding:5px;border:1px solid var(--line);background:var(--surface);border-radius:13px}
-.seg button{border:0;background:transparent;color:var(--muted);padding:9px 15px;border-radius:9px;font-weight:800;cursor:pointer}
-.seg button.active{background:var(--text);color:var(--bg)}
-.view{display:none}.view.active{display:block}
-.head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:14px}
-.head h2{margin:0;font-size:24px}
-.range{color:var(--purple);font:750 12px ui-monospace,monospace}
-.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;padding:18px;margin-bottom:16px}
-.hero .big{font-size:30px;font-weight:850;letter-spacing:-.03em;margin-top:6px}
-.hero .sub{color:var(--muted);font-size:12px;margin-top:2px}
-.delta{font-weight:800}.delta.down{color:var(--red)}.delta.up{color:var(--green)}
-.syncing{color:var(--amber);font-weight:700;font-size:12px}
-.notice{border:1px solid var(--line);background:color-mix(in srgb,var(--amber) 10%,var(--surface));color:var(--text);border-radius:12px;padding:11px 14px;font-size:13px;margin-bottom:16px}
-.notice .title{font-weight:800;color:var(--amber);text-transform:uppercase;font-size:11px;letter-spacing:.1em}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
-.card{padding:14px 16px}.card .label{margin-bottom:6px}.card .value{font-size:22px;font-weight:800;letter-spacing:-.02em}
-.funnel{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
-.step{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;flex:1;min-width:120px}
-.step span{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:800}
-.step strong{font-size:21px;font-weight:850;display:block;margin-top:4px}
-table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:15px;overflow:hidden;box-shadow:var(--shadow)}
-th{font-size:11px;font-weight:850;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;padding:12px 14px;border-bottom:1px solid var(--line)}
-th:first-child,td:first-child{text-align:left}
-td{padding:11px 14px;border-bottom:1px solid color-mix(in srgb,var(--line) 55%,transparent);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
-tr:last-child td{border-bottom:0}
-td.money{font-weight:750}
-.profile-link{color:inherit;text-decoration:none}.profile-link b{display:block}
-.profile-link .muted,.video-caption{font-size:13px}
-.video-caption{color:inherit;text-decoration:none;display:inline-block;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
-.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px;margin-top:16px}
-.panel{padding:16px 18px}.panel h3{margin:0 0 4px;font-size:16px}.panel .sub{color:var(--muted);font-size:12px;margin-bottom:10px}
-svg text{fill:var(--muted);font-size:10px}
-.prodsel{display:flex;gap:6px;padding:5px;border:1px solid var(--line);background:var(--surface);border-radius:13px;margin-bottom:16px;width:fit-content}
-.prodsel button{border:0;background:transparent;color:var(--muted);padding:8px 14px;border-radius:9px;font-weight:800;cursor:pointer}
-.prodsel button.active{background:var(--text);color:var(--bg)}
-.dt{width:100%;border-collapse:collapse;font-size:12.5px}
-.dt th{color:var(--muted);font-weight:600;text-align:center;padding:6px 4px;border-bottom:1px solid var(--line)}
-.dt td{padding:7px 4px;text-align:center;border-bottom:1px solid var(--line)}
-.dt td.pname{text-align:left;max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px}
-.dt td.ptot{font-weight:600;text-align:right}
-.dbar{background:var(--line);border-radius:4px;height:10px;margin-bottom:3px;overflow:hidden}
-.dfill{background:var(--accent);height:100%;border-radius:4px}
-.dval{display:block;font-size:11px;color:var(--text)}
-.dunit{display:block;font-size:10px;color:var(--muted)}
-.creat-head{margin-bottom:8px}
-.creat-head .chip-mini{display:inline-block;background:color-mix(in srgb,var(--purple) 16%,transparent);border:1px solid var(--line);border-radius:99px;padding:2px 10px;font-size:11px;font-weight:800;color:var(--purple);margin-left:6px}
-.creat-metrics{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin-bottom:10px}
-.creat-metrics b{color:var(--text)}
-.creat-block{margin:6px 0;padding-left:12px;border-left:2px solid var(--line);font-size:13px}
-.hook{margin:4px 0}
-.hookscore{font-weight:850;font-size:11px;text-transform:uppercase;letter-spacing:.06em;margin-right:6px}
-.small{font-size:12px}
-.ok{color:var(--green);font-weight:700}
-.bad{color:var(--red);font-weight:700}
-footer{margin-top:26px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:14px}
-.error{border:1px solid var(--red);background:color-mix(in srgb,var(--red) 12%,var(--surface));border-radius:12px;padding:14px 16px;margin-bottom:16px}
-.error b{color:var(--red)}
-@media(max-width:720px){header{flex-direction:column;align-items:stretch}.controls{flex-direction:column}}
+  :root{
+    --bg:#f6f7f9; --surface:#ffffff; --surface2:#fafbfc; --line:#e6e8ee; --line2:#edf0f4;
+    --text:#171a21; --muted:#6b7280; --faint:#9aa1ad;
+    --accent:#3b5bdb; --accent2:#5c7cfa; --accent-soft:rgba(59,91,219,.09);
+    --good:#12b76a; --good-soft:rgba(18,183,106,.10); --bad:#e5484d; --bad-soft:rgba(229,72,77,.09);
+    --amber:#d97706; --amber-soft:rgba(217,119,6,.10);
+    --purple:#7048e8; --teal:#0ea5b7; --shadow:0 1px 2px rgba(16,24,40,.05),0 4px 16px rgba(16,24,40,.06);
+    --radius:14px; --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+  }
+  [data-theme="dark"]{
+    --bg:#0f1115; --surface:#161a21; --surface2:#1b2029; --line:#242b38; --line2:#20262f;
+    --text:#e7eaef; --muted:#8b93a3; --faint:#5d6572;
+    --accent:#6c8cff; --accent2:#8fa8ff; --accent-soft:rgba(108,140,255,.12);
+    --good:#34d399; --good-soft:rgba(52,211,153,.12); --bad:#f87171; --bad-soft:rgba(248,113,113,.12);
+    --amber:#fbbf24; --amber-soft:rgba(251,191,36,.12);
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 16px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font:14px/1.5 var(--font);-webkit-font-smoothing:antialiased}
+  button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  .app{display:flex;min-height:100vh}
+  /* ---------- sidebar ---------- */
+  .side{width:224px;flex:none;background:var(--surface);border-right:1px solid var(--line);padding:20px 14px;display:flex;flex-direction:column;position:sticky;top:0;height:100vh}
+  .brand{display:flex;align-items:center;gap:10px;padding:2px 8px 18px;border-bottom:1px solid var(--line)}
+  .brand .logo{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:13px}
+  .brand .b1{font-size:13.5px;font-weight:800;letter-spacing:-.2px}
+  .brand .b2{font-size:11px;color:var(--muted);margin-top:-2px}
+  .nav{margin-top:16px;display:flex;flex-direction:column;gap:2px;flex:1}
+  .nav .grp{font-size:10.5px;font-weight:700;letter-spacing:.9px;color:var(--faint);text-transform:uppercase;padding:14px 10px 6px}
+  .nav button{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:9px;font-size:13px;font-weight:600;color:var(--muted);text-align:left;width:100%;transition:background .15s,color .15s}
+  .nav button:hover{background:var(--surface2);color:var(--text)}
+  .nav button.active{background:var(--accent-soft);color:var(--accent)}
+  .nav .ico{width:17px;text-align:center;font-size:14px;flex:none}
+  .side .foot{margin-top:14px;border-top:1px solid var(--line);padding:12px 10px 2px;font-size:11px;color:var(--faint)}
+  .side .foot b{display:block;color:var(--muted);font-size:11.5px;margin-bottom:2px}
+
+  /* ---------- main ---------- */
+  .main{flex:1;min-width:0;padding:22px 28px 40px}
+  .top{display:flex;align-items:center;gap:14px;margin-bottom:18px;flex-wrap:wrap}
+  .top .tt{flex:1;min-width:260px}
+  .top h1{font-size:19px;font-weight:800;letter-spacing:-.3px}
+  .top .sub{font-size:12px;color:var(--muted);margin-top:1px}
+  .seg{display:flex;gap:3px;padding:4px;border:1px solid var(--line);background:var(--surface);border-radius:11px}
+  .seg button{padding:7px 14px;border-radius:8px;font-size:12.5px;font-weight:700;color:var(--muted)}
+  .seg button.active{background:var(--text);color:var(--bg)}
+  .chip{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;padding:6px 11px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--muted)}
+  .chip .dot{width:7px;height:7px;border-radius:99px;background:var(--good)}
+  .chip .dot.warn{background:var(--amber)}
+  .iconbtn{width:32px;height:32px;border-radius:9px;border:1px solid var(--line);background:var(--surface);color:var(--muted);font-size:14px;display:inline-flex;align-items:center;justify-content:center}
+  .iconbtn:hover{color:var(--text);border-color:var(--faint)}
+
+  .view{display:none}
+  .view.active{display:block}
+  .head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin:2px 0 14px}
+  .head h2{font-size:15.5px;font-weight:800;letter-spacing:-.2px}
+  .head .range{font-size:12px;color:var(--muted)}
+  .muted{color:var(--muted)} .small{font-size:12px}
+
+  /* status line + latest check */
+  .statusline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-bottom:12px}
+  .statusline b{color:var(--text)}
+  .lsc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:13px 18px;margin-bottom:16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .lsc .d{font-size:12px;font-weight:800;letter-spacing:.4px;color:var(--faint);text-transform:uppercase}
+  .lsc .vals{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;color:var(--muted);flex:1}
+  .lsc .vals b{color:var(--text);font-weight:700}
+  .syncing{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:var(--amber);background:var(--amber-soft);border-radius:99px;padding:4px 10px}
+
+  /* KPI cards */
+  .kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:16px}
+  @media(max-width:1200px){.kpis{grid-template-columns:repeat(3,1fr)}}
+  .kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 16px 13px}
+  .kpi .lbl{font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--faint);display:flex;align-items:center;gap:5px}
+  .kpi .val{font-size:21px;font-weight:800;letter-spacing:-.5px;margin-top:5px;font-variant-numeric:tabular-nums}
+  .kpi .sub{font-size:11.5px;color:var(--muted);margin-top:3px}
+  .kpi .sub b{color:var(--text)}
+  .delta{display:inline-flex;align-items:center;gap:3px;font-size:11px;font-weight:800;border-radius:99px;padding:2px 8px;margin-top:7px}
+  .delta.up{color:var(--good);background:var(--good-soft)}
+  .delta.down{color:var(--bad);background:var(--bad-soft)}
+  .delta.flat{color:var(--muted);background:var(--surface2);border:1px solid var(--line)}
+
+  .cols2{display:grid;grid-template-columns:1.6fr 1fr;gap:12px;margin-bottom:16px}
+  @media(max-width:1100px){.cols2{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 18px}
+  .panel .pt{font-size:13px;font-weight:800;display:flex;justify-content:space-between;align-items:center;margin-bottom:2px}
+  .panel .ps{font-size:11.5px;color:var(--muted);margin-bottom:12px}
+  .bars{display:flex;align-items:flex-end;gap:26px;height:150px;padding-top:8px}
+  .bars .bg{flex:1;display:flex;flex-direction:column;gap:6px}
+  .bars .brow{display:flex;align-items:flex-end;gap:10px;height:100%}
+  .bars .bt{font-size:11px;font-weight:700;color:var(--muted);margin-bottom:4px;text-align:center}
+  .bar{flex:1;border-radius:7px 7px 3px 3px;position:relative;min-height:2px}
+  .bar.gmv{background:linear-gradient(180deg,var(--accent2),var(--accent))}
+  .bar.ord{background:linear-gradient(180deg,#34d399,#059669)}
+  .bar .bl{position:absolute;bottom:-19px;left:0;right:0;text-align:center;font-size:10.5px;color:var(--faint)}
+  .bar .bv{position:absolute;top:-18px;left:0;right:0;text-align:center;font-size:11px;font-weight:800}
+  .legend{display:flex;gap:14px;font-size:11px;color:var(--muted);margin-top:26px}
+  .legend i{width:9px;height:9px;border-radius:3px;display:inline-block;margin-right:5px}
+
+  /* funnel */
+  .funnel{display:flex;flex-direction:column;gap:7px;margin-top:4px}
+  .fstep{display:flex;align-items:center;gap:10px}
+  .fstep .fn{width:118px;font-size:11.5px;color:var(--muted);text-align:right;flex:none}
+  .fstep .fb{flex:1;height:24px;background:var(--surface2);border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+  .fstep .ff{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+  .fstep:nth-child(2) .ff{opacity:.85}.fstep:nth-child(3) .ff{opacity:.7}.fstep:nth-child(4) .ff{opacity:.55}.fstep:nth-child(5) .ff{opacity:.4}
+  .fstep .fv{width:52px;font-size:12.5px;font-weight:800;text-align:right;flex:none;font-variant-numeric:tabular-nums}
+
+  /* stat mini cards */
+  .mini4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+  @media(max-width:1100px){.mini4{grid-template-columns:repeat(2,1fr)}}
+  .mini{background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:13px 16px;display:flex;justify-content:space-between;align-items:center}
+  .mini .lbl{font-size:10.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--faint)}
+  .mini .val{font-size:19px;font-weight:800;margin-top:3px;font-variant-numeric:tabular-nums}
+
+  /* tables */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface);box-shadow:var(--shadow)}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{font-size:10.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--faint);text-align:right;padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap;background:var(--surface2)}
+  th:first-child,td:first-child{text-align:left}
+  td{padding:10px 14px;border-bottom:1px solid var(--line2);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface2)}
+  td .money{font-weight:700}
+  .avatar{width:26px;height:26px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:800;font-size:11px;display:inline-flex;align-items:center;justify-content:center;margin-right:9px;vertical-align:middle}
+  .cname{font-weight:700;font-size:12.5px}
+  .chandle{color:var(--faint);font-size:11px}
+  .toolbar{display:flex;gap:8px;margin-bottom:10px;align-items:center}
+  .search{flex:1;max-width:280px;padding:8px 12px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--text);font-size:12.5px}
+  .search:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
+  .btn{padding:8px 13px;border-radius:9px;border:1px solid var(--line);background:var(--surface);font-size:12px;font-weight:700;color:var(--muted)}
+  .btn:hover{color:var(--text);border-color:var(--faint)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .btn.primary:hover{background:var(--accent2)}
+
+  /* creative cards */
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:12px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:15px 17px}
+  .card .ct{font-size:13px;font-weight:800;line-height:1.35;margin-bottom:2px}
+  .card .cm{font-size:11.5px;color:var(--muted);margin-bottom:10px}
+  .card .cm b{color:var(--text)}
+  .hook{display:flex;align-items:center;gap:8px;margin:7px 0;font-size:12.5px;background:var(--surface2);border:1px solid var(--line2);border-radius:9px;padding:8px 11px}
+  .hook .sc{flex:none;width:44px;text-align:center;font-weight:800;font-size:12px;border-radius:7px;padding:3px 0}
+  .sc.good{background:var(--good-soft);color:var(--good)} .sc.mid{background:var(--amber-soft);color:var(--amber)} .sc.low{background:var(--bad-soft);color:var(--bad)}
+  .kv{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:11.5px;color:var(--muted);margin:8px 0}
+  .kv b{color:var(--text)}
+  .sp{font-size:12px;color:var(--text);margin:5px 0;padding-left:11px;border-left:2px solid var(--line)}
+  .sp b{color:var(--accent);font-weight:700}
+
+  .notice{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:10px;padding:12px 16px;font-size:12.5px;color:var(--muted);margin-bottom:14px}
+  .notice .title{font-weight:800;color:var(--text)}
+  .dt{width:100%;border-collapse:collapse;font-size:12px}
+  .dt th{text-align:center}
+  .dt td{padding:8px 5px;text-align:center}
+  .dt td.pname{text-align:left;max-width:230px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .dt td.ptot{font-weight:700;text-align:right}
+  .dbar{background:var(--line);border-radius:4px;height:9px;margin:0 auto 3px;overflow:hidden;max-width:64px}
+  .dfill{background:linear-gradient(90deg,var(--accent),var(--accent2));height:100%}
+  .dval{display:block;font-size:10.5px;font-weight:600}
+  .dunit{display:block;font-size:9.5px;color:var(--faint)}
+  .error{background:var(--bad-soft);color:var(--bad);border:1px solid var(--bad);border-radius:10px;padding:14px 18px;font-size:13px;margin-bottom:14px}
+  .footline{margin-top:26px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--faint);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div>
-      <div class="eyebrow">Upper Echelon Products &middot; TikTok Shop</div>
-      <h1>TikTok Shop performance dashboard</h1>
-      <div class="muted">GMV, affiliate performance, outreach, creators, and content, direct from Cruva.</div>
+<div class="app">
+  <aside class="side">
+    <div class="brand">
+      <div class="logo">U</div>
+      <div><div class="b1">Commerce Desk</div><div class="b2">TikTok Shop control room</div></div>
     </div>
-    <div class="header-right">
-      <div class="chip"><span class="label">Complete reporting cutoff</span><strong id="dataThrough">Loading&hellip;</strong></div>
-      <div class="chip"><span class="label">Published / pulled</span><strong id="pulledOn">Loading&hellip;</strong></div>
-      <button class="theme" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">&#127769;</button>
-    </div>
-  </header>
+    <nav class="nav" id="nav">
+      <div class="grp">Workspace</div>
+      <button data-tab="overview" class="active"><span class="ico">▦</span>Overview</button>
+      <button data-tab="financials"><span class="ico">$</span>Financials</button>
+      <button data-tab="outreach"><span class="ico">⇄</span>Outreach</button>
+      <div class="grp">Content</div>
+      <button data-tab="creators"><span class="ico">◎</span>Creators</button>
+      <button data-tab="videos"><span class="ico">▶</span>Videos</button>
+      <button data-tab="creative"><span class="ico">✦</span>Creative</button>
+      <div class="grp">Catalog</div>
+      <button data-tab="products"><span class="ico">□</span>Products</button>
+    </nav>
+    <div class="foot"><b id="footShop">Upper Echelon Products</b><span id="footSrc">Source: Cruva REST</span><br><span id="footVer">schema 1.0</span></div>
+  </aside>
 
-  <div id="latestCheck" class="notice" hidden></div>
-  <div id="errorBox" class="error" hidden></div>
+  <main class="main">
+    <header class="top">
+      <div class="tt">
+        <h1 id="pageTitle">Shop operations overview</h1>
+        <div class="sub" id="pageSub">Upper Echelon Products · Daily control room</div>
+      </div>
+      <span class="chip"><span class="dot" id="freshDot"></span><span id="freshChip">data status</span></span>
+      <button class="iconbtn" id="themeBtn" title="Toggle theme">◐</button>
+      <div class="seg" id="periodSeg">
+        <button data-period="week" class="active">Last 7 days</button>
+        <button data-period="month">Last 30 days</button>
+      </div>
+    </header>
 
-  <div class="controls">
-    <div class="seg" id="periodSeg">
-      <button data-period="week" class="active">Last 7 Days</button>
-      <button data-period="month">Last 30 Days</button>
-    </div>
-    <div class="seg" id="tabSeg">
-      <button data-tab="gmv" class="active">GMV</button>
-      <button data-tab="financials">Financials</button>
-      <button data-tab="outreach">Outreach</button>
-      <button data-tab="creators">Creators</button>
-      <button data-tab="videos">Videos</button>
-      <button data-tab="creative">Creative</button>
-      <button data-tab="products">Products</button>
-    </div>
-  </div>
+    <div id="errorBox" class="error" hidden></div>
 
-  <section id="view-gmv" class="view active"></section>
-  <section id="view-financials" class="view"></section>
-  <section id="view-outreach" class="view"></section>
-  <section id="view-creators" class="view"></section>
-  <section id="view-videos" class="view"></section>
-  <section id="view-creative" class="view"></section>
-  <section id="view-products" class="view"></section>
-
-  <footer>
-    <span>Source: Cruva MCP &middot; Upper Echelon Products</span>
-    <span>Seller Center GMV and GMV Max revenue are separate reporting views.</span>
-  </footer>
+    <section id="view-overview" class="view active"></section>
+    <section id="view-financials" class="view"></section>
+    <section id="view-outreach" class="view"></section>
+    <section id="view-creators" class="view"></section>
+    <section id="view-videos" class="view"></section>
+    <section id="view-creative" class="view"></section>
+    <section id="view-products" class="view"></section>
+  </main>
 </div>
 
 <script>
 "use strict";
 const $ = (id) => document.getElementById(id);
-let REPORT = null, PRODUCTS = null, PROD_CURRENT = null, PROD_DAILY = null, BRIEF = null, FIN = null, PERIOD = "week", TAB = "gmv", PRODSEG = "all";
+let REPORT=null, PRODUCTS=null, PROD_CURRENT=null, PROD_DAILY=null, BRIEF=null, FIN=null,
+    PERIOD="week", TAB="overview", PRODSEG="all";
 
-const LAGGING = ["Affiliate GMV", "Video views", "Commission", "LIVE GMV"];
+const money = (v)=> (v==null?"n/a":"$"+Number(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}));
+const num = (v)=> (v==null?"n/a":Number(v).toLocaleString("en-US"));
+const esc = (s)=> String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = (v)=> (v==null?"n/a":(v>0?"+":"")+Number(v).toFixed(1)+"%");
+const parseDelta = (s)=>{ const m = /([+-]?\d+(?:\.\d+)?)%/.exec(s||""); return m? parseFloat(m[1]) : null; };
 
-function money(n){ return "$" + Number(n).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}); }
-function num(n){ return Number(n).toLocaleString("en-US"); }
-function displayDate(iso){ if(!iso) return ""; const d = new Date(iso + "T00:00:00Z"); return d.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"}); }
-function labelOf(k){ return k.replace(/([A-Z])/g," $1").replace(/^./,c=>c.toUpperCase()); }
-function metricValue(m, key, sync){
-  // Never present lagging missing data as real zero.
-  if(sync && LAGGING.includes(key) && (m[key] === 0 || m[key] == null)) return '<span class="syncing">Syncing</span>';
-  return num(m[key]);
+const TITLES = {overview:"Shop operations overview",financials:"Financials",outreach:"Outreach funnel",
+  creators:"Creator network",videos:"Video performance",creative:"Creative direction",products:"Product-level content"};
+
+function deltaChip(delta){
+  if(delta==null) return '<span class="delta flat">n/a</span>';
+  const cls = delta>0.5?"up":(delta<-0.5?"down":"flat");
+  return '<span class="delta '+cls+'">'+pct(delta)+' vs prior period</span>';
 }
 
-async function load(){
-  try{
-    const [r, p, pc, b, fin, pd] = await Promise.all([
-      fetch("data/latest.json", {cache:"no-store"}).then(x=>{ if(!x.ok) throw new Error("report data unavailable ("+x.status+")"); return x.json(); }),
-      fetch("data/products.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null),
-      fetch("data/products_current.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null),
-      fetch("data/creative_brief.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null),
-      fetch("data/financials.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null),
-      fetch("data/products_daily.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null)
-    ]);
-    if(r.schema_version !== "1.0" || !r.periods || !r.periods.week || !r.periods.month) throw new Error("unsupported or incomplete report data");
-    REPORT = r; PRODUCTS = p; PROD_CURRENT = pc; BRIEF = b; FIN = fin; PROD_DAILY = pd;
+function load(){
+  Promise.all([
+    fetch("data/latest.json",{cache:"no-store"}).then(x=>{if(!x.ok)throw new Error("report data unavailable ("+x.status+")");return x.json();}),
+    fetch("data/products.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/products_current.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/creative_brief.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/financials.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/products_daily.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
+  ]).then(([r,p,pc,b,fin,pd])=>{
+    if(r.schema_version!=="1.0"||!r.periods||!r.periods.week||!r.periods.month) throw new Error("unsupported or incomplete report data");
+    REPORT=r; PRODUCTS=p; PROD_CURRENT=pc; BRIEF=b; FIN=fin; PROD_DAILY=pd;
+    $("footShop").textContent = r.shop? r.shop.name : "Upper Echelon Products";
+    $("footSrc").textContent = "Source: " + (r.source||"Cruva");
+    const fr = r.freshness||{};
+    $("freshChip").textContent = "data through " + (fr.data_through||"?") + " · pulled " + (fr.pulled_on||"?");
+    $("freshDot").className = "dot";
     renderAll();
-  }catch(err){
+  }).catch(err=>{
     $("errorBox").hidden = false;
-    $("errorBox").innerHTML = "<b>Report unavailable:</b> " + err.message + ". The previous deployment has not been overwritten with partial data.";
-  }
+    $("errorBox").textContent = "Could not load report data: " + err.message;
+  });
 }
 
 function renderAll(){
-  $("dataThrough").textContent = displayDate(REPORT.freshness.data_through);
-  $("pulledOn").textContent = displayDate(REPORT.freshness.pulled_on);
-  renderLatestCheck();
-  renderGMV(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos(); renderCreative(); renderProducts();
+  $("pageTitle").textContent = TITLES[TAB]||"Overview";
+  $("pageSub").textContent = "Upper Echelon Products · " + (REPORT.freshness.data_through||"") + " · Daily control room";
+  renderOverview(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos();
+  renderCreative(); renderProducts();
 }
 
-function renderFinancials(){
-  if(!FIN || !FIN.periods || !FIN.periods[PERIOD]){
-    $("view-financials").innerHTML = '<div class="head"><h2>Financials</h2><span class="range">P&L view</span></div>' +
-      '<div class="notice"><span class="title">Financials unavailable</span><br>Run pipeline/financials.py to generate the P&L view.</div>';
-    return;
+/* ============================= OVERVIEW ============================= */
+function renderOverview(){
+  const w = REPORT.periods.week, m = REPORT.periods.month;
+  const s = w.score, lsc = REPORT.latest_source_check||{};
+  const t = w.outreach.totals, m0 = s.m||{};
+  const syncNote = s.sync ? '<span class="syncing">◔ attribution syncing</span>' : "";
+
+  let html = '<div class="statusline">Upper Echelon Products · <b>Complete data through '+REPORT.freshness.data_through+
+    '</b> · Pulled '+REPORT.freshness.pulled_on+'</div>';
+
+  // latest source check strip
+  if(lsc.date){
+    html += '<div class="lsc"><span class="d">Latest source check</span><div class="vals">'+
+      '<span>Seller Center GMV <b>'+money(lsc.seller_center_gmv)+'</b></span>'+
+      '<span>Orders <b>'+num(lsc.orders)+'</b></span>'+
+      '<span>Units <b>'+num(lsc.units)+'</b></span>'+
+      (lsc.gmv_max_revenue!=null?'<span>GMV Max revenue <b>'+money(lsc.gmv_max_revenue)+'</b></span>':"")+
+      (lsc.gmv_max_spend!=null?'<span>Spend <b>'+money(lsc.gmv_max_spend)+'</b></span>':"")+
+      (lsc.gmv_max_roas!=null?'<span>ROAS <b>'+Number(lsc.gmv_max_roas).toFixed(2)+'x</b></span>':"")+
+      '</div>'+syncNote+'</div>';
   }
+
+  // KPI row
+  const aff = m0["Affiliate GMV"], comm = m0["Commission"];
+  const deltaPct = parseDelta(s.gmvDelta);
+  html += '<div class="kpis">'+
+    kpi("Seller Center GMV", money(s.gmv), deltaChip(deltaPct), (s.gmvDelta||"").replace(" vs prior period",""))+
+    kpi("Orders", num(m0["Orders"]||0), "", "")+
+    kpi("GMV Max revenue", money(s.adRevenue), "", "Spend "+money(s.adSpend)+" · ROAS "+Number(s.roas).toFixed(2)+"x")+
+    kpi("Affiliate GMV", money(aff), "", "Commission "+money(comm))+
+    kpi("Creator output", num(m0["Videos posted"]||0), "", num(m0["Creators posting"]||0)+" creators posting")+
+    kpi("Video views", num(m0["Video views"]||0), "", money(m0["LIVE GMV"]||0)+" LIVE GMV · "+num(m0["LIVE streams"]||0)+" streams")+
+    '</div>';
+
+  // two-column: trend + funnel
+  html += '<div class="cols2">'+
+    '<div class="panel"><div class="pt">GMV &amp; order trend</div><div class="ps">Period totals from the source snapshot; the 7-day window sits inside the 30-day window.</div>'+
+      trendBars(w,m)+'</div>'+
+    '<div class="panel"><div class="pt">Sample fulfillment pipeline</div><div class="ps">Creator seeding and delivery flow</div>'+
+      funnel(t)+'</div>'+
+    '</div>';
+
+  // outreach queue
+  html += '<div class="mini4">'+
+    mini("DMs sent", t["DMs sent"])+mini("Collab invites", t["Collab invites"])+
+    mini("Replies", t["Replies"])+mini("Creators with sales", t["Creators with sales"])+'</div>';
+
+  // roster
+  const rows = (REPORT.periods[PERIOD].creators||[]).slice(0,8).map(rosterRow).join("");
+  html += '<div class="head" style="margin-top:6px"><h2>Creator sales roster</h2><span class="range">'+REPORT.periods[PERIOD].range+' · ranked by GMV</span></div>'+
+    '<div class="tablewrap"><table><thead><tr><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Commission</th><th>Videos</th><th>LIVE sessions</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+
+  $("view-overview").innerHTML = html;
+}
+
+function kpi(lbl, val, delta, sub){
+  return '<div class="kpi"><div class="lbl">'+lbl+'</div><div class="val">'+val+'</div>'+
+    (delta?'<div>'+delta+'</div>':"")+
+    (sub?'<div class="sub">'+sub+'</div>':"")+'</div>';
+}
+function mini(lbl, val){
+  return '<div class="mini"><div><div class="lbl">'+lbl+'</div><div class="val">'+num(val==null?0:val)+'</div></div></div>';
+}
+function funnel(t){
+  const steps = [["Sample requests","Sample requests"],["Samples approved","Samples approved"],
+                 ["Samples shipped","Samples shipped"],["Samples delivered","Samples delivered"],
+                 ["Creators with sales","Creators with sales"]];
+  const first = t[steps[0][0]]||0;
+  return '<div class="funnel">'+steps.map(st=>{
+    const v = t[st[1]]||0, w = first? Math.max(4,Math.round(v/first*100)):0;
+    return '<div class="fstep"><span class="fn">'+st[0]+'</span><div class="fb"><div class="ff" style="width:'+w+'%"></div></div><span class="fv">'+num(v)+'</span></div>';
+  }).join("")+'</div>'+
+  '<div class="muted small" style="margin-top:10px">Stage totals rendered exactly as supplied; they reflect independent operational states.</div>';
+}
+function trendBars(w,m){
+  const wg=w.score.gmv, mg=m.score.gmv, wo=w.score.m["Orders"]||0, mo=m.score.m["Orders"]||0;
+  const max = Math.max(wg,mg);
+  const h=(v)=>Math.max(3,Math.round(v/max*120));
+  return '<div class="bars">'+
+    '<div class="bg"><div class="bt">Last 7 days</div><div class="brow">'+
+      '<div class="bar gmv" style="height:'+h(wg)+'px"><span class="bv">'+money(wg)+'</span><span class="bl">GMV</span></div>'+
+      '<div class="bar ord" style="height:'+h(wo)+'px"><span class="bv">'+num(wo)+'</span><span class="bl">Orders</span></div>'+
+    '</div></div>'+
+    '<div class="bg"><div class="bt">Last 30 days</div><div class="brow">'+
+      '<div class="bar gmv" style="height:'+h(mg)+'px"><span class="bv">'+money(mg)+'</span><span class="bl">GMV</span></div>'+
+      '<div class="bar ord" style="height:'+h(mo)+'px"><span class="bv">'+num(mo)+'</span><span class="bl">Orders</span></div>'+
+    '</div></div>'+
+    '</div><div class="legend"><span><i style="background:var(--accent)"></i>GMV</span><span><i style="background:#059669"></i>Orders</span></div>';
+}
+function rosterRow(r){
+  const init = (r[0]||"?").trim().charAt(0).toUpperCase();
+  return '<tr><td><span class="avatar">'+esc(init)+'</span><span class="cname">'+esc(r[0])+'</span><br><span class="chandle">'+esc(r[1])+'</span></td>'+
+    '<td class="money">'+money(r[2])+'</td><td>'+num(r[3])+'</td><td>'+num(r[4])+'</td>'+
+    '<td class="money">'+money(r[5])+'</td><td>'+num(r[6])+'</td><td>'+num(r[7])+'</td></tr>';
+}
+
+/* ============================= FINANCIALS ============================= */
+function renderFinancials(){
+  if(!FIN||!FIN.periods[PERIOD]){ $("view-financials").innerHTML='<div class="notice"><span class="title">Financials unavailable</span><br>No financials data was found.</div>'; return; }
   const f = FIN.periods[PERIOD];
   const net = f.net_after_ads_commissions_refunds;
-  const netClass = net < 0 ? "down" : "up";
-  const r = f.ratios;
-  const fmt = (v) => v == null ? "n/a" : (typeof v === "number" ? v.toLocaleString("en-US",{maximumFractionDigits:2}) : v);
-  $("view-financials").innerHTML =
-    '<div class="head"><h2>Financials</h2><span class="range">Operational P&L, ' + f.range + '</span></div>' +
-    '<div class="notice"><span class="title">Scope</span><br>Operational P&L from Cruva data. COGS is not exposed by the API, so the net line below excludes COGS. The formal P&L projection lives in the TikTok P&L task (86ak1mbh4).</div>' +
-    '<div class="hero">' +
-      heroCard("Total GMV", money(f.revenue.total_gmv), "all channels") +
-      heroCard("Net of ads, commissions, refunds", money(net), '<span class="delta ' + netClass + '">' + (net < 0 ? "negative" : "positive") + '</span>, excludes COGS') +
-      heroCard("Blended ROAS", fmt(r.blended_roas), "total GMV / ad spend") +
-      heroCard("Commission rate", fmt(r.commission_rate_pct) + "%", "of affiliate GMV") +
-    '</div>' +
-    '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Revenue stack</h3></div>' +
-    '<div class="grid">' +
-      Object.entries(f.revenue).map(([k,v]) => '<div class="card"><div class="label">' + labelOf(k) + '</div><div class="value">' + money(v) + '</div></div>').join("") +
-    '</div>' +
-    '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Spend stack</h3></div>' +
-    '<div class="grid">' +
-      Object.entries(f.spend).map(([k,v]) => '<div class="card"><div class="label">' + labelOf(k) + '</div><div class="value">' + money(v) + '</div></div>').join("") +
-    '</div>' +
-    '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Efficiency ratios</h3></div>' +
-    '<div class="grid">' +
-      card("Blended ROAS", fmt(r.blended_roas)) + card("GMV Max ROAS", fmt(r.gmv_max_roas)) +
-      card("Commission rate", fmt(r.commission_rate_pct) + "%") + card("Refund rate", fmt(r.refund_rate_pct) + "%") +
-      card("AOV", money(r.aov || 0)) + card("GPM", fmt(r.gpm), "GMV per 1,000 views") +
-      card("EMV", money(r.emv || 0)) + card("GMV / sample delivered", money(r.gmv_per_sample_delivered || 0)) +
-    '</div>' +
-    '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Volume</h3></div>' +
-    '<div class="grid">' +
-      Object.entries(f.volume).map(([k,v]) => '<div class="card"><div class="label">' + labelOf(k) + '</div><div class="value">' + num(v) + '</div></div>').join("") +
-    '</div>' +
-    (f.products && f.products.length ?
-      '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Contribution concentration</h3></div>' +
-      '<table><thead><tr><th>Product</th><th>Price</th><th>GMV</th><th>Share</th><th>Video GMV</th><th>LIVE GMV</th><th>Shop tab GMV</th><th>Units</th></tr></thead><tbody>' +
-      f.products.slice(0,15).map(p => '<tr><td style="text-align:left;max-width:340px;white-space:normal">' + (p.product_name||"?") + '</td><td>' + money(p.price||0) + '</td><td class="money">' + money(p.total_gmv) + '</td><td><b>' + p.share_pct + '%</b></td><td class="money">' + money(p.video_gmv) + '</td><td class="money">' + money(p.live_gmv) + '</td><td class="money">' + money(p.shop_tab_gmv) + '</td><td>' + num(p.units_sold) + '</td></tr>').join("") +
-      '</tbody></table>' : '');
+  const netCls = net<0?"down":"up";
+  let html = '<div class="head"><h2>Financials</h2><span class="range">Operational P&amp;L, '+f.range+'</span></div>'+
+    '<div class="notice"><span class="title">Scope</span><br>Operational P&amp;L from Cruva data. COGS is not exposed by the API, so the net line below excludes COGS. The formal P&amp;L projection lives in the TikTok P&amp;L task (86ak1mbh4).</div>'+
+    '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
+      kpi("Total GMV", money(f.revenue.total_gmv), "", "All channels")+
+      kpi("Net of ads, commissions, refunds", money(net), '<span class="delta '+netCls+'">'+(net<0?"negative":"positive")+'</span>', "Excludes COGS")+
+      kpi("Blended ROAS", Number(f.ratios.blended_roas).toFixed(2)+"x", "", "Total GMV / ad spend")+
+      kpi("Commission rate", Number(f.ratios.commission_rate_pct).toFixed(1)+"%", "", "Of affiliate GMV")+
+    '</div>'+
+    '<div class="cols2">'+
+      '<div class="panel"><div class="pt">Revenue stack</div><div class="ps">Where GMV comes from</div>'+revStack(f.revenue)+'</div>'+
+      '<div class="panel"><div class="pt">Spend stack</div><div class="ps">What it costs</div>'+spendStack(f.spend)+'</div>'+
+    '</div>'+
+    '<div class="panel" style="margin-top:12px"><div class="pt">Efficiency ratios</div><div class="ps">Unit economics from the source snapshot</div>'+
+      '<div class="mini4" style="margin:0">'+Object.entries(f.ratios).map(([k,v])=>mini(k.replace(/_/g," "), (typeof v==="number"? (v<50&&v>-50? Number(v).toFixed(2): Math.round(v)) : v))).join("")+'</div></div>';
+  $("view-financials").innerHTML = html;
+}
+function revStack(r){
+  const rows=[["Total GMV",r.total_gmv],["Affiliate GMV",r.affiliate_gmv],["Video GMV",r.video_gmv],["LIVE GMV",r.live_gmv],["Shop tab GMV",r.shop_tab_gmv],["GMV Max revenue",r.gmv_max_revenue],["Subscription revenue",r.subscription_revenue]];
+  const max = Math.max(...rows.map(x=>x[1]||0));
+  return '<div class="funnel">'+rows.map(x=>'<div class="fstep"><span class="fn">'+x[0]+'</span><div class="fb"><div class="ff" style="width:'+(max?Math.max(3,Math.round((x[1]||0)/max*100)):0)+'%"></div></div><span class="fv">'+money(x[1])+'</span></div>').join("")+'</div>';
+}
+function spendStack(r){
+  const rows=[["Ad spend",r.ad_spend],["Commissions",r.commission],["Refunds",r.refund_amount],["Shipping",r.shipping_fees]];
+  const max = Math.max(...rows.map(x=>x[1]||0));
+  return '<div class="funnel">'+rows.map(x=>'<div class="fstep"><span class="fn">'+x[0]+'</span><div class="fb"><div class="ff" style="width:'+(max?Math.max(3,Math.round((x[1]||0)/max*100)):0)+'%"></div></div><span class="fv">'+money(x[1])+'</span></div>').join("")+'</div>';
 }
 
-function card(label, value, sub){
-  return '<div class="card"><div class="label">' + label + '</div><div class="value">' + value + '</div>' + (sub ? '<div class="sub">' + sub + '</div>' : '') + '</div>';
-}
-
-function renderLatestCheck(){
-  const y = REPORT.latest_source_check;
-  if(!y) return;
-  const syncing = y.attribution_status === "partial_syncing";
-  $("latestCheck").hidden = false;
-  $("latestCheck").innerHTML =
-    '<span class="title">Yesterday confirmed in Cruva</span>' +
-    "<strong>" + displayDate(y.date) + ":</strong> " +
-    money(y.seller_center_gmv) + " Seller Center GMV &middot; " + num(y.orders) + " orders &middot; " +
-    num(y.units) + " units &middot; " + money(y.gmv_max_revenue) + " GMV Max revenue" +
-    (syncing ? ' <span class="syncing">Affiliate/video attribution still syncing</span>' : "");
-}
-
-function renderGMV(){
-  const s = REPORT.periods[PERIOD].score;
-  const syncNote = s.sync
-    ? '<div class="notice"><span class="title">Attribution syncing</span><br>Cruva returned zero for lagging fields in this period. Those fields are shown as Syncing, not treated as real zero performance.</div>'
-    : "";
-  const deltaClass = s.down ? "down" : "up";
-  $("view-gmv").innerHTML =
-    '<div class="head"><h2>' + s.title + '</h2><span class="range">' + s.range + '</span></div>' + syncNote +
-    '<div class="hero">' +
-      heroCard("Seller Center / Total GMV", money(s.gmv), '<span class="delta ' + deltaClass + '">' + s.gmvDelta + '</span>', s.sub) +
-      heroCard("GMV Max revenue", money(s.adRevenue), "ad revenue") +
-      heroCard("Ad spend", money(s.adSpend), "GMV Max spend") +
-      heroCard("ROAS", s.roas.toFixed(4), "ad revenue / ad spend") +
-    '</div>' +
-    '<div class="grid">' + Object.entries(s.m).map(([k,v]) =>
-      '<div class="card"><div class="label">' + k + '</div><div class="value">' + metricValue(s.m, k, s.sync) + '</div></div>'
-    ).join("") + '</div>';
-}
-
-function heroCard(label, value, extra, sub){
-  return '<div class="card"><div class="label">' + label + '</div><div class="big">' + value + '</div>' +
-    (extra ? '<div class="sub">' + extra + '</div>' : "") +
-    (sub ? '<div class="sub">' + sub + '</div>' : "") + '</div>';
-}
-
+/* ============================= OUTREACH ============================= */
 function renderOutreach(){
-  const x = REPORT.periods[PERIOD].outreach;
-  const rows = REPORT.periods[PERIOD].outreach.daily || [];
-  $("view-outreach").innerHTML =
-    '<div class="head"><h2>Outreach funnel</h2><span class="range">' + REPORT.periods[PERIOD].range + '</span></div>' +
-    '<div class="funnel">' + Object.entries(x.funnel).map(([k,v]) =>
-      '<div class="step"><span>' + k + '</span><strong>' + num(v) + '</strong></div>').join("") + '</div>' +
-    '<div class="grid">' + Object.entries(x.totals).map(([k,v]) =>
-      '<div class="card"><div class="label">' + k + '</div><div class="value">' + num(v) + '</div></div>').join("") + '</div>' +
-    '<div class="charts">' +
-      svgChart("Outbound activity", "Daily direct Cruva values", rows, [["DMs",1,"#18add9"],["Collab invites",2,"#7047c9"]]) +
-      svgChart("Sample pipeline", "Daily direct Cruva values", rows, [["Requests",4,"#18add9"],["Approved",5,"#7047c9"],["Delivered",7,"#33ae85"]]) +
-    '</div>';
-}
-
-function renderCreators(){
-  const c = REPORT.periods[PERIOD].creators;
-  const syncNote = REPORT.periods[PERIOD].score.sync
-    ? '<div class="notice"><span class="title">Attribution syncing</span><br>Cruva returned zero for some creator rows in this period. Those values are direct source values and may revise after attribution completes.</div>'
-    : "";
-  $("view-creators").innerHTML =
-    '<div class="head"><h2>Top creators</h2><span class="range">Direct Cruva ranking by GMV for ' + REPORT.periods[PERIOD].range + '</span></div>' + syncNote +
-    '<table><thead><tr><th>#</th><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Commission</th><th>Videos</th><th>LIVEs</th></tr></thead><tbody>' +
-    c.map((r,i)=>'<tr><td>'+(i+1)+'</td><td><a class="profile-link" href="https://www.tiktok.com/@'+r[1]+'" target="_blank" rel="noopener noreferrer"><b>'+r[0]+'</b><span class="muted">@'+r[1]+'</span></a></td><td class="money">'+money(r[2])+'</td><td>'+num(r[3])+'</td><td>'+num(r[4])+'</td><td class="money">'+money(r[5])+'</td><td>'+num(r[6])+'</td><td>'+num(r[7])+'</td></tr>').join("") +
-    '</tbody></table>';
-}
-
-function renderVideos(){
-  const v = REPORT.periods[PERIOD].videos;
-  $("view-videos").innerHTML =
-    '<div class="head"><h2>Top performing videos</h2><span class="range">Direct Cruva ranking for ' + REPORT.periods[PERIOD].range + '</span></div>' +
-    '<table><thead><tr><th>#</th><th>Video</th><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Likes</th></tr></thead><tbody>' +
-    v.map((r,i)=>'<tr><td>'+(i+1)+'</td><td><a class="video-caption" href="'+r[8]+'" target="_blank" rel="noopener noreferrer" title="'+r[1]+'">'+r[1]+'</a></td><td><a class="profile-link" href="https://www.tiktok.com/@'+r[3]+'" target="_blank" rel="noopener noreferrer"><b>'+r[2]+'</b><span class="muted">@'+r[3]+'</span></a></td><td class="money">'+money(r[4])+'</td><td>'+num(r[5])+'</td><td>'+num(r[6])+'</td><td>'+num(r[7])+'</td></tr>').join("") +
-    '</tbody></table>';
-}
-
-function renderCreative(){
-  if(!BRIEF || !BRIEF.videos || !BRIEF.videos.length){
-    $("view-creative").innerHTML = '<div class="head"><h2>Creative direction</h2><span class="range">Top-video analysis</span></div>' +
-      '<div class="notice"><span class="title">Brief unavailable</span><br>Run pipeline/creative_brief.py to generate the weekly creative brief.</div>';
-    return;
+  const o = REPORT.periods[PERIOD].outreach;
+  const t = o.totals||{};
+  const daily = o.daily||[];
+  const steps=[["DMs sent","DMs sent"],["Collab invites","Collab invites"],["Replies","Replies"],
+               ["Sample requests","Sample requests"],["Approved samples","Samples approved"],
+               ["Delivered samples","Samples delivered"]];
+  const first = t["DMs sent"]||1;
+  let html = '<div class="head"><h2>Outreach funnel</h2><span class="range">'+REPORT.periods[PERIOD].range+'</span></div>'+
+    '<div class="panel" style="margin-bottom:14px"><div class="pt">Funnel totals</div><div class="ps">The funnel the shop lives or dies on</div>'+
+    '<div class="funnel">'+steps.map(st=>{
+      const v=t[st[1]]||0;
+      return '<div class="fstep"><span class="fn">'+st[0]+'</span><div class="fb"><div class="ff" style="width:'+Math.max(3,Math.round(v/first*100))+'%"></div></div><span class="fv">'+num(v)+'</span></div>';
+    }).join("")+'</div></div>';
+  if(daily.length){
+    html += '<div class="panel"><div class="pt">Daily DMs sent</div><div class="ps">Per-day volume across the period</div>'+
+      dailyArea(daily)+'</div>';
   }
-  const vs = BRIEF.videos;
-  const totalViews = vs.reduce((a,v)=>a+(v.view_count||0),0);
-  const totalGmv = vs.reduce((a,v)=>a+(v.gmv||0),0);
-  const avgGpv = totalViews ? (totalGmv/totalViews).toFixed(4) : "n/a";
-  const rng = BRIEF._provenance ? BRIEF._provenance.range : "";
-  $("view-creative").innerHTML =
-    '<div class="head"><h2>Creative direction brief</h2><span class="range">Top videos by GMV, ' + rng + '</span></div>' +
-    '<div class="hero">' +
-      heroCard("Videos analyzed", num(vs.length), "top by GMV") +
-      heroCard("Total views", num(totalViews), "across the top " + vs.length) +
-      heroCard("Total GMV", money(totalGmv), "video-attributed") +
-      heroCard("GMV per view", avgGpv, "revenue per view, the pacing metric") +
-    '</div>' +
-    vs.map(v => creativeCard(v)).join("");
+  $("view-outreach").innerHTML = html;
+}
+function dailyArea(daily){
+  const vals = daily.map(d=>d[1]||0);
+  const max = Math.max(...vals,1), n = vals.length, W=720, H=140;
+  const pts = vals.map((v,i)=>[20+i*(W-40)/(n-1||1), H-16-(v/max)*(H-40)]).join(" ");
+  const labels = daily.map(d=>d[0].slice(5)).filter((_,i)=>i%Math.ceil(n/7)===0)
+    .map((l,i)=>'<span style="left:'+(16+i*((W-40)/6))+'px">'+l+'</span>').join("");
+  return '<svg viewBox="0 0 '+W+' '+(H+8)+'" style="width:100%;height:auto">'+
+    '<polyline points="'+pts+'" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round"/>'+
+    '<polygon points="'+pts+' '+[20+(n-1)*(W-40)/(n-1||1),H-16].join(",")+' 20,'+(H-16)+'" fill="var(--accent-soft)" stroke="none"/>'+
+    '</svg><div class="legend">'+labels+'</div>';
 }
 
-function creativeCard(v){
-  const hooks = (v.hooks||[]).slice(0,2).map(h =>
-    '<div class="hook"><span class="hookscore" style="color:' + (h.score>=8?'var(--green)':h.score>=6?'var(--amber)':'var(--red)') + '">hook ' + h.score + '/10</span> "' + h.hook + '"' +
-    (h.explanation ? '<div class="muted small">' + h.explanation + '</div>' : '') + '</div>').join("");
-  const points = (v.selling_points||[]).slice(0,2).map(s =>
-    '<div class="hook"><span class="hookscore" style="color:var(--purple)">point ' + s.score + '/10</span> ' + s.selling_point + '</div>').join("");
-  const vis = v.product_visible_3s ? '<span class="ok">Product visible in first 3s</span>' : '<span class="bad">Product not visible in first 3s</span>';
-  const visNote = v.product_screen_time_seconds ? ' · ' + v.product_screen_time_seconds + 's screen time' : '';
-  return '<article class="panel" style="margin-bottom:14px">' +
-    '<div class="creat-head"><b>' + v.rank + '. <a class="video-caption" href="' + v.video_url + '" target="_blank" rel="noopener noreferrer" title="' + (v.title||"") + '">' + (v.title||"Untitled") + '</a></b>' +
-    ' <span class="muted">@' + v.handle + '</span> <span class="chip-mini">' + (v.product_name||"") + '</span></div>' +
-    '<div class="creat-metrics">' +
-      '<span>Views: <b>' + num(v.view_count||0) + '</b></span>' +
-      '<span>GMV: <b>' + money(v.gmv||0) + '</b></span>' +
-      '<span>GMV/view: <b>' + (v.gmv_per_view != null ? v.gmv_per_view.toFixed(4) : "n/a") + '</b></span>' +
-      '<span>Units: <b>' + num(v.units_sold||0) + '</b></span>' +
-      '<span>Likes: <b>' + num(v.like_count||0) + '</b></span>' +
-      '<span>' + vis + visNote + '</span>' +
-    '</div>' +
-    (hooks ? '<div class="creat-block">' + hooks + '</div>' : '') +
-    (points ? '<div class="creat-block">' + points + '</div>' : '') +
-    (v.content_overview ? '<div class="creat-block muted small">' + v.content_overview + '</div>' : '') +
-    (v.on_screen_text ? '<div class="creat-block small"><span class="label">On-screen text</span> "' + v.on_screen_text + '"</div>' : '') +
-    '</article>';
+/* ============================= CREATORS ============================= */
+let creatorQ = "";
+function renderCreators(){
+  const rows = (REPORT.periods[PERIOD].creators||[]).filter(r=>{
+    const q = creatorQ.toLowerCase();
+    return !q || (r[0]||"").toLowerCase().includes(q) || (r[1]||"").toLowerCase().includes(q);
+  });
+  $("view-creators").innerHTML =
+    '<div class="head"><h2>Creator network</h2><span class="range">'+REPORT.periods[PERIOD].range+' · ranked by GMV</span></div>'+
+    '<div class="toolbar"><input class="search" id="creatorSearch" placeholder="Search creators by name or handle..." value="'+esc(creatorQ)+'">'+
+    '<span class="muted small">'+rows.length+' of '+REPORT.periods[PERIOD].creators.length+' creators</span></div>'+
+    '<div class="tablewrap"><table><thead><tr><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Commission</th><th>Videos</th><th>LIVE sessions</th></tr></thead><tbody>'+
+    rows.map(rosterRow).join("")+'</tbody></table></div>';
+  const inp = $("creatorSearch");
+  if(inp) inp.oninput = ()=>{ creatorQ = inp.value; renderCreators(); };
 }
 
-function renderProductDaily(){
-  if(!PROD_DAILY || !PROD_DAILY.products || !PROD_DAILY.products.length) return "";
-  const rng = PROD_DAILY._provenance ? (PROD_DAILY._provenance.range.from + " to " + PROD_DAILY._provenance.range.to) : "";
-  const maxGmv = Math.max(...PROD_DAILY.products.map(p => Math.max(...p.daily.map(d => d.gmv))));
-  const rows = PROD_DAILY.products.map(p => {
-    const days = p.daily.map(d => {
-      const w = maxGmv ? Math.max(2, Math.round(d.gmv / maxGmv * 100)) : 0;
-      return '<td title="' + d.date + '"><div class="dbar"><div class="dfill" style="width:' + w + '%"></div></div><span class="dval">' + (d.gmv >= 1000 ? "$" + (d.gmv/1000).toFixed(1) + "k" : "$" + Math.round(d.gmv)) + '</span><span class="dunit">' + d.units + 'u</span></td>';
-    }).join("");
-    return '<tr><td class="pname" title="' + p.product_name + '">' + p.product_name.slice(0, 42) + '</td>' + days + '<td class="ptot">' + money(p.total_gmv) + '</td></tr>';
-  }).join("");
-  return '<div class="head" style="margin-top:22px"><h2>Daily GMV by product</h2><span class="range">Last completed week, ' + rng + '</span></div>' +
-    '<div class="tablewrap"><table class="dt"><thead><tr><th>Product</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th><th>Week total</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+/* ============================= VIDEOS ============================= */
+function renderVideos(){
+  const rows = REPORT.periods[PERIOD].videos||[];
+  $("view-videos").innerHTML =
+    '<div class="head"><h2>Video performance</h2><span class="range">'+REPORT.periods[PERIOD].range+' · ranked by GMV</span></div>'+
+    '<div class="tablewrap"><table><thead><tr><th>Video</th><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Likes</th></tr></thead><tbody>'+
+    rows.map(r=>'<tr><td style="max-width:340px;white-space:normal;text-align:left"><a href="'+esc(r[8])+'" target="_blank" rel="noopener">'+esc(r[1])+'</a></td>'+
+      '<td style="text-align:left"><span class="cname">'+esc(r[2])+'</span><br><span class="chandle">'+esc(r[3])+'</span></td>'+
+      '<td class="money">'+money(r[4])+'</td><td>'+num(r[5])+'</td><td>'+num(r[6])+'</td><td>'+num(r[7])+'</td></tr>').join("")+
+    '</tbody></table></div>';
 }
 
+/* ============================= CREATIVE ============================= */
+function renderCreative(){
+  if(!BRIEF||!BRIEF.videos||!BRIEF.videos.length){
+    $("view-creative").innerHTML='<div class="notice"><span class="title">Creative direction</span><br>No top-video analysis found. The brief renders once creative_brief.json exists.</div>'; return;
+  }
+  const vids = BRIEF.videos, totalViews = vids.reduce((a,v)=>a+(v.view_count||0),0), totalGmv = vids.reduce((a,v)=>a+(v.gmv||0),0);
+  const briefRange = (BRIEF._provenance&&BRIEF._provenance.range)||"";
+  const html = '<div class="head"><h2>Creative direction</h2><span class="range">'+briefRange+' · top videos with hook analysis</span></div>'+
+    '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
+      kpi("Videos analyzed", num(vids.length))+
+      kpi("Total views", num(totalViews))+
+      kpi("Total GMV", money(totalGmv))+
+      kpi("GMV per view", totalViews?"$"+(totalGmv/totalViews).toFixed(4):"n/a")+
+    '</div><div class="cards">'+
+    vids.map((v,i)=>{
+      const hook = v.hooks&&v.hooks[0];
+      const sc = hook? hook.score:null;
+      const scCls = sc>=8?"good":(sc>=6?"mid":"low");
+      return '<div class="card"><div class="ct">'+esc(v.title||"Untitled")+'</div>'+
+        '<div class="cm">'+esc(v.handle||"")+' · '+esc(v.product_name||"")+' · '+money(v.gmv)+' GMV · '+num(v.view_count)+' views · GMV/view '+(v.view_count?"$"+(v.gmv/v.view_count).toFixed(4):"n/a")+'</div>'+
+        (hook?'<div class="hook"><span class="sc '+scCls+'">'+sc+'/10</span><span>Hook: '+esc(hook.hook||hook.text||"")+'</span></div>':"")+
+        (v.selling_points&&v.selling_points.length?'<div class="kv">'+v.selling_points.slice(0,3).map(sp=>'<span><b>Selling point:</b> '+esc(sp.selling_point||sp.text||"")+'</span>').join("")+'</div>':"")+
+        (v.content_overview?'<div class="sp">'+esc(v.content_overview)+'</div>':"")+
+        '<div class="kv">'+visBits(v)+'</div></div>';
+    }).join("")+'</div>';
+  $("view-creative").innerHTML = html;
+}
+function visBits(v){
+  const bits=[];
+  if(v.product_visible_3s!=null) bits.push(v.product_visible_3s?"<span><b>Product visible in first 3s</b></span>":"<span><b>Product NOT visible in first 3s</b></span>");
+  if(v.product_screen_time_seconds!=null) bits.push("<span>Screen time <b>"+v.product_screen_time_seconds+"s</b></span>");
+  if(v.on_screen_text) bits.push("<span>On-screen text <b>"+esc(v.on_screen_text.slice(0,60))+"</b></span>");
+  return bits.join("");
+}
+
+/* ============================= PRODUCTS ============================= */
 function renderProducts(){
-  let html = '<div class="head"><h2>Product-level content</h2><span class="range">' +
-    (PROD_CURRENT ? "Per-product GMV, " + REPORT.periods[PERIOD].range
-                 : "Per-product series, pulled Jul 9 2026 (historical reference)") + '</span></div>';
-  if(PROD_CURRENT && PROD_CURRENT.products && PROD_CURRENT.products.length){
-    const rows = PROD_CURRENT.products.slice(0, 15);
-    html += '<table><thead><tr><th>Product</th><th>Price</th><th>Total GMV</th><th>Affiliate GMV</th><th>Video GMV</th><th>LIVE GMV</th><th>Shop tab GMV</th><th>Units</th></tr></thead><tbody>' +
-      rows.map(p => '<tr><td style="text-align:left;max-width:340px;white-space:normal">' + (p.product_name || "?") + '</td><td>' + money(p.price || 0) + '</td><td class="money">' + money(p.total_gmv || 0) + '</td><td class="money">' + money(p.affiliate_gmv || 0) + '</td><td class="money">' + money(p.video_gmv || 0) + '</td><td class="money">' + money(p.live_gmv || 0) + '</td><td class="money">' + money(p.shop_tab_gmv || 0) + '</td><td>' + num(p.units_sold || 0) + '</td></tr>').join("") +
-      '</tbody></table>' +
-      (PROD_CURRENT.products.length > 15 ? '<div class="muted" style="margin-top:8px">Showing top 15 of ' + PROD_CURRENT.products.length + ' products.</div>' : '');
+  let html = '<div class="head"><h2>Product-level content</h2><span class="range">'+
+    (PROD_CURRENT?"Per-product GMV, "+REPORT.periods[PERIOD].range:"Per-product series, pulled Jul 9 2026 (historical reference)")+'</span></div>';
+  if(PROD_CURRENT&&PROD_CURRENT.products&&PROD_CURRENT.products.length){
+    const rows = PROD_CURRENT.products.slice(0,15);
+    html += '<div class="tablewrap"><table><thead><tr><th>Product</th><th>Price</th><th>Total GMV</th><th>Affiliate GMV</th><th>Video GMV</th><th>LIVE GMV</th><th>Shop tab GMV</th><th>Units</th></tr></thead><tbody>'+
+      rows.map(p=>'<tr><td style="text-align:left;max-width:340px;white-space:normal">'+esc(p.product_name||"?")+'</td><td>'+money(p.price||0)+'</td><td class="money">'+money(p.total_gmv||0)+'</td><td class="money">'+money(p.affiliate_gmv||0)+'</td><td class="money">'+money(p.video_gmv||0)+'</td><td class="money">'+money(p.live_gmv||0)+'</td><td class="money">'+money(p.shop_tab_gmv||0)+'</td><td>'+num(p.units_sold||0)+'</td></tr>').join("")+
+      '</tbody></table></div>'+
+      (PROD_CURRENT.products.length>15?'<div class="muted small" style="margin-top:8px">Showing top 15 of '+PROD_CURRENT.products.length+' products.</div>':"");
   } else {
-    html += '<div class="notice"><span class="title">Product view unavailable</span><br>No current product series was found. The per-product breakdown will render once the Cruva pull writes products_current.json.</div>';
+    html += '<div class="notice"><span class="title">Product view unavailable</span><br>No current product series was found.</div>';
   }
   html += renderProductDaily();
-  if(PRODUCTS && PRODUCTS.segments){
-    html += renderProductVintage();
-  }
+  if(PRODUCTS&&PRODUCTS.segments) html += renderProductVintage();
   $("view-products").innerHTML = html;
 }
-
+function renderProductDaily(){
+  if(!PROD_DAILY||!PROD_DAILY.products||!PROD_DAILY.products.length) return "";
+  const rng = PROD_DAILY._provenance? (PROD_DAILY._provenance.range.from+" to "+PROD_DAILY._provenance.range.to):"";
+  const maxGmv = Math.max(...PROD_DAILY.products.map(p=>Math.max(...p.daily.map(d=>d.gmv))));
+  const rows = PROD_DAILY.products.map(p=>{
+    const days = p.daily.map(d=>{
+      const w = maxGmv? Math.max(2,Math.round(d.gmv/maxGmv*100)):0;
+      return '<td title="'+d.date+'"><div class="dbar"><div class="dfill" style="width:'+w+'%"></div></div><span class="dval">'+(d.gmv>=1000?"$"+(d.gmv/1000).toFixed(1)+"k":"$"+Math.round(d.gmv))+'</span><span class="dunit">'+d.units+'u</span></td>';
+    }).join("");
+    return '<tr><td class="pname" title="'+esc(p.product_name)+'">'+esc(p.product_name.slice(0,42))+'</td>'+days+'<td class="ptot">'+money(p.total_gmv)+'</td></tr>';
+  }).join("");
+  return '<div class="head" style="margin-top:22px"><h2>Daily GMV by product</h2><span class="range">Last completed week, '+rng+'</span></div>'+
+    '<div class="tablewrap"><table class="dt"><thead><tr><th>Product</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th><th>Week total</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+}
 function renderProductVintage(){
   const segs = PRODUCTS.segments, days = PRODUCTS.days, names = PRODUCTS.products;
   const sel = segs[PRODSEG];
   const gmv = sel.GMV, vid = sel.VID;
-  const todaySync = (gmv.sync && gmv.today === 0) ? '<span class="syncing">Syncing</span>' : money(gmv.today);
-  let html = '<h2 style="margin:26px 0 8px;font-size:20px">Historical series, Jul 9 2026</h2>' +
-    '<div class="muted" style="margin-bottom:12px">Last pull with per-day product segments. For reference against the current table above.</div>' +
-    '<div class="prodsel">' + Object.entries(names).map(([k,n]) =>
-      '<button data-prod="' + k + '" class="' + (k===PRODSEG?"active":"") + '">' + n + '</button>').join("") + '</div>' +
-    '<div class="hero">' +
-      heroCard("GMV, last 7 days", gmv.d7.v, '<span class="delta ' + (gmv.d7.d < 0 ? "down" : "up") + '">' + (gmv.d7.d>0?"+":"") + gmv.d7.d + "% vs prior</span>") +
-      heroCard("GMV, last 30 days", gmv.d30.v, '<span class="delta ' + (gmv.d30.d < 0 ? "down" : "up") + '">' + (gmv.d30.d>0?"+":"") + gmv.d30.d + "% vs prior</span>") +
-      heroCard("Video-attributed GMV, 7d", vid.d7.v, "Affiliate GMV minus LIVE GMV") +
-      heroCard("Videos posted, 7d", sel.VIDS.d7.v, "creator videos") +
-      heroCard("Today", todaySync, "today, sync=" + gmv.sync) +
-    '</div>' +
-    '<div class="charts">' +
-      svgSeries("GMV daily series", "Jul 9 vintage, per day", days, [["GMV", gmv.s, "#a995ff"],["Video-attributed GMV", vid.s, "#18add9"]]) +
-      svgSeries("Videos posted", "per day", days, [["Videos", sel.VIDS.s, "#33ae85"]]) +
-    '</div>';
+  const todaySync = (gmv.sync&&gmv.today===0)?'<span class="syncing">Syncing</span>':money(gmv.today);
+  let html = '<div class="head" style="margin-top:22px"><h2>Historical series, Jul 9 2026</h2><span class="range">Pulled from Cruva, Jul 9 2026 · for reference</span></div>'+
+    '<div class="kpis" style="grid-template-columns:repeat(5,1fr)">'+
+      kpi("Product", esc(names[PRODSEG]||"All"))+kpi("GMV today", todaySync)+kpi("GMV 7 days", money(gmv["7d"]))+
+      kpi("GMV 30 days", money(gmv["30d"]))+kpi("Video-attributed 7d", money(vid["7d"]))+'</div>'+
+    '<div class="prodsel" style="display:flex;gap:6px;padding:5px;border:1px solid var(--line);background:var(--surface);border-radius:11px;width:fit-content;margin:12px 0">'+
+      Object.keys(segs).map(k=>'<button data-prod="'+k+'" style="border:0;background:transparent;color:var(--muted);padding:7px 13px;border-radius:8px;font-weight:700;cursor:pointer;font-size:12.5px'+(k===PRODSEG?';background:var(--text);color:var(--bg)':"")+'">'+esc(names[k])+'</button>').join("")+'</div>'+
+    '<div class="panel"><div class="pt">GMV daily series (Jul 9 vintage)</div><div class="ps">Per-day total and video-attributed GMV</div>'+svgSeries("GMV daily series", "per day", days, [["GMV", gmv.s, "#7048e8"],["Video-attributed", vid.s, "#0ea5b7"]])+'</div>';
   return html;
 }
-
-function svgChart(title, sub, rows, series){
-  const W = 620, H = 210, P = 34;
-  const n = rows.length;
-  if(n < 2) return '<article class="panel"><h3>' + title + '</h3><div class="sub">' + sub + '</div><div class="muted">Not enough data.</div></article>';
-  const cols = series.map(s => s[1]);
-  const vals = rows.flatMap(r => cols.map(c => r[c] == null ? null : Number(r[c])));
-  const max = Math.max.apply(null, vals.filter(v => v != null && isFinite(v))) || 1;
-  const x = i => P + i * (W - 2 * P) / (n - 1);
-  const y = v => H - P - (v / max) * (H - 2 * P);
-  const path = (col) => rows.map((r,i) => (r[col] == null ? null : (i===0 ? "M" : "L") + x(i).toFixed(1) + " " + y(Number(r[col])).toFixed(1))).filter(Boolean).join(" ");
-  const first = String(rows[0][0]).slice(5), last = String(rows[n-1][0]).slice(5);
-  return '<article class="panel"><h3>' + title + '</h3><div class="sub">' + sub + '</div>' +
-    '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;height:auto">' +
-    series.map(s => '<path d="' + path(s[1]) + '" fill="none" stroke="' + s[2] + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>').join("") +
-    '<text x="' + P + '" y="' + (H - 8) + '">' + first + '</text><text x="' + (W - P - 40) + '" y="' + (H - 8) + '">' + last + '</text>' +
-    series.map(s => '<text x="' + P + '" y="' + (14 + series.indexOf(s) * 14) + '" fill="' + s[2] + '" font-weight="700">' + s[0] + '</text>').join("") +
-    '</svg></article>';
-}
-
 function svgSeries(title, sub, days, series){
-  const W = 620, H = 210, P = 34;
+  if(!days||!days.length) return "";
+  const W=760,H=180,padL=64,padB=26,padT=14;
+  const max = Math.max(...series.flatMap(s=>s[1]))*1.15||1;
   const n = days.length;
-  if(n < 2) return '<article class="panel"><h3>' + title + '</h3><div class="sub">' + sub + '</div></article>';
-  const max = Math.max.apply(null, series.flatMap(s => s[1].map(Number))) || 1;
-  const x = i => P + i * (W - 2 * P) / (n - 1);
-  const y = v => H - P - (v / max) * (H - 2 * P);
-  const path = (arr) => arr.map((v,i) => (i===0 ? "M" : "L") + x(i).toFixed(1) + " " + y(Number(v)).toFixed(1)).join(" ");
-  return '<article class="panel"><h3>' + title + '</h3><div class="sub">' + sub + '</div>' +
-    '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;height:auto">' +
-    series.map(s => '<path d="' + path(s[1]) + '" fill="none" stroke="' + s[2] + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>').join("") +
-    '<text x="' + P + '" y="' + (H - 8) + '">' + days[0] + '</text><text x="' + (W - P - 30) + '" y="' + (H - 8) + '">' + days[n-1] + '</text>' +
-    series.map(s => '<text x="' + P + '" y="' + (14 + series.indexOf(s) * 14) + '" fill="' + s[2] + '" font-weight="700">' + s[0] + '</text>').join("") +
-    '</svg></article>';
+  const X=(i)=>padL+i*(W-padL-16)/(n-1||1);
+  const Y=(v)=>padT+(H-padT-padB)*(1-v/max);
+  const path=(s)=>s.map((v,i)=>(i===0?"M":"L")+X(i).toFixed(1)+" "+Y(v).toFixed(1)).join(" ");
+  return '<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;height:auto">'+
+    series.map((s,i)=>'<path d="'+path(s[1])+'" fill="none" stroke="'+s[2]+'" stroke-width="2.5" stroke-linejoin="round" opacity="'+(i?0.9:1)+'"/>').join("")+
+    '<g fill="var(--faint)" font-size="10">'+
+      days.map((d,i)=>{ if(i%Math.ceil(n/8)!==0) return ""; return '<text x="'+X(i)+'" y="'+(H-8)+'" text-anchor="middle">'+d.slice(5)+'</text>'; }).join("")+
+    '</g><g fill="var(--faint)" font-size="10" text-anchor="end">'+
+      [0,.5,1].map(f=>'<text x="'+(padL-6)+'" y="'+(Y(max*f)+3)+'">'+fmtAxis(max*f)+'</text>').join("")+
+    '</g><line x1="'+padL+'" y1="'+(H-padB)+'" x2="'+(W-16)+'" y2="'+(H-padB)+'" stroke="var(--line)"/>'+
+    '</svg><div class="legend">'+series.map(s=>'<span><i style="background:'+s[2]+'"></i>'+s[0]+'</span>').join("")+'</div>';
 }
+function fmtAxis(v){ return v>=1000? (v/1000).toFixed(1)+"k" : Math.round(v); }
 
-document.getElementById("periodSeg").addEventListener("click", e => {
-  const b = e.target.closest("button"); if(!b) return;
-  PERIOD = b.dataset.period;
-  document.querySelectorAll("#periodSeg button").forEach(x => x.classList.toggle("active", x === b));
-  renderGMV(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos();
+/* ============================= EVENTS ============================= */
+document.querySelectorAll("#nav button").forEach(b=>{
+  b.onclick = ()=>{
+    document.querySelectorAll("#nav button").forEach(x=>x.classList.toggle("active",x===b));
+    document.querySelectorAll(".view").forEach(v=>v.classList.toggle("active",v.id==="view-"+b.dataset.tab));
+    TAB = b.dataset.tab;
+    $("pageTitle").textContent = TITLES[TAB]||"Overview";
+    window.scrollTo({top:0,behavior:"smooth"});
+  };
 });
-document.getElementById("tabSeg").addEventListener("click", e => {
-  const b = e.target.closest("button"); if(!b) return;
-  TAB = b.dataset.tab;
-  document.querySelectorAll("#tabSeg button").forEach(x => x.classList.toggle("active", x === b));
-  document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
-  $("view-" + TAB).classList.add("active");
+document.querySelectorAll("#periodSeg button").forEach(b=>{
+  b.onclick = ()=>{
+    PERIOD = b.dataset.period;
+    document.querySelectorAll("#periodSeg button").forEach(x=>x.classList.toggle("active",x===b));
+    renderOverview(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos();
+  };
 });
-document.addEventListener("click", e => {
-  const b = e.target.closest("[data-prod]"); if(!b) return;
-  PRODSEG = b.dataset.prod;
-  document.querySelectorAll(".prodsel button").forEach(x => x.classList.toggle("active", x === b));
-  renderProducts();
+document.addEventListener("click", (e)=>{
+  const pb = e.target.closest("[data-prod]");
+  if(pb){ PRODSEG = pb.dataset.prod; renderProducts(); }
 });
-document.getElementById("themeBtn").addEventListener("click", () => {
+$("themeBtn").onclick = ()=>{
   const root = document.documentElement;
-  root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
-});
+  root.dataset.theme = root.dataset.theme==="dark"?"light":"dark";
+};
+
 load();
 </script>
 </body>
