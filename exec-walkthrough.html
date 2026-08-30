@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exec Walkthrough: Where the Shop Analytics Live</title>
+<style>
+  :root{--bg:#0f1115;--panel:#171a21;--line:#242a35;--text:#e6e9ef;--muted:#8b93a3;--accent:#4f8cff;--good:#3ecf8e;--bad:#ff6b6b}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:40px 20px}
+  .wrap{max-width:860px;margin:0 auto}
+  h1{font-size:26px;letter-spacing:-0.3px;margin-bottom:6px}
+  .sub{color:var(--muted);margin-bottom:28px}
+  h2{font-size:18px;margin:34px 0 6px;display:flex;align-items:center;gap:10px}
+  .num{background:var(--accent);color:#fff;border-radius:8px;width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;font-size:14px;flex:none}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:14px 0}
+  .row{display:flex;gap:10px;margin-bottom:12px;align-items:baseline}
+  .lbl{color:var(--muted);width:150px;flex:none;font-size:13px;text-transform:uppercase;letter-spacing:0.4px}
+  .val{flex:1}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .place{color:var(--good);font-weight:600}
+  ol{margin:6px 0 0 20px}
+  li{margin:5px 0}
+  .ritual{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:18px 22px;margin-top:14px}
+  .ritual ol{counter-reset:none}
+  .foot{color:var(--muted);font-size:13px;margin-top:34px;border-top:1px solid var(--line);padding-top:14px}
+  .tag{display:inline-block;background:#1c2230;border:1px solid var(--line);color:var(--muted);border-radius:6px;font-size:12px;padding:1px 7px;margin-right:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Where the Shop Analytics Live</h1>
+  <div class="sub">The one-page executive answer to "where do I go to see that, and what do I do from this place?" Each surface: WHERE, IS THIS THE PLACE, WHAT TO DO.</div>
+
+  <h2><span class="num">1</span>The department dashboard <span class="tag">the main answer</span></h2>
+  <div class="card">
+    <div class="row"><span class="lbl">Where</span><span class="val"><a href="http://127.0.0.1:8123/dashboard/">Dashboard</a> (local preview; public URL pending). Reference: <a href="https://tiktok-daily-report.vercel.app/">tiktok-daily-report.vercel.app</a></span></div>
+    <div class="row"><span class="lbl">Is this the place</span><span class="val place">Yes.</span> Videos posted by products, revenue per video, views per video, revenue per view, organic vs GMV Max split, distribution of the top 10. Built to your exact spec, refreshed every morning from Cruva.</div>
+    <div class="row"><span class="lbl">What to do</span><span class="val"><ol>
+      <li><b>GMV tab:</b> week over week. Green or red, and how red. That is the pacing.</li>
+      <li><b>Financials tab:</b> net after ads, commissions, refunds. ROAS under 1.1 means ads eat the top line.</li>
+      <li><b>Products tab:</b> which product carries the week (the bidet is 66% of GMV). A sampling slowdown hits there first.</li>
+      <li><b>Creative tab:</b> top videos and hooks. High views, low revenue per view means the hook works but the product appears too late.</li>
+      <li><b>Outreach tab:</b> DMs, collab invites, replies, samples. A drop here shows up in revenue two to three weeks later.</li>
+    </ol></span></div>
+  </div>
+
+  <h2><span class="num">2</span>Cruva <span class="tag">the data underneath</span></h2>
+  <div class="card">
+    <div class="row"><span class="lbl">Where</span><span class="val"><a href="https://cruva.com">cruva.com</a> (shop: Upper Echelon Products)</span></div>
+    <div class="row"><span class="lbl">Is this the place</span><span class="val place">Yes.</span> The content reporting tool. Every dashboard number comes from here: videos, creators, samples, live streams, ads. You rarely need to log in; the dashboard pulls it.</div>
+    <div class="row"><span class="lbl">What to do</span><span class="val"><ol>
+      <li><b>Connections tab:</b> API access lives here. If the dashboard goes stale, the fix starts here.</li>
+      <li>Drill into a single creator or video when the dashboard flags something interesting.</li>
+    </ol></span></div>
+  </div>
+
+  <h2><span class="num">3</span>TikTok Shop Seller Center <span class="tag">source of truth for money</span></h2>
+  <div class="card">
+    <div class="row"><span class="lbl">Where</span><span class="val"><a href="https://seller-us.tiktok.com">seller-us.tiktok.com</a></span></div>
+    <div class="row"><span class="lbl">Is this the place</span><span class="val place">Yes.</span> Confirmed GMV, orders, units. The dashboard's "yesterday confirmed" strip reads from here (via Cruva). When they disagree, Seller Center wins.</div>
+    <div class="row"><span class="lbl">What to do</span><span class="val"><ol>
+      <li>Check yesterday's strip on the dashboard, confirm it matches.</li>
+      <li><b>GMV Max</b> lives here. The organic vs GMV Max split comes from this console.</li>
+    </ol></span></div>
+  </div>
+
+  <h2><span class="num">4</span>The master sheet <span class="tag">gross profit and CAC model</span></h2>
+  <div class="card">
+    <div class="row"><span class="lbl">Where</span><span class="val">[paste the master sheet link here] (Lauren's model)</span></div>
+    <div class="row"><span class="lbl">Is this the place</span><span class="val place">Yes.</span> Gross profit and CAC targets per item at each sale price. Example from the walkthrough: a $29.99 bidet sale price loses 30 cents per order. Current mix: 50% original, 30% Elevate, 20% Car Seat, driven by margins. Lauren recalculates on pricing changes.</div>
+    <div class="row"><span class="lbl">What to do</span><span class="val"><ol>
+      <li>Before any sampling decision (bidet vs screen door vs C-Cushion), check that item's gross profit line.</li>
+      <li>The dashboard Financials tab is the live operational view; this sheet is the planning model. Different questions.</li>
+    </ol></span></div>
+  </div>
+
+  <h2><span class="num">5</span>Kalodata <span class="tag">content and trends</span></h2>
+  <div class="card">
+    <div class="row"><span class="lbl">Where</span><span class="val"><a href="https://kalodata.com">kalodata.com</a></span></div>
+    <div class="row"><span class="lbl">Is this the place</span><span class="val place">Yes.</span> What is trending in the category and what competitors post. Feeds the content brief website work.</div>
+    <div class="row"><span class="lbl">What to do</span><span class="val"><ol>
+      <li>Weekly: scan top category videos for hook ideas.</li>
+      <li>Feed reusable ideas into the creative direction loop.</li>
+    </ol></span></div>
+  </div>
+
+  <h2><span class="num">&#10003;</span>The weekly ritual <span class="tag">ten minutes</span></h2>
+  <div class="ritual">
+    <ol>
+      <li><b>GMV tab:</b> up or down week over week? That is the pacing.</li>
+      <li><b>Financials:</b> net after ads, commissions, refunds. Are we getting hit, and where?</li>
+      <li><b>Products:</b> which product carries the week. Where a slowdown lands first.</li>
+      <li><b>Creative:</b> top videos, hooks, revenue per view. What to adjust.</li>
+      <li><b>Outreach:</b> DMs, collabs, samples. What will hit revenue in 2 to 3 weeks.</li>
+      <li><b>Sampling decision:</b> inbound requests approve by default; outbound push confirmed against the master sheet gross profit, then greenlit.</li>
+    </ol>
+  </div>
+
+  <div class="foot">Built from the Aug 27 call and the "Shop Content Analytics and Sampling Updates" Loom. Sources: dashboard data (Cruva REST), Loom transcript. The master sheet link is the one placeholder; paste it in and the doc is complete. Markdown source: data/walkthrough/exec-walkthrough.md.</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,926 @@
+{
+  "schema_version": "1.0",
+  "shop": {
+    "id": "6a4afedb8723598115c48df6",
+    "name": "Upper Echelon Products"
+  },
+  "source": "Cruva API",
+  "freshness": {
+    "pulled_on": "2026-08-30",
+    "data_through": "2026-08-23",
+    "status": "complete",
+    "note": "Pulled from Cruva REST API on 2026-08-30. Complete attribution through 2026-08-23."
+  },
+  "latest_source_check": {
+    "date": "2026-08-29",
+    "seller_center_gmv": 2189.87,
+    "orders": 93,
+    "units": 98,
+    "gmv_max_revenue": 1342.28,
+    "gmv_max_spend": 1059.67,
+    "gmv_max_roas": 1.2666962356205234,
+    "attribution_status": "complete"
+  },
+  "periods": {
+    "week": {
+      "range": "Aug 17 to Aug 23, 2026",
+      "score": {
+        "title": "Last 7 Days",
+        "sub": "Seller Center GMV through the latest complete Cruva day.",
+        "range": "Aug 17 to Aug 23, 2026",
+        "gmv": 15825.92,
+        "gmvDelta": "-32.0% vs prior period",
+        "down": true,
+        "adRevenue": 12451.439999999999,
+        "adSpend": 11150.35,
+        "roas": 1.1167,
+        "m": {
+          "Orders": 629,
+          "Units sold": 684.0,
+          "Affiliate GMV": 13805.86,
+          "Commission": 3351.1,
+          "Videos posted": 168,
+          "Creators posting": 111,
+          "Video views": 1098089,
+          "LIVE GMV": 5956.06,
+          "DMs sent": 6087,
+          "Sample requests": 169,
+          "Samples approved": 51,
+          "LIVE streams": 182
+        },
+        "sync": false
+      },
+      "outreach": {
+        "funnel": {
+          "DMs sent": 6087,
+          "Collab invites": 6581,
+          "Replies": 30,
+          "Sample requests": 169,
+          "Approved samples": 51,
+          "Delivered samples": 49
+        },
+        "totals": {
+          "DMs sent": 6087,
+          "Collab invites": 6581,
+          "Replies": 30,
+          "Sample requests": 169,
+          "Samples approved": 51,
+          "Samples shipped": 56,
+          "Samples delivered": 49,
+          "Creators with sales": 50
+        },
+        "daily": [
+          [
+            "2026-08-17",
+            872,
+            955,
+            4,
+            26,
+            24,
+            null,
+            1
+          ],
+          [
+            "2026-08-18",
+            174,
+            132,
+            9,
+            39,
+            10,
+            null,
+            9
+          ],
+          [
+            "2026-08-19",
+            31,
+            100,
+            4,
+            25,
+            0,
+            null,
+            9
+          ],
+          [
+            "2026-08-20",
+            36,
+            50,
+            2,
+            21,
+            12,
+            null,
+            15
+          ],
+          [
+            "2026-08-21",
+            4,
+            50,
+            2,
+            18,
+            5,
+            null,
+            11
+          ],
+          [
+            "2026-08-22",
+            4935,
+            5294,
+            4,
+            24,
+            0,
+            null,
+            2
+          ],
+          [
+            "2026-08-23",
+            35,
+            0,
+            5,
+            16,
+            0,
+            null,
+            2
+          ]
+        ]
+      },
+      "creators": [
+        [
+          "Fortune Finds",
+          "fortune0420",
+          3789.72,
+          123,
+          1413,
+          1034.04,
+          1,
+          7
+        ],
+        [
+          "sylviaapproved",
+          "sylviaapproved",
+          2264.06,
+          126,
+          147659,
+          587.68,
+          0,
+          0
+        ],
+        [
+          "Muscle Dad",
+          "muscle_dad",
+          1604.52,
+          49,
+          46312,
+          440.17,
+          18,
+          4
+        ],
+        [
+          "Red Oakley",
+          "jaterao92",
+          1165.01,
+          47,
+          103028,
+          286.45,
+          0,
+          0
+        ],
+        [
+          "Big Homie Aroc",
+          "aroc_finesse",
+          1029.54,
+          32,
+          32875,
+          268.99,
+          2,
+          2
+        ],
+        [
+          "ryanxbradshaw",
+          "ryanxbradshaw",
+          689.19,
+          21,
+          342981,
+          178.6,
+          0,
+          0
+        ],
+        [
+          "happyshop",
+          "happyshop968",
+          465.11,
+          26,
+          12118,
+          44.88,
+          0,
+          0
+        ],
+        [
+          "Bold Videos",
+          "boldvideos7",
+          455.08,
+          11,
+          0,
+          84.78,
+          0,
+          2
+        ],
+        [
+          "Coop Queen Courtney",
+          "courtney_gonzales19",
+          448.07,
+          21,
+          18235,
+          116.34,
+          3,
+          0
+        ],
+        [
+          "keniaher",
+          "keniaher.77",
+          194.46,
+          11,
+          10856,
+          29.22,
+          2,
+          0
+        ]
+      ],
+      "videos": [
+        [
+          "7676555459486141727",
+          "More than a summer screen! Works like a dog door, snaps shut automatically, lets fresh air in while ",
+          "courtney_gonzales19",
+          "courtney_gonzales19",
+          74.95,
+          4,
+          2052,
+          11,
+          "https://tiktok.com/@courtney_gonzales19/video/7676555459486141727"
+        ],
+        [
+          "7676254915894775070",
+          "Para que ya no te huela mal\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping ",
+          "viralshopdealz",
+          "viralshopdealz",
+          56.0,
+          2,
+          208337,
+          1685,
+          "https://tiktok.com/@viralshopdealz/video/7676254915894775070"
+        ],
+        [
+          "7675583697248062751",
+          "\u00a1El mosquitero que ya conoc\u00edas ahora viene MEJORADO! \ud83d\ude4c M\u00e1s resistente y con 52 imanes para un cierre",
+          "comprasconbere",
+          "comprasconbere",
+          52.8,
+          4,
+          3907,
+          7,
+          "https://tiktok.com/@comprasconbere/video/7675583697248062751"
+        ],
+        [
+          "7675470966608104718",
+          "Much better than smearing shit covere paper balls back in your ass.. #creatorsearchinsights #TiktokS",
+          "muscle_dad",
+          "muscle_dad",
+          50.44,
+          2,
+          1564,
+          3,
+          "https://tiktok.com/@muscle_dad/video/7675470966608104718"
+        ],
+        [
+          "7675615446304902431",
+          "#bidet#beautyhacks #tiktokbacktoschool ",
+          "timercadel",
+          "timercadel",
+          42.43,
+          2,
+          1029,
+          2,
+          "https://tiktok.com/@timercadel/video/7675615446304902431"
+        ],
+        [
+          "7676472661001686286",
+          "It\u2019s on sale and it\u2019s risk free! #TiktokShopCreatorPicks #christmas #tiktokshopbacktoschool #bidet #",
+          "muscle_dad",
+          "muscle_dad",
+          35.7,
+          2,
+          1308,
+          2,
+          "https://tiktok.com/@muscle_dad/video/7676472661001686286"
+        ],
+        [
+          "7674960644008938783",
+          "Guys, just trust me on this one. \ud83d\udca9\ud83d\udebd\ud83e\udd23 #tiktokmademebuyit #bidet #ttshopdeals ",
+          "taywoods_ugc",
+          "taywoods_ugc",
+          31.99,
+          1,
+          629,
+          3,
+          "https://tiktok.com/@taywoods_ugc/video/7674960644008938783"
+        ],
+        [
+          "7676261474540604702",
+          "Esta malla magn\u00e9tica va a proteger de que no entren a tu hogar ni moscas ,ni insectos#home#magnetic ",
+          "bethdomo0",
+          "bethdomo0",
+          21.72,
+          1,
+          1536,
+          20,
+          "https://tiktok.com/@bethdomo0/video/7676261474540604702"
+        ],
+        [
+          "7675842737832316173",
+          "#augo#mosquitero#mosquitero#parapuertas",
+          "paolaalmanza66",
+          "paolaalmanza66",
+          20.89,
+          1,
+          2097,
+          4,
+          "https://tiktok.com/@paolaalmanza66/video/7675842737832316173"
+        ],
+        [
+          "7675489710784990478",
+          "\u00bfSab\u00edas cu\u00e1nto papel usamos en el ba\u00f1o sin darnos cuenta?Con este aparatito puedes incorporar el agu",
+          "lady.ch15",
+          "lady.ch15",
+          19.99,
+          1,
+          95,
+          6,
+          "https://tiktok.com/@lady.ch15/video/7675489710784990478"
+        ]
+      ]
+    },
+    "month": {
+      "range": "Jul 25 to Aug 23, 2026",
+      "score": {
+        "title": "Last 30 Days",
+        "sub": "Seller Center GMV through the latest complete Cruva day.",
+        "range": "Jul 25 to Aug 23, 2026",
+        "gmv": 86816.31,
+        "gmvDelta": "+58.5% vs prior period",
+        "down": false,
+        "adRevenue": 78198.82,
+        "adSpend": 78907.15,
+        "roas": 0.991,
+        "m": {
+          "Orders": 3661,
+          "Units sold": 4235.0,
+          "Affiliate GMV": 77731.84,
+          "Commission": 19520.13,
+          "Videos posted": 923,
+          "Creators posting": 376,
+          "Video views": 5990690,
+          "LIVE GMV": 29946.84,
+          "DMs sent": 50498,
+          "Sample requests": 917,
+          "Samples approved": 382,
+          "LIVE streams": 785
+        },
+        "sync": false
+      },
+      "outreach": {
+        "funnel": {
+          "DMs sent": 50498,
+          "Collab invites": 27131,
+          "Replies": 182,
+          "Sample requests": 917,
+          "Approved samples": 382,
+          "Delivered samples": 391
+        },
+        "totals": {
+          "DMs sent": 50498,
+          "Collab invites": 27131,
+          "Replies": 182,
+          "Sample requests": 917,
+          "Samples approved": 382,
+          "Samples shipped": 387,
+          "Samples delivered": 391,
+          "Creators with sales": 146
+        },
+        "daily": [
+          [
+            "2026-07-25",
+            5789,
+            0,
+            9,
+            29,
+            0,
+            null,
+            5
+          ],
+          [
+            "2026-07-26",
+            5,
+            0,
+            2,
+            26,
+            0,
+            null,
+            3
+          ],
+          [
+            "2026-07-27",
+            2378,
+            11,
+            3,
+            19,
+            34,
+            null,
+            4
+          ],
+          [
+            "2026-07-28",
+            6971,
+            0,
+            5,
+            28,
+            16,
+            null,
+            13
+          ],
+          [
+            "2026-07-29",
+            4469,
+            0,
+            9,
+            19,
+            7,
+            null,
+            13
+          ],
+          [
+            "2026-07-30",
+            31,
+            1,
+            7,
+            9,
+            0,
+            null,
+            24
+          ],
+          [
+            "2026-07-31",
+            806,
+            890,
+            0,
+            25,
+            7,
+            null,
+            15
+          ],
+          [
+            "2026-08-01",
+            3804,
+            3819,
+            7,
+            66,
+            4,
+            null,
+            5
+          ],
+          [
+            "2026-08-02",
+            1521,
+            1524,
+            12,
+            76,
+            0,
+            null,
+            0
+          ],
+          [
+            "2026-08-03",
+            1532,
+            1419,
+            8,
+            82,
+            119,
+            null,
+            1
+          ],
+          [
+            "2026-08-04",
+            454,
+            507,
+            5,
+            45,
+            25,
+            null,
+            19
+          ],
+          [
+            "2026-08-05",
+            16,
+            0,
+            7,
+            42,
+            0,
+            null,
+            35
+          ],
+          [
+            "2026-08-06",
+            42,
+            100,
+            1,
+            25,
+            30,
+            null,
+            62
+          ],
+          [
+            "2026-08-07",
+            1904,
+            832,
+            6,
+            30,
+            0,
+            null,
+            26
+          ],
+          [
+            "2026-08-08",
+            2061,
+            1173,
+            17,
+            39,
+            0,
+            null,
+            17
+          ],
+          [
+            "2026-08-09",
+            12,
+            100,
+            0,
+            17,
+            0,
+            null,
+            10
+          ],
+          [
+            "2026-08-10",
+            90,
+            12,
+            5,
+            24,
+            46,
+            null,
+            6
+          ],
+          [
+            "2026-08-11",
+            3857,
+            2746,
+            3,
+            20,
+            10,
+            null,
+            9
+          ],
+          [
+            "2026-08-12",
+            5748,
+            4517,
+            23,
+            34,
+            0,
+            null,
+            9
+          ],
+          [
+            "2026-08-13",
+            2803,
+            2699,
+            12,
+            40,
+            33,
+            null,
+            20
+          ],
+          [
+            "2026-08-14",
+            37,
+            100,
+            7,
+            17,
+            0,
+            null,
+            26
+          ],
+          [
+            "2026-08-15",
+            47,
+            0,
+            1,
+            16,
+            0,
+            null,
+            15
+          ],
+          [
+            "2026-08-16",
+            34,
+            100,
+            3,
+            20,
+            0,
+            null,
+            5
+          ],
+          [
+            "2026-08-17",
+            872,
+            955,
+            4,
+            26,
+            24,
+            null,
+            1
+          ],
+          [
+            "2026-08-18",
+            174,
+            132,
+            9,
+            39,
+            10,
+            null,
+            9
+          ],
+          [
+            "2026-08-19",
+            31,
+            100,
+            4,
+            25,
+            0,
+            null,
+            9
+          ],
+          [
+            "2026-08-20",
+            36,
+            50,
+            2,
+            21,
+            12,
+            null,
+            15
+          ],
+          [
+            "2026-08-21",
+            4,
+            50,
+            2,
+            18,
+            5,
+            null,
+            11
+          ],
+          [
+            "2026-08-22",
+            4935,
+            5294,
+            4,
+            24,
+            0,
+            null,
+            2
+          ],
+          [
+            "2026-08-23",
+            35,
+            0,
+            5,
+            16,
+            0,
+            null,
+            2
+          ]
+        ]
+      },
+      "creators": [
+        [
+          "Muscle Dad",
+          "muscle_dad",
+          13962.17,
+          429,
+          369205,
+          3955.67,
+          66,
+          24
+        ],
+        [
+          "Fortune Finds",
+          "fortune0420",
+          12329.54,
+          387,
+          5117,
+          3395.59,
+          4,
+          29
+        ],
+        [
+          "sylviaaaxoxoo",
+          "sylviaaaxoxoo",
+          9148.15,
+          552,
+          1375474,
+          2672.85,
+          18,
+          0
+        ],
+        [
+          "Red Oakley",
+          "jaterao92",
+          6639.2,
+          254,
+          737648,
+          1546.27,
+          3,
+          0
+        ],
+        [
+          "Big Homie Aroc",
+          "aroc_finesse",
+          6259.66,
+          203,
+          105890,
+          1712.48,
+          53,
+          14
+        ],
+        [
+          "ryanxbradshaw",
+          "ryanxbradshaw",
+          4798.09,
+          154,
+          1571030,
+          1254.87,
+          0,
+          0
+        ],
+        [
+          "sylviaapproved",
+          "sylviaapproved",
+          2815.75,
+          162,
+          147659,
+          760.02,
+          0,
+          0
+        ],
+        [
+          "happyshop",
+          "happyshop968",
+          2393.17,
+          142,
+          74507,
+          248.12,
+          0,
+          0
+        ],
+        [
+          "The Evergreen Edit",
+          "theevergreeneditco",
+          2194.21,
+          87,
+          89459,
+          728.04,
+          12,
+          0
+        ],
+        [
+          "Coop Queen Courtney",
+          "courtney_gonzales19",
+          1481.25,
+          78,
+          126820,
+          397.01,
+          50,
+          0
+        ]
+      ],
+      "videos": [
+        [
+          "7670969961753431309",
+          "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
+          "keniaher.77",
+          "keniaher.77",
+          1349.97,
+          110,
+          57398,
+          281,
+          "https://tiktok.com/@keniaher.77/video/7670969961753431309"
+        ],
+        [
+          "7672846600267468062",
+          "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
+          "sylviaapproved",
+          "sylviaapproved",
+          1190.32,
+          82,
+          107623,
+          451,
+          "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
+        ],
+        [
+          "7667655800428530958",
+          "This magnetic screen door installs in minutes with no tools required, snaps shut automatically behin",
+          "courtney_gonzales19",
+          "courtney_gonzales19",
+          786.05,
+          60,
+          51693,
+          95,
+          "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958"
+        ],
+        [
+          "7671831593891171597",
+          "",
+          "courtney_gonzales19",
+          "courtney_gonzales19",
+          571.06,
+          47,
+          17964,
+          34,
+          "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597"
+        ],
+        [
+          "7668379441541713183",
+          "@Upper Echelon Products bidet on a special discount\u203c\ufe0f#tiktockshopinspiredfindsforwomen #shoppingprod",
+          "theevergreeneditco",
+          "theevergreeneditco",
+          446.09,
+          21,
+          9032,
+          26,
+          "https://tiktok.com/@theevergreeneditco/video/7668379441541713183"
+        ],
+        [
+          "7672651476019318047",
+          "Bidet",
+          "favoritefavoritefind",
+          "favoritefavoritefind",
+          440.2,
+          17,
+          21538,
+          51,
+          "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047"
+        ],
+        [
+          "7673494617085693214",
+          "",
+          "theevergreeneditco",
+          "theevergreeneditco",
+          357.81,
+          18,
+          9625,
+          26,
+          "https://tiktok.com/@theevergreeneditco/video/7673494617085693214"
+        ],
+        [
+          "7674461738112175391",
+          "The only bidet i use #ClearRear #Bidet  ",
+          "aroc_finesse",
+          "aroc_finesse",
+          211.27,
+          9,
+          36730,
+          307,
+          "https://tiktok.com/@aroc_finesse/video/7674461738112175391"
+        ],
+        [
+          "7668087367886048542",
+          "Clear Rear Bidet Attachment for Toilet #tiktokshopcreatorpicks #SummerVibes #DealsForYouDays #AIGC ",
+          "topfinds376",
+          "topfinds376",
+          199.39,
+          8,
+          12502,
+          30,
+          "https://tiktok.com/@topfinds376/video/7668087367886048542"
+        ],
+        [
+          "7670635055097695501",
+          "#movingday #backtoschool #dealsforyoudays ",
+          "dawnmichele1972",
+          "dawnmichele1972",
+          171.2,
+          18,
+          15698,
+          50,
+          "https://tiktok.com/@dawnmichele1972/video/7670635055097695501"
+        ]
+      ]
+    }
+  }
+}

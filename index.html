@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>UEP TikTok Shop Performance Dashboard</title>
+<style>
+:root{--bg:#0b0c16;--surface:#151727;--card:#191c2f;--line:#30344d;--text:#f8f8fc;--muted:#a9aec3;--purple:#a995ff;--green:#6fd99b;--red:#ff8b92;--amber:#ffc47a;--blue:#18add9;--hero1:#32234f;--hero2:#171828;--shadow:0 18px 50px rgba(0,0,0,.18)}
+[data-theme=light]{--bg:#f5f4fa;--surface:#fff;--card:#f0eef7;--line:#d8d5e4;--text:#171521;--muted:#68657a;--purple:#6f52d8;--green:#087b46;--red:#c33448;--amber:#9a5900;--blue:#0e7d99;--hero1:#e8e1ff;--hero2:#fff;--shadow:0 14px 40px rgba(40,31,69,.09)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 85% 0,color-mix(in srgb,var(--purple) 20%,transparent),transparent 34rem),var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,-apple-system,sans-serif;transition:.2s}
+.wrap{width:min(1160px,calc(100% - 32px));margin:auto;padding:32px 0 60px}
+.eyebrow,.label{font-size:11px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
+.eyebrow{color:var(--purple)}.label{color:var(--muted)}
+header{display:flex;justify-content:space-between;gap:22px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:21px}
+h1{font-size:clamp(31px,5vw,52px);line-height:1;letter-spacing:-.045em;margin:8px 0 10px}
+.muted{color:var(--muted)}
+.header-right{display:flex;gap:8px;align-items:stretch}
+.chip,.card,.panel,.hero{background:var(--surface);border:1px solid var(--line);border-radius:15px;box-shadow:var(--shadow)}
+.chip{padding:12px 14px;min-width:155px}.chip strong{display:block;margin-top:4px}
+.theme{width:46px;border:1px solid var(--line);border-radius:15px;background:var(--surface);color:var(--text);font-size:19px;cursor:pointer}
+.controls{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:18px 0 25px}
+.seg{display:flex;gap:6px;padding:5px;border:1px solid var(--line);background:var(--surface);border-radius:13px}
+.seg button{border:0;background:transparent;color:var(--muted);padding:9px 15px;border-radius:9px;font-weight:800;cursor:pointer}
+.seg button.active{background:var(--text);color:var(--bg)}
+.view{display:none}.view.active{display:block}
+.head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:14px}
+.head h2{margin:0;font-size:24px}
+.range{color:var(--purple);font:750 12px ui-monospace,monospace}
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;padding:18px;margin-bottom:16px}
+.hero .big{font-size:30px;font-weight:850;letter-spacing:-.03em;margin-top:6px}
+.hero .sub{color:var(--muted);font-size:12px;margin-top:2px}
+.delta{font-weight:800}.delta.down{color:var(--red)}.delta.up{color:var(--green)}
+.syncing{color:var(--amber);font-weight:700;font-size:12px}
+.notice{border:1px solid var(--line);background:color-mix(in srgb,var(--amber) 10%,var(--surface));color:var(--text);border-radius:12px;padding:11px 14px;font-size:13px;margin-bottom:16px}
+.notice .title{font-weight:800;color:var(--amber);text-transform:uppercase;font-size:11px;letter-spacing:.1em}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+.card{padding:14px 16px}.card .label{margin-bottom:6px}.card .value{font-size:22px;font-weight:800;letter-spacing:-.02em}
+.funnel{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;flex:1;min-width:120px}
+.step span{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:800}
+.step strong{font-size:21px;font-weight:850;display:block;margin-top:4px}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:15px;overflow:hidden;box-shadow:var(--shadow)}
+th{font-size:11px;font-weight:850;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;padding:12px 14px;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}
+td{padding:11px 14px;border-bottom:1px solid color-mix(in srgb,var(--line) 55%,transparent);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.money{font-weight:750}
+.profile-link{color:inherit;text-decoration:none}.profile-link b{display:block}
+.profile-link .muted,.video-caption{font-size:13px}
+.video-caption{color:inherit;text-decoration:none;display:inline-block;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px;margin-top:16px}
+.panel{padding:16px 18px}.panel h3{margin:0 0 4px;font-size:16px}.panel .sub{color:var(--muted);font-size:12px;margin-bottom:10px}
+svg text{fill:var(--muted);font-size:10px}
+.prodsel{display:flex;gap:6px;padding:5px;border:1px solid var(--line);background:var(--surface);border-radius:13px;margin-bottom:16px;width:fit-content}
+.prodsel button{border:0;background:transparent;color:var(--muted);padding:8px 14px;border-radius:9px;font-weight:800;cursor:pointer}
+.prodsel button.active{background:var(--text);color:var(--bg)}
+.dt{width:100%;border-collapse:collapse;font-size:12.5px}
+.dt th{color:var(--muted);font-weight:600;text-align:center;padding:6px 4px;border-bottom:1px solid var(--line)}
+.dt td{padding:7px 4px;text-align:center;border-bottom:1px solid var(--line)}
+.dt td.pname{text-align:left;max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:12px}
+.dt td.ptot{font-weight:600;text-align:right}
+.dbar{background:var(--line);border-radius:4px;height:10px;margin-bottom:3px;overflow:hidden}
+.dfill{background:var(--accent);height:100%;border-radius:4px}
+.dval{display:block;font-size:11px;color:var(--text)}
+.dunit{display:block;font-size:10px;color:var(--muted)}
+.creat-head{margin-bottom:8px}
+.creat-head .chip-mini{display:inline-block;background:color-mix(in srgb,var(--purple) 16%,transparent);border:1px solid var(--line);border-radius:99px;padding:2px 10px;font-size:11px;font-weight:800;color:var(--purple);margin-left:6px}
+.creat-metrics{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin-bottom:10px}
+.creat-metrics b{color:var(--text)}
+.creat-block{margin:6px 0;padding-left:12px;border-left:2px solid var(--line);font-size:13px}
+.hook{margin:4px 0}
+.hookscore{font-weight:850;font-size:11px;text-transform:uppercase;letter-spacing:.06em;margin-right:6px}
+.small{font-size:12px}
+.ok{color:var(--green);font-weight:700}
+.bad{color:var(--red);font-weight:700}
+footer{margin-top:26px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:14px}
+.error{border:1px solid var(--red);background:color-mix(in srgb,var(--red) 12%,var(--surface));border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.error b{color:var(--red)}
+@media(max-width:720px){header{flex-direction:column;align-items:stretch}.controls{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">Upper Echelon Products &middot; TikTok Shop</div>
+      <h1>TikTok Shop performance dashboard</h1>
+      <div class="muted">GMV, affiliate performance, outreach, creators, and content, direct from Cruva.</div>
+    </div>
+    <div class="header-right">
+      <div class="chip"><span class="label">Complete reporting cutoff</span><strong id="dataThrough">Loading&hellip;</strong></div>
+      <div class="chip"><span class="label">Published / pulled</span><strong id="pulledOn">Loading&hellip;</strong></div>
+      <button class="theme" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">&#127769;</button>
+    </div>
+  </header>
+
+  <div id="latestCheck" class="notice" hidden></div>
+  <div id="errorBox" class="error" hidden></div>
+
+  <div class="controls">
+    <div class="seg" id="periodSeg">
+      <button data-period="week" class="active">Last 7 Days</button>
+      <button data-period="month">Last 30 Days</button>
+    </div>
+    <div class="seg" id="tabSeg">
+      <button data-tab="gmv" class="active">GMV</button>
+      <button data-tab="financials">Financials</button>
+      <button data-tab="outreach">Outreach</button>
+      <button data-tab="creators">Creators</button>
+      <button data-tab="videos">Videos</button>
+      <button data-tab="creative">Creative</button>
+      <button data-tab="products">Products</button>
+    </div>
+  </div>
+
+  <section id="view-gmv" class="view active"></section>
+  <section id="view-financials" class="view"></section>
+  <section id="view-outreach" class="view"></section>
+  <section id="view-creators" class="view"></section>
+  <section id="view-videos" class="view"></section>
+  <section id="view-creative" class="view"></section>
+  <section id="view-products" class="view"></section>
+
+  <footer>
+    <span>Source: Cruva MCP &middot; Upper Echelon Products</span>
+    <span>Seller Center GMV and GMV Max revenue are separate reporting views.</span>
+  </footer>
+</div>
+
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+let REPORT = null, PRODUCTS = null, PROD_CURRENT = null, PROD_DAILY = null, BRIEF = null, FIN = null, PERIOD = "week", TAB = "gmv", PRODSEG = "all";
+
+const LAGGING = ["Affiliate GMV", "Video views", "Commission", "LIVE GMV"];
+
+function money(n){ return "$" + Number(n).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}); }
+function num(n){ return Number(n).toLocaleString("en-US"); }
+function displayDate(iso){ if(!iso) return ""; const d = new Date(iso + "T00:00:00Z"); return d.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"}); }
+function labelOf(k){ return k.replace(/([A-Z])/g," $1").replace(/^./,c=>c.toUpperCase()); }
+function metricValue(m, key, sync){
+  // Never present lagging missing data as real zero.
+  if(sync && LAGGING.includes(key) && (m[key] === 0 || m[key] == null)) return '<span class="syncing">Syncing</span>';
+  return num(m[key]);
+}
+
+async function load(){
+  try{
+    const [r, p, pc, b, fin, pd] = await Promise.all([
+      fetch("data/latest.json", {cache:"no-store"}).then(x=>{ if(!x.ok) throw new Error("report data unavailable ("+x.status+")"); return x.json(); }),
+      fetch("data/products.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null),
+      fetch("data/products_current.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null),
+      fetch("data/creative_brief.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null),
+      fetch("data/financials.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null),
+      fetch("data/products_daily.json", {cache:"no-store"}).then(x=> x.ok ? x.json() : null).catch(()=>null)
+    ]);
+    if(r.schema_version !== "1.0" || !r.periods || !r.periods.week || !r.periods.month) throw new Error("unsupported or incomplete report data");
+    REPORT = r; PRODUCTS = p; PROD_CURRENT = pc; BRIEF = b; FIN = fin; PROD_DAILY = pd;
+    renderAll();
+  }catch(err){
+    $("errorBox").hidden = false;
+    $("errorBox").innerHTML = "<b>Report unavailable:</b> " + err.message + ". The previous deployment has not been overwritten with partial data.";
+  }
+}
+
+function renderAll(){
+  $("dataThrough").textContent = displayDate(REPORT.freshness.data_through);
+  $("pulledOn").textContent = displayDate(REPORT.freshness.pulled_on);
+  renderLatestCheck();
+  renderGMV(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos(); renderCreative(); renderProducts();
+}
+
+function renderFinancials(){
+  if(!FIN || !FIN.periods || !FIN.periods[PERIOD]){
+    $("view-financials").innerHTML = '<div class="head"><h2>Financials</h2><span class="range">P&L view</span></div>' +
+      '<div class="notice"><span class="title">Financials unavailable</span><br>Run pipeline/financials.py to generate the P&L view.</div>';
+    return;
+  }
+  const f = FIN.periods[PERIOD];
+  const net = f.net_after_ads_commissions_refunds;
+  const netClass = net < 0 ? "down" : "up";
+  const r = f.ratios;
+  const fmt = (v) => v == null ? "n/a" : (typeof v === "number" ? v.toLocaleString("en-US",{maximumFractionDigits:2}) : v);
+  $("view-financials").innerHTML =
+    '<div class="head"><h2>Financials</h2><span class="range">Operational P&L, ' + f.range + '</span></div>' +
+    '<div class="notice"><span class="title">Scope</span><br>Operational P&L from Cruva data. COGS is not exposed by the API, so the net line below excludes COGS. The formal P&L projection lives in the TikTok P&L task (86ak1mbh4).</div>' +
+    '<div class="hero">' +
+      heroCard("Total GMV", money(f.revenue.total_gmv), "all channels") +
+      heroCard("Net of ads, commissions, refunds", money(net), '<span class="delta ' + netClass + '">' + (net < 0 ? "negative" : "positive") + '</span>, excludes COGS') +
+      heroCard("Blended ROAS", fmt(r.blended_roas), "total GMV / ad spend") +
+      heroCard("Commission rate", fmt(r.commission_rate_pct) + "%", "of affiliate GMV") +
+    '</div>' +
+    '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Revenue stack</h3></div>' +
+    '<div class="grid">' +
+      Object.entries(f.revenue).map(([k,v]) => '<div class="card"><div class="label">' + labelOf(k) + '</div><div class="value">' + money(v) + '</div></div>').join("") +
+    '</div>' +
+    '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Spend stack</h3></div>' +
+    '<div class="grid">' +
+      Object.entries(f.spend).map(([k,v]) => '<div class="card"><div class="label">' + labelOf(k) + '</div><div class="value">' + money(v) + '</div></div>').join("") +
+    '</div>' +
+    '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Efficiency ratios</h3></div>' +
+    '<div class="grid">' +
+      card("Blended ROAS", fmt(r.blended_roas)) + card("GMV Max ROAS", fmt(r.gmv_max_roas)) +
+      card("Commission rate", fmt(r.commission_rate_pct) + "%") + card("Refund rate", fmt(r.refund_rate_pct) + "%") +
+      card("AOV", money(r.aov || 0)) + card("GPM", fmt(r.gpm), "GMV per 1,000 views") +
+      card("EMV", money(r.emv || 0)) + card("GMV / sample delivered", money(r.gmv_per_sample_delivered || 0)) +
+    '</div>' +
+    '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Volume</h3></div>' +
+    '<div class="grid">' +
+      Object.entries(f.volume).map(([k,v]) => '<div class="card"><div class="label">' + labelOf(k) + '</div><div class="value">' + num(v) + '</div></div>').join("") +
+    '</div>' +
+    (f.products && f.products.length ?
+      '<div class="head" style="margin-top:18px"><h3 style="margin:0;font-size:18px">Contribution concentration</h3></div>' +
+      '<table><thead><tr><th>Product</th><th>Price</th><th>GMV</th><th>Share</th><th>Video GMV</th><th>LIVE GMV</th><th>Shop tab GMV</th><th>Units</th></tr></thead><tbody>' +
+      f.products.slice(0,15).map(p => '<tr><td style="text-align:left;max-width:340px;white-space:normal">' + (p.product_name||"?") + '</td><td>' + money(p.price||0) + '</td><td class="money">' + money(p.total_gmv) + '</td><td><b>' + p.share_pct + '%</b></td><td class="money">' + money(p.video_gmv) + '</td><td class="money">' + money(p.live_gmv) + '</td><td class="money">' + money(p.shop_tab_gmv) + '</td><td>' + num(p.units_sold) + '</td></tr>').join("") +
+      '</tbody></table>' : '');
+}
+
+function card(label, value, sub){
+  return '<div class="card"><div class="label">' + label + '</div><div class="value">' + value + '</div>' + (sub ? '<div class="sub">' + sub + '</div>' : '') + '</div>';
+}
+
+function renderLatestCheck(){
+  const y = REPORT.latest_source_check;
+  if(!y) return;
+  const syncing = y.attribution_status === "partial_syncing";
+  $("latestCheck").hidden = false;
+  $("latestCheck").innerHTML =
+    '<span class="title">Yesterday confirmed in Cruva</span>' +
+    "<strong>" + displayDate(y.date) + ":</strong> " +
+    money(y.seller_center_gmv) + " Seller Center GMV &middot; " + num(y.orders) + " orders &middot; " +
+    num(y.units) + " units &middot; " + money(y.gmv_max_revenue) + " GMV Max revenue" +
+    (syncing ? ' <span class="syncing">Affiliate/video attribution still syncing</span>' : "");
+}
+
+function renderGMV(){
+  const s = REPORT.periods[PERIOD].score;
+  const syncNote = s.sync
+    ? '<div class="notice"><span class="title">Attribution syncing</span><br>Cruva returned zero for lagging fields in this period. Those fields are shown as Syncing, not treated as real zero performance.</div>'
+    : "";
+  const deltaClass = s.down ? "down" : "up";
+  $("view-gmv").innerHTML =
+    '<div class="head"><h2>' + s.title + '</h2><span class="range">' + s.range + '</span></div>' + syncNote +
+    '<div class="hero">' +
+      heroCard("Seller Center / Total GMV", money(s.gmv), '<span class="delta ' + deltaClass + '">' + s.gmvDelta + '</span>', s.sub) +
+      heroCard("GMV Max revenue", money(s.adRevenue), "ad revenue") +
+      heroCard("Ad spend", money(s.adSpend), "GMV Max spend") +
+      heroCard("ROAS", s.roas.toFixed(4), "ad revenue / ad spend") +
+    '</div>' +
+    '<div class="grid">' + Object.entries(s.m).map(([k,v]) =>
+      '<div class="card"><div class="label">' + k + '</div><div class="value">' + metricValue(s.m, k, s.sync) + '</div></div>'
+    ).join("") + '</div>';
+}
+
+function heroCard(label, value, extra, sub){
+  return '<div class="card"><div class="label">' + label + '</div><div class="big">' + value + '</div>' +
+    (extra ? '<div class="sub">' + extra + '</div>' : "") +
+    (sub ? '<div class="sub">' + sub + '</div>' : "") + '</div>';
+}
+
+function renderOutreach(){
+  const x = REPORT.periods[PERIOD].outreach;
+  const rows = REPORT.periods[PERIOD].outreach.daily || [];
+  $("view-outreach").innerHTML =
+    '<div class="head"><h2>Outreach funnel</h2><span class="range">' + REPORT.periods[PERIOD].range + '</span></div>' +
+    '<div class="funnel">' + Object.entries(x.funnel).map(([k,v]) =>
+      '<div class="step"><span>' + k + '</span><strong>' + num(v) + '</strong></div>').join("") + '</div>' +
+    '<div class="grid">' + Object.entries(x.totals).map(([k,v]) =>
+      '<div class="card"><div class="label">' + k + '</div><div class="value">' + num(v) + '</div></div>').join("") + '</div>' +
+    '<div class="charts">' +
+      svgChart("Outbound activity", "Daily direct Cruva values", rows, [["DMs",1,"#18add9"],["Collab invites",2,"#7047c9"]]) +
+      svgChart("Sample pipeline", "Daily direct Cruva values", rows, [["Requests",4,"#18add9"],["Approved",5,"#7047c9"],["Delivered",7,"#33ae85"]]) +
+    '</div>';
+}
+
+function renderCreators(){
+  const c = REPORT.periods[PERIOD].creators;
+  const syncNote = REPORT.periods[PERIOD].score.sync
+    ? '<div class="notice"><span class="title">Attribution syncing</span><br>Cruva returned zero for some creator rows in this period. Those values are direct source values and may revise after attribution completes.</div>'
+    : "";
+  $("view-creators").innerHTML =
+    '<div class="head"><h2>Top creators</h2><span class="range">Direct Cruva ranking by GMV for ' + REPORT.periods[PERIOD].range + '</span></div>' + syncNote +
+    '<table><thead><tr><th>#</th><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Commission</th><th>Videos</th><th>LIVEs</th></tr></thead><tbody>' +
+    c.map((r,i)=>'<tr><td>'+(i+1)+'</td><td><a class="profile-link" href="https://www.tiktok.com/@'+r[1]+'" target="_blank" rel="noopener noreferrer"><b>'+r[0]+'</b><span class="muted">@'+r[1]+'</span></a></td><td class="money">'+money(r[2])+'</td><td>'+num(r[3])+'</td><td>'+num(r[4])+'</td><td class="money">'+money(r[5])+'</td><td>'+num(r[6])+'</td><td>'+num(r[7])+'</td></tr>').join("") +
+    '</tbody></table>';
+}
+
+function renderVideos(){
+  const v = REPORT.periods[PERIOD].videos;
+  $("view-videos").innerHTML =
+    '<div class="head"><h2>Top performing videos</h2><span class="range">Direct Cruva ranking for ' + REPORT.periods[PERIOD].range + '</span></div>' +
+    '<table><thead><tr><th>#</th><th>Video</th><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Likes</th></tr></thead><tbody>' +
+    v.map((r,i)=>'<tr><td>'+(i+1)+'</td><td><a class="video-caption" href="'+r[8]+'" target="_blank" rel="noopener noreferrer" title="'+r[1]+'">'+r[1]+'</a></td><td><a class="profile-link" href="https://www.tiktok.com/@'+r[3]+'" target="_blank" rel="noopener noreferrer"><b>'+r[2]+'</b><span class="muted">@'+r[3]+'</span></a></td><td class="money">'+money(r[4])+'</td><td>'+num(r[5])+'</td><td>'+num(r[6])+'</td><td>'+num(r[7])+'</td></tr>').join("") +
+    '</tbody></table>';
+}
+
+function renderCreative(){
+  if(!BRIEF || !BRIEF.videos || !BRIEF.videos.length){
+    $("view-creative").innerHTML = '<div class="head"><h2>Creative direction</h2><span class="range">Top-video analysis</span></div>' +
+      '<div class="notice"><span class="title">Brief unavailable</span><br>Run pipeline/creative_brief.py to generate the weekly creative brief.</div>';
+    return;
+  }
+  const vs = BRIEF.videos;
+  const totalViews = vs.reduce((a,v)=>a+(v.view_count||0),0);
+  const totalGmv = vs.reduce((a,v)=>a+(v.gmv||0),0);
+  const avgGpv = totalViews ? (totalGmv/totalViews).toFixed(4) : "n/a";
+  const rng = BRIEF._provenance ? BRIEF._provenance.range : "";
+  $("view-creative").innerHTML =
+    '<div class="head"><h2>Creative direction brief</h2><span class="range">Top videos by GMV, ' + rng + '</span></div>' +
+    '<div class="hero">' +
+      heroCard("Videos analyzed", num(vs.length), "top by GMV") +
+      heroCard("Total views", num(totalViews), "across the top " + vs.length) +
+      heroCard("Total GMV", money(totalGmv), "video-attributed") +
+      heroCard("GMV per view", avgGpv, "revenue per view, the pacing metric") +
+    '</div>' +
+    vs.map(v => creativeCard(v)).join("");
+}
+
+function creativeCard(v){
+  const hooks = (v.hooks||[]).slice(0,2).map(h =>
+    '<div class="hook"><span class="hookscore" style="color:' + (h.score>=8?'var(--green)':h.score>=6?'var(--amber)':'var(--red)') + '">hook ' + h.score + '/10</span> "' + h.hook + '"' +
+    (h.explanation ? '<div class="muted small">' + h.explanation + '</div>' : '') + '</div>').join("");
+  const points = (v.selling_points||[]).slice(0,2).map(s =>
+    '<div class="hook"><span class="hookscore" style="color:var(--purple)">point ' + s.score + '/10</span> ' + s.selling_point + '</div>').join("");
+  const vis = v.product_visible_3s ? '<span class="ok">Product visible in first 3s</span>' : '<span class="bad">Product not visible in first 3s</span>';
+  const visNote = v.product_screen_time_seconds ? ' · ' + v.product_screen_time_seconds + 's screen time' : '';
+  return '<article class="panel" style="margin-bottom:14px">' +
+    '<div class="creat-head"><b>' + v.rank + '. <a class="video-caption" href="' + v.video_url + '" target="_blank" rel="noopener noreferrer" title="' + (v.title||"") + '">' + (v.title||"Untitled") + '</a></b>' +
+    ' <span class="muted">@' + v.handle + '</span> <span class="chip-mini">' + (v.product_name||"") + '</span></div>' +
+    '<div class="creat-metrics">' +
+      '<span>Views: <b>' + num(v.view_count||0) + '</b></span>' +
+      '<span>GMV: <b>' + money(v.gmv||0) + '</b></span>' +
+      '<span>GMV/view: <b>' + (v.gmv_per_view != null ? v.gmv_per_view.toFixed(4) : "n/a") + '</b></span>' +
+      '<span>Units: <b>' + num(v.units_sold||0) + '</b></span>' +
+      '<span>Likes: <b>' + num(v.like_count||0) + '</b></span>' +
+      '<span>' + vis + visNote + '</span>' +
+    '</div>' +
+    (hooks ? '<div class="creat-block">' + hooks + '</div>' : '') +
+    (points ? '<div class="creat-block">' + points + '</div>' : '') +
+    (v.content_overview ? '<div class="creat-block muted small">' + v.content_overview + '</div>' : '') +
+    (v.on_screen_text ? '<div class="creat-block small"><span class="label">On-screen text</span> "' + v.on_screen_text + '"</div>' : '') +
+    '</article>';
+}
+
+function renderProductDaily(){
+  if(!PROD_DAILY || !PROD_DAILY.products || !PROD_DAILY.products.length) return "";
+  const rng = PROD_DAILY._provenance ? (PROD_DAILY._provenance.range.from + " to " + PROD_DAILY._provenance.range.to) : "";
+  const maxGmv = Math.max(...PROD_DAILY.products.map(p => Math.max(...p.daily.map(d => d.gmv))));
+  const rows = PROD_DAILY.products.map(p => {
+    const days = p.daily.map(d => {
+      const w = maxGmv ? Math.max(2, Math.round(d.gmv / maxGmv * 100)) : 0;
+      return '<td title="' + d.date + '"><div class="dbar"><div class="dfill" style="width:' + w + '%"></div></div><span class="dval">' + (d.gmv >= 1000 ? "$" + (d.gmv/1000).toFixed(1) + "k" : "$" + Math.round(d.gmv)) + '</span><span class="dunit">' + d.units + 'u</span></td>';
+    }).join("");
+    return '<tr><td class="pname" title="' + p.product_name + '">' + p.product_name.slice(0, 42) + '</td>' + days + '<td class="ptot">' + money(p.total_gmv) + '</td></tr>';
+  }).join("");
+  return '<div class="head" style="margin-top:22px"><h2>Daily GMV by product</h2><span class="range">Last completed week, ' + rng + '</span></div>' +
+    '<div class="tablewrap"><table class="dt"><thead><tr><th>Product</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th><th>Week total</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+}
+
+function renderProducts(){
+  let html = '<div class="head"><h2>Product-level content</h2><span class="range">' +
+    (PROD_CURRENT ? "Per-product GMV, " + REPORT.periods[PERIOD].range
+                 : "Per-product series, pulled Jul 9 2026 (historical reference)") + '</span></div>';
+  if(PROD_CURRENT && PROD_CURRENT.products && PROD_CURRENT.products.length){
+    const rows = PROD_CURRENT.products.slice(0, 15);
+    html += '<table><thead><tr><th>Product</th><th>Price</th><th>Total GMV</th><th>Affiliate GMV</th><th>Video GMV</th><th>LIVE GMV</th><th>Shop tab GMV</th><th>Units</th></tr></thead><tbody>' +
+      rows.map(p => '<tr><td style="text-align:left;max-width:340px;white-space:normal">' + (p.product_name || "?") + '</td><td>' + money(p.price || 0) + '</td><td class="money">' + money(p.total_gmv || 0) + '</td><td class="money">' + money(p.affiliate_gmv || 0) + '</td><td class="money">' + money(p.video_gmv || 0) + '</td><td class="money">' + money(p.live_gmv || 0) + '</td><td class="money">' + money(p.shop_tab_gmv || 0) + '</td><td>' + num(p.units_sold || 0) + '</td></tr>').join("") +
+      '</tbody></table>' +
+      (PROD_CURRENT.products.length > 15 ? '<div class="muted" style="margin-top:8px">Showing top 15 of ' + PROD_CURRENT.products.length + ' products.</div>' : '');
+  } else {
+    html += '<div class="notice"><span class="title">Product view unavailable</span><br>No current product series was found. The per-product breakdown will render once the Cruva pull writes products_current.json.</div>';
+  }
+  html += renderProductDaily();
+  if(PRODUCTS && PRODUCTS.segments){
+    html += renderProductVintage();
+  }
+  $("view-products").innerHTML = html;
+}
+
+function renderProductVintage(){
+  const segs = PRODUCTS.segments, days = PRODUCTS.days, names = PRODUCTS.products;
+  const sel = segs[PRODSEG];
+  const gmv = sel.GMV, vid = sel.VID;
+  const todaySync = (gmv.sync && gmv.today === 0) ? '<span class="syncing">Syncing</span>' : money(gmv.today);
+  let html = '<h2 style="margin:26px 0 8px;font-size:20px">Historical series, Jul 9 2026</h2>' +
+    '<div class="muted" style="margin-bottom:12px">Last pull with per-day product segments. For reference against the current table above.</div>' +
+    '<div class="prodsel">' + Object.entries(names).map(([k,n]) =>
+      '<button data-prod="' + k + '" class="' + (k===PRODSEG?"active":"") + '">' + n + '</button>').join("") + '</div>' +
+    '<div class="hero">' +
+      heroCard("GMV, last 7 days", gmv.d7.v, '<span class="delta ' + (gmv.d7.d < 0 ? "down" : "up") + '">' + (gmv.d7.d>0?"+":"") + gmv.d7.d + "% vs prior</span>") +
+      heroCard("GMV, last 30 days", gmv.d30.v, '<span class="delta ' + (gmv.d30.d < 0 ? "down" : "up") + '">' + (gmv.d30.d>0?"+":"") + gmv.d30.d + "% vs prior</span>") +
+      heroCard("Video-attributed GMV, 7d", vid.d7.v, "Affiliate GMV minus LIVE GMV") +
+      heroCard("Videos posted, 7d", sel.VIDS.d7.v, "creator videos") +
+      heroCard("Today", todaySync, "today, sync=" + gmv.sync) +
+    '</div>' +
+    '<div class="charts">' +
+      svgSeries("GMV daily series", "Jul 9 vintage, per day", days, [["GMV", gmv.s, "#a995ff"],["Video-attributed GMV", vid.s, "#18add9"]]) +
+      svgSeries("Videos posted", "per day", days, [["Videos", sel.VIDS.s, "#33ae85"]]) +
+    '</div>';
+  return html;
+}
+
+function svgChart(title, sub, rows, series){
+  const W = 620, H = 210, P = 34;
+  const n = rows.length;
+  if(n < 2) return '<article class="panel"><h3>' + title + '</h3><div class="sub">' + sub + '</div><div class="muted">Not enough data.</div></article>';
+  const cols = series.map(s => s[1]);
+  const vals = rows.flatMap(r => cols.map(c => r[c] == null ? null : Number(r[c])));
+  const max = Math.max.apply(null, vals.filter(v => v != null && isFinite(v))) || 1;
+  const x = i => P + i * (W - 2 * P) / (n - 1);
+  const y = v => H - P - (v / max) * (H - 2 * P);
+  const path = (col) => rows.map((r,i) => (r[col] == null ? null : (i===0 ? "M" : "L") + x(i).toFixed(1) + " " + y(Number(r[col])).toFixed(1))).filter(Boolean).join(" ");
+  const first = String(rows[0][0]).slice(5), last = String(rows[n-1][0]).slice(5);
+  return '<article class="panel"><h3>' + title + '</h3><div class="sub">' + sub + '</div>' +
+    '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;height:auto">' +
+    series.map(s => '<path d="' + path(s[1]) + '" fill="none" stroke="' + s[2] + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>').join("") +
+    '<text x="' + P + '" y="' + (H - 8) + '">' + first + '</text><text x="' + (W - P - 40) + '" y="' + (H - 8) + '">' + last + '</text>' +
+    series.map(s => '<text x="' + P + '" y="' + (14 + series.indexOf(s) * 14) + '" fill="' + s[2] + '" font-weight="700">' + s[0] + '</text>').join("") +
+    '</svg></article>';
+}
+
+function svgSeries(title, sub, days, series){
+  const W = 620, H = 210, P = 34;
+  const n = days.length;
+  if(n < 2) return '<article class="panel"><h3>' + title + '</h3><div class="sub">' + sub + '</div></article>';
+  const max = Math.max.apply(null, series.flatMap(s => s[1].map(Number))) || 1;
+  const x = i => P + i * (W - 2 * P) / (n - 1);
+  const y = v => H - P - (v / max) * (H - 2 * P);
+  const path = (arr) => arr.map((v,i) => (i===0 ? "M" : "L") + x(i).toFixed(1) + " " + y(Number(v)).toFixed(1)).join(" ");
+  return '<article class="panel"><h3>' + title + '</h3><div class="sub">' + sub + '</div>' +
+    '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;height:auto">' +
+    series.map(s => '<path d="' + path(s[1]) + '" fill="none" stroke="' + s[2] + '" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>').join("") +
+    '<text x="' + P + '" y="' + (H - 8) + '">' + days[0] + '</text><text x="' + (W - P - 30) + '" y="' + (H - 8) + '">' + days[n-1] + '</text>' +
+    series.map(s => '<text x="' + P + '" y="' + (14 + series.indexOf(s) * 14) + '" fill="' + s[2] + '" font-weight="700">' + s[0] + '</text>').join("") +
+    '</svg></article>';
+}
+
+document.getElementById("periodSeg").addEventListener("click", e => {
+  const b = e.target.closest("button"); if(!b) return;
+  PERIOD = b.dataset.period;
+  document.querySelectorAll("#periodSeg button").forEach(x => x.classList.toggle("active", x === b));
+  renderGMV(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos();
+});
+document.getElementById("tabSeg").addEventListener("click", e => {
+  const b = e.target.closest("button"); if(!b) return;
+  TAB = b.dataset.tab;
+  document.querySelectorAll("#tabSeg button").forEach(x => x.classList.toggle("active", x === b));
+  document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
+  $("view-" + TAB).classList.add("active");
+});
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-prod]"); if(!b) return;
+  PRODSEG = b.dataset.prod;
+  document.querySelectorAll(".prodsel button").forEach(x => x.classList.toggle("active", x === b));
+  renderProducts();
+});
+document.getElementById("themeBtn").addEventListener("click", () => {
+  const root = document.documentElement;
+  root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
+});
+load();
+</script>
+</body>
+</html>
