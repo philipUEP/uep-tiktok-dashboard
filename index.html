@@ -337,6 +337,7 @@ function load(){
     $("freshDot").className = "dot";
     applyDeepLink();
     renderAll();
+    setInterval(refreshTicker,60000);
   }).catch(err=>{
     $("errorBox").hidden = false;
     $("errorBox").textContent = "Could not load report data: " + err.message;
@@ -377,6 +378,34 @@ function spark(key){
   const pts = s.map((v,i)=>[i*22, 26-(v/max)*22]).map(p=>p.join(",")).join(" ");
   return '<svg class="spark" viewBox="0 0 70 30" preserveAspectRatio="none"><polyline points="'+pts+'" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>';
 }
+function liveStripHtml(){
+  if(!TICKER||!TICKER.values) return "";
+  const v=TICKER.values, tz=TICKER._provenance||{};
+  let asOf="", age="";
+  if(tz.pulled_at){
+    const d=new Date(tz.pulled_at);
+    if(!isNaN(d)){
+      asOf=d.toISOString().slice(11,16)+" UTC";
+      const mins=Math.max(0,Math.round((Date.now()-d.getTime())/60000));
+      age=mins<=1?" just now":" "+mins+" min ago";
+    }
+  }
+  const badge=TICKER.stale?'<span class="syncing">◔ live feed stalled</span>':'<span class="syncing">● LIVE</span>';
+  const gmv=v.total_gmv!=null?money(v.total_gmv):"Syncing";
+  const ord=v.platform_orders!=null?num(v.platform_orders):"Syncing";
+  const aff=v.affiliate_gmv!=null?money(v.affiliate_gmv):"Syncing";
+  const dm=v.dms_sent!=null?num(v.dms_sent):"Syncing";
+  return '<div class="statusline" id="liveStrip">'+badge+' <b>Week to date (in progress, live read)</b> · '+
+    (TICKER.week_range||"")+' · GMV <b>'+gmv+'</b> · Orders <b>'+ord+'</b> · '+
+    'Affiliate <b>'+aff+'</b> · DMs <b>'+dm+'</b> · as of '+asOf+' ('+age+')</div>';
+}
+// Re-fetch only the ticker every minute and update the strip in place, so an
+// open dashboard tab reflects minute-level data without a page reload.
+function refreshTicker(){
+  fetch("data/live_ticker.json",{cache:"no-store"})
+    .then(x=>x.ok?x.json():null).catch(()=>null)
+    .then(t=>{ if(t){ TICKER=t; const el=document.getElementById("liveStrip"); if(el) el.outerHTML=liveStripHtml(); } });
+}
 function renderOverview(){
   const p = REPORT.periods[PERIOD]||REPORT.periods.week, m = REPORT.periods.month;
   const s = p.score, lsc = REPORT.latest_source_check||{};
@@ -388,27 +417,9 @@ function renderOverview(){
 
   // Live strip: in-progress week read from the per-minute ticker. Clearly
   // labeled as live/unvalidated so it is never confused with the validated
-  // completed-week numbers above it.
-  if(TICKER&&TICKER.values){
-    const v=TICKER.values, tz=TICKER._provenance||{};
-    let asOf="", age="";
-    if(tz.pulled_at){
-      const d=new Date(tz.pulled_at);
-      if(!isNaN(d)){
-        asOf=d.toISOString().slice(11,16)+" UTC";
-        const mins=Math.max(0,Math.round((Date.now()-d.getTime())/60000));
-        age=mins<=1?" just now":" "+mins+" min ago";
-      }
-    }
-    const badge=TICKER.stale?'<span class="syncing">◔ live feed stalled</span>':'<span class="syncing">● LIVE</span>';
-    const gmv=v.total_gmv!=null?money(v.total_gmv):"Syncing";
-    const ord=v.platform_orders!=null?num(v.platform_orders):"Syncing";
-    const aff=v.affiliate_gmv!=null?money(v.affiliate_gmv):"Syncing";
-    const dm=v.dms_sent!=null?num(v.dms_sent):"Syncing";
-    html += '<div class="statusline">'+badge+' <b>Week to date (in progress, live read)</b> · '+
-      (TICKER.week_range||"")+' · GMV <b>'+gmv+'</b> · Orders <b>'+ord+'</b> · '+
-      'Affiliate <b>'+aff+'</b> · DMs <b>'+dm+'</b> · as of '+asOf+' ('+age+')</div>';
-  }
+  // completed-week numbers above it. refreshTicker() updates it in place
+  // every 60s without reloading the page.
+  if(TICKER&&TICKER.values) html += liveStripHtml();
 
   // attention panel (fresh only; a stale shipped copy falls back to the
   // deterministic trend-derived items so the panel always matches the page)
