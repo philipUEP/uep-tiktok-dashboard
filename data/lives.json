@@ -7,6 +7,8 @@
     "week": {
       "range": "2026-08-24 to 2026-08-30",
       "total": 125,
+      "total_count": 125,
+      "truncated": false,
       "totals": {
         "gmv": 5834.44,
         "units": 198,
@@ -318,12 +320,14 @@
     },
     "14d": {
       "range": "2026-08-17 to 2026-08-30",
-      "total": 300,
+      "total": 307,
+      "total_count": 307,
+      "truncated": false,
       "totals": {
         "gmv": 11533.9,
         "units": 380,
-        "views": 1765844,
-        "streams": 300
+        "views": 1781007,
+        "streams": 307
       },
       "lives": [
         {
@@ -630,12 +634,14 @@
     },
     "month": {
       "range": "2026-08-01 to 2026-08-30",
-      "total": 300,
+      "total": 792,
+      "total_count": 792,
+      "truncated": false,
       "totals": {
         "gmv": 31046.94,
         "units": 1065,
-        "views": 3305126,
-        "streams": 300
+        "views": 4467249,
+        "streams": 792
       },
       "lives": [
         {
@@ -942,12 +948,14 @@
     },
     "60d": {
       "range": "2026-07-02 to 2026-08-30",
-      "total": 300,
+      "total": 1000,
+      "total_count": 1247,
+      "truncated": true,
       "totals": {
         "gmv": 44212.77,
         "units": 1554,
-        "views": 4191177,
-        "streams": 300
+        "views": 6126758,
+        "streams": 1000
       },
       "lives": [
         {
@@ -1254,12 +1262,14 @@
     },
     "90d": {
       "range": "2026-06-02 to 2026-08-30",
-      "total": 300,
+      "total": 1000,
+      "total_count": 1687,
+      "truncated": true,
       "totals": {
         "gmv": 54667.9,
         "units": 1874,
-        "views": 5402637,
-        "streams": 300
+        "views": 7098168,
+        "streams": 1000
       },
       "lives": [
         {

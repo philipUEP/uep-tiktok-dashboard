@@ -802,7 +802,7 @@ function renderLIVE(){
     '<td>'+num(l.likes)+'</td><td>'+num(l.comments)+'</td><td>'+l.duration_min+'m</td>'+
     '<td>'+esc(l.start||"")+'</td></tr>').join("");
   $("view-live").innerHTML =
-    '<div class="head"><h2>Live streams</h2><span class="range">'+lp.range+' · '+lp.total+' streams in the window</span></div>'+
+    '<div class="head"><h2>Live streams</h2><span class="range">'+lp.range+' · '+lp.total+' streams in the window'+(lp.truncated?' (first '+lp.total+' of '+lp.total_count+')':'')+'</span></div>'+
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("LIVE GMV", money(t.gmv))+kpi("Streams", num(t.streams))+
       kpi("Units", num(t.units))+kpi("Views", num(t.views))+'</div>'+
