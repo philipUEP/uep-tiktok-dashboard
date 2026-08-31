@@ -249,7 +249,7 @@
       <button data-tab="sampling"><span class="ico">◇</span>Sampling</button>
       <button data-tab="live"><span class="ico">●</span>LIVE</button>
     </nav>
-    <div class="foot"><b id="footShop">Upper Echelon Products</b><span id="footSrc">Source: Cruva REST</span><br><span id="footVer">schema 1.0</span></div>
+    <div class="foot"><b id="footShop">Upper Echelon Products</b><span id="footSrc">Source: Cruva REST</span></div>
   </aside>
 
   <main class="main">
@@ -282,9 +282,9 @@
 <script>
 "use strict";
 const $ = (id) => document.getElementById(id);
-let REPORT=null, PRODUCTS=null, PROD_CURRENT=null, PROD_DAILY=null, BRIEF=null, FIN=null,
+let REPORT=null, PROD_CURRENT=null, PROD_DAILY=null, BRIEF=null, FIN=null,
     GMVMAX=null, LIVES=null, SAMPLES=null, ATTENTION=null, TREND=null, TICKER=null,
-    PERIOD="week", TAB="overview", PRODSEG="all";
+    PERIOD="week", TAB="overview";
 
 const money = (v)=> (v==null?"n/a":"$"+Number(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}));
 const num = (v)=> (v==null?"n/a":Number(v).toLocaleString("en-US"));
@@ -306,7 +306,6 @@ function deltaChip(delta){
 function load(){
   Promise.all([
     fetch("data/latest.json",{cache:"no-store"}).then(async x=>{ if(!x.ok) throw new Error("report data unavailable ("+x.status+")"); return {json: await x.json(), lm: x.headers.get("last-modified")}; }),
-    fetch("data/products.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/products_current.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/creative_brief.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/financials.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
@@ -317,9 +316,9 @@ function load(){
     fetch("data/attention.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/trend_signals.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/live_ticker.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
-  ]).then(([r,p,pc,b,fin,pd,gm,li,sa,at,tr,tk])=>{
+  ]).then(([r,pc,b,fin,pd,gm,li,sa,at,tr,tk])=>{
     if(!r.json.periods||!r.json.periods.week||!r.json.periods.month) throw new Error("unsupported or incomplete report data");
-    REPORT=r.json; PRODUCTS=p; PROD_CURRENT=pc; BRIEF=b; FIN=fin; PROD_DAILY=pd;
+    REPORT=r.json; PROD_CURRENT=pc; BRIEF=b; FIN=fin; PROD_DAILY=pd;
     GMVMAX=gm; LIVES=li; SAMPLES=sa; ATTENTION=at; TREND=tr; TICKER=tk;
     buildPeriodSeg((REPORT.ranges&&REPORT.ranges.length)? REPORT.ranges : [
       {key:"week",label:"Last 7 days",days:7},{key:"14d",label:"Last 14 days",days:14},
@@ -412,8 +411,7 @@ function renderOverview(){
   const t = p.outreach.totals, m0 = s.m||{};
   const syncNote = s.sync ? '<span class="syncing">◔ attribution syncing</span>' : "";
 
-  let html = '<div class="statusline">Upper Echelon Products · <b>Complete data through '+REPORT.freshness.data_through+
-    '</b> · Pulled '+REPORT.freshness.pulled_on+'</div>';
+  let html = "";
 
   // Live strip: in-progress week read from the per-minute ticker. Clearly
   // labeled as live/unvalidated so it is never confused with the validated
@@ -530,7 +528,7 @@ function funnel(t){
     const v = t[st[1]]||0, w = first? Math.max(4,Math.round(v/first*100)):0;
     return '<div class="fstep"><span class="fn">'+st[0]+'</span><div class="fb"><div class="ff" style="width:'+w+'%"></div></div><span class="fv">'+num(v)+'</span></div>';
   }).join("")+'</div>'+
-  '<div class="muted small" style="margin-top:10px">Stage totals rendered exactly as supplied; they reflect independent operational states.</div>';
+  '<div class="muted small" style="margin-top:10px">Stages reflect independent operational states.</div>';
 }
 function trendBars(cur,mth){
   const wg=cur.score.gmv, mg=mth.score.gmv, wo=cur.score.m["Orders"]||0, mo=mth.score.m["Orders"]||0;
@@ -562,7 +560,7 @@ function renderFinancials(){
   const net = f.net_after_ads_commissions_refunds;
   const netCls = net<0?"down":"up";
   let html = '<div class="head"><h2>Financials</h2><span class="range">Operational P&amp;L, '+f.range+'</span></div>'+
-    '<div class="notice"><span class="title">Scope</span><br>'+esc((FIN._provenance&&FIN._provenance.note)||"Operational P&L from Cruva data. The formal P&amp;L projection lives in the TikTok P&amp;L task (86ak1mbh4).")+'</div>'+
+    '<div class="notice"><span class="title">Scope</span><br>'+esc((FIN._provenance&&FIN._provenance.note)||"Operational P&L from Cruva data; COGS excluded. The formal projection lives in the TikTok P&L task.")+'</div>'+
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("Total GMV", money(f.revenue.total_gmv), "", "All channels")+
       kpi("Net of ads, commissions, refunds", money(net), '<span class="delta '+netCls+'">'+(net<0?"negative":"positive")+'</span>', "Excludes COGS")+
@@ -572,9 +570,7 @@ function renderFinancials(){
     '<div class="cols2">'+
       '<div class="panel"><div class="pt">Revenue stack</div><div class="ps">Where GMV comes from</div>'+revStack(f.revenue)+'</div>'+
       '<div class="panel"><div class="pt">Spend stack</div><div class="ps">What it costs</div>'+spendStack(f.spend)+'</div>'+
-    '</div>'+
-    '<div class="panel" style="margin-top:12px"><div class="pt">Efficiency ratios</div><div class="ps">Unit economics from the source snapshot</div>'+
-      '<div class="mini4" style="margin:0">'+Object.entries(f.ratios).map(([k,v])=>mini(k.replace(/_/g," "), (typeof v==="number"? (v<50&&v>-50? Number(v).toFixed(2): Math.round(v)) : v))).join("")+'</div></div>';
+    '</div>';
   $("view-financials").innerHTML = html;
 }
 function revStack(r){
@@ -704,7 +700,6 @@ function renderProducts(){
     html += '<div class="notice"><span class="title">Product view unavailable</span><br>No current product series was found.</div>';
   }
   html += renderProductDaily();
-  if(PRODUCTS&&PRODUCTS.segments) html += renderProductVintage();
   $("view-products").innerHTML = html;
 }
 function renderProductDaily(){
@@ -721,39 +716,6 @@ function renderProductDaily(){
   return '<div class="head" style="margin-top:22px"><h2>Daily GMV by product</h2><span class="range">Last completed week, '+rng+'</span></div>'+
     '<div class="tablewrap"><table class="dt"><thead><tr><th>Product</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th><th>Week total</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
 }
-function renderProductVintage(){
-  const segs = PRODUCTS.segments, days = PRODUCTS.days, names = PRODUCTS.products;
-  const sel = segs[PRODSEG];
-  const gmv = sel.GMV, vid = sel.VID;
-  const todaySync = (gmv.sync&&gmv.today===0)?'<span class="syncing">Syncing</span>':money(gmv.today);
-  let html = '<div class="head" style="margin-top:22px"><h2>Historical series, Jul 9 2026</h2><span class="range">Pulled from Cruva, Jul 9 2026 · for reference</span></div>'+
-    '<div class="kpis" style="grid-template-columns:repeat(5,1fr)">'+
-      kpi("Product", esc(names[PRODSEG]||"All"))+kpi("GMV today", todaySync)+kpi("GMV 7 days", money(gmv["7d"]))+
-      kpi("GMV 30 days", money(gmv["30d"]))+kpi("Video-attributed 7d", money(vid["7d"]))+'</div>'+
-    '<div class="prodsel" style="display:flex;gap:6px;padding:5px;border:1px solid var(--line);background:var(--surface);border-radius:11px;width:fit-content;margin:12px 0">'+
-      Object.keys(segs).map(k=>'<button data-prod="'+k+'" style="border:0;background:transparent;color:var(--muted);padding:7px 13px;border-radius:8px;font-weight:700;cursor:pointer;font-size:12.5px'+(k===PRODSEG?';background:var(--text);color:var(--bg)':"")+'">'+esc(names[k])+'</button>').join("")+'</div>'+
-    '<div class="panel"><div class="pt">GMV daily series (Jul 9 vintage)</div><div class="ps">Per-day total and video-attributed GMV</div>'+svgSeries("GMV daily series", "per day", days, [["GMV", gmv.s, "#7048e8"],["Video-attributed", vid.s, "#0ea5b7"]])+'</div>';
-  return html;
-}
-function svgSeries(title, sub, days, series){
-  if(!days||!days.length) return "";
-  const W=760,H=180,padL=64,padB=26,padT=14;
-  const max = Math.max(...series.flatMap(s=>s[1]))*1.15||1;
-  const n = days.length;
-  const X=(i)=>padL+i*(W-padL-16)/(n-1||1);
-  const Y=(v)=>padT+(H-padT-padB)*(1-v/max);
-  const path=(s)=>s.map((v,i)=>(i===0?"M":"L")+X(i).toFixed(1)+" "+Y(v).toFixed(1)).join(" ");
-  return '<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;height:auto">'+
-    series.map((s,i)=>'<path d="'+path(s[1])+'" fill="none" stroke="'+s[2]+'" stroke-width="2.5" stroke-linejoin="round" opacity="'+(i?0.9:1)+'"/>').join("")+
-    '<g fill="var(--faint)" font-size="10">'+
-      days.map((d,i)=>{ if(i%Math.ceil(n/8)!==0) return ""; return '<text x="'+X(i)+'" y="'+(H-8)+'" text-anchor="middle">'+d.slice(5)+'</text>'; }).join("")+
-    '</g><g fill="var(--faint)" font-size="10" text-anchor="end">'+
-      [0,.5,1].map(f=>'<text x="'+(padL-6)+'" y="'+(Y(max*f)+3)+'">'+fmtAxis(max*f)+'</text>').join("")+
-    '</g><line x1="'+padL+'" y1="'+(H-padB)+'" x2="'+(W-16)+'" y2="'+(H-padB)+'" stroke="var(--line)"/>'+
-    '</svg><div class="legend">'+series.map(s=>'<span><i style="background:'+s[2]+'"></i>'+s[0]+'</span>').join("")+'</div>';
-}
-function fmtAxis(v){ return v>=1000? (v/1000).toFixed(1)+"k" : Math.round(v); }
-
 /* ============================= GMV MAX (ADS) ============================= */
 function renderAds(){
   if(!GMVMAX||!GMVMAX.periods){
@@ -865,7 +827,6 @@ function creatorModal(handle){
               (REPORT.periods[PERIOD].creators||[]).find(r=>r[0]===handle);
   if(!row) return;
   const name = row[0], h = row[1];
-  const digest = null; // creator_digest.json is not fetched; WoW from trend-less rows is not available here
   const lpd = (LIVES&&LIVES.periods)? (LIVES.periods[PERIOD]||LIVES.periods.week) : null;
   const lives = lpd? lpd.lives.filter(l=>l.handle===h).slice(0,6):[];
   const videos = (REPORT.periods[PERIOD].videos||[]).filter(v=>v[3]===h||v[2]===h).slice(0,6);
@@ -938,8 +899,6 @@ document.querySelectorAll("#nav button").forEach(b=>{
   b.onclick = ()=> setTab(b.dataset.tab);
 });
 document.addEventListener("click", (e)=>{
-  const pb = e.target.closest("[data-prod]");
-  if(pb){ PRODSEG = pb.dataset.prod; renderProducts(); return; }
   const cr = e.target.closest("[data-creator]");
   if(cr){ creatorModal(cr.dataset.creator); return; }
   const pr = e.target.closest("[data-product]");
