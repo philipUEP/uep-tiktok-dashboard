@@ -260,6 +260,7 @@
       </div>
       <span class="chip"><span class="dot" id="freshDot"></span><span id="freshChip">data status</span></span>
       <button class="iconbtn" id="themeBtn" title="Toggle theme">◐</button>
+      <button class="iconbtn" id="printBtn" title="Print / save as PDF">🖨</button>
       <div class="seg" id="periodSeg"></div>
     </header>
 
@@ -394,9 +395,10 @@ function liveStripHtml(){
   const ord=v.platform_orders!=null?num(v.platform_orders):"Syncing";
   const aff=v.affiliate_gmv!=null?money(v.affiliate_gmv):"Syncing";
   const dm=v.dms_sent!=null?num(v.dms_sent):"Syncing";
+  const roas=v.gmv_max_roas!=null?Number(v.gmv_max_roas).toFixed(2)+"x":"Syncing";
   return '<div class="statusline" id="liveStrip">'+badge+' <b>Week to date (in progress, live read)</b> · '+
     (TICKER.week_range||"")+' · GMV <b>'+gmv+'</b> · Orders <b>'+ord+'</b> · '+
-    'Affiliate <b>'+aff+'</b> · DMs <b>'+dm+'</b> · as of '+asOf+' ('+age+')</div>';
+    'Affiliate <b>'+aff+'</b> · DMs <b>'+dm+'</b> · Ad ROAS <b>'+roas+'</b> · as of '+asOf+' ('+age+')</div>';
 }
 // Re-fetch only the ticker every minute and update the strip in place, so an
 // open dashboard tab reflects minute-level data without a page reload.
@@ -908,6 +910,7 @@ $("themeBtn").onclick = ()=>{
   const root = document.documentElement;
   root.dataset.theme = root.dataset.theme==="dark"?"light":"dark";
 };
+$("printBtn").onclick = ()=> window.print();
 
 load();
 </script>
