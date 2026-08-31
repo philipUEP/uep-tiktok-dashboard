@@ -1,260 +1,176 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats with product_id + include_charts",
-    "pulled_on": "2026-08-30",
+    "pulled_on": "2026-08-31",
     "range": {
-      "from": "2026-08-17",
-      "to": "2026-08-23"
+      "from": "2026-08-24",
+      "to": "2026-08-30"
     }
   },
   "products": [
     {
       "product_id": "1729385884864975067",
       "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-      "total_gmv": 10474.96,
+      "total_gmv": 11794.27,
       "daily": [
         {
-          "date": "2026-08-17",
-          "gmv": 1704.87,
-          "units": 53.0
+          "date": "2026-08-24",
+          "gmv": 1898.71,
+          "units": 66.0
         },
         {
-          "date": "2026-08-18",
-          "gmv": 1200.86,
-          "units": 47.0
-        },
-        {
-          "date": "2026-08-19",
-          "gmv": 824.15,
-          "units": 30.0
-        },
-        {
-          "date": "2026-08-20",
-          "gmv": 1513.4,
-          "units": 55.0
-        },
-        {
-          "date": "2026-08-21",
-          "gmv": 1453.16,
-          "units": 48.0
-        },
-        {
-          "date": "2026-08-22",
-          "gmv": 1618.39,
-          "units": 52.0
-        },
-        {
-          "date": "2026-08-23",
-          "gmv": 2160.13,
+          "date": "2026-08-25",
+          "gmv": 1827.73,
           "units": 71.0
+        },
+        {
+          "date": "2026-08-26",
+          "gmv": 1633.3,
+          "units": 64.0
+        },
+        {
+          "date": "2026-08-27",
+          "gmv": 1160.05,
+          "units": 44.0
+        },
+        {
+          "date": "2026-08-28",
+          "gmv": 1908.84,
+          "units": 63.0
+        },
+        {
+          "date": "2026-08-29",
+          "gmv": 1810.5,
+          "units": 58.0
+        },
+        {
+          "date": "2026-08-30",
+          "gmv": 1555.14,
+          "units": 53.0
         }
       ]
     },
     {
       "product_id": "1729391862339113179",
       "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-      "total_gmv": 4469.55,
+      "total_gmv": 4382.76,
       "daily": [
         {
-          "date": "2026-08-17",
-          "gmv": 724.2,
-          "units": 43.0
+          "date": "2026-08-24",
+          "gmv": 669.31,
+          "units": 45.0
         },
         {
-          "date": "2026-08-18",
-          "gmv": 609.56,
-          "units": 44.0
+          "date": "2026-08-25",
+          "gmv": 543.94,
+          "units": 40.0
         },
         {
-          "date": "2026-08-19",
-          "gmv": 462.75,
-          "units": 33.0
+          "date": "2026-08-26",
+          "gmv": 664.76,
+          "units": 52.0
         },
         {
-          "date": "2026-08-20",
-          "gmv": 543.44,
-          "units": 33.0
+          "date": "2026-08-27",
+          "gmv": 663.99,
+          "units": 48.0
         },
         {
-          "date": "2026-08-21",
-          "gmv": 767.07,
-          "units": 46.0
+          "date": "2026-08-28",
+          "gmv": 702.5,
+          "units": 47.0
         },
         {
-          "date": "2026-08-22",
-          "gmv": 634.28,
-          "units": 36.0
+          "date": "2026-08-29",
+          "gmv": 685.87,
+          "units": 50.0
         },
         {
-          "date": "2026-08-23",
-          "gmv": 728.25,
-          "units": 42.0
+          "date": "2026-08-30",
+          "gmv": 452.39,
+          "units": 31.0
         }
       ]
     },
     {
       "product_id": "1729388554561294555",
-      "product_name": "Everlasting Comfort Beach Blanket \u2013 With Carrying Bag, Travel Clip & 4 Stakes | Sandproof & Waterproof | Oversized Mat for Beach, Camping, Picnic & Hiking | Quick Dry & Machine Washable",
-      "total_gmv": 430.86,
+      "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
+      "total_gmv": 182.75,
       "daily": [
         {
-          "date": "2026-08-17",
-          "gmv": 17.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-08-18",
-          "gmv": 184.66,
-          "units": 15.0
-        },
-        {
-          "date": "2026-08-19",
-          "gmv": 17.66,
+          "date": "2026-08-24",
+          "gmv": 30.73,
           "units": 2.0
         },
         {
-          "date": "2026-08-20",
-          "gmv": 128.67,
-          "units": 9.0
+          "date": "2026-08-25",
+          "gmv": 0.0,
+          "units": 0.0
         },
         {
-          "date": "2026-08-21",
-          "gmv": 45.77,
-          "units": 5.0
+          "date": "2026-08-26",
+          "gmv": 25.53,
+          "units": 2.0
         },
         {
-          "date": "2026-08-22",
-          "gmv": 28.18,
+          "date": "2026-08-27",
+          "gmv": 30.75,
+          "units": 2.0
+        },
+        {
+          "date": "2026-08-28",
+          "gmv": 51.01,
           "units": 3.0
         },
         {
-          "date": "2026-08-23",
-          "gmv": 7.93,
-          "units": 2.0
-        }
-      ]
-    },
-    {
-      "product_id": "1729394250782118107",
-      "product_name": "Everlasting Comfort Doctor-Recommended Memory Foam Seat Cushion - HSA FSA Eligible, Sciatica & Back Support, Supportive Sitting, Good Posture, Cushioned Furniture Accessories, Work Hacks, Cervical & Spinal Support Furniture Accessories (Office & Car Use),",
-      "total_gmv": 156.03,
-      "daily": [
-        {
-          "date": "2026-08-17",
-          "gmv": 0.0,
-          "units": 0.0
+          "date": "2026-08-29",
+          "gmv": 44.73,
+          "units": 4.0
         },
         {
-          "date": "2026-08-18",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-19",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-20",
-          "gmv": 72.05,
-          "units": 2.0
-        },
-        {
-          "date": "2026-08-21",
-          "gmv": 43.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-08-22",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-23",
-          "gmv": 39.99,
-          "units": 1.0
-        }
-      ]
-    },
-    {
-      "product_id": "1732530411400171739",
-      "product_name": "Everlasting Comfort Elevate Series Doctor-Recommended U-Shaped Medium Firmness Memory Foam Seat Cushion - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief (Charcoal Black, Large)",
-      "total_gmv": 68.21,
-      "daily": [
-        {
-          "date": "2026-08-17",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-18",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-19",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-20",
-          "gmv": 68.21,
-          "units": 1.0
-        },
-        {
-          "date": "2026-08-21",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-22",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-23",
+          "date": "2026-08-30",
           "gmv": 0.0,
           "units": 0.0
         }
       ]
     },
     {
-      "product_id": "1729385798535319771",
-      "product_name": "Everlasting Comfort Luxury Tub Bath Pillow - Quick-Dry, Secure Suction Cups, Relaxation, Versatile Compatibility, Airflow Encouragement, Selfcare, Durable Bathroom Gadget",
-      "total_gmv": 51.78,
+      "product_id": "1729388475149750491",
+      "product_name": "Everlasting Comfort Queen US Standard Cooling Bedding Throw Blanket (60x80in) - Breathable Indoor Fiber Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Beating Heat",
+      "total_gmv": 97.15,
       "daily": [
         {
-          "date": "2026-08-17",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-18",
-          "gmv": 25.19,
+          "date": "2026-08-24",
+          "gmv": 24.68,
           "units": 1.0
         },
         {
-          "date": "2026-08-19",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-20",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-21",
-          "gmv": 26.59,
+          "date": "2026-08-25",
+          "gmv": 29.99,
           "units": 1.0
         },
         {
-          "date": "2026-08-22",
+          "date": "2026-08-26",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-08-23",
+          "date": "2026-08-27",
+          "gmv": 18.74,
+          "units": 1.0
+        },
+        {
+          "date": "2026-08-28",
+          "gmv": 23.74,
+          "units": 1.0
+        },
+        {
+          "date": "2026-08-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-30",
           "gmv": 0.0,
           "units": 0.0
         }
@@ -263,166 +179,250 @@
     {
       "product_id": "1729385798632640731",
       "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
-      "total_gmv": 42.48,
+      "total_gmv": 89.15,
       "daily": [
         {
-          "date": "2026-08-17",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-18",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-19",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-20",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-21",
-          "gmv": 23.79,
+          "date": "2026-08-24",
+          "gmv": 21.99,
           "units": 1.0
         },
         {
-          "date": "2026-08-22",
-          "gmv": 18.69,
+          "date": "2026-08-25",
+          "gmv": 19.79,
           "units": 1.0
         },
         {
-          "date": "2026-08-23",
+          "date": "2026-08-26",
+          "gmv": 19.56,
+          "units": 1.0
+        },
+        {
+          "date": "2026-08-27",
+          "gmv": 27.81,
+          "units": 2.0
+        },
+        {
+          "date": "2026-08-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-30",
           "gmv": 0.0,
           "units": 0.0
         }
       ]
     },
     {
-      "product_id": "1729387976535412955",
-      "product_name": "Waterproof Mattress Protector - Zippered Bed Bug % Dust Mite Proof, Hypoallergenic",
-      "total_gmv": 31.49,
+      "product_id": "1729385798535319771",
+      "product_name": "Everlasting Comfort Luxury Tub Bath Pillow - Quick-Dry, Secure Suction Cups, Relaxation, Versatile Compatibility, Airflow Encouragement, Selfcare, Durable Bathroom Gadget",
+      "total_gmv": 79.77,
       "daily": [
         {
-          "date": "2026-08-17",
+          "date": "2026-08-24",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-08-18",
-          "gmv": 0.0,
-          "units": 0.0
+          "date": "2026-08-25",
+          "gmv": 53.18,
+          "units": 2.0
         },
         {
-          "date": "2026-08-19",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-20",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-21",
-          "gmv": 31.49,
+          "date": "2026-08-26",
+          "gmv": 26.59,
           "units": 1.0
         },
         {
-          "date": "2026-08-22",
+          "date": "2026-08-27",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-08-23",
+          "date": "2026-08-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-30",
           "gmv": 0.0,
           "units": 0.0
         }
       ]
     },
     {
-      "product_id": "1729385810182639835",
-      "product_name": "Everlasting Comfort Sherpa-Fleece Dual-Sided Plush Throw - Velvety Skin-Soothing Touch, Thick Minky, Cozy Warm, Fluffy, Fading Resistant, Dryer-Safe 260GSM, Indoor Use",
-      "total_gmv": 27.68,
+      "product_id": "1729394250782118107",
+      "product_name": "Everlasting Comfort Doctor-Recommended Memory Foam Seat Cushion - HSA FSA Eligible, Sciatica & Back Support, Supportive Sitting, Good Posture, Cushioned Furniture Accessories, Work Hacks, Cervical & Spinal Support Furniture Accessories (Office & Car Use),",
+      "total_gmv": 78.85,
       "daily": [
         {
-          "date": "2026-08-17",
+          "date": "2026-08-24",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-08-18",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-19",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-20",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-21",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-22",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-23",
-          "gmv": 27.68,
+          "date": "2026-08-25",
+          "gmv": 42.86,
           "units": 1.0
+        },
+        {
+          "date": "2026-08-26",
+          "gmv": 35.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-08-27",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-30",
+          "gmv": 0.0,
+          "units": 0.0
         }
       ]
     },
     {
       "product_id": "1730130752085856475",
       "product_name": "Everlasting Comfort Lumbar Support Pillow - Durable Memory Foam Lumbar Pillow with Breathable Mesh, Adjustable Straps, Removable Washable Cover, Contoured Shape for Office/Car, Supportive Sitting, Comfy Couch Use, Posture Correction, Low Back Pain Relief,",
-      "total_gmv": 27.64,
+      "total_gmv": 77.98,
       "daily": [
         {
-          "date": "2026-08-17",
+          "date": "2026-08-24",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-08-18",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-19",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-20",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-21",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-08-22",
-          "gmv": 27.64,
+          "date": "2026-08-25",
+          "gmv": 39.99,
           "units": 1.0
         },
         {
-          "date": "2026-08-23",
+          "date": "2026-08-26",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-27",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-30",
+          "gmv": 37.99,
+          "units": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "1729391868219986139",
+      "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+      "total_gmv": 50.93,
+      "daily": [
+        {
+          "date": "2026-08-24",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-25",
+          "gmv": 27.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-08-26",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-27",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-29",
+          "gmv": 22.94,
+          "units": 1.0
+        },
+        {
+          "date": "2026-08-30",
+          "gmv": 0.0,
+          "units": 0.0
+        }
+      ]
+    },
+    {
+      "product_id": "1732530504119718107",
+      "product_name": "Repel 22-Rib Fiberglass Waterproof Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Light Portable for Adults, Fits Backpacks & Cars, for Rain/Sun",
+      "total_gmv": 38.17,
+      "daily": [
+        {
+          "date": "2026-08-24",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-25",
+          "gmv": 17.28,
+          "units": 1.0
+        },
+        {
+          "date": "2026-08-26",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-27",
+          "gmv": 20.89,
+          "units": 1.0
+        },
+        {
+          "date": "2026-08-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-08-30",
           "gmv": 0.0,
           "units": 0.0
         }
