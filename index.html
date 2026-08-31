@@ -283,7 +283,7 @@
 "use strict";
 const $ = (id) => document.getElementById(id);
 let REPORT=null, PRODUCTS=null, PROD_CURRENT=null, PROD_DAILY=null, BRIEF=null, FIN=null,
-    GMVMAX=null, LIVES=null, SAMPLES=null, ATTENTION=null, TREND=null,
+    GMVMAX=null, LIVES=null, SAMPLES=null, ATTENTION=null, TREND=null, TICKER=null,
     PERIOD="week", TAB="overview", PRODSEG="all";
 
 const money = (v)=> (v==null?"n/a":"$"+Number(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}));
@@ -315,11 +315,12 @@ function load(){
     fetch("data/lives.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/samples.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/attention.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
-    fetch("data/trend_signals.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
-  ]).then(([r,p,pc,b,fin,pd,gm,li,sa,at,tr])=>{
+    fetch("data/trend_signals.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/live_ticker.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
+  ]).then(([r,p,pc,b,fin,pd,gm,li,sa,at,tr,tk])=>{
     if(!r.json.periods||!r.json.periods.week||!r.json.periods.month) throw new Error("unsupported or incomplete report data");
     REPORT=r.json; PRODUCTS=p; PROD_CURRENT=pc; BRIEF=b; FIN=fin; PROD_DAILY=pd;
-    GMVMAX=gm; LIVES=li; SAMPLES=sa; ATTENTION=at; TREND=tr;
+    GMVMAX=gm; LIVES=li; SAMPLES=sa; ATTENTION=at; TREND=tr; TICKER=tk;
     buildPeriodSeg((REPORT.ranges&&REPORT.ranges.length)? REPORT.ranges : [
       {key:"week",label:"Last 7 days",days:7},{key:"14d",label:"Last 14 days",days:14},
       {key:"month",label:"Last 30 days",days:30},{key:"60d",label:"Last 60 days",days:60},
@@ -384,6 +385,30 @@ function renderOverview(){
 
   let html = '<div class="statusline">Upper Echelon Products · <b>Complete data through '+REPORT.freshness.data_through+
     '</b> · Pulled '+REPORT.freshness.pulled_on+'</div>';
+
+  // Live strip: in-progress week read from the per-minute ticker. Clearly
+  // labeled as live/unvalidated so it is never confused with the validated
+  // completed-week numbers above it.
+  if(TICKER&&TICKER.values){
+    const v=TICKER.values, tz=TICKER._provenance||{};
+    let asOf="", age="";
+    if(tz.pulled_at){
+      const d=new Date(tz.pulled_at);
+      if(!isNaN(d)){
+        asOf=d.toISOString().slice(11,16)+" UTC";
+        const mins=Math.max(0,Math.round((Date.now()-d.getTime())/60000));
+        age=mins<=1?" just now":" "+mins+" min ago";
+      }
+    }
+    const badge=TICKER.stale?'<span class="syncing">◔ live feed stalled</span>':'<span class="syncing">● LIVE</span>';
+    const gmv=v.total_gmv!=null?money(v.total_gmv):"Syncing";
+    const ord=v.platform_orders!=null?num(v.platform_orders):"Syncing";
+    const aff=v.affiliate_gmv!=null?money(v.affiliate_gmv):"Syncing";
+    const dm=v.dms_sent!=null?num(v.dms_sent):"Syncing";
+    html += '<div class="statusline">'+badge+' <b>Week to date (in progress, live read)</b> · '+
+      (TICKER.week_range||"")+' · GMV <b>'+gmv+'</b> · Orders <b>'+ord+'</b> · '+
+      'Affiliate <b>'+aff+'</b> · DMs <b>'+dm+'</b> · as of '+asOf+' ('+age+')</div>';
+  }
 
   // attention panel (fresh only; a stale shipped copy falls back to the
   // deterministic trend-derived items so the panel always matches the page)
