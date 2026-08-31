@@ -13,34 +13,34 @@
     "week": {
       "range": "2026-08-24 to 2026-08-30",
       "revenue": {
-        "total_gmv": 16949.0,
+        "total_gmv": 17385.02,
         "affiliate_gmv": 13001.13,
         "video_gmv": 6613.04,
         "live_gmv": 6154.82,
         "shop_tab_gmv": 3039.13,
-        "gmv_max_revenue": 12573.890000000001,
+        "gmv_max_revenue": 12669.86,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 9292.01,
+        "ad_spend": 9535.8,
         "commission": 3223.59,
         "refund_amount": 1346.42,
-        "shipping_fees": 5426.4
+        "shipping_fees": 5525.2
       },
-      "net_after_ads_commissions_refunds": 3086.98,
+      "net_after_ads_commissions_refunds": 3279.21,
       "ratios": {
-        "blended_roas": 1.824,
-        "gmv_max_roas": 1.3532,
+        "blended_roas": 1.8231,
+        "gmv_max_roas": 1.3287,
         "commission_rate_pct": 24.79,
-        "refund_rate_pct": 7.94,
-        "aov": 23.76,
+        "refund_rate_pct": 7.74,
+        "aov": 23.9,
         "gpm": 8.8,
         "emv": 3729.2,
         "gmv_per_sample_delivered": 302.35
       },
       "volume": {
-        "orders": 717,
-        "units_sold": 769.0,
+        "orders": 730,
+        "units_sold": 784.0,
         "creators": 66,
         "samples_delivered": 43,
         "video_views": 745840
@@ -50,23 +50,23 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 11794.27,
-          "share_pct": 69.6,
-          "video_gmv": 3374.27,
-          "live_gmv": 7164.02,
+          "total_gmv": 12203.62,
+          "share_pct": 70.2,
+          "video_gmv": 3426.46,
+          "live_gmv": 7521.18,
           "shop_tab_gmv": 1761.59,
-          "units_sold": 419
+          "units_sold": 432
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 4382.76,
-          "share_pct": 25.9,
-          "video_gmv": 3827.46,
+          "total_gmv": 4409.43,
+          "share_pct": 25.4,
+          "video_gmv": 3854.13,
           "live_gmv": 0,
           "shop_tab_gmv": 757.77,
-          "units_sold": 313
+          "units_sold": 315
         },
         {
           "product_id": "1729388554561294555",
@@ -128,7 +128,7 @@
           "product_name": "Everlasting Comfort Lumbar Support Pillow - Durable Memory Foam Lumbar Pillow with Breathable Mesh, Adjustable Straps, Removable Washable Cover, Contoured Shape for Office/Car, Supportive Sitting, Comfy Couch Use, Posture Correction, Low Back Pain Relief,",
           "price": 59.99,
           "total_gmv": 77.98,
-          "share_pct": 0.5,
+          "share_pct": 0.4,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 37.99,
@@ -370,34 +370,34 @@
     "14d": {
       "range": "2026-08-17 to 2026-08-30",
       "revenue": {
-        "total_gmv": 32774.92,
+        "total_gmv": 33210.94,
         "affiliate_gmv": 26806.99,
         "video_gmv": 14383.71,
         "live_gmv": 12110.88,
         "shop_tab_gmv": 6048.56,
-        "gmv_max_revenue": 25025.329999999994,
+        "gmv_max_revenue": 25121.299999999996,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 20442.360000000004,
+        "ad_spend": 20686.150000000005,
         "commission": 6574.69,
         "refund_amount": 3156.77,
-        "shipping_fees": 10199.2
+        "shipping_fees": 10298.0
       },
-      "net_after_ads_commissions_refunds": 2601.1,
+      "net_after_ads_commissions_refunds": 2793.33,
       "ratios": {
-        "blended_roas": 1.6033,
-        "gmv_max_roas": 1.2242,
+        "blended_roas": 1.6055,
+        "gmv_max_roas": 1.2144,
         "commission_rate_pct": 24.53,
-        "refund_rate_pct": 9.63,
-        "aov": 24.44,
+        "refund_rate_pct": 9.51,
+        "aov": 24.51,
         "gpm": 7.74,
         "emv": 9219.65,
         "gmv_per_sample_delivered": 291.38
       },
       "volume": {
-        "orders": 1346,
-        "units_sold": 1453.0,
+        "orders": 1359,
+        "units_sold": 1468.0,
         "creators": 164,
         "samples_delivered": 92,
         "video_views": 1843929
@@ -407,30 +407,30 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 22269.23,
-          "share_pct": 67.9,
-          "video_gmv": 6693.91,
-          "live_gmv": 13120.08,
+          "total_gmv": 22678.58,
+          "share_pct": 68.3,
+          "video_gmv": 6746.1,
+          "live_gmv": 13477.24,
           "shop_tab_gmv": 3712.11,
-          "units_sold": 775
+          "units_sold": 788
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 8852.31,
-          "share_pct": 27.0,
-          "video_gmv": 7765.7,
+          "total_gmv": 8878.98,
+          "share_pct": 26.7,
+          "video_gmv": 7792.37,
           "live_gmv": 0,
           "shop_tab_gmv": 1513.39,
-          "units_sold": 590
+          "units_sold": 592
         },
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
           "price": 39.99,
           "total_gmv": 613.61,
-          "share_pct": 1.9,
+          "share_pct": 1.8,
           "video_gmv": 568.0,
           "live_gmv": 0,
           "shop_tab_gmv": 104.93,
@@ -727,34 +727,34 @@
     "month": {
       "range": "2026-08-01 to 2026-08-30",
       "revenue": {
-        "total_gmv": 86315.45,
+        "total_gmv": 86751.47,
         "affiliate_gmv": 75194.94,
         "video_gmv": 42810.23,
         "live_gmv": 31583.15,
         "shop_tab_gmv": 12595.26,
-        "gmv_max_revenue": 73062.92,
+        "gmv_max_revenue": 73158.89,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 67535.89000000001,
+        "ad_spend": 67779.68000000002,
         "commission": 18612.68,
         "refund_amount": 8112.47,
-        "shipping_fees": 27778.0
+        "shipping_fees": 27876.8
       },
-      "net_after_ads_commissions_refunds": -7945.59,
+      "net_after_ads_commissions_refunds": -7753.36,
       "ratios": {
-        "blended_roas": 1.2781,
-        "gmv_max_roas": 1.0818,
+        "blended_roas": 1.2799,
+        "gmv_max_roas": 1.0794,
         "commission_rate_pct": 24.75,
-        "refund_rate_pct": 9.4,
-        "aov": 23.87,
+        "refund_rate_pct": 9.35,
+        "aov": 23.9,
         "gpm": 8.63,
         "emv": 24719.17,
         "gmv_per_sample_delivered": 210.63
       },
       "volume": {
-        "orders": 3664,
-        "units_sold": 4178.0,
+        "orders": 3677,
+        "units_sold": 4193.0,
         "creators": 364,
         "samples_delivered": 357,
         "video_views": 4943834
@@ -764,23 +764,23 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 58097.55,
-          "share_pct": 67.3,
-          "video_gmv": 19171.47,
-          "live_gmv": 32592.35,
+          "total_gmv": 58506.9,
+          "share_pct": 67.4,
+          "video_gmv": 19223.66,
+          "live_gmv": 32949.51,
           "shop_tab_gmv": 8211.56,
-          "units_sold": 2127
+          "units_sold": 2140
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 23596.03,
-          "share_pct": 27.3,
-          "video_gmv": 21471.54,
+          "total_gmv": 23622.7,
+          "share_pct": 27.2,
+          "video_gmv": 21498.21,
           "live_gmv": 0,
           "shop_tab_gmv": 3027.27,
-          "units_sold": 1732
+          "units_sold": 1734
         },
         {
           "product_id": "1729388554561294555",
@@ -1128,34 +1128,34 @@
     "60d": {
       "range": "2026-07-02 to 2026-08-30",
       "revenue": {
-        "total_gmv": 150222.57,
+        "total_gmv": 150658.59,
         "affiliate_gmv": 132331.19,
         "video_gmv": 85992.92,
         "live_gmv": 44913.52,
         "shop_tab_gmv": 19896.3,
-        "gmv_max_revenue": 142891.07000000004,
+        "gmv_max_revenue": 142987.04000000004,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 146592.83,
+        "ad_spend": 146836.62,
         "commission": 31960.36,
         "refund_amount": 13675.62,
-        "shipping_fees": 47515.2
+        "shipping_fees": 47614.0
       },
-      "net_after_ads_commissions_refunds": -42006.24,
+      "net_after_ads_commissions_refunds": -41814.01,
       "ratios": {
-        "blended_roas": 1.0248,
-        "gmv_max_roas": 0.9747,
+        "blended_roas": 1.026,
+        "gmv_max_roas": 0.9738,
         "commission_rate_pct": 24.15,
-        "refund_rate_pct": 9.1,
-        "aov": 24.73,
+        "refund_rate_pct": 9.08,
+        "aov": 24.74,
         "gpm": 7.52,
         "emv": 57044.65,
         "gmv_per_sample_delivered": 180.53
       },
       "volume": {
-        "orders": 6271,
-        "units_sold": 7149.0,
+        "orders": 6284,
+        "units_sold": 7164.0,
         "creators": 660,
         "samples_delivered": 733,
         "video_views": 11408931
@@ -1165,23 +1165,23 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 100079.69,
-          "share_pct": 66.6,
-          "video_gmv": 43249.94,
-          "live_gmv": 45817.77,
+          "total_gmv": 100489.04,
+          "share_pct": 66.7,
+          "video_gmv": 43302.13,
+          "live_gmv": 46174.93,
           "shop_tab_gmv": 12745.05,
-          "units_sold": 3852
+          "units_sold": 3865
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 42453.08,
-          "share_pct": 28.3,
-          "video_gmv": 38312.39,
+          "total_gmv": 42479.75,
+          "share_pct": 28.2,
+          "video_gmv": 38339.06,
           "live_gmv": 104.95,
           "shop_tab_gmv": 4891.79,
-          "units_sold": 2798
+          "units_sold": 2800
         },
         {
           "product_id": "1729388554561294555",
@@ -1562,34 +1562,34 @@
     "90d": {
       "range": "2026-06-02 to 2026-08-30",
       "revenue": {
-        "total_gmv": 186929.71,
+        "total_gmv": 187365.73,
         "affiliate_gmv": 167186.98,
         "video_gmv": 109974.08,
         "live_gmv": 55481.49,
         "shop_tab_gmv": 25815.85,
-        "gmv_max_revenue": 170525.08999999997,
+        "gmv_max_revenue": 170621.06,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 170269.40000000002,
+        "ad_spend": 170513.19,
         "commission": 36583.55,
         "refund_amount": 17155.12,
-        "shipping_fees": 57706.8
+        "shipping_fees": 57805.6
       },
-      "net_after_ads_commissions_refunds": -37078.36,
+      "net_after_ads_commissions_refunds": -36886.13,
       "ratios": {
-        "blended_roas": 1.0978,
-        "gmv_max_roas": 1.0015,
+        "blended_roas": 1.0988,
+        "gmv_max_roas": 1.0006,
         "commission_rate_pct": 21.88,
-        "refund_rate_pct": 9.18,
-        "aov": 25.58,
+        "refund_rate_pct": 9.16,
+        "aov": 25.59,
         "gpm": 7.4,
         "emv": 74135.06,
         "gmv_per_sample_delivered": 175.62
       },
       "volume": {
-        "orders": 7614,
-        "units_sold": 8596.0,
+        "orders": 7627,
+        "units_sold": 8611.0,
         "creators": 851,
         "samples_delivered": 952,
         "video_views": 14827011
@@ -1599,23 +1599,23 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 113751.98,
+          "total_gmv": 114161.33,
           "share_pct": 60.9,
-          "video_gmv": 45777.33,
-          "live_gmv": 56385.74,
+          "video_gmv": 45829.52,
+          "live_gmv": 56742.9,
           "shop_tab_gmv": 16169.06,
-          "units_sold": 4296
+          "units_sold": 4309
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 64689.07,
-          "share_pct": 34.6,
-          "video_gmv": 59371.23,
+          "total_gmv": 64715.74,
+          "share_pct": 34.5,
+          "video_gmv": 59397.9,
           "live_gmv": 104.95,
           "shop_tab_gmv": 6716.19,
-          "units_sold": 3781
+          "units_sold": 3783
         },
         {
           "product_id": "1729388554561294555",

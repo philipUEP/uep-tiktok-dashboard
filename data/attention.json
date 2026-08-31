@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-08-30T07:22:30Z",
+  "updated_at": "2026-08-31T07:22:13+00:00",
   "items": [
     {
       "metric": "Videos posted",
-      "current": 81,
+      "current": 92,
       "prior": 168,
-      "pct": -51.8,
+      "pct": -45.2,
       "direction": "down",
-      "effect": "Video supply ran 270 to 168 to 81 over three weeks, so the content base that converts to GMV in the next 2 to 3 weeks is collapsing.",
-      "action": "Greenlight outbound bidet and screen door samples now and revive Blitz #2 and the LIVE studio incentive to refill posting."
+      "effect": "At 92 vs 168, content supply is halving and, with a 2-4 week funnel lag, video views and affiliate GMV are set to keep falling.",
+      "action": "Reactivate dormant creators with a bidet and screen door brief pack to break the three-week run."
     },
     {
       "metric": "Creators posting",
-      "current": 58,
+      "current": 66,
       "prior": 111,
-      "pct": -47.7,
+      "pct": -40.5,
       "direction": "down",
-      "effect": "The active creator base halved in one week, concentrating GMV risk on a few live-heavy creators such as fortune0420.",
-      "action": "Re-engage dormant top creators and clear the sample backlog so approved creators ship and post again."
-    },
-    {
-      "metric": "Video views",
-      "current": 602017,
-      "prior": 1098089,
-      "pct": -45.2,
-      "direction": "down",
-      "effect": "Views are the earliest revenue signal and a repeat drop of this size halves the audience that converts to GMV.",
-      "action": "Brief creators to lead with proven hooks and show the product within the first 3 seconds, especially Spanish-language creators."
+      "effect": "The active creator base dropped from 111 to 66, shrinking organic reach and new content supply.",
+      "action": "Re-engage the 51 creators with sales plus the top digest performers with incentives and refreshed briefs."
     },
     {
       "metric": "Sample requests",
-      "current": 99,
+      "current": 105,
       "prior": 169,
-      "pct": -41.4,
+      "pct": -37.9,
       "direction": "down",
-      "effect": "Fewer requests now mean fewer shipped samples and fewer videos in the 3 to 4 week window, pulling GMV down with them.",
-      "action": "Fix the reply leak (0.23% reply rate) and activate the Sample Follow-Up Sequence to convert replies into requests."
+      "effect": "Inbound requests are down for three weeks, starving the sample to content pipeline for the weeks ahead.",
+      "action": "Clear the 14 pending approvals and cut the 63.7% rejection rate to restore inbound flow."
     },
     {
-      "metric": "Shop Wide GMV Max ROAS vs breakeven",
-      "current": 0.735,
-      "prior": 1.0,
-      "pct": -26.5,
+      "metric": "Affiliate GMV",
+      "current": 13001.13,
+      "prior": 13805.86,
+      "pct": -5.8,
       "direction": "down",
-      "effect": "The campaign spends below break-even (week 0.735, month 0.717) against a 2.0 target, burning ad budget.",
-      "action": "Pause or reallocate Shop Wide budget to Screen Door (1.207) and the Back to School promo (1.964)."
+      "effect": "Affiliate GMV is down 39% over three weeks and still makes up 76.7% of GMV, so total GMV growth increasingly depends on ads and LIVE.",
+      "action": "Prioritize bidet and screen door creator output to arrest the run next week."
+    },
+    {
+      "metric": "Shop Wide campaign ROAS",
+      "current": 0.7,
+      "prior": 0.723,
+      "pct": -3.2,
+      "direction": "down",
+      "effect": "At 0.70 the campaign loses roughly 185 per week and drags blended ROAS below the 1.5 target.",
+      "action": "Pause or reallocate Shop Wide budget into Bidet 7/6 and Screen Door, both at 1.40."
     },
     {
       "metric": "Sample rejection rate",
-      "current": 65.0,
+      "current": 63.7,
       "prior": 50.0,
-      "pct": 30.0,
+      "pct": 27.4,
       "direction": "up",
-      "effect": "195 of 300 applications were rejected (65%), which starves the funnel of future video supply.",
-      "action": "Review rejection criteria with Jermin and Melodie and weight post rate and GPM higher in approvals."
+      "effect": "Rejecting 63.7% of applications removes future content supply and likely pushes inbound creators to churn.",
+      "action": "Rebalance approval criteria toward post rate and GPM so viable creators stay in the pipeline."
     }
   ]
 }

@@ -385,8 +385,11 @@ function renderOverview(){
   let html = '<div class="statusline">Upper Echelon Products · <b>Complete data through '+REPORT.freshness.data_through+
     '</b> · Pulled '+REPORT.freshness.pulled_on+'</div>';
 
-  // attention panel
-  const attItems = (ATTENTION&&ATTENTION.items&&ATTENTION.items.length)? ATTENTION.items
+  // attention panel (fresh only; a stale shipped copy falls back to the
+  // deterministic trend-derived items so the panel always matches the page)
+  const attFresh = ATTENTION&&ATTENTION.updated_at&&REPORT.freshness&&REPORT.freshness.pulled_on
+    ? String(ATTENTION.updated_at).slice(0,10) >= String(REPORT.freshness.pulled_on).slice(0,10) : false;
+  const attItems = (attFresh&&ATTENTION.items&&ATTENTION.items.length)? ATTENTION.items
     : fallbackAttention();
   if(attItems.length){
     html += '<div class="attention">'+
@@ -412,16 +415,18 @@ function renderOverview(){
       '</div>'+syncNote+'</div>';
   }
 
-  // KPI row with deltas + sparklines
+  // KPI row with deltas + sparklines. The chips use the selected period's own
+  // per-metric deltas (honest for every range); weekly trend is the fallback.
   const aff = m0["Affiliate GMV"], comm = m0["Commission"];
+  const dlt = s.deltas||{};
   const deltaPct = parseDelta(s.gmvDelta);
   html += '<div class="kpis">'+
     kpi("Seller Center GMV", money(s.gmv), deltaChip(deltaPct), (s.gmvDelta||"").replace(" vs prior period",""), spark("total_gmv"))+
-    kpi("Orders", num(m0["Orders"]||0), deltaChip(trendPct("platform_orders")), "", spark("platform_orders"))+
+    kpi("Orders", num(m0["Orders"]||0), deltaChip(dlt["Orders"]!=null? dlt["Orders"] : trendPct("platform_orders")), "", spark("platform_orders"))+
     kpi("GMV Max revenue", money(s.adRevenue), '<span class="delta '+(s.roas>=1.5?"up":(s.roas>=1?"flat":"down"))+'">ROAS '+Number(s.roas).toFixed(2)+'x</span>', "Spend "+money(s.adSpend), "")+
-    kpi("Affiliate GMV", money(aff), deltaChip(trendPct("affiliate_gmv")), "Commission "+money(comm), spark("affiliate_gmv"))+
-    kpi("Creator output", num(m0["Videos posted"]||0), deltaChip(trendPct("videos_posted")), num(m0["Creators posting"]||0)+" creators posting", spark("videos_posted"))+
-    kpi("Video views", num(m0["Video views"]||0), deltaChip(trendPct("video_views")), money(m0["LIVE GMV"]||0)+" LIVE GMV · "+num(m0["LIVE streams"]||0)+" streams", spark("video_views"))+
+    kpi("Affiliate GMV", money(aff), deltaChip(dlt["Affiliate GMV"]!=null? dlt["Affiliate GMV"] : trendPct("affiliate_gmv")), "Commission "+money(comm), spark("affiliate_gmv"))+
+    kpi("Creator output", num(m0["Videos posted"]||0), deltaChip(dlt["Videos posted"]!=null? dlt["Videos posted"] : trendPct("videos_posted")), num(m0["Creators posting"]||0)+" creators posting", spark("videos_posted"))+
+    kpi("Video views", num(m0["Video views"]||0), deltaChip(dlt["Video views"]!=null? dlt["Video views"] : trendPct("video_views")), money(m0["LIVE GMV"]||0)+" LIVE GMV · "+num(m0["LIVE streams"]||0)+" streams", spark("video_views"))+
     '</div>';
 
   // two-column: trend + funnel
@@ -508,7 +513,8 @@ function trendBars(cur,mth){
 }
 function rosterRow(r){
   const init = (r[0]||"?").trim().charAt(0).toUpperCase();
-  return '<tr data-creator="'+esc(r[1])+'" style="cursor:pointer"><td><span class="avatar">'+esc(init)+'</span><span class="cname">'+esc(r[0])+'</span><br><span class="chandle">'+esc(r[1])+'</span></td>'+
+  const same = (r[0]||"") === (r[1]||"");
+  return '<tr data-creator="'+esc(r[1])+'" style="cursor:pointer"><td><span class="avatar">'+esc(init)+'</span><span class="cname">'+esc(r[0])+'</span>'+(same?"":'<br><span class="chandle">'+esc(r[1])+'</span>')+'</td>'+
     '<td class="money">'+money(r[2])+'</td><td>'+num(r[3])+'</td><td>'+num(r[4])+'</td>'+
     '<td class="money">'+money(r[5])+'</td><td>'+num(r[6])+'</td><td>'+num(r[7])+'</td></tr>';
 }
@@ -603,7 +609,7 @@ function renderVideos(){
     '<div class="head"><h2>Video performance</h2><span class="range">'+REPORT.periods[PERIOD].range+' · ranked by GMV</span></div>'+
     '<div class="tablewrap"><table><thead><tr><th>Video</th><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Likes</th></tr></thead><tbody>'+
     rows.map(r=>'<tr><td style="max-width:340px;white-space:normal;text-align:left"><a href="'+esc(r[8])+'" target="_blank" rel="noopener">'+esc(r[1])+'</a></td>'+
-      '<td style="text-align:left"><span class="cname">'+esc(r[2])+'</span><br><span class="chandle">'+esc(r[3])+'</span></td>'+
+      '<td style="text-align:left">'+(r[2]===r[3]?'<span class="cname">'+esc(r[2])+'</span>':'<span class="cname">'+esc(r[2])+'</span><br><span class="chandle">'+esc(r[3])+'</span>')+'</td>'+
       '<td class="money">'+money(r[4])+'</td><td>'+num(r[5])+'</td><td>'+num(r[6])+'</td><td>'+num(r[7])+'</td></tr>').join("")+
     '</tbody></table></div>';
 }
@@ -800,10 +806,17 @@ function renderLIVE(){
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("LIVE GMV", money(t.gmv))+kpi("Streams", num(t.streams))+
       kpi("Units", num(t.units))+kpi("Views", num(t.views))+'</div>'+
+    liveAttributionNote(t.gmv)+
     '<div class="head" style="margin-top:14px"><h2>Top streams</h2><span class="range">ranked by GMV</span></div>'+
     '<div class="tablewrap"><table><thead><tr><th>Creator</th><th>Title</th><th>GMV</th><th>Units</th><th>Views</th><th>Likes</th><th>Comments</th><th>Duration</th><th>Start</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
 }
 
+function liveAttributionNote(streamGmv){
+  const per = REPORT&&REPORT.periods[PERIOD];
+  const stat = per&&per.score&&per.score.m? per.score.m["LIVE GMV"] : null;
+  if(stat==null) return "";
+  return '<div class="muted small" style="margin-top:8px">Stream-level GMV from the lives feed ('+money(streamGmv)+'); the LIVE GMV stat for this window is '+money(stat)+' (Overview). The feeds attribute differently.</div>';
+}
 /* ============================= DRILL-DOWNS ============================= */
 function openModal(html){
   $("modalBox").innerHTML = html;

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T07:01:18.903096+00:00",
+  "generated_at": "2026-08-31T09:18:35.240038+00:00",
   "weeks": [
     {
       "total_gmv": 23576.75,
@@ -53,9 +53,9 @@
       "_range": "2026-08-17 to 2026-08-23"
     },
     {
-      "total_gmv": 16949.0,
-      "platform_orders": 717,
-      "total_units_sold": 769.0,
+      "total_gmv": 17385.02,
+      "platform_orders": 730,
+      "total_units_sold": 784.0,
       "affiliate_gmv": 13001.13,
       "live_gmv": 6154.82,
       "video_views": 745840,
@@ -75,19 +75,19 @@
       23576.75,
       23280.45,
       15825.92,
-      16949.0
+      17385.02
     ],
     "platform_orders": [
       1066.0,
       948.0,
       629.0,
-      717.0
+      730.0
     ],
     "total_units_sold": [
       1275.0,
       1091.0,
       684.0,
-      769.0
+      784.0
     ],
     "affiliate_gmv": [
       21020.39,
@@ -232,25 +232,25 @@
     {
       "metric": "total_gmv",
       "label": "GMV",
-      "current": 16949.0,
+      "current": 17385.02,
       "prior": 15825.92,
-      "pct": 7.1,
+      "pct": 9.9,
       "direction": "up"
     },
     {
       "metric": "total_units_sold",
       "label": "Units",
-      "current": 769.0,
+      "current": 784.0,
       "prior": 684.0,
-      "pct": 12.4,
+      "pct": 14.6,
       "direction": "up"
     },
     {
       "metric": "platform_orders",
       "label": "Orders",
-      "current": 717.0,
+      "current": 730.0,
       "prior": 629.0,
-      "pct": 14.0,
+      "pct": 16.1,
       "direction": "up"
     },
     {
@@ -353,14 +353,14 @@
     }
   ],
   "ratios": {
-    "gmv_per_sample_shipped": 345.9,
+    "gmv_per_sample_shipped": 354.8,
     "reply_rate_pct": 0.25,
     "videos_per_creator": 1.39,
-    "live_share_of_gmv_pct": 36.3,
-    "affiliate_share_of_gmv_pct": 76.7
+    "live_share_of_gmv_pct": 35.4,
+    "affiliate_share_of_gmv_pct": 74.8
   },
   "freshness": {
-    "pull_age_days": 0.3,
+    "pull_age_days": 0.4,
     "data_through": "2026-08-30"
   },
   "note": "Deterministic signal set from the Cruva REST API. The insights agent interprets these; the numbers are ground truth."
