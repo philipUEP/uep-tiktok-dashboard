@@ -6,8 +6,8 @@
 <title>UEP TikTok Shop Performance Dashboard</title>
 <style>
   :root{
-    --bg:#f6f7f9; --surface:#ffffff; --surface2:#fafbfc; --line:#e6e8ee; --line2:#edf0f4;
-    --text:#171a21; --muted:#6b7280; --faint:#9aa1ad;
+    --bg:#f5f6f8; --surface:#ffffff; --surface2:#fafbfc; --line:#e3e6ee; --line2:#edf0f5;
+    --text:#15181f; --muted:#4d5566; --faint:#828b9c;
     --accent:#3b5bdb; --accent2:#5c7cfa; --accent-soft:rgba(59,91,219,.09);
     --good:#12b76a; --good-soft:rgba(18,183,106,.10); --bad:#e5484d; --bad-soft:rgba(229,72,77,.09);
     --amber:#d97706; --amber-soft:rgba(217,119,6,.10);
@@ -16,14 +16,14 @@
   }
   [data-theme="dark"]{
     --bg:#0f1115; --surface:#161a21; --surface2:#1b2029; --line:#242b38; --line2:#20262f;
-    --text:#e7eaef; --muted:#8b93a3; --faint:#5d6572;
+    --text:#eef1f6; --muted:#a4adbd; --faint:#6d7686;
     --accent:#6c8cff; --accent2:#8fa8ff; --accent-soft:rgba(108,140,255,.12);
     --good:#34d399; --good-soft:rgba(52,211,153,.12); --bad:#f87171; --bad-soft:rgba(248,113,113,.12);
     --amber:#fbbf24; --amber-soft:rgba(251,191,36,.12);
     --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 16px rgba(0,0,0,.35);
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--text);font:14px/1.5 var(--font);-webkit-font-smoothing:antialiased}
+  body{background:var(--bg);color:var(--text);font:15px/1.55 var(--font);-webkit-font-smoothing:antialiased}
   button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
   a{color:var(--accent);text-decoration:none}
   a:hover{text-decoration:underline}
@@ -62,12 +62,12 @@
   .view{display:none}
   .view.active{display:block}
   .head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin:2px 0 14px}
-  .head h2{font-size:15.5px;font-weight:800;letter-spacing:-.2px}
-  .head .range{font-size:12px;color:var(--muted)}
-  .muted{color:var(--muted)} .small{font-size:12px}
+  .head h2{font-size:16px;font-weight:800;letter-spacing:-.2px}
+  .head .range{font-size:12.5px;color:var(--muted)}
+  .muted{color:var(--muted)} .small{font-size:12.5px}
 
   /* status line + latest check */
-  .statusline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-bottom:12px}
+  .statusline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12.5px;color:var(--muted);margin-bottom:12px}
   .statusline b{color:var(--text)}
   .lsc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:13px 18px;margin-bottom:16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
   .lsc .d{font-size:12px;font-weight:800;letter-spacing:.4px;color:var(--faint);text-transform:uppercase}
@@ -79,9 +79,9 @@
   .kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:16px}
   @media(max-width:1200px){.kpis{grid-template-columns:repeat(3,1fr)}}
   .kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 16px 13px}
-  .kpi .lbl{font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--faint);display:flex;align-items:center;gap:5px}
-  .kpi .val{font-size:21px;font-weight:800;letter-spacing:-.5px;margin-top:5px;font-variant-numeric:tabular-nums}
-  .kpi .sub{font-size:11.5px;color:var(--muted);margin-top:3px}
+  .kpi .lbl{font-size:11px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--faint);display:flex;align-items:center;gap:5px}
+  .kpi .val{font-size:22px;font-weight:800;letter-spacing:-.5px;margin-top:5px;font-variant-numeric:tabular-nums}
+  .kpi .sub{font-size:12px;color:var(--muted);margin-top:3px}
   .kpi .sub b{color:var(--text)}
   .delta{display:inline-flex;align-items:center;gap:3px;font-size:11px;font-weight:800;border-radius:99px;padding:2px 8px;margin-top:7px}
   .delta.up{color:var(--good);background:var(--good-soft)}
@@ -91,8 +91,8 @@
   .cols2{display:grid;grid-template-columns:1.6fr 1fr;gap:12px;margin-bottom:16px}
   @media(max-width:1100px){.cols2{grid-template-columns:1fr}}
   .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 18px}
-  .panel .pt{font-size:13px;font-weight:800;display:flex;justify-content:space-between;align-items:center;margin-bottom:2px}
-  .panel .ps{font-size:11.5px;color:var(--muted);margin-bottom:12px}
+  .panel .pt{font-size:13.5px;font-weight:800;display:flex;justify-content:space-between;align-items:center;margin-bottom:2px}
+  .panel .ps{font-size:12px;color:var(--muted);margin-bottom:12px}
   .bars{display:flex;align-items:flex-end;gap:26px;height:150px;padding-top:8px}
   .bars .bg{flex:1;display:flex;flex-direction:column;gap:6px}
   .bars .brow{display:flex;align-items:flex-end;gap:10px;height:100%}
@@ -113,26 +113,27 @@
   .fstep .ff{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
   .fstep:nth-child(2) .ff{opacity:.85}.fstep:nth-child(3) .ff{opacity:.7}.fstep:nth-child(4) .ff{opacity:.55}.fstep:nth-child(5) .ff{opacity:.4}
   .fstep .fv{width:52px;font-size:12.5px;font-weight:800;text-align:right;flex:none;font-variant-numeric:tabular-nums}
+  .fstep .frate{width:56px;font-size:11px;font-weight:700;color:var(--faint);text-align:right;flex:none;font-variant-numeric:tabular-nums}
 
   /* stat mini cards */
   .mini4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
   @media(max-width:1100px){.mini4{grid-template-columns:repeat(2,1fr)}}
   .mini{background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:13px 16px;display:flex;justify-content:space-between;align-items:center}
-  .mini .lbl{font-size:10.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--faint)}
-  .mini .val{font-size:19px;font-weight:800;margin-top:3px;font-variant-numeric:tabular-nums}
+  .mini .lbl{font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--faint)}
+  .mini .val{font-size:20px;font-weight:800;margin-top:3px;font-variant-numeric:tabular-nums}
 
   /* tables */
   .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface);box-shadow:var(--shadow)}
-  table{width:100%;border-collapse:collapse;font-size:12.5px}
-  th{font-size:10.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--faint);text-align:right;padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap;background:var(--surface2)}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--faint);text-align:right;padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap;background:var(--surface2)}
   th:first-child,td:first-child{text-align:left}
   td{padding:10px 14px;border-bottom:1px solid var(--line2);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
   tbody tr:last-child td{border-bottom:0}
   tbody tr:hover{background:var(--surface2)}
   td .money{font-weight:700}
   .avatar{width:26px;height:26px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:800;font-size:11px;display:inline-flex;align-items:center;justify-content:center;margin-right:9px;vertical-align:middle}
-  .cname{font-weight:700;font-size:12.5px}
-  .chandle{color:var(--faint);font-size:11px}
+  .cname{font-weight:700;font-size:13px}
+  .chandle{color:var(--faint);font-size:11.5px}
   .toolbar{display:flex;gap:8px;margin-bottom:10px;align-items:center}
   .search{flex:1;max-width:280px;padding:8px 12px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--text);font-size:12.5px}
   .search:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
@@ -328,10 +329,12 @@ function load(){
     $("footShop").textContent = REPORT.shop? REPORT.shop.name : "Upper Echelon Products";
     $("footSrc").textContent = "Source: " + (REPORT.source||"Cruva");
     const fr = REPORT.freshness||{};
-    let syncText = "data through " + (fr.data_through||"?");
+    const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    const plainDate = (s)=>{ if(!s) return "?"; const d=new Date(s+"T00:00:00Z"); return isNaN(d)? s : (MON[d.getUTCMonth()]+" "+d.getUTCDate()); };
+    let syncText = "Data through " + plainDate(fr.data_through);
     if(r.lm){
       const d = new Date(r.lm);
-      if(!isNaN(d)) syncText = "synced "+d.toISOString().slice(5,16).replace("T"," ")+" UTC · data through "+(fr.data_through||"?");
+      if(!isNaN(d)) syncText = "Synced "+plainDate(d.toISOString().slice(0,10))+" "+d.toISOString().slice(11,16)+" UTC · data through "+plainDate(fr.data_through);
     }
     $("freshChip").textContent = syncText;
     $("freshDot").className = "dot";
@@ -365,7 +368,10 @@ function buildPeriodSeg(ranges){
 
 function renderAll(){
   $("pageTitle").textContent = TITLES[TAB]||"Overview";
-  $("pageSub").textContent = "Upper Echelon Products · " + (REPORT.freshness.data_through||"") + " · Daily control room";
+  const fr = REPORT.freshness||{};
+  const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const pd = (s)=>{ if(!s) return "?"; const d=new Date(s+"T00:00:00Z"); return isNaN(d)? s : (MON[d.getUTCMonth()]+" "+d.getUTCDate()); };
+  $("pageSub").textContent = "Upper Echelon Products · data through "+pd(fr.data_through)+" · Daily control room";
   renderOverview(); renderFinancials(); renderOutreach(); renderCreators(); renderVideos();
   renderCreative(); renderProducts(); renderAds(); renderSampling(); renderLIVE();
 }
@@ -421,6 +427,32 @@ function renderOverview(){
   // every 60s without reloading the page.
   if(TICKER&&TICKER.values) html += liveStripHtml();
 
+  // KPI row with deltas + sparklines. The chips use the selected period's own
+  // per-metric deltas (honest for every range); weekly trend is the fallback.
+  const aff = m0["Affiliate GMV"], comm = m0["Commission"];
+  const dlt = s.deltas||{};
+  const deltaPct = parseDelta(s.gmvDelta);
+  html += '<div class="kpis">'+
+    kpi("Seller Center GMV", money(s.gmv), deltaChip(deltaPct), (s.gmvDelta||"").replace(" vs prior period",""), spark("total_gmv"))+
+    kpi("Orders", num(m0["Orders"]||0), deltaChip(dlt["Orders"]!=null? dlt["Orders"] : trendPct("platform_orders")), "", spark("platform_orders"))+
+    kpi("GMV Max revenue", money(s.adRevenue), '<span class="delta '+(s.roas>=1.5?"up":(s.roas>=1?"flat":"down"))+'">ROAS '+Number(s.roas).toFixed(2)+'x</span>', "Spend "+money(s.adSpend), "")+
+    kpi("Affiliate GMV", money(aff), deltaChip(dlt["Affiliate GMV"]!=null? dlt["Affiliate GMV"] : trendPct("affiliate_gmv")), "Commission "+money(comm), spark("affiliate_gmv"))+
+    kpi("Creator output", num(m0["Videos posted"]||0), deltaChip(dlt["Videos posted"]!=null? dlt["Videos posted"] : trendPct("videos_posted")), num(m0["Creators posting"]||0)+" creators posting", spark("videos_posted"))+
+    kpi("Video views", num(m0["Video views"]||0), deltaChip(dlt["Video views"]!=null? dlt["Video views"] : trendPct("video_views")), money(m0["LIVE GMV"]||0)+" LIVE GMV · "+num(m0["LIVE streams"]||0)+" streams", spark("video_views"))+
+    '</div>';
+
+  // latest source check strip
+  if(lsc.date){
+    html += '<div class="lsc"><span class="d">Latest source check</span><div class="vals">'+
+      '<span>Seller Center GMV <b>'+money(lsc.seller_center_gmv)+'</b></span>'+
+      '<span>Orders <b>'+num(lsc.orders)+'</b></span>'+
+      '<span>Units <b>'+num(lsc.units)+'</b></span>'+
+      (lsc.gmv_max_revenue!=null?'<span>GMV Max revenue <b>'+money(lsc.gmv_max_revenue)+'</b></span>':"")+
+      (lsc.gmv_max_spend!=null?'<span>Spend <b>'+money(lsc.gmv_max_spend)+'</b></span>':"")+
+      (lsc.gmv_max_roas!=null?'<span>ROAS <b>'+Number(lsc.gmv_max_roas).toFixed(2)+'x</b></span>':"")+
+      '</div>'+syncNote+'</div>';
+  }
+
   // attention panel (fresh only; a stale shipped copy falls back to the
   // deterministic trend-derived items so the panel always matches the page)
   const attFresh = ATTENTION&&ATTENTION.updated_at&&REPORT.freshness&&REPORT.freshness.pulled_on
@@ -439,32 +471,6 @@ function renderOverview(){
       '</div>';
   }
 
-  // latest source check strip
-  if(lsc.date){
-    html += '<div class="lsc"><span class="d">Latest source check</span><div class="vals">'+
-      '<span>Seller Center GMV <b>'+money(lsc.seller_center_gmv)+'</b></span>'+
-      '<span>Orders <b>'+num(lsc.orders)+'</b></span>'+
-      '<span>Units <b>'+num(lsc.units)+'</b></span>'+
-      (lsc.gmv_max_revenue!=null?'<span>GMV Max revenue <b>'+money(lsc.gmv_max_revenue)+'</b></span>':"")+
-      (lsc.gmv_max_spend!=null?'<span>Spend <b>'+money(lsc.gmv_max_spend)+'</b></span>':"")+
-      (lsc.gmv_max_roas!=null?'<span>ROAS <b>'+Number(lsc.gmv_max_roas).toFixed(2)+'x</b></span>':"")+
-      '</div>'+syncNote+'</div>';
-  }
-
-  // KPI row with deltas + sparklines. The chips use the selected period's own
-  // per-metric deltas (honest for every range); weekly trend is the fallback.
-  const aff = m0["Affiliate GMV"], comm = m0["Commission"];
-  const dlt = s.deltas||{};
-  const deltaPct = parseDelta(s.gmvDelta);
-  html += '<div class="kpis">'+
-    kpi("Seller Center GMV", money(s.gmv), deltaChip(deltaPct), (s.gmvDelta||"").replace(" vs prior period",""), spark("total_gmv"))+
-    kpi("Orders", num(m0["Orders"]||0), deltaChip(dlt["Orders"]!=null? dlt["Orders"] : trendPct("platform_orders")), "", spark("platform_orders"))+
-    kpi("GMV Max revenue", money(s.adRevenue), '<span class="delta '+(s.roas>=1.5?"up":(s.roas>=1?"flat":"down"))+'">ROAS '+Number(s.roas).toFixed(2)+'x</span>', "Spend "+money(s.adSpend), "")+
-    kpi("Affiliate GMV", money(aff), deltaChip(dlt["Affiliate GMV"]!=null? dlt["Affiliate GMV"] : trendPct("affiliate_gmv")), "Commission "+money(comm), spark("affiliate_gmv"))+
-    kpi("Creator output", num(m0["Videos posted"]||0), deltaChip(dlt["Videos posted"]!=null? dlt["Videos posted"] : trendPct("videos_posted")), num(m0["Creators posting"]||0)+" creators posting", spark("videos_posted"))+
-    kpi("Video views", num(m0["Video views"]||0), deltaChip(dlt["Video views"]!=null? dlt["Video views"] : trendPct("video_views")), money(m0["LIVE GMV"]||0)+" LIVE GMV · "+num(m0["LIVE streams"]||0)+" streams", spark("video_views"))+
-    '</div>';
-
   // two-column: trend + funnel
   html += '<div class="cols2">'+
     '<div class="panel"><div class="pt">GMV &amp; order trend</div><div class="ps">Period totals per selected range; every range ends at the same data date.'+
@@ -474,10 +480,14 @@ function renderOverview(){
       funnel(t)+'</div>'+
     '</div>';
 
-  // outreach queue
+  // outreach queue: volume + response rate
+  const sent = (t["DMs sent"]||0)+(t["Collab invites"]||0);
+  const replied = t["Replies"]||0;
+  const respRate = sent>0? (replied/sent*100) : null;
   html += '<div class="mini4">'+
     mini("DMs sent", t["DMs sent"])+mini("Collab invites", t["Collab invites"])+
-    mini("Replies", t["Replies"])+mini("Creators with sales", t["Creators with sales"])+'</div>';
+    mini("Replies", replied, respRate!=null? respRate.toFixed(2)+"% of messages":null)+
+    mini("Creators with sales", t["Creators with sales"])+'</div>';
 
   // roster
   const rows = (REPORT.periods[PERIOD].creators||[]).slice(0,8).map(rosterRow).join("");
@@ -518,8 +528,10 @@ function kpi(lbl, val, delta, sub, spk){
     (sub?'<div class="sub">'+sub+'</div>':"")+
     (spk?'<div class="sparkwrap">'+spk+'</div>':"")+'</div>';
 }
-function mini(lbl, val){
-  return '<div class="mini"><div><div class="lbl">'+lbl+'</div><div class="val">'+num(val==null?0:val)+'</div></div></div>';
+function mini(lbl, val, sub){
+  const v = (typeof val === "string")? val : num(val==null?0:val);
+  return '<div class="mini"><div><div class="lbl">'+lbl+'</div><div class="val">'+v+'</div>'+
+    (sub?'<div class="sub">'+sub+'</div>':"")+'</div></div>';
 }
 function funnel(t){
   const steps = [["Sample requests","Sample requests"],["Samples approved","Samples approved"],
@@ -595,11 +607,24 @@ function renderOutreach(){
                ["Sample requests","Sample requests"],["Approved samples","Samples approved"],
                ["Delivered samples","Samples delivered"]];
   const first = t["DMs sent"]||1;
+  const sent = (t["DMs sent"]||0)+(t["Collab invites"]||0);
+  const replied = t["Replies"]||0;
+  const respRate = sent>0? (replied/sent*100) : null;
+  const conv = (from,to)=> (from>0? (to/from*100) : null);
   let html = '<div class="head"><h2>Outreach funnel</h2><span class="range">'+REPORT.periods[PERIOD].range+'</span></div>'+
-    '<div class="panel" style="margin-bottom:14px"><div class="pt">Funnel totals</div><div class="ps">The funnel the shop lives or dies on</div>'+
-    '<div class="funnel">'+steps.map(st=>{
+    '<div class="mini4">'+
+      mini("Messages sent", sent)+
+      mini("Replies", replied, respRate!=null? respRate.toFixed(2)+"% of messages":null)+
+      mini("Sample requests", t["Sample requests"], (conv(sent,t["Sample requests"])!=null? conv(sent,t["Sample requests"]).toFixed(1)+"% of messages":null))+
+      mini("Delivered samples", t["Samples delivered"], (conv(t["Sample requests"],t["Samples delivered"])!=null? conv(t["Sample requests"],t["Samples delivered"]).toFixed(1)+"% of requests":null))+
+    '</div>'+
+    '<div class="panel" style="margin-bottom:14px"><div class="pt">Funnel totals</div><div class="ps">Volume by stage; the rate shown is conversion from the stage above</div>'+
+    '<div class="funnel">'+steps.map((st,i)=>{
       const v=t[st[1]]||0;
-      return '<div class="fstep"><span class="fn">'+st[0]+'</span><div class="fb"><div class="ff" style="width:'+Math.max(3,Math.round(v/first*100))+'%"></div></div><span class="fv">'+num(v)+'</span></div>';
+      const prev = i>0? (t[steps[i-1][1]]||0) : 0;
+      const rate = conv(prev,v);
+      return '<div class="fstep"><span class="fn">'+st[0]+'</span><div class="fb"><div class="ff" style="width:'+Math.max(3,Math.round(v/first*100))+'%"></div></div>'+
+        '<span class="fv">'+num(v)+'</span>'+(rate!=null?'<span class="frate">'+rate.toFixed(1)+'%</span>':"")+'</div>';
     }).join("")+'</div></div>';
   if(daily.length){
     html += '<div class="panel"><div class="pt">Daily DMs sent</div><div class="ps">Per-day volume across the period</div>'+
@@ -639,8 +664,18 @@ function renderCreators(){
 /* ============================= VIDEOS ============================= */
 function renderVideos(){
   const rows = REPORT.periods[PERIOD].videos||[];
+  const gmvTotal = rows.reduce((a,r)=>a+(r[4]||0),0);
+  const viewsTotal = rows.reduce((a,r)=>a+(r[6]||0),0);
+  const gmvPerVideo = rows.length? (gmvTotal/rows.length) : null;
+  const viewsPerVideo = rows.length? (viewsTotal/rows.length) : null;
   $("view-videos").innerHTML =
     '<div class="head"><h2>Video performance</h2><span class="range">'+REPORT.periods[PERIOD].range+' · ranked by GMV</span></div>'+
+    '<div class="mini4">'+
+      mini("Videos", rows.length)+
+      mini("Total GMV", gmvTotal)+
+      mini("GMV per video", gmvPerVideo!=null? "$"+gmvPerVideo.toFixed(2):"n/a")+
+      mini("Views per video", viewsPerVideo!=null? num(Math.round(viewsPerVideo)):"n/a")+
+    '</div>'+
     '<div class="tablewrap"><table><thead><tr><th>Video</th><th>Creator</th><th>GMV</th><th>Units</th><th>Views</th><th>Likes</th></tr></thead><tbody>'+
     rows.map(r=>'<tr><td style="max-width:340px;white-space:normal;text-align:left"><a href="'+esc(r[8])+'" target="_blank" rel="noopener">'+esc(r[1])+'</a></td>'+
       '<td style="text-align:left">'+(r[2]===r[3]?'<span class="cname">'+esc(r[2])+'</span>':'<span class="cname">'+esc(r[2])+'</span><br><span class="chandle">'+esc(r[3])+'</span>')+'</td>'+
