@@ -129,7 +129,8 @@
   th:first-child,td:first-child{text-align:left}
   td{padding:10px 14px;border-bottom:1px solid var(--line2);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
   tbody tr:last-child td{border-bottom:0}
-  tbody tr:hover{background:var(--surface2)}
+  tbody tr:nth-child(even){background:var(--surface2)}
+  tbody tr:hover{background:var(--accent-soft)}
   td .money{font-weight:700}
   .avatar{width:26px;height:26px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:800;font-size:11px;display:inline-flex;align-items:center;justify-content:center;margin-right:9px;vertical-align:middle}
   .cname{font-weight:700;font-size:13px}
@@ -182,7 +183,7 @@
   .at-pct.good{color:var(--good);background:var(--good-soft)}
   .at-pct.bad{color:var(--bad);background:var(--bad-soft)}
   .at-effect{font-size:12px;color:var(--muted);flex:1;min-width:220px}
-  .at-action{font-size:12px;color:var(--accent);font-weight:600;width:100%}
+  .at-action{font-size:12px;color:var(--accent);font-weight:600;width:100%;margin-top:2px}
   .at-pct.mid{color:var(--amber);background:var(--amber-soft)}
 
   /* sparklines */
