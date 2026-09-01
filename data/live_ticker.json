@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats + /ads/campaigns (in-progress week, live read)",
-    "pulled_at": "2026-09-01T15:11:12.427059+00:00"
+    "pulled_at": "2026-09-01T15:13:12.638685+00:00"
   },
   "week_range": "2026-08-31 to 2026-09-01",
   "values": {
@@ -22,6 +22,7 @@
     "gmv_max_spend": 892.49,
     "gmv_max_roas": 1.153
   },
-  "stale": false,
-  "last_error": null
+  "stale": true,
+  "last_error": "<urlopen error _ssl.c:1012: The handshake operation timed out>",
+  "last_error_at": "2026-09-01T15:13:12.638685+00:00"
 }
