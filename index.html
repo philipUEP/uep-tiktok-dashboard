@@ -618,11 +618,14 @@ function renderOutreach(){
       mini("Sample requests", t["Sample requests"], (conv(sent,t["Sample requests"])!=null? conv(sent,t["Sample requests"]).toFixed(1)+"% of messages":null))+
       mini("Delivered samples", t["Samples delivered"], (conv(t["Sample requests"],t["Samples delivered"])!=null? conv(t["Sample requests"],t["Samples delivered"]).toFixed(1)+"% of requests":null))+
     '</div>'+
-    '<div class="panel" style="margin-bottom:14px"><div class="pt">Funnel totals</div><div class="ps">Volume by stage; the rate shown is conversion from the stage above</div>'+
+    '<div class="panel" style="margin-bottom:14px"><div class="pt">Funnel totals</div><div class="ps">Volume by stage; rates shown where a stage converts from the one above</div>'+
     '<div class="funnel">'+steps.map((st,i)=>{
       const v=t[st[1]]||0;
       const prev = i>0? (t[steps[i-1][1]]||0) : 0;
-      const rate = conv(prev,v);
+      // Only show a rate when the stage is a true downstream step (value
+      // shrinks vs the stage above); parallel inflow channels (invites,
+      // sample requests) would render as >100% and look like a bug.
+      const rate = (prev>0 && v<=prev)? (v/prev*100) : null;
       return '<div class="fstep"><span class="fn">'+st[0]+'</span><div class="fb"><div class="ff" style="width:'+Math.max(3,Math.round(v/first*100))+'%"></div></div>'+
         '<span class="fv">'+num(v)+'</span>'+(rate!=null?'<span class="frate">'+rate.toFixed(1)+'%</span>':"")+'</div>';
     }).join("")+'</div></div>';
