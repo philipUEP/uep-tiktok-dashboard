@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-08-31",
+    "pulled_on": "2026-09-01",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -14,36 +14,36 @@
       "range": "2026-08-24 to 2026-08-30",
       "revenue": {
         "total_gmv": 17385.02,
-        "affiliate_gmv": 13001.13,
-        "video_gmv": 6613.04,
-        "live_gmv": 6154.82,
+        "affiliate_gmv": 15297.1,
+        "video_gmv": 7542.64,
+        "live_gmv": 7521.18,
         "shop_tab_gmv": 3039.13,
         "gmv_max_revenue": 12669.86,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 9535.8,
-        "commission": 3223.59,
-        "refund_amount": 1346.42,
+        "commission": 3785.8,
+        "refund_amount": 1561.89,
         "shipping_fees": 5525.2
       },
-      "net_after_ads_commissions_refunds": 3279.21,
+      "net_after_ads_commissions_refunds": 2501.53,
       "ratios": {
         "blended_roas": 1.8231,
         "gmv_max_roas": 1.3287,
-        "commission_rate_pct": 24.79,
-        "refund_rate_pct": 7.74,
+        "commission_rate_pct": 24.75,
+        "refund_rate_pct": 8.98,
         "aov": 23.9,
-        "gpm": 8.8,
-        "emv": 3729.2,
-        "gmv_per_sample_delivered": 302.35
+        "gpm": 8.58,
+        "emv": 4363.65,
+        "gmv_per_sample_delivered": 355.75
       },
       "volume": {
         "orders": 730,
         "units_sold": 784.0,
-        "creators": 66,
+        "creators": 67,
         "samples_delivered": 43,
-        "video_views": 745840
+        "video_views": 872730
       },
       "products": [
         {
@@ -136,8 +136,8 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
-          "price": 29.99,
+          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "price": 47.99,
           "total_gmv": 50.93,
           "share_pct": 0.3,
           "video_gmv": 0,
@@ -191,7 +191,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam and Cooling Gel Pad - Universal Fit for Office and Gaming Chairs - Machine Washable Mesh Cover - Contoured Design - Double Sided Fasteners",
+          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Fit for Office-Gaming Chairs, Eliminates Fatigue, Improves Posture, Ideal for Gamers-Indoor Gaming Rooms",
           "price": 23.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -345,8 +345,8 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
-          "price": 33.99,
+          "product_name": "Everlasting Comfort | Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
+          "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -356,8 +356,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Doctor-Recommended U-Shaped Medium Firmness Memory Foam Seat Cushion - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief (Charcoal Black, Large)",
-          "price": 73.99,
+          "product_name": "Everlasting Comfort | ELEVATE SERIES Doctor-Recommended Memory Foam Seat and Back Cushions - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief",
+          "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -371,36 +371,36 @@
       "range": "2026-08-17 to 2026-08-30",
       "revenue": {
         "total_gmv": 33210.94,
-        "affiliate_gmv": 26806.99,
-        "video_gmv": 14383.71,
-        "live_gmv": 12110.88,
+        "affiliate_gmv": 29102.96,
+        "video_gmv": 15313.31,
+        "live_gmv": 13477.24,
         "shop_tab_gmv": 6048.56,
         "gmv_max_revenue": 25121.299999999996,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 20686.150000000005,
-        "commission": 6574.69,
-        "refund_amount": 3156.77,
+        "commission": 7136.9,
+        "refund_amount": 3372.24,
         "shipping_fees": 10298.0
       },
-      "net_after_ads_commissions_refunds": 2793.33,
+      "net_after_ads_commissions_refunds": 2015.65,
       "ratios": {
         "blended_roas": 1.6055,
         "gmv_max_roas": 1.2144,
-        "commission_rate_pct": 24.53,
-        "refund_rate_pct": 9.51,
+        "commission_rate_pct": 24.52,
+        "refund_rate_pct": 10.15,
         "aov": 24.51,
-        "gpm": 7.74,
-        "emv": 9219.65,
-        "gmv_per_sample_delivered": 291.38
+        "gpm": 7.72,
+        "emv": 9854.09,
+        "gmv_per_sample_delivered": 316.34
       },
       "volume": {
         "orders": 1359,
         "units_sold": 1468.0,
-        "creators": 164,
+        "creators": 165,
         "samples_delivered": 92,
-        "video_views": 1843929
+        "video_views": 1970819
       },
       "products": [
         {
@@ -493,8 +493,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Doctor-Recommended U-Shaped Medium Firmness Memory Foam Seat Cushion - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief (Charcoal Black, Large)",
-          "price": 73.99,
+          "product_name": "Everlasting Comfort | ELEVATE SERIES Doctor-Recommended Memory Foam Seat and Back Cushions - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief",
+          "price": 59.99,
           "total_gmv": 68.21,
           "share_pct": 0.2,
           "video_gmv": 0,
@@ -515,8 +515,8 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
-          "price": 29.99,
+          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "price": 47.99,
           "total_gmv": 50.93,
           "share_pct": 0.2,
           "video_gmv": 0,
@@ -592,7 +592,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam and Cooling Gel Pad - Universal Fit for Office and Gaming Chairs - Machine Washable Mesh Cover - Contoured Design - Double Sided Fasteners",
+          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Fit for Office-Gaming Chairs, Eliminates Fatigue, Improves Posture, Ideal for Gamers-Indoor Gaming Rooms",
           "price": 23.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -713,8 +713,8 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
-          "price": 33.99,
+          "product_name": "Everlasting Comfort | Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
+          "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -728,36 +728,36 @@
       "range": "2026-08-01 to 2026-08-30",
       "revenue": {
         "total_gmv": 86751.47,
-        "affiliate_gmv": 75194.94,
-        "video_gmv": 42810.23,
-        "live_gmv": 31583.15,
+        "affiliate_gmv": 77490.91,
+        "video_gmv": 43739.83,
+        "live_gmv": 32949.51,
         "shop_tab_gmv": 12595.26,
         "gmv_max_revenue": 73158.89,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 67779.68000000002,
-        "commission": 18612.68,
-        "refund_amount": 8112.47,
+        "commission": 19174.89,
+        "refund_amount": 8327.94,
         "shipping_fees": 27876.8
       },
-      "net_after_ads_commissions_refunds": -7753.36,
+      "net_after_ads_commissions_refunds": -8531.04,
       "ratios": {
         "blended_roas": 1.2799,
         "gmv_max_roas": 1.0794,
-        "commission_rate_pct": 24.75,
-        "refund_rate_pct": 9.35,
+        "commission_rate_pct": 24.74,
+        "refund_rate_pct": 9.6,
         "aov": 23.9,
-        "gpm": 8.63,
-        "emv": 24719.17,
-        "gmv_per_sample_delivered": 210.63
+        "gpm": 8.6,
+        "emv": 25353.62,
+        "gmv_per_sample_delivered": 217.06
       },
       "volume": {
         "orders": 3677,
         "units_sold": 4193.0,
-        "creators": 364,
+        "creators": 365,
         "samples_delivered": 357,
-        "video_views": 4943834
+        "video_views": 5070724
       },
       "products": [
         {
@@ -795,8 +795,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Doctor-Recommended U-Shaped Medium Firmness Memory Foam Seat Cushion - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief (Charcoal Black, Large)",
-          "price": 73.99,
+          "product_name": "Everlasting Comfort | ELEVATE SERIES Doctor-Recommended Memory Foam Seat and Back Cushions - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief",
+          "price": 59.99,
           "total_gmv": 344.17,
           "share_pct": 0.4,
           "video_gmv": 0,
@@ -894,8 +894,8 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
-          "price": 29.99,
+          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "price": 47.99,
           "total_gmv": 50.93,
           "share_pct": 0.1,
           "video_gmv": 0,
@@ -916,7 +916,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam and Cooling Gel Pad - Universal Fit for Office and Gaming Chairs - Machine Washable Mesh Cover - Contoured Design - Double Sided Fasteners",
+          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Fit for Office-Gaming Chairs, Eliminates Fatigue, Improves Posture, Ideal for Gamers-Indoor Gaming Rooms",
           "price": 23.99,
           "total_gmv": 33.42,
           "share_pct": 0.0,
@@ -971,8 +971,8 @@
         },
         {
           "product_id": "1729664580475916507",
-          "product_name": "Triton Pet Hair Remover w/ Fur Trapping Compartment - Easy to Use Pet Hair Removal Tool - Reusable Lint Roller, multi-surface",
-          "price": 17.49,
+          "product_name": "Pet Hair Remover w/ Fur Trapping Compartment - Easy to Use Pet Hair Removal Tool - Reusable Lint Roller, multi-surface",
+          "price": 15.99,
           "total_gmv": 16.62,
           "share_pct": 0.0,
           "video_gmv": 16.62,
@@ -1114,8 +1114,8 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
-          "price": 33.99,
+          "product_name": "Everlasting Comfort | Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
+          "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1129,36 +1129,36 @@
       "range": "2026-07-02 to 2026-08-30",
       "revenue": {
         "total_gmv": 150658.59,
-        "affiliate_gmv": 132331.19,
-        "video_gmv": 85992.92,
-        "live_gmv": 44913.52,
+        "affiliate_gmv": 134627.16,
+        "video_gmv": 86922.52,
+        "live_gmv": 46279.88,
         "shop_tab_gmv": 19896.3,
         "gmv_max_revenue": 142987.04000000004,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 146836.62,
-        "commission": 31960.36,
-        "refund_amount": 13675.62,
+        "commission": 32522.57,
+        "refund_amount": 13891.09,
         "shipping_fees": 47614.0
       },
-      "net_after_ads_commissions_refunds": -41814.01,
+      "net_after_ads_commissions_refunds": -42591.69,
       "ratios": {
         "blended_roas": 1.026,
         "gmv_max_roas": 0.9738,
-        "commission_rate_pct": 24.15,
-        "refund_rate_pct": 9.08,
+        "commission_rate_pct": 24.16,
+        "refund_rate_pct": 9.22,
         "aov": 24.74,
         "gpm": 7.52,
-        "emv": 57044.65,
-        "gmv_per_sample_delivered": 180.53
+        "emv": 57679.1,
+        "gmv_per_sample_delivered": 183.67
       },
       "volume": {
         "orders": 6284,
         "units_sold": 7164.0,
-        "creators": 660,
+        "creators": 661,
         "samples_delivered": 733,
-        "video_views": 11408931
+        "video_views": 11535821
       },
       "products": [
         {
@@ -1196,8 +1196,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Doctor-Recommended U-Shaped Medium Firmness Memory Foam Seat Cushion - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief (Charcoal Black, Large)",
-          "price": 73.99,
+          "product_name": "Everlasting Comfort | ELEVATE SERIES Doctor-Recommended Memory Foam Seat and Back Cushions - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief",
+          "price": 59.99,
           "total_gmv": 344.17,
           "share_pct": 0.2,
           "video_gmv": 0,
@@ -1284,8 +1284,8 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
-          "price": 29.99,
+          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "price": 47.99,
           "total_gmv": 95.92,
           "share_pct": 0.1,
           "video_gmv": 44.99,
@@ -1306,7 +1306,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam and Cooling Gel Pad - Universal Fit for Office and Gaming Chairs - Machine Washable Mesh Cover - Contoured Design - Double Sided Fasteners",
+          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Fit for Office-Gaming Chairs, Eliminates Fatigue, Improves Posture, Ideal for Gamers-Indoor Gaming Rooms",
           "price": 23.99,
           "total_gmv": 68.29,
           "share_pct": 0.0,
@@ -1383,8 +1383,8 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
-          "price": 33.99,
+          "product_name": "Everlasting Comfort | Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
+          "price": 37.99,
           "total_gmv": 33.99,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1427,8 +1427,8 @@
         },
         {
           "product_id": "1729664580475916507",
-          "product_name": "Triton Pet Hair Remover w/ Fur Trapping Compartment - Easy to Use Pet Hair Removal Tool - Reusable Lint Roller, multi-surface",
-          "price": 17.49,
+          "product_name": "Pet Hair Remover w/ Fur Trapping Compartment - Easy to Use Pet Hair Removal Tool - Reusable Lint Roller, multi-surface",
+          "price": 15.99,
           "total_gmv": 16.62,
           "share_pct": 0.0,
           "video_gmv": 16.62,
@@ -1548,8 +1548,8 @@
         },
         {
           "product_id": "1730130848266359003",
-          "product_name": "Everlasting Comfort Lumbar Support Pillow - Gel Infused Polyester Ergonomic Office Chair Cushion, Padded Supportive Sitting Waist Back Cushion for Gaming Chair, Car, Low Back Pain Relief & Better Posture Promotion, Padded Cushion, Ergonomic Cushion",
-          "price": 56.99,
+          "product_name": "Everlasting Comfort | Lumbar Support Pillow - Gel Infused Polyester Ergonomic Office Chair Cushion, Padded Supportive Sitting Waist Back Cushion for Gaming Chair, Car, Low Back Pain Relief & Better Posture Promotion, Padded Cushion, Ergonomic Cushion",
+          "price": 43.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1563,36 +1563,36 @@
       "range": "2026-06-02 to 2026-08-30",
       "revenue": {
         "total_gmv": 187365.73,
-        "affiliate_gmv": 167186.98,
-        "video_gmv": 109974.08,
-        "live_gmv": 55481.49,
+        "affiliate_gmv": 169482.95,
+        "video_gmv": 110903.68,
+        "live_gmv": 56847.85,
         "shop_tab_gmv": 25815.85,
         "gmv_max_revenue": 170621.06,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 170513.19,
-        "commission": 36583.55,
-        "refund_amount": 17155.12,
+        "commission": 37145.76,
+        "refund_amount": 17370.59,
         "shipping_fees": 57805.6
       },
-      "net_after_ads_commissions_refunds": -36886.13,
+      "net_after_ads_commissions_refunds": -37663.81,
       "ratios": {
         "blended_roas": 1.0988,
         "gmv_max_roas": 1.0006,
-        "commission_rate_pct": 21.88,
-        "refund_rate_pct": 9.16,
+        "commission_rate_pct": 21.92,
+        "refund_rate_pct": 9.27,
         "aov": 25.59,
         "gpm": 7.4,
-        "emv": 74135.06,
-        "gmv_per_sample_delivered": 175.62
+        "emv": 74769.51,
+        "gmv_per_sample_delivered": 178.03
       },
       "volume": {
         "orders": 7627,
         "units_sold": 8611.0,
-        "creators": 851,
+        "creators": 852,
         "samples_delivered": 952,
-        "video_views": 14827011
+        "video_views": 14953901
       },
       "products": [
         {
@@ -1641,8 +1641,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Doctor-Recommended U-Shaped Medium Firmness Memory Foam Seat Cushion - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief (Charcoal Black, Large)",
-          "price": 73.99,
+          "product_name": "Everlasting Comfort | ELEVATE SERIES Doctor-Recommended Memory Foam Seat and Back Cushions - Ergonomic Office Chair, Office Accessories for Tailbone Pressure Relief",
+          "price": 59.99,
           "total_gmv": 344.17,
           "share_pct": 0.2,
           "video_gmv": 0,
@@ -1696,8 +1696,8 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
-          "price": 29.99,
+          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "price": 47.99,
           "total_gmv": 140.06,
           "share_pct": 0.1,
           "video_gmv": 89.13,
@@ -1729,8 +1729,8 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
-          "price": 33.99,
+          "product_name": "Everlasting Comfort | Memory Foam Under Desk Foot Rest - Versatile Desk Space Saver with Breathable Cover, Support Leg Positioner Pillow for Office Posture Support & Gaming Use",
+          "price": 37.99,
           "total_gmv": 123.96,
           "share_pct": 0.1,
           "video_gmv": 33.99,
@@ -1773,7 +1773,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam and Cooling Gel Pad - Universal Fit for Office and Gaming Chairs - Machine Washable Mesh Cover - Contoured Design - Double Sided Fasteners",
+          "product_name": "Everlasting Comfort Arm Rest Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Fit for Office-Gaming Chairs, Eliminates Fatigue, Improves Posture, Ideal for Gamers-Indoor Gaming Rooms",
           "price": 23.99,
           "total_gmv": 68.29,
           "share_pct": 0.0,
@@ -1872,8 +1872,8 @@
         },
         {
           "product_id": "1729664580475916507",
-          "product_name": "Triton Pet Hair Remover w/ Fur Trapping Compartment - Easy to Use Pet Hair Removal Tool - Reusable Lint Roller, multi-surface",
-          "price": 17.49,
+          "product_name": "Pet Hair Remover w/ Fur Trapping Compartment - Easy to Use Pet Hair Removal Tool - Reusable Lint Roller, multi-surface",
+          "price": 15.99,
           "total_gmv": 16.62,
           "share_pct": 0.0,
           "video_gmv": 16.62,
@@ -1982,8 +1982,8 @@
         },
         {
           "product_id": "1730130848266359003",
-          "product_name": "Everlasting Comfort Lumbar Support Pillow - Gel Infused Polyester Ergonomic Office Chair Cushion, Padded Supportive Sitting Waist Back Cushion for Gaming Chair, Car, Low Back Pain Relief & Better Posture Promotion, Padded Cushion, Ergonomic Cushion",
-          "price": 56.99,
+          "product_name": "Everlasting Comfort | Lumbar Support Pillow - Gel Infused Polyester Ergonomic Office Chair Cushion, Padded Supportive Sitting Waist Back Cushion for Gaming Chair, Car, Low Back Pain Relief & Better Posture Promotion, Padded Cushion, Ergonomic Cushion",
+          "price": 43.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,

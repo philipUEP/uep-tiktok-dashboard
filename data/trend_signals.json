@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:34:57.803973+00:00",
+  "generated_at": "2026-09-01T07:00:40.428670+00:00",
   "weeks": [
     {
       "total_gmv": 23576.75,
@@ -56,17 +56,17 @@
       "total_gmv": 17385.02,
       "platform_orders": 730,
       "total_units_sold": 784.0,
-      "affiliate_gmv": 13001.13,
-      "live_gmv": 6154.82,
-      "video_views": 745840,
+      "affiliate_gmv": 15297.1,
+      "live_gmv": 7521.18,
+      "video_views": 872730,
       "dms_sent": 7746,
       "tc_invites_sent": 8399,
       "replies": 19,
       "sample_requests": 105,
       "samples_shipped": 49,
       "samples_delivered": 43,
-      "videos_posted": 92,
-      "distinct_creators": 66,
+      "videos_posted": 97,
+      "distinct_creators": 67,
       "_range": "2026-08-24 to 2026-08-30"
     }
   ],
@@ -93,19 +93,19 @@
       21020.39,
       21306.86,
       13805.86,
-      13001.13
+      15297.1
     ],
     "live_gmv": [
       7326.12,
       10210.08,
       5956.06,
-      6154.82
+      7521.18
     ],
     "video_views": [
       1538839.0,
       1130539.0,
       1098089.0,
-      745840.0
+      872730.0
     ],
     "dms_sent": [
       6021.0,
@@ -147,30 +147,30 @@
       203.0,
       270.0,
       168.0,
-      92.0
+      97.0
     ],
     "distinct_creators": [
       110.0,
       132.0,
       111.0,
-      66.0
+      67.0
     ]
   },
   "changes": [
     {
       "metric": "videos_posted",
       "label": "Videos posted",
-      "current": 92.0,
+      "current": 97.0,
       "prior": 168.0,
-      "pct": -45.2,
+      "pct": -42.3,
       "direction": "down"
     },
     {
       "metric": "distinct_creators",
       "label": "Creators posting",
-      "current": 66.0,
+      "current": 67.0,
       "prior": 111.0,
-      "pct": -40.5,
+      "pct": -39.6,
       "direction": "down"
     },
     {
@@ -192,9 +192,9 @@
     {
       "metric": "video_views",
       "label": "Video views",
-      "current": 745840.0,
+      "current": 872730.0,
       "prior": 1098089.0,
-      "pct": -32.1,
+      "pct": -20.5,
       "direction": "down"
     },
     {
@@ -214,27 +214,19 @@
       "direction": "down"
     },
     {
-      "metric": "affiliate_gmv",
-      "label": "Affiliate GMV",
-      "current": 13001.13,
-      "prior": 13805.86,
-      "pct": -5.8,
-      "direction": "down"
-    },
-    {
-      "metric": "live_gmv",
-      "label": "LIVE GMV",
-      "current": 6154.82,
-      "prior": 5956.06,
-      "pct": 3.3,
-      "direction": "up"
-    },
-    {
       "metric": "total_gmv",
       "label": "GMV",
       "current": 17385.02,
       "prior": 15825.92,
       "pct": 9.9,
+      "direction": "up"
+    },
+    {
+      "metric": "affiliate_gmv",
+      "label": "Affiliate GMV",
+      "current": 15297.1,
+      "prior": 13805.86,
+      "pct": 10.8,
       "direction": "up"
     },
     {
@@ -251,6 +243,14 @@
       "current": 730.0,
       "prior": 629.0,
       "pct": 16.1,
+      "direction": "up"
+    },
+    {
+      "metric": "live_gmv",
+      "label": "LIVE GMV",
+      "current": 7521.18,
+      "prior": 5956.06,
+      "pct": 26.3,
       "direction": "up"
     },
     {
@@ -272,22 +272,12 @@
   ],
   "declining_runs": [
     {
-      "metric": "affiliate_gmv",
-      "label": "Affiliate GMV",
-      "last_3": [
-        21306.86,
-        13805.86,
-        13001.13
-      ],
-      "note": "declining three weeks in a row"
-    },
-    {
       "metric": "video_views",
       "label": "Video views",
       "last_3": [
         1130539.0,
         1098089.0,
-        745840.0
+        872730.0
       ],
       "note": "declining three weeks in a row"
     },
@@ -337,7 +327,7 @@
       "last_3": [
         270.0,
         168.0,
-        92.0
+        97.0
       ],
       "note": "declining three weeks in a row"
     },
@@ -347,7 +337,7 @@
       "last_3": [
         132.0,
         111.0,
-        66.0
+        67.0
       ],
       "note": "declining three weeks in a row"
     }
@@ -355,12 +345,12 @@
   "ratios": {
     "gmv_per_sample_shipped": 354.8,
     "reply_rate_pct": 0.25,
-    "videos_per_creator": 1.39,
-    "live_share_of_gmv_pct": 35.4,
-    "affiliate_share_of_gmv_pct": 74.8
+    "videos_per_creator": 1.45,
+    "live_share_of_gmv_pct": 43.3,
+    "affiliate_share_of_gmv_pct": 88.0
   },
   "freshness": {
-    "pull_age_days": 0.5,
+    "pull_age_days": 0.3,
     "data_through": "2026-08-30"
   },
   "note": "Deterministic signal set from the Cruva REST API. The insights agent interprets these; the numbers are ground truth."
