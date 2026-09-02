@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-01",
+    "pulled_on": "2026-09-02",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {

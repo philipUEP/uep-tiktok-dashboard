@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /affiliate/videos/list (AI analysis fields)",
-    "pulled_on": "2026-09-01",
+    "pulled_on": "2026-09-02",
     "sort": "gmv desc"
   },
   "periods": {
@@ -467,14 +467,31 @@
           "gmv": 19.99,
           "units_sold": 1,
           "gmv_per_view": 0.0722,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
+          "hooks": [
+            {
+              "hook": "This is a bidet that connects to your toilet very easily, and it is amazing.",
+              "score": 8,
+              "explanation": "Instantly introduces the product with a clear benefit of easy installation and high satisfaction."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "It comes with all the attachments that you're going to need.",
+              "score": 8,
+              "explanation": "Highlights convenience and completeness of the kit, meaning no extra purchases are required."
+            },
+            {
+              "selling_point": "It has the water pressure and then here how you want to select it.",
+              "score": 7,
+              "explanation": "Demonstrates ease of control over water pressure and cleaning settings."
+            }
+          ],
+          "content_overview": "The creator unboxes the Clear Rear bidet attachment and reviews its components, instruction manual, and controls. She emphasizes how easy it is to install and explains that she already uses it in multiple bathrooms in her home.",
+          "on_screen_text": "Clear Rear is the Premium Answer, CleanBum Club, 1. Package Contents, 2. Installation, 3. Final Assembly Check",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 55,
+          "tone": "casual",
+          "target_audience": "Homeowners or renters looking for an easy-to-install bidet attachment to upgrade their bathroom experience."
         },
         {
           "rank": 14,
@@ -1176,54 +1193,6 @@
       "videos": [
         {
           "rank": 1,
-          "title": "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
-          "handle": "keniaher.77",
-          "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 62295,
-          "like_count": 295,
-          "gmv": 1419.32,
-          "units_sold": 116,
-          "gmv_per_view": 0.0228,
-          "hooks": [
-            {
-              "hook": "Las est\u00e1n agarrando hasta por dos",
-              "score": 8,
-              "explanation": "Creates curiosity and highlights affordability or bulk deals right away."
-            },
-            {
-              "hook": "Es que si quieres una malla que sea buena, para que las moscas no se metan a tu casa, esta",
-              "score": 8,
-              "explanation": "Addresses a direct pain point (insects entering the home) and immediately offers a solution."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Esta es heavy-duty",
-              "score": 9,
-              "explanation": "Emphasizes the durability and heavy-duty fiberglass material of the screen door."
-            },
-            {
-              "selling_point": "Ya te trae todo para que vos mismo le puedas instalar",
-              "score": 8,
-              "explanation": "Highlights ease of self-installation with all necessary hardware included."
-            },
-            {
-              "selling_point": "Mira lo f\u00e1cil que se abre y mira lo f\u00e1cil que se cierra",
-              "score": 9,
-              "explanation": "Demonstrates the automatic self-closing and convenient opening mechanism."
-            }
-          ],
-          "content_overview": "A creator demonstrates a heavy-duty magnetic mesh screen door installed on an exterior doorway. She shows the quality of the fiberglass material, how easily it opens and closes, and explains that it comes with everything needed for easy self-installation.",
-          "on_screen_text": "@keniaher.77 HOME",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 30,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an easy-to-install, durable insect screen door for pets and kids."
-        },
-        {
-          "rank": 2,
           "title": "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672846600267468062",
@@ -1231,9 +1200,9 @@
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "view_count": 150361,
           "like_count": 641,
-          "gmv": 1359.4,
+          "gmv": 1494.61,
           "units_sold": 106,
-          "gmv_per_view": 0.009,
+          "gmv_per_view": 0.0099,
           "hooks": [
             {
               "hook": "Now you gotta know that this one here is not the one that costs you $5 $10 at a grocery store.",
@@ -1271,6 +1240,54 @@
           "target_audience": "Homeowners, pet owners, and parents looking for durable, easy-to-install bug screen doors."
         },
         {
+          "rank": 2,
+          "title": "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
+          "handle": "keniaher.77",
+          "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 62295,
+          "like_count": 295,
+          "gmv": 1436.91,
+          "units_sold": 116,
+          "gmv_per_view": 0.0231,
+          "hooks": [
+            {
+              "hook": "Las est\u00e1n agarrando hasta por dos",
+              "score": 8,
+              "explanation": "Creates curiosity and highlights affordability or bulk deals right away."
+            },
+            {
+              "hook": "Es que si quieres una malla que sea buena, para que las moscas no se metan a tu casa, esta",
+              "score": 8,
+              "explanation": "Addresses a direct pain point (insects entering the home) and immediately offers a solution."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Esta es heavy-duty",
+              "score": 9,
+              "explanation": "Emphasizes the durability and heavy-duty fiberglass material of the screen door."
+            },
+            {
+              "selling_point": "Ya te trae todo para que vos mismo le puedas instalar",
+              "score": 8,
+              "explanation": "Highlights ease of self-installation with all necessary hardware included."
+            },
+            {
+              "selling_point": "Mira lo f\u00e1cil que se abre y mira lo f\u00e1cil que se cierra",
+              "score": 9,
+              "explanation": "Demonstrates the automatic self-closing and convenient opening mechanism."
+            }
+          ],
+          "content_overview": "A creator demonstrates a heavy-duty magnetic mesh screen door installed on an exterior doorway. She shows the quality of the fiberglass material, how easily it opens and closes, and explains that it comes with everything needed for easy self-installation.",
+          "on_screen_text": "@keniaher.77 HOME",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 30,
+          "tone": "casual",
+          "target_audience": "Homeowners and renters looking for an easy-to-install, durable insect screen door for pets and kids."
+        },
+        {
           "rank": 3,
           "title": "",
           "handle": "courtney_gonzales19",
@@ -1279,9 +1296,9 @@
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "view_count": 20525,
           "like_count": 43,
-          "gmv": 669.71,
+          "gmv": 684.7,
           "units_sold": 57,
-          "gmv_per_view": 0.0326,
+          "gmv_per_view": 0.0334,
           "hooks": [
             {
               "hook": "They dropped the price even lower.",
@@ -1479,9 +1496,9 @@
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
           "view_count": 16575,
           "like_count": 52,
-          "gmv": 171.2,
+          "gmv": 180.04,
           "units_sold": 19,
-          "gmv_per_view": 0.0103,
+          "gmv_per_view": 0.0109,
           "hooks": [
             {
               "hook": "If you're going to the beach, this is going to be a must-have.",
@@ -1807,54 +1824,6 @@
         },
         {
           "rank": 2,
-          "title": "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
-          "handle": "keniaher.77",
-          "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 62295,
-          "like_count": 295,
-          "gmv": 1419.32,
-          "units_sold": 116,
-          "gmv_per_view": 0.0228,
-          "hooks": [
-            {
-              "hook": "Las est\u00e1n agarrando hasta por dos",
-              "score": 8,
-              "explanation": "Creates curiosity and highlights affordability or bulk deals right away."
-            },
-            {
-              "hook": "Es que si quieres una malla que sea buena, para que las moscas no se metan a tu casa, esta",
-              "score": 8,
-              "explanation": "Addresses a direct pain point (insects entering the home) and immediately offers a solution."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Esta es heavy-duty",
-              "score": 9,
-              "explanation": "Emphasizes the durability and heavy-duty fiberglass material of the screen door."
-            },
-            {
-              "selling_point": "Ya te trae todo para que vos mismo le puedas instalar",
-              "score": 8,
-              "explanation": "Highlights ease of self-installation with all necessary hardware included."
-            },
-            {
-              "selling_point": "Mira lo f\u00e1cil que se abre y mira lo f\u00e1cil que se cierra",
-              "score": 9,
-              "explanation": "Demonstrates the automatic self-closing and convenient opening mechanism."
-            }
-          ],
-          "content_overview": "A creator demonstrates a heavy-duty magnetic mesh screen door installed on an exterior doorway. She shows the quality of the fiberglass material, how easily it opens and closes, and explains that it comes with everything needed for easy self-installation.",
-          "on_screen_text": "@keniaher.77 HOME",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 30,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an easy-to-install, durable insect screen door for pets and kids."
-        },
-        {
-          "rank": 3,
           "title": "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672846600267468062",
@@ -1862,9 +1831,9 @@
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "view_count": 150361,
           "like_count": 641,
-          "gmv": 1359.4,
+          "gmv": 1494.61,
           "units_sold": 106,
-          "gmv_per_view": 0.009,
+          "gmv_per_view": 0.0099,
           "hooks": [
             {
               "hook": "Now you gotta know that this one here is not the one that costs you $5 $10 at a grocery store.",
@@ -1902,6 +1871,54 @@
           "target_audience": "Homeowners, pet owners, and parents looking for durable, easy-to-install bug screen doors."
         },
         {
+          "rank": 3,
+          "title": "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
+          "handle": "keniaher.77",
+          "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 62295,
+          "like_count": 295,
+          "gmv": 1436.91,
+          "units_sold": 116,
+          "gmv_per_view": 0.0231,
+          "hooks": [
+            {
+              "hook": "Las est\u00e1n agarrando hasta por dos",
+              "score": 8,
+              "explanation": "Creates curiosity and highlights affordability or bulk deals right away."
+            },
+            {
+              "hook": "Es que si quieres una malla que sea buena, para que las moscas no se metan a tu casa, esta",
+              "score": 8,
+              "explanation": "Addresses a direct pain point (insects entering the home) and immediately offers a solution."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Esta es heavy-duty",
+              "score": 9,
+              "explanation": "Emphasizes the durability and heavy-duty fiberglass material of the screen door."
+            },
+            {
+              "selling_point": "Ya te trae todo para que vos mismo le puedas instalar",
+              "score": 8,
+              "explanation": "Highlights ease of self-installation with all necessary hardware included."
+            },
+            {
+              "selling_point": "Mira lo f\u00e1cil que se abre y mira lo f\u00e1cil que se cierra",
+              "score": 9,
+              "explanation": "Demonstrates the automatic self-closing and convenient opening mechanism."
+            }
+          ],
+          "content_overview": "A creator demonstrates a heavy-duty magnetic mesh screen door installed on an exterior doorway. She shows the quality of the fiberglass material, how easily it opens and closes, and explains that it comes with everything needed for easy self-installation.",
+          "on_screen_text": "@keniaher.77 HOME",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 30,
+          "tone": "casual",
+          "target_audience": "Homeowners and renters looking for an easy-to-install, durable insect screen door for pets and kids."
+        },
+        {
           "rank": 4,
           "title": "Buenisima! #puertamosquitero #puertamagnetica #screendoor #parati #tiktokshopcreatorpicks ",
           "handle": "sylviaapproved",
@@ -1910,9 +1927,9 @@
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "view_count": 104216,
           "like_count": 400,
-          "gmv": 1131.85,
+          "gmv": 1149.84,
           "units_sold": 87,
-          "gmv_per_view": 0.0109,
+          "gmv_per_view": 0.011,
           "hooks": [
             {
               "hook": "La \u00fanica puerta magn\u00e9tica que si te va a durar a\u00f1os y no d\u00edas",
@@ -2129,9 +2146,9 @@
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "view_count": 20525,
           "like_count": 43,
-          "gmv": 669.71,
+          "gmv": 684.7,
           "units_sold": 57,
-          "gmv_per_view": 0.0326,
+          "gmv_per_view": 0.0334,
           "hooks": [
             {
               "hook": "They dropped the price even lower.",
@@ -2525,54 +2542,6 @@
         },
         {
           "rank": 3,
-          "title": "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
-          "handle": "keniaher.77",
-          "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 62295,
-          "like_count": 295,
-          "gmv": 1419.32,
-          "units_sold": 116,
-          "gmv_per_view": 0.0228,
-          "hooks": [
-            {
-              "hook": "Las est\u00e1n agarrando hasta por dos",
-              "score": 8,
-              "explanation": "Creates curiosity and highlights affordability or bulk deals right away."
-            },
-            {
-              "hook": "Es que si quieres una malla que sea buena, para que las moscas no se metan a tu casa, esta",
-              "score": 8,
-              "explanation": "Addresses a direct pain point (insects entering the home) and immediately offers a solution."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Esta es heavy-duty",
-              "score": 9,
-              "explanation": "Emphasizes the durability and heavy-duty fiberglass material of the screen door."
-            },
-            {
-              "selling_point": "Ya te trae todo para que vos mismo le puedas instalar",
-              "score": 8,
-              "explanation": "Highlights ease of self-installation with all necessary hardware included."
-            },
-            {
-              "selling_point": "Mira lo f\u00e1cil que se abre y mira lo f\u00e1cil que se cierra",
-              "score": 9,
-              "explanation": "Demonstrates the automatic self-closing and convenient opening mechanism."
-            }
-          ],
-          "content_overview": "A creator demonstrates a heavy-duty magnetic mesh screen door installed on an exterior doorway. She shows the quality of the fiberglass material, how easily it opens and closes, and explains that it comes with everything needed for easy self-installation.",
-          "on_screen_text": "@keniaher.77 HOME",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 30,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an easy-to-install, durable insect screen door for pets and kids."
-        },
-        {
-          "rank": 4,
           "title": "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672846600267468062",
@@ -2580,9 +2549,9 @@
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "view_count": 150361,
           "like_count": 641,
-          "gmv": 1359.4,
+          "gmv": 1494.61,
           "units_sold": 106,
-          "gmv_per_view": 0.009,
+          "gmv_per_view": 0.0099,
           "hooks": [
             {
               "hook": "Now you gotta know that this one here is not the one that costs you $5 $10 at a grocery store.",
@@ -2620,6 +2589,54 @@
           "target_audience": "Homeowners, pet owners, and parents looking for durable, easy-to-install bug screen doors."
         },
         {
+          "rank": 4,
+          "title": "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
+          "handle": "keniaher.77",
+          "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 62295,
+          "like_count": 295,
+          "gmv": 1436.91,
+          "units_sold": 116,
+          "gmv_per_view": 0.0231,
+          "hooks": [
+            {
+              "hook": "Las est\u00e1n agarrando hasta por dos",
+              "score": 8,
+              "explanation": "Creates curiosity and highlights affordability or bulk deals right away."
+            },
+            {
+              "hook": "Es que si quieres una malla que sea buena, para que las moscas no se metan a tu casa, esta",
+              "score": 8,
+              "explanation": "Addresses a direct pain point (insects entering the home) and immediately offers a solution."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Esta es heavy-duty",
+              "score": 9,
+              "explanation": "Emphasizes the durability and heavy-duty fiberglass material of the screen door."
+            },
+            {
+              "selling_point": "Ya te trae todo para que vos mismo le puedas instalar",
+              "score": 8,
+              "explanation": "Highlights ease of self-installation with all necessary hardware included."
+            },
+            {
+              "selling_point": "Mira lo f\u00e1cil que se abre y mira lo f\u00e1cil que se cierra",
+              "score": 9,
+              "explanation": "Demonstrates the automatic self-closing and convenient opening mechanism."
+            }
+          ],
+          "content_overview": "A creator demonstrates a heavy-duty magnetic mesh screen door installed on an exterior doorway. She shows the quality of the fiberglass material, how easily it opens and closes, and explains that it comes with everything needed for easy self-installation.",
+          "on_screen_text": "@keniaher.77 HOME",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 30,
+          "tone": "casual",
+          "target_audience": "Homeowners and renters looking for an easy-to-install, durable insect screen door for pets and kids."
+        },
+        {
           "rank": 5,
           "title": "Buenisima! #puertamosquitero #puertamagnetica #screendoor #parati #tiktokshopcreatorpicks ",
           "handle": "sylviaapproved",
@@ -2628,9 +2645,9 @@
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "view_count": 104216,
           "like_count": 400,
-          "gmv": 1131.85,
+          "gmv": 1149.84,
           "units_sold": 87,
-          "gmv_per_view": 0.0109,
+          "gmv_per_view": 0.011,
           "hooks": [
             {
               "hook": "La \u00fanica puerta magn\u00e9tica que si te va a durar a\u00f1os y no d\u00edas",
@@ -2847,9 +2864,9 @@
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "view_count": 20525,
           "like_count": 43,
-          "gmv": 669.71,
+          "gmv": 684.7,
           "units_sold": 57,
-          "gmv_per_view": 0.0326,
+          "gmv_per_view": 0.0334,
           "hooks": [
             {
               "hook": "They dropped the price even lower.",

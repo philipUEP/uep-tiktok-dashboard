@@ -33,19 +33,19 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-09-01",
+    "pulled_on": "2026-09-02",
     "data_through": "2026-08-30",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-09-01. Complete attribution through 2026-08-30."
+    "note": "Pulled from Cruva REST API on 2026-09-02. Complete attribution through 2026-08-30."
   },
   "latest_source_check": {
-    "date": "2026-08-31",
-    "seller_center_gmv": 1182.23,
-    "orders": 50,
-    "units": 50,
-    "gmv_max_revenue": 986.95,
-    "gmv_max_spend": 858.11,
-    "gmv_max_roas": 1.1501439209425366,
+    "date": "2026-09-01",
+    "seller_center_gmv": 2815.05,
+    "orders": 88,
+    "units": 92,
+    "gmv_max_revenue": 1699.83,
+    "gmv_max_spend": 1297.16,
+    "gmv_max_roas": 1.3104243115729746,
     "attribution_status": "complete"
   },
   "periods": {
@@ -109,7 +109,7 @@
           "Samples approved": 52,
           "Samples shipped": 49.0,
           "Samples delivered": 43,
-          "Creators with sales": 56
+          "Creators with sales": 57
         },
         "daily": [
           [
@@ -188,80 +188,90 @@
         [
           "Fortune Finds",
           "fortune0420",
-          3545.78,
-          113,
+          4408.34,
+          142,
           2771,
-          976.9,
+          1222.98,
           1,
           10
         ],
         [
           "Sylvia",
           "sylviaapproved",
-          1886.46,
-          127,
+          2135.93,
+          143,
           228001,
-          507.0,
+          570.56,
           2,
           0
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          1442.17,
-          45,
+          1608.28,
+          49,
           31814,
-          399.46,
+          443.96,
           0,
           3
         ],
         [
           "Big Homie Aroc",
           "aroc_finesse",
-          1311.79,
-          43,
+          1331.78,
+          44,
           14976,
-          361.17,
+          369.66,
           0,
           7
         ],
         [
           "Red Oakley",
           "jaterao92",
-          1011.06,
-          45,
+          1289.49,
+          50,
           78047,
-          255.16,
+          307.26,
           0,
           0
         ],
         [
           "Stellar Finds",
           "boldvideos7",
-          610.13,
-          18,
+          1052.79,
+          30,
           0,
-          129.54,
+          211.5,
           0,
           6
         ],
         [
           "The Evergreen Edit",
           "theevergreeneditco",
-          259.08,
-          11,
+          328.26,
+          13,
           7941,
-          81.48,
+          101.48,
           5,
+          0
+        ],
+        [
+          "Coop Queen Courtney",
+          "courtney_gonzales19",
+          290.03,
+          20,
+          12685,
+          80.32,
+          2,
           0
         ],
         [
           "keniaher",
           "keniaher.77",
-          248.36,
-          19,
+          261.35,
+          20,
           16995,
-          37.44,
+          39.04,
           2,
           0
         ],
@@ -272,16 +282,6 @@
           8,
           201982,
           64.6,
-          0,
-          0
-        ],
-        [
-          "happyshop",
-          "happyshop968",
-          233.73,
-          17,
-          8021,
-          21.08,
           0,
           0
         ]
@@ -459,7 +459,7 @@
           "Samples approved": 103,
           "Samples shipped": 105.0,
           "Samples delivered": 92,
-          "Creators with sales": 80
+          "Creators with sales": 81
         },
         "daily": [
           [
@@ -608,60 +608,60 @@
         [
           "Fortune Finds",
           "fortune0420",
-          7335.5,
-          236,
+          8198.06,
+          265,
           4184,
-          2010.94,
+          2257.02,
           2,
           17
         ],
         [
           "Sylvia",
           "sylviaapproved",
-          4150.52,
-          253,
+          4399.99,
+          269,
           375660,
-          1094.68,
+          1158.24,
           2,
           0
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          3046.69,
-          94,
+          3212.8,
+          98,
           78126,
-          839.63,
+          884.13,
           18,
           7
         ],
         [
-          "Big Homie Aroc",
-          "aroc_finesse",
-          2341.33,
-          75,
-          47851,
-          630.16,
-          2,
-          9
-        ],
-        [
           "Red Oakley",
           "jaterao92",
-          2176.07,
-          92,
+          2454.5,
+          97,
           181075,
-          541.61,
+          593.71,
           0,
           0
         ],
         [
+          "Big Homie Aroc",
+          "aroc_finesse",
+          2361.32,
+          76,
+          47851,
+          638.65,
+          2,
+          9
+        ],
+        [
           "Stellar Finds",
           "boldvideos7",
-          1065.21,
-          29,
+          1507.87,
+          41,
           0,
-          214.32,
+          296.28,
           0,
           8
         ],
@@ -676,32 +676,32 @@
           0
         ],
         [
-          "happyshop",
-          "happyshop968",
-          698.84,
-          43,
-          20139,
-          65.96,
-          0,
+          "Coop Queen Courtney",
+          "courtney_gonzales19",
+          738.1,
+          41,
+          30920,
+          196.66,
+          5,
           0
         ],
         [
-          "Coop Queen Courtney",
-          "courtney_gonzales19",
-          666.43,
-          35,
-          30920,
-          176.66,
-          5,
+          "happyshop",
+          "happyshop968",
+          709.63,
+          44,
+          20139,
+          66.92,
+          0,
           0
         ],
         [
           "keniaher",
           "keniaher.77",
-          442.82,
-          30,
+          455.81,
+          31,
           27851,
-          66.66,
+          68.26,
           4,
           0
         ]
@@ -879,7 +879,7 @@
           "Samples approved": 370,
           "Samples shipped": 368.0,
           "Samples delivered": 357,
-          "Creators with sales": 155
+          "Creators with sales": 156
         },
         "daily": [
           [
@@ -1188,30 +1188,30 @@
         [
           "Fortune Finds",
           "fortune0420",
-          15875.32,
-          500,
+          16737.88,
+          529,
           7888,
-          4372.49,
+          4618.57,
           5,
           39
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          11691.64,
-          357,
+          11857.75,
+          361,
           230183,
-          3297.96,
+          3342.46,
           38,
           22
         ],
         [
           "Red Oakley",
           "jaterao92",
-          6941.88,
-          274,
+          7220.31,
+          279,
           735931,
-          1632.66,
+          1684.76,
           2,
           0
         ],
@@ -1228,30 +1228,30 @@
         [
           "Big Homie Aroc",
           "aroc_finesse",
-          5681.57,
-          179,
+          5701.56,
+          180,
           108513,
-          1538.88,
+          1547.37,
           43,
           19
         ],
         [
           "Sylvia",
           "sylviaapproved",
-          4702.21,
-          289,
+          4951.68,
+          305,
           375660,
-          1267.02,
+          1330.58,
           2,
           0
         ],
         [
           "happyshop",
           "happyshop968",
-          2626.9,
-          159,
+          2637.69,
+          160,
           82521,
-          269.2,
+          270.16,
           0,
           0
         ],
@@ -1268,53 +1268,53 @@
         [
           "The Evergreen Edit",
           "theevergreeneditco",
-          1744.71,
-          73,
+          1813.89,
+          75,
           58023,
-          587.3,
+          607.3,
           11,
           0
         ],
         [
-          "keniaher",
-          "keniaher.77",
-          1555.04,
-          102,
-          77301,
-          258.88,
-          9,
+          "Coop Queen Courtney",
+          "courtney_gonzales19",
+          1581.56,
+          89,
+          101153,
+          429.57,
+          32,
           0
         ]
       ],
       "videos": [
         [
-          "7670969961753431309",
-          "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
-          "keniaher.77",
-          "keniaher.77",
-          1419.32,
-          116,
-          62295,
-          295,
-          "https://tiktok.com/@keniaher.77/video/7670969961753431309"
-        ],
-        [
           "7672846600267468062",
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          1359.4,
+          1494.61,
           106,
           150361,
           641,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
+          "7670969961753431309",
+          "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
+          "keniaher.77",
+          "keniaher.77",
+          1436.91,
+          116,
+          62295,
+          295,
+          "https://tiktok.com/@keniaher.77/video/7670969961753431309"
+        ],
+        [
           "7671831593891171597",
           "",
           "courtney_gonzales19",
           "courtney_gonzales19",
-          669.71,
+          684.7,
           57,
           20525,
           43,
@@ -1369,7 +1369,7 @@
           "#movingday #backtoschool #dealsforyoudays ",
           "dawnmichele1972",
           "dawnmichele1972",
-          171.2,
+          180.04,
           19,
           16575,
           52,
@@ -1459,7 +1459,7 @@
           "Samples approved": 642,
           "Samples shipped": 649.0,
           "Samples delivered": 733,
-          "Creators with sales": 231
+          "Creators with sales": 232
         },
         "daily": [
           [
@@ -2068,10 +2068,10 @@
         [
           "Muscle Dad",
           "muscle_dad",
-          26428.73,
-          832,
+          26594.84,
+          836,
           1289981,
-          7481.86,
+          7526.36,
           92,
           35
         ],
@@ -2088,30 +2088,30 @@
         [
           "Fortune Finds",
           "fortune0420",
-          15875.32,
-          500,
+          16737.88,
+          529,
           7888,
-          4372.49,
+          4618.57,
           5,
           39
         ],
         [
           "Red Oakley",
           "jaterao92",
-          14962.53,
-          594,
+          15240.96,
+          599,
           1740507,
-          3327.42,
+          3379.52,
           3,
           0
         ],
         [
           "Big Homie Aroc",
           "aroc_finesse",
-          10427.8,
-          342,
+          10447.79,
+          343,
           140134,
-          2872.5,
+          2880.99,
           57,
           30
         ],
@@ -2128,30 +2128,30 @@
         [
           "Sylvia",
           "sylviaapproved",
-          4702.21,
-          289,
+          4951.68,
+          305,
           375660,
-          1267.02,
+          1330.58,
           2,
           0
         ],
         [
           "The Evergreen Edit",
           "theevergreeneditco",
-          3549.26,
-          147,
+          3618.44,
+          149,
           163690,
-          1047.46,
+          1067.46,
           20,
           0
         ],
         [
           "happyshop",
           "happyshop968",
-          2626.9,
-          159,
+          2637.69,
+          160,
           82562,
-          269.2,
+          270.16,
           0,
           0
         ],
@@ -2179,33 +2179,33 @@
           "https://tiktok.com/@theevergreeneditco/video/7658127805066087711"
         ],
         [
-          "7670969961753431309",
-          "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
-          "keniaher.77",
-          "keniaher.77",
-          1419.32,
-          116,
-          62295,
-          295,
-          "https://tiktok.com/@keniaher.77/video/7670969961753431309"
-        ],
-        [
           "7672846600267468062",
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          1359.4,
+          1494.61,
           106,
           150361,
           641,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
+          "7670969961753431309",
+          "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
+          "keniaher.77",
+          "keniaher.77",
+          1436.91,
+          116,
+          62295,
+          295,
+          "https://tiktok.com/@keniaher.77/video/7670969961753431309"
+        ],
+        [
           "7663728633059544351",
           "Buenisima! #puertamosquitero #puertamagnetica #screendoor #parati #tiktokshopcreatorpicks ",
           "sylviaapproved",
           "sylviaapproved",
-          1131.85,
+          1149.84,
           87,
           104216,
           400,
@@ -2260,7 +2260,7 @@
           "",
           "courtney_gonzales19",
           "courtney_gonzales19",
-          669.71,
+          684.7,
           57,
           20525,
           43,
@@ -2339,7 +2339,7 @@
           "Samples approved": 962,
           "Samples shipped": 962.0,
           "Samples delivered": 952,
-          "Creators with sales": 265
+          "Creators with sales": 266
         },
         "daily": [
           [
@@ -3248,10 +3248,10 @@
         [
           "Muscle Dad",
           "muscle_dad",
-          35794.86,
-          1098,
+          35960.97,
+          1102,
           1343512,
-          9655.86,
+          9700.36,
           92,
           35
         ],
@@ -3268,30 +3268,30 @@
         [
           "Fortune Finds",
           "fortune0420",
-          15875.32,
-          500,
+          16737.88,
+          529,
           7888,
-          4372.49,
+          4618.57,
           5,
           39
         ],
         [
           "Red Oakley",
           "jaterao92",
-          15461.05,
-          617,
+          15739.48,
+          622,
           1798598,
-          3400.22,
+          3452.32,
           3,
           0
         ],
         [
           "Big Homie Aroc",
           "aroc_finesse",
-          12195.23,
-          395,
+          12215.22,
+          396,
           140134,
-          3159.3,
+          3167.79,
           57,
           41
         ],
@@ -3318,30 +3318,30 @@
         [
           "Sylvia",
           "sylviaapproved",
-          4702.21,
-          289,
+          4951.68,
+          305,
           375660,
-          1267.02,
+          1330.58,
           2,
           0
         ],
         [
           "The Evergreen Edit",
           "theevergreeneditco",
-          3549.26,
-          147,
+          3618.44,
+          149,
           163690,
-          1047.46,
+          1067.46,
           20,
           0
         ],
         [
           "happyshop",
           "happyshop968",
-          2626.9,
-          159,
+          2637.69,
+          160,
           82618,
-          269.2,
+          270.16,
           0,
           0
         ]
@@ -3370,33 +3370,33 @@
           "https://tiktok.com/@maskman..2/video/7656173747715443999"
         ],
         [
-          "7670969961753431309",
-          "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
-          "keniaher.77",
-          "keniaher.77",
-          1419.32,
-          116,
-          62295,
-          295,
-          "https://tiktok.com/@keniaher.77/video/7670969961753431309"
-        ],
-        [
           "7672846600267468062",
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          1359.4,
+          1494.61,
           106,
           150361,
           641,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
+          "7670969961753431309",
+          "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
+          "keniaher.77",
+          "keniaher.77",
+          1436.91,
+          116,
+          62295,
+          295,
+          "https://tiktok.com/@keniaher.77/video/7670969961753431309"
+        ],
+        [
           "7663728633059544351",
           "Buenisima! #puertamosquitero #puertamagnetica #screendoor #parati #tiktokshopcreatorpicks ",
           "sylviaapproved",
           "sylviaapproved",
-          1131.85,
+          1149.84,
           87,
           104216,
           400,
@@ -3451,7 +3451,7 @@
           "",
           "courtney_gonzales19",
           "courtney_gonzales19",
-          669.71,
+          684.7,
           57,
           20525,
           43,
