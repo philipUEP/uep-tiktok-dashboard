@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T07:21:37+00:00",
+  "updated_at": "2026-09-02T07:21:58+00:00",
   "items": [
     {
       "metric": "Videos posted",
@@ -7,8 +7,8 @@
       "prior": 168,
       "pct": -42.3,
       "direction": "down",
-      "effect": "Fewer organic videos now will cut affiliate GMV, which is 88% of total, within the next 2-4 weeks.",
-      "action": "Unblock the overdue Blitz #2 and reactivate dormant creators with bidet and screen door incentives."
+      "effect": "Organic content output is at a four-week low with a third straight weekly drop, which will cut affiliate GMV, 88% of total, within the next 2-4 weeks.",
+      "action": "Unblock the overdue Blitz #2 (Bidet) and reactivate dormant creators with bidet and screen door incentives."
     },
     {
       "metric": "Creators posting",
@@ -16,7 +16,7 @@
       "prior": 111,
       "pct": -39.6,
       "direction": "down",
-      "effect": "The active creator base shrank by 44, reducing future content supply and concentrating GMV on a few top creators.",
+      "effect": "The active creator base shrank by 44, reducing future content supply and concentrating GMV on a few top creators who are themselves declining.",
       "action": "Run win-back outreach to the 44 creators who stopped posting, prioritizing those with sales."
     },
     {
@@ -25,8 +25,8 @@
       "prior": 169,
       "pct": -37.9,
       "direction": "down",
-      "effect": "Fewer requests now mean fewer delivered samples and posted videos in 2-4 weeks, extending the funnel decline.",
-      "action": "Restore default-approve inbound sampling and clear the pending reviews and 45 content-pending samples."
+      "effect": "Fewer inbound requests now mean fewer delivered samples and posted videos 2-4 weeks out, extending the funnel decline into mid-September.",
+      "action": "Clear the 24 To Review requests and restore default-approve inbound sampling per org convention."
     },
     {
       "metric": "Video views",
@@ -34,17 +34,17 @@
       "prior": 1098089,
       "pct": -20.5,
       "direction": "down",
-      "effect": "Organic reach has fallen three weeks straight and leads affiliate GMV declines by two to three weeks.",
+      "effect": "Organic reach has fallen three weeks straight and is the leading indicator for affiliate GMV declines two to three weeks out.",
       "action": "Brief creators to hook early and show the product in the first 3 seconds to lift conversion per view."
     },
     {
       "metric": "Sample rejection rate (vs 50% threshold)",
-      "current": 65.3,
+      "current": 61.0,
       "prior": 50,
-      "pct": 30.6,
+      "pct": 22.0,
       "direction": "up",
-      "effect": "Rejecting 196 of 300 requests, including high post-rate creators, starves the content pipeline of new creators.",
-      "action": "Re-review rejections with post rate above 90% and restore default-approve inbound sampling per org convention."
+      "effect": "Rejecting 183 of 300 requests, including high post-rate applicants, starves the content pipeline of new creators.",
+      "action": "Re-review rejections with post rate above 90% and unblock the overdue sample pipeline tasks."
     },
     {
       "metric": "Shop Wide ROAS (vs 1.0 breakeven)",
@@ -52,7 +52,7 @@
       "prior": 1.0,
       "pct": -30.9,
       "direction": "down",
-      "effect": "The campaign returns 0.69 per 1.00 spent and burns about 193 weekly, dragging blended ROAS under target.",
+      "effect": "The campaign returns 0.69 per 1.00 spent and burns about 193 weekly, dragging blended GMV Max ROAS under the 1.5 target.",
       "action": "Pause Shop Wide and shift budget to Bidet 7/6 at 1.358 and Screen Door at 1.398 ROAS."
     }
   ]
