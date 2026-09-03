@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T07:21:58+00:00",
+  "updated_at": "2026-09-03T07:30:00Z",
   "items": [
     {
       "metric": "Videos posted",
@@ -7,8 +7,8 @@
       "prior": 168,
       "pct": -42.3,
       "direction": "down",
-      "effect": "Organic content output is at a four-week low with a third straight weekly drop, which will cut affiliate GMV, 88% of total, within the next 2-4 weeks.",
-      "action": "Unblock the overdue Blitz #2 (Bidet) and reactivate dormant creators with bidet and screen door incentives."
+      "effect": "A three week run from 270 to 97 leaves less content in market, so organic affiliate GMV should soften in coming weeks.",
+      "action": "Re-engage top creators who posted zero videos this week (muscle_dad, aroc_finesse, jaterao92, ryanxbradshaw) with briefs and live slots."
     },
     {
       "metric": "Creators posting",
@@ -16,8 +16,8 @@
       "prior": 111,
       "pct": -39.6,
       "direction": "down",
-      "effect": "The active creator base shrank by 44, reducing future content supply and concentrating GMV on a few top creators who are themselves declining.",
-      "action": "Run win-back outreach to the 44 creators who stopped posting, prioritizing those with sales."
+      "effect": "The active creator base shrank for three straight weeks (132, 111, 67), narrowing the shop's reach and future GMV spread.",
+      "action": "Clear the 34 To Review sample applications so new creators can enter the posting pool before requests expire."
     },
     {
       "metric": "Sample requests",
@@ -25,8 +25,8 @@
       "prior": 169,
       "pct": -37.9,
       "direction": "down",
-      "effect": "Fewer inbound requests now mean fewer delivered samples and posted videos 2-4 weeks out, extending the funnel decline into mid-September.",
-      "action": "Clear the 24 To Review requests and restore default-approve inbound sampling per org convention."
+      "effect": "Requests ran 171, 169, 105 and 174 of 300 applications were rejected (58%), so the funnel feeding future content is running dry.",
+      "action": "Restart an outbound sampling push (bidet or screen door) through the weekly greenlight loop to refill the pipeline."
     },
     {
       "metric": "Video views",
@@ -34,26 +34,26 @@
       "prior": 1098089,
       "pct": -20.5,
       "direction": "down",
-      "effect": "Organic reach has fallen three weeks straight and is the leading indicator for affiliate GMV declines two to three weeks out.",
-      "action": "Brief creators to hook early and show the product in the first 3 seconds to lift conversion per view."
+      "effect": "Views fell three weeks running (1.13M, 1.10M, 0.87M) and video GMV should follow the reach decline within one to two weeks.",
+      "action": "Get remaining sample holders posting and scale the proven hooks from creative_brief.json (money saved, easy install)."
     },
     {
-      "metric": "Sample rejection rate (vs 50% threshold)",
-      "current": 61.0,
-      "prior": 50,
-      "pct": 22.0,
-      "direction": "up",
-      "effect": "Rejecting 183 of 300 requests, including high post-rate applicants, starves the content pipeline of new creators.",
-      "action": "Re-review rejections with post rate above 90% and unblock the overdue sample pipeline tasks."
-    },
-    {
-      "metric": "Shop Wide ROAS (vs 1.0 breakeven)",
-      "current": 0.691,
-      "prior": 1.0,
-      "pct": -30.9,
+      "metric": "Replies",
+      "current": 19,
+      "prior": 30,
+      "pct": -36.7,
       "direction": "down",
-      "effect": "The campaign returns 0.69 per 1.00 spent and burns about 193 weekly, dragging blended GMV Max ROAS under the 1.5 target.",
-      "action": "Pause Shop Wide and shift budget to Bidet 7/6 at 1.358 and Screen Door at 1.398 ROAS."
+      "effect": "Replies ran 54, 30, 19 while DMs rose 27%, leaving a 0.25% reply rate that indicates cold outreach is not landing.",
+      "action": "Shift outreach from broad cold sends to warm and converting segments and refresh the DM angle before more volume."
+    },
+    {
+      "metric": "Shop Wide campaign ROAS (week vs 14d)",
+      "current": 0.691,
+      "prior": 0.72,
+      "pct": -4.0,
+      "direction": "down",
+      "effect": "Shop Wide spent 623.62 to return 430.79 in the week and 0.72 over 14 days, below its 2.0 target and under the 1.0 loss line.",
+      "action": "Pause Shop Wide or shift its budget to Screen Door (1.40) and Bidet 7/6 (1.36), the campaigns above 1.3 ROAS."
     }
   ]
 }
