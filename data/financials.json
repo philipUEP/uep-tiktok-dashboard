@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-02",
+    "pulled_on": "2026-09-03",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -334,7 +334,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Foot Rest - Portable Desk & Car Ready Travel Support with Adjustable Straps, Shape-hold Base, Durable Car Interior Accessory",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
           "price": 23.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -570,7 +570,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Foot Rest - Portable Desk & Car Ready Travel Support with Adjustable Straps, Shape-hold Base, Durable Car Interior Accessory",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
           "price": 23.99,
           "total_gmv": 23.25,
           "share_pct": 0.1,
@@ -905,7 +905,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Foot Rest - Portable Desk & Car Ready Travel Support with Adjustable Straps, Shape-hold Base, Durable Car Interior Accessory",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
           "price": 23.99,
           "total_gmv": 40.76,
           "share_pct": 0.0,
@@ -1372,7 +1372,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Foot Rest - Portable Desk & Car Ready Travel Support with Adjustable Straps, Shape-hold Base, Durable Car Interior Accessory",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
           "price": 23.99,
           "total_gmv": 40.76,
           "share_pct": 0.0,
@@ -1762,7 +1762,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Foot Rest - Portable Desk & Car Ready Travel Support with Adjustable Straps, Shape-hold Base, Durable Car Interior Accessory",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
           "price": 23.99,
           "total_gmv": 73.0,
           "share_pct": 0.0,
