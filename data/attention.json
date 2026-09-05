@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T07:22:56+00:00",
+  "updated_at": "2026-09-05T07:23:13Z",
   "items": [
     {
       "metric": "Videos posted",
@@ -7,8 +7,8 @@
       "prior": 168,
       "pct": -42.3,
       "direction": "down",
-      "effect": "Video supply fell for three straight weeks (270, 168, 97) and affiliate content drives 88% of GMV, so organic sales will soften in the coming weeks.",
-      "action": "Run a lapsed creator reactivation blitz using the proven money saving and easy install hooks from the creative brief."
+      "effect": "Posting has fallen three straight weeks (270, 168, 97) and affiliate content is 88% of GMV, so video attributed GMV should soften in the next 2 to 4 weeks.",
+      "action": "Run a lapsed creator reactivation blitz this week with bidet and screen door posting incentives."
     },
     {
       "metric": "Creators posting",
@@ -16,8 +16,8 @@
       "prior": 111,
       "pct": -39.6,
       "direction": "down",
-      "effect": "The active creator base shrank from 132 to 67 in three weeks, shrinking the pool that generates views and sales.",
-      "action": "Reach the roughly 40 dormant creators with bidet and screen door incentives plus a refreshed content brief."
+      "effect": "The active creator base has shrunk three straight weeks (132, 111, 67), narrowing the pool that generates future affiliate GMV.",
+      "action": "Reach the 44 creators who posted the prior week but not Aug 24-30, starting with CRM tagged affiliates."
     },
     {
       "metric": "Sample requests",
@@ -25,8 +25,8 @@
       "prior": 169,
       "pct": -37.9,
       "direction": "down",
-      "effect": "Inbound requests fell four weeks straight and the pipeline snapshot shows 185 of 300 rejected (61.7%) with 28 approvals pending, so future deliveries and content will drop.",
-      "action": "Clear the To Review queue within 24 hours, prioritizing creators with post rates above 90%."
+      "effect": "Inbound requests have fallen every week for four weeks (280, 171, 169, 105), so the number of creators entering the sample pipeline keeps shrinking.",
+      "action": "Clear the 29 To Review applications today and review outreach list quality before sending more volume."
     },
     {
       "metric": "Replies",
@@ -34,26 +34,26 @@
       "prior": 30,
       "pct": -36.7,
       "direction": "down",
-      "effect": "Reply rate is 0.25% of 7,746 DMs sent, which rose 27%, signaling list fatigue or weak targeting at the top of the funnel.",
-      "action": "Cut DM volume, test smaller segmented batches, and track reply rate per list before scaling again."
+      "effect": "Reply rate is 0.25% on 7,746 DMs that rose 27.3% WoW, so more outreach is converting worse and capping new creator inflow.",
+      "action": "Pause DM scaling, restart with smaller targeted batches, and track reply rate per list."
     },
     {
-      "metric": "Video views",
-      "current": 872730,
-      "prior": 1098089,
-      "pct": -20.5,
-      "direction": "down",
-      "effect": "Views declined every week for a month (1.54M to 0.87M) and are the demand leading indicator for affiliate GMV.",
-      "action": "Refresh creative angles toward money saving and easy installation before scaling any further ad spend."
-    },
-    {
-      "metric": "GMV Max Shop Wide ROAS",
+      "metric": "GMV Max Shop Wide ROI (1.0 breakeven)",
       "current": 0.691,
-      "prior": 0.72,
-      "pct": -4.0,
+      "prior": 1.0,
+      "pct": -30.9,
       "direction": "down",
-      "effect": "The campaign returned $430.79 on $623.62 of spend, below the 1.0 breakeven, and is cash negative at the margin.",
-      "action": "Pause Shop Wide and hold Bidet and Screen Door budgets until refreshed creatives lift them toward their ROAS targets."
+      "effect": "The campaign returned 430.79 on 623.62 of spend, so it loses roughly 193 per week on ad spend alone.",
+      "action": "Pause Shop Wide and reallocate budget to Bidet 7/6 and Screen Door, which ran at 1.358 and 1.398 ROI."
+    },
+    {
+      "metric": "Sample rejection rate (50% flag threshold)",
+      "current": 57.3,
+      "prior": 50.0,
+      "pct": 14.6,
+      "direction": "up",
+      "effect": "172 of the 300 applications in the snapshot are rejected, removing most inbound creators before they reach content.",
+      "action": "Review rejection reasons and tighten application targeting so fewer low fit creators enter the pipeline."
     }
   ]
 }
