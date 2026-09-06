@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats + /ads/campaigns (in-progress week, live read)",
-    "pulled_at": "2026-09-06T00:39:09.123154+00:00"
+    "pulled_at": "2026-09-06T00:41:09.385154+00:00"
   },
   "week_range": "2026-08-31 to 2026-09-06",
   "values": {
@@ -14,7 +14,7 @@
     "distinct_creators": 37,
     "video_views": 448318,
     "live_gmv": 5175.31,
-    "dms_sent": 15145,
+    "dms_sent": 15152,
     "sample_requests": 136,
     "samples_approved": 28,
     "lives_posted": 126,
@@ -22,6 +22,7 @@
     "gmv_max_spend": 5867.1900000000005,
     "gmv_max_roas": 1.28
   },
-  "stale": false,
-  "last_error": null
+  "stale": true,
+  "last_error": "<urlopen error _ssl.c:1012: The handshake operation timed out>",
+  "last_error_at": "2026-09-06T00:41:09.385154+00:00"
 }
