@@ -1,41 +1,50 @@
 {
-  "updated_at": "2026-09-05T07:23:13Z",
+  "updated_at": "2026-09-06T07:23:31Z",
   "items": [
     {
       "metric": "Videos posted",
-      "current": 97,
-      "prior": 168,
-      "pct": -42.3,
+      "current": 42,
+      "prior": 97,
+      "pct": -56.7,
       "direction": "down",
-      "effect": "Posting has fallen three straight weeks (270, 168, 97) and affiliate content is 88% of GMV, so video attributed GMV should soften in the next 2 to 4 weeks.",
-      "action": "Run a lapsed creator reactivation blitz this week with bidet and screen door posting incentives."
+      "effect": "Posting has declined three straight weeks (270, 168, 97, 42) and active creators fell to 37 from 67, so content supply keeps shrinking and affiliate GMV lags it by 2 to 4 weeks.",
+      "action": "Run a reactivation blitz this week for the roughly 30 creators who posted Aug 24-30 but not Aug 31-Sep 6, offering bidet and screen door incentives."
     },
     {
-      "metric": "Creators posting",
-      "current": 67,
-      "prior": 111,
-      "pct": -39.6,
+      "metric": "Units sold",
+      "current": 400,
+      "prior": 784,
+      "pct": -49.0,
       "direction": "down",
-      "effect": "The active creator base has shrunk three straight weeks (132, 111, 67), narrowing the pool that generates future affiliate GMV.",
-      "action": "Reach the 44 creators who posted the prior week but not Aug 24-30, starting with CRM tagged affiliates."
+      "effect": "Orders fell 48.5% alongside units and AOV rose to 29.87 from 23.82, so demand contracted while the mix shifted to the higher price bidet.",
+      "action": "Confirm next pull whether the Aug 31-Sep 6 bucket is partial, then reset weekly order and unit forecasts before planning sample or ad volume."
     },
     {
-      "metric": "Sample requests",
-      "current": 105,
-      "prior": 169,
-      "pct": -37.9,
+      "metric": "Video views",
+      "current": 448318,
+      "prior": 872730,
+      "pct": -48.6,
       "direction": "down",
-      "effect": "Inbound requests have fallen every week for four weeks (280, 171, 169, 105), so the number of creators entering the sample pipeline keeps shrinking.",
-      "action": "Clear the 29 To Review applications today and review outreach list quality before sending more volume."
+      "effect": "Views have declined three straight weeks (1,098,089, 872,730, 448,318), though views per video rose to 10,674 from 8,997, so fewer videos drive the drop.",
+      "action": "Push active creators to at least 2 videos per week and brief the highest reach formats from creative_brief to rebuild aggregate reach."
     },
     {
-      "metric": "Replies",
-      "current": 19,
-      "prior": 30,
-      "pct": -36.7,
+      "metric": "GMV",
+      "current": 11231.64,
+      "prior": 17385.02,
+      "pct": -35.4,
       "direction": "down",
-      "effect": "Reply rate is 0.25% on 7,746 DMs that rose 27.3% WoW, so more outreach is converting worse and capping new creator inflow.",
-      "action": "Pause DM scaling, restart with smaller targeted batches, and track reply rate per list."
+      "effect": "Affiliate GMV fell 36.8% and LIVE GMV 31.2% with total GMV at its lowest in 4 weeks, so the drop is broad across channels and may be a partial week.",
+      "action": "Verify the bucket on the next pull and hold GMV Max spend allocation until the confirmed level, keeping Shop Wide paused."
+    },
+    {
+      "metric": "Samples shipped",
+      "current": 26,
+      "prior": 49,
+      "pct": -46.9,
+      "direction": "down",
+      "effect": "Shipped samples have fallen three straight weeks (56, 49, 26) while 75 applications sit To Review, so delivered samples and the content they feed will keep shrinking.",
+      "action": "Clear the 75 To Review applications within 48 hours, prioritizing post rates over 90%, and ship approved samples immediately."
     },
     {
       "metric": "GMV Max Shop Wide ROI (1.0 breakeven)",
@@ -43,17 +52,8 @@
       "prior": 1.0,
       "pct": -30.9,
       "direction": "down",
-      "effect": "The campaign returned 430.79 on 623.62 of spend, so it loses roughly 193 per week on ad spend alone.",
+      "effect": "The campaign returned 430.79 on 623.62 of spend, so it is cash negative on ad spend alone and sits below its 2.0 ROAS target.",
       "action": "Pause Shop Wide and reallocate budget to Bidet 7/6 and Screen Door, which ran at 1.358 and 1.398 ROI."
-    },
-    {
-      "metric": "Sample rejection rate (50% flag threshold)",
-      "current": 57.3,
-      "prior": 50.0,
-      "pct": 14.6,
-      "direction": "up",
-      "effect": "172 of the 300 applications in the snapshot are rejected, removing most inbound creators before they reach content.",
-      "action": "Review rejection reasons and tighten application targeting so fewer low fit creators enter the pipeline."
     }
   ]
 }
