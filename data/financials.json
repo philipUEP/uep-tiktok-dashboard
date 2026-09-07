@@ -13,34 +13,34 @@
     "week": {
       "range": "2026-08-31 to 2026-09-06",
       "revenue": {
-        "total_gmv": 12363.3,
+        "total_gmv": 12506.06,
         "affiliate_gmv": 10323.65,
         "video_gmv": 5051.98,
         "live_gmv": 5175.31,
-        "shop_tab_gmv": 1976.27,
-        "gmv_max_revenue": 8545.09,
+        "shop_tab_gmv": 1996.26,
+        "gmv_max_revenue": 8675.35,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 6451.740000000001,
+        "ad_spend": 6519.72,
         "commission": 2187.81,
         "refund_amount": 1585.81,
-        "shipping_fees": 3161.6
+        "shipping_fees": 3214.8
       },
-      "net_after_ads_commissions_refunds": 2137.94,
+      "net_after_ads_commissions_refunds": 2212.72,
       "ratios": {
-        "blended_roas": 1.9163,
-        "gmv_max_roas": 1.3245,
+        "blended_roas": 1.9182,
+        "gmv_max_roas": 1.3306,
         "commission_rate_pct": 21.19,
-        "refund_rate_pct": 12.83,
-        "aov": 28.51,
+        "refund_rate_pct": 12.68,
+        "aov": 28.37,
         "gpm": 9.89,
         "emv": 2500.36,
         "gmv_per_sample_delivered": 294.96
       },
       "volume": {
-        "orders": 421,
-        "units_sold": 447.0,
+        "orders": 428,
+        "units_sold": 454.0,
         "creators": 43,
         "samples_delivered": 35,
         "video_views": 500071
@@ -50,23 +50,23 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 9790.81,
-          "share_pct": 79.2,
-          "video_gmv": 3598.31,
+          "total_gmv": 9853.79,
+          "share_pct": 78.8,
+          "video_gmv": 3661.29,
           "live_gmv": 5429.77,
           "shop_tab_gmv": 1169.85,
-          "units_sold": 312
+          "units_sold": 314
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 1998.04,
-          "share_pct": 16.2,
-          "video_gmv": 1805.94,
+          "total_gmv": 2068.83,
+          "share_pct": 16.5,
+          "video_gmv": 1854.74,
           "live_gmv": 0,
-          "shop_tab_gmv": 396.37,
-          "units_sold": 112
+          "shop_tab_gmv": 416.36,
+          "units_sold": 116
         },
         {
           "product_id": "1732530411400171739",
@@ -80,6 +80,17 @@
           "units_sold": 3
         },
         {
+          "product_id": "1729388554561294555",
+          "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
+          "price": 39.99,
+          "total_gmv": 84.3,
+          "share_pct": 0.7,
+          "video_gmv": 53.71,
+          "live_gmv": 0,
+          "shop_tab_gmv": 30.59,
+          "units_sold": 7
+        },
+        {
           "product_id": "1729385798535319771",
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Quick-Dry, Breathable Mesh, 4-Cup Smooth Grip, Modern Design, Shoulder Support, Versatile Compatibility, Self-Care Durable Bathroom Gadget",
           "price": 27.99,
@@ -89,17 +100,6 @@
           "live_gmv": 0,
           "shop_tab_gmv": 27.99,
           "units_sold": 3
-        },
-        {
-          "product_id": "1729388554561294555",
-          "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
-          "price": 39.99,
-          "total_gmv": 75.31,
-          "share_pct": 0.6,
-          "video_gmv": 44.72,
-          "live_gmv": 0,
-          "shop_tab_gmv": 30.59,
-          "units_sold": 6
         },
         {
           "product_id": "1730130752085856475",
@@ -425,34 +425,34 @@
     "14d": {
       "range": "2026-08-24 to 2026-09-06",
       "revenue": {
-        "total_gmv": 29748.32,
+        "total_gmv": 29891.08,
         "affiliate_gmv": 25620.75,
         "video_gmv": 12594.62,
         "live_gmv": 12696.49,
-        "shop_tab_gmv": 5015.4,
-        "gmv_max_revenue": 21214.95,
+        "shop_tab_gmv": 5035.39,
+        "gmv_max_revenue": 21345.21,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 15987.539999999999,
+        "ad_spend": 16055.52,
         "commission": 5973.61,
         "refund_amount": 3147.7,
-        "shipping_fees": 8686.8
+        "shipping_fees": 8740.0
       },
-      "net_after_ads_commissions_refunds": 4639.47,
+      "net_after_ads_commissions_refunds": 4714.25,
       "ratios": {
-        "blended_roas": 1.8607,
-        "gmv_max_roas": 1.327,
+        "blended_roas": 1.8617,
+        "gmv_max_roas": 1.3295,
         "commission_rate_pct": 23.32,
-        "refund_rate_pct": 10.58,
-        "aov": 26.21,
+        "refund_rate_pct": 10.53,
+        "aov": 26.14,
         "gpm": 9.06,
         "emv": 6864.0,
         "gmv_per_sample_delivered": 328.47
       },
       "volume": {
-        "orders": 1151,
-        "units_sold": 1231.0,
+        "orders": 1158,
+        "units_sold": 1238.0,
         "creators": 105,
         "samples_delivered": 78,
         "video_views": 1372801
@@ -462,34 +462,34 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 21994.43,
-          "share_pct": 73.9,
-          "video_gmv": 7024.77,
+          "total_gmv": 22057.41,
+          "share_pct": 73.8,
+          "video_gmv": 7087.75,
           "live_gmv": 12950.95,
           "shop_tab_gmv": 2931.44,
-          "units_sold": 744
+          "units_sold": 746
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 6407.47,
-          "share_pct": 21.5,
-          "video_gmv": 5660.07,
+          "total_gmv": 6478.26,
+          "share_pct": 21.7,
+          "video_gmv": 5708.87,
           "live_gmv": 0,
-          "shop_tab_gmv": 1154.14,
-          "units_sold": 427
+          "shop_tab_gmv": 1174.13,
+          "units_sold": 431
         },
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
           "price": 39.99,
-          "total_gmv": 258.06,
+          "total_gmv": 267.05,
           "share_pct": 0.9,
-          "video_gmv": 210.84,
+          "video_gmv": 219.83,
           "live_gmv": 0,
           "shop_tab_gmv": 70.58,
-          "units_sold": 19
+          "units_sold": 20
         },
         {
           "product_id": "1732530411400171739",
@@ -507,7 +507,7 @@
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Quick-Dry, Breathable Mesh, 4-Cup Smooth Grip, Modern Design, Shoulder Support, Versatile Compatibility, Self-Care Durable Bathroom Gadget",
           "price": 27.99,
           "total_gmv": 163.74,
-          "share_pct": 0.6,
+          "share_pct": 0.5,
           "video_gmv": 54.58,
           "live_gmv": 0,
           "shop_tab_gmv": 81.17,
@@ -837,34 +837,34 @@
     "month": {
       "range": "2026-08-08 to 2026-09-06",
       "revenue": {
-        "total_gmv": 76941.84,
+        "total_gmv": 77084.6,
         "affiliate_gmv": 68129.28,
         "video_gmv": 35832.31,
         "live_gmv": 31594.96,
-        "shop_tab_gmv": 11870.66,
-        "gmv_max_revenue": 59194.5,
+        "shop_tab_gmv": 11890.65,
+        "gmv_max_revenue": 59324.76,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 50768.42,
+        "ad_spend": 50836.399999999994,
         "commission": 16428.03,
         "refund_amount": 7335.02,
-        "shipping_fees": 23461.2
+        "shipping_fees": 23514.4
       },
-      "net_after_ads_commissions_refunds": 2410.37,
+      "net_after_ads_commissions_refunds": 2485.15,
       "ratios": {
-        "blended_roas": 1.5155,
-        "gmv_max_roas": 1.166,
+        "blended_roas": 1.5163,
+        "gmv_max_roas": 1.167,
         "commission_rate_pct": 24.11,
-        "refund_rate_pct": 9.53,
-        "aov": 25.29,
+        "refund_rate_pct": 9.52,
+        "aov": 25.26,
         "gpm": 8.81,
         "emv": 20196.15,
         "gmv_per_sample_delivered": 279.22
       },
       "volume": {
-        "orders": 3099,
-        "units_sold": 3450.0,
+        "orders": 3106,
+        "units_sold": 3457.0,
         "creators": 329,
         "samples_delivered": 244,
         "video_views": 4039230
@@ -874,34 +874,34 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 53870.02,
+          "total_gmv": 53933.0,
           "share_pct": 70.0,
-          "video_gmv": 16888.96,
+          "video_gmv": 16951.94,
           "live_gmv": 31849.42,
           "shop_tab_gmv": 7465.69,
-          "units_sold": 1872
+          "units_sold": 1874
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 19367.41,
+          "total_gmv": 19438.2,
           "share_pct": 25.2,
-          "video_gmv": 17465.67,
+          "video_gmv": 17514.47,
           "live_gmv": 0,
-          "shop_tab_gmv": 2895.33,
-          "units_sold": 1361
+          "shop_tab_gmv": 2915.32,
+          "units_sold": 1365
         },
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
           "price": 39.99,
-          "total_gmv": 1857.99,
+          "total_gmv": 1866.98,
           "share_pct": 2.4,
-          "video_gmv": 1667.83,
+          "video_gmv": 1676.82,
           "live_gmv": 0,
           "shop_tab_gmv": 242.52,
-          "units_sold": 156
+          "units_sold": 157
         },
         {
           "product_id": "1732530411400171739",
@@ -1260,34 +1260,34 @@
     "60d": {
       "range": "2026-07-09 to 2026-09-06",
       "revenue": {
-        "total_gmv": 154200.19,
+        "total_gmv": 154342.95,
         "affiliate_gmv": 136920.28,
         "video_gmv": 86197.07,
         "live_gmv": 49320.64,
-        "shop_tab_gmv": 20638.95,
-        "gmv_max_revenue": 142927.48,
+        "shop_tab_gmv": 20658.94,
+        "gmv_max_revenue": 143057.74000000002,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 143162.37000000002,
+        "ad_spend": 143230.35,
         "commission": 33095.86,
         "refund_amount": 14605.67,
-        "shipping_fees": 48184.0
+        "shipping_fees": 48237.2
       },
-      "net_after_ads_commissions_refunds": -36663.71,
+      "net_after_ads_commissions_refunds": -36588.93,
       "ratios": {
-        "blended_roas": 1.0771,
-        "gmv_max_roas": 0.9984,
+        "blended_roas": 1.0776,
+        "gmv_max_roas": 0.9988,
         "commission_rate_pct": 24.17,
-        "refund_rate_pct": 9.47,
-        "aov": 25.01,
+        "refund_rate_pct": 9.46,
+        "aov": 25.0,
         "gpm": 7.83,
         "emv": 54870.34,
         "gmv_per_sample_delivered": 220.84
       },
       "volume": {
-        "orders": 6361,
-        "units_sold": 7249.0,
+        "orders": 6368,
+        "units_sold": 7256.0,
         "creators": 600,
         "samples_delivered": 620,
         "video_views": 10974068
@@ -1297,34 +1297,34 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 104562.07,
+          "total_gmv": 104625.05,
           "share_pct": 67.8,
-          "video_gmv": 43723.07,
+          "video_gmv": 43786.05,
           "live_gmv": 49497.13,
           "shop_tab_gmv": 13288.58,
-          "units_sold": 3965
+          "units_sold": 3967
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 41562.96,
+          "total_gmv": 41633.75,
           "share_pct": 27.0,
-          "video_gmv": 37665.17,
+          "video_gmv": 37713.97,
           "live_gmv": 77.97,
-          "shop_tab_gmv": 4824.96,
-          "units_sold": 2766
+          "shop_tab_gmv": 4844.95,
+          "units_sold": 2770
         },
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
           "price": 39.99,
-          "total_gmv": 5240.4,
+          "total_gmv": 5249.39,
           "share_pct": 3.4,
-          "video_gmv": 4824.36,
+          "video_gmv": 4833.35,
           "live_gmv": 0,
           "shop_tab_gmv": 472.76,
-          "units_sold": 425
+          "units_sold": 426
         },
         {
           "product_id": "1732530411400171739",
@@ -1342,7 +1342,7 @@
           "product_name": "Everlasting Comfort Doctor-Recommended Memory Foam Seat Cushion - HSA FSA Eligible, Sciatica & Back Support, Supportive Sitting, Good Posture, Cushioned Furniture Accessories, Work Hacks, Cervical & Spinal Support Furniture Accessories (Office & Car Use),",
           "price": 67.99,
           "total_gmv": 385.57,
-          "share_pct": 0.3,
+          "share_pct": 0.2,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 252.95,
@@ -1716,34 +1716,34 @@
     "90d": {
       "range": "2026-06-09 to 2026-09-06",
       "revenue": {
-        "total_gmv": 186955.56,
+        "total_gmv": 187098.32,
         "affiliate_gmv": 167278.29,
         "video_gmv": 109491.62,
         "live_gmv": 55998.87,
-        "shop_tab_gmv": 25403.66,
-        "gmv_max_revenue": 172477.56999999998,
+        "shop_tab_gmv": 25423.65,
+        "gmv_max_revenue": 172607.82999999996,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 171164.90000000002,
+        "ad_spend": 171232.88000000003,
         "commission": 37452.37,
         "refund_amount": 17914.87,
-        "shipping_fees": 57395.2
+        "shipping_fees": 57448.4
       },
-      "net_after_ads_commissions_refunds": -39576.58,
+      "net_after_ads_commissions_refunds": -39501.8,
       "ratios": {
-        "blended_roas": 1.0923,
-        "gmv_max_roas": 1.0077,
+        "blended_roas": 1.0927,
+        "gmv_max_roas": 1.008,
         "commission_rate_pct": 22.39,
         "refund_rate_pct": 9.58,
-        "aov": 25.68,
+        "aov": 25.67,
         "gpm": 7.64,
         "emv": 71399.14,
         "gmv_per_sample_delivered": 172.1
       },
       "volume": {
-        "orders": 7577,
-        "units_sold": 8554.0,
+        "orders": 7584,
+        "units_sold": 8561.0,
         "creators": 847,
         "samples_delivered": 972,
         "video_views": 14279828
@@ -1753,34 +1753,34 @@
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 117748.88,
+          "total_gmv": 117811.86,
           "share_pct": 63.0,
-          "video_gmv": 49328.85,
+          "video_gmv": 49391.83,
           "live_gmv": 56148.38,
           "shop_tab_gmv": 15386.69,
-          "units_sold": 4431
+          "units_sold": 4433
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
           "price": 27.99,
-          "total_gmv": 60295.05,
+          "total_gmv": 60365.84,
           "share_pct": 32.3,
-          "video_gmv": 54958.02,
+          "video_gmv": 55006.82,
           "live_gmv": 104.95,
-          "shop_tab_gmv": 6775.57,
-          "units_sold": 3586
+          "shop_tab_gmv": 6795.56,
+          "units_sold": 3590
         },
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
           "price": 39.99,
-          "total_gmv": 5462.82,
+          "total_gmv": 5471.81,
           "share_pct": 2.9,
-          "video_gmv": 5046.78,
+          "video_gmv": 5055.77,
           "live_gmv": 0,
           "shop_tab_gmv": 619.69,
-          "units_sold": 428
+          "units_sold": 429
         },
         {
           "product_id": "1732530411400171739",

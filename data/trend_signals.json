@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T07:01:21.099668+00:00",
+  "generated_at": "2026-09-07T11:44:17.925074+00:00",
   "weeks": [
     {
       "total_gmv": 23280.45,
@@ -53,9 +53,9 @@
       "_range": "2026-08-24 to 2026-08-30"
     },
     {
-      "total_gmv": 12363.3,
-      "platform_orders": 421,
-      "total_units_sold": 447.0,
+      "total_gmv": 12506.06,
+      "platform_orders": 428,
+      "total_units_sold": 454.0,
       "affiliate_gmv": 10323.65,
       "live_gmv": 5175.31,
       "video_views": 500071,
@@ -75,19 +75,19 @@
       23280.45,
       15825.92,
       17385.02,
-      12363.3
+      12506.06
     ],
     "platform_orders": [
       948.0,
       629.0,
       730.0,
-      421.0
+      428.0
     ],
     "total_units_sold": [
       1091.0,
       684.0,
       784.0,
-      447.0
+      454.0
     ],
     "affiliate_gmv": [
       21306.86,
@@ -166,14 +166,6 @@
       "direction": "down"
     },
     {
-      "metric": "total_units_sold",
-      "label": "Units",
-      "current": 447.0,
-      "prior": 784.0,
-      "pct": -43.0,
-      "direction": "down"
-    },
-    {
       "metric": "video_views",
       "label": "Video views",
       "current": 500071.0,
@@ -182,11 +174,19 @@
       "direction": "down"
     },
     {
+      "metric": "total_units_sold",
+      "label": "Units",
+      "current": 454.0,
+      "prior": 784.0,
+      "pct": -42.1,
+      "direction": "down"
+    },
+    {
       "metric": "platform_orders",
       "label": "Orders",
-      "current": 421.0,
+      "current": 428.0,
       "prior": 730.0,
-      "pct": -42.3,
+      "pct": -41.4,
       "direction": "down"
     },
     {
@@ -224,9 +224,9 @@
     {
       "metric": "total_gmv",
       "label": "GMV",
-      "current": 12363.3,
+      "current": 12506.06,
       "prior": 17385.02,
-      "pct": -28.9,
+      "pct": -28.1,
       "direction": "down"
     },
     {
@@ -333,14 +333,14 @@
     }
   ],
   "ratios": {
-    "gmv_per_sample_shipped": 426.32,
+    "gmv_per_sample_shipped": 431.24,
     "reply_rate_pct": 0.11,
     "videos_per_creator": 1.19,
-    "live_share_of_gmv_pct": 41.9,
-    "affiliate_share_of_gmv_pct": 83.5
+    "live_share_of_gmv_pct": 41.4,
+    "affiliate_share_of_gmv_pct": 82.5
   },
   "freshness": {
-    "pull_age_days": 0.3,
+    "pull_age_days": 0.5,
     "data_through": "2026-09-06"
   },
   "note": "Deterministic signal set from the Cruva REST API. The insights agent interprets these; the numbers are ground truth."
