@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-09-07T07:23:38Z",
+  "updated_at": "2026-09-08T07:21:46+00:00",
   "items": [
     {
       "metric": "Videos posted",
-      "current": 51,
-      "prior": 97,
-      "pct": -47.4,
+      "current": 56.0,
+      "prior": 97.0,
+      "pct": -42.3,
       "direction": "down",
-      "effect": "Video output fell for a third straight week and leads affiliate GMV by one to two weeks, so near-term revenue is at risk.",
-      "action": "Re-engage the 43 active creators with proven bidet hooks from the creative brief and a minimum weekly posting cadence."
-    },
-    {
-      "metric": "Samples approved",
-      "current": 28,
-      "prior": 52,
-      "pct": -46.2,
-      "direction": "down",
-      "effect": "Approvals fell 46% while sample requests rose 60%, so the 112-item To Review backlog will delay content starts by weeks.",
-      "action": "Prioritize approvals for high post-rate applicants in the queue and ship within the week."
+      "effect": "Videos posted is in a three week run (168, 97, 56) and affiliate content seeds GMV with a 1 to 2 week lag, so coming weeks face more downside.",
+      "action": "Reactivate dormant top creators such as fortune0420 and sylviaapproved, who posted zero videos last week."
     },
     {
       "metric": "Units sold",
-      "current": 447,
-      "prior": 784,
-      "pct": -43.0,
+      "current": 454.0,
+      "prior": 784.0,
+      "pct": -42.1,
       "direction": "down",
-      "effect": "Unit and order volume dropped over 42% in the same week, compounding the 28.9% GMV decline.",
-      "action": "Protect the bidet and screen door mix that carries 95.4% of GMV while reactivating dormant August creators."
+      "effect": "Units halved as reach and content contracted together, cutting volume all the way down the funnel.",
+      "action": "Refresh briefs around proven hooks (price drop, 15 minute install, warranty) to lift conversion on the remaining reach."
+    },
+    {
+      "metric": "Orders",
+      "current": 428.0,
+      "prior": 730.0,
+      "pct": -41.4,
+      "direction": "down",
+      "effect": "Order count fell faster than GMV, implying fewer buyers rather than smaller baskets.",
+      "action": "Shift ad budget toward the highest converting creatives and the Screen Door campaign (CPA 14.73)."
     },
     {
       "metric": "Video views",
-      "current": 500071,
-      "prior": 872730,
-      "pct": -42.7,
+      "current": 562385.0,
+      "prior": 872730.0,
+      "pct": -35.6,
       "direction": "down",
-      "effect": "Views fell for a third straight week, shrinking the audience that converts to affiliate sales.",
-      "action": "Refresh hooks on new creatives and repost top-performing angles from the creative brief."
+      "effect": "Views drive the affiliate funnel and have fallen three straight weeks from 1.10M to 0.56M, pulling future demand down with them.",
+      "action": "Prioritize posting by creators whose recent videos earned outsized views per GMV, such as crisp720 and seda11007."
     },
     {
-      "metric": "Samples shipped",
-      "current": 29,
-      "prior": 49,
-      "pct": -40.8,
+      "metric": "Shop Wide campaign ROAS",
+      "current": 0.45,
+      "prior": 0.6,
+      "pct": -25.3,
       "direction": "down",
-      "effect": "Shipped samples declined for a third straight week and are the 2 to 4 week input to creator content output.",
-      "action": "Clear the approval backlog and ship approved samples within the same week to restart the pipeline."
+      "effect": "Shop Wide spent 370.53 to return 165.91 in the week (ROAS 0.45), losing money on every ad dollar.",
+      "action": "Pause Shop Wide and reallocate its budget to Screen Door (1.52 ROAS) and Bidet 7/6 (1.33 ROAS)."
     },
     {
-      "metric": "GMV Max Shop Wide ROAS",
-      "current": 0.4,
-      "prior": 0.582,
-      "pct": -31.3,
+      "metric": "Samples approved",
+      "current": 28.0,
+      "prior": 52.0,
+      "pct": -46.2,
       "direction": "down",
-      "effect": "The campaign spent $369.88 to return $147.92 last week, losing money on every ad dollar at a 0.40 ROAS.",
-      "action": "Pause or restructure Shop Wide and reallocate budget to Screen Door at 1.49 and Bidet 7/6 at 1.33 ROAS."
+      "effect": "Approvals dropped 46% while 136 requests sit in To Review and rejected samples are 56% of decided (92 of 164), starving the shipping pipeline.",
+      "action": "Clear the To Review backlog now, prioritizing applicants with 90%+ post rates to restart shipped and delivered volume."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T11:44:17.925074+00:00",
+  "generated_at": "2026-09-08T07:00:29.083937+00:00",
   "weeks": [
     {
       "total_gmv": 23280.45,
@@ -56,17 +56,17 @@
       "total_gmv": 12506.06,
       "platform_orders": 428,
       "total_units_sold": 454.0,
-      "affiliate_gmv": 10323.65,
-      "live_gmv": 5175.31,
-      "video_views": 500071,
+      "affiliate_gmv": 11253.69,
+      "live_gmv": 5429.77,
+      "video_views": 562385,
       "dms_sent": 16776,
       "tc_invites_sent": 17828,
       "replies": 18,
       "sample_requests": 168,
       "samples_shipped": 29,
       "samples_delivered": 35,
-      "videos_posted": 51,
-      "distinct_creators": 43,
+      "videos_posted": 56,
+      "distinct_creators": 47,
       "_range": "2026-08-31 to 2026-09-06"
     }
   ],
@@ -93,19 +93,19 @@
       21306.86,
       13805.86,
       15297.1,
-      10323.65
+      11253.69
     ],
     "live_gmv": [
       10210.08,
       5956.06,
       7521.18,
-      5175.31
+      5429.77
     ],
     "video_views": [
       1130539.0,
       1098089.0,
       872730.0,
-      500071.0
+      562385.0
     ],
     "dms_sent": [
       12616.0,
@@ -147,30 +147,22 @@
       270.0,
       168.0,
       97.0,
-      51.0
+      56.0
     ],
     "distinct_creators": [
       132.0,
       111.0,
       67.0,
-      43.0
+      47.0
     ]
   },
   "changes": [
     {
       "metric": "videos_posted",
       "label": "Videos posted",
-      "current": 51.0,
+      "current": 56.0,
       "prior": 97.0,
-      "pct": -47.4,
-      "direction": "down"
-    },
-    {
-      "metric": "video_views",
-      "label": "Video views",
-      "current": 500071.0,
-      "prior": 872730.0,
-      "pct": -42.7,
+      "pct": -42.3,
       "direction": "down"
     },
     {
@@ -198,27 +190,19 @@
       "direction": "down"
     },
     {
+      "metric": "video_views",
+      "label": "Video views",
+      "current": 562385.0,
+      "prior": 872730.0,
+      "pct": -35.6,
+      "direction": "down"
+    },
+    {
       "metric": "distinct_creators",
       "label": "Creators posting",
-      "current": 43.0,
+      "current": 47.0,
       "prior": 67.0,
-      "pct": -35.8,
-      "direction": "down"
-    },
-    {
-      "metric": "affiliate_gmv",
-      "label": "Affiliate GMV",
-      "current": 10323.65,
-      "prior": 15297.1,
-      "pct": -32.5,
-      "direction": "down"
-    },
-    {
-      "metric": "live_gmv",
-      "label": "LIVE GMV",
-      "current": 5175.31,
-      "prior": 7521.18,
-      "pct": -31.2,
+      "pct": -29.9,
       "direction": "down"
     },
     {
@@ -227,6 +211,22 @@
       "current": 12506.06,
       "prior": 17385.02,
       "pct": -28.1,
+      "direction": "down"
+    },
+    {
+      "metric": "live_gmv",
+      "label": "LIVE GMV",
+      "current": 5429.77,
+      "prior": 7521.18,
+      "pct": -27.8,
+      "direction": "down"
+    },
+    {
+      "metric": "affiliate_gmv",
+      "label": "Affiliate GMV",
+      "current": 11253.69,
+      "prior": 15297.1,
+      "pct": -26.4,
       "direction": "down"
     },
     {
@@ -277,7 +277,7 @@
       "last_3": [
         1098089.0,
         872730.0,
-        500071.0
+        562385.0
       ],
       "note": "declining three weeks in a row"
     },
@@ -317,7 +317,7 @@
       "last_3": [
         168.0,
         97.0,
-        51.0
+        56.0
       ],
       "note": "declining three weeks in a row"
     },
@@ -327,7 +327,7 @@
       "last_3": [
         111.0,
         67.0,
-        43.0
+        47.0
       ],
       "note": "declining three weeks in a row"
     }
@@ -336,11 +336,11 @@
     "gmv_per_sample_shipped": 431.24,
     "reply_rate_pct": 0.11,
     "videos_per_creator": 1.19,
-    "live_share_of_gmv_pct": 41.4,
-    "affiliate_share_of_gmv_pct": 82.5
+    "live_share_of_gmv_pct": 43.4,
+    "affiliate_share_of_gmv_pct": 90.0
   },
   "freshness": {
-    "pull_age_days": 0.5,
+    "pull_age_days": 0.3,
     "data_through": "2026-09-06"
   },
   "note": "Deterministic signal set from the Cruva REST API. The insights agent interprets these; the numbers are ground truth."
