@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats + /ads/campaigns (in-progress week, live read)",
-    "pulled_at": "2026-09-08T20:43:45.828815+00:00"
+    "pulled_at": "2026-09-08T20:45:46.099212+00:00"
   },
   "week_range": "2026-09-07 to 2026-09-08",
   "values": {
@@ -10,17 +10,17 @@
     "total_units_sold": 71.0,
     "affiliate_gmv": 0.0,
     "commission": 0.0,
-    "videos_posted": 4,
-    "distinct_creators": 2,
+    "videos_posted": 20,
+    "distinct_creators": 16,
     "video_views": 0,
     "live_gmv": 0.0,
-    "dms_sent": 1277,
+    "dms_sent": 1291,
     "sample_requests": 57,
     "samples_approved": 0,
     "lives_posted": 19,
-    "gmv_max_revenue": 958.64,
-    "gmv_max_spend": 632.8,
-    "gmv_max_roas": 1.515
+    "gmv_max_revenue": 1202.55,
+    "gmv_max_spend": 855.4100000000001,
+    "gmv_max_roas": 1.406
   },
   "stale": false,
   "last_error": null
