@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T07:21:46+00:00",
+  "updated_at": "2026-09-09T07:23:25+00:00",
   "items": [
     {
       "metric": "Videos posted",
@@ -7,7 +7,7 @@
       "prior": 97.0,
       "pct": -42.3,
       "direction": "down",
-      "effect": "Videos posted is in a three week run (168, 97, 56) and affiliate content seeds GMV with a 1 to 2 week lag, so coming weeks face more downside.",
+      "effect": "Videos posted is in a three week run (168, 97, 56) and affiliate content seeds GMV with a one to two week lag, so more GMV downside is likely unless posting recovers.",
       "action": "Reactivate dormant top creators such as fortune0420 and sylviaapproved, who posted zero videos last week."
     },
     {
@@ -26,7 +26,7 @@
       "pct": -41.4,
       "direction": "down",
       "effect": "Order count fell faster than GMV, implying fewer buyers rather than smaller baskets.",
-      "action": "Shift ad budget toward the highest converting creatives and the Screen Door campaign (CPA 14.73)."
+      "action": "Shift ad budget toward the highest converting creatives and the Screen Door campaign (cost per order 14.73)."
     },
     {
       "metric": "Video views",
@@ -35,7 +35,7 @@
       "pct": -35.6,
       "direction": "down",
       "effect": "Views drive the affiliate funnel and have fallen three straight weeks from 1.10M to 0.56M, pulling future demand down with them.",
-      "action": "Prioritize posting by creators whose recent videos earned outsized views per GMV, such as crisp720 and seda11007."
+      "action": "Prioritize posting by creators with proven reach such as crisp720 and seda11007 while tightening hooks to convert that reach."
     },
     {
       "metric": "Shop Wide campaign ROAS",
@@ -52,7 +52,7 @@
       "prior": 52.0,
       "pct": -46.2,
       "direction": "down",
-      "effect": "Approvals dropped 46% while 136 requests sit in To Review and rejected samples are 56% of decided (92 of 164), starving the shipping pipeline.",
+      "effect": "Approvals dropped 46% while 159 requests sit in To Review and rejected samples are 57.7% of decided (75 of 130), starving the shipping pipeline.",
       "action": "Clear the To Review backlog now, prioritizing applicants with 90%+ post rates to restart shipped and delivered volume."
     }
   ]
