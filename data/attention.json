@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T07:23:25+00:00",
+  "updated_at": "2026-09-10T07:22:00+00:00",
   "items": [
     {
       "metric": "Videos posted",
@@ -17,7 +17,7 @@
       "pct": -42.1,
       "direction": "down",
       "effect": "Units halved as reach and content contracted together, cutting volume all the way down the funnel.",
-      "action": "Refresh briefs around proven hooks (price drop, 15 minute install, warranty) to lift conversion on the remaining reach."
+      "action": "Refresh briefs around proven hooks (15 minute no-tool install, self-cleaning nozzle, two year warranty) to lift conversion on the remaining reach."
     },
     {
       "metric": "Orders",
@@ -35,25 +35,25 @@
       "pct": -35.6,
       "direction": "down",
       "effect": "Views drive the affiliate funnel and have fallen three straight weeks from 1.10M to 0.56M, pulling future demand down with them.",
-      "action": "Prioritize posting by creators with proven reach such as crisp720 and seda11007 while tightening hooks to convert that reach."
+      "action": "Prioritize posting by creators with proven reach while tightening hooks to convert that reach."
     },
     {
       "metric": "Shop Wide campaign ROAS",
-      "current": 0.45,
+      "current": 0.448,
       "prior": 0.6,
       "pct": -25.3,
       "direction": "down",
-      "effect": "Shop Wide spent 370.53 to return 165.91 in the week (ROAS 0.45), losing money on every ad dollar.",
-      "action": "Pause Shop Wide and reallocate its budget to Screen Door (1.52 ROAS) and Bidet 7/6 (1.33 ROAS)."
+      "effect": "Shop Wide spent 370.53 to return 165.91 in the week, losing money on every ad dollar.",
+      "action": "Pause Shop Wide and reallocate its budget to Screen Door (1.515 ROAS) and Bidet 7/6 (1.332 ROAS)."
     },
     {
-      "metric": "Samples approved",
-      "current": 28.0,
-      "prior": 52.0,
-      "pct": -46.2,
-      "direction": "down",
-      "effect": "Approvals dropped 46% while 159 requests sit in To Review and rejected samples are 57.7% of decided (75 of 130), starving the shipping pipeline.",
-      "action": "Clear the To Review backlog now, prioritizing applicants with 90%+ post rates to restart shipped and delivered volume."
+      "metric": "Sample rejection rate %",
+      "current": 68.1,
+      "prior": 57.7,
+      "pct": 18.0,
+      "direction": "up",
+      "effect": "Rejected samples are 68.1% of decided (196 of 288) and high rejections starve future content supply.",
+      "action": "Review rejection criteria and clear the 45 To Review requests, prioritizing applicants with 90%+ post rates."
     }
   ]
 }
