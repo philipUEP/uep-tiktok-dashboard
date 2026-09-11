@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-09-10T07:22:00+00:00",
+  "updated_at": "2026-09-11T07:21:27+00:00",
   "items": [
     {
       "metric": "Videos posted",
-      "current": 56.0,
-      "prior": 97.0,
+      "current": 56,
+      "prior": 97,
       "pct": -42.3,
       "direction": "down",
       "effect": "Videos posted is in a three week run (168, 97, 56) and affiliate content seeds GMV with a one to two week lag, so more GMV downside is likely unless posting recovers.",
-      "action": "Reactivate dormant top creators such as fortune0420 and sylviaapproved, who posted zero videos last week."
+      "action": "Reactivate dormant top creators fortune0420 and sylviaapproved, who each posted zero videos last week."
     },
     {
       "metric": "Units sold",
-      "current": 454.0,
-      "prior": 784.0,
+      "current": 454,
+      "prior": 784,
       "pct": -42.1,
       "direction": "down",
-      "effect": "Units halved as reach and content contracted together, cutting volume all the way down the funnel.",
-      "action": "Refresh briefs around proven hooks (15 minute no-tool install, self-cleaning nozzle, two year warranty) to lift conversion on the remaining reach."
+      "effect": "Unit volume halved as reach and content contracted together, thinning buying activity at every funnel stage.",
+      "action": "Refresh creator briefs on the proven hooks (15 minute no-tool install, self-cleaning nozzle, two year warranty) to lift conversion on the reach that remains."
     },
     {
       "metric": "Orders",
-      "current": 428.0,
-      "prior": 730.0,
+      "current": 428,
+      "prior": 730,
       "pct": -41.4,
       "direction": "down",
       "effect": "Order count fell faster than GMV, implying fewer buyers rather than smaller baskets.",
-      "action": "Shift ad budget toward the highest converting creatives and the Screen Door campaign (cost per order 14.73)."
+      "action": "Shift ad budget toward the highest converting creatives and the Screen Door campaign (cost per order 14.73) and away from Shop Wide."
     },
     {
       "metric": "Video views",
-      "current": 562385.0,
-      "prior": 872730.0,
+      "current": 562385,
+      "prior": 872730,
       "pct": -35.6,
       "direction": "down",
-      "effect": "Views drive the affiliate funnel and have fallen three straight weeks from 1.10M to 0.56M, pulling future demand down with them.",
-      "action": "Prioritize posting by creators with proven reach while tightening hooks to convert that reach."
+      "effect": "Views have fallen three straight weeks from 1,098,089 to 562,385, pulling affiliate reach and future demand down with them.",
+      "action": "Prioritize posting slots for creators with proven reach while tightening hooks to convert that reach."
     },
     {
       "metric": "Shop Wide campaign ROAS",
@@ -43,17 +43,17 @@
       "prior": 0.6,
       "pct": -25.3,
       "direction": "down",
-      "effect": "Shop Wide spent 370.53 to return 165.91 in the week, losing money on every ad dollar.",
+      "effect": "Shop Wide spent 370.53 to return 165.91 in the week, losing money on every ad dollar and its target is 2.0.",
       "action": "Pause Shop Wide and reallocate its budget to Screen Door (1.515 ROAS) and Bidet 7/6 (1.332 ROAS)."
     },
     {
       "metric": "Sample rejection rate %",
-      "current": 68.1,
+      "current": 66.6,
       "prior": 57.7,
-      "pct": 18.0,
+      "pct": 15.3,
       "direction": "up",
-      "effect": "Rejected samples are 68.1% of decided (196 of 288) and high rejections starve future content supply.",
-      "action": "Review rejection criteria and clear the 45 To Review requests, prioritizing applicants with 90%+ post rates."
+      "effect": "Rejected requests are 191 of 287 decided (To Review 62 excluded) and high rejection starves future content supply.",
+      "action": "Review rejection criteria and clear the 62 To Review requests, prioritizing applicants with 90% or higher post rates."
     }
   ]
 }
