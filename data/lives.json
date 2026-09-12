@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /affiliate/lives/list",
-    "pulled_on": "2026-09-11"
+    "pulled_on": "2026-09-12"
   },
   "periods": {
     "week": {
@@ -638,9 +638,9 @@
       "total_count": 744,
       "truncated": false,
       "totals": {
-        "gmv": 31490.02,
-        "units": 1045,
-        "views": 4270596,
+        "gmv": 31344.66,
+        "units": 1041,
+        "views": 4320164,
         "streams": 744
       },
       "lives": [
@@ -952,9 +952,9 @@
       "total_count": 1316,
       "truncated": true,
       "totals": {
-        "gmv": 48765.42,
-        "units": 1703,
-        "views": 6431484,
+        "gmv": 48618.36,
+        "units": 1699,
+        "views": 6469650,
         "streams": 1000
       },
       "lives": [
@@ -999,7 +999,7 @@
           "title": "Live Flash Sale",
           "gmv": 1103.31,
           "units": 42,
-          "views": 24544,
+          "views": 18408,
           "likes": 2206,
           "comments": 101,
           "duration_min": 193.0,
@@ -1266,9 +1266,9 @@
       "total_count": 1735,
       "truncated": true,
       "totals": {
-        "gmv": 55257.83,
-        "units": 1904,
-        "views": 7127649,
+        "gmv": 55110.77,
+        "units": 1900,
+        "views": 7165815,
         "streams": 1000
       },
       "lives": [
@@ -1313,7 +1313,7 @@
           "title": "Live Flash Sale",
           "gmv": 1103.31,
           "units": 42,
-          "views": 24544,
+          "views": 18408,
           "likes": 2206,
           "comments": 101,
           "duration_min": 193.0,

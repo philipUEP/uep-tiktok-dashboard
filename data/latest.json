@@ -33,19 +33,19 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-09-11",
+    "pulled_on": "2026-09-12",
     "data_through": "2026-09-06",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-09-11. Complete attribution through 2026-09-06."
+    "note": "Pulled from Cruva REST API on 2026-09-12. Complete attribution through 2026-09-06."
   },
   "latest_source_check": {
-    "date": "2026-09-10",
-    "seller_center_gmv": 916.54,
-    "orders": 30,
-    "units": 32,
-    "gmv_max_revenue": 871.33,
-    "gmv_max_spend": 437.12,
-    "gmv_max_roas": 1.9933427891654467,
+    "date": "2026-09-11",
+    "seller_center_gmv": 277.07,
+    "orders": 12,
+    "units": 12,
+    "gmv_max_revenue": 206.92,
+    "gmv_max_spend": 263.08,
+    "gmv_max_roas": 0.7865288125285085,
     "attribution_status": "complete"
   },
   "periods": {
