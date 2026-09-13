@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-09-12T07:21:44+00:00",
+  "updated_at": "2026-09-13T07:21:59Z",
   "items": [
     {
-      "metric": "Videos posted",
-      "current": 56,
-      "prior": 97,
-      "pct": -42.3,
+      "metric": "Samples shipped",
+      "current": 6,
+      "prior": 29,
+      "pct": -79.3,
       "direction": "down",
-      "effect": "Videos posted is in a three week run (168, 97, 56) and creators posting is in the same run (111, 67, 47), which thins affiliate reach that converts with a one to two week lag.",
-      "action": "Refill posting slots by clearing the 63 sample requests sitting in To Review and re-engaging dormant creators fortune0420, sylviaapproved and jaterao92, who each posted zero videos this week."
+      "effect": "Three straight weekly declines in samples shipped (49, 29, 6) with 0 approvals week to date means fewer creators hold product to post in late September.",
+      "action": "Approve the queued To Review requests before their 09-16 and 09-17 expiries, highest post rate first, and clear task 86ajf5edm."
     },
     {
-      "metric": "Units sold",
-      "current": 454,
-      "prior": 784,
-      "pct": -42.1,
+      "metric": "LIVE GMV",
+      "current": 1183.47,
+      "prior": 5429.77,
+      "pct": -78.2,
       "direction": "down",
-      "effect": "Unit volume fell with both content supply and views, so fewer buyers converted at every funnel stage rather than baskets shrinking.",
-      "action": "Refresh creator briefs on the hooks that still rank in creative_brief (15 minute no-tool install, self-cleaning nozzle, price-drop angle) and concentrate spend on the Screen Door campaign at 14.73 cost per order."
+      "effect": "LIVE streams held near prior week at 121, so the loss is stream yield at about 9.78 GMV per stream versus 40.22 before, not stream count.",
+      "action": "Audit the top live accounts (boldvideos7, fortune0420, alldaysteals) before adding new live slots."
     },
     {
-      "metric": "Orders",
-      "current": 428,
-      "prior": 730,
-      "pct": -41.4,
+      "metric": "Affiliate GMV",
+      "current": 3913.18,
+      "prior": 11253.69,
+      "pct": -65.2,
       "direction": "down",
-      "effect": "Orders fell faster than GMV against a 28.37 AOV, confirming demand weakness rather than basket size, on a week that grew DMs 116.6%.",
-      "action": "Stop scaling raw DM volume and reinvest the effort in sample approvals, where the pipeline gate is holding supply back."
+      "effect": "Affiliate supply is 66.6% of GMV and carries a one to two week content lag, so the drop in posting and sampling lands on late September revenue.",
+      "action": "Re-engage creators with 0 videos in the week (fortune0420, sylviaapproved) using the top hooks in creative_brief."
     },
     {
-      "metric": "Video views",
-      "current": 562385,
-      "prior": 872730,
-      "pct": -35.6,
+      "metric": "GMV (week to date)",
+      "current": 5875.18,
+      "prior": 12506.06,
+      "pct": -53.0,
       "direction": "down",
-      "effect": "Views have fallen three straight weeks from 1,098,089 to 562,385 while LIVE GMV also slipped 27.8%, so reach and live yield are contracting together.",
-      "action": "Give posting priority to creators with proven reach and pair them with live slots on the rosalialacayo pattern, which grew 279.6% on 9 streams."
+      "effect": "Fourth weekly bucket in a row lower (17,385.02, 12,506.06, 5,875.18), running at 979.20 GMV per day against 1,786.58 in the completed week.",
+      "action": "Treat sample outflow and posting recovery as the week's priority over further DM volume."
     },
     {
-      "metric": "Campaign Shop Wide ROAS",
+      "metric": "GMV Max Shop Wide ROAS",
       "current": 0.448,
       "prior": 0.6,
       "pct": -25.3,
       "direction": "down",
-      "effect": "Shop Wide spent 370.53 to return 165.91 in the week and loses money on every ad dollar against a 2.0 target, while all four enabled campaigns sit under target.",
-      "action": "Pause Shop Wide and move its budget to Screen Door (1.515 ROAS) and Bidet 7/6 (1.332 ROAS, 65.2% of spend), holding Bidet spend while creatives refresh toward 2.3."
+      "effect": "Shop Wide returns 0.448 against a 2.0 target and 370.53 of spend, so it loses money on every ad dollar while other campaigns sit under target.",
+      "action": "Pause Shop Wide and move its budget to Screen Door at 1.515 ROAS and 14.73 cost per order."
     },
     {
-      "metric": "Sample rejection rate %",
-      "current": 66.3,
-      "prior": 66.6,
-      "pct": -0.5,
+      "metric": "Sample rejection rate",
+      "current": 59.9,
+      "prior": 66.3,
+      "pct": -9.7,
       "direction": "down",
-      "effect": "Rejection remains far above the 50% gate at 191 of 288 non-canceled requests while 63 requests wait in To Review, so the approval step, not creator demand (requests +60%), sets content supply.",
-      "action": "Approve highest post-rate applicants first (dorisurieta82 98.34%, arakenia and h3ath3r80 98.29%) before their 09-13 to 09-16 expiry and revisit the rejection criteria."
+      "effect": "173 of 300 requests are rejected and 76 sit in To Review, so most inbound creator demand is discarded while the queue holds viable applicants.",
+      "action": "Re-screen To Review by post rate and GPM instead of default rejection and set a review SLA under the 09-17 expiry wave."
     }
   ]
 }

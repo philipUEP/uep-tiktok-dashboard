@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-12",
+    "pulled_on": "2026-09-13",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -71,7 +71,7 @@
         {
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "price": 59.99,
+          "price": 73.99,
           "total_gmv": 173.97,
           "share_pct": 1.4,
           "video_gmv": 53.99,
@@ -279,7 +279,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -290,7 +290,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function",
+          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -378,7 +378,7 @@
         },
         {
           "product_id": "1730130868699435227",
-          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion - Stable Support for Tailbone Pain Relief - Ideal for Workplace, Car Interior Use",
+          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion, Supportive Sitting for Tailbone Pain Relief, Ideal for Home Office, Car Interior Use",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -494,7 +494,7 @@
         {
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "price": 59.99,
+          "price": 73.99,
           "total_gmv": 173.97,
           "share_pct": 0.6,
           "video_gmv": 53.99,
@@ -570,7 +570,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 50.93,
           "share_pct": 0.2,
@@ -592,7 +592,7 @@
         },
         {
           "product_id": "1730130868699435227",
-          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion - Stable Support for Tailbone Pain Relief - Ideal for Workplace, Car Interior Use",
+          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion, Supportive Sitting for Tailbone Pain Relief, Ideal for Home Office, Car Interior Use",
           "price": 29.99,
           "total_gmv": 29.99,
           "share_pct": 0.1,
@@ -713,7 +713,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function",
+          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -906,7 +906,7 @@
         {
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "price": 59.99,
+          "price": 73.99,
           "total_gmv": 380.16,
           "share_pct": 0.5,
           "video_gmv": 53.99,
@@ -993,7 +993,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 50.93,
           "share_pct": 0.1,
@@ -1037,7 +1037,7 @@
         },
         {
           "product_id": "1730130868699435227",
-          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion - Stable Support for Tailbone Pain Relief - Ideal for Workplace, Car Interior Use",
+          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion, Supportive Sitting for Tailbone Pain Relief, Ideal for Home Office, Car Interior Use",
           "price": 29.99,
           "total_gmv": 29.99,
           "share_pct": 0.0,
@@ -1158,7 +1158,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function",
+          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1329,7 +1329,7 @@
         {
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "price": 59.99,
+          "price": 73.99,
           "total_gmv": 518.14,
           "share_pct": 0.3,
           "video_gmv": 53.99,
@@ -1482,7 +1482,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 50.93,
           "share_pct": 0.0,
@@ -1526,7 +1526,7 @@
         },
         {
           "product_id": "1730130868699435227",
-          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion - Stable Support for Tailbone Pain Relief - Ideal for Workplace, Car Interior Use",
+          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion, Supportive Sitting for Tailbone Pain Relief, Ideal for Home Office, Car Interior Use",
           "price": 29.99,
           "total_gmv": 29.99,
           "share_pct": 0.0,
@@ -1614,7 +1614,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function",
+          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1785,7 +1785,7 @@
         {
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "price": 59.99,
+          "price": 73.99,
           "total_gmv": 518.14,
           "share_pct": 0.3,
           "video_gmv": 53.99,
@@ -1850,7 +1850,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort | Orthopedic Memory Foam Knee Pillow - Curved Contour Fits Legs, Gentle Support for Knees, Adjustable Strap, Lifetime Replace, Relief for Side Sleepers\u2019 Hip, Back, Sciatica",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 140.06,
           "share_pct": 0.1,
@@ -1993,7 +1993,7 @@
         },
         {
           "product_id": "1730130868699435227",
-          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion - Stable Support for Tailbone Pain Relief - Ideal for Workplace, Car Interior Use",
+          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion, Supportive Sitting for Tailbone Pain Relief, Ideal for Home Office, Car Interior Use",
           "price": 29.99,
           "total_gmv": 29.99,
           "share_pct": 0.0,
@@ -2015,7 +2015,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function",
+          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
           "price": 31.98,
           "total_gmv": 28.78,
           "share_pct": 0.0,
