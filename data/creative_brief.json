@@ -1,25 +1,481 @@
 {
   "_provenance": {
     "source": "Cruva REST API /affiliate/videos/list (AI analysis fields)",
-    "pulled_on": "2026-09-13",
+    "pulled_on": "2026-09-14",
     "sort": "gmv desc"
   },
   "periods": {
     "week": {
-      "range": "2026-08-31 to 2026-09-06",
+      "range": "2026-09-07 to 2026-09-13",
       "videos": [
         {
           "rank": 1,
+          "title": "",
+          "handle": "1373bel",
+          "video_url": "https://tiktok.com/@1373bel/video/7683330512680766733",
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "view_count": 1964,
+          "like_count": 18,
+          "gmv": 73.1,
+          "units_sold": 2,
+          "gmv_per_view": 0.0372,
+          "hooks": [
+            {
+              "hook": "\u12a0\u121a\u122d \u0916\u093e\u0928\u093e \u0917\u0930\u092e\u091a\u0940 \u12a5\u1295\u12b3\u1295 \u12f6\u122e \u1235\u1295\u1325\u120d \u1208\u134d\u134d\u122d\u1245 \u12e8\u121d\u1293\u12cd\u1208\u12cd \u123d\u1295\u12a9\u122d\u1275 \u12a8\u1264\u1273\u127d\u1295 \u12a0\u12ed\u12c8\u1323\u121d \u121d\u1233\u127d\u1295 \u1264\u1271\u1295 \u12a5\u1295\u12f3\u1348\u1290\u12cd \u1290\u12cd \u12e8\u121a\u12ab\u122d\u1218\u12cd\u1362",
+              "score": 8,
+              "explanation": "The speaker immediately hooks the viewer by highlighting a relatable everyday cooking problem: strong onion and food odors lingering in the house."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "\u12cd\u1203\u12cd\u1295 \u12a0\u12f5\u122d\u130b\u127d\u1201 \u121b\u129b\u12cd\u1295\u121d \u12a2\u1234\u1295\u123b\u120d \u12a6\u12ed\u120d \u12a0\u12f5\u122d\u130b\u127d\u1201 \u12a8\u1208\u1229\u1295 \u12a5\u12e8\u1240\u12eb\u12e8\u122b\u127d\u1201 \u1218\u1320\u1240\u121d \u1275\u127d\u120b\u120b\u127d\u1201\u1362",
+              "score": 9,
+              "explanation": "Highlights the ease of use with water and essential oils, plus the adjustable color feature for ambiance."
+            },
+            {
+              "selling_point": "\u121b\u129b\u12cd\u1295\u121d \u12a9\u12ad \u12eb\u12f0\u1228\u130b\u127d\u1201\u1275\u1295 \u123d\u1273 \u1320\u122d\u130d \u12a0\u12f5\u122d\u130e \u1290\u12cd \u12e8\u121a\u12eb\u12c8\u1323\u120b\u127d\u1201\u1362",
+              "score": 9,
+              "explanation": "Emphasizes the core benefit of effectively neutralizing and removing strong cooking odors from the home."
+            }
+          ],
+          "content_overview": "The video starts with a clip of food cooking in a pot, then introduces the Everlasting Comfort humidifier. The creator demonstrates how to fill it, add essential oils, and turn it on with color-changing lights to eliminate strong cooking odors in the kitchen and home.",
+          "on_screen_text": "@1373bel Find similar",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 26,
+          "tone": "casual",
+          "target_audience": "Home cooks, homemakers, and individuals looking to eliminate cooking smells and improve indoor air quality."
+        },
+        {
+          "rank": 2,
+          "title": "I loved using this mesh for my balcony because it kept the bugs out all summer. I was able to keep t",
+          "handle": "itsjodicollins",
+          "video_url": "https://tiktok.com/@itsjodicollins/video/7682812969637498126",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 3534,
+          "like_count": 390,
+          "gmv": 55.97,
+          "units_sold": 3,
+          "gmv_per_view": 0.0158,
+          "hooks": [
+            {
+              "hook": "Hot topic, I bought my very first property when I was thirty-four, this beautiful condo in Brooklyn, New York.",
+              "score": 8,
+              "explanation": "The creator starts with a personal milestone and location reveal, creating curiosity about the property."
+            },
+            {
+              "hook": "If I'm being honest, this beautiful accordion door is one of the top five reasons why I fell in love.",
+              "score": 7,
+              "explanation": "Highlights a unique and desirable apartment feature that draws the viewer in."
+            }
+          ],
+          "selling_points": [],
+          "content_overview": "A creator shares her new condo in Brooklyn and explains why she loves the accordion balcony doors, followed by setting up a magnetic door screen to keep bugs out after moving in.",
+          "on_screen_text": "TikTok @itsjodicollins",
+          "product_visible_3s": false,
+          "product_screen_time_seconds": 32,
+          "tone": "casual",
+          "target_audience": "Apartment owners, home renovators, and people looking for practical home improvement solutions."
+        },
+        {
+          "rank": 3,
+          "title": "#magneticdoorscreen #doorscreen #screendoor #fyp ",
+          "handle": "icu185",
+          "video_url": "https://tiktok.com/@icu185/video/7683016023418653983",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 2260,
+          "like_count": 7,
+          "gmv": 47.71,
+          "units_sold": 3,
+          "gmv_per_view": 0.0211,
+          "hooks": [
+            {
+              "hook": "No drills, no hassle, just snap and go.",
+              "score": 9,
+              "explanation": "Instantly highlights the ease of installation, addressing the biggest pain point of traditional screen doors."
+            },
+            {
+              "hook": "Self-closing every single time.",
+              "score": 8,
+              "explanation": "Focuses on convenience and functionality, appealing to busy households."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Fifty-two full magnets keep bugs out, air flow in.",
+              "score": 10,
+              "explanation": "Clearly states the core functional benefit of keeping pests out while maintaining ventilation."
+            },
+            {
+              "selling_point": "Pet and kid proof, perfect for every home.",
+              "score": 9,
+              "explanation": "Broadens the appeal by highlighting durability and safety for families with children and pets."
+            }
+          ],
+          "content_overview": "A man demonstrates the installation and features of a magnetic mesh screen door. The video highlights its drill-free setup, self-closing magnetic seal, and pet-friendly design.",
+          "on_screen_text": "TikTok @icu185",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 11,
+          "tone": "casual",
+          "target_audience": "Homeowners, renters, parents, and pet owners looking for an easy-to-install insect screen for their doors."
+        },
+        {
+          "rank": 4,
+          "title": "Makes sitting more comfy #mvc55 #seatcushion #seatcushions #upperechelon @UPPER ECHELON PRODUCTS ",
+          "handle": "dave_mvc55",
+          "video_url": "https://tiktok.com/@dave_mvc55/video/7682566058460384543",
+          "product_id": "1729394250782118107",
+          "product_name": "Everlasting Comfort Doctor-Recommended Memory Foam Seat Cushion - HSA FSA Eligible, Sciatica & Back Support, Supportive Sitting, Good Posture, Cushioned Furniture Accessories, Work Hacks, Cervical & Spinal Support Furniture Accessories (Office & Car Use),",
+          "view_count": 785,
+          "like_count": 8,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [
+            {
+              "hook": "When you're sitting on this, it helps relieve that back pain, helps use your sciatica.",
+              "score": 8,
+              "explanation": "Directly addresses a common pain point (back pain and sciatica) right at the beginning of the video."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "This is a doctor recommended 100% memory foam seat cushion, designed to give you good posture, help your back, give it support.",
+              "score": 9,
+              "explanation": "Highlights authority (doctor recommended), material quality (100% memory foam), and primary health benefits (posture and back support)."
+            }
+          ],
+          "content_overview": "A man sits inside a car and demonstrates an Everlasting Comfort memory foam seat cushion, explaining its benefits for back pain, sciatica, and posture while recommending it for both car and office use.",
+          "on_screen_text": "TikTok @dave_mvc55",
+          "product_visible_3s": false,
+          "product_screen_time_seconds": 15,
+          "tone": "casual",
+          "target_audience": "Adults experiencing back pain or sciatica who spend significant time sitting in cars or offices."
+        },
+        {
+          "rank": 5,
+          "title": "#magneticscreendoor #lifetimewarranty ",
+          "handle": "motivatedandmessy",
+          "video_url": "https://tiktok.com/@motivatedandmessy/video/7682587474861853982",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 506,
+          "like_count": 1,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [
+            {
+              "hook": "TikTok !! Do not make this mistake !!",
+              "score": 8,
+              "explanation": "Creates a strong sense of urgency and curiosity by warning viewers against making a mistake."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "The ones that are actually quality are going to have this lifetime replacement",
+              "score": 8,
+              "explanation": "Highlights product durability and warranty value compared to cheap alternatives."
+            }
+          ],
+          "content_overview": "A creator addresses a comment about cheap magnetic screen doors, explaining why paying more for quality fiberglass options with a lifetime replacement is necessary, especially with kids in the house.",
+          "on_screen_text": "TikTok !! do not make this mistake !! @motivatedandmessy UPGRADED FIBERGLASS MAGNETIC SCREEN DOOR",
+          "product_visible_3s": false,
+          "product_screen_time_seconds": 50,
+          "tone": "casual",
+          "target_audience": "Homeowners, parents, and budget-conscious shoppers looking for durable home improvement items."
+        },
+        {
+          "rank": 6,
+          "title": "#tiktokshop ",
+          "handle": "pemily.vsp",
+          "video_url": "https://tiktok.com/@pemily.vsp/video/7682601311581359374",
+          "product_id": "1729385884864975067",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+          "view_count": 63,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 7,
+          "title": "Everlasting Comfort | ELEVATE SERIES Doctor-Recommended Memory Foam Seat and Back Cushions - Ergonom",
+          "handle": "miremorales99",
+          "video_url": "https://tiktok.com/@miremorales99/video/7682636041810988318",
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "view_count": 18,
+          "like_count": 5,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 8,
+          "title": "Everlasting Comfort | ELEVATE SERIES Doctor-Recommended Memory Foam Seat and Back Cushions - Ergonom",
+          "handle": "miremorales99",
+          "video_url": "https://tiktok.com/@miremorales99/video/7682636582884494622",
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "view_count": 18,
+          "like_count": 2,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 9,
+          "title": "Everlasting Comfort | ELEVATE SERIES Doctor-Recommended Memory Foam Seat and Back Cushions - Ergonom",
+          "handle": "miremorales99",
+          "video_url": "https://tiktok.com/@miremorales99/video/7682637102831373598",
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "view_count": 18,
+          "like_count": 2,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 10,
+          "title": "Clean booties all around \ud83d\ude02\ud83d\ude02 ",
+          "handle": "igotmyhandsfull",
+          "video_url": "https://tiktok.com/@igotmyhandsfull/video/7682788429503008030",
+          "product_id": "1729385884864975067",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+          "view_count": 151,
+          "like_count": 2,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 11,
+          "title": "#Everlasting Comfort | ELEVATE #SERIES Doctor-#Recommended #Memory Foam Seat and Back Cushions - #Er",
+          "handle": "ishakaf",
+          "video_url": "https://tiktok.com/@ishakaf/video/7682812773100817694",
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "view_count": 375,
+          "like_count": 7,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 12,
+          "title": "#paratiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii #fyppppppppppppppppppppppp #vino #decantadordevino #tiktokshop",
+          "handle": "latutilamarque",
+          "video_url": "https://tiktok.com/@latutilamarque/video/7682818116979674398",
+          "product_id": "1729385884834369755",
+          "product_name": "Le Chateau Lead-Free Glass Wine Decanter - Hand Blown, 2.2 lbs, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Elevator, Fits 750ml Standard Size Bottles, Ideal Gift for Grandparents Adults Any Occasion",
+          "view_count": 392,
+          "like_count": 14,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 13,
+          "title": "Everlasting Comfort | ELEVATE SERIES Doctor-Recommended Memory Foam Seat and Back Cushions - Ergonom",
+          "handle": "reshma_binay",
+          "video_url": "https://tiktok.com/@reshma_binay/video/7682837219551317262",
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "view_count": 43,
+          "like_count": 5,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 14,
+          "title": "#home #halloween #creatorsearchinsights #fyp #tiktokshop ",
+          "handle": "manecarrillo7",
+          "video_url": "https://tiktok.com/@manecarrillo7/video/7682841116990901535",
+          "product_id": "1729385884864975067",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+          "view_count": 485,
+          "like_count": 9,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [
+            {
+              "hook": "\u00bfHas hecho cuentas de cu\u00e1nto dinero gastas al a\u00f1o en papel de ba\u00f1o?",
+              "score": 9,
+              "explanation": "Starts with a relatable financial question about everyday household expenses to grab viewer attention immediately."
+            },
+            {
+              "hook": "No tienes que hacerlo nunca m\u00e1s porque no vas a gastar.",
+              "score": 8,
+              "explanation": "Makes a bold money-saving claim that encourages viewers to watch for the solution."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Simplemente activas el bid\u00e9 en tu ba\u00f1o, en tu toilet, y vas a ser suficiente para dejar de gastar tanto dinero en papel de ba\u00f1o.",
+              "score": 9,
+              "explanation": "Directly highlights the primary cost-saving benefit of replacing toilet paper usage with a bidet."
+            },
+            {
+              "selling_point": "No ocupas ning\u00fan profesional para que lo instale ya que lo puedes hacer t\u00fa mismo con solamente unas pinzas y esto es suficiente.",
+              "score": 8,
+              "explanation": "Emphasizes easy DIY installation without needing to hire a plumber."
+            }
+          ],
+          "content_overview": "A man in a home setting speaks directly to the camera while holding a bidet attachment and its installation kit. He explains how using a bidet eliminates the need to spend money on toilet paper and demonstrates that it is easy to install without professional help.",
+          "on_screen_text": "\u00bfHas hecho cuentas de cu\u00e1nto dinero gastas al a\u00f1o en papel de ba\u00f1o? No tienes que hacerlo nunca m\u00e1s porque no vas a gastar simplemente activas el bid\u00e9 en tu ba\u00f1o en tu toilet y vas a ser suficiente para gastar tanto dinero en papel de ba\u00f1o. Y tu carrito del kit completo no ocupas ning\u00fan profesional para que lo instale ya que lo puedes hacer t\u00fa mismo con solamente unas pinzas y esto es suficiente. Neta, es la manguera al tubo del agua de la pared y luego el bid\u00e9 y es suficiente. No ocupa nada m\u00e1s. Todo el kit completo con los pip...",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 32,
+          "tone": "casual",
+          "target_audience": "Homeowners and budget-conscious individuals looking to save money on household expenses like toilet paper."
+        },
+        {
+          "rank": 15,
+          "title": "#seatcushion #comfort #memoryfoam #homefinds #amazonfinds ",
+          "handle": "kendaa28",
+          "video_url": "https://tiktok.com/@kendaa28/video/7682886410772204813",
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "view_count": 180,
+          "like_count": 3,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        }
+      ],
+      "total_found": 65,
+      "has_more": true
+    },
+    "14d": {
+      "range": "2026-08-31 to 2026-09-13",
+      "videos": [
+        {
+          "rank": 1,
+          "title": "",
+          "handle": "1373bel",
+          "video_url": "https://tiktok.com/@1373bel/video/7683330512680766733",
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "view_count": 1964,
+          "like_count": 18,
+          "gmv": 73.1,
+          "units_sold": 2,
+          "gmv_per_view": 0.0372,
+          "hooks": [
+            {
+              "hook": "\u12a0\u121a\u122d \u0916\u093e\u0928\u093e \u0917\u0930\u092e\u091a\u0940 \u12a5\u1295\u12b3\u1295 \u12f6\u122e \u1235\u1295\u1325\u120d \u1208\u134d\u134d\u122d\u1245 \u12e8\u121d\u1293\u12cd\u1208\u12cd \u123d\u1295\u12a9\u122d\u1275 \u12a8\u1264\u1273\u127d\u1295 \u12a0\u12ed\u12c8\u1323\u121d \u121d\u1233\u127d\u1295 \u1264\u1271\u1295 \u12a5\u1295\u12f3\u1348\u1290\u12cd \u1290\u12cd \u12e8\u121a\u12ab\u122d\u1218\u12cd\u1362",
+              "score": 8,
+              "explanation": "The speaker immediately hooks the viewer by highlighting a relatable everyday cooking problem: strong onion and food odors lingering in the house."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "\u12cd\u1203\u12cd\u1295 \u12a0\u12f5\u122d\u130b\u127d\u1201 \u121b\u129b\u12cd\u1295\u121d \u12a2\u1234\u1295\u123b\u120d \u12a6\u12ed\u120d \u12a0\u12f5\u122d\u130b\u127d\u1201 \u12a8\u1208\u1229\u1295 \u12a5\u12e8\u1240\u12eb\u12e8\u122b\u127d\u1201 \u1218\u1320\u1240\u121d \u1275\u127d\u120b\u120b\u127d\u1201\u1362",
+              "score": 9,
+              "explanation": "Highlights the ease of use with water and essential oils, plus the adjustable color feature for ambiance."
+            },
+            {
+              "selling_point": "\u121b\u129b\u12cd\u1295\u121d \u12a9\u12ad \u12eb\u12f0\u1228\u130b\u127d\u1201\u1275\u1295 \u123d\u1273 \u1320\u122d\u130d \u12a0\u12f5\u122d\u130e \u1290\u12cd \u12e8\u121a\u12eb\u12c8\u1323\u120b\u127d\u1201\u1362",
+              "score": 9,
+              "explanation": "Emphasizes the core benefit of effectively neutralizing and removing strong cooking odors from the home."
+            }
+          ],
+          "content_overview": "The video starts with a clip of food cooking in a pot, then introduces the Everlasting Comfort humidifier. The creator demonstrates how to fill it, add essential oils, and turn it on with color-changing lights to eliminate strong cooking odors in the kitchen and home.",
+          "on_screen_text": "@1373bel Find similar",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 26,
+          "tone": "casual",
+          "target_audience": "Home cooks, homemakers, and individuals looking to eliminate cooking smells and improve indoor air quality."
+        },
+        {
+          "rank": 2,
           "title": "#clearrearbidetattachment #bidettoilet #bidets ",
           "handle": "crisp720",
           "video_url": "https://tiktok.com/@crisp720/video/7681112989516221710",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 10636,
+          "view_count": 10709,
           "like_count": 19,
-          "gmv": 30.59,
-          "units_sold": 1,
-          "gmv_per_view": 0.0029,
+          "gmv": 60.33,
+          "units_sold": 2,
+          "gmv_per_view": 0.0056,
           "hooks": [
             {
               "hook": "Pues el precio de este bidet trasero ha bajado de nuevo.",
@@ -52,17 +508,92 @@
           "target_audience": "Homeowners or renters looking for an affordable, easy-to-install bathroom upgrade."
         },
         {
-          "rank": 2,
+          "rank": 3,
+          "title": "I loved using this mesh for my balcony because it kept the bugs out all summer. I was able to keep t",
+          "handle": "itsjodicollins",
+          "video_url": "https://tiktok.com/@itsjodicollins/video/7682812969637498126",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 3534,
+          "like_count": 390,
+          "gmv": 55.97,
+          "units_sold": 3,
+          "gmv_per_view": 0.0158,
+          "hooks": [
+            {
+              "hook": "Hot topic, I bought my very first property when I was thirty-four, this beautiful condo in Brooklyn, New York.",
+              "score": 8,
+              "explanation": "The creator starts with a personal milestone and location reveal, creating curiosity about the property."
+            },
+            {
+              "hook": "If I'm being honest, this beautiful accordion door is one of the top five reasons why I fell in love.",
+              "score": 7,
+              "explanation": "Highlights a unique and desirable apartment feature that draws the viewer in."
+            }
+          ],
+          "selling_points": [],
+          "content_overview": "A creator shares her new condo in Brooklyn and explains why she loves the accordion balcony doors, followed by setting up a magnetic door screen to keep bugs out after moving in.",
+          "on_screen_text": "TikTok @itsjodicollins",
+          "product_visible_3s": false,
+          "product_screen_time_seconds": 32,
+          "tone": "casual",
+          "target_audience": "Apartment owners, home renovators, and people looking for practical home improvement solutions."
+        },
+        {
+          "rank": 4,
+          "title": "#magneticdoorscreen #doorscreen #screendoor #fyp ",
+          "handle": "icu185",
+          "video_url": "https://tiktok.com/@icu185/video/7683016023418653983",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 2260,
+          "like_count": 7,
+          "gmv": 47.71,
+          "units_sold": 3,
+          "gmv_per_view": 0.0211,
+          "hooks": [
+            {
+              "hook": "No drills, no hassle, just snap and go.",
+              "score": 9,
+              "explanation": "Instantly highlights the ease of installation, addressing the biggest pain point of traditional screen doors."
+            },
+            {
+              "hook": "Self-closing every single time.",
+              "score": 8,
+              "explanation": "Focuses on convenience and functionality, appealing to busy households."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Fifty-two full magnets keep bugs out, air flow in.",
+              "score": 10,
+              "explanation": "Clearly states the core functional benefit of keeping pests out while maintaining ventilation."
+            },
+            {
+              "selling_point": "Pet and kid proof, perfect for every home.",
+              "score": 9,
+              "explanation": "Broadens the appeal by highlighting durability and safety for families with children and pets."
+            }
+          ],
+          "content_overview": "A man demonstrates the installation and features of a magnetic mesh screen door. The video highlights its drill-free setup, self-closing magnetic seal, and pet-friendly design.",
+          "on_screen_text": "TikTok @icu185",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 11,
+          "tone": "casual",
+          "target_audience": "Homeowners, renters, parents, and pet owners looking for an easy-to-install insect screen for their doors."
+        },
+        {
+          "rank": 5,
           "title": "Easy to install bidet from @UPPER ECHELON PRODUCTS #shopsonlineinticktock #tiktockinspiredfindsforwo",
           "handle": "theevergreeneditco",
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7680207743843667231",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 1228,
+          "view_count": 1250,
           "like_count": 2,
           "gmv": 22.99,
           "units_sold": 1,
-          "gmv_per_view": 0.0187,
+          "gmv_per_view": 0.0184,
           "hooks": [
             {
               "hook": "Stop scrolling because you need this product now.",
@@ -90,17 +621,17 @@
           "target_audience": "Homeowners and renters looking for an easy-to-install, affordable bidet attachment to improve bathroom hygiene."
         },
         {
-          "rank": 3,
+          "rank": 6,
           "title": "@UPPER ECHELON PRODUCTS bidet is the easiest bathroom upgrade\u203c\ufe0f#tiktockinspiredfindsforwomen #shoppi",
           "handle": "theevergreeneditco",
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7680970861939133727",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 791,
+          "view_count": 796,
           "like_count": 4,
           "gmv": 19.99,
           "units_sold": 1,
-          "gmv_per_view": 0.0253,
+          "gmv_per_view": 0.0251,
           "hooks": [
             {
               "hook": "Not to be dramatic, but this bidet has changed my whole entire bathroom experience.",
@@ -133,17 +664,17 @@
           "target_audience": "Homeowners or renters looking for an easy, affordable bathroom upgrade to improve hygiene."
         },
         {
-          "rank": 4,
+          "rank": 7,
           "title": "If your husband treats the bathroom like his second home, you might as well upgrade it. \ud83d\ude02\ud83d\udebd Adjustabl",
           "handle": "courtney_gonzales19",
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7680980721606970638",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 1524,
+          "view_count": 1534,
           "like_count": 16,
           "gmv": 19.05,
           "units_sold": 1,
-          "gmv_per_view": 0.0125,
+          "gmv_per_view": 0.0124,
           "hooks": [
             {
               "hook": "Ladies, if your husband spends most of his time sitting right here, then this is what you need to get him for Christmas.",
@@ -171,14 +702,14 @@
           "target_audience": "Shoppers looking for practical household gifts or bathroom upgrades."
         },
         {
-          "rank": 5,
+          "rank": 8,
           "title": "#bathroommakeover #cleanbathroom #tiktokshopbacktoschool #trending #wash ",
           "handle": "seda11007",
           "video_url": "https://tiktok.com/@seda11007/video/7679704560251718925",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 11849,
-          "like_count": 107,
+          "view_count": 12034,
+          "like_count": 109,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
@@ -209,7 +740,7 @@
           "target_audience": "Homeowners and renters looking for bathroom upgrades, improved hygiene, and bidet attachments."
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "#bidet #cleantok #summerwins #tiktokshopcreatorpicks @UPPER ECHELON PRODUCTS ",
           "handle": "b.fox508",
           "video_url": "https://tiktok.com/@b.fox508/video/7679817198206078221",
@@ -230,13 +761,13 @@
           "target_audience": null
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "M\u00e1s higiene y comodidad en tu ba\u00f1o \ud83d\udebd\u2728 F\u00e1cil de instalar, sin electricidad y con presi\u00f3n de agua ajus",
           "handle": "lilibet.an",
           "video_url": "https://tiktok.com/@lilibet.an/video/7679978941238594830",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 883,
+          "view_count": 887,
           "like_count": 14,
           "gmv": 0.0,
           "units_sold": 0,
@@ -268,13 +799,13 @@
           "target_audience": "Homeowners and renters looking to upgrade their bathroom hygiene with an affordable, easy-to-install bidet attachment."
         },
         {
-          "rank": 8,
+          "rank": 11,
           "title": "#everlastingcomfort ",
           "handle": "mmaylynnlove",
           "video_url": "https://tiktok.com/@mmaylynnlove/video/7679991357447867678",
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "view_count": 387,
+          "view_count": 390,
           "like_count": 2,
           "gmv": 0.0,
           "units_sold": 0,
@@ -289,10 +820,10 @@
           "target_audience": null
         },
         {
-          "rank": 9,
+          "rank": 12,
           "title": "Instalaci\u00f3n sencilla y el cambio en el ba\u00f1o se nota enseguida. #bidet #bidettoilet #higiene #tiktoks",
-          "handle": "alyscubanita.com",
-          "video_url": "https://tiktok.com/@alyscubanita.com/video/7680018783930453279",
+          "handle": "lalydavalos",
+          "video_url": "https://tiktok.com/@lalydavalos/video/7680018783930453279",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "view_count": 436,
@@ -310,13 +841,13 @@
           "target_audience": null
         },
         {
-          "rank": 10,
+          "rank": 13,
           "title": "Automatic Magnetic closing & No flies in the garage \ud83e\udeb0",
           "handle": "_kaila_jean",
           "video_url": "https://tiktok.com/@_kaila_jean/video/7680034537979645215",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 607,
+          "view_count": 608,
           "like_count": 6,
           "gmv": 0.0,
           "units_sold": 0,
@@ -331,7 +862,7 @@
           "target_audience": null
         },
         {
-          "rank": 11,
+          "rank": 14,
           "title": "Everlasting Comfort | ELEVATE #haitiantiktok #haitiantiktok\ud83c\udded\ud83c\uddf9 #Haiti ",
           "handle": "prosnerjean",
           "video_url": "https://tiktok.com/@prosnerjean/video/7680261994888383775",
@@ -352,7 +883,7 @@
           "target_audience": null
         },
         {
-          "rank": 12,
+          "rank": 15,
           "title": "If you sit down a lot , get yourself a cushion that\u2019s going to support your lumbar and back!! #memor",
           "handle": "daniel_finds",
           "video_url": "https://tiktok.com/@daniel_finds/video/7680293977844632845",
@@ -371,825 +902,26 @@
           "product_screen_time_seconds": null,
           "tone": null,
           "target_audience": null
-        },
-        {
-          "rank": 13,
-          "title": "Respuesta a @\ud835\udc03\ud835\udc1a\ud835\udc32\ud835\udc1a \ud835\udc15\ud835\udc22\ud835\udc1b\ud835\udc1e\ud835\udc2c | \ud835\udc12\ud835\udc21\u2661\ud835\udc29 #bidet #bidettoilet #inodoro #ba\u00f1o #mejoras ",
-          "handle": "dany.reyes97_",
-          "video_url": "https://tiktok.com/@dany.reyes97_/video/7680315303795952909",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 232,
-          "like_count": 7,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 14,
-          "title": "Long hours at my desk feel so much better with a little extra support \ud83c\udf51\ud83d\ude4c  The memory foam + U-shaped",
-          "handle": "cicigiginana",
-          "video_url": "https://tiktok.com/@cicigiginana/video/7680411201716702495",
-          "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "view_count": 108,
-          "like_count": 11,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 15,
-          "title": "#malla  #magnetica ",
-          "handle": "letyfloresleal",
-          "video_url": "https://tiktok.com/@letyfloresleal/video/7680421186500594974",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 488,
-          "like_count": 1,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [
-            {
-              "hook": "Miren, pues esta silla es, esta malla magn\u00e9tica, pues nos amasan f\u00e1cilmente.",
-              "score": 6,
-              "explanation": "Introduces a problem-solving household item right away, though phrasing is slightly colloquial."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Esta es para que no entren los mosquitos mientras dejan la puerta abierta",
-              "score": 8,
-              "explanation": "Directly highlights the main practical benefit of keeping bugs out while enjoying an open door."
-            },
-            {
-              "selling_point": "Traen como im\u00e1n y rapidito se cierra solo",
-              "score": 9,
-              "explanation": "Emphasizes the convenient self-closing magnetic feature."
-            },
-            {
-              "selling_point": "Es una malla fina equipada con fibra de vidrio para que se bloquee eficazmente a los insectos peque\u00f1os y mantiene el flujo de aire",
-              "score": 8,
-              "explanation": "Provides material details and functional reassurance regarding airflow and fine mesh."
-            }
-          ],
-          "content_overview": "A person reviews and demonstrates a magnetic door screen mesh in their home, showing how it opens easily, automatically snaps shut with magnets, and keeps bugs out while letting air through. They highlight its usefulness for the upcoming cooler weather and point viewers to the shopping cart link.",
-          "on_screen_text": "malla magn\u00e9tica deja la puerta abierta y no se meten las moscas mosquitos",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 54,
-          "tone": "casual",
-          "target_audience": "Homeowners, parents, and apartment dwellers looking for a practical, drill-free way to keep insects out of their living spaces."
         }
       ],
-      "total_found": 47,
-      "has_more": true
-    },
-    "14d": {
-      "range": "2026-08-24 to 2026-09-06",
-      "videos": [
-        {
-          "rank": 1,
-          "title": "Por eso los chinos est\u00e1n 20 anos adelantados\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping",
-          "handle": "viralshopdealz",
-          "video_url": "https://tiktok.com/@viralshopdealz/video/7678725393917971742",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 94841,
-          "like_count": 2394,
-          "gmv": 131.88,
-          "units_sold": 4,
-          "gmv_per_view": 0.0014,
-          "hooks": [
-            {
-              "hook": "As\u00ed queda tu cola despu\u00e9s de cagar y deja de usar papel de ba\u00f1o para limpiarte",
-              "score": 9,
-              "explanation": "The speaker immediately addresses a universal habit, creating a strong curiosity gap and questioning the viewer's personal hygiene practices."
-            }
-          ],
-          "selling_points": [],
-          "content_overview": "A man demonstrates on a paved outdoor surface using chalk and dirt how toilet paper fails to properly clean, explaining that it only spreads residue and causes odor. He warns against using wet wipes as well due to plumbing issues, setting up the problem that a bidet attachment solves.",
-          "on_screen_text": "Te has limpiado mal toda tu vida, Cagar, Papel, Limpiarte, De, Espartir, Part\u00edculas, Tienes, Cola, Se, Malos, Eso, Apesta, Tuber\u00edas",
-          "product_visible_3s": false,
-          "product_screen_time_seconds": 4,
-          "tone": "educational",
-          "target_audience": "Adults looking to improve their bathroom hygiene and toilet paper usage habits."
-        },
-        {
-          "rank": 2,
-          "title": "Flux Phenom Magnetic Screen Door 38 x 82 in, Magnetic Mesh Screen Door, Automatic Self-Closing Bug S",
-          "handle": "yolilucas123tiktokshop",
-          "video_url": "https://tiktok.com/@yolilucas123tiktokshop/video/7677806839886646542",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 5117,
-          "like_count": 13,
-          "gmv": 100.82,
-          "units_sold": 6,
-          "gmv_per_view": 0.0197,
-          "hooks": [
-            {
-              "hook": "Hasta de 12 se est\u00e1n llevando la mallita que se coloca en la puerta",
-              "score": 8,
-              "explanation": "Creates social proof and urgency by stating high demand."
-            },
-            {
-              "hook": "Para que las moscas ni zancudos entran para tu casa",
-              "score": 8,
-              "explanation": "Addresses a universal pest problem directly."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Aqu\u00ed ya te trae todo lo necesario para que t\u00fa nada m\u00e1s lo instales en la puerta de tu casa",
-              "score": 9,
-              "explanation": "Highlights ease of installation and completeness of the kit."
-            },
-            {
-              "selling_point": "Aqu\u00ed abajito las encuentras con un precio bien econ\u00f3mico",
-              "score": 8,
-              "explanation": "Emphasizes affordability and availability on the platform."
-            }
-          ],
-          "content_overview": "A woman holding a magnetic screen door and its installation kit explains its benefits for keeping bugs out of the house. She highlights the ease of installation, affordable price, and encourages viewers to order one.",
-          "on_screen_text": "yoliilucas123tiktokshop, Buscar similares, UPGRADED FIBERGLASS MAGNETIC SCREEN DOOR 38\"X82\" INSTALLATION WITH POWERFUL MAGNETS",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 22,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an affordable, easy-to-install solution to keep bugs and mosquitoes out of their homes."
-        },
-        {
-          "rank": 3,
-          "title": "it says 3 day delivery but came next day, i couldn\u2019t wait for this to comeee\ud83e\udd23\ud83e\udd23 #bidet #bathroom #bou",
-          "handle": "togivethanks",
-          "video_url": "https://tiktok.com/@togivethanks/video/7679264296446037278",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 250,
-          "like_count": 4,
-          "gmv": 49.6,
-          "units_sold": 1,
-          "gmv_per_view": 0.1984,
-          "hooks": [
-            {
-              "hook": "I'm going to save so much money on toilet paper with this today.",
-              "score": 8,
-              "explanation": "Presents a strong financial benefit and practical reason to buy immediately."
-            },
-            {
-              "hook": "I finally got a bidet, and I am so excited to put this on.",
-              "score": 6,
-              "explanation": "Creates anticipation and relatable enthusiasm for unboxing a new home product."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "I love that you can adjust the water pressure and where you want it to clean.",
-              "score": 8,
-              "explanation": "Highlights customizable comfort features like water pressure and dual washing controls."
-            }
-          ],
-          "content_overview": "The creator unboxes and reviews the Clear Rear bidet attachment, expressing excitement about saving money on toilet paper and highlighting adjustable water pressure features before preparing to install it.",
-          "on_screen_text": "THOUGHTFULLY DESIGNED IN AUSTIN, TEXAS, Clear Rear Is The Premium Answer, Clear Rear is the Premium Answer, Includes Self Cleaning Bidet Nozzle Standard Wash + Feminine Wash Control Adjustable Water Pressure Install Kit + Hardware Easy to Follow Directions 2 Year Warranty, SKU: BUTT-W2, Easily hooks up to your water supply!",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 11,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking to upgrade their bathroom experience, save money on toilet paper, and improve personal hygiene."
-        },
-        {
-          "rank": 4,
-          "title": "Easy to install bidet adds a quick upgrade to your bathroom\u203c\ufe0f#tiktockshopbacktoschool #tiktockinspir",
-          "handle": "theevergreeneditco",
-          "video_url": "https://tiktok.com/@theevergreeneditco/video/7679856707505360159",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 932,
-          "like_count": 4,
-          "gmv": 43.49,
-          "units_sold": 1,
-          "gmv_per_view": 0.0467,
-          "hooks": [
-            {
-              "hook": "Don't be sad you can still get this bidet.",
-              "score": 7,
-              "explanation": "The creator starts by addressing potential fear of missing out on a popular item, immediately grabbing viewer attention."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "I love this because it has a self-cleaning bidet nozzle, standard wash and feminine wash control, adjustable water pressure, and install kit and hardware.",
-              "score": 8,
-              "explanation": "Highlights key product features and included hardware that make the bidet attractive to buyers."
-            },
-            {
-              "selling_point": "This is easy to install, about 15 minutes or less.",
-              "score": 9,
-              "explanation": "Addresses a major pain point for home installation products by promising a quick and easy setup time."
-            }
-          ],
-          "content_overview": "A creator presents and reviews a bidet attachment, highlighting its features, ease of installation, and availability in the linked shopping cart.",
-          "on_screen_text": "@theevergreeneditco",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 30,
-          "tone": "casual",
-          "target_audience": "Homeowners or renters looking for an easy-to-install bidet attachment for their bathroom."
-        },
-        {
-          "rank": 5,
-          "title": "@UPPER ECHELON PRODUCTS bidet-easy to install\u203c\ufe0f#tiktocksellingproduct #tiktockinspiredfindsforwomen ",
-          "handle": "theevergreeneditco",
-          "video_url": "https://tiktok.com/@theevergreeneditco/video/7677990063635959071",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 1388,
-          "like_count": 7,
-          "gmv": 33.81,
-          "units_sold": 2,
-          "gmv_per_view": 0.0244,
-          "hooks": [
-            {
-              "hook": "Don't be sad, you can still get this bidet.",
-              "score": 8,
-              "explanation": "Creates immediate engagement by addressing potential scarcity or FOMO about the product selling out."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "This is a quick and easy installation.",
-              "score": 9,
-              "explanation": "Addresses a major pain point for buyers who worry about difficult setup processes."
-            },
-            {
-              "selling_point": "People are really loving all of the different features and how easy it is again to install.",
-              "score": 8,
-              "explanation": "Social proof and multiple features drive consumer trust and purchase intent."
-            }
-          ],
-          "content_overview": "A creator addresses her followers while holding up a bidet attachment and its installation accessories in a car. She encourages viewers to purchase the remaining stock via the TikTok shop cart link, highlighting its easy installation and popular features.",
-          "on_screen_text": "Don't be sad! TikTok @theevergreeneditco @theevergreeneditco Say no more! How to GO with ClearRear",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 21,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an easy-to-install bidet attachment to improve bathroom hygiene."
-        },
-        {
-          "rank": 6,
-          "title": "I switched to a bidet and I\u2019ll never go back \ud83d\ude04\ud83d\udebd Feeling so much fresher! #bidettoilet#bidettok#tikto",
-          "handle": "fitlatina15",
-          "video_url": "https://tiktok.com/@fitlatina15/video/7679552780146691342",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 1323,
-          "like_count": 4,
-          "gmv": 31.49,
-          "units_sold": 1,
-          "gmv_per_view": 0.0238,
-          "hooks": [
-            {
-              "hook": "If you like your bathroom routine leaving you feeling fresh and clean, you need to see this.",
-              "score": 8,
-              "explanation": "Directly addresses a common hygiene goal and builds curiosity about a solution."
-            },
-            {
-              "hook": "I was just spending money on wipes, and honestly I wanted something easier, so I switched to this bidet attachment.",
-              "score": 7,
-              "explanation": "Identifies a relatable pain point (wipes expense) and offers a straightforward alternative."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "It gave you a fresh water wash, has adjustable water pressure, and it was surprisingly easy to install.",
-              "score": 9,
-              "explanation": "Highlights key product features like fresh water, pressure control, and easy installation."
-            },
-            {
-              "selling_point": "Now I don't have to keep buying wipes, I love how fresh and clean I feel after using the bathroom.",
-              "score": 8,
-              "explanation": "Emphasizes long-term cost savings on wipes and the superior clean feeling."
-            }
-          ],
-          "content_overview": "The video demonstrates a bidet attachment installed on a toilet, showcasing its water pressure and cleaning features. The creator explains how switching from wipes to this bidet saves money and provides a better clean. Finally, the creator mentions that the product is linked below for interested viewers.",
-          "on_screen_text": "YOU\nROUTINE\nFRESH\nCLEAN\nON\nHONESTLY\nI\nSTARTED\nSOMETHING\nEASIER\nWATER\nPRESSURE\nSURPRISINGLY\nINSTALL\nWIPES",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 25,
-          "tone": "casual",
-          "target_audience": "Adults looking to upgrade their bathroom hygiene routine, save money on flushable wipes, and find an easy-to-install bidet attachment."
-        },
-        {
-          "rank": 7,
-          "title": "#clearrearbidetattachment #bidettoilet #bidets ",
-          "handle": "crisp720",
-          "video_url": "https://tiktok.com/@crisp720/video/7681112989516221710",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 10636,
-          "like_count": 19,
-          "gmv": 30.59,
-          "units_sold": 1,
-          "gmv_per_view": 0.0029,
-          "hooks": [
-            {
-              "hook": "Pues el precio de este bidet trasero ha bajado de nuevo.",
-              "score": 8,
-              "explanation": "Grabs attention immediately by highlighting a price drop on a popular product."
-            },
-            {
-              "hook": "No puedo creer que el precio se haya bajado de nuevo.",
-              "score": 7,
-              "explanation": "Creates curiosity and excitement about an unbelievable discount."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Es un bidet no el\u00e9ctrico que se instala en unos 15 minutos y se adapta a la mayor\u00eda de los inodoros.",
-              "score": 9,
-              "explanation": "Highlights ease of installation, compatibility, and lack of electrical requirements."
-            },
-            {
-              "selling_point": "El precio de este bidet trasero ha bajado de nuevo.",
-              "score": 8,
-              "explanation": "Emphasizes affordability and great value for money due to a price drop."
-            }
-          ],
-          "content_overview": "The video demonstrates a bidet attachment installed on a toilet while a voiceover discusses its discounted price, easy installation, and compatibility with most toilets. It concludes with a call to action to click the link to purchase.",
-          "on_screen_text": "@crisp720",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 16,
-          "tone": "casual",
-          "target_audience": "Homeowners or renters looking for an affordable, easy-to-install bathroom upgrade."
-        },
-        {
-          "rank": 8,
-          "title": "#magneticscreendoor #screendoor #magnetic #homerssentials #homegadgets ",
-          "handle": "maskman..2",
-          "video_url": "https://tiktok.com/@maskman..2/video/7677805485835226398",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 4123,
-          "like_count": 9,
-          "gmv": 28.78,
-          "units_sold": 2,
-          "gmv_per_view": 0.007,
-          "hooks": [
-            {
-              "hook": "Eh main ek magnetic screen door order kita si.",
-              "score": 7,
-              "explanation": "The speaker introduces a direct product purchase right at the beginning, immediately signaling an unboxing or review format."
-            },
-            {
-              "hook": "Ke main tuhanu la ke vi install karke ehdi video bana ke dikhaunga.",
-              "score": 8,
-              "explanation": "Promises a practical demonstration of installation and use, which keeps viewers interested to see the final result."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Te ehde nal hi sara installation layi jo bhi kuch chahida ye sara kuch nal hi anda.",
-              "score": 8,
-              "explanation": "Highlights that all necessary installation accessories are included in the package, making it convenient for the buyer."
-            }
-          ],
-          "content_overview": "A creator presents a package containing an upgraded magnetic screen door, showcasing the box and stating that they will install it and demonstrate how it works in the video. The video highlights the included installation accessories and mentions checking the link for sizing options.",
-          "on_screen_text": "Magnetic screen door, UPGRADED MAGNETIC SCREEN DOOR, 38\"x82\", EASY INSTALLATION, POWERFUL MAGNETS, Flux Phenom, @maskman..2, ORDER NOW",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 21,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an easy-to-install magnetic screen door for their garage or patio."
-        },
-        {
-          "rank": 9,
-          "title": "Mosquitera magn\u00e9tica para puerta Flux Phenom (38 x 82 pulgadas) de UPPER ECHELON PRODUCTS. Malla pro",
-          "handle": "milypalma62",
-          "video_url": "https://tiktok.com/@milypalma62/video/7677952511029808414",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 1872,
-          "like_count": 9,
-          "gmv": 28.57,
-          "units_sold": 2,
-          "gmv_per_view": 0.0153,
-          "hooks": [
-            {
-              "hook": "Deja entrar el aire fresco a tu hogar sin preocuparte por los mosquitos ni insectos.",
-              "score": 9,
-              "explanation": "Immediately addresses a common household problem (fresh air vs. Bugs) to capture viewer interest."
-            },
-            {
-              "hook": "Esta mosquitera magn\u00e9tica para puerta se abre f\u00e1cil y se cierra sola de forma autom\u00e1tica gracias a sus potentes imanes.",
-              "score": 8,
-              "explanation": "Highlights the main convenience feature of the product right away."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Se abre f\u00e1cil y se cierra sola de forma autom\u00e1tica gracias a sus potentes imanes.",
-              "score": 9,
-              "explanation": "Emphasizes automated hands-free closing via strong magnets for maximum convenience."
-            },
-            {
-              "selling_point": "Es ideal para ni\u00f1os y mascotas.",
-              "score": 8,
-              "explanation": "Shows the product is versatile and safe for families with kids and pets."
-            }
-          ],
-          "content_overview": "The video introduces an upgraded fiberglass magnetic screen door. It showcases the packaging, accessories like tape and pins, and explains its benefits such as keeping bugs out while allowing fresh air in. The narrator highlights its automatic closing magnets and child-friendly/pet-friendly design.",
-          "on_screen_text": "LIFETIME REPLACEMENT WARRANTY Upgraded Fiberglass Magnetic Screen Door 38\"x82\" Easy Installation Powerful Magnets Flux Phenom @milypalma62 WARNING: To avoid danger of suffocation, keep this plastic bag away from babies and children. Do not use this bag in cribs, beds, carriages, or play pens. Scan with your camera app about Transparency app Transparency details: For Premium Fiberglass Screen Door Item: New Size: Upgraded Fiberglass Screen Door - 38 x 82 - Black, With Push Pins Made in China",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 19,
-          "tone": "casual",
-          "target_audience": "Homeowners, parents, and pet owners looking for an easy way to keep bugs out of their homes while enjoying fresh air."
-        },
-        {
-          "rank": 10,
-          "title": "Por eso los chinos est\u00e1n 20 a\u00f1os m\u00e1s adelantados que nosotros\u2026 #bidettoilet #bidet #upperechelonprod",
-          "handle": "viralshopdealz",
-          "video_url": "https://tiktok.com/@viralshopdealz/video/7677986963319786782",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 16063,
-          "like_count": 73,
-          "gmv": 27.3,
-          "units_sold": 2,
-          "gmv_per_view": 0.0017,
-          "hooks": [
-            {
-              "hook": "Esto es tu cola despu\u00e9s de cagar y tienes que dejar de usar papel de ba\u00f1o.",
-              "score": 9,
-              "explanation": "The hook immediately grabs attention with a shocking and humorous visual demonstration of why toilet paper is ineffective."
-            }
-          ],
-          "selling_points": [],
-          "content_overview": "A person uses a dirt mound drawn on concrete with chalk to simulate fecal matter and toilet cleaning challenges. They demonstrate how toilet paper only smears mess and leaves residue, illustrating the need to switch from traditional paper wiping.",
-          "on_screen_text": "Te haz limpiado mal toda tu vida... Tu cola! Tienes de limpiarte lo est\u00e1 peor pelos limpia las se cola horrible como 2 aparte entre",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 2,
-          "tone": "humorous",
-          "target_audience": "Adults interested in bathroom hygiene improvements and bidet alternatives."
-        },
-        {
-          "rank": 11,
-          "title": "OFFICIAL Clear Rear UItra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Clea",
-          "handle": "debloke02",
-          "video_url": "https://tiktok.com/@debloke02/video/7678304876824218911",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 153,
-          "like_count": 3,
-          "gmv": 27.15,
-          "units_sold": 1,
-          "gmv_per_view": 0.1775,
-          "hooks": [
-            {
-              "hook": "Guys, teknoloji a pa avanse f\u00f2k nou avanse av\u00e8 l tou.",
-              "score": 7,
-              "explanation": "The speaker opens by urging the audience to keep up with modern technology, immediately capturing curiosity about the new device."
-            },
-            {
-              "hook": "Sa li l\u00e8n Clean Buddha, se TikTok shop ki ban mwen l",
-              "score": 6,
-              "explanation": "Introducing the specific product and mentioning TikTok Shop adds immediate context and credibility for social commerce shoppers."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Ou pral mete l nan twal\u00e8t, l\u00e8 w fin twal\u00e8t, li voye dlo nan d\u00e8y\u00e8 w, nan egzateman nan fant d\u00e8y\u00e8 w, li lave d\u00e8y\u00e8 w pou ou.",
-              "score": 9,
-              "explanation": "Clearly explains the primary hygienic benefit and automated functionality of the bidet attachment."
-            },
-            {
-              "selling_point": "W ap menm bezwen b\u00f2s pou enstale l, w ap enstale a f\u00f2k ou nan twal\u00e8t la",
-              "score": 8,
-              "explanation": "Highlights the easy, no-professional-help-needed installation process."
-            },
-            {
-              "selling_point": "W ap f\u00e8 ekonomi papye",
-              "score": 8,
-              "explanation": "Emphasizes cost savings on toilet paper, a strong economic selling point for buyers."
-            }
-          ],
-          "content_overview": "A male creator introduces and reviews the Clean Buddha bidet attachment in Haitian Creole. He demonstrates the product out of the box, explains its cleaning features, dual water temperatures, and ease of installation, while highlighting how it helps save money on toilet paper.",
-          "on_screen_text": "This easy-install toilet attachment, Dramatically improves bathroom hygiene, SIMPLE 15-minute set-up, Quickly attaches to existing water line, Designed to fit, No special skills or tools required, Customizable water pressure",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 65,
-          "tone": "casual",
-          "target_audience": "Homeowners, renters, and TikTok shoppers looking for an affordable, easy-to-install bidet attachment to improve bathroom hygiene and save on toilet paper."
-        },
-        {
-          "rank": 12,
-          "title": "@UPPER ECHELON PRODUCTS bidet\u203c\ufe0f#reviewingtiktockshopproducts #shopsonlineinticktock #randomthingstha",
-          "handle": "theevergreeneditco",
-          "video_url": "https://tiktok.com/@theevergreeneditco/video/7678791831819160863",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 1283,
-          "like_count": 3,
-          "gmv": 25.69,
-          "units_sold": 1,
-          "gmv_per_view": 0.02,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 13,
-          "title": "Easy to install bidet from @UPPER ECHELON PRODUCTS #shopsonlineinticktock #tiktockinspiredfindsforwo",
-          "handle": "theevergreeneditco",
-          "video_url": "https://tiktok.com/@theevergreeneditco/video/7680207743843667231",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 1228,
-          "like_count": 2,
-          "gmv": 22.99,
-          "units_sold": 1,
-          "gmv_per_view": 0.0187,
-          "hooks": [
-            {
-              "hook": "Stop scrolling because you need this product now.",
-              "score": 8,
-              "explanation": "Directly commands the viewer's attention and creates urgency with a direct address."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "This installs in 15 minutes or less, this has a self-cleaning nozzle, a feminine wash mode.",
-              "score": 9,
-              "explanation": "Highlights ease of installation and key hygienic features like self-cleaning and feminine wash."
-            },
-            {
-              "selling_point": "It also comes with easy-to-install hardware kit and a two-year warranty.",
-              "score": 8,
-              "explanation": "Builds trust and reduces purchase friction by mentioning included hardware and warranty."
-            }
-          ],
-          "content_overview": "A creator sits in a car and showcases the Ultra-Slim Bidet Attachment, highlighting its quick installation time, self-cleaning nozzles, and feminine wash mode. She explains that it comes with a hardware kit and a two-year warranty while directing viewers to the TikTok shop cart.",
-          "on_screen_text": "You need this bidet",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 41,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an easy-to-install, affordable bidet attachment to improve bathroom hygiene."
-        },
-        {
-          "rank": 14,
-          "title": "Con esta malla ya las moscas no se meten a mi casa #moscas #cortina #atrapamoscas #tiktokshopbacktos",
-          "handle": "keniaher.77",
-          "video_url": "https://tiktok.com/@keniaher.77/video/7678492957384690958",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 4060,
-          "like_count": 23,
-          "gmv": 22.7,
-          "units_sold": 2,
-          "gmv_per_view": 0.0056,
-          "hooks": [
-            {
-              "hook": "No vas a creer el precio que tiene ahorita la malla atrapamoscas.",
-              "score": 8,
-              "explanation": "The speaker creates immediate curiosity about the product's price and value."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Esta que yo tengo dice heavy duty, as\u00ed para que no te vayas a equivocar.",
-              "score": 8,
-              "explanation": "Highlights the heavy-duty durable material quality of the screen."
-            },
-            {
-              "selling_point": "Aparte de que se pega de aqu\u00ed, tambi\u00e9n trae estos clavitos para que quede bien reforzada",
-              "score": 9,
-              "explanation": "Demonstrates the secure installation features including adhesive and reinforcement pins."
-            }
-          ],
-          "content_overview": "A woman demonstrates a magnetic door screen, showing its heavy-duty material, easy installation with pins and adhesive, and how it automatically closes behind her when she walks through.",
-          "on_screen_text": "@zeniaher.77 HOME",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 29,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an effective, easy-to-install solution to keep flies and insects out of their homes."
-        },
-        {
-          "rank": 15,
-          "title": "Te haz estado limpiando mal toda tu vida\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping ",
-          "handle": "viralshopdealz",
-          "video_url": "https://tiktok.com/@viralshopdealz/video/7678365548677238047",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 9725,
-          "like_count": 38,
-          "gmv": 22.04,
-          "units_sold": 1,
-          "gmv_per_view": 0.0023,
-          "hooks": [
-            {
-              "hook": "Esta es tu cola despu\u00e9s de cagare, tiene que dejar dos toneladas de papel para limpiarte",
-              "score": 8,
-              "explanation": "The creator starts with a provocative and humorous hook about hygiene and toilet paper usage that immediately grabs attention."
-            }
-          ],
-          "selling_points": [],
-          "content_overview": "A creator uses a chalk drawing of buttocks on the ground covered in dirt and hair to demonstrate how toilet paper and wet wipes fail to clean properly, arguing that alternative hygiene methods (like bidets used by Chinese people) are far superior.",
-          "on_screen_text": "Por eso los Chinos est\u00e1n 20 a\u00f1os adelantados... Tu cola! Y papel limpiarte Pelos Queda part\u00edculas apesta usamos h\u00famedas como cual todas se",
-          "product_visible_3s": false,
-          "product_screen_time_seconds": 0,
-          "tone": "humorous",
-          "target_audience": "Adults looking for better personal hygiene solutions or frustrated with traditional toilet paper use."
-        }
-      ],
-      "total_found": 144,
+      "total_found": 121,
       "has_more": true
     },
     "month": {
-      "range": "2026-08-08 to 2026-09-06",
+      "range": "2026-08-15 to 2026-09-13",
       "videos": [
         {
           "rank": 1,
-          "title": "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
-          "handle": "sylviaapproved",
-          "video_url": "https://tiktok.com/@sylviaapproved/video/7672846600267468062",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 205280,
-          "like_count": 940,
-          "gmv": 2154.02,
-          "units_sold": 141,
-          "gmv_per_view": 0.0105,
-          "hooks": [
-            {
-              "hook": "Now you gotta know that this one here is not the one that costs you $5 $10 at a grocery store.",
-              "score": 8,
-              "explanation": "Contrasts the product against cheaper alternatives immediately to capture attention."
-            },
-            {
-              "hook": "This here is a heavy-duty mesh.",
-              "score": 7,
-              "explanation": "Highlights key durability benefit right away."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "This here is a heavy-duty mesh. As soon as your dogs or your cats scratch it or your kids go through that, it's not falling off.",
-              "score": 9,
-              "explanation": "Emphasizes durability against pets and kids compared to cheap store alternatives."
-            },
-            {
-              "selling_point": "As soon as you walk out, it closes immediately.",
-              "score": 8,
-              "explanation": "Highlights the automatic self-closing feature."
-            },
-            {
-              "selling_point": "Comes with everything you need to install the door, the very strong heavy-duty Velcro tape... And push pins.",
-              "score": 7,
-              "explanation": "Describes complete installation kit with strong adhesive and push pins."
-            }
-          ],
-          "content_overview": "A woman stands in a doorway demonstrating a heavy-duty magnetic screen door, explaining how it differs from cheap grocery store versions by resisting pet scratches and closing automatically. She shows the included heavy-duty Velcro and push pins, demonstrating how to secure and use the door.",
-          "on_screen_text": "NOW YOU GOTTA KNOW THAT THIS ONE HERE IS NOT THE ONE THAT COSTS YOU 5, 10 DOLLARS AT A GROCERY STORE, NOW, THOSE WILL FALL OFF AS SOON AS YOU WALK THROUGH THAT SCREEN DOOR, THIS HERE IS A HEAVY DUTY MESH, AS SOON AS YOUR DOGS OR CATS SCRATCH IT OR YOUR KIDS GO THROUGH THAT, IT'S NOT FALLING OFF, SOON AS YOU WALK OUT IT CLOSES IMMEDIATELY, COMES WITH EVERYTHING YOU NEED INSTALL THE DOOR, THE VERY STRONG HEAVY DUTY VELCRO TAPE THAT YOU'RE GOING TO TAPE THE DOOR TO, COMES WITH THESE PUSH PINS THAT YOU CAN PLACE IN EVERY CORNER FOR WHATEVER REASON YOU NEED TO KEEP IT OPEN BECAUSE YOU NEED TO BRING GROCERIES AND OR SOMETHING.",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 41,
-          "tone": "casual",
-          "target_audience": "Homeowners, pet owners, and parents looking for durable, easy-to-install bug screen doors."
-        },
-        {
-          "rank": 2,
-          "title": "",
-          "handle": "courtney_gonzales19",
-          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 26698,
-          "like_count": 56,
-          "gmv": 751.16,
-          "units_sold": 61,
-          "gmv_per_view": 0.0281,
-          "hooks": [
-            {
-              "hook": "They dropped the price even lower.",
-              "score": 8,
-              "explanation": "Instantly grabs attention by highlighting an incredible deal and price drop on a popular item."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "This magnetic screen door was already on a massive discount, but now it's even lower.",
-              "score": 9,
-              "explanation": "Emphasizes exceptional value and affordability, driving viewer purchase intent."
-            },
-            {
-              "selling_point": "You can see it's super heavy-duty, super thick mesh.",
-              "score": 8,
-              "explanation": "Demonstrates high product quality and durability visually and verbally."
-            },
-            {
-              "selling_point": "I didn't need any tools, and it's held together seamlessly by 52 magnets and it's weighted.",
-              "score": 9,
-              "explanation": "Highlights ease of installation and clever product features without complicated setup."
-            }
-          ],
-          "content_overview": "A creator reviews a magnetic screen door while showcasing its heavy-duty mesh, ease of installation without tools, and its current heavily discounted price. The video highlights product durability, 52 sealing magnets, and weighted bottom features.",
-          "on_screen_text": "They dropped the price AGAIN",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 21,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an easy-to-install, durable magnetic screen door on a budget."
-        },
-        {
-          "rank": 3,
-          "title": "Bidet",
-          "handle": "favoritefavoritefind",
-          "video_url": "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 27292,
-          "like_count": 64,
-          "gmv": 640.57,
-          "units_sold": 26,
-          "gmv_per_view": 0.0235,
-          "hooks": [
-            {
-              "hook": "This is the bidet that you've been looking for.",
-              "score": 8,
-              "explanation": "Directly addresses a specific product desire and creates an immediate need."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "You can attach it right here to your toilet and you can be like the Japanese and have a clean rear.",
-              "score": 9,
-              "explanation": "Promises the benefit of a Japanese-style clean wash easily installed on standard toilets."
-            }
-          ],
-          "content_overview": "A creator enthusiastically holds up the box for the Clear Rear Grand Duke Number Two bidet. He explains how easy it is to attach to a toilet for a Japanese-style cleaning experience and encourages viewers to purchase from the cart.",
-          "on_screen_text": "ClearRear, @favoritefavoritefind, Japanese bidet at home",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 16,
-          "tone": "casual",
-          "target_audience": "Homeowners or renters looking for an easy-to-install bidet attachment to improve bathroom hygiene."
-        },
-        {
-          "rank": 4,
-          "title": "",
-          "handle": "theevergreeneditco",
-          "video_url": "https://tiktok.com/@theevergreeneditco/video/7673494617085693214",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 13182,
-          "like_count": 30,
-          "gmv": 458.26,
-          "units_sold": 22,
-          "gmv_per_view": 0.0348,
-          "hooks": [
-            {
-              "hook": "You will regret not getting this bidet attachment for your toilet.",
-              "score": 8,
-              "explanation": "The hook uses loss aversion ('you will regret') to immediately grab viewer attention and build curiosity about the product."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "This has a dual spray, self-clean, and installs in just under fifteen minutes.",
-              "score": 9,
-              "explanation": "Highlights key functional benefits and ease of installation that appeal directly to everyday home consumers."
-            }
-          ],
-          "content_overview": "A creator holds up and showcases a bidet attachment while discussing its features, discount price, and quick installation time. She addresses the viewer directly to encourage a purchase.",
-          "on_screen_text": "Easy to install bidet!!",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 15,
-          "tone": "casual",
-          "target_audience": "Homeowners, renters, and shoppers looking for affordable, easy-to-install bathroom upgrades and hygiene products."
-        },
-        {
-          "rank": 5,
           "title": "@UPPER ECHELON PRODUCTS bidet is the easiest way to upgrade your bathroom\u203c\ufe0f#tiktockshopbacktoschool ",
           "handle": "theevergreeneditco",
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7677230038281964830",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 3633,
+          "view_count": 3675,
           "like_count": 11,
           "gmv": 268.07,
           "units_sold": 11,
-          "gmv_per_view": 0.0738,
+          "gmv_per_view": 0.0729,
           "hooks": [
             {
               "hook": "This is my top selling product on TikTok Shop right now, and there is a reason why.",
@@ -1222,17 +954,17 @@
           "target_audience": "TikTok shoppers looking for easy home and bathroom upgrades."
         },
         {
-          "rank": 6,
+          "rank": 2,
           "title": "The only bidet i use #ClearRear #Bidet  ",
           "handle": "aroc_finesse",
           "video_url": "https://tiktok.com/@aroc_finesse/video/7674461738112175391",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 40172,
+          "view_count": 40258,
           "like_count": 330,
           "gmv": 211.27,
           "units_sold": 9,
-          "gmv_per_view": 0.0053,
+          "gmv_per_view": 0.0052,
           "hooks": [
             {
               "hook": "I'm in America for the World Cup. One thing that's so weird is American has poop paper that they wipe all over their booty cracks.",
@@ -1270,103 +1002,17 @@
           "target_audience": "Adult consumers looking for improved bathroom hygiene solutions, eco-friendly alternatives to toilet paper, or easy-to-install bidet attachments."
         },
         {
-          "rank": 7,
-          "title": "No es lo mismo!!! #puertamagnetica #screendoor #tiktokshopholidayhaul #fall #parati ",
-          "handle": "sylviaapproved",
-          "video_url": "https://tiktok.com/@sylviaapproved/video/7672862005375634719",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 14629,
-          "like_count": 28,
-          "gmv": 186.2,
-          "units_sold": 10,
-          "gmv_per_view": 0.0127,
-          "hooks": [
-            {
-              "hook": "Si vas a comprar una de estas puertas por 5 10 d\u00f3lares en otra tienda, est\u00e1 bien",
-              "score": 8,
-              "explanation": "The creator immediately addresses common viewer skepticism about cheap alternatives, capturing attention."
-            },
-            {
-              "hook": "No quiero que se est\u00e9n quejando en mis comentarios que se caen, que se rompen",
-              "score": 7,
-              "explanation": "Addressing potential negative feedback upfront builds honesty and hooks viewers curious about durability."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Aunque la jales, aunque perros la rasgu\u00f1en, no se va a romper",
-              "score": 9,
-              "explanation": "Highlights exceptional durability against pets and rough usage, addressing a major pain point."
-            },
-            {
-              "selling_point": "Al momento de salir de la casa se cierra inmediatamente",
-              "score": 8,
-              "explanation": "Emphasizes the automatic self-closing feature for convenience and bug prevention."
-            },
-            {
-              "selling_point": "Viene con todo lo que ocupas para instalar la puerta",
-              "score": 7,
-              "explanation": "Assures the buyer that installation is complete and straightforward with included accessories."
-            }
-          ],
-          "content_overview": "A content creator reviews a durable magnetic screen door, contrasting it with cheaper versions that easily break. She demonstrates its strength, self-closing feature, and ease of installation while speaking directly to the camera. The video concludes with a recommendation to invest in quality and points viewers to the orange cart.",
-          "on_screen_text": "@sylviaaaxoxoo",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 28,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for durable, pet-friendly insect screen doors that are easy to install."
-        },
-        {
-          "rank": 8,
-          "title": "",
-          "handle": "dave_mvc55",
-          "video_url": "https://tiktok.com/@dave_mvc55/video/7672141590567128350",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 15969,
-          "like_count": 33,
-          "gmv": 160.59,
-          "units_sold": 13,
-          "gmv_per_view": 0.0101,
-          "hooks": [
-            {
-              "hook": "All the way down the inside of this, there are 52 magnets.",
-              "score": 8,
-              "explanation": "Piques curiosity immediately by highlighting a specific, high-count feature of the product."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "This is a magnetic screen door that allows you to not have to worry about the kids or the dogs needing to open and close the door.",
-              "score": 9,
-              "explanation": "Clearly addresses a common household pain point regarding convenience and pets/children."
-            },
-            {
-              "selling_point": "This thing closes on its own.",
-              "score": 9,
-              "explanation": "Highlights the main automated benefit of the screen door."
-            }
-          ],
-          "content_overview": "A creator demonstrates a magnetic screen door, highlighting its 52 magnets, self-closing feature, and ease of use for kids and pets. He showcases how it fits standard doorways and can be installed with tacks or velcro.",
-          "on_screen_text": "@dave_mvc55",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 19,
-          "tone": "casual",
-          "target_audience": "Homeowners, parents, and pet owners looking for a convenient, hands-free screen door solution."
-        },
-        {
-          "rank": 9,
+          "rank": 3,
           "title": "Por eso los chinos est\u00e1n 20 anos adelantados\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping",
           "handle": "viralshopdealz",
           "video_url": "https://tiktok.com/@viralshopdealz/video/7678725393917971742",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 94841,
-          "like_count": 2394,
+          "view_count": 101099,
+          "like_count": 2490,
           "gmv": 131.88,
           "units_sold": 4,
-          "gmv_per_view": 0.0014,
+          "gmv_per_view": 0.0013,
           "hooks": [
             {
               "hook": "As\u00ed queda tu cola despu\u00e9s de cagar y deja de usar papel de ba\u00f1o para limpiarte",
@@ -1383,98 +1029,17 @@
           "target_audience": "Adults looking to improve their bathroom hygiene and toilet paper usage habits."
         },
         {
-          "rank": 10,
-          "title": "",
-          "handle": "courtney_gonzales19",
-          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7672072004081601806",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 4650,
-          "like_count": 26,
-          "gmv": 104.95,
-          "units_sold": 5,
-          "gmv_per_view": 0.0226,
-          "hooks": [
-            {
-              "hook": "Ladies, let's talk about being on your period.",
-              "score": 8,
-              "explanation": "Directly addresses a specific demographic with a relatable topic, immediately capturing attention."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Using a bunch of this in comparison to actually rinsing off is so much more better.",
-              "score": 8,
-              "explanation": "Highlights the superior hygiene benefit of a bidet compared to traditional toilet paper."
-            },
-            {
-              "selling_point": "You can adjust the spray level to be whatever you're comfortable with.",
-              "score": 7,
-              "explanation": "Emphasizes customizable comfort and usability."
-            },
-            {
-              "selling_point": "It has a self-cleaning nozzle.",
-              "score": 8,
-              "explanation": "Reassures users about cleanliness and ease of maintenance."
-            }
-          ],
-          "content_overview": "The video creator discusses the benefits of using a bidet attachment during menstruation compared to toilet paper. She demonstrates the adjustable water pressure settings and the self-cleaning nozzle feature on the toilet. Finally, she mentions that the product is currently available at a discount via the linked button.",
-          "on_screen_text": "This hits DIFFERENT when you're on your period. TikTok @courtney_gonzales19",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 26,
-          "tone": "casual",
-          "target_audience": "Women and individuals who menstruate looking for improved personal hygiene and comfort during their period."
-        },
-        {
-          "rank": 11,
-          "title": "",
-          "handle": "sylviaapproved",
-          "video_url": "https://tiktok.com/@sylviaapproved/video/7672459687866027294",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 12953,
-          "like_count": 51,
-          "gmv": 104.02,
-          "units_sold": 7,
-          "gmv_per_view": 0.008,
-          "hooks": [
-            {
-              "hook": "Me hace tan chistoso que la gente dice no cierra bien, se cae, se rompe.",
-              "score": 8,
-              "explanation": "Starts by addressing common complaints or skepticism directly, creating curiosity about how the product solves these issues."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Esta que miras aqu\u00ed es de muy buena calidad.",
-              "score": 9,
-              "explanation": "Highlights the superior build quality and durability compared to cheaper alternatives."
-            },
-            {
-              "selling_point": "Est\u00e1 pegado con cinta de velcro que est\u00e1 demasiado fuerte y viene con esos clavitos.",
-              "score": 8,
-              "explanation": "Emphasizes secure and sturdy installation method using heavy-duty velcro and nails."
-            }
-          ],
-          "content_overview": "A creator addresses negative misconceptions about magnetic screen doors by defending the high quality, durability, and secure installation of her own screen door. She demonstrates how well it holds up against kids and pets compared to cheap alternatives.",
-          "on_screen_text": "SE ME HACE TAN CHISTOSO QUE LA GENTE DICE NO CIERRA BIEN, SE CAE, SE ROMPE. SE CAE, \u00bfDE D\u00d3NDE? POR FAVOR, MU\u00c9STRENME DE D\u00d3NDE. Y TAL VEZ ME DEJAS TU OPINI\u00d3N PORQUE COMPRASTE UNA DE ESTAS PUERTAS QUE TE COSTARON 5, 10, $8 EN OTRA TIENDA. D\u00c9JAME TE DIGO QUE EST\u00c1 AQU\u00cd NO ES COMO ESA. ESTA QUE MIRAS AQU\u00cd ES DE MUY BUENA CALIDAD. NO SE VA A ROMPER NO SE VA A CAER AL SIGUIENTE D\u00cdA, AUNQUE NI\u00d1OS SALGAN Y ENTRAN Y AUNQUE LE RASQUEN, LE PIQUEN. NO SE VA A ROMPER AL SIGUIENTE NI A LA SEMANA NI AL MES. TE VA A DURAR DEMASIADO TIEMPO ESTO LO QUE VEN AQU\u00cd EST\u00c1 PEGADO CON CINTA DE VELCRO, EST\u00c1 DEMASIADO FUERTE VIENE CON ESOS CLAVITOS, SE LO PUEDES PONER EN CADA",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 44,
-          "tone": "casual",
-          "target_audience": "Homeowners, parents, and pet owners looking for a durable and reliable magnetic screen door."
-        },
-        {
-          "rank": 12,
+          "rank": 4,
           "title": "Flux Phenom Magnetic Screen Door 38 x 82 in, Magnetic Mesh Screen Door, Automatic Self-Closing Bug S",
           "handle": "yolilucas123tiktokshop",
           "video_url": "https://tiktok.com/@yolilucas123tiktokshop/video/7677806839886646542",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 5117,
+          "view_count": 5154,
           "like_count": 13,
           "gmv": 100.82,
           "units_sold": 6,
-          "gmv_per_view": 0.0197,
+          "gmv_per_view": 0.0196,
           "hooks": [
             {
               "hook": "Hasta de 12 se est\u00e1n llevando la mallita que se coloca en la puerta",
@@ -1507,14 +1072,14 @@
           "target_audience": "Homeowners and renters looking for an affordable, easy-to-install solution to keep bugs and mosquitoes out of their homes."
         },
         {
-          "rank": 13,
+          "rank": 5,
           "title": "Para que ya no te huela mal\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping ",
           "handle": "viralshopdealz",
           "video_url": "https://tiktok.com/@viralshopdealz/video/7676254915894775070",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 218215,
-          "like_count": 1716,
+          "view_count": 218424,
+          "like_count": 1717,
           "gmv": 87.23,
           "units_sold": 3,
           "gmv_per_view": 0.0004,
@@ -1545,107 +1110,415 @@
           "target_audience": "General adult audience interested in personal hygiene, home improvements, and bathroom upgrades."
         },
         {
-          "rank": 14,
-          "title": "@UPPER ECHELON PRODUCTS bidet\u203c\ufe0f#shoppingproducts #bestpurchases #tiktockinspiredfindsforwomen #tikto",
-          "handle": "theevergreeneditco",
-          "video_url": "https://tiktok.com/@theevergreeneditco/video/7673629583840693535",
+          "rank": 6,
+          "title": "@UPPER ECHELON PRODUCTS I used to think bidets were only for fancy hotels, but now my bathroom is th",
+          "handle": "lazyko83",
+          "video_url": "https://tiktok.com/@lazyko83/video/7677296937711832351",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 1245,
-          "like_count": 3,
-          "gmv": 85.17,
-          "units_sold": 2,
-          "gmv_per_view": 0.0684,
+          "view_count": 5054,
+          "like_count": 52,
+          "gmv": 79.72,
+          "units_sold": 3,
+          "gmv_per_view": 0.0158,
           "hooks": [
             {
-              "hook": "Don't be sad, I have been selling a ton of these bidets and there's reasons why, but you can still get yours.",
+              "hook": "Holy shit, y'all. Look how powerful that thing is. Feeling bougie as hell.",
               "score": 8,
-              "explanation": "Creates urgency and highlights popularity by mentioning high sales volume."
+              "explanation": "Strong enthusiastic reaction that grabs attention and highlights the upgrade."
             },
             {
-              "hook": "These are amazing because they are super easy to install under 15 minutes or less...",
+              "hook": "Hey guys, let's install this bidet together.",
               "score": 7,
-              "explanation": "Addresses a major consumer pain point (difficult installation) with a quick, convenient solution."
+              "explanation": "Direct invitation to the viewer to follow along with a DIY project."
             }
           ],
           "selling_points": [
             {
-              "selling_point": "These are amazing because they are super easy to install under 15 minutes or less...",
+              "selling_point": "So this is all there is to it, so should be pretty easy to put together.",
               "score": 8,
-              "explanation": "Highlights ease of use and time-saving installation, making it accessible for average users."
-            },
-            {
-              "selling_point": "...and they do have that dual feature there.",
-              "score": 7,
-              "explanation": "Showcases advanced functionality and product value through dual features."
+              "explanation": "Emphasizes ease of installation with minimal parts."
             }
           ],
-          "content_overview": "The video presents the Clear Rear Bidet Attachment, showcasing its packaging, parts, and device features on a tabletop. The speaker explains that despite selling many units, viewers can still purchase one due to its quick installation and dual-feature functionality. A call-to-action directs viewers to the shopping cart link to complete their purchase.",
-          "on_screen_text": "Nature Calls Clear Rear is the Premium Answer Includes TikTok @theevergreeneditco Don't be sad!!",
+          "content_overview": "A creator enthusiastically introduces a new bidet attachment, showing its powerful spray before walking the viewer step-by-step through the simple installation process, including turning off the water, removing the toilet seat, and installing the bidet plate.",
+          "on_screen_text": "Officially entering my rich, bougie, clean-booty era \u2728, Let's install this together \ud83d\ude4c, Just a few parts!, Don't forget to turn the water off & flush to empty the bowl., Take the toilet seat off, Put this piece on & line up the holes., Put the toilet seat back using the existing hardware.",
           "product_visible_3s": true,
-          "product_screen_time_seconds": 21,
+          "product_screen_time_seconds": 15,
+          "tone": "playful",
+          "target_audience": "Homeowners or renters looking for an easy, affordable bathroom upgrade to improve personal hygiene."
+        },
+        {
+          "rank": 7,
+          "title": "More than a summer screen! Works like a dog door, snaps shut automatically, lets fresh air in while ",
+          "handle": "courtney_gonzales19",
+          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7676555459486141727",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 2105,
+          "like_count": 11,
+          "gmv": 74.95,
+          "units_sold": 4,
+          "gmv_per_view": 0.0356,
+          "hooks": [
+            {
+              "hook": "A magnetic screen door is not just a summer purchase and something you will use only in the summer.",
+              "score": 8,
+              "explanation": "Challenges common assumptions about seasonal product use, capturing viewer interest immediately."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Holds together seamlessly by fifty-two magnets.",
+              "score": 9,
+              "explanation": "Highlights product durability and strong magnetic sealing performance."
+            },
+            {
+              "selling_point": "Also weighted at the bottom so you don't have to worry about it opening randomly",
+              "score": 8,
+              "explanation": "Emphasizes stability and wind resistance features."
+            }
+          ],
+          "content_overview": "A creator demonstrates a magnetic screen door, highlighting that it is useful beyond the summer months. She showcases how the 52 magnets seal the door automatically and points out the weighted bottom to prevent random opening. The video serves as a practical demonstration of the product's features and utility.",
+          "on_screen_text": "PSA: A MAGNETIC SCREEN DOOR ISN'T JUST A SUMMER THING @courtney_gonzales19",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 27,
           "tone": "casual",
-          "target_audience": "Homeowners or renters looking for an easy-to-install bathroom upgrade and hygiene improvement solution."
+          "target_audience": "Homeowners and renters looking for practical bug screens and home improvement solutions for doors."
+        },
+        {
+          "rank": 8,
+          "title": "",
+          "handle": "1373bel",
+          "video_url": "https://tiktok.com/@1373bel/video/7683330512680766733",
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "view_count": 1964,
+          "like_count": 18,
+          "gmv": 73.1,
+          "units_sold": 2,
+          "gmv_per_view": 0.0372,
+          "hooks": [
+            {
+              "hook": "\u12a0\u121a\u122d \u0916\u093e\u0928\u093e \u0917\u0930\u092e\u091a\u0940 \u12a5\u1295\u12b3\u1295 \u12f6\u122e \u1235\u1295\u1325\u120d \u1208\u134d\u134d\u122d\u1245 \u12e8\u121d\u1293\u12cd\u1208\u12cd \u123d\u1295\u12a9\u122d\u1275 \u12a8\u1264\u1273\u127d\u1295 \u12a0\u12ed\u12c8\u1323\u121d \u121d\u1233\u127d\u1295 \u1264\u1271\u1295 \u12a5\u1295\u12f3\u1348\u1290\u12cd \u1290\u12cd \u12e8\u121a\u12ab\u122d\u1218\u12cd\u1362",
+              "score": 8,
+              "explanation": "The speaker immediately hooks the viewer by highlighting a relatable everyday cooking problem: strong onion and food odors lingering in the house."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "\u12cd\u1203\u12cd\u1295 \u12a0\u12f5\u122d\u130b\u127d\u1201 \u121b\u129b\u12cd\u1295\u121d \u12a2\u1234\u1295\u123b\u120d \u12a6\u12ed\u120d \u12a0\u12f5\u122d\u130b\u127d\u1201 \u12a8\u1208\u1229\u1295 \u12a5\u12e8\u1240\u12eb\u12e8\u122b\u127d\u1201 \u1218\u1320\u1240\u121d \u1275\u127d\u120b\u120b\u127d\u1201\u1362",
+              "score": 9,
+              "explanation": "Highlights the ease of use with water and essential oils, plus the adjustable color feature for ambiance."
+            },
+            {
+              "selling_point": "\u121b\u129b\u12cd\u1295\u121d \u12a9\u12ad \u12eb\u12f0\u1228\u130b\u127d\u1201\u1275\u1295 \u123d\u1273 \u1320\u122d\u130d \u12a0\u12f5\u122d\u130e \u1290\u12cd \u12e8\u121a\u12eb\u12c8\u1323\u120b\u127d\u1201\u1362",
+              "score": 9,
+              "explanation": "Emphasizes the core benefit of effectively neutralizing and removing strong cooking odors from the home."
+            }
+          ],
+          "content_overview": "The video starts with a clip of food cooking in a pot, then introduces the Everlasting Comfort humidifier. The creator demonstrates how to fill it, add essential oils, and turn it on with color-changing lights to eliminate strong cooking odors in the kitchen and home.",
+          "on_screen_text": "@1373bel Find similar",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 26,
+          "tone": "casual",
+          "target_audience": "Home cooks, homemakers, and individuals looking to eliminate cooking smells and improve indoor air quality."
+        },
+        {
+          "rank": 9,
+          "title": "#clearrearbidetattachment #bidettoilet #bidets ",
+          "handle": "crisp720",
+          "video_url": "https://tiktok.com/@crisp720/video/7681112989516221710",
+          "product_id": "1729385884864975067",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+          "view_count": 10709,
+          "like_count": 19,
+          "gmv": 60.33,
+          "units_sold": 2,
+          "gmv_per_view": 0.0056,
+          "hooks": [
+            {
+              "hook": "Pues el precio de este bidet trasero ha bajado de nuevo.",
+              "score": 8,
+              "explanation": "Grabs attention immediately by highlighting a price drop on a popular product."
+            },
+            {
+              "hook": "No puedo creer que el precio se haya bajado de nuevo.",
+              "score": 7,
+              "explanation": "Creates curiosity and excitement about an unbelievable discount."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Es un bidet no el\u00e9ctrico que se instala en unos 15 minutos y se adapta a la mayor\u00eda de los inodoros.",
+              "score": 9,
+              "explanation": "Highlights ease of installation, compatibility, and lack of electrical requirements."
+            },
+            {
+              "selling_point": "El precio de este bidet trasero ha bajado de nuevo.",
+              "score": 8,
+              "explanation": "Emphasizes affordability and great value for money due to a price drop."
+            }
+          ],
+          "content_overview": "The video demonstrates a bidet attachment installed on a toilet while a voiceover discusses its discounted price, easy installation, and compatibility with most toilets. It concludes with a call to action to click the link to purchase.",
+          "on_screen_text": "@crisp720",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 16,
+          "tone": "casual",
+          "target_audience": "Homeowners or renters looking for an affordable, easy-to-install bathroom upgrade."
+        },
+        {
+          "rank": 10,
+          "title": "I loved using this mesh for my balcony because it kept the bugs out all summer. I was able to keep t",
+          "handle": "itsjodicollins",
+          "video_url": "https://tiktok.com/@itsjodicollins/video/7682812969637498126",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 3534,
+          "like_count": 390,
+          "gmv": 55.97,
+          "units_sold": 3,
+          "gmv_per_view": 0.0158,
+          "hooks": [
+            {
+              "hook": "Hot topic, I bought my very first property when I was thirty-four, this beautiful condo in Brooklyn, New York.",
+              "score": 8,
+              "explanation": "The creator starts with a personal milestone and location reveal, creating curiosity about the property."
+            },
+            {
+              "hook": "If I'm being honest, this beautiful accordion door is one of the top five reasons why I fell in love.",
+              "score": 7,
+              "explanation": "Highlights a unique and desirable apartment feature that draws the viewer in."
+            }
+          ],
+          "selling_points": [],
+          "content_overview": "A creator shares her new condo in Brooklyn and explains why she loves the accordion balcony doors, followed by setting up a magnetic door screen to keep bugs out after moving in.",
+          "on_screen_text": "TikTok @itsjodicollins",
+          "product_visible_3s": false,
+          "product_screen_time_seconds": 32,
+          "tone": "casual",
+          "target_audience": "Apartment owners, home renovators, and people looking for practical home improvement solutions."
+        },
+        {
+          "rank": 11,
+          "title": "Memory foam that contours to your body, a U-shaped cutout to reduce pressure on your tailbone, and a",
+          "handle": "courtney_gonzales19",
+          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7676157669316496653",
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "view_count": 563,
+          "like_count": 11,
+          "gmv": 53.99,
+          "units_sold": 1,
+          "gmv_per_view": 0.0959,
+          "hooks": [
+            {
+              "hook": "If you sit at a desk for 8 plus hours a day you know how uncomfortable it can get after just a few hours.",
+              "score": 8,
+              "explanation": "This directly addresses a common pain point for office workers, immediately capturing the attention of the target audience."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "It contours to your body while the U-shaped cutout helps take the pressure off your tailbone.",
+              "score": 9,
+              "explanation": "Explains the ergonomic benefit clearly, detailing how it relieves discomfort in key problem areas."
+            },
+            {
+              "selling_point": "It also has a non-slip bottom so it actually stays put.",
+              "score": 7,
+              "explanation": "Highlights a practical feature that solves a common annoyance with seat cushions sliding around."
+            }
+          ],
+          "content_overview": "A woman demonstrates the discomfort of sitting at a desk all day and introduces an ergonomic memory foam seat cushion. She explains its contouring design, U-shaped cutout for tailbone relief, and non-slip bottom. Finally, she encourages viewers to purchase the product before it sells out.",
+          "on_screen_text": "If you sit at a desk for 8+ hours a day... you need to see this",
+          "product_visible_3s": false,
+          "product_screen_time_seconds": 20,
+          "tone": "casual",
+          "target_audience": "Office workers, desk-bound professionals, and remote employees who experience back or tailbone pain from prolonged sitting."
+        },
+        {
+          "rank": 12,
+          "title": "\u00a1El mosquitero que ya conoc\u00edas ahora viene MEJORADO! \ud83d\ude4c M\u00e1s resistente y con 52 imanes para un cierre",
+          "handle": "comprasconbere",
+          "video_url": "https://tiktok.com/@comprasconbere/video/7675583697248062751",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 3921,
+          "like_count": 7,
+          "gmv": 52.8,
+          "units_sold": 4,
+          "gmv_per_view": 0.0135,
+          "hooks": [
+            {
+              "hook": "Si todav\u00eda tienes este mosquitero viejo, es hora de hacer el upgrade",
+              "score": 8,
+              "explanation": "Directly addresses viewers who have older, worn-out screen doors, prompting them to upgrade."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "La nueva versi\u00f3n est\u00e1 mucho m\u00e1s mejorada",
+              "score": 8,
+              "explanation": "Highlights overall product quality improvements over previous versions."
+            },
+            {
+              "selling_point": "Los materiales de este es un sistema magn\u00e9tico mucho m\u00e1s reforzado",
+              "score": 9,
+              "explanation": "Emphasizes the reinforced magnetic system for better durability and performance."
+            },
+            {
+              "selling_point": "Trae 52 imanes que pues vienen super reforzados distribuidos de arriba a abajo",
+              "score": 9,
+              "explanation": "Provides a specific, quantitative feature (52 reinforced magnets) showing strong closure reliability."
+            }
+          ],
+          "content_overview": "A creator compares an old magnetic screen door to an upgraded version, pointing out improvements in durability, material quality, and the inclusion of 52 reinforced magnets distributed from top to bottom.",
+          "on_screen_text": "Nuevo Mosquitero Magn\u00e9tico, UPGRADED FIBERGLASS MAGNETIC SCREEN DOOR 38\" x 82\", EASY INSTALLATION, POWERFUL MAGNETS, FLUX",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 52,
+          "tone": "casual",
+          "target_audience": "Homeowners and renters looking for an easy-to-install, durable magnetic screen door to keep bugs out."
+        },
+        {
+          "rank": 13,
+          "title": "It\u2019s crazy how this isn\u2019t a standard! #TiktokShopCreatorPicks #christmas #tiktokshopbacktoschool #bi",
+          "handle": "muscle_dad",
+          "video_url": "https://tiktok.com/@muscle_dad/video/7677238294895152398",
+          "product_id": "1729385884864975067",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+          "view_count": 1301,
+          "like_count": 1,
+          "gmv": 52.19,
+          "units_sold": 1,
+          "gmv_per_view": 0.0401,
+          "hooks": [
+            {
+              "hook": "For everyone who is waiting, they finally released the two pack for less than the price of one.",
+              "score": 9,
+              "explanation": "Immediately grabs attention by offering a high-value deal on a popular product."
+            },
+            {
+              "hook": "Stop thinking about getting a bidet. You're getting this risk free, they're doing free returns within 30 days.",
+              "score": 8,
+              "explanation": "Addresses purchase hesitation directly by highlighting a risk-free return policy."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "It's got the dual spraying action, which is going to allow you to clean up the rear. It's also going to allow the ladies to clean up those lady parts.",
+              "score": 9,
+              "explanation": "Highlights key hygiene features with separate nozzles for versatile cleaning."
+            },
+            {
+              "selling_point": "One of the most affordable easy upgrades you can grab right now.",
+              "score": 8,
+              "explanation": "Emphasizes cost-effectiveness and simple installation as a major home upgrade."
+            },
+            {
+              "selling_point": "You're getting this risk free, they're doing free returns within 30 days.",
+              "score": 8,
+              "explanation": "Provides a strong incentive to buy by minimizing financial risk through easy returns."
+            }
+          ],
+          "content_overview": "A creator demonstrates and promotes a bidet attachment installed on a toilet, highlighting its dual-nozzle features, self-cleaning function, affordability, and a special two-pack sale with free returns.",
+          "on_screen_text": "Easy bidet install.. TikTok @muscle_dad ClearRear The Bidet",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 39,
+          "tone": "casual",
+          "target_audience": "Homeowners and renters looking for affordable bathroom upgrades and improved personal hygiene solutions."
+        },
+        {
+          "rank": 14,
+          "title": "Much better than smearing shit covere paper balls back in your ass.. #creatorsearchinsights #TiktokS",
+          "handle": "muscle_dad",
+          "video_url": "https://tiktok.com/@muscle_dad/video/7675470966608104718",
+          "product_id": "1729385884864975067",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+          "view_count": 1570,
+          "like_count": 3,
+          "gmv": 50.44,
+          "units_sold": 2,
+          "gmv_per_view": 0.0321,
+          "hooks": [
+            {
+              "hook": "Toilet paper is good for cleaning noses. It's not good for cleaning dookie out of your rear like water will.",
+              "score": 9,
+              "explanation": "Uses humor and direct comparison to grab immediate attention and contrast traditional toilet paper with water cleaning."
+            },
+            {
+              "hook": "For those who don't know, this is a bidet. It's one of the healthiest ways to stay clean...",
+              "score": 8,
+              "explanation": "Provides educational value by introducing the product and highlighting health benefits early."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "...it's one of the healthiest ways to stay clean, it's been proven for cleaning out your rear nice and easy...",
+              "score": 9,
+              "explanation": "Emphasizes hygiene and ease of use as key product benefits."
+            },
+            {
+              "selling_point": "...and it's also got a feminine wash for the ladies with controllable pressure that goes high and low.",
+              "score": 8,
+              "explanation": "Highlights versatility with adjustable pressure and specific features like feminine wash."
+            },
+            {
+              "selling_point": "It's a simple install and it's super affordable...",
+              "score": 9,
+              "explanation": "Focuses on ease of installation and affordability as major purchase drivers."
+            }
+          ],
+          "content_overview": "The video demonstrates how a bidet attachment works on a toilet while explaining its health benefits, dual nozzle features for rear and feminine wash, adjustable pressure, and simple installation process. The creator concludes by encouraging viewers to purchase using the provided link due to the affordable price.",
+          "on_screen_text": "Last Chance to Grab on Sale \ud83d\ude2e TikTok @muscle_dad",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 30,
+          "tone": "casual",
+          "target_audience": "Adult homeowners and renters looking for an affordable, hygienic bathroom upgrade and a toilet paper alternative."
         },
         {
           "rank": 15,
-          "title": "bidets are on sale now in the tiktok shop #bidet #bidetsprayer #bidets ",
-          "handle": "hollyrenaee",
-          "video_url": "https://tiktok.com/@hollyrenaee/video/7672508517588258061",
+          "title": "it says 3 day delivery but came next day, i couldn\u2019t wait for this to comeee\ud83e\udd23\ud83e\udd23 #bidet #bathroom #bou",
+          "handle": "togivethanks",
+          "video_url": "https://tiktok.com/@togivethanks/video/7679264296446037278",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 854,
-          "like_count": 2,
-          "gmv": 83.98,
-          "units_sold": 2,
-          "gmv_per_view": 0.0983,
+          "view_count": 256,
+          "like_count": 4,
+          "gmv": 49.6,
+          "units_sold": 1,
+          "gmv_per_view": 0.1938,
           "hooks": [
             {
-              "hook": "Stop wasting your money on toilet paper.",
-              "score": 9,
-              "explanation": "Directly addresses a common ongoing household expense to grab immediate attention."
+              "hook": "I'm going to save so much money on toilet paper with this today.",
+              "score": 8,
+              "explanation": "Presents a strong financial benefit and practical reason to buy immediately."
             },
             {
-              "hook": "Just get you a bidet.",
-              "score": 8,
-              "explanation": "Offers a direct alternative solution right after identifying the problem."
-            },
-            {
-              "hook": "These are on a flash sale right now in the TikTok shop.",
-              "score": 8,
-              "explanation": "Creates a sense of urgency with a limited-time sale."
+              "hook": "I finally got a bidet, and I am so excited to put this on.",
+              "score": 6,
+              "explanation": "Creates anticipation and relatable enthusiasm for unboxing a new home product."
             }
           ],
           "selling_points": [
             {
-              "selling_point": "Comes with the instructions and everything you need to install it.",
+              "selling_point": "I love that you can adjust the water pressure and where you want it to clean.",
               "score": 8,
-              "explanation": "Highlights ease of setup and completeness of the kit."
-            },
-            {
-              "selling_point": "It's super easy.",
-              "score": 7,
-              "explanation": "Reassures buyers that installation requires minimal effort."
-            },
-            {
-              "selling_point": "Way cleaner than using toilet paper.",
-              "score": 9,
-              "explanation": "Emphasizes superior hygiene benefits compared to traditional methods."
+              "explanation": "Highlights customizable comfort features like water pressure and dual washing controls."
             }
           ],
-          "content_overview": "The creator introduces a bidet attachment as a money-saving, cleaner alternative to toilet paper. The video showcases the bidet parts, instruction manual, and plumbing hose while explaining that it is easy to install and currently on a flash sale.",
-          "on_screen_text": "STOP WASTING YOUR MONEY ON TOILET PAPER. JUST GET A BIDET FLASH TIKTOK THE EVERYTHING IT. LATER UPDATED CLEANER THAN USING TOILET PAPER. I'LL PUT THE LINK",
+          "content_overview": "The creator unboxes and reviews the Clear Rear bidet attachment, expressing excitement about saving money on toilet paper and highlighting adjustable water pressure features before preparing to install it.",
+          "on_screen_text": "THOUGHTFULLY DESIGNED IN AUSTIN, TEXAS, Clear Rear Is The Premium Answer, Clear Rear is the Premium Answer, Includes Self Cleaning Bidet Nozzle Standard Wash + Feminine Wash Control Adjustable Water Pressure Install Kit + Hardware Easy to Follow Directions 2 Year Warranty, SKU: BUTT-W2, Easily hooks up to your water supply!",
           "product_visible_3s": true,
           "product_screen_time_seconds": 11,
           "tone": "casual",
-          "target_audience": "Budget-conscious consumers and homeowners looking to improve bathroom hygiene and save money on household supplies."
+          "target_audience": "Homeowners and renters looking to upgrade their bathroom experience, save money on toilet paper, and improve personal hygiene."
         }
       ],
-      "total_found": 661,
+      "total_found": 439,
       "has_more": true
     },
     "60d": {
-      "range": "2026-07-09 to 2026-09-06",
+      "range": "2026-07-16 to 2026-09-13",
       "videos": [
         {
           "rank": 1,
@@ -1654,11 +1527,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672846600267468062",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 205280,
-          "like_count": 940,
-          "gmv": 2154.02,
-          "units_sold": 141,
-          "gmv_per_view": 0.0105,
+          "view_count": 209127,
+          "like_count": 957,
+          "gmv": 2208.99,
+          "units_sold": 144,
+          "gmv_per_view": 0.0106,
           "hooks": [
             {
               "hook": "Now you gotta know that this one here is not the one that costs you $5 $10 at a grocery store.",
@@ -1702,11 +1575,11 @@
           "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 72917,
-          "like_count": 333,
+          "view_count": 73655,
+          "like_count": 336,
           "gmv": 1774.18,
           "units_sold": 135,
-          "gmv_per_view": 0.0243,
+          "gmv_per_view": 0.0241,
           "hooks": [
             {
               "hook": "Las est\u00e1n agarrando hasta por dos",
@@ -1750,8 +1623,8 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7663728633059544351",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 110305,
-          "like_count": 416,
+          "view_count": 110630,
+          "like_count": 418,
           "gmv": 1214.78,
           "units_sold": 92,
           "gmv_per_view": 0.011,
@@ -1783,11 +1656,11 @@
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 56432,
+          "view_count": 56622,
           "like_count": 103,
-          "gmv": 860.69,
-          "units_sold": 64,
-          "gmv_per_view": 0.0153,
+          "gmv": 882.68,
+          "units_sold": 65,
+          "gmv_per_view": 0.0156,
           "hooks": [
             {
               "hook": "Don't wait till the sale ends",
@@ -1836,11 +1709,11 @@
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 26698,
+          "view_count": 26920,
           "like_count": 56,
           "gmv": 751.16,
           "units_sold": 61,
-          "gmv_per_view": 0.0281,
+          "gmv_per_view": 0.0279,
           "hooks": [
             {
               "hook": "They dropped the price even lower.",
@@ -1874,44 +1747,12 @@
         },
         {
           "rank": 6,
-          "title": "Lo bueno y barato no caben en un zapato! #screendoor #puertamagnetica #tiktokshopcreatorpicks #fall ",
-          "handle": "sylviaapproved",
-          "video_url": "https://tiktok.com/@sylviaapproved/video/7662535458450083103",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 40568,
-          "like_count": 245,
-          "gmv": 744.22,
-          "units_sold": 43,
-          "gmv_per_view": 0.0183,
-          "hooks": [],
-          "selling_points": [
-            {
-              "selling_point": "Instalaci\u00f3n de puerta magn\u00e9tica",
-              "score": 7,
-              "explanation": "The video demonstrates the installation process of a magnetic screen door, which is a key feature for potential buyers."
-            },
-            {
-              "selling_point": "Flux Phenom Magnetic Screen Door",
-              "score": 6,
-              "explanation": "The product name is clearly displayed, indicating the specific item being showcased."
-            }
-          ],
-          "content_overview": "The video shows the installation of a magnetic screen door. It begins with a view of the installed door, then shows the product packaging and contents, including the screen, adhesive strips, and magnets. The majority of the video demonstrates the process of attaching the adhesive strips to the door frame and then affixing the screen door.",
-          "on_screen_text": "INSTALACI\u00d3N DE PUERTA MAGN\u00c9TICA",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 32,
-          "tone": "casual",
-          "target_audience": "This video is likely intended for homeowners or renters looking for an easy-to-install solution to keep bugs out of their homes while allowing for easy passage."
-        },
-        {
-          "rank": 7,
           "title": "#bidet #bidettoilet  #bathroommakeover #bidetislife #fyp ",
           "handle": "delbarnesadventure",
           "video_url": "https://tiktok.com/@delbarnesadventure/video/7664372520132283661",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 10133,
+          "view_count": 10139,
           "like_count": 20,
           "gmv": 668.96,
           "units_sold": 32,
@@ -1948,17 +1789,17 @@
           "target_audience": "This video is targeted towards individuals who are interested in purchasing a bidet attachment or are looking for home goods deals. It appeals to bargain hunters and those who might have recently considered buying such a product."
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "Bidet",
           "handle": "favoritefavoritefind",
           "video_url": "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 27292,
+          "view_count": 27361,
           "like_count": 64,
           "gmv": 640.57,
           "units_sold": 26,
-          "gmv_per_view": 0.0235,
+          "gmv_per_view": 0.0234,
           "hooks": [
             {
               "hook": "This is the bidet that you've been looking for.",
@@ -1981,13 +1822,13 @@
           "target_audience": "Homeowners or renters looking for an easy-to-install bidet attachment to improve bathroom hygiene."
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "This #beachblanket fits 8 people! #beachday #beachtowel #beachgear #beachlifestyle ",
           "handle": "thatsjesslifenow",
           "video_url": "https://tiktok.com/@thatsjesslifenow/video/7663988958346415390",
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
-          "view_count": 93878,
+          "view_count": 94021,
           "like_count": 442,
           "gmv": 489.16,
           "units_sold": 47,
@@ -2008,17 +1849,17 @@
           "target_audience": "This video is likely targeted towards families or groups of friends who enjoy spending time at the beach and are looking for a spacious and practical beach blanket."
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "",
           "handle": "theevergreeneditco",
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7673494617085693214",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 13182,
+          "view_count": 13282,
           "like_count": 30,
           "gmv": 458.26,
           "units_sold": 22,
-          "gmv_per_view": 0.0348,
+          "gmv_per_view": 0.0345,
           "hooks": [
             {
               "hook": "You will regret not getting this bidet attachment for your toilet.",
@@ -2041,7 +1882,7 @@
           "target_audience": "Homeowners, renters, and shoppers looking for affordable, easy-to-install bathroom upgrades and hygiene products."
         },
         {
-          "rank": 11,
+          "rank": 10,
           "title": "@Upper Echelon Products bidet on a special discount\u203c\ufe0f#tiktockshopinspiredfindsforwomen #shoppingprod",
           "handle": "theevergreeneditco",
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7668379441541713183",
@@ -2119,17 +1960,17 @@
           "target_audience": "This video is targeted towards individuals interested in personal hygiene products, specifically bidets, who are looking for affordable and easy-to-install options. It appeals to bargain hunters and those seeking convenience in their bathroom routines."
         },
         {
-          "rank": 12,
+          "rank": 11,
           "title": "@UPPER ECHELON PRODUCTS bidet is the easiest way to upgrade your bathroom\u203c\ufe0f#tiktockshopbacktoschool ",
           "handle": "theevergreeneditco",
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7677230038281964830",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 3633,
+          "view_count": 3675,
           "like_count": 11,
           "gmv": 268.07,
           "units_sold": 11,
-          "gmv_per_view": 0.0738,
+          "gmv_per_view": 0.0729,
           "hooks": [
             {
               "hook": "This is my top selling product on TikTok Shop right now, and there is a reason why.",
@@ -2162,17 +2003,17 @@
           "target_audience": "TikTok shoppers looking for easy home and bathroom upgrades."
         },
         {
-          "rank": 13,
+          "rank": 12,
           "title": "The only bidet i use #ClearRear #Bidet  ",
           "handle": "aroc_finesse",
           "video_url": "https://tiktok.com/@aroc_finesse/video/7674461738112175391",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 40172,
+          "view_count": 40258,
           "like_count": 330,
           "gmv": 211.27,
           "units_sold": 9,
-          "gmv_per_view": 0.0053,
+          "gmv_per_view": 0.0052,
           "hooks": [
             {
               "hook": "I'm in America for the World Cup. One thing that's so weird is American has poop paper that they wipe all over their booty cracks.",
@@ -2210,7 +2051,7 @@
           "target_audience": "Adult consumers looking for improved bathroom hygiene solutions, eco-friendly alternatives to toilet paper, or easy-to-install bidet attachments."
         },
         {
-          "rank": 14,
+          "rank": 13,
           "title": "Clear Rear Bidet Attachment for Toilet #tiktokshopcreatorpicks #SummerVibes #DealsForYouDays #AIGC ",
           "handle": "topfinds376",
           "video_url": "https://tiktok.com/@topfinds376/video/7668087367886048542",
@@ -2243,13 +2084,13 @@
           "target_audience": "This video is likely targeted at shoppers looking for deals on home goods, particularly those interested in bathroom upgrades or personal hygiene products."
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "#movingday #backtoschool #dealsforyoudays ",
           "handle": "dawnmichele1972",
           "video_url": "https://tiktok.com/@dawnmichele1972/video/7670635055097695501",
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
-          "view_count": 19292,
+          "view_count": 19362,
           "like_count": 59,
           "gmv": 195.33,
           "units_sold": 20,
@@ -2279,13 +2120,61 @@
           "product_screen_time_seconds": 24,
           "tone": "casual",
           "target_audience": "Beachgoers, travelers, and families looking for portable and wind-resistant outdoor blankets."
+        },
+        {
+          "rank": 15,
+          "title": "No es lo mismo!!! #puertamagnetica #screendoor #tiktokshopholidayhaul #fall #parati ",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7672862005375634719",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "view_count": 14974,
+          "like_count": 28,
+          "gmv": 186.2,
+          "units_sold": 10,
+          "gmv_per_view": 0.0124,
+          "hooks": [
+            {
+              "hook": "Si vas a comprar una de estas puertas por 5 10 d\u00f3lares en otra tienda, est\u00e1 bien",
+              "score": 8,
+              "explanation": "The creator immediately addresses common viewer skepticism about cheap alternatives, capturing attention."
+            },
+            {
+              "hook": "No quiero que se est\u00e9n quejando en mis comentarios que se caen, que se rompen",
+              "score": 7,
+              "explanation": "Addressing potential negative feedback upfront builds honesty and hooks viewers curious about durability."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Aunque la jales, aunque perros la rasgu\u00f1en, no se va a romper",
+              "score": 9,
+              "explanation": "Highlights exceptional durability against pets and rough usage, addressing a major pain point."
+            },
+            {
+              "selling_point": "Al momento de salir de la casa se cierra inmediatamente",
+              "score": 8,
+              "explanation": "Emphasizes the automatic self-closing feature for convenience and bug prevention."
+            },
+            {
+              "selling_point": "Viene con todo lo que ocupas para instalar la puerta",
+              "score": 7,
+              "explanation": "Assures the buyer that installation is complete and straightforward with included accessories."
+            }
+          ],
+          "content_overview": "A content creator reviews a durable magnetic screen door, contrasting it with cheaper versions that easily break. She demonstrates its strength, self-closing feature, and ease of installation while speaking directly to the camera. The video concludes with a recommendation to invest in quality and points viewers to the orange cart.",
+          "on_screen_text": "@sylviaaaxoxoo",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 28,
+          "tone": "casual",
+          "target_audience": "Homeowners and renters looking for durable, pet-friendly insect screen doors that are easy to install."
         }
       ],
-      "total_found": 1431,
+      "total_found": 1350,
       "has_more": true
     },
     "90d": {
-      "range": "2026-06-09 to 2026-09-06",
+      "range": "2026-06-16 to 2026-09-13",
       "videos": [
         {
           "rank": 1,
@@ -2294,11 +2183,11 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7658127805066087711",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 112165,
+          "view_count": 112196,
           "like_count": 222,
-          "gmv": 2255.13,
-          "units_sold": 116,
-          "gmv_per_view": 0.0201,
+          "gmv": 2284.87,
+          "units_sold": 117,
+          "gmv_per_view": 0.0204,
           "hooks": [
             {
               "hook": "You will regret this!!",
@@ -2337,11 +2226,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672846600267468062",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 205280,
-          "like_count": 940,
-          "gmv": 2154.02,
-          "units_sold": 141,
-          "gmv_per_view": 0.0105,
+          "view_count": 209127,
+          "like_count": 957,
+          "gmv": 2208.99,
+          "units_sold": 144,
+          "gmv_per_view": 0.0106,
           "hooks": [
             {
               "hook": "Now you gotta know that this one here is not the one that costs you $5 $10 at a grocery store.",
@@ -2385,8 +2274,8 @@
           "video_url": "https://tiktok.com/@maskman..2/video/7656173747715443999",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 193473,
-          "like_count": 433,
+          "view_count": 193773,
+          "like_count": 434,
           "gmv": 2015.58,
           "units_sold": 78,
           "gmv_per_view": 0.0104,
@@ -2438,11 +2327,11 @@
           "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 72917,
-          "like_count": 333,
+          "view_count": 73655,
+          "like_count": 336,
           "gmv": 1774.18,
           "units_sold": 135,
-          "gmv_per_view": 0.0243,
+          "gmv_per_view": 0.0241,
           "hooks": [
             {
               "hook": "Las est\u00e1n agarrando hasta por dos",
@@ -2486,8 +2375,8 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7663728633059544351",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 110305,
-          "like_count": 416,
+          "view_count": 110630,
+          "like_count": 418,
           "gmv": 1214.78,
           "units_sold": 92,
           "gmv_per_view": 0.011,
@@ -2519,7 +2408,7 @@
           "video_url": "https://tiktok.com/@muscle_dad/video/7659407860622724366",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 111667,
+          "view_count": 111679,
           "like_count": 770,
           "gmv": 1051.8,
           "units_sold": 45,
@@ -2567,11 +2456,11 @@
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 56432,
+          "view_count": 56622,
           "like_count": 103,
-          "gmv": 860.69,
-          "units_sold": 64,
-          "gmv_per_view": 0.0153,
+          "gmv": 882.68,
+          "units_sold": 65,
+          "gmv_per_view": 0.0156,
           "hooks": [
             {
               "hook": "Don't wait till the sale ends",
@@ -2620,11 +2509,11 @@
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 26698,
+          "view_count": 26920,
           "like_count": 56,
           "gmv": 751.16,
           "units_sold": 61,
-          "gmv_per_view": 0.0281,
+          "gmv_per_view": 0.0279,
           "hooks": [
             {
               "hook": "They dropped the price even lower.",
@@ -2663,7 +2552,7 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7662535458450083103",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-          "view_count": 40568,
+          "view_count": 40651,
           "like_count": 245,
           "gmv": 744.22,
           "units_sold": 43,
@@ -2695,7 +2584,7 @@
           "video_url": "https://tiktok.com/@muscle_dad/video/7658896126246014222",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 117551,
+          "view_count": 117701,
           "like_count": 689,
           "gmv": 700.69,
           "units_sold": 26,
@@ -2748,7 +2637,7 @@
           "video_url": "https://tiktok.com/@delbarnesadventure/video/7664372520132283661",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 10133,
+          "view_count": 10139,
           "like_count": 20,
           "gmv": 668.96,
           "units_sold": 32,
@@ -2791,11 +2680,11 @@
           "video_url": "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 27292,
+          "view_count": 27361,
           "like_count": 64,
           "gmv": 640.57,
           "units_sold": 26,
-          "gmv_per_view": 0.0235,
+          "gmv_per_view": 0.0234,
           "hooks": [
             {
               "hook": "This is the bidet that you've been looking for.",
@@ -2824,7 +2713,7 @@
           "video_url": "https://tiktok.com/@thatsjesslifenow/video/7663988958346415390",
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
-          "view_count": 93878,
+          "view_count": 94021,
           "like_count": 442,
           "gmv": 489.16,
           "units_sold": 47,
@@ -2851,11 +2740,11 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7673494617085693214",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 13182,
+          "view_count": 13282,
           "like_count": 30,
           "gmv": 458.26,
           "units_sold": 22,
-          "gmv_per_view": 0.0348,
+          "gmv_per_view": 0.0345,
           "hooks": [
             {
               "hook": "You will regret not getting this bidet attachment for your toilet.",
@@ -2956,7 +2845,7 @@
           "target_audience": "This video is targeted towards individuals interested in personal hygiene products, specifically bidets, who are looking for affordable and easy-to-install options. It appeals to bargain hunters and those seeking convenience in their bathroom routines."
         }
       ],
-      "total_found": 1884,
+      "total_found": 1910,
       "has_more": true
     }
   }

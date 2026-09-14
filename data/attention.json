@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T07:21:59Z",
+  "updated_at": "2026-09-14T07:22:22Z",
   "items": [
     {
       "metric": "Samples shipped",
@@ -7,53 +7,53 @@
       "prior": 29,
       "pct": -79.3,
       "direction": "down",
-      "effect": "Three straight weekly declines in samples shipped (49, 29, 6) with 0 approvals week to date means fewer creators hold product to post in late September.",
-      "action": "Approve the queued To Review requests before their 09-16 and 09-17 expiries, highest post rate first, and clear task 86ajf5edm."
+      "effect": "Three straight weekly declines (49, 29, 6) with 0 approvals and 0 Ready to Ship means fewer creators hold product to post in late September.",
+      "action": "Approve the To Review queue by post rate ahead of the 2026-09-17 expiries, starting with fatyshop01 at 97.5%."
     },
     {
       "metric": "LIVE GMV",
-      "current": 1183.47,
+      "current": 2009.27,
       "prior": 5429.77,
-      "pct": -78.2,
+      "pct": -63.0,
       "direction": "down",
-      "effect": "LIVE streams held near prior week at 121, so the loss is stream yield at about 9.78 GMV per stream versus 40.22 before, not stream count.",
-      "action": "Audit the top live accounts (boldvideos7, fortune0420, alldaysteals) before adding new live slots."
+      "effect": "Streams held at 135 in both weeks, so GMV per stream fell to 14.88 from 40.22 and the drop is conversion, not scheduling.",
+      "action": "Re-brief the top live account boldvideos7, which holds the week's six highest GMV streams, before adding stream volume."
     },
     {
       "metric": "Affiliate GMV",
-      "current": 3913.18,
+      "current": 5251.63,
       "prior": 11253.69,
-      "pct": -65.2,
+      "pct": -53.3,
       "direction": "down",
-      "effect": "Affiliate supply is 66.6% of GMV and carries a one to two week content lag, so the drop in posting and sampling lands on late September revenue.",
-      "action": "Re-engage creators with 0 videos in the week (fortune0420, sylviaapproved) using the top hooks in creative_brief."
+      "effect": "Third weekly decline in the channel that supplies 74.6% of GMV, so it is the main driver of the shop decline.",
+      "action": "Rebuild sample outflow, the channel's upstream input, before changing commission rates or list targeting."
     },
     {
-      "metric": "GMV (week to date)",
-      "current": 5875.18,
+      "metric": "GMV",
+      "current": 7037.43,
       "prior": 12506.06,
-      "pct": -53.0,
+      "pct": -43.7,
       "direction": "down",
-      "effect": "Fourth weekly bucket in a row lower (17,385.02, 12,506.06, 5,875.18), running at 979.20 GMV per day against 1,786.58 in the completed week.",
-      "action": "Treat sample outflow and posting recovery as the week's priority over further DM volume."
+      "effect": "The three-week run covers GMV, orders (730, 428, 243) and units (784, 454, 257), leaving the shop at 1005.35 per day against 1786.58.",
+      "action": "Hold spend on Screen Door and Bidet 7/6 and clear the sample review queue as the fastest supply fix."
     },
     {
-      "metric": "GMV Max Shop Wide ROAS",
-      "current": 0.448,
-      "prior": 0.6,
-      "pct": -25.3,
+      "metric": "Back to School campaign ROAS",
+      "current": 0.683,
+      "prior": 1.433,
+      "pct": -52.4,
       "direction": "down",
-      "effect": "Shop Wide returns 0.448 against a 2.0 target and 370.53 of spend, so it loses money on every ad dollar while other campaigns sit under target.",
-      "action": "Pause Shop Wide and move its budget to Screen Door at 1.515 ROAS and 14.73 cost per order."
+      "effect": "The auto-created Back to School campaign runs below the 1.0 breakeven and far below its 5.4 target, so its 330.66 weekly spend loses money before COGS.",
+      "action": "Pause or reallocate its budget to Screen Door at 1.982 or Bidet 7/6 at 1.986."
     },
     {
       "metric": "Sample rejection rate",
-      "current": 59.9,
-      "prior": 66.3,
-      "pct": -9.7,
+      "current": 59.4,
+      "prior": 59.9,
+      "pct": -0.8,
       "direction": "down",
-      "effect": "173 of 300 requests are rejected and 76 sit in To Review, so most inbound creator demand is discarded while the queue holds viable applicants.",
-      "action": "Re-screen To Review by post rate and GPM instead of default rejection and set a review SLA under the 09-17 expiry wave."
+      "effect": "About three in five non-canceled sample requests are rejected, which starves future content supply.",
+      "action": "Review rejection reasons and prioritise high post rate applicants such as fatyshop01 at 97.5% and yeny8919 at 97.09%."
     }
   ]
 }
