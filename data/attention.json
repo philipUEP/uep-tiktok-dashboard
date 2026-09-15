@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T07:22:22Z",
+  "updated_at": "2026-09-15T07:21:14Z",
   "items": [
     {
       "metric": "Samples shipped",
@@ -7,53 +7,53 @@
       "prior": 29,
       "pct": -79.3,
       "direction": "down",
-      "effect": "Three straight weekly declines (49, 29, 6) with 0 approvals and 0 Ready to Ship means fewer creators hold product to post in late September.",
-      "action": "Approve the To Review queue by post rate ahead of the 2026-09-17 expiries, starting with fatyshop01 at 97.5%."
+      "effect": "Three straight weekly declines (49, 29, 6) with 0 approvals and 0 Ready to Ship means affiliate content supply for late September and early October is already committed low.",
+      "action": "Approve the 65 requests in To Review before the 2026-09-22 expiries, highest post rate first, starting with dancewithmeladie at 94.1%."
+    },
+    {
+      "metric": "Samples delivered",
+      "current": 14,
+      "prior": 35,
+      "pct": -60.0,
+      "direction": "down",
+      "effect": "Fewer creators hold product, so video output and affiliate GMV keep falling on a one to two week lag even if approvals resume today.",
+      "action": "Refill Ready to Ship, which now stands at 0, and clear the shipped queue before adding new outreach volume."
     },
     {
       "metric": "LIVE GMV",
-      "current": 2009.27,
+      "current": 2437.93,
       "prior": 5429.77,
-      "pct": -63.0,
+      "pct": -55.1,
       "direction": "down",
-      "effect": "Streams held at 135 in both weeks, so GMV per stream fell to 14.88 from 40.22 and the drop is conversion, not scheduling.",
-      "action": "Re-brief the top live account boldvideos7, which holds the week's six highest GMV streams, before adding stream volume."
-    },
-    {
-      "metric": "Affiliate GMV",
-      "current": 5251.63,
-      "prior": 11253.69,
-      "pct": -53.3,
-      "direction": "down",
-      "effect": "Third weekly decline in the channel that supplies 74.6% of GMV, so it is the main driver of the shop decline.",
-      "action": "Rebuild sample outflow, the channel's upstream input, before changing commission rates or list targeting."
+      "effect": "Streams held near flat while GMV halved, so this is a conversion and yield loss rather than a scheduling gap.",
+      "action": "Re-brief boldvideos7, holder of the week's top three streams, before adding stream volume."
     },
     {
       "metric": "GMV",
-      "current": 7037.43,
+      "current": 7216.49,
       "prior": 12506.06,
-      "pct": -43.7,
+      "pct": -42.3,
       "direction": "down",
-      "effect": "The three-week run covers GMV, orders (730, 428, 243) and units (784, 454, 257), leaving the shop at 1005.35 per day against 1786.58.",
-      "action": "Hold spend on Screen Door and Bidet 7/6 and clear the sample review queue as the fastest supply fix."
+      "effect": "Third weekly decline, with orders (730, 428, 250), units (784, 454, 264) and affiliate GMV (15,297.10, 11,253.69, 6,259.25) all declining on the same run.",
+      "action": "Prioritise sample outflow, the upstream input for the channel that supplies 86.7% of GMV, over commission or list changes."
     },
     {
       "metric": "Back to School campaign ROAS",
-      "current": 0.683,
+      "current": 0.679,
       "prior": 1.433,
-      "pct": -52.4,
+      "pct": -52.6,
       "direction": "down",
-      "effect": "The auto-created Back to School campaign runs below the 1.0 breakeven and far below its 5.4 target, so its 330.66 weekly spend loses money before COGS.",
-      "action": "Pause or reallocate its budget to Screen Door at 1.982 or Bidet 7/6 at 1.986."
+      "effect": "The auto-created campaign runs below 1.0 breakeven and far below its 5.4 target, so its 332.61 weekly spend loses money before COGS.",
+      "action": "Pause or reallocate its budget to Screen Door at 1.95 or Bidet 7/6 at 1.989, both above breakeven."
     },
     {
       "metric": "Sample rejection rate",
-      "current": 59.4,
-      "prior": 59.9,
-      "pct": -0.8,
-      "direction": "down",
-      "effect": "About three in five non-canceled sample requests are rejected, which starves future content supply.",
-      "action": "Review rejection reasons and prioritise high post rate applicants such as fatyshop01 at 97.5% and yeny8919 at 97.09%."
+      "current": 60.07,
+      "prior": 59.4,
+      "pct": 1.1,
+      "direction": "up",
+      "effect": "Three in five non-canceled sample requests are rejected, which starves content supply while 65 requests sit unreviewed.",
+      "action": "Review rejection reasons and prioritise high post rate applicants over high follower counts."
     }
   ]
 }

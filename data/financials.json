@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-14",
+    "pulled_on": "2026-09-15",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -13,60 +13,60 @@
     "week": {
       "range": "2026-09-07 to 2026-09-13",
       "revenue": {
-        "total_gmv": 7037.43,
-        "affiliate_gmv": 5251.63,
-        "video_gmv": 3193.73,
-        "live_gmv": 2009.27,
-        "shop_tab_gmv": 1675.63,
-        "gmv_max_revenue": 4987.83,
+        "total_gmv": 7216.49,
+        "affiliate_gmv": 6259.25,
+        "video_gmv": 3772.69,
+        "live_gmv": 2437.93,
+        "shop_tab_gmv": 1695.62,
+        "gmv_max_revenue": 5189.76,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 2950.4499999999994,
-        "commission": 1020.5,
-        "refund_amount": 312.89,
-        "shipping_fees": 1808.8
+        "ad_spend": 3075.3899999999994,
+        "commission": 1213.12,
+        "refund_amount": 1290.08,
+        "shipping_fees": 1862.0
       },
-      "net_after_ads_commissions_refunds": 2753.59,
+      "net_after_ads_commissions_refunds": 1637.9,
       "ratios": {
-        "blended_roas": 2.3852,
-        "gmv_max_roas": 1.6905,
-        "commission_rate_pct": 19.43,
-        "refund_rate_pct": 4.45,
-        "aov": 27.87,
-        "gpm": 11.75,
-        "emv": 1350.53,
-        "gmv_per_sample_delivered": 375.12
+        "blended_roas": 2.3465,
+        "gmv_max_roas": 1.6875,
+        "commission_rate_pct": 19.38,
+        "refund_rate_pct": 17.88,
+        "aov": 27.78,
+        "gpm": 11.54,
+        "emv": 1625.63,
+        "gmv_per_sample_delivered": 447.09
       },
       "volume": {
-        "orders": 243,
-        "units_sold": 257.0,
-        "creators": 53,
+        "orders": 250,
+        "units_sold": 264.0,
+        "creators": 62,
         "samples_delivered": 14,
-        "video_views": 270106
+        "video_views": 325126
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 4567.75,
+          "total_gmv": 4685.71,
           "share_pct": 64.9,
-          "video_gmv": 1569.1,
+          "video_gmv": 1652.07,
           "live_gmv": 2437.93,
-          "shop_tab_gmv": 831.46,
-          "units_sold": 136
+          "shop_tab_gmv": 851.45,
+          "units_sold": 140
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 1811.44,
-          "share_pct": 25.7,
-          "video_gmv": 1668.03,
+          "total_gmv": 1872.54,
+          "share_pct": 25.9,
+          "video_gmv": 1729.13,
           "live_gmv": 0,
           "shop_tab_gmv": 413.18,
-          "units_sold": 98
+          "units_sold": 101
         },
         {
           "product_id": "1729388554561294555",
@@ -95,7 +95,7 @@
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 39.99,
           "total_gmv": 74.44,
-          "share_pct": 1.1,
+          "share_pct": 1.0,
           "video_gmv": 46.45,
           "live_gmv": 0,
           "shop_tab_gmv": 54.45,
@@ -213,7 +213,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, 4-Level Filtration System with Thick Thermal Lid, Filter, and Strainer for Versatile Coffee Brewing",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration System, Thick Glass Boilwater Carafe, 1.75 lbs, Lifetime Replace Support for Versatile Coffee Brewing",
           "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -392,60 +392,60 @@
     "14d": {
       "range": "2026-08-31 to 2026-09-13",
       "revenue": {
-        "total_gmv": 19543.49,
-        "affiliate_gmv": 16505.32,
-        "video_gmv": 8921.29,
-        "live_gmv": 7439.04,
-        "shop_tab_gmv": 3671.89,
-        "gmv_max_revenue": 13663.180000000002,
+        "total_gmv": 19722.55,
+        "affiliate_gmv": 17512.94,
+        "video_gmv": 9500.25,
+        "live_gmv": 7867.7,
+        "shop_tab_gmv": 3691.88,
+        "gmv_max_revenue": 13865.110000000002,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 9470.169999999998,
-        "commission": 3404.47,
-        "refund_amount": 1987.34,
-        "shipping_fees": 5023.6
+        "ad_spend": 9595.109999999999,
+        "commission": 3597.09,
+        "refund_amount": 2964.53,
+        "shipping_fees": 5076.8
       },
-      "net_after_ads_commissions_refunds": 4681.51,
+      "net_after_ads_commissions_refunds": 3565.82,
       "ratios": {
-        "blended_roas": 2.0637,
-        "gmv_max_roas": 1.4428,
-        "commission_rate_pct": 20.63,
-        "refund_rate_pct": 10.17,
-        "aov": 28.12,
-        "gpm": 10.57,
-        "emv": 4162.45,
-        "gmv_per_sample_delivered": 336.84
+        "blended_roas": 2.0555,
+        "gmv_max_roas": 1.445,
+        "commission_rate_pct": 20.54,
+        "refund_rate_pct": 15.03,
+        "aov": 28.08,
+        "gpm": 10.56,
+        "emv": 4437.56,
+        "gmv_per_sample_delivered": 357.41
       },
       "volume": {
-        "orders": 671,
-        "units_sold": 711.0,
-        "creators": 93,
+        "orders": 678,
+        "units_sold": 718.0,
+        "creators": 100,
         "samples_delivered": 49,
-        "video_views": 832491
+        "video_views": 887511
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 14421.54,
-          "share_pct": 73.8,
-          "video_gmv": 5230.39,
+          "total_gmv": 14539.5,
+          "share_pct": 73.7,
+          "video_gmv": 5313.36,
           "live_gmv": 7867.7,
-          "shop_tab_gmv": 2001.31,
-          "units_sold": 450
+          "shop_tab_gmv": 2021.3,
+          "units_sold": 454
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 3880.27,
-          "share_pct": 19.9,
-          "video_gmv": 3522.77,
+          "total_gmv": 3941.37,
+          "share_pct": 20.0,
+          "video_gmv": 3583.87,
           "live_gmv": 0,
           "shop_tab_gmv": 829.54,
-          "units_sold": 214
+          "units_sold": 217
         },
         {
           "product_id": "1729388554561294555",
@@ -463,7 +463,7 @@
           "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
           "price": 73.99,
           "total_gmv": 226.7,
-          "share_pct": 1.2,
+          "share_pct": 1.1,
           "video_gmv": 53.99,
           "live_gmv": 0,
           "shop_tab_gmv": 172.71,
@@ -647,7 +647,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, 4-Level Filtration System with Thick Thermal Lid, Filter, and Strainer for Versatile Coffee Brewing",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration System, Thick Glass Boilwater Carafe, 1.75 lbs, Lifetime Replace Support for Versatile Coffee Brewing",
           "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -804,60 +804,60 @@
     "month": {
       "range": "2026-08-15 to 2026-09-13",
       "revenue": {
-        "total_gmv": 59904.86,
-        "affiliate_gmv": 52275.47,
-        "video_gmv": 27558.86,
-        "live_gmv": 24181.71,
-        "shop_tab_gmv": 10537.87,
-        "gmv_max_revenue": 44260.91,
+        "total_gmv": 60083.92,
+        "affiliate_gmv": 53283.09,
+        "video_gmv": 28137.82,
+        "live_gmv": 24610.37,
+        "shop_tab_gmv": 10557.86,
+        "gmv_max_revenue": 44462.840000000004,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 34948.53,
-        "commission": 12270.65,
-        "refund_amount": 5710.71,
-        "shipping_fees": 17480.0
+        "ad_spend": 35073.47,
+        "commission": 12463.27,
+        "refund_amount": 6687.9,
+        "shipping_fees": 17533.2
       },
-      "net_after_ads_commissions_refunds": 6974.97,
+      "net_after_ads_commissions_refunds": 5859.28,
       "ratios": {
-        "blended_roas": 1.7141,
-        "gmv_max_roas": 1.2665,
-        "commission_rate_pct": 23.47,
-        "refund_rate_pct": 9.53,
-        "aov": 26.24,
-        "gpm": 8.8,
-        "emv": 15525.48,
-        "gmv_per_sample_delivered": 324.69
+        "blended_roas": 1.7131,
+        "gmv_max_roas": 1.2677,
+        "commission_rate_pct": 23.39,
+        "refund_rate_pct": 11.13,
+        "aov": 26.22,
+        "gpm": 8.83,
+        "emv": 15800.58,
+        "gmv_per_sample_delivered": 330.95
       },
       "volume": {
-        "orders": 2315,
-        "units_sold": 2502.0,
-        "creators": 267,
+        "orders": 2322,
+        "units_sold": 2509.0,
+        "creators": 273,
         "samples_delivered": 161,
-        "video_views": 3105096
+        "video_views": 3160116
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 42479.52,
+          "total_gmv": 42597.48,
           "share_pct": 70.9,
-          "video_gmv": 13762.67,
+          "video_gmv": 13845.64,
           "live_gmv": 24610.37,
-          "shop_tab_gmv": 6222.26,
-          "units_sold": 1431
+          "shop_tab_gmv": 6242.25,
+          "units_sold": 1435
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 14346.66,
-          "share_pct": 23.9,
-          "video_gmv": 12761.58,
+          "total_gmv": 14407.76,
+          "share_pct": 24.0,
+          "video_gmv": 12822.68,
           "live_gmv": 0,
           "shop_tab_gmv": 2633.52,
-          "units_sold": 927
+          "units_sold": 930
         },
         {
           "product_id": "1729388554561294555",
@@ -1092,7 +1092,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, 4-Level Filtration System with Thick Thermal Lid, Filter, and Strainer for Versatile Coffee Brewing",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration System, Thick Glass Boilwater Carafe, 1.75 lbs, Lifetime Replace Support for Versatile Coffee Brewing",
           "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1216,60 +1216,60 @@
     "60d": {
       "range": "2026-07-16 to 2026-09-13",
       "revenue": {
-        "total_gmv": 147105.34,
-        "affiliate_gmv": 130774.11,
-        "video_gmv": 80220.73,
-        "live_gmv": 49186.12,
-        "shop_tab_gmv": 20512.4,
-        "gmv_max_revenue": 133295.18,
+        "total_gmv": 147284.4,
+        "affiliate_gmv": 131781.73,
+        "video_gmv": 80799.69,
+        "live_gmv": 49614.78,
+        "shop_tab_gmv": 20532.39,
+        "gmv_max_revenue": 133497.11,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 128056.63,
-        "commission": 31679.14,
-        "refund_amount": 14053.99,
-        "shipping_fees": 46192.8
+        "ad_spend": 128181.57,
+        "commission": 31871.76,
+        "refund_amount": 15031.18,
+        "shipping_fees": 46246.0
       },
-      "net_after_ads_commissions_refunds": -26684.42,
+      "net_after_ads_commissions_refunds": -27800.11,
       "ratios": {
-        "blended_roas": 1.1488,
-        "gmv_max_roas": 1.0409,
-        "commission_rate_pct": 24.22,
-        "refund_rate_pct": 9.55,
-        "aov": 24.85,
-        "gpm": 8.17,
-        "emv": 48936.48,
-        "gmv_per_sample_delivered": 226.64
+        "blended_roas": 1.149,
+        "gmv_max_roas": 1.0415,
+        "commission_rate_pct": 24.19,
+        "refund_rate_pct": 10.21,
+        "aov": 24.84,
+        "gpm": 8.18,
+        "emv": 49211.58,
+        "gmv_per_sample_delivered": 228.39
       },
       "volume": {
-        "orders": 6100,
-        "units_sold": 6912.0,
-        "creators": 580,
+        "orders": 6107,
+        "units_sold": 6919.0,
+        "creators": 583,
         "samples_delivered": 577,
-        "video_views": 9787296
+        "video_views": 9842316
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 98211.62,
+          "total_gmv": 98329.58,
           "share_pct": 66.8,
-          "video_gmv": 38252.59,
+          "video_gmv": 38335.56,
           "live_gmv": 49536.81,
-          "shop_tab_gmv": 12899.72,
-          "units_sold": 3647
+          "shop_tab_gmv": 12919.71,
+          "units_sold": 3651
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 40556.16,
+          "total_gmv": 40617.26,
           "share_pct": 27.6,
-          "video_gmv": 36717.14,
+          "video_gmv": 36778.24,
           "live_gmv": 77.97,
           "shop_tab_gmv": 5005.27,
-          "units_sold": 2736
+          "units_sold": 2739
         },
         {
           "product_id": "1729388554561294555",
@@ -1537,7 +1537,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, 4-Level Filtration System with Thick Thermal Lid, Filter, and Strainer for Versatile Coffee Brewing",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration System, Thick Glass Boilwater Carafe, 1.75 lbs, Lifetime Replace Support for Versatile Coffee Brewing",
           "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1661,60 +1661,60 @@
     "90d": {
       "range": "2026-06-16 to 2026-09-13",
       "revenue": {
-        "total_gmv": 183768.24,
-        "affiliate_gmv": 163526.08,
-        "video_gmv": 106490.69,
-        "live_gmv": 55341.1,
-        "shop_tab_gmv": 25477.27,
-        "gmv_max_revenue": 169940.88999999998,
+        "total_gmv": 183947.3,
+        "affiliate_gmv": 164533.7,
+        "video_gmv": 107069.65,
+        "live_gmv": 55769.76,
+        "shop_tab_gmv": 25497.26,
+        "gmv_max_revenue": 170142.82,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 168320.75999999998,
-        "commission": 37564.52,
-        "refund_amount": 17227.09,
-        "shipping_fees": 56392.0
+        "ad_spend": 168445.69999999998,
+        "commission": 37757.14,
+        "refund_amount": 18204.28,
+        "shipping_fees": 56445.2
       },
-      "net_after_ads_commissions_refunds": -39344.13,
+      "net_after_ads_commissions_refunds": -40459.82,
       "ratios": {
-        "blended_roas": 1.0918,
-        "gmv_max_roas": 1.0096,
-        "commission_rate_pct": 22.97,
-        "refund_rate_pct": 9.37,
-        "aov": 25.72,
-        "gpm": 7.61,
-        "emv": 69791.83,
-        "gmv_per_sample_delivered": 168.24
+        "blended_roas": 1.092,
+        "gmv_max_roas": 1.0101,
+        "commission_rate_pct": 22.95,
+        "refund_rate_pct": 9.9,
+        "aov": 25.71,
+        "gpm": 7.62,
+        "emv": 70066.93,
+        "gmv_per_sample_delivered": 169.27
       },
       "volume": {
-        "orders": 7450,
-        "units_sold": 8409.0,
-        "creators": 860,
+        "orders": 7457,
+        "units_sold": 8416.0,
+        "creators": 863,
         "samples_delivered": 972,
-        "video_views": 13958366
+        "video_views": 14013386
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 119378.12,
+          "total_gmv": 119496.08,
           "share_pct": 65.0,
-          "video_gmv": 50880.94,
+          "video_gmv": 50963.91,
           "live_gmv": 55664.81,
-          "shop_tab_gmv": 15328.1,
-          "units_sold": 4477
+          "shop_tab_gmv": 15348.09,
+          "units_sold": 4481
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
+          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 55047.5,
+          "total_gmv": 55108.6,
           "share_pct": 30.0,
-          "video_gmv": 49994.08,
+          "video_gmv": 50055.18,
           "live_gmv": 104.95,
           "shop_tab_gmv": 6637.53,
-          "units_sold": 3376
+          "units_sold": 3379
         },
         {
           "product_id": "1729388554561294555",
@@ -1927,7 +1927,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, 4-Level Filtration System with Thick Thermal Lid, Filter, and Strainer for Versatile Coffee Brewing",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration System, Thick Glass Boilwater Carafe, 1.75 lbs, Lifetime Replace Support for Versatile Coffee Brewing",
           "price": 35.99,
           "total_gmv": 55.84,
           "share_pct": 0.0,

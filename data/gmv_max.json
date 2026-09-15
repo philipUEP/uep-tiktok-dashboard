@@ -1,26 +1,26 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-09-14"
+    "pulled_on": "2026-09-15"
   },
   "periods": {
     "week": {
       "range": "2026-09-07 to 2026-09-13",
       "totals": {
-        "revenue": 4987.83,
-        "spend": 2950.45,
-        "orders": 174,
-        "roi": 1.691
+        "revenue": 5189.76,
+        "spend": 3075.39,
+        "orders": 181,
+        "roi": 1.688
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 2410.72,
-          "spend": 1213.57,
-          "roi": 1.986,
-          "orders": 57,
-          "cost_per_order": 21.29,
+          "revenue": 2550.68,
+          "spend": 1282.55,
+          "roi": 1.989,
+          "orders": 61,
+          "cost_per_order": 21.03,
           "roas_target": 2.3,
           "status": "ENABLE",
           "start": "2026-06-26"
@@ -28,11 +28,11 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 2061.0,
-          "spend": 1040.01,
-          "roi": 1.982,
-          "orders": 97,
-          "cost_per_order": 10.72,
+          "revenue": 2122.97,
+          "spend": 1088.67,
+          "roi": 1.95,
+          "orders": 100,
+          "cost_per_order": 10.89,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
@@ -41,10 +41,10 @@
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
           "revenue": 290.18,
-          "spend": 366.21,
-          "roi": 0.792,
+          "spend": 371.56,
+          "roi": 0.781,
           "orders": 13,
-          "cost_per_order": 28.17,
+          "cost_per_order": 28.58,
           "roas_target": 2.0,
           "status": "ENABLE",
           "start": "2026-07-13"
@@ -53,10 +53,10 @@
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
           "revenue": 225.93,
-          "spend": 330.66,
-          "roi": 0.683,
+          "spend": 332.61,
+          "roi": 0.679,
           "orders": 7,
-          "cost_per_order": 47.24,
+          "cost_per_order": 47.52,
           "roas_target": 5.4,
           "status": "ENABLE",
           "start": "2026-08-21"
@@ -366,20 +366,20 @@
     "14d": {
       "range": "2026-08-31 to 2026-09-13",
       "totals": {
-        "revenue": 13663.18,
-        "spend": 9470.17,
-        "orders": 437,
-        "roi": 1.443
+        "revenue": 13865.11,
+        "spend": 9595.11,
+        "orders": 444,
+        "roi": 1.445
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 8072.8,
-          "spend": 5464.5,
-          "roi": 1.477,
-          "orders": 195,
-          "cost_per_order": 28.02,
+          "revenue": 8212.76,
+          "spend": 5533.48,
+          "roi": 1.484,
+          "orders": 199,
+          "cost_per_order": 27.81,
           "roas_target": 2.3,
           "status": "ENABLE",
           "start": "2026-06-26"
@@ -387,11 +387,11 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 4404.48,
-          "spend": 2586.74,
-          "roi": 1.703,
-          "orders": 202,
-          "cost_per_order": 12.81,
+          "revenue": 4466.45,
+          "spend": 2635.4,
+          "roi": 1.695,
+          "orders": 205,
+          "cost_per_order": 12.86,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
@@ -400,10 +400,10 @@
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
           "revenue": 729.81,
-          "spend": 682.19,
-          "roi": 1.07,
+          "spend": 684.14,
+          "roi": 1.067,
           "orders": 18,
-          "cost_per_order": 37.9,
+          "cost_per_order": 38.01,
           "roas_target": 5.4,
           "status": "ENABLE",
           "start": "2026-08-21"
@@ -412,10 +412,10 @@
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
           "revenue": 456.09,
-          "spend": 736.74,
-          "roi": 0.619,
+          "spend": 742.09,
+          "roi": 0.615,
           "orders": 22,
-          "cost_per_order": 33.49,
+          "cost_per_order": 33.73,
           "roas_target": 2.0,
           "status": "ENABLE",
           "start": "2026-07-13"
@@ -725,20 +725,20 @@
     "month": {
       "range": "2026-08-15 to 2026-09-13",
       "totals": {
-        "revenue": 44260.91,
-        "spend": 34948.53,
-        "orders": 1554,
-        "roi": 1.266
+        "revenue": 44462.84,
+        "spend": 35073.47,
+        "orders": 1561,
+        "roi": 1.268
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 23633.66,
-          "spend": 18359.72,
-          "roi": 1.287,
-          "orders": 597,
-          "cost_per_order": 30.75,
+          "revenue": 23773.62,
+          "spend": 18428.7,
+          "roi": 1.29,
+          "orders": 601,
+          "cost_per_order": 30.66,
           "roas_target": 2.3,
           "status": "ENABLE",
           "start": "2026-06-26"
@@ -746,10 +746,10 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 17448.21,
-          "spend": 12675.3,
-          "roi": 1.377,
-          "orders": 826,
+          "revenue": 17510.18,
+          "spend": 12723.96,
+          "roi": 1.376,
+          "orders": 829,
           "cost_per_order": 15.35,
           "roas_target": 2.5,
           "status": "ENABLE",
@@ -759,10 +759,10 @@
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
           "revenue": 1908.97,
-          "spend": 2851.01,
-          "roi": 0.67,
+          "spend": 2856.36,
+          "roi": 0.668,
           "orders": 93,
-          "cost_per_order": 30.66,
+          "cost_per_order": 30.71,
           "roas_target": 2.0,
           "status": "ENABLE",
           "start": "2026-07-13"
@@ -771,10 +771,10 @@
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
           "revenue": 1270.07,
-          "spend": 1062.5,
-          "roi": 1.195,
+          "spend": 1064.45,
+          "roi": 1.193,
           "orders": 38,
-          "cost_per_order": 27.96,
+          "cost_per_order": 28.01,
           "roas_target": 5.4,
           "status": "ENABLE",
           "start": "2026-08-21"
@@ -1084,20 +1084,20 @@
     "60d": {
       "range": "2026-07-16 to 2026-09-13",
       "totals": {
-        "revenue": 133295.18,
-        "spend": 128056.63,
-        "orders": 4514,
+        "revenue": 133497.11,
+        "spend": 128181.57,
+        "orders": 4521,
         "roi": 1.041
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 67762.7,
-          "spend": 66585.89,
-          "roi": 1.018,
-          "orders": 1706,
-          "cost_per_order": 39.03,
+          "revenue": 67902.66,
+          "spend": 66654.87,
+          "roi": 1.019,
+          "orders": 1710,
+          "cost_per_order": 38.98,
           "roas_target": 2.3,
           "status": "ENABLE",
           "start": "2026-06-26"
@@ -1105,10 +1105,10 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 54424.8,
-          "spend": 46053.3,
+          "revenue": 54486.77,
+          "spend": 46101.96,
           "roi": 1.182,
-          "orders": 2320,
+          "orders": 2323,
           "cost_per_order": 19.85,
           "roas_target": 2.5,
           "status": "ENABLE",
@@ -1118,10 +1118,10 @@
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
           "revenue": 9837.61,
-          "spend": 13765.53,
-          "roi": 0.715,
+          "spend": 13770.88,
+          "roi": 0.714,
           "orders": 450,
-          "cost_per_order": 30.59,
+          "cost_per_order": 30.6,
           "roas_target": 2.0,
           "status": "ENABLE",
           "start": "2026-07-13"
@@ -1130,10 +1130,10 @@
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
           "revenue": 1270.07,
-          "spend": 1062.5,
-          "roi": 1.195,
+          "spend": 1064.45,
+          "roi": 1.193,
           "orders": 38,
-          "cost_per_order": 27.96,
+          "cost_per_order": 28.01,
           "roas_target": 5.4,
           "status": "ENABLE",
           "start": "2026-08-21"
@@ -1443,20 +1443,20 @@
     "90d": {
       "range": "2026-06-16 to 2026-09-13",
       "totals": {
-        "revenue": 169940.89,
-        "spend": 168320.76,
-        "orders": 5617,
+        "revenue": 170142.82,
+        "spend": 168445.7,
+        "orders": 5624,
         "roi": 1.01
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 88503.56,
-          "spend": 92971.82,
-          "roi": 0.952,
-          "orders": 2251,
-          "cost_per_order": 41.3,
+          "revenue": 88643.52,
+          "spend": 93040.8,
+          "roi": 0.953,
+          "orders": 2255,
+          "cost_per_order": 41.26,
           "roas_target": 2.3,
           "status": "ENABLE",
           "start": "2026-06-26"
@@ -1464,10 +1464,10 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 70329.65,
-          "spend": 59608.96,
+          "revenue": 70391.62,
+          "spend": 59657.62,
           "roi": 1.18,
-          "orders": 2878,
+          "orders": 2881,
           "cost_per_order": 20.71,
           "roas_target": 2.5,
           "status": "ENABLE",
@@ -1477,10 +1477,10 @@
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
           "revenue": 9837.61,
-          "spend": 14088.07,
+          "spend": 14093.42,
           "roi": 0.698,
           "orders": 450,
-          "cost_per_order": 31.31,
+          "cost_per_order": 31.32,
           "roas_target": 2.0,
           "status": "ENABLE",
           "start": "2026-07-13"
@@ -1489,10 +1489,10 @@
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
           "revenue": 1270.07,
-          "spend": 1062.5,
-          "roi": 1.195,
+          "spend": 1064.45,
+          "roi": 1.193,
           "orders": 38,
-          "cost_per_order": 27.96,
+          "cost_per_order": 28.01,
           "roas_target": 5.4,
           "status": "ENABLE",
           "start": "2026-08-21"

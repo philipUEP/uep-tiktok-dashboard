@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats with product_id + include_charts",
-    "pulled_on": "2026-09-14",
+    "pulled_on": "2026-09-15",
     "range": {
       "from": "2026-09-07",
       "to": "2026-09-13"
@@ -11,7 +11,7 @@
     {
       "product_id": "1729385884864975067",
       "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-      "total_gmv": 4567.75,
+      "total_gmv": 4685.71,
       "daily": [
         {
           "date": "2026-09-07",
@@ -45,15 +45,15 @@
         },
         {
           "date": "2026-09-13",
-          "gmv": 729.34,
-          "units": 20.0
+          "gmv": 847.3,
+          "units": 24.0
         }
       ]
     },
     {
       "product_id": "1729391862339113179",
-      "product_name": "Flux Phenom Fiberglass Magnetic Door Screen (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Easy Install, Standard for Front Doors & Apartments, Pet & Kid Friendly",
-      "total_gmv": 1811.44,
+      "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
+      "total_gmv": 1872.54,
       "daily": [
         {
           "date": "2026-09-07",
@@ -87,8 +87,8 @@
         },
         {
           "date": "2026-09-13",
-          "gmv": 295.96,
-          "units": 16.0
+          "gmv": 357.06,
+          "units": 19.0
         }
       ]
     },
