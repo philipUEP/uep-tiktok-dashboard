@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats + /ads/campaigns (in-progress week, live read)",
-    "pulled_at": "2026-09-16T06:26:52.860510+00:00"
+    "pulled_at": "2026-09-16T06:28:53.173079+00:00"
   },
   "week_range": "2026-09-14 to 2026-09-16",
   "values": {
@@ -22,7 +22,6 @@
     "gmv_max_spend": 687.46,
     "gmv_max_roas": 1.437
   },
-  "stale": true,
-  "last_error": "HTTP Error 502: Bad Gateway",
-  "last_error_at": "2026-09-16T06:26:52.860510+00:00"
+  "stale": false,
+  "last_error": null
 }
