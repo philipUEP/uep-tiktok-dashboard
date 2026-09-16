@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-15",
+    "pulled_on": "2026-09-16",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -379,7 +379,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort | Neck Pillow for Travel",
-          "price": 47.99,
+          "price": 39.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -791,7 +791,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort | Neck Pillow for Travel",
-          "price": 47.99,
+          "price": 39.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1203,7 +1203,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort | Neck Pillow for Travel",
-          "price": 47.99,
+          "price": 39.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1648,7 +1648,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort | Neck Pillow for Travel",
-          "price": 47.99,
+          "price": 39.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -2104,7 +2104,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort | Neck Pillow for Travel",
-          "price": 47.99,
+          "price": 39.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
