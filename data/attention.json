@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-15T07:21:14Z",
+  "updated_at": "2026-09-16T07:21:20+00:00",
   "items": [
     {
       "metric": "Samples shipped",
-      "current": 6,
-      "prior": 29,
+      "current": 6.0,
+      "prior": 29.0,
       "pct": -79.3,
       "direction": "down",
-      "effect": "Three straight weekly declines (49, 29, 6) with 0 approvals and 0 Ready to Ship means affiliate content supply for late September and early October is already committed low.",
-      "action": "Approve the 65 requests in To Review before the 2026-09-22 expiries, highest post rate first, starting with dancewithmeladie at 94.1%."
+      "effect": "Inferred: samples are the upstream input to affiliate video on a one to two week lag, so October content supply is already committed low.",
+      "action": "Inferred: clear the To Review queue before its earliest 2026-09-17 expiry and reinstate a daily approval floor."
     },
     {
       "metric": "Samples delivered",
-      "current": 14,
-      "prior": 35,
+      "current": 14.0,
+      "prior": 35.0,
       "pct": -60.0,
       "direction": "down",
-      "effect": "Fewer creators hold product, so video output and affiliate GMV keep falling on a one to two week lag even if approvals resume today.",
-      "action": "Refill Ready to Ship, which now stands at 0, and clear the shipped queue before adding new outreach volume."
+      "effect": "Inferred: third weekly decline, so fewer creators reach the posting stage and affiliate video volume keeps falling with it.",
+      "action": "Inferred: refill Ready to Ship, currently 1, and confirm shipment on approved requests within 48 hours."
     },
     {
       "metric": "LIVE GMV",
@@ -25,8 +25,8 @@
       "prior": 5429.77,
       "pct": -55.1,
       "direction": "down",
-      "effect": "Streams held near flat while GMV halved, so this is a conversion and yield loss rather than a scheduling gap.",
-      "action": "Re-brief boldvideos7, holder of the week's top three streams, before adding stream volume."
+      "effect": "Inferred: live is a yield problem rather than a scheduling one, since 36 streams in three days produced 0.00 attributed LIVE GMV.",
+      "action": "Inferred: re-brief boldvideos7, which holds the week's top streams, before adding stream volume."
     },
     {
       "metric": "GMV",
@@ -34,26 +34,26 @@
       "prior": 12506.06,
       "pct": -42.3,
       "direction": "down",
-      "effect": "Third weekly decline, with orders (730, 428, 250), units (784, 454, 264) and affiliate GMV (15,297.10, 11,253.69, 6,259.25) all declining on the same run.",
-      "action": "Prioritise sample outflow, the upstream input for the channel that supplies 86.7% of GMV, over commission or list changes."
+      "effect": "Inferred: third weekly decline in a row, and the in-progress pace of 448.90 per day points to a fourth.",
+      "action": "Inferred: prioritise the supply restart in samples because advertising and outreach volumes are already running."
     },
     {
-      "metric": "Back to School campaign ROAS",
-      "current": 0.679,
-      "prior": 1.433,
-      "pct": -52.6,
+      "metric": "Shop Wide campaign ROAS (breakeven 1.0)",
+      "current": 0.781,
+      "prior": 1.0,
+      "pct": -21.9,
       "direction": "down",
-      "effect": "The auto-created campaign runs below 1.0 breakeven and far below its 5.4 target, so its 332.61 weekly spend loses money before COGS.",
-      "action": "Pause or reallocate its budget to Screen Door at 1.95 or Bidet 7/6 at 1.989, both above breakeven."
+      "effect": "Inferred: the campaign returns less than it spends, 371.56 spend against 290.18 revenue this week.",
+      "action": "Inferred: pause or move the budget into Screen Door at 1.95 and Bidet 7/6 at 1.989."
     },
     {
-      "metric": "Sample rejection rate",
-      "current": 60.07,
-      "prior": 59.4,
-      "pct": 1.1,
+      "metric": "Sample rejection rate %",
+      "current": 54.0,
+      "prior": 50.0,
+      "pct": 8.0,
       "direction": "up",
-      "effect": "Three in five non-canceled sample requests are rejected, which starves content supply while 65 requests sit unreviewed.",
-      "action": "Review rejection reasons and prioritise high post rate applicants over high follower counts."
+      "effect": "Inferred: more than half of sample demand is refused, which starves future affiliate content supply.",
+      "action": "Inferred: review the rejection reason mix and screen applications on post rate before rejecting."
     }
   ]
 }
