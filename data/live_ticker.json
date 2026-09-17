@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats + /ads/campaigns (in-progress week, live read)",
-    "pulled_at": "2026-09-17T18:26:34.866860+00:00"
+    "pulled_at": "2026-09-17T18:28:35.161421+00:00"
   },
   "week_range": "2026-09-14 to 2026-09-17",
   "values": {
@@ -14,9 +14,9 @@
     "distinct_creators": 28,
     "video_views": 161928,
     "live_gmv": 68.98,
-    "dms_sent": 7028,
+    "dms_sent": 7046,
     "sample_requests": 46,
-    "samples_approved": 6,
+    "samples_approved": 7,
     "lives_posted": 49,
     "gmv_max_revenue": 1379.46,
     "gmv_max_spend": 1087.2,
