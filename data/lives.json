@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /affiliate/lives/list",
-    "pulled_on": "2026-09-16"
+    "pulled_on": "2026-09-17"
   },
   "periods": {
     "week": {
@@ -12,7 +12,7 @@
       "totals": {
         "gmv": 1974.28,
         "units": 62,
-        "views": 448809,
+        "views": 418725,
         "streams": 116
       },
       "lives": [
@@ -33,7 +33,7 @@
           "title": "LABOR DAY SALES",
           "gmv": 371.75,
           "units": 10,
-          "views": 23459,
+          "views": 11730,
           "likes": 30,
           "comments": 44,
           "duration_min": 79.9,
@@ -45,7 +45,7 @@
           "title": "LABOR DAY SALES",
           "gmv": 355.03,
           "units": 12,
-          "views": 36711,
+          "views": 18356,
           "likes": 9,
           "comments": 65,
           "duration_min": 82.2,
@@ -326,7 +326,7 @@
       "totals": {
         "gmv": 8326.11,
         "units": 265,
-        "views": 1019020,
+        "views": 988936,
         "streams": 251
       },
       "lives": [
@@ -431,7 +431,7 @@
           "title": "LABOR DAY SALES",
           "gmv": 371.75,
           "units": 10,
-          "views": 23459,
+          "views": 11730,
           "likes": 30,
           "comments": 44,
           "duration_min": 79.9,
@@ -443,7 +443,7 @@
           "title": "LABOR DAY SALES",
           "gmv": 355.03,
           "units": 12,
-          "views": 36711,
+          "views": 18356,
           "likes": 9,
           "comments": 65,
           "duration_min": 82.2,
@@ -638,9 +638,9 @@
       "total_count": 633,
       "truncated": false,
       "totals": {
-        "gmv": 24193.18,
-        "units": 794,
-        "views": 3209050,
+        "gmv": 24161.19,
+        "units": 793,
+        "views": 3214518,
         "streams": 633
       },
       "lives": [
@@ -729,18 +729,6 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
-          "handle": "muscle_dad",
-          "title": "Exclusive Live Flash Sale",
-          "gmv": 685.7,
-          "units": 23,
-          "views": 17778,
-          "likes": 121,
-          "comments": 45,
-          "duration_min": 85.7,
-          "start": "08/16/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
           "handle": "fortune0420",
           "title": "\"Bidet\" flash sale!!",
           "gmv": 670.42,
@@ -750,6 +738,18 @@
           "comments": 99,
           "duration_min": 171.8,
           "start": "08/20/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "muscle_dad",
+          "title": "Exclusive Live Flash Sale",
+          "gmv": 653.71,
+          "units": 22,
+          "views": 53330,
+          "likes": 121,
+          "comments": 45,
+          "duration_min": 85.7,
+          "start": "08/16/2026",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
@@ -952,9 +952,9 @@
       "total_count": 1332,
       "truncated": true,
       "totals": {
-        "gmv": 48644.01,
-        "units": 1691,
-        "views": 6434318,
+        "gmv": 48612.02,
+        "units": 1690,
+        "views": 6439786,
         "streams": 1000
       },
       "lives": [
@@ -1151,18 +1151,6 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
-          "handle": "muscle_dad",
-          "title": "Exclusive Live Flash Sale",
-          "gmv": 685.7,
-          "units": 23,
-          "views": 17778,
-          "likes": 121,
-          "comments": 45,
-          "duration_min": 85.7,
-          "start": "08/16/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
           "handle": "fortune0420",
           "title": "\"Bidet\" flash sale!!",
           "gmv": 679.37,
@@ -1184,6 +1172,18 @@
           "comments": 99,
           "duration_min": 171.8,
           "start": "08/20/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "muscle_dad",
+          "title": "Exclusive Live Flash Sale",
+          "gmv": 653.71,
+          "units": 22,
+          "views": 53330,
+          "likes": 121,
+          "comments": 45,
+          "duration_min": 85.7,
+          "start": "08/16/2026",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
@@ -1266,9 +1266,9 @@
       "total_count": 1776,
       "truncated": true,
       "totals": {
-        "gmv": 54545.19,
-        "units": 1882,
-        "views": 6811803,
+        "gmv": 54513.2,
+        "units": 1881,
+        "views": 6817271,
         "streams": 1000
       },
       "lives": [
@@ -1489,18 +1489,6 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
-          "handle": "muscle_dad",
-          "title": "Exclusive Live Flash Sale",
-          "gmv": 685.7,
-          "units": 23,
-          "views": 17778,
-          "likes": 121,
-          "comments": 45,
-          "duration_min": 85.7,
-          "start": "08/16/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
           "handle": "fortune0420",
           "title": "\"Bidet\" flash sale!!",
           "gmv": 679.37,
@@ -1522,6 +1510,18 @@
           "comments": 99,
           "duration_min": 171.8,
           "start": "08/20/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "muscle_dad",
+          "title": "Exclusive Live Flash Sale",
+          "gmv": 653.71,
+          "units": 22,
+          "views": 53330,
+          "likes": 121,
+          "comments": 45,
+          "duration_min": 85.7,
+          "start": "08/16/2026",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
