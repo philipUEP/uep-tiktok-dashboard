@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-18",
+    "pulled_on": "2026-09-19",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -323,7 +323,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
           "price": 23.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -334,7 +334,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Lumbar Pillow - Durable, Breathable Mesh Cover, Adjustable Straps, Machine Wash Removable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car",
+          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -367,7 +367,7 @@
         },
         {
           "product_id": "1732604651629416667",
-          "product_name": "Everlasting Comfort | Car Seat Cushion for Driving - Memory Foam, Washable Cover, Back + Sciatica Relief",
+          "product_name": "Everlasting Comfort Car Seat Cushion - Memory Foam, Washable Cover, Back & Sciatica Relief for Driving, Automotive Cars Accessories",
           "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -420,7 +420,7 @@
       "volume": {
         "orders": 678,
         "units_sold": 718.0,
-        "creators": 100,
+        "creators": 99,
         "samples_delivered": 49,
         "video_views": 887511
       },
@@ -548,7 +548,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Lumbar Pillow - Durable, Breathable Mesh Cover, Adjustable Straps, Machine Wash Removable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car",
+          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
           "price": 59.99,
           "total_gmv": 55.47,
           "share_pct": 0.3,
@@ -757,7 +757,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
           "price": 23.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -779,7 +779,7 @@
         },
         {
           "product_id": "1732604651629416667",
-          "product_name": "Everlasting Comfort | Car Seat Cushion for Driving - Memory Foam, Washable Cover, Back + Sciatica Relief",
+          "product_name": "Everlasting Comfort Car Seat Cushion - Memory Foam, Washable Cover, Back & Sciatica Relief for Driving, Automotive Cars Accessories",
           "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -832,7 +832,7 @@
       "volume": {
         "orders": 2322,
         "units_sold": 2509.0,
-        "creators": 271,
+        "creators": 270,
         "samples_delivered": 161,
         "video_views": 3160116
       },
@@ -916,7 +916,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Lumbar Pillow - Durable, Breathable Mesh Cover, Adjustable Straps, Machine Wash Removable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car",
+          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
           "price": 59.99,
           "total_gmv": 161.09,
           "share_pct": 0.3,
@@ -1048,7 +1048,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
           "price": 23.99,
           "total_gmv": 23.25,
           "share_pct": 0.0,
@@ -1191,7 +1191,7 @@
         },
         {
           "product_id": "1732604651629416667",
-          "product_name": "Everlasting Comfort | Car Seat Cushion for Driving - Memory Foam, Washable Cover, Back + Sciatica Relief",
+          "product_name": "Everlasting Comfort Car Seat Cushion - Memory Foam, Washable Cover, Back & Sciatica Relief for Driving, Automotive Cars Accessories",
           "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1339,7 +1339,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Lumbar Pillow - Durable, Breathable Mesh Cover, Adjustable Straps, Machine Wash Removable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car",
+          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
           "price": 59.99,
           "total_gmv": 205.08,
           "share_pct": 0.1,
@@ -1460,7 +1460,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
           "price": 23.99,
           "total_gmv": 40.76,
           "share_pct": 0.0,
@@ -1636,7 +1636,7 @@
         },
         {
           "product_id": "1732604651629416667",
-          "product_name": "Everlasting Comfort | Car Seat Cushion for Driving - Memory Foam, Washable Cover, Back + Sciatica Relief",
+          "product_name": "Everlasting Comfort Car Seat Cushion - Memory Foam, Washable Cover, Back & Sciatica Relief for Driving, Automotive Cars Accessories",
           "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1689,7 +1689,7 @@
       "volume": {
         "orders": 7457,
         "units_sold": 8416.0,
-        "creators": 844,
+        "creators": 843,
         "samples_delivered": 972,
         "video_views": 14013386
       },
@@ -1773,7 +1773,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Lumbar Pillow - Durable, Breathable Mesh Cover, Adjustable Straps, Machine Wash Removable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car",
+          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
           "price": 59.99,
           "total_gmv": 292.56,
           "share_pct": 0.2,
@@ -1949,7 +1949,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Compact Airplane & Car Desk Accessory, Adjustable Straps, Shape-Hold Base, Durable Car Interior Mount with Comfortable Travel Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
           "price": 23.99,
           "total_gmv": 40.76,
           "share_pct": 0.0,
@@ -2092,7 +2092,7 @@
         },
         {
           "product_id": "1732604651629416667",
-          "product_name": "Everlasting Comfort | Car Seat Cushion for Driving - Memory Foam, Washable Cover, Back + Sciatica Relief",
+          "product_name": "Everlasting Comfort Car Seat Cushion - Memory Foam, Washable Cover, Back & Sciatica Relief for Driving, Automotive Cars Accessories",
           "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,

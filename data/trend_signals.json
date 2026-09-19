@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:00:58.906267+00:00",
+  "generated_at": "2026-09-19T07:01:14.149152+00:00",
   "weeks": [
     {
       "total_gmv": 15825.92,
@@ -31,7 +31,7 @@
       "sample_requests": 105,
       "samples_shipped": 49,
       "samples_delivered": 43,
-      "videos_posted": 96,
+      "videos_posted": 92,
       "distinct_creators": 66,
       "_range": "2026-08-24 to 2026-08-30"
     },
@@ -48,8 +48,8 @@
       "sample_requests": 168,
       "samples_shipped": 29,
       "samples_delivered": 35,
-      "videos_posted": 53,
-      "distinct_creators": 47,
+      "videos_posted": 52,
+      "distinct_creators": 46,
       "_range": "2026-08-31 to 2026-09-06"
     },
     {
@@ -145,14 +145,14 @@
     ],
     "videos_posted": [
       166.0,
-      96.0,
-      53.0,
+      92.0,
+      52.0,
       81.0
     ],
     "distinct_creators": [
       110.0,
       66.0,
-      47.0,
+      46.0,
       62.0
     ]
   },
@@ -249,16 +249,16 @@
       "metric": "distinct_creators",
       "label": "Creators posting",
       "current": 62.0,
-      "prior": 47.0,
-      "pct": 31.9,
+      "prior": 46.0,
+      "pct": 34.8,
       "direction": "up"
     },
     {
       "metric": "videos_posted",
       "label": "Videos posted",
       "current": 81.0,
-      "prior": 53.0,
-      "pct": 52.8,
+      "prior": 52.0,
+      "pct": 55.8,
       "direction": "up"
     },
     {
