@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-09-19T07:21:46+00:00",
+  "updated_at": "2026-09-20T07:23:10+00:00",
   "items": [
     {
-      "metric": "Samples shipped",
-      "current": 6.0,
-      "prior": 29.0,
-      "pct": -79.3,
+      "metric": "LIVE GMV (in-progress week Sep 14 to 20 vs Sep 7 to 13, third week of decline)",
+      "current": 307.62,
+      "prior": 2437.93,
+      "pct": -87.4,
       "direction": "down",
-      "effect": "Samples are the upstream input to affiliate video on a one to two week lag, so 6 shipped and 0 approved in the completed week caps late September and October content supply.",
-      "action": "Work the 36 To Review requests today, highest post rate first, before the 3 expiring today and the 13 expiring 2026-09-20 lapse."
+      "effect": "96 streams in the in-progress week produced 307.62, or 3.20 per stream against 17.02 in the completed week, so live is a yield problem rather than a scheduling one.",
+      "action": "Re-brief boldvideos7, holder of the top four streams at 515.00, 371.75, 355.03 and 310.80, and hold stream volume near 116 instead of adding it."
     },
     {
-      "metric": "Samples delivered",
-      "current": 14.0,
-      "prior": 35.0,
-      "pct": -60.0,
+      "metric": "Affiliate GMV (third week of decline)",
+      "current": 1885.08,
+      "prior": 6259.25,
+      "pct": -69.9,
       "direction": "down",
-      "effect": "Third weekly decline, so creator content output in the next two weeks is already capped by a smaller delivered base.",
-      "action": "Convert Ready to Ship from 8 to shipped this week and keep the 19 in-progress approvals moving toward shipment."
+      "effect": "Affiliate share of GMV fell to 61.8% from 86.7%, so the creator channel is shrinking faster than the shop total.",
+      "action": "Move sample approvals into shipment today, since affiliate GMV follows sample delivery by one to two weeks."
     },
     {
-      "metric": "LIVE GMV",
-      "current": 2437.93,
-      "prior": 5429.77,
-      "pct": -55.1,
+      "metric": "GMV (in-progress week Sep 14 to 20, six complete days, vs Sep 7 to 13; third week of decline; 10 metrics in three week runs)",
+      "current": 3048.52,
+      "prior": 7216.49,
+      "pct": -57.8,
       "direction": "down",
-      "effect": "Live is a yield problem rather than a scheduling one, since 83 streams in the in-progress week produced 68.98, or 0.83 per stream against 17.02.",
-      "action": "Re-brief boldvideos7, holder of the week's top streams (515.00, 371.75, 355.03), and cap stream volume instead of adding it."
+      "effect": "Day normalized the week runs at 508.09 against 1,030.93, so the -57.8% is partly the missing seventh day and the attribution lag after Sep 13.",
+      "action": "Track the Sep 20 close, which needs 4,167.97 in one day to reach parity, and keep approvals and shipping moving as the only input lever that reaches October GMV."
     },
     {
-      "metric": "GMV",
-      "current": 7216.49,
-      "prior": 12506.06,
-      "pct": -42.3,
+      "metric": "Sample requests (third week of decline, upstream of affiliate content)",
+      "current": 63.0,
+      "prior": 129.0,
+      "pct": -51.2,
       "direction": "down",
-      "effect": "Third weekly decline in a row, and the in-progress read of 2,247.26 from Sep 14 to 19 runs at 374.54 per day against 1,030.93.",
-      "action": "Keep approvals and shipping moving, since sample throughput is the only input lever that reaches October GMV."
+      "effect": "Fewer inbound requests plus a 53.7% rejection rate starves the sample to video to GMV chain in late September and October.",
+      "action": "Clear the 36 To Review requests today, highest post rate first, before the 13 that expire today and the 17 that expire by Sep 22 lapse."
     },
     {
-      "metric": "Sub-1.0 GMV Max campaigns blended ROAS (Shop Wide 0.781 + Back to School 0.679, breakeven 1.0)",
+      "metric": "Sub-1.0 GMV Max campaigns blended ROAS against breakeven 1.0 (Shop Wide 0.781, Back to School 0.679)",
       "current": 0.733,
       "prior": 1.0,
       "pct": -26.7,
       "direction": "down",
-      "effect": "The pair spent 704.17 for 516.11 of revenue this week, about -188.06 of contribution before COGS and commission.",
-      "action": "Move the 704.17 of sub-1.0 spend into Screen Door at 1.95 and Bidet 7/6 at 1.989."
+      "effect": "The pair spent 704.17 for 516.11 of revenue in the completed week, about -188.06 of contribution before COGS and commission.",
+      "action": "Move that 704.17 of spend into Screen Door at 1.95 and Bidet 7/6 at 1.989, the two campaigns that clear breakeven."
     },
     {
       "metric": "Sample rejection rate %",
-      "current": 54.3,
-      "prior": 56.0,
-      "pct": -3.0,
+      "current": 53.7,
+      "prior": 54.3,
+      "pct": -1.1,
       "direction": "down",
-      "effect": "More than half of sample demand is still refused, 163 of 300, which starves future affiliate content supply.",
-      "action": "Screen on post rate before rejecting so the 36 pending requests convert into shipped samples."
+      "effect": "161 of 300 requests are still refused, so more than half of inbound sample demand never reaches a shipment.",
+      "action": "Screen on post rate and gpm before rejecting, since 12 of the 35 rated pending requests sit at 90% post rate or better."
     }
   ]
 }

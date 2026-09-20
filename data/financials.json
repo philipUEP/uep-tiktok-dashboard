@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-19",
+    "pulled_on": "2026-09-20",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -114,7 +114,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Quick-Dry, Breathable Mesh, 4-Cup Smooth Grip, Modern Design, Shoulder Support, Versatile Compatibility, Self-Care Durable Bathroom Gadget",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
           "total_gmv": 55.98,
           "share_pct": 0.8,
@@ -180,7 +180,7 @@
         },
         {
           "product_id": "1729385798566514907",
-          "product_name": "Half Moon Bolster Pillow - 100% Pure Memory Foam - Orthopedic Design for Back & Side Sleepers - Soft & Breathable Air Layer Cover, Memory Foam Cushioning, Supportive Bolster, Backrest, Curved Shape",
+          "product_name": "Everlasting Comfort Maternity Half Moon Bolster Pillow - 100% Pure Foam - Orthopedic Curved Design - 21\" Length x 7.9\" Width x 4.5\" Height - Soft Breathable Air Layer Cover - Backrest, Bed Backrest Cushion - Lifetime Replacement Guarantee",
           "price": 55.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -471,7 +471,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Quick-Dry, Breathable Mesh, 4-Cup Smooth Grip, Modern Design, Shoulder Support, Versatile Compatibility, Self-Care Durable Bathroom Gadget",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
           "total_gmv": 139.95,
           "share_pct": 0.7,
@@ -592,7 +592,7 @@
         },
         {
           "product_id": "1729385798566514907",
-          "product_name": "Half Moon Bolster Pillow - 100% Pure Memory Foam - Orthopedic Design for Back & Side Sleepers - Soft & Breathable Air Layer Cover, Memory Foam Cushioning, Supportive Bolster, Backrest, Curved Shape",
+          "product_name": "Everlasting Comfort Maternity Half Moon Bolster Pillow - 100% Pure Foam - Orthopedic Curved Design - 21\" Length x 7.9\" Width x 4.5\" Height - Soft Breathable Air Layer Cover - Backrest, Bed Backrest Cushion - Lifetime Replacement Guarantee",
           "price": 55.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -894,7 +894,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Quick-Dry, Breathable Mesh, 4-Cup Smooth Grip, Modern Design, Shoulder Support, Versatile Compatibility, Self-Care Durable Bathroom Gadget",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
           "total_gmv": 271.5,
           "share_pct": 0.5,
@@ -1015,7 +1015,7 @@
         },
         {
           "product_id": "1729385798566514907",
-          "product_name": "Half Moon Bolster Pillow - 100% Pure Memory Foam - Orthopedic Design for Back & Side Sleepers - Soft & Breathable Air Layer Cover, Memory Foam Cushioning, Supportive Bolster, Backrest, Curved Shape",
+          "product_name": "Everlasting Comfort Maternity Half Moon Bolster Pillow - 100% Pure Foam - Orthopedic Curved Design - 21\" Length x 7.9\" Width x 4.5\" Height - Soft Breathable Air Layer Cover - Backrest, Bed Backrest Cushion - Lifetime Replacement Guarantee",
           "price": 55.99,
           "total_gmv": 29.25,
           "share_pct": 0.0,
@@ -1317,7 +1317,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Quick-Dry, Breathable Mesh, 4-Cup Smooth Grip, Modern Design, Shoulder Support, Versatile Compatibility, Self-Care Durable Bathroom Gadget",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
           "total_gmv": 271.5,
           "share_pct": 0.2,
@@ -1482,7 +1482,7 @@
         },
         {
           "product_id": "1729385798566514907",
-          "product_name": "Half Moon Bolster Pillow - 100% Pure Memory Foam - Orthopedic Design for Back & Side Sleepers - Soft & Breathable Air Layer Cover, Memory Foam Cushioning, Supportive Bolster, Backrest, Curved Shape",
+          "product_name": "Everlasting Comfort Maternity Half Moon Bolster Pillow - 100% Pure Foam - Orthopedic Curved Design - 21\" Length x 7.9\" Width x 4.5\" Height - Soft Breathable Air Layer Cover - Backrest, Bed Backrest Cushion - Lifetime Replacement Guarantee",
           "price": 55.99,
           "total_gmv": 29.25,
           "share_pct": 0.0,
@@ -1762,7 +1762,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Quick-Dry, Breathable Mesh, 4-Cup Smooth Grip, Modern Design, Shoulder Support, Versatile Compatibility, Self-Care Durable Bathroom Gadget",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
           "total_gmv": 341.49,
           "share_pct": 0.2,
@@ -1960,7 +1960,7 @@
         },
         {
           "product_id": "1729385798566514907",
-          "product_name": "Half Moon Bolster Pillow - 100% Pure Memory Foam - Orthopedic Design for Back & Side Sleepers - Soft & Breathable Air Layer Cover, Memory Foam Cushioning, Supportive Bolster, Backrest, Curved Shape",
+          "product_name": "Everlasting Comfort Maternity Half Moon Bolster Pillow - 100% Pure Foam - Orthopedic Curved Design - 21\" Length x 7.9\" Width x 4.5\" Height - Soft Breathable Air Layer Cover - Backrest, Bed Backrest Cushion - Lifetime Replacement Guarantee",
           "price": 55.99,
           "total_gmv": 29.25,
           "share_pct": 0.0,
