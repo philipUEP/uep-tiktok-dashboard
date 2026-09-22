@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats with product_id + include_charts",
-    "pulled_on": "2026-09-21",
+    "pulled_on": "2026-09-22",
     "range": {
       "from": "2026-09-14",
       "to": "2026-09-20"
@@ -53,7 +53,7 @@
     {
       "product_id": "1729391862339113179",
       "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-      "total_gmv": 1602.9,
+      "total_gmv": 1620.89,
       "daily": [
         {
           "date": "2026-09-14",
@@ -87,8 +87,8 @@
         },
         {
           "date": "2026-09-20",
-          "gmv": 445.57,
-          "units": 25.0
+          "gmv": 463.56,
+          "units": 26.0
         }
       ]
     },

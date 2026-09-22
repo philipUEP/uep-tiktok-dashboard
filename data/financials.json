@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-21",
+    "pulled_on": "2026-09-22",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -13,37 +13,37 @@
     "week": {
       "range": "2026-09-14 to 2026-09-20",
       "revenue": {
-        "total_gmv": 4200.44,
-        "affiliate_gmv": 2597.82,
-        "video_gmv": 2202.23,
-        "live_gmv": 370.6,
-        "shop_tab_gmv": 877.71,
+        "total_gmv": 4218.43,
+        "affiliate_gmv": 3355.76,
+        "video_gmv": 2787.03,
+        "live_gmv": 543.74,
+        "shop_tab_gmv": 895.7,
         "gmv_max_revenue": 3912.21,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 2722.6499999999996,
-        "commission": 458.5,
-        "refund_amount": 424.35,
-        "shipping_fees": 1117.2
+        "ad_spend": 2726.87,
+        "commission": 607.63,
+        "refund_amount": 576.95,
+        "shipping_fees": 1124.8
       },
-      "net_after_ads_commissions_refunds": 594.94,
+      "net_after_ads_commissions_refunds": 306.98,
       "ratios": {
-        "blended_roas": 1.5428,
-        "gmv_max_roas": 1.4369,
-        "commission_rate_pct": 17.65,
-        "refund_rate_pct": 10.1,
-        "aov": 27.01,
-        "gpm": 7.66,
-        "emv": 1438.07,
-        "gmv_per_sample_delivered": 216.49
+        "blended_roas": 1.547,
+        "gmv_max_roas": 1.4347,
+        "commission_rate_pct": 18.11,
+        "refund_rate_pct": 13.68,
+        "aov": 26.98,
+        "gpm": 8.03,
+        "emv": 1735.77,
+        "gmv_per_sample_delivered": 279.65
       },
       "volume": {
-        "orders": 153,
-        "units_sold": 169.0,
-        "creators": 50,
+        "orders": 154,
+        "units_sold": 170.0,
+        "creators": 51,
         "samples_delivered": 12,
-        "video_views": 287614
+        "video_views": 347153
       },
       "products": [
         {
@@ -51,7 +51,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
           "total_gmv": 1758.08,
-          "share_pct": 41.9,
+          "share_pct": 41.7,
           "video_gmv": 942.27,
           "live_gmv": 543.74,
           "shop_tab_gmv": 323.83,
@@ -61,12 +61,12 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 1602.9,
-          "share_pct": 38.2,
-          "video_gmv": 1312.59,
+          "total_gmv": 1620.89,
+          "share_pct": 38.4,
+          "video_gmv": 1330.58,
           "live_gmv": 0,
-          "shop_tab_gmv": 197.4,
-          "units_sold": 90
+          "shop_tab_gmv": 215.39,
+          "units_sold": 91
         },
         {
           "product_id": "1730105130585657563",
@@ -235,7 +235,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Garment Dryer with 4 Extendable and Removable Drying Tubes Fanless Quiet, Automatic Drying Mode, Powerful Dryer, Boot And Glove Dryer, Fast Drying Machine",
+          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
           "price": 149.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -301,7 +301,7 @@
         },
         {
           "product_id": "1730129570622640347",
-          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Humidifier Diffuser - Quiet Mode Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy to Clean with Cleaning Kit, Essential Oil Ready Aromatherapy Device for Large Rooms, Corded Unit, Humidity",
+          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - Low Noise Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy-Clean with Kit, Essential Oil Ready Home Therapy Device for Large/Kid Rooms, Corded Improves Breathing Unit",
           "price": 119.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -392,37 +392,37 @@
     "14d": {
       "range": "2026-09-07 to 2026-09-20",
       "revenue": {
-        "total_gmv": 11416.93,
-        "affiliate_gmv": 8857.07,
-        "video_gmv": 5974.92,
-        "live_gmv": 2808.53,
-        "shop_tab_gmv": 2573.33,
+        "total_gmv": 11434.92,
+        "affiliate_gmv": 9615.01,
+        "video_gmv": 6559.72,
+        "live_gmv": 2981.67,
+        "shop_tab_gmv": 2591.32,
         "gmv_max_revenue": 9101.97,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 5798.039999999999,
-        "commission": 1671.62,
-        "refund_amount": 1714.43,
-        "shipping_fees": 2979.2
+        "ad_spend": 5802.259999999999,
+        "commission": 1820.75,
+        "refund_amount": 1867.03,
+        "shipping_fees": 2986.8
       },
-      "net_after_ads_commissions_refunds": 2232.84,
+      "net_after_ads_commissions_refunds": 1944.88,
       "ratios": {
-        "blended_roas": 1.9691,
-        "gmv_max_roas": 1.5698,
-        "commission_rate_pct": 18.87,
-        "refund_rate_pct": 15.02,
-        "aov": 27.4,
-        "gpm": 9.72,
-        "emv": 3063.7,
-        "gmv_per_sample_delivered": 340.66
+        "blended_roas": 1.9708,
+        "gmv_max_roas": 1.5687,
+        "commission_rate_pct": 18.94,
+        "refund_rate_pct": 16.33,
+        "aov": 27.38,
+        "gpm": 9.73,
+        "emv": 3361.39,
+        "gmv_per_sample_delivered": 369.81
       },
       "volume": {
-        "orders": 403,
-        "units_sold": 433.0,
+        "orders": 404,
+        "units_sold": 434.0,
         "creators": 100,
         "samples_delivered": 26,
-        "video_views": 612740
+        "video_views": 672279
       },
       "products": [
         {
@@ -440,12 +440,12 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 3475.44,
-          "share_pct": 30.4,
-          "video_gmv": 3041.72,
+          "total_gmv": 3493.43,
+          "share_pct": 30.6,
+          "video_gmv": 3059.71,
           "live_gmv": 0,
-          "shop_tab_gmv": 610.58,
-          "units_sold": 191
+          "shop_tab_gmv": 628.57,
+          "units_sold": 192
         },
         {
           "product_id": "1730105130585657563",
@@ -471,7 +471,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Garment Dryer with 4 Extendable and Removable Drying Tubes Fanless Quiet, Automatic Drying Mode, Powerful Dryer, Boot And Glove Dryer, Fast Drying Machine",
+          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
           "price": 149.99,
           "total_gmv": 122.49,
           "share_pct": 1.1,
@@ -562,7 +562,7 @@
           "product_name": "Everlasting Comfort | Lumbar Support Pillow - Gel Infused Polyester Ergonomic Office Chair Cushion, Padded Supportive Sitting Waist Back Cushion for Gaming Chair, Car, Low Back Pain Relief & Better Posture Promotion, Padded Cushion, Ergonomic Cushion",
           "price": 43.99,
           "total_gmv": 39.99,
-          "share_pct": 0.4,
+          "share_pct": 0.3,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 39.99,
@@ -724,7 +724,7 @@
         },
         {
           "product_id": "1730129570622640347",
-          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Humidifier Diffuser - Quiet Mode Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy to Clean with Cleaning Kit, Essential Oil Ready Aromatherapy Device for Large Rooms, Corded Unit, Humidity",
+          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - Low Noise Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy-Clean with Kit, Essential Oil Ready Home Therapy Device for Large/Kid Rooms, Corded Improves Breathing Unit",
           "price": 119.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -782,37 +782,37 @@
     "month": {
       "range": "2026-08-22 to 2026-09-20",
       "revenue": {
-        "total_gmv": 46621.16,
-        "affiliate_gmv": 40267.14,
-        "video_gmv": 21317.45,
-        "live_gmv": 18507.44,
-        "shop_tab_gmv": 8404.02,
+        "total_gmv": 46639.15,
+        "affiliate_gmv": 41025.08,
+        "video_gmv": 21902.25,
+        "live_gmv": 18680.58,
+        "shop_tab_gmv": 8422.01,
         "gmv_max_revenue": 33675.98,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 24475.18,
-        "commission": 9024.11,
-        "refund_amount": 5255.44,
-        "shipping_fees": 13239.2
+        "ad_spend": 24479.4,
+        "commission": 9173.24,
+        "refund_amount": 5408.04,
+        "shipping_fees": 13246.8
       },
-      "net_after_ads_commissions_refunds": 7866.43,
+      "net_after_ads_commissions_refunds": 7578.47,
       "ratios": {
-        "blended_roas": 1.9048,
-        "gmv_max_roas": 1.3759,
-        "commission_rate_pct": 22.41,
-        "refund_rate_pct": 11.27,
-        "aov": 26.76,
-        "gpm": 8.79,
-        "emv": 12026.75,
-        "gmv_per_sample_delivered": 372.84
+        "blended_roas": 1.9052,
+        "gmv_max_roas": 1.3757,
+        "commission_rate_pct": 22.36,
+        "refund_rate_pct": 11.6,
+        "aov": 26.75,
+        "gpm": 8.81,
+        "emv": 12324.44,
+        "gmv_per_sample_delivered": 379.86
       },
       "volume": {
-        "orders": 1761,
-        "units_sold": 1882.0,
+        "orders": 1762,
+        "units_sold": 1883.0,
         "creators": 210,
         "samples_delivered": 108,
-        "video_views": 2405350
+        "video_views": 2464889
       },
       "products": [
         {
@@ -830,12 +830,12 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 11316.23,
+          "total_gmv": 11334.22,
           "share_pct": 24.3,
-          "video_gmv": 10040.16,
+          "video_gmv": 10058.15,
           "live_gmv": 0,
-          "shop_tab_gmv": 1987.24,
-          "units_sold": 700
+          "shop_tab_gmv": 2005.23,
+          "units_sold": 701
         },
         {
           "product_id": "1729388554561294555",
@@ -938,7 +938,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Garment Dryer with 4 Extendable and Removable Drying Tubes Fanless Quiet, Automatic Drying Mode, Powerful Dryer, Boot And Glove Dryer, Fast Drying Machine",
+          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
           "price": 149.99,
           "total_gmv": 122.49,
           "share_pct": 0.3,
@@ -1147,7 +1147,7 @@
         },
         {
           "product_id": "1730129570622640347",
-          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Humidifier Diffuser - Quiet Mode Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy to Clean with Cleaning Kit, Essential Oil Ready Aromatherapy Device for Large Rooms, Corded Unit, Humidity",
+          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - Low Noise Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy-Clean with Kit, Essential Oil Ready Home Therapy Device for Large/Kid Rooms, Corded Improves Breathing Unit",
           "price": 119.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1194,37 +1194,37 @@
     "60d": {
       "range": "2026-07-23 to 2026-09-20",
       "revenue": {
-        "total_gmv": 135201.57,
-        "affiliate_gmv": 119548.18,
-        "video_gmv": 70278.31,
-        "live_gmv": 48108.12,
-        "shop_tab_gmv": 20189.28,
+        "total_gmv": 135219.56,
+        "affiliate_gmv": 120306.12,
+        "video_gmv": 70863.11,
+        "live_gmv": 48281.26,
+        "shop_tab_gmv": 20207.27,
         "gmv_max_revenue": 115957.08999999998,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 107896.41,
-        "commission": 29119.83,
-        "refund_amount": 14046.64,
-        "shipping_fees": 41883.6
+        "ad_spend": 107900.63,
+        "commission": 29268.96,
+        "refund_amount": 14199.24,
+        "shipping_fees": 41891.2
       },
-      "net_after_ads_commissions_refunds": -15861.31,
+      "net_after_ads_commissions_refunds": -16149.27,
       "ratios": {
-        "blended_roas": 1.2531,
+        "blended_roas": 1.2532,
         "gmv_max_roas": 1.0747,
-        "commission_rate_pct": 24.36,
-        "refund_rate_pct": 10.39,
+        "commission_rate_pct": 24.33,
+        "refund_rate_pct": 10.5,
         "aov": 25.33,
-        "gpm": 8.16,
-        "emv": 42875.51,
-        "gmv_per_sample_delivered": 227.28
+        "gpm": 8.17,
+        "emv": 43173.21,
+        "gmv_per_sample_delivered": 228.72
       },
       "volume": {
-        "orders": 5538,
-        "units_sold": 6277.0,
+        "orders": 5539,
+        "units_sold": 6278.0,
         "creators": 540,
         "samples_delivered": 526,
-        "video_views": 8575103
+        "video_views": 8634642
       },
       "products": [
         {
@@ -1242,12 +1242,12 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 36385.12,
+          "total_gmv": 36403.11,
           "share_pct": 26.9,
-          "video_gmv": 32790.43,
+          "video_gmv": 32808.42,
           "live_gmv": 0,
-          "shop_tab_gmv": 4716.3,
-          "units_sold": 2506
+          "shop_tab_gmv": 4734.29,
+          "units_sold": 2507
         },
         {
           "product_id": "1729388554561294555",
@@ -1350,7 +1350,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Garment Dryer with 4 Extendable and Removable Drying Tubes Fanless Quiet, Automatic Drying Mode, Powerful Dryer, Boot And Glove Dryer, Fast Drying Machine",
+          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
           "price": 149.99,
           "total_gmv": 122.49,
           "share_pct": 0.1,
@@ -1592,7 +1592,7 @@
         },
         {
           "product_id": "1730129570622640347",
-          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Humidifier Diffuser - Quiet Mode Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy to Clean with Cleaning Kit, Essential Oil Ready Aromatherapy Device for Large Rooms, Corded Unit, Humidity",
+          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - Low Noise Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy-Clean with Kit, Essential Oil Ready Home Therapy Device for Large/Kid Rooms, Corded Improves Breathing Unit",
           "price": 119.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1639,37 +1639,37 @@
     "90d": {
       "range": "2026-06-23 to 2026-09-20",
       "revenue": {
-        "total_gmv": 184057.42,
-        "affiliate_gmv": 163324.21,
-        "video_gmv": 105608.0,
-        "live_gmv": 55996.93,
-        "shop_tab_gmv": 25782.72,
+        "total_gmv": 184075.41,
+        "affiliate_gmv": 164082.15,
+        "video_gmv": 106192.8,
+        "live_gmv": 56170.07,
+        "shop_tab_gmv": 25800.71,
         "gmv_max_revenue": 170029.8,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 167760.65999999997,
-        "commission": 37864.43,
-        "refund_amount": 17958.78,
-        "shipping_fees": 56430.0
+        "ad_spend": 167764.87999999998,
+        "commission": 38013.56,
+        "refund_amount": 18111.38,
+        "shipping_fees": 56437.6
       },
-      "net_after_ads_commissions_refunds": -39526.45,
+      "net_after_ads_commissions_refunds": -39814.41,
       "ratios": {
-        "blended_roas": 1.0971,
+        "blended_roas": 1.0972,
         "gmv_max_roas": 1.0135,
-        "commission_rate_pct": 23.18,
-        "refund_rate_pct": 9.76,
+        "commission_rate_pct": 23.17,
+        "refund_rate_pct": 9.84,
         "aov": 25.7,
-        "gpm": 7.68,
-        "emv": 68544.32,
-        "gmv_per_sample_delivered": 175.05
+        "gpm": 7.69,
+        "emv": 68842.01,
+        "gmv_per_sample_delivered": 175.87
       },
       "volume": {
-        "orders": 7460,
-        "units_sold": 8423.0,
+        "orders": 7461,
+        "units_sold": 8424.0,
         "creators": 847,
         "samples_delivered": 933,
-        "video_views": 13708863
+        "video_views": 13768402
       },
       "products": [
         {
@@ -1687,12 +1687,12 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 53016.09,
+          "total_gmv": 53034.08,
           "share_pct": 28.8,
-          "video_gmv": 47798.41,
+          "video_gmv": 47816.4,
           "live_gmv": 104.95,
-          "shop_tab_gmv": 6494.16,
-          "units_sold": 3317
+          "shop_tab_gmv": 6512.15,
+          "units_sold": 3318
         },
         {
           "product_id": "1729388554561294555",
@@ -1806,7 +1806,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Garment Dryer with 4 Extendable and Removable Drying Tubes Fanless Quiet, Automatic Drying Mode, Powerful Dryer, Boot And Glove Dryer, Fast Drying Machine",
+          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
           "price": 149.99,
           "total_gmv": 122.49,
           "share_pct": 0.1,
@@ -2059,7 +2059,7 @@
         },
         {
           "product_id": "1730129570622640347",
-          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Humidifier Diffuser - Quiet Mode Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy to Clean with Cleaning Kit, Essential Oil Ready Aromatherapy Device for Large Rooms, Corded Unit, Humidity",
+          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - Low Noise Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy-Clean with Kit, Essential Oil Ready Home Therapy Device for Large/Kid Rooms, Corded Improves Breathing Unit",
           "price": 119.99,
           "total_gmv": 0,
           "share_pct": 0.0,
