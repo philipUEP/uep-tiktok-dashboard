@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T07:20:00+00:00",
+  "updated_at": "2026-09-23T07:20:00+00:00",
   "items": [
     {
       "metric": "LIVE GMV (week Sep 14 to 20, third week of decline, largest fall in the set)",
@@ -7,8 +7,8 @@
       "prior": 2437.93,
       "pct": -77.7,
       "direction": "down",
-      "effect": "103 streams produced 543.74, or 5.28 per stream against 18.06 in the prior week, so live is a yield problem rather than a scheduling one.",
-      "action": "Re-brief the creators holding the top streams and hold stream count near last week's 103 instead of adding volume."
+      "effect": "At 103 streams that is 5.28 per stream against 18.06 before, so the loss is yield and not stream volume.",
+      "action": "Re-brief the creators holding the top streams and hold stream count near 100 until GMV per stream recovers."
     },
     {
       "metric": "Collab invites sent (third week of decline, upstream of sampling)",
@@ -20,22 +20,22 @@
       "action": "Restart invites this week toward the prior week's 12,221 using the existing outreach lists before changing message content."
     },
     {
-      "metric": "Sample requests (third week of decline, rejection rate 58.7%)",
+      "metric": "Sample requests (third week of decline, feeds late September and October content)",
       "current": 68,
       "prior": 129,
       "pct": -47.3,
       "direction": "down",
-      "effect": "Requests fell 47.3% while 176 of 300 requests were rejected, so more than half of inbound sample demand never reaches a shipment.",
-      "action": "Clear the 12 pending reviews today, highest post rate first, and re-screen the 83 expired items for creators who still post."
+      "effect": "Requests fell to 68 while only 16 samples shipped and 12 delivered, so the creator pipeline for October is already smaller than September's.",
+      "action": "Clear the 21 To Review requests today, highest post rate first, and re-screen the 82 expired items."
     },
     {
-      "metric": "GMV (week Sep 14 to 20, fourth consecutive decline, 9 metrics in three-week runs)",
+      "metric": "GMV (fourth consecutive decline, with three-week runs in Orders, Units, Affiliate GMV, LIVE GMV, DMs, Collab invites, Sample requests and Samples delivered)",
       "current": 4218.43,
       "prior": 7216.49,
       "pct": -41.5,
       "direction": "down",
-      "effect": "The week closed at 602.63 GMV per day against 1,030.93, and orders, units, affiliate GMV, invites, DMs and samples delivered are all in three-week runs.",
-      "action": "Track the Sep 21 to 27 week against the 602.63 daily run and keep sample approvals and shipping moving as the only levers that reach October GMV."
+      "effect": "The week closed at 602.63 GMV per day against 1,030.93, which is a level shift rather than a partial week effect.",
+      "action": "Track the Sep 21 to 27 week against the 602.63 daily run and treat sample approvals and shipping as the only levers that reach October GMV."
     },
     {
       "metric": "GMV Max Back to School campaign ROAS against its 5.4 target",
@@ -47,13 +47,13 @@
       "action": "Pause or reallocate the 289.66 of weekly spend into Screen Door at 2.000, the only campaign clear of breakeven and nearest its target."
     },
     {
-      "metric": "Sample pipeline rejection rate (week Sep 14 to 20)",
-      "current": 58.7,
-      "prior": 53.0,
-      "pct": 10.8,
-      "direction": "up",
-      "effect": "176 of 300 requests were rejected and 83 expired, so the funnel discards inbound demand faster than it converts it and caps content supply into November.",
-      "action": "Screen on post rate and GPM before rejecting, and treat rejection and the 13.68% refund rate as one screening and listing issue."
+      "metric": "Sample pipeline rejection rate (171 of 300 week requests, snapshot moved from the 09-22 read of 58.7%)",
+      "current": 57.0,
+      "prior": 58.7,
+      "pct": -2.9,
+      "direction": "down",
+      "effect": "More than half of inbound sample demand is discarded while 82 requests sit expired and 21 await review, so content supply into November stays capped.",
+      "action": "Screen on post rate and GPM before rejecting and work the expired backlog for creators who still post."
     }
   ]
 }
