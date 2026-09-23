@@ -33,19 +33,19 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-09-22",
+    "pulled_on": "2026-09-23",
     "data_through": "2026-09-20",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-09-22. Complete attribution through 2026-09-20."
+    "note": "Pulled from Cruva REST API on 2026-09-23. Complete attribution through 2026-09-20."
   },
   "latest_source_check": {
-    "date": "2026-09-21",
-    "seller_center_gmv": 922.51,
-    "orders": 30,
-    "units": 33,
-    "gmv_max_revenue": 1111.97,
-    "gmv_max_spend": 474.2,
-    "gmv_max_roas": 2.3449388443694645,
+    "date": "2026-09-22",
+    "seller_center_gmv": 921.09,
+    "orders": 41,
+    "units": 44,
+    "gmv_max_revenue": 1067.56,
+    "gmv_max_spend": 654.32,
+    "gmv_max_roas": 1.6315564249908299,
     "attribution_status": "complete"
   },
   "periods": {
@@ -109,7 +109,7 @@
           "Samples approved": 19,
           "Samples shipped": 16.0,
           "Samples delivered": 12,
-          "Creators with sales": 29
+          "Creators with sales": 31
         },
         "daily": [
           [
@@ -188,51 +188,61 @@
         [
           "Sylvia",
           "sylviaapproved",
-          365.52,
-          18,
+          696.52,
+          35,
           48110,
-          89.8,
+          158.9,
           1,
           0
         ],
         [
           "alldaysteals",
           "alldaysteals",
-          265.63,
-          6,
+          311.52,
+          7,
           0,
-          54.72,
+          64.44,
           0,
           4
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          228.44,
-          6,
+          309.77,
+          8,
           17651,
-          47.95,
+          67.7,
           0,
           0
         ],
         [
           "Red Oakley",
           "jaterao92",
-          215.99,
-          6,
+          259.48,
+          7,
           13275,
-          42.0,
+          53.6,
           0,
           0
         ],
         [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          165.93,
-          9,
+          183.92,
+          10,
           4138,
-          29.8,
+          32.8,
           1,
+          0
+        ],
+        [
+          "keniaher",
+          "keniaher.77",
+          155.92,
+          9,
+          6964,
+          23.5,
+          2,
           0
         ],
         [
@@ -246,13 +256,13 @@
           0
         ],
         [
-          "keniaher",
-          "keniaher.77",
-          111.74,
-          6,
-          6964,
-          16.3,
-          2,
+          "Bony kiyya",
+          "boni_kiyya",
+          115.57,
+          3,
+          3372,
+          6.48,
+          0,
           0
         ],
         [
@@ -268,20 +278,10 @@
         [
           "happyshop",
           "happyshop968",
-          83.75,
-          4,
+          101.74,
+          5,
           3311,
-          6.12,
-          0,
-          0
-        ],
-        [
-          "Bony kiyya",
-          "boni_kiyya",
-          79.58,
-          2,
-          3372,
-          5.24,
+          7.32,
           0,
           0
         ]
@@ -294,8 +294,8 @@
           "christianjohnson2022",
           74.98,
           2,
-          734,
-          20,
+          763,
+          21,
           "https://tiktok.com/@christianjohnson2022/video/7686565002299346206"
         ],
         [
@@ -305,7 +305,7 @@
           "bellahana20",
           71.71,
           2,
-          866,
+          992,
           17,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -316,8 +316,8 @@
           "keniaher.77",
           58.77,
           3,
-          2000,
-          11,
+          2178,
+          12,
           "https://tiktok.com/@keniaher.77/video/7685451539456068877"
         ],
         [
@@ -327,7 +327,7 @@
           "shopalberto",
           54.37,
           2,
-          3297,
+          3427,
           16,
           "https://tiktok.com/@shopalberto/video/7685289196352785678"
         ],
@@ -338,8 +338,8 @@
           "keniaher.77",
           8.0,
           1,
-          668,
-          6,
+          732,
+          7,
           "https://tiktok.com/@keniaher.77/video/7686948788170247437"
         ],
         [
@@ -349,7 +349,7 @@
           "therealcinnimon",
           0,
           0,
-          262,
+          270,
           7,
           "https://tiktok.com/@therealcinnimon/video/7685176270665157918"
         ],
@@ -360,7 +360,7 @@
           "apiltiwari10",
           0,
           0,
-          102,
+          109,
           3,
           "https://tiktok.com/@apiltiwari10/video/7685177735978716446"
         ],
@@ -371,7 +371,7 @@
           "therealcinnimon",
           0,
           0,
-          55,
+          57,
           2,
           "https://tiktok.com/@therealcinnimon/video/7685198431127637279"
         ],
@@ -608,52 +608,62 @@
         [
           "stellardeals",
           "boldvideos7",
-          2226.86,
-          61,
+          2263.33,
+          62,
           0,
-          456.42,
+          463.98,
           0,
           9
         ],
         [
           "Sylvia",
           "sylviaapproved",
-          1386.99,
-          70,
+          1717.99,
+          87,
           111024,
-          322.0,
+          391.1,
           1,
           0
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          889.47,
-          21,
+          970.8,
+          23,
           36031,
-          176.25,
+          196.0,
           0,
           0
         ],
         [
           "Red Oakley",
           "jaterao92",
-          662.03,
-          19,
+          705.52,
+          20,
           33038,
-          135.5,
+          147.1,
           0,
           0
         ],
         [
           "alldaysteals",
           "alldaysteals",
-          369.97,
-          9,
+          415.86,
+          10,
           0,
-          76.32,
+          86.04,
           0,
           7
+        ],
+        [
+          "keniaher",
+          "keniaher.77",
+          323.34,
+          18,
+          14888,
+          44.5,
+          3,
+          0
         ],
         [
           "ryanxbradshaw",
@@ -666,22 +676,12 @@
           0
         ],
         [
-          "keniaher",
-          "keniaher.77",
-          279.16,
-          15,
-          14888,
-          37.3,
-          3,
-          0
-        ],
-        [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          224.4,
-          12,
+          242.39,
+          13,
           11927,
-          41.6,
+          44.6,
           5,
           0
         ],
@@ -696,13 +696,13 @@
           0
         ],
         [
-          "Bell",
-          "1373bel",
-          149.08,
-          4,
-          6666,
-          4.96,
-          1,
+          "happyshop",
+          "happyshop968",
+          163.71,
+          8,
+          6314,
+          13.02,
+          0,
           0
         ]
       ],
@@ -714,8 +714,8 @@
           "1373bel",
           149.08,
           4,
-          6644,
-          42,
+          6973,
+          43,
           "https://tiktok.com/@1373bel/video/7683330512680766733"
         ],
         [
@@ -725,8 +725,8 @@
           "icu185",
           107.41,
           6,
-          5194,
-          10,
+          5506,
+          11,
           "https://tiktok.com/@icu185/video/7683016023418653983"
         ],
         [
@@ -736,8 +736,8 @@
           "christianjohnson2022",
           74.98,
           2,
-          734,
-          20,
+          763,
+          21,
           "https://tiktok.com/@christianjohnson2022/video/7686565002299346206"
         ],
         [
@@ -747,7 +747,7 @@
           "bellahana20",
           71.71,
           2,
-          866,
+          992,
           17,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -758,8 +758,8 @@
           "keniaher.77",
           58.77,
           3,
-          2000,
-          11,
+          2178,
+          12,
           "https://tiktok.com/@keniaher.77/video/7685451539456068877"
         ],
         [
@@ -769,8 +769,8 @@
           "itsjodicollins",
           55.97,
           3,
-          4454,
-          450,
+          4530,
+          460,
           "https://tiktok.com/@itsjodicollins/video/7682812969637498126"
         ],
         [
@@ -780,7 +780,7 @@
           "shopalberto",
           54.37,
           2,
-          3297,
+          3427,
           16,
           "https://tiktok.com/@shopalberto/video/7685289196352785678"
         ],
@@ -791,7 +791,7 @@
           "macneggga",
           35.99,
           1,
-          1104,
+          1186,
           8,
           "https://tiktok.com/@macneggga/video/7683413553163914526"
         ],
@@ -802,8 +802,8 @@
           "keniaher.77",
           8.0,
           1,
-          668,
-          6,
+          732,
+          7,
           "https://tiktok.com/@keniaher.77/video/7686948788170247437"
         ],
         [
@@ -1188,50 +1188,50 @@
         [
           "Fortune Finds",
           "fortune0420",
-          8047.93,
-          258,
+          8085.72,
+          259,
           3615,
-          2205.14,
+          2215.64,
           1,
           29
         ],
         [
           "stellardeals",
           "boldvideos7",
-          5825.38,
-          162,
+          5861.85,
+          163,
           0,
-          1159.04,
+          1166.6,
           0,
           23
         ],
         [
           "Sylvia",
           "sylviaapproved",
-          5355.34,
-          310,
+          5686.34,
+          327,
           511622,
-          1347.26,
+          1416.36,
           3,
           0
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          4188.62,
-          115,
+          4269.95,
+          117,
           105499,
-          1000.13,
+          1019.88,
           5,
           4
         ],
         [
           "Red Oakley",
           "jaterao92",
-          3473.8,
-          122,
+          3517.29,
+          123,
           204300,
-          785.26,
+          796.86,
           0,
           0
         ],
@@ -1258,30 +1258,30 @@
         [
           "alldaysteals",
           "alldaysteals",
-          1136.36,
-          31,
+          1182.25,
+          32,
           0,
-          235.24,
+          244.96,
           0,
           14
         ],
         [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          966.62,
-          55,
+          984.61,
+          56,
           38570,
-          224.27,
+          227.27,
           9,
           0
         ],
         [
           "keniaher",
           "keniaher.77",
-          813.58,
-          49,
+          857.76,
+          52,
           42043,
-          109.94,
+          117.14,
           6,
           0
         ]
@@ -1294,7 +1294,7 @@
           "theevergreeneditco",
           297.81,
           12,
-          4007,
+          4036,
           11,
           "https://tiktok.com/@theevergreeneditco/video/7677230038281964830"
         ],
@@ -1305,8 +1305,8 @@
           "viralshopdealz",
           287.0,
           8,
-          209659,
-          3870,
+          214912,
+          3933,
           "https://tiktok.com/@viralshopdealz/video/7678725393917971742"
         ],
         [
@@ -1316,8 +1316,8 @@
           "1373bel",
           149.08,
           4,
-          6644,
-          42,
+          6973,
+          43,
           "https://tiktok.com/@1373bel/video/7683330512680766733"
         ],
         [
@@ -1327,8 +1327,8 @@
           "boni_kiyya",
           115.57,
           3,
-          4493,
-          26,
+          5406,
+          29,
           "https://tiktok.com/@boni_kiyya/video/7681020510536289550"
         ],
         [
@@ -1338,8 +1338,8 @@
           "icu185",
           107.41,
           6,
-          5194,
-          10,
+          5506,
+          11,
           "https://tiktok.com/@icu185/video/7683016023418653983"
         ],
         [
@@ -1349,7 +1349,7 @@
           "yolilucas123tiktokshop",
           100.82,
           6,
-          5279,
+          5288,
           13,
           "https://tiktok.com/@yolilucas123tiktokshop/video/7677806839886646542"
         ],
@@ -1360,7 +1360,7 @@
           "lazyko83",
           79.72,
           3,
-          5168,
+          5178,
           53,
           "https://tiktok.com/@lazyko83/video/7677296937711832351"
         ],
@@ -1371,8 +1371,8 @@
           "christianjohnson2022",
           74.98,
           2,
-          734,
-          20,
+          763,
+          21,
           "https://tiktok.com/@christianjohnson2022/video/7686565002299346206"
         ],
         [
@@ -1382,7 +1382,7 @@
           "bellahana20",
           71.71,
           2,
-          866,
+          992,
           17,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -1393,8 +1393,8 @@
           "crisp720",
           60.33,
           2,
-          12045,
-          24,
+          12256,
+          25,
           "https://tiktok.com/@crisp720/video/7681112989516221710"
         ]
       ]
@@ -2068,20 +2068,20 @@
         [
           "Fortune Finds",
           "fortune0420",
-          18962.85,
-          598,
+          19000.64,
+          599,
           8333,
-          5222.93,
+          5233.43,
           5,
           56
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          18258.9,
-          548,
+          18340.23,
+          550,
           519206,
-          4989.47,
+          5009.22,
           69,
           28
         ],
@@ -2098,10 +2098,10 @@
         [
           "Red Oakley",
           "jaterao92",
-          10454.74,
-          386,
+          10498.23,
+          387,
           1017187,
-          2403.92,
+          2415.52,
           3,
           0
         ],
@@ -2118,10 +2118,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          7379.99,
-          431,
+          7710.99,
+          448,
           576164,
-          1899.48,
+          1968.58,
           3,
           0
         ],
@@ -2138,10 +2138,10 @@
         [
           "stellardeals",
           "boldvideos7",
-          5825.38,
-          162,
+          5861.85,
+          163,
           0,
-          1159.04,
+          1166.6,
           0,
           23
         ],
@@ -2158,10 +2158,10 @@
         [
           "happyshop",
           "happyshop968",
-          2888.18,
-          172,
+          2906.17,
+          173,
           91829,
-          292.9,
+          294.1,
           0,
           0
         ]
@@ -2172,10 +2172,10 @@
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          2456.25,
-          156,
-          233281,
-          1076,
+          2483.0,
+          158,
+          237429,
+          1097,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
@@ -2183,10 +2183,10 @@
           "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
           "keniaher.77",
           "keniaher.77",
-          1902.99,
+          1953.16,
           139,
-          78458,
-          356,
+          78926,
+          360,
           "https://tiktok.com/@keniaher.77/video/7670969961753431309"
         ],
         [
@@ -2196,8 +2196,8 @@
           "courtney_gonzales19",
           1012.91,
           67,
-          58431,
-          107,
+          58642,
+          108,
           "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958"
         ],
         [
@@ -2207,7 +2207,7 @@
           "courtney_gonzales19",
           821.34,
           62,
-          28929,
+          29206,
           62,
           "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597"
         ],
@@ -2218,7 +2218,7 @@
           "favoritefavoritefind",
           693.56,
           26,
-          28106,
+          28304,
           66,
           "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047"
         ],
@@ -2229,7 +2229,7 @@
           "theevergreeneditco",
           458.26,
           22,
-          14092,
+          14219,
           32,
           "https://tiktok.com/@theevergreeneditco/video/7673494617085693214"
         ],
@@ -2251,7 +2251,7 @@
           "theevergreeneditco",
           297.81,
           12,
-          4007,
+          4036,
           11,
           "https://tiktok.com/@theevergreeneditco/video/7677230038281964830"
         ],
@@ -2262,8 +2262,8 @@
           "viralshopdealz",
           287.0,
           8,
-          209659,
-          3870,
+          214912,
+          3933,
           "https://tiktok.com/@viralshopdealz/video/7678725393917971742"
         ],
         [
@@ -2273,7 +2273,7 @@
           "sylviaapproved",
           240.17,
           13,
-          16369,
+          16514,
           35,
           "https://tiktok.com/@sylviaapproved/video/7672862005375634719"
         ]
@@ -3248,10 +3248,10 @@
         [
           "Muscle Dad",
           "muscle_dad",
-          30647.09,
-          949,
+          30728.42,
+          951,
           1400202,
-          8514.01,
+          8533.76,
           93,
           35
         ],
@@ -3268,20 +3268,20 @@
         [
           "Fortune Finds",
           "fortune0420",
-          18962.85,
-          598,
+          19000.64,
+          599,
           8333,
-          5222.93,
+          5233.43,
           5,
           56
         ],
         [
           "Red Oakley",
           "jaterao92",
-          17645.54,
-          682,
+          17689.03,
+          683,
           1902443,
-          3861.47,
+          3873.07,
           3,
           0
         ],
@@ -3298,10 +3298,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          7379.99,
-          431,
+          7710.99,
+          448,
           576164,
-          1899.48,
+          1968.58,
           3,
           0
         ],
@@ -3318,10 +3318,10 @@
         [
           "stellardeals",
           "boldvideos7",
-          5825.38,
-          162,
+          5861.85,
+          163,
           0,
-          1159.04,
+          1166.6,
           0,
           23
         ],
@@ -3352,10 +3352,10 @@
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          2456.25,
-          156,
-          233281,
-          1076,
+          2483.0,
+          158,
+          237429,
+          1097,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
@@ -3365,7 +3365,7 @@
           "theevergreeneditco",
           2284.87,
           117,
-          112319,
+          112350,
           223,
           "https://tiktok.com/@theevergreeneditco/video/7658127805066087711"
         ],
@@ -3374,10 +3374,10 @@
           "#bidet #bidettoilet #showertok #clenainghack #hygeine ",
           "maskman..2",
           "maskman..2",
-          2050.57,
+          2088.36,
           79,
-          197100,
-          446,
+          197426,
+          447,
           "https://tiktok.com/@maskman..2/video/7656173747715443999"
         ],
         [
@@ -3385,10 +3385,10 @@
           "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
           "keniaher.77",
           "keniaher.77",
-          1902.99,
+          1953.16,
           139,
-          78458,
-          356,
+          78926,
+          360,
           "https://tiktok.com/@keniaher.77/video/7670969961753431309"
         ],
         [
@@ -3398,7 +3398,7 @@
           "sylviaapproved",
           1310.48,
           94,
-          115072,
+          115505,
           438,
           "https://tiktok.com/@sylviaapproved/video/7663728633059544351"
         ],
@@ -3409,7 +3409,7 @@
           "muscle_dad",
           1051.8,
           45,
-          111716,
+          111718,
           770,
           "https://tiktok.com/@muscle_dad/video/7659407860622724366"
         ],
@@ -3420,8 +3420,8 @@
           "courtney_gonzales19",
           1012.91,
           67,
-          58431,
-          107,
+          58642,
+          108,
           "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958"
         ],
         [
@@ -3431,7 +3431,7 @@
           "courtney_gonzales19",
           821.34,
           62,
-          28929,
+          29206,
           62,
           "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597"
         ],
@@ -3442,7 +3442,7 @@
           "sylviaapproved",
           744.22,
           43,
-          41234,
+          41310,
           248,
           "https://tiktok.com/@sylviaapproved/video/7662535458450083103"
         ],
@@ -3453,8 +3453,8 @@
           "muscle_dad",
           700.69,
           26,
-          118628,
-          697,
+          118790,
+          698,
           "https://tiktok.com/@muscle_dad/video/7658896126246014222"
         ]
       ]
