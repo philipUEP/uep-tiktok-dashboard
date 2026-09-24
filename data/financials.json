@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-23",
+    "pulled_on": "2026-09-24",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -16,7 +16,7 @@
         "total_gmv": 4218.43,
         "affiliate_gmv": 3355.76,
         "video_gmv": 2787.03,
-        "live_gmv": 543.74,
+        "live_gmv": 374.5,
         "shop_tab_gmv": 895.7,
         "gmv_max_revenue": 3912.21,
         "subscription_revenue": 0
@@ -395,7 +395,7 @@
         "total_gmv": 11434.92,
         "affiliate_gmv": 9615.01,
         "video_gmv": 6559.72,
-        "live_gmv": 2981.67,
+        "live_gmv": 2720.78,
         "shop_tab_gmv": 2591.32,
         "gmv_max_revenue": 9101.97,
         "subscription_revenue": 0
@@ -785,7 +785,7 @@
         "total_gmv": 46639.15,
         "affiliate_gmv": 41025.08,
         "video_gmv": 21902.25,
-        "live_gmv": 18680.58,
+        "live_gmv": 18523.41,
         "shop_tab_gmv": 8422.01,
         "gmv_max_revenue": 33675.98,
         "subscription_revenue": 0
@@ -1197,7 +1197,7 @@
         "total_gmv": 135219.56,
         "affiliate_gmv": 120306.12,
         "video_gmv": 70863.11,
-        "live_gmv": 48281.26,
+        "live_gmv": 47760.19,
         "shop_tab_gmv": 20207.27,
         "gmv_max_revenue": 115957.08999999998,
         "subscription_revenue": 0
@@ -1642,7 +1642,7 @@
         "total_gmv": 184075.41,
         "affiliate_gmv": 164082.15,
         "video_gmv": 106192.8,
-        "live_gmv": 56170.07,
+        "live_gmv": 55522.44,
         "shop_tab_gmv": 25800.71,
         "gmv_max_revenue": 170029.8,
         "subscription_revenue": 0
