@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-24",
+    "pulled_on": "2026-09-25",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -367,8 +367,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Fiberglass Waterproof Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "price": 39.99,
+          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "price": 61.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -570,8 +570,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Fiberglass Waterproof Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "price": 39.99,
+          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "price": 61.99,
           "total_gmv": 33.99,
           "share_pct": 0.3,
           "video_gmv": 0,
@@ -927,8 +927,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Fiberglass Waterproof Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "price": 39.99,
+          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "price": 61.99,
           "total_gmv": 128.14,
           "share_pct": 0.3,
           "video_gmv": 0,
@@ -1197,7 +1197,7 @@
         "total_gmv": 135219.56,
         "affiliate_gmv": 120306.12,
         "video_gmv": 70863.11,
-        "live_gmv": 47760.19,
+        "live_gmv": 47733.2,
         "shop_tab_gmv": 20207.27,
         "gmv_max_revenue": 115957.08999999998,
         "subscription_revenue": 0
@@ -1339,8 +1339,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Fiberglass Waterproof Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "price": 39.99,
+          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "price": 61.99,
           "total_gmv": 128.14,
           "share_pct": 0.1,
           "video_gmv": 0,
@@ -1537,7 +1537,7 @@
         },
         {
           "product_id": "1729387967841997019",
-          "product_name": "Everlasting Comfort Allergy Support Anti-Allergen Pillow Protector - 27x21\" Polyester, 100% Waterproof Terry Cloth, Hypoallergenic Breathable Membrane, Dust Mite Blocking, Machine Washable, Dryer Safe, Lifetime Warranty",
+          "product_name": "Everlasting Comfort Anti-Allergen Pillow Protector - 27x21in Soft Durable Polyester, 100% Waterproof Terry Cloth, Hypoallergenic Breathable Membrane, Dust Mite Blocking, Machine Washable, Dryer Safe, Lifetime Warranty, Allergen Reducing",
           "price": 47.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1642,7 +1642,7 @@
         "total_gmv": 184075.41,
         "affiliate_gmv": 164082.15,
         "video_gmv": 106192.8,
-        "live_gmv": 55522.44,
+        "live_gmv": 55495.45,
         "shop_tab_gmv": 25800.71,
         "gmv_max_revenue": 170029.8,
         "subscription_revenue": 0
@@ -1784,8 +1784,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Fiberglass Waterproof Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "price": 39.99,
+          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "price": 61.99,
           "total_gmv": 128.14,
           "share_pct": 0.1,
           "video_gmv": 0,
@@ -2004,7 +2004,7 @@
         },
         {
           "product_id": "1729387967841997019",
-          "product_name": "Everlasting Comfort Allergy Support Anti-Allergen Pillow Protector - 27x21\" Polyester, 100% Waterproof Terry Cloth, Hypoallergenic Breathable Membrane, Dust Mite Blocking, Machine Washable, Dryer Safe, Lifetime Warranty",
+          "product_name": "Everlasting Comfort Anti-Allergen Pillow Protector - 27x21in Soft Durable Polyester, 100% Waterproof Terry Cloth, Hypoallergenic Breathable Membrane, Dust Mite Blocking, Machine Washable, Dryer Safe, Lifetime Warranty, Allergen Reducing",
           "price": 47.98,
           "total_gmv": 0,
           "share_pct": 0.0,
