@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T07:20:00+00:00",
+  "updated_at": "2026-09-25T07:25:00+00:00",
   "items": [
     {
       "metric": "LIVE GMV (week Sep 14 to 20, third week of decline, largest fall in the set)",
@@ -7,8 +7,8 @@
       "prior": 2346.28,
       "pct": -84.0,
       "direction": "down",
-      "effect": "Streams held near the prior count, about 89 to 103, so the loss is GMV per stream, down to roughly 3 to 4 from about 18.",
-      "action": "Re-brief the creators holding the top streams, alldaysteals leads on bidet, and hold stream count near 90 to 100 until yield recovers."
+      "effect": "Streams held near 103 while LIVE GMV collapsed, so GMV per stream fell to roughly 3.64 from about 17.38.",
+      "action": "Re-brief the creators holding the top streams, alldaysteals carries the bidet stream, and hold stream count near 90 to 100 until GMV per stream recovers above 10."
     },
     {
       "metric": "Collab invites sent (third week of decline, upstream of sampling)",
@@ -17,7 +17,7 @@
       "pct": -49.3,
       "direction": "down",
       "effect": "Invites halved while 9,585 DMs went out, so inbound interest cannot refill the sample stage for early October.",
-      "action": "Restart invites toward the prior week's 12,221 using existing outreach lists and check why daily rows show zero invites on Sep 18 and Sep 19."
+      "action": "Restart invites toward the prior week's 12,221 using the existing outreach lists and check why daily rows show zero invites on Sep 18 and Sep 19."
     },
     {
       "metric": "Sample requests (third week of decline, feeds October content)",
@@ -25,8 +25,8 @@
       "prior": 129,
       "pct": -47.3,
       "direction": "down",
-      "effect": "Requests fell to 68 while only 16 shipped and 12 were delivered, so the October creator pipeline is already smaller than September's.",
-      "action": "Clear the 23 To Review requests today, highest post rate first, and re-screen the 83 expired items for creators who still post."
+      "effect": "Requests fell to 68 while only 16 shipped and 12 were delivered, so the October creator pipeline is smaller than September's.",
+      "action": "Clear the 26 To Review requests today, highest post rate first, and re-screen the 84 expired items for creators who still post."
     },
     {
       "metric": "GMV (fourth consecutive decline, with three week runs in Orders, Units, Affiliate GMV, LIVE GMV, DMs, Collab invites, Sample requests and Samples delivered)",
@@ -43,16 +43,16 @@
       "prior": 5.4,
       "pct": -94.6,
       "direction": "down",
-      "effect": "The campaign spent 289.66 for 83.97 of revenue, a 205.69 loss before commission and COGS, on 3 orders at 96.55 each.",
-      "action": "Pause or reallocate the 289.66 of weekly spend into Screen Door at 2.000, the only campaign clear of breakeven and nearest its target."
+      "effect": "The campaign spent 289.66 for 83.97 of revenue, a 205.69 loss before commission and COGS, on 3 orders, while Shop Wide also sits below target at 1.15 against 2.0.",
+      "action": "Cap or pause the Back to School campaign and move its 289.66 of weekly spend to Screen Door at 2.00, the only campaign clear of breakeven."
     },
     {
-      "metric": "Sample pipeline rejection rate (166 of 300 week requests, down from the 09-23 read of 57.0%)",
-      "current": 55.3,
-      "prior": 57.0,
-      "pct": -2.9,
+      "metric": "Sample pipeline rejection rate (160 of 300 window requests, against the 09-24 read of 55.3%)",
+      "current": 53.3,
+      "prior": 55.3,
+      "pct": -3.6,
       "direction": "down",
-      "effect": "More than half of inbound sample demand is still discarded while 83 requests sit expired and 23 await review, so content supply into November stays capped.",
+      "effect": "More than half of inbound sample demand is still discarded while 84 requests sit expired and 26 await review, so content supply into November stays capped.",
       "action": "Screen on post rate and GPM before rejecting and work the expired backlog for creators who still post."
     }
   ]
