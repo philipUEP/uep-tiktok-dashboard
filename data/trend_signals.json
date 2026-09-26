@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-25T07:00:35.645269+00:00",
+  "generated_at": "2026-09-26T07:01:36.790080+00:00",
   "weeks": [
     {
       "total_gmv": 17385.02,
       "platform_orders": 730,
       "total_units_sold": 784.0,
       "affiliate_gmv": 15297.1,
-      "live_gmv": 6723.88,
+      "live_gmv": 6681.89,
       "video_views": 872730,
       "dms_sent": 7746,
       "tc_invites_sent": 8399,
@@ -31,7 +31,7 @@
       "sample_requests": 168,
       "samples_shipped": 29,
       "samples_delivered": 35,
-      "videos_posted": 50,
+      "videos_posted": 51,
       "distinct_creators": 46,
       "_range": "2026-08-31 to 2026-09-06"
     },
@@ -96,7 +96,7 @@
       3355.76
     ],
     "live_gmv": [
-      6723.88,
+      6681.89,
       6351.83,
       2346.28,
       374.5
@@ -145,7 +145,7 @@
     ],
     "videos_posted": [
       92.0,
-      50.0,
+      51.0,
       78.0,
       92.0
     ],

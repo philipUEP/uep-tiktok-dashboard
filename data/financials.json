@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-25",
+    "pulled_on": "2026-09-26",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -158,7 +158,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Anti-Slip Rug Grippers - Double-Sided Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Ensures Secure Walking, Fits Tile & Wood Floors, Keeps Rug Flat for Multisurface Use",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
           "price": 9.99,
           "total_gmv": 19.69,
           "share_pct": 0.5,
@@ -290,7 +290,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Vented Shoe Dryer - Foldable Compact Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet, Powerful for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -592,7 +592,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Anti-Slip Rug Grippers - Double-Sided Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Ensures Secure Walking, Fits Tile & Wood Floors, Keeps Rug Flat for Multisurface Use",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
           "price": 9.99,
           "total_gmv": 19.69,
           "share_pct": 0.2,
@@ -713,7 +713,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Vented Shoe Dryer - Foldable Compact Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet, Powerful for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -785,7 +785,7 @@
         "total_gmv": 46639.15,
         "affiliate_gmv": 41025.08,
         "video_gmv": 21902.25,
-        "live_gmv": 18523.41,
+        "live_gmv": 18504.05,
         "shop_tab_gmv": 8422.01,
         "gmv_max_revenue": 33675.98,
         "subscription_revenue": 0
@@ -1004,7 +1004,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Anti-Slip Rug Grippers - Double-Sided Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Ensures Secure Walking, Fits Tile & Wood Floors, Keeps Rug Flat for Multisurface Use",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
           "price": 9.99,
           "total_gmv": 47.38,
           "share_pct": 0.1,
@@ -1136,7 +1136,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Vented Shoe Dryer - Foldable Compact Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet, Powerful for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1197,7 +1197,7 @@
         "total_gmv": 135219.56,
         "affiliate_gmv": 120306.12,
         "video_gmv": 70863.11,
-        "live_gmv": 47733.2,
+        "live_gmv": 47740.83,
         "shop_tab_gmv": 20207.27,
         "gmv_max_revenue": 115957.08999999998,
         "subscription_revenue": 0
@@ -1222,7 +1222,7 @@
       "volume": {
         "orders": 5539,
         "units_sold": 6278.0,
-        "creators": 540,
+        "creators": 536,
         "samples_delivered": 526,
         "video_views": 8634642
       },
@@ -1438,7 +1438,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Anti-Slip Rug Grippers - Double-Sided Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Ensures Secure Walking, Fits Tile & Wood Floors, Keeps Rug Flat for Multisurface Use",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
           "price": 9.99,
           "total_gmv": 47.38,
           "share_pct": 0.0,
@@ -1581,7 +1581,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Vented Shoe Dryer - Foldable Compact Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet, Powerful for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1642,7 +1642,7 @@
         "total_gmv": 184075.41,
         "affiliate_gmv": 164082.15,
         "video_gmv": 106192.8,
-        "live_gmv": 55495.45,
+        "live_gmv": 55503.08,
         "shop_tab_gmv": 25800.71,
         "gmv_max_revenue": 170029.8,
         "subscription_revenue": 0
@@ -1667,7 +1667,7 @@
       "volume": {
         "orders": 7461,
         "units_sold": 8424.0,
-        "creators": 847,
+        "creators": 843,
         "samples_delivered": 933,
         "video_views": 13768402
       },
@@ -1795,7 +1795,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Anti-Slip Rug Grippers - Double-Sided Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Ensures Secure Walking, Fits Tile & Wood Floors, Keeps Rug Flat for Multisurface Use",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
           "price": 9.99,
           "total_gmv": 127.12,
           "share_pct": 0.1,
@@ -2048,7 +2048,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Vented Shoe Dryer - Foldable Compact Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet, Powerful for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
