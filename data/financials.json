@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-26",
+    "pulled_on": "2026-09-27",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -356,7 +356,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
           "price": 73.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -548,7 +548,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
           "price": 73.99,
           "total_gmv": 52.73,
           "share_pct": 0.5,
@@ -785,7 +785,7 @@
         "total_gmv": 46639.15,
         "affiliate_gmv": 41025.08,
         "video_gmv": 21902.25,
-        "live_gmv": 18504.05,
+        "live_gmv": 18467.58,
         "shop_tab_gmv": 8422.01,
         "gmv_max_revenue": 33675.98,
         "subscription_revenue": 0
@@ -894,7 +894,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
           "price": 73.99,
           "total_gmv": 226.7,
           "share_pct": 0.5,
@@ -1197,7 +1197,7 @@
         "total_gmv": 135219.56,
         "affiliate_gmv": 120306.12,
         "video_gmv": 70863.11,
-        "live_gmv": 47740.83,
+        "live_gmv": 47729.88,
         "shop_tab_gmv": 20207.27,
         "gmv_max_revenue": 115957.08999999998,
         "subscription_revenue": 0
@@ -1222,7 +1222,7 @@
       "volume": {
         "orders": 5539,
         "units_sold": 6278.0,
-        "creators": 536,
+        "creators": 540,
         "samples_delivered": 526,
         "video_views": 8634642
       },
@@ -1262,7 +1262,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
           "price": 73.99,
           "total_gmv": 570.87,
           "share_pct": 0.4,
@@ -1642,7 +1642,7 @@
         "total_gmv": 184075.41,
         "affiliate_gmv": 164082.15,
         "video_gmv": 106192.8,
-        "live_gmv": 55503.08,
+        "live_gmv": 55492.13,
         "shop_tab_gmv": 25800.71,
         "gmv_max_revenue": 170029.8,
         "subscription_revenue": 0
@@ -1667,7 +1667,7 @@
       "volume": {
         "orders": 7461,
         "units_sold": 8424.0,
-        "creators": 843,
+        "creators": 847,
         "samples_delivered": 933,
         "video_views": 13768402
       },
@@ -1707,7 +1707,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES Doctor-Recommended Medium Firmness Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
           "price": 73.99,
           "total_gmv": 570.87,
           "share_pct": 0.3,
