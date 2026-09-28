@@ -1,59 +1,8 @@
-{
-  "updated_at": "2026-09-27T07:22:17+00:00",
-  "items": [
-    {
-      "metric": "Samples shipped (worst decline this week, the gate before creator content)",
-      "current": 6,
-      "prior": 16,
-      "pct": -62.5,
-      "direction": "down",
-      "effect": "Shipping fell to 6 while 143 requests arrived and only 4 samples were approved, so early October content supply is set below September's.",
-      "action": "Work the 113 To Review queue before the 2026-10-04 expiries and ship at least 20 samples this week."
-    },
-    {
-      "metric": "LIVE GMV (third week of decline, yield per stream below 2)",
-      "current": 178.18,
-      "prior": 374.5,
-      "pct": -52.4,
-      "direction": "down",
-      "effect": "Streams rose to 121 from 103 while LIVE GMV halved, so yield per stream fell to 1.47 from 3.64.",
-      "action": "Re-brief the creators holding the top streams and hold stream count near 100 until yield per stream clears 3."
-    },
-    {
-      "metric": "Video views (fell with posting volume and per video reach)",
-      "current": 206295,
-      "prior": 347153,
-      "pct": -40.6,
-      "direction": "down",
-      "effect": "Videos posted fell to 58 from 92 and views per video slipped 5.7% to 3,556.8, so reach lost on both volume and per video yield.",
-      "action": "Hold video output near 90 posts per week and rebuild reach from the winning hooks in creative_brief.json."
-    },
-    {
-      "metric": "Creators posting (third week of decline, with Affiliate GMV down 25.0% to 2,515.86)",
-      "current": 35,
-      "prior": 51,
-      "pct": -31.4,
-      "direction": "down",
-      "effect": "Third week down with Affiliate GMV falling in step, so the loss is creator breadth rather than basket size, GMV per posting creator rose to 124.62 from 82.71.",
-      "action": "Reactivate the creators who posted in the prior week and route new approvals to creators with live post history."
-    },
-    {
-      "metric": "Sample pipeline rejected or expired (share of the 300 request window, samples delivered down a third week to 10 from 12)",
-      "current": 53.3,
-      "prior": 74.3,
-      "pct": -28.3,
-      "direction": "down",
-      "effect": "160 of 300 requests closed without a sample, improved from 223 on the 2026-09-26 reading, while 113 sit To Review with 2026-10-04 expire dates.",
-      "action": "Screen on post rate and GPM before rejecting and clear the To Review queue starting with bbobfan1 at 98.1% post rate."
-    },
-    {
-      "metric": "Back to School campaign ROAS against its 5.4 target (campaign flag, below breakeven)",
-      "current": 0.29,
-      "prior": 5.4,
-      "pct": -94.6,
-      "direction": "down",
-      "effect": "The campaign spent 289.66 to return 83.97 on 3 orders, while Shop Wide also sits below its target at 1.15 against 2.0.",
-      "action": "Cap or pause Back to School and move its 289.66 of weekly spend to Screen Door at 2.0, the only enabled campaign clear of breakeven."
-    }
-  ]
-}
+{"updated_at": "2026-09-28T07:21:24Z", "items": [
+  {"metric": "Samples shipped", "current": 6, "prior": 16, "pct": -62.5, "direction": "down", "effect": "Six shipped samples set the October content floor well below September's, given the two to four week sample to post lag.", "action": "Work the 183 request queue and push at least 20 shipments before the 2026-10-04 expiries."},
+  {"metric": "LIVE GMV", "current": 208.9, "prior": 374.5, "pct": -44.2, "direction": "down", "effect": "Third straight weekly fall (2,346.28, 374.5, 208.9) leaves LIVE at 4.1% of GMV and about 1.6 GMV per stream versus 3.64 the prior week.", "action": "Rebrief the top live creators and hold stream volume until GMV per stream clears 3."},
+  {"metric": "Videos posted", "current": 65, "prior": 92, "pct": -29.3, "direction": "down", "effect": "Fewer posts and views down 20.1% shrink the video surface that carries 61.8% of GMV.", "action": "Reset weekly output toward 90 posts and refill from the winning hooks in the creative brief."},
+  {"metric": "Creators posting", "current": 38, "prior": 51, "pct": -25.5, "direction": "down", "effect": "Third straight week down (62, 51, 38) narrows the creator base carrying the shop and pushes videos per creator to 1.71.", "action": "Re-engage quiet posters from the creator digest and lift approvals to rebuild posting supply."},
+  {"metric": "Back to School campaign ROAS (14d)", "current": 0.8, "prior": 1.291, "pct": -38.0, "direction": "down", "effect": "590.04 of spend returns 471.84 over 14 days, below breakeven and far under the 5.4 target, and the week reading of 1.291 is also short.", "action": "Pause or cap Back to School and move the budget to Screen Door at 2.146 or Bidet 7/6 at 1.748."},
+  {"metric": "Sample requests awaiting review", "current": 183, "prior": 113, "pct": 61.9, "direction": "up", "effect": "The queue holds 61.0% of the 300 request window while 1 shipped and 0 are ready to ship, so approved demand is stalling before dispatch.", "action": "Clear the queue by post rate first before the 2026-10-04 expiry dates pass."}
+]}
