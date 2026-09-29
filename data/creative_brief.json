@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /affiliate/videos/list (AI analysis fields)",
-    "pulled_on": "2026-09-28",
+    "pulled_on": "2026-09-29",
     "sort": "gmv desc"
   },
   "periods": {
@@ -15,11 +15,11 @@
           "video_url": "https://tiktok.com/@keniaher.77/video/7688037869562137869",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 1365,
+          "view_count": 1438,
           "like_count": 9,
           "gmv": 16.99,
           "units_sold": 1,
-          "gmv_per_view": 0.0124,
+          "gmv_per_view": 0.0118,
           "hooks": [
             {
               "hook": "Vostas peor que las moscas, que siempre andan de metido donde no les llaman.",
@@ -53,19 +53,31 @@
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7686590904563485965",
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "view_count": 305,
+          "view_count": 311,
           "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
+          "hooks": [
+            {
+              "hook": "Yeah, I don't think I like the thinner one.",
+              "score": 6,
+              "explanation": "Starts the video with a direct opinion about product thickness, creating curiosity about why someone is changing their preference."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "That one feels different from this one",
+              "score": 6,
+              "explanation": "Highlights the comfort and tactile difference experienced when using the seat cushion."
+            }
+          ],
+          "content_overview": "A group of people are sitting on office chairs and discussing the comfort and thickness of seat cushions. One person initially dislikes a thinner cushion but changes their mind after realizing the supportive difference the cushion makes, though they later realize it is on a different chair.",
+          "on_screen_text": "She changed her mind. Yeah, I don't think I like the thinner one. @everlasting_comfort maybe I spoke too soon. Maybe I do like that one. I told you. that one feels different from this one for su Well, it's s- it's sit- it's sitting on a different chair. different chair. Oh, right. It is on a different chair.",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 11,
+          "tone": "casual",
+          "target_audience": "Office workers, remote professionals, and anyone experiencing back or tailbone discomfort who is looking for ergonomic seating solutions."
         },
         {
           "rank": 3,
@@ -73,8 +85,8 @@
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7686591237675175182",
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "view_count": 311,
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
+          "view_count": 331,
           "like_count": 1,
           "gmv": 0.0,
           "units_sold": 0,
@@ -148,8 +160,8 @@
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7686913415780125965",
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "view_count": 308,
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
+          "view_count": 309,
           "like_count": 3,
           "gmv": 0.0,
           "units_sold": 0,
@@ -170,19 +182,31 @@
           "video_url": "https://tiktok.com/@upperechelonproducts_/video/7686914370974092558",
           "product_id": "1732604651629416667",
           "product_name": "Everlasting Comfort Car Seat Cushion - Memory Foam, Washable Cover, Back & Sciatica Relief for Driving, Automotive Cars Accessories",
-          "view_count": 299,
+          "view_count": 302,
           "like_count": 1,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
+          "hooks": [
+            {
+              "hook": "Seat height check.",
+              "score": 6,
+              "explanation": "Starts the video with a relatable adjustment check for drivers, sparking immediate curiosity about what is being tested."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "These are actually really nice. I do enjoy 'em.",
+              "score": 7,
+              "explanation": "Provides direct, positive feedback on comfort and user satisfaction with the seat cushion."
+            }
+          ],
+          "content_overview": "A man sits in the driver's seat of a vehicle adjusting his seat height before testing out a car seat cushion. He expresses pleasant surprise and enjoyment of how comfortable it feels. The video concludes with him reaffirming that he genuinely likes the product.",
+          "on_screen_text": "Seat height check. Might have to move my seat down. Trying the CarSeat. It's actually really nice. These are actually really nice.",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 6,
+          "tone": "casual",
+          "target_audience": "Drivers, commuters, and vehicle owners looking for improved driving comfort and back support."
         },
         {
           "rank": 8,
@@ -191,19 +215,31 @@
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7686915908735913230",
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "view_count": 291,
+          "view_count": 296,
           "like_count": 1,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
+          "hooks": [
+            {
+              "hook": "Can I get a free one of these?",
+              "score": 8,
+              "explanation": "The recipient's immediate desire to get the cushion for free creates a strong engagement hook."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "That's very comfortable. It's fantastic.",
+              "score": 9,
+              "explanation": "Direct, genuine praise for the product's comfort and quality from a real user."
+            }
+          ],
+          "content_overview": "A college student tries out an Everlasting Comfort seat cushion on a folding chair, expresses amazement at how comfortable it is on his spine, and asks if he can keep it. The creators happily gift him one in exchange for his honest reaction and feedback.",
+          "on_screen_text": "He tried our cushion... then asked if he could keep it. \ud83c\udf81\ud83e\udd79",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 12,
+          "tone": "playful",
+          "target_audience": "Students, office workers, and anyone who sits for long periods and suffers from back or tailbone pain."
         },
         {
           "rank": 9,
@@ -211,8 +247,8 @@
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7686916536094838030",
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "view_count": 10,
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
+          "view_count": 11,
           "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
@@ -233,7 +269,7 @@
           "video_url": "https://tiktok.com/@upperechelonproducts_/video/7686917309734161678",
           "product_id": "1732604651629416667",
           "product_name": "Everlasting Comfort Car Seat Cushion - Memory Foam, Washable Cover, Back & Sciatica Relief for Driving, Automotive Cars Accessories",
-          "view_count": 120,
+          "view_count": 124,
           "like_count": 2,
           "gmv": 0.0,
           "units_sold": 0,
@@ -296,7 +332,7 @@
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7686921032065649934",
           "product_id": "1732604651629416667",
           "product_name": "Everlasting Comfort Car Seat Cushion - Memory Foam, Washable Cover, Back & Sciatica Relief for Driving, Automotive Cars Accessories",
-          "view_count": 215,
+          "view_count": 220,
           "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
@@ -316,7 +352,7 @@
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7686921439844306190",
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "view_count": 10,
           "like_count": 0,
           "gmv": 0.0,
@@ -338,22 +374,34 @@
           "video_url": "https://tiktok.com/@upperechelonproducts_/video/7686921893101800717",
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "view_count": 298,
+          "view_count": 306,
           "like_count": 1,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
+          "hooks": [
+            {
+              "hook": "If I'm in the car, I'm probably going to need the elevated one. Just because I'm short.",
+              "score": 8,
+              "explanation": "This hook immediately addresses a specific pain point for short drivers, creating instant curiosity and relatability."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "I could have the good one in my seat. He can sit on the flat one. I could sit on the elevated one.",
+              "score": 7,
+              "explanation": "Highlights the versatility and benefit of having different cushion height options for different vehicle seats."
+            }
+          ],
+          "content_overview": "A short woman sits in an office setting discussing seating preferences for driving cars, noting that she prefers an elevated cushion due to her height while discussing seat assignments with someone else off-camera.",
+          "on_screen_text": "SHORT DRIVER PROBLEMS DRIVER GETS FIRST PICK",
+          "product_visible_3s": false,
+          "product_screen_time_seconds": 0,
+          "tone": "casual",
+          "target_audience": "Shorter drivers, commuters, and people experiencing discomfort during driving who need ergonomic seat height adjustments."
         }
       ],
-      "total_found": 64,
+      "total_found": 65,
       "has_more": true
     },
     "14d": {
@@ -366,11 +414,11 @@
           "video_url": "https://tiktok.com/@bellahana20/video/7687300190646078733",
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "view_count": 4832,
-          "like_count": 34,
+          "view_count": 5112,
+          "like_count": 38,
           "gmv": 139.11,
           "units_sold": 4,
-          "gmv_per_view": 0.0288,
+          "gmv_per_view": 0.0272,
           "hooks": [
             {
               "hook": "\u1264\u1273\u127d\u1201 \u12a8\u1270\u12ad\u1276\u1265\u129d \u12c8\u12ed\u121d \u12a8\u121a\u1291\u121a\u1291\u121a\u1291\u121b \u1275\u1320\u1240\u1219 \u12a8\u1206\u1290 \u1208\u12a5\u122d\u1231 \u1290\u1308\u122d \u1290\u12cd \u12e8\u121a\u1228\u12f3\u127d\u1201 \u1264\u1273\u127d\u1201 \u12a8\u12f0\u1228\u1240 \u12a5\u122d\u1325\u1260\u1275\u1295 \u1208\u1218\u134d\u1320\u122d",
@@ -409,11 +457,11 @@
           "video_url": "https://tiktok.com/@christianjohnson2022/video/7686565002299346206",
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
-          "view_count": 947,
+          "view_count": 1057,
           "like_count": 21,
           "gmv": 74.98,
           "units_sold": 2,
-          "gmv_per_view": 0.0792,
+          "gmv_per_view": 0.0709,
           "hooks": [
             {
               "hook": "They said throw away those donut neck pillows because this brand new drop is way better.",
@@ -452,11 +500,11 @@
           "video_url": "https://tiktok.com/@keniaher.77/video/7685451539456068877",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 3553,
+          "view_count": 3747,
           "like_count": 15,
           "gmv": 58.77,
           "units_sold": 3,
-          "gmv_per_view": 0.0165,
+          "gmv_per_view": 0.0157,
           "hooks": [
             {
               "hook": "Es que si quer\u00e9s una malla que sea buena para que las moscas no entren a tu casa, te voy a recomendar esta.",
@@ -490,11 +538,11 @@
           "video_url": "https://tiktok.com/@shopalberto/video/7685289196352785678",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 3810,
+          "view_count": 3825,
           "like_count": 16,
           "gmv": 54.37,
           "units_sold": 2,
-          "gmv_per_view": 0.0143,
+          "gmv_per_view": 0.0142,
           "hooks": [
             {
               "hook": "You could keep overspending on toilet paper by wiping like this.",
@@ -538,16 +586,54 @@
         },
         {
           "rank": 5,
+          "title": "",
+          "handle": "these.curls.travel",
+          "video_url": "https://tiktok.com/@these.curls.travel/video/7685904933438147871",
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
+          "view_count": 388,
+          "like_count": 8,
+          "gmv": 39.99,
+          "units_sold": 1,
+          "gmv_per_view": 0.1031,
+          "hooks": [
+            {
+              "hook": "If you travel you're definitely going to want to see this.",
+              "score": 8,
+              "explanation": "Directly targets frequent travelers with a curiosity gap regarding a travel essential."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "This neck pillow can be used in several positions.",
+              "score": 8,
+              "explanation": "Highlights the versatility of the product for different sleeping and resting postures."
+            },
+            {
+              "selling_point": "The pillow is made of memory foam which is sturdy and soft.",
+              "score": 9,
+              "explanation": "Emphasizes material quality and comfort, crucial factors for travel pillows."
+            }
+          ],
+          "content_overview": "A creator demonstrates a versatile memory foam travel neck pillow, showing multiple ways it can be worn around the neck, sideways against a plane, facing downward, and on a tray table.",
+          "on_screen_text": "@these.curls.travel",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 25,
+          "tone": "casual",
+          "target_audience": "Frequent travelers, commuters, and people looking for comfortable travel accessories."
+        },
+        {
+          "rank": 6,
           "title": "Respuesta a @\ud83c\uddf3\ud83c\uddeeEl Nica en Miami\ud83c\udf34\ud83c\uddfa\ud83c\uddf2 #cortina #moscas #puertamagnetica #tiktokshop ",
           "handle": "keniaher.77",
           "video_url": "https://tiktok.com/@keniaher.77/video/7688037869562137869",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 1365,
+          "view_count": 1438,
           "like_count": 9,
           "gmv": 16.99,
           "units_sold": 1,
-          "gmv_per_view": 0.0124,
+          "gmv_per_view": 0.0118,
           "hooks": [
             {
               "hook": "Vostas peor que las moscas, que siempre andan de metido donde no les llaman.",
@@ -575,13 +661,13 @@
           "target_audience": "General TikTok audience looking for humorous commentary combined with practical home product demonstrations."
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "Ahora si ya ni se meten ese mont\u00f3n de bichitos #moscas #cortina #puertamagnetica #tiktokshop ",
           "handle": "keniaher.77",
           "video_url": "https://tiktok.com/@keniaher.77/video/7686948788170247437",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 949,
+          "view_count": 954,
           "like_count": 7,
           "gmv": 8.0,
           "units_sold": 1,
@@ -613,13 +699,13 @@
           "target_audience": "Homeowners or renters looking for practical insect screening solutions for patio or utility doors."
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "",
           "handle": "therealcinnimon",
           "video_url": "https://tiktok.com/@therealcinnimon/video/7685176270665157918",
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "view_count": 298,
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
+          "view_count": 301,
           "like_count": 7,
           "gmv": 0.0,
           "units_sold": 0,
@@ -656,13 +742,13 @@
           "target_audience": "Travelers, commuters, and people looking for durable, compact, and stylish umbrellas."
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "#waterproofbeachblanket#tiktokshop#foryoupage ",
           "handle": "apiltiwari10",
           "video_url": "https://tiktok.com/@apiltiwari10/video/7685177735978716446",
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
-          "view_count": 139,
+          "view_count": 140,
           "like_count": 3,
           "gmv": 0.0,
           "units_sold": 0,
@@ -677,7 +763,7 @@
           "target_audience": null
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Best neck pillow for travel  I have ever tried  #tiktokshopcreatorpicks  #traveltiktok #nyccontentcr",
           "handle": "therealcinnimon",
           "video_url": "https://tiktok.com/@therealcinnimon/video/7685198431127637279",
@@ -698,7 +784,7 @@
           "target_audience": null
         },
         {
-          "rank": 10,
+          "rank": 11,
           "title": "#houston #nature #gardenessentials ",
           "handle": "spear.diary",
           "video_url": "https://tiktok.com/@spear.diary/video/7685210935660678413",
@@ -719,7 +805,7 @@
           "target_audience": null
         },
         {
-          "rank": 11,
+          "rank": 12,
           "title": "#onthisday #games #concert #foryoupage #viral ",
           "handle": "shortbgirl86",
           "video_url": "https://tiktok.com/@shortbgirl86/video/7685374755612003598",
@@ -740,35 +826,14 @@
           "target_audience": null
         },
         {
-          "rank": 12,
+          "rank": 13,
           "title": "Everlasting Comfort Doctor-Recommended Memory Foam Seat Cushion - HSA FSA Eligible, Sciatica & Back ",
           "handle": "alebtips",
           "video_url": "https://tiktok.com/@alebtips/video/7685384846415318303",
           "product_id": "1729394250782118107",
           "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic Durable Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Good Posture, Stress Relief, Travel & Office Use Furniture Accessory",
-          "view_count": 56,
-          "like_count": 2,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 13,
-          "title": "\u00a1Ideal para la puerta del patio, balc\u00f3n, entrada principal o cocina! \ud83c\udfe1\ud83c\udf3f #MosquiteraMagnetica #MallaM",
-          "handle": "margarita.mejia891",
-          "video_url": "https://tiktok.com/@margarita.mejia891/video/7685399760756378894",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 150,
-          "like_count": 0,
+          "view_count": 57,
+          "like_count": 3,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
@@ -788,7 +853,7 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7685432797372157215",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 452,
+          "view_count": 453,
           "like_count": 2,
           "gmv": 0.0,
           "units_sold": 0,
@@ -831,7 +896,7 @@
           "video_url": "https://tiktok.com/@wendygirong/video/7685436911204306207",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 772,
+          "view_count": 775,
           "like_count": 7,
           "gmv": 0.0,
           "units_sold": 0,
@@ -881,11 +946,11 @@
           "video_url": "https://tiktok.com/@1373bel/video/7683330512680766733",
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "view_count": 8423,
+          "view_count": 8738,
           "like_count": 45,
           "gmv": 179.07,
           "units_sold": 5,
-          "gmv_per_view": 0.0213,
+          "gmv_per_view": 0.0205,
           "hooks": [
             {
               "hook": "\u12a0\u121a\u122d \u0916\u093e\u0928\u093e \u0917\u0930\u092e\u091a\u0940 \u12a5\u1295\u12b3\u1295 \u12f6\u122e \u1235\u1295\u1325\u120d \u1208\u134d\u134d\u122d\u1245 \u12e8\u121d\u1293\u12cd\u1208\u12cd \u123d\u1295\u12a9\u122d\u1275 \u12a8\u1264\u1273\u127d\u1295 \u12a0\u12ed\u12c8\u1323\u121d \u121d\u1233\u127d\u1295 \u1264\u1271\u1295 \u12a5\u1295\u12f3\u1348\u1290\u12cd \u1290\u12cd \u12e8\u121a\u12ab\u122d\u1218\u12cd\u1362",
@@ -919,11 +984,11 @@
           "video_url": "https://tiktok.com/@icu185/video/7683016023418653983",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 7821,
-          "like_count": 17,
-          "gmv": 143.39,
-          "units_sold": 8,
-          "gmv_per_view": 0.0183,
+          "view_count": 8437,
+          "like_count": 18,
+          "gmv": 163.38,
+          "units_sold": 9,
+          "gmv_per_view": 0.0194,
           "hooks": [
             {
               "hook": "No drills, no hassle, just snap and go.",
@@ -957,102 +1022,16 @@
         },
         {
           "rank": 3,
-          "title": "",
-          "handle": "bellahana20",
-          "video_url": "https://tiktok.com/@bellahana20/video/7687300190646078733",
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "view_count": 4832,
-          "like_count": 34,
-          "gmv": 139.11,
-          "units_sold": 4,
-          "gmv_per_view": 0.0288,
-          "hooks": [
-            {
-              "hook": "\u1264\u1273\u127d\u1201 \u12a8\u1270\u12ad\u1276\u1265\u129d \u12c8\u12ed\u121d \u12a8\u121a\u1291\u121a\u1291\u121a\u1291\u121b \u1275\u1320\u1240\u1219 \u12a8\u1206\u1290 \u1208\u12a5\u122d\u1231 \u1290\u1308\u122d \u1290\u12cd \u12e8\u121a\u1228\u12f3\u127d\u1201 \u1264\u1273\u127d\u1201 \u12a8\u12f0\u1228\u1240 \u12a5\u122d\u1325\u1260\u1275\u1295 \u1208\u1218\u134d\u1320\u122d",
-              "score": 8,
-              "explanation": "Directly addresses a common home issue (dry air) and offers a practical solution right away."
-            },
-            {
-              "hook": "\u12a5\u1294 \u12a8\u12a0\u1218\u1275 \u1260\u120b\u12ed \u1290\u12cd \u12e8\u1270\u1320\u1240\u121d\u12a9\u1260\u1275 \u12a5\u1235\u12ab\u1201\u1295 \u12a5\u12e8\u1270\u1320\u1240\u121d\u12a9\u1260\u1275 \u12eb\u1208\u1201\u1275 \u1355\u122e\u12f3\u12ad\u1275 \u1290\u12cd",
-              "score": 7,
-              "explanation": "Establishes long-term product reliability and personal experience to build trust."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "\u1260\u12db \u12eb\u1208 \u12cd\u1203 \u1235\u1208\u121a\u12dd \u1260\u1235\u121d\u1295\u1275 \u1230\u12a0\u1273\u1275 \u12ed\u1246\u12ed\u120b\u127d\u128b\u120d",
-              "score": 8,
-              "explanation": "Highlights long run time and capacity for convenience."
-            },
-            {
-              "selling_point": "\u12a5\u1231\u1295 \u12a0\u12f0\u1228\u12a9\u1260\u1275 \u1208\u123d\u1273 \u1235\u1208\u1218\u1348\u120d\u1308\u12cd \u1260\u1243 \u1264\u1274\u1295 \u12a5\u12cd\u12f5 \u1290\u12cd \u12e8\u121a\u12eb\u12f0\u122d\u1308\u12cd",
-              "score": 9,
-              "explanation": "Emphasizes the aromatic benefits using essential oils to make the home smell wonderful."
-            }
-          ],
-          "content_overview": "The creator demonstrates a top-fill cool mist humidifier on a coffee table in a neatly decorated living room. She explains how to fill it with water and essential oils, showcases the vapor output and LED lighting, and shares her positive long-term experience using the product.",
-          "on_screen_text": "@bellahana20 Aroma Oil HOTEL FRAGRANCE OILS",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 46,
-          "tone": "casual",
-          "target_audience": "Homeowners and apartment dwellers looking to improve indoor air moisture and add pleasant fragrances to their living space."
-        },
-        {
-          "rank": 4,
-          "title": "Este humidificador se volvi\u00f3 mi favorito para estos d\u00edas \ud83e\udd27\ud83d\udc97 #humidifier #humidificador #congestionre",
-          "handle": "macneggga",
-          "video_url": "https://tiktok.com/@macneggga/video/7683413553163914526",
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "view_count": 1549,
-          "like_count": 8,
-          "gmv": 115.97,
-          "units_sold": 3,
-          "gmv_per_view": 0.0749,
-          "hooks": [
-            {
-              "hook": "Cuando perla ten\u00eda cinco meses, este humidificador me ayudaba en aquellas noches largas",
-              "score": 8,
-              "explanation": "The hook immediately establishes a personal, relatable problem (sick baby) and a proven solution from personal experience."
-            },
-            {
-              "hook": "Y ahora que ella amaneci\u00f3 congestionada, record\u00e9 que lo ten\u00eda",
-              "score": 7,
-              "explanation": "Creates immediate relevance for parents dealing with sudden congestion in their children."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Este humidificador me ayudaba en aquellas noches largas",
-              "score": 8,
-              "explanation": "Highlights the product's effectiveness in providing comfort and relief during difficult nights."
-            },
-            {
-              "selling_point": "Haremos sentir la m\u00e1s c\u00f3moda y as\u00ed pueda descansar mejor",
-              "score": 9,
-              "explanation": "Focuses on the ultimate benefit for parents: comforting the sick child so they can sleep better."
-            }
-          ],
-          "content_overview": "A parent shares their personal experience using a humidifier during cold and flu season to help their congested toddler sleep comfortably. The video shows the humidifier operating with different colored lights in a child's room while the narrator explains how it helps during sick days. The content aims to recommend the product to other parents facing similar seasonal challenges.",
-          "on_screen_text": "Un esencial cuando llega la temporada de gripe. Si tienes peques, esto te puede interesar.",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 13,
-          "tone": "emotional",
-          "target_audience": "Parents and caregivers of young children and toddlers looking for remedies during flu and cold season."
-        },
-        {
-          "rank": 5,
           "title": "#onthisday ",
           "handle": "boni_kiyya",
           "video_url": "https://tiktok.com/@boni_kiyya/video/7681020510536289550",
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "view_count": 7144,
+          "view_count": 7787,
           "like_count": 33,
-          "gmv": 115.57,
-          "units_sold": 3,
-          "gmv_per_view": 0.0162,
+          "gmv": 149.56,
+          "units_sold": 4,
+          "gmv_per_view": 0.0192,
           "hooks": [
             {
               "hook": "\u12a9\u12a9 \u12ab\u1228\u1308\u127d \u1260\u128b\u120b \u12a0\u1295\u12f5 \u1260\u1323\u121d \u12e8\u121a\u12eb\u1235\u1278\u130d\u1228\u129d \u1290\u1308\u122d \u12e8\u121d\u130d\u1265 \u123d\u1273 \u12a8\u1264\u1273 \u12ed\u12c8\u1323\u120d\u1362",
@@ -1085,17 +1064,103 @@
           "target_audience": "Homeowners, parents, and individuals looking for home fragrance and air humidification solutions."
         },
         {
+          "rank": 4,
+          "title": "",
+          "handle": "bellahana20",
+          "video_url": "https://tiktok.com/@bellahana20/video/7687300190646078733",
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "view_count": 5112,
+          "like_count": 38,
+          "gmv": 139.11,
+          "units_sold": 4,
+          "gmv_per_view": 0.0272,
+          "hooks": [
+            {
+              "hook": "\u1264\u1273\u127d\u1201 \u12a8\u1270\u12ad\u1276\u1265\u129d \u12c8\u12ed\u121d \u12a8\u121a\u1291\u121a\u1291\u121a\u1291\u121b \u1275\u1320\u1240\u1219 \u12a8\u1206\u1290 \u1208\u12a5\u122d\u1231 \u1290\u1308\u122d \u1290\u12cd \u12e8\u121a\u1228\u12f3\u127d\u1201 \u1264\u1273\u127d\u1201 \u12a8\u12f0\u1228\u1240 \u12a5\u122d\u1325\u1260\u1275\u1295 \u1208\u1218\u134d\u1320\u122d",
+              "score": 8,
+              "explanation": "Directly addresses a common home issue (dry air) and offers a practical solution right away."
+            },
+            {
+              "hook": "\u12a5\u1294 \u12a8\u12a0\u1218\u1275 \u1260\u120b\u12ed \u1290\u12cd \u12e8\u1270\u1320\u1240\u121d\u12a9\u1260\u1275 \u12a5\u1235\u12ab\u1201\u1295 \u12a5\u12e8\u1270\u1320\u1240\u121d\u12a9\u1260\u1275 \u12eb\u1208\u1201\u1275 \u1355\u122e\u12f3\u12ad\u1275 \u1290\u12cd",
+              "score": 7,
+              "explanation": "Establishes long-term product reliability and personal experience to build trust."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "\u1260\u12db \u12eb\u1208 \u12cd\u1203 \u1235\u1208\u121a\u12dd \u1260\u1235\u121d\u1295\u1275 \u1230\u12a0\u1273\u1275 \u12ed\u1246\u12ed\u120b\u127d\u128b\u120d",
+              "score": 8,
+              "explanation": "Highlights long run time and capacity for convenience."
+            },
+            {
+              "selling_point": "\u12a5\u1231\u1295 \u12a0\u12f0\u1228\u12a9\u1260\u1275 \u1208\u123d\u1273 \u1235\u1208\u1218\u1348\u120d\u1308\u12cd \u1260\u1243 \u1264\u1274\u1295 \u12a5\u12cd\u12f5 \u1290\u12cd \u12e8\u121a\u12eb\u12f0\u122d\u1308\u12cd",
+              "score": 9,
+              "explanation": "Emphasizes the aromatic benefits using essential oils to make the home smell wonderful."
+            }
+          ],
+          "content_overview": "The creator demonstrates a top-fill cool mist humidifier on a coffee table in a neatly decorated living room. She explains how to fill it with water and essential oils, showcases the vapor output and LED lighting, and shares her positive long-term experience using the product.",
+          "on_screen_text": "@bellahana20 Aroma Oil HOTEL FRAGRANCE OILS",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 46,
+          "tone": "casual",
+          "target_audience": "Homeowners and apartment dwellers looking to improve indoor air moisture and add pleasant fragrances to their living space."
+        },
+        {
+          "rank": 5,
+          "title": "Este humidificador se volvi\u00f3 mi favorito para estos d\u00edas \ud83e\udd27\ud83d\udc97 #humidifier #humidificador #congestionre",
+          "handle": "macneggga",
+          "video_url": "https://tiktok.com/@macneggga/video/7683413553163914526",
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "view_count": 1761,
+          "like_count": 8,
+          "gmv": 115.97,
+          "units_sold": 3,
+          "gmv_per_view": 0.0659,
+          "hooks": [
+            {
+              "hook": "Cuando perla ten\u00eda cinco meses, este humidificador me ayudaba en aquellas noches largas",
+              "score": 8,
+              "explanation": "The hook immediately establishes a personal, relatable problem (sick baby) and a proven solution from personal experience."
+            },
+            {
+              "hook": "Y ahora que ella amaneci\u00f3 congestionada, record\u00e9 que lo ten\u00eda",
+              "score": 7,
+              "explanation": "Creates immediate relevance for parents dealing with sudden congestion in their children."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Este humidificador me ayudaba en aquellas noches largas",
+              "score": 8,
+              "explanation": "Highlights the product's effectiveness in providing comfort and relief during difficult nights."
+            },
+            {
+              "selling_point": "Haremos sentir la m\u00e1s c\u00f3moda y as\u00ed pueda descansar mejor",
+              "score": 9,
+              "explanation": "Focuses on the ultimate benefit for parents: comforting the sick child so they can sleep better."
+            }
+          ],
+          "content_overview": "A parent shares their personal experience using a humidifier during cold and flu season to help their congested toddler sleep comfortably. The video shows the humidifier operating with different colored lights in a child's room while the narrator explains how it helps during sick days. The content aims to recommend the product to other parents facing similar seasonal challenges.",
+          "on_screen_text": "Un esencial cuando llega la temporada de gripe. Si tienes peques, esto te puede interesar.",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 13,
+          "tone": "emotional",
+          "target_audience": "Parents and caregivers of young children and toddlers looking for remedies during flu and cold season."
+        },
+        {
           "rank": 6,
           "title": "@AFM Agency #traveltok #travelessentials #neckpillow #travelpillow #airportessentials ",
           "handle": "christianjohnson2022",
           "video_url": "https://tiktok.com/@christianjohnson2022/video/7686565002299346206",
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
-          "view_count": 947,
+          "view_count": 1057,
           "like_count": 21,
           "gmv": 74.98,
           "units_sold": 2,
-          "gmv_per_view": 0.0792,
+          "gmv_per_view": 0.0709,
           "hooks": [
             {
               "hook": "They said throw away those donut neck pillows because this brand new drop is way better.",
@@ -1134,11 +1199,11 @@
           "video_url": "https://tiktok.com/@crisp720/video/7681112989516221710",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 12920,
+          "view_count": 13037,
           "like_count": 27,
           "gmv": 60.33,
           "units_sold": 2,
-          "gmv_per_view": 0.0047,
+          "gmv_per_view": 0.0046,
           "hooks": [
             {
               "hook": "Pues el precio de este bidet trasero ha bajado de nuevo.",
@@ -1177,11 +1242,11 @@
           "video_url": "https://tiktok.com/@keniaher.77/video/7685451539456068877",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 3553,
+          "view_count": 3747,
           "like_count": 15,
           "gmv": 58.77,
           "units_sold": 3,
-          "gmv_per_view": 0.0165,
+          "gmv_per_view": 0.0157,
           "hooks": [
             {
               "hook": "Es que si quer\u00e9s una malla que sea buena para que las moscas no entren a tu casa, te voy a recomendar esta.",
@@ -1215,11 +1280,11 @@
           "video_url": "https://tiktok.com/@itsjodicollins/video/7682812969637498126",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 4936,
-          "like_count": 505,
+          "view_count": 5038,
+          "like_count": 522,
           "gmv": 55.97,
           "units_sold": 3,
-          "gmv_per_view": 0.0113,
+          "gmv_per_view": 0.0111,
           "hooks": [
             {
               "hook": "Hot topic, I bought my very first property when I was thirty-four, this beautiful condo in Brooklyn, New York.",
@@ -1247,11 +1312,11 @@
           "video_url": "https://tiktok.com/@shopalberto/video/7685289196352785678",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 3810,
+          "view_count": 3825,
           "like_count": 16,
           "gmv": 54.37,
           "units_sold": 2,
-          "gmv_per_view": 0.0143,
+          "gmv_per_view": 0.0142,
           "hooks": [
             {
               "hook": "You could keep overspending on toilet paper by wiping like this.",
@@ -1300,11 +1365,11 @@
           "video_url": "https://tiktok.com/@togivethanks/video/7679264296446037278",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 301,
+          "view_count": 302,
           "like_count": 4,
           "gmv": 49.6,
           "units_sold": 1,
-          "gmv_per_view": 0.1648,
+          "gmv_per_view": 0.1642,
           "hooks": [
             {
               "hook": "I'm going to save so much money on toilet paper with this today.",
@@ -1338,11 +1403,11 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7679856707505360159",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 963,
+          "view_count": 969,
           "like_count": 4,
           "gmv": 43.49,
           "units_sold": 1,
-          "gmv_per_view": 0.0452,
+          "gmv_per_view": 0.0449,
           "hooks": [
             {
               "hook": "Don't be sad you can still get this bidet.",
@@ -1376,11 +1441,11 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7680207743843667231",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 1563,
+          "view_count": 1586,
           "like_count": 2,
           "gmv": 42.98,
           "units_sold": 2,
-          "gmv_per_view": 0.0275,
+          "gmv_per_view": 0.0271,
           "hooks": [
             {
               "hook": "Stop scrolling because you need this product now.",
@@ -1414,16 +1479,54 @@
         },
         {
           "rank": 14,
+          "title": "",
+          "handle": "these.curls.travel",
+          "video_url": "https://tiktok.com/@these.curls.travel/video/7685904933438147871",
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
+          "view_count": 388,
+          "like_count": 8,
+          "gmv": 39.99,
+          "units_sold": 1,
+          "gmv_per_view": 0.1031,
+          "hooks": [
+            {
+              "hook": "If you travel you're definitely going to want to see this.",
+              "score": 8,
+              "explanation": "Directly targets frequent travelers with a curiosity gap regarding a travel essential."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "This neck pillow can be used in several positions.",
+              "score": 8,
+              "explanation": "Highlights the versatility of the product for different sleeping and resting postures."
+            },
+            {
+              "selling_point": "The pillow is made of memory foam which is sturdy and soft.",
+              "score": 9,
+              "explanation": "Emphasizes material quality and comfort, crucial factors for travel pillows."
+            }
+          ],
+          "content_overview": "A creator demonstrates a versatile memory foam travel neck pillow, showing multiple ways it can be worn around the neck, sideways against a plane, facing downward, and on a tray table.",
+          "on_screen_text": "@these.curls.travel",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 25,
+          "tone": "casual",
+          "target_audience": "Frequent travelers, commuters, and people looking for comfortable travel accessories."
+        },
+        {
+          "rank": 15,
           "title": "I switched to a bidet and I\u2019ll never go back \ud83d\ude04\ud83d\udebd Feeling so much fresher! #bidettoilet#bidettok#tikto",
           "handle": "fitlatina15",
           "video_url": "https://tiktok.com/@fitlatina15/video/7679552780146691342",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 1366,
+          "view_count": 1370,
           "like_count": 4,
           "gmv": 31.49,
           "units_sold": 1,
-          "gmv_per_view": 0.0231,
+          "gmv_per_view": 0.023,
           "hooks": [
             {
               "hook": "If you like your bathroom routine leaving you feeling fresh and clean, you need to see this.",
@@ -1454,54 +1557,6 @@
           "product_screen_time_seconds": 22,
           "tone": "casual",
           "target_audience": "Homeowners and renters looking for an affordable, easy-to-install bidet to improve bathroom hygiene and save money on toilet wipes."
-        },
-        {
-          "rank": 15,
-          "title": "Never fight a stuck umbrella again. This compact fiberglass travel umbrella features a one-touch aut",
-          "handle": "thedealkingofttshop",
-          "video_url": "https://tiktok.com/@thedealkingofttshop/video/7685048490585525535",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
-          "view_count": 2654,
-          "like_count": 7,
-          "gmv": 30.59,
-          "units_sold": 1,
-          "gmv_per_view": 0.0115,
-          "hooks": [
-            {
-              "hook": "Saving my butt right now in New York.",
-              "score": 8,
-              "explanation": "Instantly establishes urgency and a real-world use case in a major city during bad weather."
-            },
-            {
-              "hook": "You know if it was standing up to 100 mile an hour winds?",
-              "score": 9,
-              "explanation": "Uses an extreme weather claim to immediately grab viewer curiosity and test the product's durability."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Standing up to 100 mile an hour winds?",
-              "score": 9,
-              "explanation": "Highlights extreme wind resistance, addressing a major pain point with typical umbrellas."
-            },
-            {
-              "selling_point": "Made of freaking fiberglass.",
-              "score": 8,
-              "explanation": "Emphasizes durable, high-strength materials used in construction."
-            },
-            {
-              "selling_point": "One of the best-selling umbrellas in the world.",
-              "score": 8,
-              "explanation": "Leverages social proof and popularity to build trust."
-            }
-          ],
-          "content_overview": "A man walks down a rainy New York City street while holding and reviewing a compact black travel umbrella. He tests it against the elements, praises its fiberglass construction, and highlights its wind resistance and wide coverage.",
-          "on_screen_text": "@thedealkingofftshop",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 17,
-          "tone": "casual",
-          "target_audience": "Urban commuters, travelers, and shoppers looking for a durable, wind-resistant umbrella for harsh weather conditions."
         }
       ],
       "total_found": 303,
@@ -1517,11 +1572,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672846600267468062",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 254686,
-          "like_count": 1203,
-          "gmv": 2684.09,
-          "units_sold": 169,
-          "gmv_per_view": 0.0105,
+          "view_count": 258133,
+          "like_count": 1227,
+          "gmv": 2724.9,
+          "units_sold": 171,
+          "gmv_per_view": 0.0106,
           "hooks": [
             {
               "hook": "Now you gotta know that this one here is not the one that costs you $5 $10 at a grocery store.",
@@ -1565,11 +1620,11 @@
           "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 82940,
-          "like_count": 372,
+          "view_count": 83746,
+          "like_count": 376,
           "gmv": 2052.8,
           "units_sold": 146,
-          "gmv_per_view": 0.0248,
+          "gmv_per_view": 0.0245,
           "hooks": [
             {
               "hook": "Las est\u00e1n agarrando hasta por dos",
@@ -1613,11 +1668,11 @@
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 32821,
-          "like_count": 68,
-          "gmv": 945.65,
-          "units_sold": 69,
-          "gmv_per_view": 0.0288,
+          "view_count": 33369,
+          "like_count": 72,
+          "gmv": 1010.21,
+          "units_sold": 73,
+          "gmv_per_view": 0.0303,
           "hooks": [
             {
               "hook": "They dropped the price even lower.",
@@ -1656,11 +1711,11 @@
           "video_url": "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 29117,
+          "view_count": 29238,
           "like_count": 67,
           "gmv": 816.77,
           "units_sold": 30,
-          "gmv_per_view": 0.0281,
+          "gmv_per_view": 0.0279,
           "hooks": [
             {
               "hook": "This is the bidet that you've been looking for.",
@@ -1689,11 +1744,11 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7673494617085693214",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 15051,
+          "view_count": 15319,
           "like_count": 33,
           "gmv": 458.26,
           "units_sold": 22,
-          "gmv_per_view": 0.0304,
+          "gmv_per_view": 0.0299,
           "hooks": [
             {
               "hook": "You will regret not getting this bidet attachment for your toilet.",
@@ -1800,11 +1855,11 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7677230038281964830",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 4181,
+          "view_count": 4208,
           "like_count": 11,
           "gmv": 297.81,
           "units_sold": 12,
-          "gmv_per_view": 0.0712,
+          "gmv_per_view": 0.0708,
           "hooks": [
             {
               "hook": "This is my top selling product on TikTok Shop right now, and there is a reason why.",
@@ -1838,43 +1893,16 @@
         },
         {
           "rank": 8,
-          "title": "Por eso los chinos est\u00e1n 20 anos adelantados\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping",
-          "handle": "viralshopdealz",
-          "video_url": "https://tiktok.com/@viralshopdealz/video/7678725393917971742",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 229083,
-          "like_count": 4181,
-          "gmv": 287.0,
-          "units_sold": 8,
-          "gmv_per_view": 0.0013,
-          "hooks": [
-            {
-              "hook": "As\u00ed queda tu cola despu\u00e9s de cagar y deja de usar papel de ba\u00f1o para limpiarte",
-              "score": 9,
-              "explanation": "The speaker immediately addresses a universal habit, creating a strong curiosity gap and questioning the viewer's personal hygiene practices."
-            }
-          ],
-          "selling_points": [],
-          "content_overview": "A man demonstrates on a paved outdoor surface using chalk and dirt how toilet paper fails to properly clean, explaining that it only spreads residue and causes odor. He warns against using wet wipes as well due to plumbing issues, setting up the problem that a bidet attachment solves.",
-          "on_screen_text": "Te has limpiado mal toda tu vida, Cagar, Papel, Limpiarte, De, Espartir, Part\u00edculas, Tienes, Cola, Se, Malos, Eso, Apesta, Tuber\u00edas",
-          "product_visible_3s": false,
-          "product_screen_time_seconds": 4,
-          "tone": "educational",
-          "target_audience": "Adults looking to improve their bathroom hygiene and toilet paper usage habits."
-        },
-        {
-          "rank": 9,
           "title": "No es lo mismo!!! #puertamagnetica #screendoor #tiktokshopholidayhaul #fall #parati ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672862005375634719",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 18789,
-          "like_count": 43,
-          "gmv": 259.96,
-          "units_sold": 14,
-          "gmv_per_view": 0.0138,
+          "view_count": 19031,
+          "like_count": 45,
+          "gmv": 294.94,
+          "units_sold": 16,
+          "gmv_per_view": 0.0155,
           "hooks": [
             {
               "hook": "Si vas a comprar una de estas puertas por 5 10 d\u00f3lares en otra tienda, est\u00e1 bien",
@@ -1912,13 +1940,40 @@
           "target_audience": "Homeowners and renters looking for durable, pet-friendly insect screen doors that are easy to install."
         },
         {
+          "rank": 9,
+          "title": "Por eso los chinos est\u00e1n 20 anos adelantados\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping",
+          "handle": "viralshopdealz",
+          "video_url": "https://tiktok.com/@viralshopdealz/video/7678725393917971742",
+          "product_id": "1729385884864975067",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+          "view_count": 235881,
+          "like_count": 4337,
+          "gmv": 287.0,
+          "units_sold": 8,
+          "gmv_per_view": 0.0012,
+          "hooks": [
+            {
+              "hook": "As\u00ed queda tu cola despu\u00e9s de cagar y deja de usar papel de ba\u00f1o para limpiarte",
+              "score": 9,
+              "explanation": "The speaker immediately addresses a universal habit, creating a strong curiosity gap and questioning the viewer's personal hygiene practices."
+            }
+          ],
+          "selling_points": [],
+          "content_overview": "A man demonstrates on a paved outdoor surface using chalk and dirt how toilet paper fails to properly clean, explaining that it only spreads residue and causes odor. He warns against using wet wipes as well due to plumbing issues, setting up the problem that a bidet attachment solves.",
+          "on_screen_text": "Te has limpiado mal toda tu vida, Cagar, Papel, Limpiarte, De, Espartir, Part\u00edculas, Tienes, Cola, Se, Malos, Eso, Apesta, Tuber\u00edas",
+          "product_visible_3s": false,
+          "product_screen_time_seconds": 4,
+          "tone": "educational",
+          "target_audience": "Adults looking to improve their bathroom hygiene and toilet paper usage habits."
+        },
+        {
           "rank": 10,
           "title": "#movingday #backtoschool #dealsforyoudays ",
           "handle": "dawnmichele1972",
           "video_url": "https://tiktok.com/@dawnmichele1972/video/7670635055097695501",
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
-          "view_count": 20027,
+          "view_count": 20036,
           "like_count": 61,
           "gmv": 227.6,
           "units_sold": 22,
@@ -1956,7 +2011,7 @@
           "video_url": "https://tiktok.com/@aroc_finesse/video/7674461738112175391",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 40855,
+          "view_count": 40882,
           "like_count": 335,
           "gmv": 211.27,
           "units_sold": 9,
@@ -2004,11 +2059,11 @@
           "video_url": "https://tiktok.com/@1373bel/video/7683330512680766733",
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "view_count": 8423,
+          "view_count": 8738,
           "like_count": 45,
           "gmv": 179.07,
           "units_sold": 5,
-          "gmv_per_view": 0.0213,
+          "gmv_per_view": 0.0205,
           "hooks": [
             {
               "hook": "\u12a0\u121a\u122d \u0916\u093e\u0928\u093e \u0917\u0930\u092e\u091a\u0940 \u12a5\u1295\u12b3\u1295 \u12f6\u122e \u1235\u1295\u1325\u120d \u1208\u134d\u134d\u122d\u1245 \u12e8\u121d\u1293\u12cd\u1208\u12cd \u123d\u1295\u12a9\u122d\u1275 \u12a8\u1264\u1273\u127d\u1295 \u12a0\u12ed\u12c8\u1323\u121d \u121d\u1233\u127d\u1295 \u1264\u1271\u1295 \u12a5\u1295\u12f3\u1348\u1290\u12cd \u1290\u12cd \u12e8\u121a\u12ab\u122d\u1218\u12cd\u1362",
@@ -2037,12 +2092,55 @@
         },
         {
           "rank": 13,
+          "title": "#magneticdoorscreen #doorscreen #screendoor #fyp ",
+          "handle": "icu185",
+          "video_url": "https://tiktok.com/@icu185/video/7683016023418653983",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
+          "view_count": 8437,
+          "like_count": 18,
+          "gmv": 163.38,
+          "units_sold": 9,
+          "gmv_per_view": 0.0194,
+          "hooks": [
+            {
+              "hook": "No drills, no hassle, just snap and go.",
+              "score": 9,
+              "explanation": "Instantly highlights the ease of installation, addressing the biggest pain point of traditional screen doors."
+            },
+            {
+              "hook": "Self-closing every single time.",
+              "score": 8,
+              "explanation": "Focuses on convenience and functionality, appealing to busy households."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Fifty-two full magnets keep bugs out, air flow in.",
+              "score": 10,
+              "explanation": "Clearly states the core functional benefit of keeping pests out while maintaining ventilation."
+            },
+            {
+              "selling_point": "Pet and kid proof, perfect for every home.",
+              "score": 9,
+              "explanation": "Broadens the appeal by highlighting durability and safety for families with children and pets."
+            }
+          ],
+          "content_overview": "A man demonstrates the installation and features of a magnetic mesh screen door. The video highlights its drill-free setup, self-closing magnetic seal, and pet-friendly design.",
+          "on_screen_text": "TikTok @icu185",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 11,
+          "tone": "casual",
+          "target_audience": "Homeowners, renters, parents, and pet owners looking for an easy-to-install insect screen for their doors."
+        },
+        {
+          "rank": 14,
           "title": "",
           "handle": "dave_mvc55",
           "video_url": "https://tiktok.com/@dave_mvc55/video/7672141590567128350",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 17433,
+          "view_count": 17539,
           "like_count": 40,
           "gmv": 160.59,
           "units_sold": 13,
@@ -2074,7 +2172,7 @@
           "target_audience": "Homeowners, parents, and pet owners looking for a convenient, hands-free screen door solution."
         },
         {
-          "rank": 14,
+          "rank": 15,
           "title": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozz",
           "handle": "leyanisjj",
           "video_url": "https://tiktok.com/@leyanisjj/video/7668554314339732767",
@@ -2093,44 +2191,6 @@
           "product_screen_time_seconds": null,
           "tone": null,
           "target_audience": null
-        },
-        {
-          "rank": 15,
-          "title": "",
-          "handle": "sylviaapproved",
-          "video_url": "https://tiktok.com/@sylviaapproved/video/7672459687866027294",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 13814,
-          "like_count": 53,
-          "gmv": 148.0,
-          "units_sold": 9,
-          "gmv_per_view": 0.0107,
-          "hooks": [
-            {
-              "hook": "Me hace tan chistoso que la gente dice no cierra bien, se cae, se rompe.",
-              "score": 8,
-              "explanation": "Starts by addressing common complaints or skepticism directly, creating curiosity about how the product solves these issues."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Esta que miras aqu\u00ed es de muy buena calidad.",
-              "score": 9,
-              "explanation": "Highlights the superior build quality and durability compared to cheaper alternatives."
-            },
-            {
-              "selling_point": "Est\u00e1 pegado con cinta de velcro que est\u00e1 demasiado fuerte y viene con esos clavitos.",
-              "score": 8,
-              "explanation": "Emphasizes secure and sturdy installation method using heavy-duty velcro and nails."
-            }
-          ],
-          "content_overview": "A creator addresses negative misconceptions about magnetic screen doors by defending the high quality, durability, and secure installation of her own screen door. She demonstrates how well it holds up against kids and pets compared to cheap alternatives.",
-          "on_screen_text": "SE ME HACE TAN CHISTOSO QUE LA GENTE DICE NO CIERRA BIEN, SE CAE, SE ROMPE. SE CAE, \u00bfDE D\u00d3NDE? POR FAVOR, MU\u00c9STRENME DE D\u00d3NDE. Y TAL VEZ ME DEJAS TU OPINI\u00d3N PORQUE COMPRASTE UNA DE ESTAS PUERTAS QUE TE COSTARON 5, 10, $8 EN OTRA TIENDA. D\u00c9JAME TE DIGO QUE EST\u00c1 AQU\u00cd NO ES COMO ESA. ESTA QUE MIRAS AQU\u00cd ES DE MUY BUENA CALIDAD. NO SE VA A ROMPER NO SE VA A CAER AL SIGUIENTE D\u00cdA, AUNQUE NI\u00d1OS SALGAN Y ENTRAN Y AUNQUE LE RASQUEN, LE PIQUEN. NO SE VA A ROMPER AL SIGUIENTE NI A LA SEMANA NI AL MES. TE VA A DURAR DEMASIADO TIEMPO ESTO LO QUE VEN AQU\u00cd EST\u00c1 PEGADO CON CINTA DE VELCRO, EST\u00c1 DEMASIADO FUERTE VIENE CON ESOS CLAVITOS, SE LO PUEDES PONER EN CADA",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 44,
-          "tone": "casual",
-          "target_audience": "Homeowners, parents, and pet owners looking for a durable and reliable magnetic screen door."
         }
       ],
       "total_found": 1091,
@@ -2146,11 +2206,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672846600267468062",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 254686,
-          "like_count": 1203,
-          "gmv": 2684.09,
-          "units_sold": 169,
-          "gmv_per_view": 0.0105,
+          "view_count": 258133,
+          "like_count": 1227,
+          "gmv": 2724.9,
+          "units_sold": 171,
+          "gmv_per_view": 0.0106,
           "hooks": [
             {
               "hook": "Now you gotta know that this one here is not the one that costs you $5 $10 at a grocery store.",
@@ -2194,11 +2254,11 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7658127805066087711",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 112418,
-          "like_count": 223,
-          "gmv": 2320.56,
+          "view_count": 112480,
+          "like_count": 226,
+          "gmv": 2346.8,
           "units_sold": 117,
-          "gmv_per_view": 0.0206,
+          "gmv_per_view": 0.0209,
           "hooks": [
             {
               "hook": "You will regret this!!",
@@ -2237,11 +2297,11 @@
           "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 82940,
-          "like_count": 372,
+          "view_count": 83746,
+          "like_count": 376,
           "gmv": 2052.8,
           "units_sold": 146,
-          "gmv_per_view": 0.0248,
+          "gmv_per_view": 0.0245,
           "hooks": [
             {
               "hook": "Las est\u00e1n agarrando hasta por dos",
@@ -2285,7 +2345,7 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7663728633059544351",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 119749,
+          "view_count": 120098,
           "like_count": 458,
           "gmv": 1381.31,
           "units_sold": 98,
@@ -2318,11 +2378,11 @@
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 60230,
+          "view_count": 60674,
           "like_count": 112,
-          "gmv": 1122.34,
-          "units_sold": 72,
-          "gmv_per_view": 0.0186,
+          "gmv": 1141.03,
+          "units_sold": 73,
+          "gmv_per_view": 0.0188,
           "hooks": [
             {
               "hook": "Don't wait till the sale ends",
@@ -2371,7 +2431,7 @@
           "video_url": "https://tiktok.com/@muscle_dad/video/7659407860622724366",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 111741,
+          "view_count": 111752,
           "like_count": 770,
           "gmv": 1051.8,
           "units_sold": 45,
@@ -2419,11 +2479,11 @@
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 32821,
-          "like_count": 68,
-          "gmv": 945.65,
-          "units_sold": 69,
-          "gmv_per_view": 0.0288,
+          "view_count": 33369,
+          "like_count": 72,
+          "gmv": 1010.21,
+          "units_sold": 73,
+          "gmv_per_view": 0.0303,
           "hooks": [
             {
               "hook": "They dropped the price even lower.",
@@ -2462,11 +2522,11 @@
           "video_url": "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 29117,
+          "view_count": 29238,
           "like_count": 67,
           "gmv": 816.77,
           "units_sold": 30,
-          "gmv_per_view": 0.0281,
+          "gmv_per_view": 0.0279,
           "hooks": [
             {
               "hook": "This is the bidet that you've been looking for.",
@@ -2495,11 +2555,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7662535458450083103",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
-          "view_count": 41665,
-          "like_count": 253,
+          "view_count": 41756,
+          "like_count": 254,
           "gmv": 744.22,
           "units_sold": 43,
-          "gmv_per_view": 0.0179,
+          "gmv_per_view": 0.0178,
           "hooks": [],
           "selling_points": [
             {
@@ -2527,11 +2587,11 @@
           "video_url": "https://tiktok.com/@muscle_dad/video/7658896126246014222",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 119655,
-          "like_count": 702,
+          "view_count": 120118,
+          "like_count": 706,
           "gmv": 700.69,
           "units_sold": 26,
-          "gmv_per_view": 0.0059,
+          "gmv_per_view": 0.0058,
           "hooks": [
             {
               "hook": "Have you ever decided to experiment and play with the back door and then you go down there and you end up with something like this on your hand?",
@@ -2580,11 +2640,11 @@
           "video_url": "https://tiktok.com/@delbarnesadventure/video/7664372520132283661",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 10187,
+          "view_count": 10190,
           "like_count": 20,
           "gmv": 668.96,
           "units_sold": 32,
-          "gmv_per_view": 0.0657,
+          "gmv_per_view": 0.0656,
           "hooks": [
             {
               "hook": "So sorry if you bought this yesterday because today it's on a massive sale.",
@@ -2623,7 +2683,7 @@
           "video_url": "https://tiktok.com/@thatsjesslifenow/video/7663988958346415390",
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
-          "view_count": 96250,
+          "view_count": 96527,
           "like_count": 447,
           "gmv": 519.82,
           "units_sold": 48,
@@ -2650,11 +2710,11 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7673494617085693214",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 15051,
+          "view_count": 15319,
           "like_count": 33,
           "gmv": 458.26,
           "units_sold": 22,
-          "gmv_per_view": 0.0304,
+          "gmv_per_view": 0.0299,
           "hooks": [
             {
               "hook": "You will regret not getting this bidet attachment for your toilet.",
@@ -2761,11 +2821,11 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7677230038281964830",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 4181,
+          "view_count": 4208,
           "like_count": 11,
           "gmv": 297.81,
           "units_sold": 12,
-          "gmv_per_view": 0.0712,
+          "gmv_per_view": 0.0708,
           "hooks": [
             {
               "hook": "This is my top selling product on TikTok Shop right now, and there is a reason why.",

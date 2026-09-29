@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-28",
+    "pulled_on": "2026-09-29",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -13,67 +13,67 @@
     "week": {
       "range": "2026-09-21 to 2026-09-27",
       "revenue": {
-        "total_gmv": 5156.95,
-        "affiliate_gmv": 3423.21,
-        "video_gmv": 3187.36,
+        "total_gmv": 5323.95,
+        "affiliate_gmv": 4095.75,
+        "video_gmv": 3829.18,
         "live_gmv": 208.9,
-        "shop_tab_gmv": 1402.5,
-        "gmv_max_revenue": 5729.809999999999,
+        "shop_tab_gmv": 1412.49,
+        "gmv_max_revenue": 5821.759999999998,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 3321.83,
-        "commission": 681.72,
-        "refund_amount": 701.71,
-        "shipping_fees": 1489.6
+        "ad_spend": 3371.17,
+        "commission": 821.18,
+        "refund_amount": 801.06,
+        "shipping_fees": 1542.8
       },
-      "net_after_ads_commissions_refunds": 451.69,
+      "net_after_ads_commissions_refunds": 330.54,
       "ratios": {
-        "blended_roas": 1.5524,
-        "gmv_max_roas": 1.7249,
-        "commission_rate_pct": 19.91,
-        "refund_rate_pct": 13.61,
-        "aov": 26.09,
-        "gpm": 11.42,
-        "emv": 1387.68,
-        "gmv_per_sample_delivered": 342.32
+        "blended_roas": 1.5793,
+        "gmv_max_roas": 1.7269,
+        "commission_rate_pct": 20.05,
+        "refund_rate_pct": 15.05,
+        "aov": 26.08,
+        "gpm": 10.87,
+        "emv": 1753.12,
+        "gmv_per_sample_delivered": 409.57
       },
       "volume": {
-        "orders": 197,
-        "units_sold": 216.0,
-        "creators": 38,
+        "orders": 204,
+        "units_sold": 224.0,
+        "creators": 41,
         "samples_delivered": 10,
-        "video_views": 277536
+        "video_views": 350624
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 2110.16,
-          "share_pct": 40.9,
+          "total_gmv": 2136.4,
+          "share_pct": 40.1,
           "video_gmv": 1472.51,
           "live_gmv": 208.9,
           "shop_tab_gmv": 533.78,
-          "units_sold": 68
+          "units_sold": 69
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 1975.8,
-          "share_pct": 38.3,
-          "video_gmv": 1768.76,
+          "total_gmv": 2066.58,
+          "share_pct": 38.8,
+          "video_gmv": 1827.56,
           "live_gmv": 0,
           "shop_tab_gmv": 356.45,
-          "units_sold": 110
+          "units_sold": 115
         },
         {
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 39.99,
           "total_gmv": 313.34,
-          "share_pct": 6.1,
+          "share_pct": 5.9,
           "video_gmv": 211.37,
           "live_gmv": 0,
           "shop_tab_gmv": 101.97,
@@ -84,7 +84,7 @@
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
           "total_gmv": 180.81,
-          "share_pct": 3.5,
+          "share_pct": 3.4,
           "video_gmv": 53.18,
           "live_gmv": 0,
           "shop_tab_gmv": 157.02,
@@ -114,7 +114,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 61.99,
           "total_gmv": 119.92,
           "share_pct": 2.3,
@@ -139,7 +139,7 @@
           "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Nighttime Hot Flash Relief",
           "price": 29.99,
           "total_gmv": 55.2,
-          "share_pct": 1.1,
+          "share_pct": 1.0,
           "video_gmv": 29.99,
           "live_gmv": 0,
           "shop_tab_gmv": 55.2,
@@ -157,6 +157,28 @@
           "units_sold": 1
         },
         {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
+          "price": 39.99,
+          "total_gmv": 39.99,
+          "share_pct": 0.8,
+          "video_gmv": 39.99,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1730273357213896923",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "price": 9.99,
+          "total_gmv": 29.97,
+          "share_pct": 0.6,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 19.98,
+          "units_sold": 3
+        },
+        {
           "product_id": "1730130703186235611",
           "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
           "price": 23.99,
@@ -166,17 +188,6 @@
           "live_gmv": 0,
           "shop_tab_gmv": 23.99,
           "units_sold": 1
-        },
-        {
-          "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
-          "price": 9.99,
-          "total_gmv": 19.98,
-          "share_pct": 0.4,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 9.99,
-          "units_sold": 2
         },
         {
           "product_id": "1729385798566514907",
@@ -202,7 +213,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Both Sides Plush, Thick & Durable, Machine Washable & Dryer Safe, Cozy Throw Blanket, Comfy Christmas Accent",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
           "price": 67.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -279,7 +290,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -290,7 +301,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -397,84 +408,73 @@
           "live_gmv": 0,
           "shop_tab_gmv": 0,
           "units_sold": 0
-        },
-        {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 0,
-          "share_pct": 0.0,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 0
         }
       ]
     },
     "14d": {
       "range": "2026-09-14 to 2026-09-27",
       "revenue": {
-        "total_gmv": 9375.38,
-        "affiliate_gmv": 6778.97,
-        "video_gmv": 5974.39,
+        "total_gmv": 9542.38,
+        "affiliate_gmv": 7451.51,
+        "video_gmv": 6616.21,
         "live_gmv": 583.4,
-        "shop_tab_gmv": 2298.2,
-        "gmv_max_revenue": 9642.02,
+        "shop_tab_gmv": 2308.19,
+        "gmv_max_revenue": 9733.97,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 6048.700000000001,
-        "commission": 1289.35,
-        "refund_amount": 1278.66,
-        "shipping_fees": 2614.4
+        "ad_spend": 6098.040000000001,
+        "commission": 1428.81,
+        "refund_amount": 1378.01,
+        "shipping_fees": 2667.6
       },
-      "net_after_ads_commissions_refunds": 758.67,
+      "net_after_ads_commissions_refunds": 637.52,
       "ratios": {
-        "blended_roas": 1.55,
-        "gmv_max_roas": 1.5941,
-        "commission_rate_pct": 19.02,
-        "refund_rate_pct": 13.64,
-        "aov": 26.54,
-        "gpm": 9.53,
-        "emv": 3123.44,
-        "gmv_per_sample_delivered": 308.14
+        "blended_roas": 1.5648,
+        "gmv_max_roas": 1.5962,
+        "commission_rate_pct": 19.17,
+        "refund_rate_pct": 14.44,
+        "aov": 26.53,
+        "gpm": 9.46,
+        "emv": 3488.89,
+        "gmv_per_sample_delivered": 338.71
       },
       "volume": {
-        "orders": 351,
-        "units_sold": 386.0,
-        "creators": 77,
+        "orders": 358,
+        "units_sold": 394.0,
+        "creators": 79,
         "samples_delivered": 22,
-        "video_views": 624689
+        "video_views": 697777
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 3868.24,
-          "share_pct": 41.3,
+          "total_gmv": 3894.48,
+          "share_pct": 40.8,
           "video_gmv": 2414.78,
           "live_gmv": 752.64,
           "shop_tab_gmv": 857.61,
-          "units_sold": 117
+          "units_sold": 118
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 3596.69,
-          "share_pct": 38.4,
-          "video_gmv": 3099.34,
+          "total_gmv": 3687.47,
+          "share_pct": 38.6,
+          "video_gmv": 3158.14,
           "live_gmv": 0,
           "shop_tab_gmv": 571.84,
-          "units_sold": 201
+          "units_sold": 206
         },
         {
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 39.99,
           "total_gmv": 708.58,
-          "share_pct": 7.6,
+          "share_pct": 7.4,
           "video_gmv": 510.62,
           "live_gmv": 0,
           "shop_tab_gmv": 197.96,
@@ -485,7 +485,7 @@
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Sandproof, Waterproof, Quick Dry, Machine Washable - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large, Oversized for Up to 10 - Fast Pack & Go for Beach & Camps",
           "price": 39.99,
           "total_gmv": 232.85,
-          "share_pct": 2.5,
+          "share_pct": 2.4,
           "video_gmv": 196.22,
           "live_gmv": 0,
           "shop_tab_gmv": 66.43,
@@ -496,7 +496,7 @@
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
           "total_gmv": 230.92,
-          "share_pct": 2.5,
+          "share_pct": 2.4,
           "video_gmv": 76.81,
           "live_gmv": 0,
           "shop_tab_gmv": 207.13,
@@ -515,7 +515,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 61.99,
           "total_gmv": 119.92,
           "share_pct": 1.3,
@@ -536,6 +536,17 @@
           "units_sold": 3
         },
         {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
+          "price": 39.99,
+          "total_gmv": 114.97,
+          "share_pct": 1.2,
+          "video_gmv": 114.97,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 3
+        },
+        {
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 39.99,
@@ -551,7 +562,7 @@
           "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Nighttime Hot Flash Relief",
           "price": 29.99,
           "total_gmv": 79.84,
-          "share_pct": 0.9,
+          "share_pct": 0.8,
           "video_gmv": 29.99,
           "live_gmv": 0,
           "shop_tab_gmv": 55.2,
@@ -569,26 +580,15 @@
           "units_sold": 1
         },
         {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 74.98,
-          "share_pct": 0.8,
-          "video_gmv": 74.98,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 2
-        },
-        {
           "product_id": "1730273357213896923",
           "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
           "price": 9.99,
-          "total_gmv": 39.67,
-          "share_pct": 0.4,
+          "total_gmv": 49.66,
+          "share_pct": 0.5,
           "video_gmv": 0,
           "live_gmv": 0,
-          "shop_tab_gmv": 29.68,
-          "units_sold": 4
+          "shop_tab_gmv": 39.67,
+          "units_sold": 5
         },
         {
           "product_id": "1730130703186235611",
@@ -625,7 +625,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Both Sides Plush, Thick & Durable, Machine Washable & Dryer Safe, Cozy Throw Blanket, Comfy Christmas Accent",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
           "price": 67.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -702,7 +702,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -713,7 +713,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -815,60 +815,60 @@
     "month": {
       "range": "2026-08-29 to 2026-09-27",
       "revenue": {
-        "total_gmv": 34191.48,
-        "affiliate_gmv": 28858.02,
-        "video_gmv": 17286.63,
+        "total_gmv": 34358.48,
+        "affiliate_gmv": 29530.56,
+        "video_gmv": 17928.45,
         "live_gmv": 11636.92,
-        "shop_tab_gmv": 7015.95,
-        "gmv_max_revenue": 26571.39,
+        "shop_tab_gmv": 7025.94,
+        "gmv_max_revenue": 26663.339999999997,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 18142.86,
-        "commission": 6011.86,
-        "refund_amount": 4669.15,
-        "shipping_fees": 9211.2
+        "ad_spend": 18192.200000000004,
+        "commission": 6151.32,
+        "refund_amount": 4768.5,
+        "shipping_fees": 9264.4
       },
-      "net_after_ads_commissions_refunds": 5367.61,
+      "net_after_ads_commissions_refunds": 5246.46,
       "ratios": {
-        "blended_roas": 1.8846,
-        "gmv_max_roas": 1.4646,
+        "blended_roas": 1.8886,
+        "gmv_max_roas": 1.4656,
         "commission_rate_pct": 20.83,
-        "refund_rate_pct": 13.66,
+        "refund_rate_pct": 13.88,
         "aov": 27.2,
-        "gpm": 9.62,
-        "emv": 8914.57,
-        "gmv_per_sample_delivered": 324.25
+        "gpm": 9.58,
+        "emv": 9280.0,
+        "gmv_per_sample_delivered": 331.8
       },
       "volume": {
-        "orders": 1229,
-        "units_sold": 1320.0,
-        "creators": 169,
+        "orders": 1236,
+        "units_sold": 1328.0,
+        "creators": 171,
         "samples_delivered": 89,
-        "video_views": 1782913
+        "video_views": 1856001
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 22182.73,
-          "share_pct": 64.9,
+          "total_gmv": 22208.97,
+          "share_pct": 64.6,
           "video_gmv": 8476.89,
           "live_gmv": 11356.86,
           "shop_tab_gmv": 3553.34,
-          "units_sold": 695
+          "units_sold": 696
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 8702.99,
-          "share_pct": 25.5,
-          "video_gmv": 7671.73,
+          "total_gmv": 8793.77,
+          "share_pct": 25.6,
+          "video_gmv": 7730.53,
           "live_gmv": 0,
           "shop_tab_gmv": 1634.66,
-          "units_sold": 501
+          "units_sold": 506
         },
         {
           "product_id": "1730105130585657563",
@@ -916,7 +916,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 61.99,
           "total_gmv": 187.9,
           "share_pct": 0.5,
@@ -974,11 +974,22 @@
           "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - Low Noise Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy-Clean with Kit, Essential Oil Ready Home Therapy Device for Large/Kid Rooms, Corded Improves Breathing Unit",
           "price": 119.99,
           "total_gmv": 119.99,
-          "share_pct": 0.4,
+          "share_pct": 0.3,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 0,
           "units_sold": 1
+        },
+        {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
+          "price": 39.99,
+          "total_gmv": 114.97,
+          "share_pct": 0.3,
+          "video_gmv": 114.97,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 3
         },
         {
           "product_id": "1730130752085856475",
@@ -1003,6 +1014,17 @@
           "units_sold": 1
         },
         {
+          "product_id": "1730273357213896923",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "price": 9.99,
+          "total_gmv": 77.35,
+          "share_pct": 0.2,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 57.65,
+          "units_sold": 8
+        },
+        {
           "product_id": "1730130848266359003",
           "product_name": "Everlasting Comfort | Lumbar Support Pillow - Gel Infused Polyester Ergonomic Office Chair Cushion, Padded Supportive Sitting Waist Back Cushion for Gaming Chair, Car, Low Back Pain Relief & Better Posture Promotion, Padded Cushion, Ergonomic Cushion",
           "price": 43.99,
@@ -1012,28 +1034,6 @@
           "live_gmv": 0,
           "shop_tab_gmv": 77.2,
           "units_sold": 2
-        },
-        {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 74.98,
-          "share_pct": 0.2,
-          "video_gmv": 74.98,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 2
-        },
-        {
-          "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
-          "price": 9.99,
-          "total_gmv": 67.36,
-          "share_pct": 0.2,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 47.66,
-          "units_sold": 7
         },
         {
           "product_id": "1730130868699435227",
@@ -1059,7 +1059,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 22.94,
           "share_pct": 0.1,
@@ -1103,7 +1103,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Both Sides Plush, Thick & Durable, Machine Washable & Dryer Safe, Cozy Throw Blanket, Comfy Christmas Accent",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
           "price": 67.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1169,7 +1169,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1238,60 +1238,60 @@
     "60d": {
       "range": "2026-07-30 to 2026-09-27",
       "revenue": {
-        "total_gmv": 120347.44,
-        "affiliate_gmv": 105736.69,
-        "video_gmv": 62951.52,
+        "total_gmv": 120514.44,
+        "affiliate_gmv": 106409.23,
+        "video_gmv": 63593.34,
         "live_gmv": 41236.2,
-        "shop_tab_gmv": 19120.93,
-        "gmv_max_revenue": 101887.33000000002,
+        "shop_tab_gmv": 19130.92,
+        "gmv_max_revenue": 101979.28000000001,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 89268.45999999999,
-        "commission": 25022.98,
-        "refund_amount": 12836.63,
-        "shipping_fees": 36974.0
+        "ad_spend": 89317.79999999999,
+        "commission": 25162.44,
+        "refund_amount": 12935.98,
+        "shipping_fees": 37027.2
       },
-      "net_after_ads_commissions_refunds": -6780.63,
+      "net_after_ads_commissions_refunds": -6901.78,
       "ratios": {
-        "blended_roas": 1.3482,
-        "gmv_max_roas": 1.1414,
-        "commission_rate_pct": 23.67,
-        "refund_rate_pct": 10.67,
+        "blended_roas": 1.3493,
+        "gmv_max_roas": 1.1418,
+        "commission_rate_pct": 23.65,
+        "refund_rate_pct": 10.73,
         "aov": 25.54,
         "gpm": 8.96,
-        "emv": 34964.74,
-        "gmv_per_sample_delivered": 226.42
+        "emv": 35330.18,
+        "gmv_per_sample_delivered": 227.86
       },
       "volume": {
-        "orders": 4891,
-        "units_sold": 5512.0,
-        "creators": 505,
+        "orders": 4898,
+        "units_sold": 5520.0,
+        "creators": 507,
         "samples_delivered": 467,
-        "video_views": 6992948
+        "video_views": 7066036
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 79775.55,
-          "share_pct": 66.3,
+          "total_gmv": 79801.79,
+          "share_pct": 66.2,
           "video_gmv": 29155.22,
           "live_gmv": 41760.69,
           "shop_tab_gmv": 11429.66,
-          "units_sold": 2817
+          "units_sold": 2818
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 32547.79,
-          "share_pct": 27.0,
-          "video_gmv": 29489.8,
+          "total_gmv": 32638.57,
+          "share_pct": 27.1,
+          "video_gmv": 29548.6,
           "live_gmv": 0,
           "shop_tab_gmv": 4524.79,
-          "units_sold": 2247
+          "units_sold": 2252
         },
         {
           "product_id": "1729388554561294555",
@@ -1372,7 +1372,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 61.99,
           "total_gmv": 248.06,
           "share_pct": 0.2,
@@ -1415,6 +1415,17 @@
           "units_sold": 1
         },
         {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
+          "price": 39.99,
+          "total_gmv": 114.97,
+          "share_pct": 0.1,
+          "video_gmv": 114.97,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 3
+        },
+        {
           "product_id": "1730129811577671899",
           "product_name": "Household Shoe Dryer Machine, Vented Heavy-Duty Work Boot Dryer with Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Multi-Material Safe",
           "price": 103.99,
@@ -1424,6 +1435,17 @@
           "live_gmv": 0,
           "shop_tab_gmv": 79.36,
           "units_sold": 1
+        },
+        {
+          "product_id": "1730273357213896923",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "price": 9.99,
+          "total_gmv": 77.35,
+          "share_pct": 0.1,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 57.65,
+          "units_sold": 8
         },
         {
           "product_id": "1730130848266359003",
@@ -1437,17 +1459,6 @@
           "units_sold": 2
         },
         {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 74.98,
-          "share_pct": 0.1,
-          "video_gmv": 74.98,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 2
-        },
-        {
           "product_id": "1729387976535412955",
           "product_name": "Everlasting Comfort Polyester Waterproof Washable Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic Soft Transpirable Dual Layer Fabric, Machine Washable for Dorm Rooms",
           "price": 39.99,
@@ -1457,17 +1468,6 @@
           "live_gmv": 0,
           "shop_tab_gmv": 69.49,
           "units_sold": 3
-        },
-        {
-          "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
-          "price": 9.99,
-          "total_gmv": 67.36,
-          "share_pct": 0.1,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 47.66,
-          "units_sold": 7
         },
         {
           "product_id": "1730130703186235611",
@@ -1504,7 +1504,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 50.93,
           "share_pct": 0.0,
@@ -1559,7 +1559,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Both Sides Plush, Thick & Durable, Machine Washable & Dryer Safe, Cozy Throw Blanket, Comfy Christmas Accent",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
           "price": 67.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1625,7 +1625,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1683,60 +1683,60 @@
     "90d": {
       "range": "2026-06-30 to 2026-09-27",
       "revenue": {
-        "total_gmv": 183130.13,
-        "affiliate_gmv": 161944.25,
-        "video_gmv": 104309.93,
-        "live_gmv": 55289.05,
-        "shop_tab_gmv": 26466.17,
-        "gmv_max_revenue": 169858.11000000002,
+        "total_gmv": 183297.13,
+        "affiliate_gmv": 162616.79,
+        "video_gmv": 104951.75,
+        "live_gmv": 55312.04,
+        "shop_tab_gmv": 26476.16,
+        "gmv_max_revenue": 169950.06,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 165741.16,
-        "commission": 38025.84,
-        "refund_amount": 18552.13,
-        "shipping_fees": 56232.4
+        "ad_spend": 165790.5,
+        "commission": 38165.3,
+        "refund_amount": 18651.48,
+        "shipping_fees": 56285.6
       },
-      "net_after_ads_commissions_refunds": -39189.0,
+      "net_after_ads_commissions_refunds": -39310.15,
       "ratios": {
-        "blended_roas": 1.1049,
-        "gmv_max_roas": 1.0248,
-        "commission_rate_pct": 23.48,
-        "refund_rate_pct": 10.13,
+        "blended_roas": 1.1056,
+        "gmv_max_roas": 1.0251,
+        "commission_rate_pct": 23.47,
+        "refund_rate_pct": 10.18,
         "aov": 25.58,
         "gpm": 7.79,
-        "emv": 66737.58,
-        "gmv_per_sample_delivered": 200.67
+        "emv": 67103.02,
+        "gmv_per_sample_delivered": 201.51
       },
       "volume": {
-        "orders": 7435,
-        "units_sold": 8397.0,
-        "creators": 788,
+        "orders": 7442,
+        "units_sold": 8405.0,
+        "creators": 791,
         "samples_delivered": 807,
-        "video_views": 13347516
+        "video_views": 13420604
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
-          "total_gmv": 121325.41,
-          "share_pct": 66.3,
+          "total_gmv": 121351.65,
+          "share_pct": 66.2,
           "video_gmv": 52187.96,
           "live_gmv": 55829.64,
           "shop_tab_gmv": 16048.86,
-          "units_sold": 4524
+          "units_sold": 4525
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
           "price": 27.99,
-          "total_gmv": 50934.8,
+          "total_gmv": 51025.58,
           "share_pct": 27.8,
-          "video_gmv": 45777.35,
+          "video_gmv": 45836.15,
           "live_gmv": 104.95,
           "shop_tab_gmv": 6420.07,
-          "units_sold": 3258
+          "units_sold": 3263
         },
         {
           "product_id": "1729388554561294555",
@@ -1828,7 +1828,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel Automatic Windproof Travel Umbrella - Compact Auto-Folding, 100MPH Wind-Resistant, Durable Comfortable Light Portable Adult Umbrella, Fits Backpacks & Cars, for Rain/Sun",
+          "product_name": "Repel 22-Rib Push-Type Auto Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 61.99,
           "total_gmv": 248.06,
           "share_pct": 0.1,
@@ -1841,12 +1841,12 @@
           "product_id": "1730273357213896923",
           "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
           "price": 9.99,
-          "total_gmv": 147.1,
+          "total_gmv": 157.09,
           "share_pct": 0.1,
           "video_gmv": 0,
           "live_gmv": 0,
-          "shop_tab_gmv": 127.4,
-          "units_sold": 10
+          "shop_tab_gmv": 137.39,
+          "units_sold": 11
         },
         {
           "product_id": "1729391862019821787",
@@ -1871,6 +1871,17 @@
           "units_sold": 1
         },
         {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
+          "price": 39.99,
+          "total_gmv": 114.97,
+          "share_pct": 0.1,
+          "video_gmv": 114.97,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 3
+        },
+        {
           "product_id": "1729387976535412955",
           "product_name": "Everlasting Comfort Polyester Waterproof Washable Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic Soft Transpirable Dual Layer Fabric, Machine Washable for Dorm Rooms",
           "price": 39.99,
@@ -1883,7 +1894,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Pain Relief for Side Sleepers, Aligns Hips and Spine, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 95.92,
           "share_pct": 0.1,
@@ -1912,17 +1923,6 @@
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 77.2,
-          "units_sold": 2
-        },
-        {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow, Designed for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 74.98,
-          "share_pct": 0.0,
-          "video_gmv": 74.98,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
           "units_sold": 2
         },
         {
@@ -2048,7 +2048,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Both Sides Plush, Thick & Durable, Machine Washable & Dryer Safe, Cozy Throw Blanket, Comfy Christmas Accent",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
           "price": 67.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -2081,7 +2081,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Automatically-Ejecting Function, Lifetime Replace",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
