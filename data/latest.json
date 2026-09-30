@@ -33,19 +33,19 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-09-29",
+    "pulled_on": "2026-09-30",
     "data_through": "2026-09-27",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-09-29. Complete attribution through 2026-09-27."
+    "note": "Pulled from Cruva REST API on 2026-09-30. Complete attribution through 2026-09-27."
   },
   "latest_source_check": {
-    "date": "2026-09-28",
-    "seller_center_gmv": 442.56,
-    "orders": 19,
-    "units": 19,
-    "gmv_max_revenue": 392.84,
-    "gmv_max_spend": 360.79,
-    "gmv_max_roas": 1.0888328390476454,
+    "date": "2026-09-29",
+    "seller_center_gmv": 923.61,
+    "orders": 45,
+    "units": 46,
+    "gmv_max_revenue": 853.03,
+    "gmv_max_spend": 583.67,
+    "gmv_max_roas": 1.461493652234996,
     "attribution_status": "complete"
   },
   "periods": {
@@ -67,7 +67,7 @@
           "Units sold": 224.0,
           "Affiliate GMV": 4095.75,
           "Commission": 821.18,
-          "Videos posted": 74,
+          "Videos posted": 75,
           "Creators posting": 41,
           "Video views": 350624,
           "LIVE GMV": 208.9,
@@ -81,8 +81,8 @@
           "Units sold": 31.76,
           "Affiliate GMV": 22.05,
           "Commission": 35.14,
-          "Videos posted": -18.68,
-          "Creators posting": -18.0,
+          "Videos posted": -13.79,
+          "Creators posting": -16.33,
           "Video views": 1.0,
           "LIVE GMV": -44.22,
           "DMs sent": 102.87,
@@ -109,7 +109,7 @@
           "Samples approved": 4,
           "Samples shipped": 6.0,
           "Samples delivered": 10,
-          "Creators with sales": 41
+          "Creators with sales": 44
         },
         "daily": [
           [
@@ -188,40 +188,40 @@
         [
           "Sylvia",
           "sylviaapproved",
-          615.2,
-          32,
+          852.91,
+          42,
           56237,
-          140.5,
+          193.3,
           0,
           0
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          592.08,
-          15,
+          627.77,
+          16,
           31905,
-          141.0,
+          147.3,
           0,
           0
         ],
         [
           "Red Oakley",
           "jaterao92",
-          285.14,
-          9,
+          344.82,
+          12,
           13364,
-          68.6,
+          86.1,
           0,
           0
         ],
         [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          233.74,
-          11,
+          316.99,
+          15,
           7537,
-          59.8,
+          79.3,
           2,
           0
         ],
@@ -246,32 +246,32 @@
           0
         ],
         [
-          "favorite favorite find",
-          "favoritefavoritefind",
-          123.21,
-          3,
-          1134,
-          15.4,
+          "The Gem Of Gemini",
+          "the.gem.of.gemini",
+          138.13,
+          6,
+          2851,
+          22.2,
           0,
           0
         ],
         [
           "The Evergreen Edit",
           "theevergreeneditco",
-          108.41,
-          4,
+          134.65,
+          5,
           1855,
-          26.25,
+          35.0,
           0,
           0
         ],
         [
-          "The Gem Of Gemini",
-          "the.gem.of.gemini",
-          98.15,
-          4,
-          2851,
-          16.2,
+          "favorite favorite find",
+          "favoritefavoritefind",
+          123.21,
+          3,
+          1134,
+          15.4,
           0,
           0
         ],
@@ -294,7 +294,7 @@
           "keniaher.77",
           16.99,
           1,
-          1438,
+          1471,
           9,
           "https://tiktok.com/@keniaher.77/video/7688037869562137869"
         ],
@@ -316,7 +316,7 @@
           "repel_umbrella",
           0,
           0,
-          331,
+          342,
           1,
           "https://tiktok.com/@repel_umbrella/video/7686591237675175182"
         ],
@@ -327,7 +327,7 @@
           "upperechelonproducts_",
           0,
           0,
-          312,
+          313,
           0,
           "https://tiktok.com/@upperechelonproducts_/video/7686591637488684302"
         ],
@@ -349,8 +349,8 @@
           "repel_umbrella",
           0,
           0,
-          309,
-          3,
+          312,
+          4,
           "https://tiktok.com/@repel_umbrella/video/7686913415780125965"
         ],
         [
@@ -371,7 +371,7 @@
           "everlasting_comfort",
           0,
           0,
-          296,
+          297,
           1,
           "https://tiktok.com/@everlasting_comfort/video/7686915908735913230"
         ],
@@ -382,7 +382,7 @@
           "repel_umbrella",
           0,
           0,
-          11,
+          12,
           0,
           "https://tiktok.com/@repel_umbrella/video/7686916536094838030"
         ],
@@ -393,7 +393,7 @@
           "upperechelonproducts_",
           0,
           0,
-          124,
+          128,
           2,
           "https://tiktok.com/@upperechelonproducts_/video/7686917309734161678"
         ]
@@ -417,7 +417,7 @@
           "Units sold": 394.0,
           "Affiliate GMV": 7451.51,
           "Commission": 1428.81,
-          "Videos posted": 165,
+          "Videos posted": 162,
           "Creators posting": 79,
           "Video views": 697777,
           "LIVE GMV": 583.4,
@@ -431,7 +431,7 @@
           "Units sold": -45.13,
           "Affiliate GMV": -57.45,
           "Commission": -60.28,
-          "Videos posted": 28.91,
+          "Videos posted": 26.56,
           "Creators posting": -20.2,
           "Video views": -21.38,
           "LIVE GMV": -93.29,
@@ -459,7 +459,7 @@
           "Samples approved": 23,
           "Samples shipped": 22.0,
           "Samples delivered": 22,
-          "Creators with sales": 52
+          "Creators with sales": 54
         },
         "daily": [
           [
@@ -608,40 +608,40 @@
         [
           "Sylvia",
           "sylviaapproved",
-          1311.72,
-          67,
+          1549.43,
+          77,
           104347,
-          299.4,
+          352.2,
           1,
           0
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          901.85,
-          23,
+          937.54,
+          24,
           49556,
-          208.7,
+          215.0,
           0,
           0
         ],
         [
           "Red Oakley",
           "jaterao92",
-          544.62,
-          16,
+          604.3,
+          19,
           26639,
-          122.2,
+          139.7,
           0,
           0
         ],
         [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          417.66,
-          21,
+          500.91,
+          25,
           11675,
-          92.6,
+          112.1,
           3,
           0
         ],
@@ -666,22 +666,22 @@
           0
         ],
         [
+          "The Gem Of Gemini",
+          "the.gem.of.gemini",
+          218.87,
+          10,
+          4669,
+          37.2,
+          0,
+          0
+        ],
+        [
           "ryanxbradshaw",
           "ryanxbradshaw",
           198.7,
           6,
           206265,
           44.8,
-          0,
-          0
-        ],
-        [
-          "The Gem Of Gemini",
-          "the.gem.of.gemini",
-          178.89,
-          8,
-          4669,
-          31.2,
           0,
           0
         ],
@@ -714,7 +714,7 @@
           "bellahana20",
           139.11,
           4,
-          5112,
+          5377,
           38,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -725,7 +725,7 @@
           "christianjohnson2022",
           74.98,
           2,
-          1057,
+          1119,
           21,
           "https://tiktok.com/@christianjohnson2022/video/7686565002299346206"
         ],
@@ -736,8 +736,8 @@
           "keniaher.77",
           58.77,
           3,
-          3747,
-          15,
+          3979,
+          16,
           "https://tiktok.com/@keniaher.77/video/7685451539456068877"
         ],
         [
@@ -747,7 +747,7 @@
           "shopalberto",
           54.37,
           2,
-          3825,
+          3840,
           16,
           "https://tiktok.com/@shopalberto/video/7685289196352785678"
         ],
@@ -769,7 +769,7 @@
           "keniaher.77",
           16.99,
           1,
-          1438,
+          1471,
           9,
           "https://tiktok.com/@keniaher.77/video/7688037869562137869"
         ],
@@ -780,7 +780,7 @@
           "keniaher.77",
           8.0,
           1,
-          954,
+          958,
           7,
           "https://tiktok.com/@keniaher.77/video/7686948788170247437"
         ],
@@ -791,7 +791,7 @@
           "therealcinnimon",
           0,
           0,
-          301,
+          306,
           7,
           "https://tiktok.com/@therealcinnimon/video/7685176270665157918"
         ],
@@ -813,7 +813,7 @@
           "therealcinnimon",
           0,
           0,
-          63,
+          66,
           2,
           "https://tiktok.com/@therealcinnimon/video/7685198431127637279"
         ]
@@ -837,10 +837,10 @@
           "Units sold": 1328.0,
           "Affiliate GMV": 29530.56,
           "Commission": 6151.32,
-          "Videos posted": 312,
+          "Videos posted": 309,
           "Creators posting": 171,
           "Video views": 1856001,
-          "LIVE GMV": 11636.92,
+          "LIVE GMV": 11579.14,
           "DMs sent": 57304,
           "Sample requests": 577,
           "Samples approved": 51,
@@ -851,10 +851,10 @@
           "Units sold": -68.32,
           "Affiliate GMV": -61.59,
           "Commission": -67.64,
-          "Videos posted": -60.41,
+          "Videos posted": -60.79,
           "Creators posting": -53.53,
           "Video views": -64.38,
-          "LIVE GMV": -60.69,
+          "LIVE GMV": -60.92,
           "DMs sent": 48.35,
           "Sample requests": -35.31,
           "Samples approved": -86.47,
@@ -879,7 +879,7 @@
           "Samples approved": 51,
           "Samples shipped": 64.0,
           "Samples delivered": 89,
-          "Creators with sales": 87
+          "Creators with sales": 88
         },
         "daily": [
           [
@@ -1196,6 +1196,16 @@
           16
         ],
         [
+          "Sylvia",
+          "sylviaapproved",
+          4174.93,
+          224,
+          326749,
+          983.98,
+          1,
+          0
+        ],
+        [
           "Fortune Finds",
           "fortune0420",
           3994.35,
@@ -1206,32 +1216,22 @@
           29
         ],
         [
-          "Sylvia",
-          "sylviaapproved",
-          3937.22,
-          214,
-          326749,
-          931.18,
-          1,
-          0
-        ],
-        [
           "Muscle Dad",
           "muscle_dad",
-          3137.83,
-          80,
+          3173.52,
+          81,
           106899,
-          688.0,
+          694.3,
           1,
           1
         ],
         [
           "Red Oakley",
           "jaterao92",
-          2544.61,
-          76,
+          2604.29,
+          79,
           146953,
-          546.7,
+          564.2,
           0,
           0
         ],
@@ -1258,10 +1258,10 @@
         [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          839.89,
-          45,
+          923.14,
+          49,
           33342,
-          185.25,
+          204.75,
           10,
           0
         ],
@@ -1278,10 +1278,10 @@
         [
           "The Evergreen Edit",
           "theevergreeneditco",
-          451.97,
-          17,
+          478.21,
+          18,
           13719,
-          124.95,
+          133.7,
           6,
           0
         ]
@@ -1294,7 +1294,7 @@
           "1373bel",
           179.07,
           5,
-          8738,
+          9280,
           45,
           "https://tiktok.com/@1373bel/video/7683330512680766733"
         ],
@@ -1305,8 +1305,8 @@
           "icu185",
           163.38,
           9,
-          8437,
-          18,
+          8847,
+          20,
           "https://tiktok.com/@icu185/video/7683016023418653983"
         ],
         [
@@ -1316,8 +1316,8 @@
           "boni_kiyya",
           149.56,
           4,
-          7787,
-          33,
+          8785,
+          35,
           "https://tiktok.com/@boni_kiyya/video/7681020510536289550"
         ],
         [
@@ -1327,7 +1327,7 @@
           "bellahana20",
           139.11,
           4,
-          5112,
+          5377,
           38,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -1338,7 +1338,7 @@
           "macneggga",
           115.97,
           3,
-          1761,
+          1919,
           8,
           "https://tiktok.com/@macneggga/video/7683413553163914526"
         ],
@@ -1349,7 +1349,7 @@
           "christianjohnson2022",
           74.98,
           2,
-          1057,
+          1119,
           21,
           "https://tiktok.com/@christianjohnson2022/video/7686565002299346206"
         ],
@@ -1360,7 +1360,7 @@
           "crisp720",
           60.33,
           2,
-          13037,
+          13119,
           27,
           "https://tiktok.com/@crisp720/video/7681112989516221710"
         ],
@@ -1371,8 +1371,8 @@
           "keniaher.77",
           58.77,
           3,
-          3747,
-          15,
+          3979,
+          16,
           "https://tiktok.com/@keniaher.77/video/7685451539456068877"
         ],
         [
@@ -1382,8 +1382,8 @@
           "itsjodicollins",
           55.97,
           3,
-          5038,
-          522,
+          5115,
+          526,
           "https://tiktok.com/@itsjodicollins/video/7682812969637498126"
         ],
         [
@@ -1393,7 +1393,7 @@
           "shopalberto",
           54.37,
           2,
-          3825,
+          3840,
           16,
           "https://tiktok.com/@shopalberto/video/7685289196352785678"
         ]
@@ -1417,10 +1417,10 @@
           "Units sold": 5520.0,
           "Affiliate GMV": 106409.23,
           "Commission": 25162.44,
-          "Videos posted": 1100,
+          "Videos posted": 1097,
           "Creators posting": 507,
           "Video views": 7066036,
-          "LIVE GMV": 41236.2,
+          "LIVE GMV": 41206.01,
           "DMs sent": 95931,
           "Sample requests": 1469,
           "Samples approved": 428,
@@ -1431,10 +1431,10 @@
           "Units sold": 28.67,
           "Affiliate GMV": 18.06,
           "Commission": 44.64,
-          "Videos posted": 2.33,
+          "Videos posted": 2.05,
           "Creators posting": -4.16,
           "Video views": -26.83,
-          "LIVE GMV": 66.03,
+          "LIVE GMV": 65.91,
           "DMs sent": 177.92,
           "Sample requests": 5.61,
           "Samples approved": -27.33,
@@ -1459,7 +1459,7 @@
           "Samples approved": 428,
           "Samples shipped": 438.0,
           "Samples delivered": 467,
-          "Creators with sales": 202
+          "Creators with sales": 203
         },
         "daily": [
           [
@@ -2078,30 +2078,30 @@
         [
           "Muscle Dad",
           "muscle_dad",
-          15096.31,
-          444,
+          15132.0,
+          445,
           345207,
-          4058.99,
+          4065.29,
           39,
           23
         ],
         [
           "Red Oakley",
           "jaterao92",
-          9643.54,
-          355,
+          9703.22,
+          358,
           868572,
-          2219.61,
+          2237.11,
           2,
           0
         ],
         [
           "Sylvia",
           "sylviaapproved",
-          8326.19,
-          480,
+          8563.9,
+          490,
           632401,
-          2109.08,
+          2161.88,
           3,
           0
         ],
@@ -2148,20 +2148,20 @@
         [
           "happyshop",
           "happyshop968",
-          2938.0,
-          175,
+          2953.99,
+          176,
           94911,
-          298.3,
+          301.3,
           0,
           0
         ],
         [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          2477.37,
-          133,
+          2560.62,
+          137,
           155083,
-          626.18,
+          645.68,
           45,
           0
         ]
@@ -2172,10 +2172,10 @@
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          2724.9,
-          171,
-          258133,
-          1227,
+          2799.51,
+          175,
+          260524,
+          1236,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
@@ -2185,8 +2185,8 @@
           "keniaher.77",
           2052.8,
           146,
-          83746,
-          376,
+          84386,
+          380,
           "https://tiktok.com/@keniaher.77/video/7670969961753431309"
         ],
         [
@@ -2196,8 +2196,8 @@
           "courtney_gonzales19",
           1010.21,
           73,
-          33369,
-          72,
+          33873,
+          75,
           "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597"
         ],
         [
@@ -2205,10 +2205,10 @@
           "Bidet",
           "favoritefavoritefind",
           "favoritefavoritefind",
-          816.77,
-          30,
-          29238,
-          67,
+          843.01,
+          31,
+          29355,
+          68,
           "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047"
         ],
         [
@@ -2218,8 +2218,8 @@
           "theevergreeneditco",
           458.26,
           22,
-          15319,
-          33,
+          15597,
+          35,
           "https://tiktok.com/@theevergreeneditco/video/7673494617085693214"
         ],
         [
@@ -2240,7 +2240,7 @@
           "theevergreeneditco",
           297.81,
           12,
-          4208,
+          4231,
           11,
           "https://tiktok.com/@theevergreeneditco/video/7677230038281964830"
         ],
@@ -2251,7 +2251,7 @@
           "sylviaapproved",
           294.94,
           16,
-          19031,
+          19267,
           45,
           "https://tiktok.com/@sylviaapproved/video/7672862005375634719"
         ],
@@ -2262,8 +2262,8 @@
           "viralshopdealz",
           287.0,
           8,
-          235881,
-          4337,
+          237991,
+          4386,
           "https://tiktok.com/@viralshopdealz/video/7678725393917971742"
         ],
         [
@@ -2273,7 +2273,7 @@
           "dawnmichele1972",
           227.6,
           22,
-          20036,
+          20041,
           61,
           "https://tiktok.com/@dawnmichele1972/video/7670635055097695501"
         ]
@@ -2297,10 +2297,10 @@
           "Units sold": 8405.0,
           "Affiliate GMV": 162616.79,
           "Commission": 38165.3,
-          "Videos posted": 1821,
+          "Videos posted": 1818,
           "Creators posting": 791,
           "Video views": 13420604,
-          "LIVE GMV": 55312.04,
+          "LIVE GMV": 55281.85,
           "DMs sent": 130448,
           "Sample requests": 2175,
           "Samples approved": 711,
@@ -2311,10 +2311,10 @@
           "Units sold": 153.32,
           "Affiliate GMV": 103.35,
           "Commission": 181.19,
-          "Videos posted": 78.35,
+          "Videos posted": 78.06,
           "Creators posting": 23.02,
           "Video views": 246.45,
-          "LIVE GMV": 134.6,
+          "LIVE GMV": 127.59,
           "DMs sent": 10000,
           "Sample requests": 144.66,
           "Samples approved": 38.87,
@@ -2339,7 +2339,7 @@
           "Samples approved": 711,
           "Samples shipped": 718.0,
           "Samples delivered": 807,
-          "Creators with sales": 276
+          "Creators with sales": 277
         },
         "daily": [
           [
@@ -3248,10 +3248,10 @@
         [
           "Muscle Dad",
           "muscle_dad",
-          30758.25,
-          950,
+          30793.94,
+          951,
           1421214,
-          8518.51,
+          8524.81,
           93,
           35
         ],
@@ -3278,10 +3278,10 @@
         [
           "Red Oakley",
           "jaterao92",
-          17668.66,
-          677,
+          17728.34,
+          680,
           1886639,
-          3902.12,
+          3919.62,
           3,
           0
         ],
@@ -3298,10 +3298,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          8326.19,
-          480,
+          8563.9,
+          490,
           632401,
-          2109.08,
+          2161.88,
           3,
           0
         ],
@@ -3328,20 +3328,20 @@
         [
           "The Evergreen Edit",
           "theevergreeneditco",
-          3980.54,
-          163,
+          4006.78,
+          164,
           175101,
-          1165.41,
+          1174.16,
           24,
           0
         ],
         [
           "happyshop",
           "happyshop968",
-          2938.0,
-          175,
+          2953.99,
+          176,
           94954,
-          298.3,
+          301.3,
           0,
           0
         ]
@@ -3352,10 +3352,10 @@
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          2724.9,
-          171,
-          258133,
-          1227,
+          2799.51,
+          175,
+          260524,
+          1236,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
@@ -3365,7 +3365,7 @@
           "theevergreeneditco",
           2346.8,
           117,
-          112480,
+          112562,
           226,
           "https://tiktok.com/@theevergreeneditco/video/7658127805066087711"
         ],
@@ -3376,8 +3376,8 @@
           "keniaher.77",
           2052.8,
           146,
-          83746,
-          376,
+          84386,
+          380,
           "https://tiktok.com/@keniaher.77/video/7670969961753431309"
         ],
         [
@@ -3387,8 +3387,8 @@
           "sylviaapproved",
           1381.31,
           98,
-          120098,
-          458,
+          120374,
+          459,
           "https://tiktok.com/@sylviaapproved/video/7663728633059544351"
         ],
         [
@@ -3396,10 +3396,10 @@
           "This magnetic screen door installs in minutes with no tools required, snaps shut automatically behin",
           "courtney_gonzales19",
           "courtney_gonzales19",
-          1141.03,
-          73,
-          60674,
-          112,
+          1158.02,
+          74,
+          61048,
+          113,
           "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958"
         ],
         [
@@ -3409,7 +3409,7 @@
           "muscle_dad",
           1051.8,
           45,
-          111752,
+          111755,
           770,
           "https://tiktok.com/@muscle_dad/video/7659407860622724366"
         ],
@@ -3420,8 +3420,8 @@
           "courtney_gonzales19",
           1010.21,
           73,
-          33369,
-          72,
+          33873,
+          75,
           "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597"
         ],
         [
@@ -3429,10 +3429,10 @@
           "Bidet",
           "favoritefavoritefind",
           "favoritefavoritefind",
-          816.77,
-          30,
-          29238,
-          67,
+          843.01,
+          31,
+          29355,
+          68,
           "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047"
         ],
         [
@@ -3442,8 +3442,8 @@
           "sylviaapproved",
           744.22,
           43,
-          41756,
-          254,
+          41901,
+          256,
           "https://tiktok.com/@sylviaapproved/video/7662535458450083103"
         ],
         [
@@ -3453,8 +3453,8 @@
           "muscle_dad",
           700.69,
           26,
-          120118,
-          706,
+          121492,
+          710,
           "https://tiktok.com/@muscle_dad/video/7658896126246014222"
         ]
       ]

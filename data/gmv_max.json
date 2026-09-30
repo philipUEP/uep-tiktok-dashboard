@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-09-29"
+    "pulled_on": "2026-09-30"
   },
   "periods": {
     "week": {
@@ -58,7 +58,7 @@
           "orders": 12,
           "cost_per_order": 25.04,
           "roas_target": 5.4,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-08-21"
         },
         {
@@ -360,6 +360,18 @@
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-23"
+        },
+        {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
         }
       ]
     },
@@ -417,7 +429,7 @@
           "orders": 15,
           "cost_per_order": 39.34,
           "roas_target": 5.4,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-08-21"
         },
         {
@@ -719,6 +731,18 @@
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-23"
+        },
+        {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
         }
       ]
     },
@@ -776,7 +800,7 @@
           "orders": 35,
           "cost_per_order": 38.89,
           "roas_target": 5.4,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-08-21"
         },
         {
@@ -1078,6 +1102,18 @@
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-23"
+        },
+        {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
         }
       ]
     },
@@ -1135,7 +1171,7 @@
           "orders": 53,
           "cost_per_order": 31.22,
           "roas_target": 5.4,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-08-21"
         },
         {
@@ -1437,6 +1473,18 @@
           "roas_target": 12.0,
           "status": "DISABLE",
           "start": "2026-03-19"
+        },
+        {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
         }
       ]
     },
@@ -1494,7 +1542,7 @@
           "orders": 53,
           "cost_per_order": 31.22,
           "roas_target": 5.4,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-08-21"
         },
         {
@@ -1796,6 +1844,18 @@
           "roas_target": 12.0,
           "status": "DISABLE",
           "start": "2026-03-19"
+        },
+        {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
         }
       ]
     }

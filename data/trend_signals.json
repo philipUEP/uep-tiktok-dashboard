@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T07:00:55.866523+00:00",
+  "generated_at": "2026-09-30T07:01:12.732578+00:00",
   "weeks": [
     {
       "total_gmv": 12506.06,
@@ -48,8 +48,8 @@
       "sample_requests": 68,
       "samples_shipped": 16,
       "samples_delivered": 12,
-      "videos_posted": 91,
-      "distinct_creators": 50,
+      "videos_posted": 87,
+      "distinct_creators": 49,
       "_range": "2026-09-14 to 2026-09-20"
     },
     {
@@ -65,7 +65,7 @@
       "sample_requests": 203,
       "samples_shipped": 6,
       "samples_delivered": 10,
-      "videos_posted": 74,
+      "videos_posted": 75,
       "distinct_creators": 41,
       "_range": "2026-09-21 to 2026-09-27"
     }
@@ -146,13 +146,13 @@
     "videos_posted": [
       51.0,
       77.0,
-      91.0,
-      74.0
+      87.0,
+      75.0
     ],
     "distinct_creators": [
       46.0,
       62.0,
-      50.0,
+      49.0,
       41.0
     ]
   },
@@ -174,27 +174,27 @@
       "direction": "down"
     },
     {
-      "metric": "videos_posted",
-      "label": "Videos posted",
-      "current": 74.0,
-      "prior": 91.0,
-      "pct": -18.7,
+      "metric": "samples_delivered",
+      "label": "Samples delivered",
+      "current": 10.0,
+      "prior": 12.0,
+      "pct": -16.7,
       "direction": "down"
     },
     {
       "metric": "distinct_creators",
       "label": "Creators posting",
       "current": 41.0,
-      "prior": 50.0,
-      "pct": -18.0,
+      "prior": 49.0,
+      "pct": -16.3,
       "direction": "down"
     },
     {
-      "metric": "samples_delivered",
-      "label": "Samples delivered",
-      "current": 10.0,
-      "prior": 12.0,
-      "pct": -16.7,
+      "metric": "videos_posted",
+      "label": "Videos posted",
+      "current": 75.0,
+      "prior": 87.0,
+      "pct": -13.8,
       "direction": "down"
     },
     {
@@ -296,7 +296,7 @@
       "label": "Creators posting",
       "last_3": [
         62.0,
-        50.0,
+        49.0,
         41.0
       ],
       "note": "declining three weeks in a row"
@@ -305,7 +305,7 @@
   "ratios": {
     "gmv_per_sample_shipped": 887.32,
     "reply_rate_pct": 0.28,
-    "videos_per_creator": 1.8,
+    "videos_per_creator": 1.83,
     "live_share_of_gmv_pct": 3.9,
     "affiliate_share_of_gmv_pct": 76.9
   },
