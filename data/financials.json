@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-09-30",
+    "pulled_on": "2026-10-01",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -59,7 +59,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
           "total_gmv": 2066.58,
           "share_pct": 38.8,
@@ -460,7 +460,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
           "total_gmv": 3687.47,
           "share_pct": 38.6,
@@ -818,7 +818,7 @@
         "total_gmv": 34358.48,
         "affiliate_gmv": 29530.56,
         "video_gmv": 17928.45,
-        "live_gmv": 11579.14,
+        "live_gmv": 11599.13,
         "shop_tab_gmv": 7025.94,
         "gmv_max_revenue": 26663.339999999997,
         "subscription_revenue": 0
@@ -861,7 +861,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
           "total_gmv": 8793.77,
           "share_pct": 25.6,
@@ -1241,7 +1241,7 @@
         "total_gmv": 120514.44,
         "affiliate_gmv": 106409.23,
         "video_gmv": 63593.34,
-        "live_gmv": 41206.01,
+        "live_gmv": 41226.0,
         "shop_tab_gmv": 19130.92,
         "gmv_max_revenue": 101979.28000000001,
         "subscription_revenue": 0
@@ -1284,7 +1284,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
           "total_gmv": 32638.57,
           "share_pct": 27.1,
@@ -1686,7 +1686,7 @@
         "total_gmv": 183297.13,
         "affiliate_gmv": 162616.79,
         "video_gmv": 104951.75,
-        "live_gmv": 55281.85,
+        "live_gmv": 55301.84,
         "shop_tab_gmv": 26476.16,
         "gmv_max_revenue": 169950.06,
         "subscription_revenue": 0
@@ -1711,7 +1711,7 @@
       "volume": {
         "orders": 7442,
         "units_sold": 8405.0,
-        "creators": 791,
+        "creators": 792,
         "samples_delivered": 807,
         "video_views": 13420604
       },
@@ -1729,7 +1729,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Drill-Free Hook-Tape Easy Install, for Front Doors, Patios&Porch, Balconies, Pet-Friendly",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
           "total_gmv": 51025.58,
           "share_pct": 27.8,
