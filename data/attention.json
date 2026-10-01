@@ -1,11 +1,59 @@
 {
-  "updated_at": "2026-09-30T07:25:00Z",
+  "updated_at": "2026-10-01T07:25:00Z",
   "items": [
-    {"metric": "Samples shipped", "current": 6, "prior": 16, "pct": -62.5, "direction": "down", "effect": "Six shipments set the late October content floor far below the 16 of the prior week given the two to four week sample-to-post lag.", "action": "Work the 217 request queue by post rate first and ship at least 20 this week."},
-    {"metric": "Samples approved", "current": 4, "prior": 19, "pct": -78.9, "direction": "down", "effect": "Four approvals against 203 requests, a 1.97% approve rate, starves the Ready to Ship 22, Shipped 11 and Content Pending 8 stages and forces a further posting decline.", "action": "Set a daily approval quota that keeps Ready to Ship above 20 and clear the 217 items in To Review."},
-    {"metric": "LIVE GMV", "current": 208.9, "prior": 374.5, "pct": -44.2, "direction": "down", "effect": "Third straight weekly fall (2346.28 then 374.5 then 208.9) leaves LIVE at 3.9% of GMV and 1.83 GMV per stream across 114 streams.", "action": "Cut low-yield streamers and rebrief the top hosts until GMV per stream clears 4.0."},
-    {"metric": "Creators posting", "current": 41, "prior": 49, "pct": -16.3, "direction": "down", "effect": "Third straight weekly fall (62 then 49 then 41) narrows the base behind 76.9% affiliate share of GMV and raises concentration risk.", "action": "Re-engage quiet posters from the creator digest and raise approvals to rebuild posting supply."},
-    {"metric": "Samples delivered", "current": 10, "prior": 12, "pct": -16.7, "direction": "down", "effect": "Third straight weekly fall (14 then 12 then 10) plus zero Posted out of 300 tracked requests means few creators reach posting status.", "action": "Track delivery against approved samples daily and run the overdue sample follow-up task 86aj7t8d7."},
-    {"metric": "Back to School campaign ROAS (14d)", "current": 0.8, "prior": 1.291, "pct": -38.0, "direction": "down", "effect": "471.84 of revenue on 590.09 of spend sits below breakeven and far under the 5.4 target; the campaign is already DISABLE, so the risk is the budget pattern that produced it.", "action": "Hold budget on Screen Door at 2.14 and Bidet 7/6 at 1.739 and keep sub-1.0 campaigns capped."}
+    {
+      "metric": "Samples shipped",
+      "current": 6,
+      "prior": 16,
+      "pct": -62.5,
+      "direction": "down",
+      "effect": "Shipped samples feed delivered samples one to three weeks out, so creator content supply keeps thinning into mid-October.",
+      "action": "Clear the 176 requests sitting in To Review so approvals stop throttling shipping."
+    },
+    {
+      "metric": "LIVE GMV",
+      "current": 208.9,
+      "prior": 374.5,
+      "pct": -44.2,
+      "direction": "down",
+      "effect": "Third straight weekly decline takes live to 3.9 percent of GMV, with 133 streams producing 208.90.",
+      "action": "Consolidate the 133 streams into fewer longer flash-sale lives with the creators who carried the month."
+    },
+    {
+      "metric": "Samples delivered",
+      "current": 10,
+      "prior": 12,
+      "pct": -16.7,
+      "direction": "down",
+      "effect": "Third straight decline in delivered samples removes the inventory that creators need before they can post.",
+      "action": "Prioritise delivery and follow-up on the 31 requests already marked Ready to Ship."
+    },
+    {
+      "metric": "Creators posting",
+      "current": 41,
+      "prior": 49,
+      "pct": -16.3,
+      "direction": "down",
+      "effect": "Third straight decline in posting creators, while DMs rose 102.9 percent, so more sends are reaching fewer active creators.",
+      "action": "Re-contact the mid-September posting cohort, 79 creators over 14 days versus 41 in the week."
+    },
+    {
+      "metric": "Bidet 7/6 ROAS (90d)",
+      "current": 0.972,
+      "prior": 1.149,
+      "pct": -15.4,
+      "direction": "down",
+      "effect": "The campaign is still ENABLE with 90-day spend of 93,220.65 against 90,586.71 revenue, below ad break-even over that window.",
+      "action": "Trim or re-target bidet ad spend until week ROAS holds nearer the 2.3 target instead of scaling it."
+    },
+    {
+      "metric": "Sample approvals",
+      "current": 4,
+      "prior": 19,
+      "pct": -78.9,
+      "direction": "down",
+      "effect": "Approvals are the gate ahead of shipping, and 176 of 300 pipeline records are still unreviewed.",
+      "action": "Work the To Review queue down this week and keep approvals ahead of the Ready to Ship backlog."
+    }
   ]
 }
