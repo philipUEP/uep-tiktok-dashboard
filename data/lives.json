@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /affiliate/lives/list",
-    "pulled_on": "2026-10-01"
+    "pulled_on": "2026-10-02"
   },
   "periods": {
     "week": {
@@ -640,7 +640,7 @@
       "totals": {
         "gmv": 11568.41,
         "units": 371,
-        "views": 2276594,
+        "views": 2257144,
         "streams": 532
       },
       "lives": [
@@ -769,7 +769,7 @@
           "title": "\"Bidet\" flash sale!!",
           "gmv": 381.59,
           "units": 15,
-          "views": 57178,
+          "views": 28721,
           "likes": 720,
           "comments": 101,
           "duration_min": 113.4,
@@ -853,7 +853,7 @@
           "title": "EXCLUSIVE DISCOUNT!",
           "gmv": 265.21,
           "units": 9,
-          "views": 4504,
+          "views": 13511,
           "likes": 56,
           "comments": 29,
           "duration_min": 71.9,
@@ -952,18 +952,18 @@
       "total_count": 1332,
       "truncated": true,
       "totals": {
-        "gmv": 41195.28,
-        "units": 1390,
-        "views": 5531027,
+        "gmv": 41160.29,
+        "units": 1389,
+        "views": 5548269,
         "streams": 1000
       },
       "lives": [
         {
           "handle": "muscle_dad",
           "title": "Live Flash Sale",
-          "gmv": 1103.31,
-          "units": 42,
-          "views": 18408,
+          "gmv": 1068.32,
+          "units": 41,
+          "views": 73616,
           "likes": 2206,
           "comments": 101,
           "duration_min": 193.0,
@@ -987,7 +987,7 @@
           "title": "\"Bidet\" flash sale!!",
           "gmv": 927.82,
           "units": 33,
-          "views": 50771,
+          "views": 33848,
           "likes": 1375,
           "comments": 203,
           "duration_min": 185.2,
@@ -1179,7 +1179,7 @@
           "title": "Clear Rear Bidet! \u26a1\ufe0fFlash Sale",
           "gmv": 610.83,
           "units": 20,
-          "views": 9559,
+          "views": 7966,
           "likes": 1039,
           "comments": 136,
           "duration_min": 143.5,
@@ -1266,9 +1266,9 @@
       "total_count": 1777,
       "truncated": true,
       "totals": {
-        "gmv": 55271.12,
-        "units": 1904,
-        "views": 6834942,
+        "gmv": 55204.64,
+        "units": 1902,
+        "views": 6919508,
         "streams": 1000
       },
       "lives": [
@@ -1289,7 +1289,7 @@
           "title": "Live Flash Sale",
           "gmv": 1476.22,
           "units": 59,
-          "views": 61903,
+          "views": 41270,
           "likes": 9701,
           "comments": 170,
           "duration_min": 278.6,
@@ -1311,9 +1311,9 @@
         {
           "handle": "muscle_dad",
           "title": "Live Flash Sale",
-          "gmv": 1103.31,
-          "units": 42,
-          "views": 18408,
+          "gmv": 1068.32,
+          "units": 41,
+          "views": 73616,
           "likes": 2206,
           "comments": 101,
           "duration_min": 193.0,
@@ -1349,7 +1349,7 @@
           "title": "\"Bidet\" flash sale!!",
           "gmv": 927.82,
           "units": 33,
-          "views": 50771,
+          "views": 33848,
           "likes": 1375,
           "comments": 203,
           "duration_min": 185.2,
@@ -1417,18 +1417,6 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
-          "handle": "muscle_dad",
-          "title": "Live Flash Sale",
-          "gmv": 761.84,
-          "units": 22,
-          "views": 43979,
-          "likes": 816,
-          "comments": 69,
-          "duration_min": 118.3,
-          "start": "07/02/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
           "handle": "aroc_finesse",
           "title": "Clear Rear Bidet! FLASH SALE",
           "gmv": 761.0,
@@ -1438,6 +1426,18 @@
           "comments": 148,
           "duration_min": 168.3,
           "start": "08/04/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "muscle_dad",
+          "title": "Live Flash Sale",
+          "gmv": 730.35,
+          "units": 21,
+          "views": 131936,
+          "likes": 816,
+          "comments": 69,
+          "duration_min": 118.3,
+          "start": "07/02/2026",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
@@ -1565,7 +1565,7 @@
           "title": "Clear Rear Bidet! \u26a1\ufe0fFlash Sale",
           "gmv": 610.83,
           "units": 20,
-          "views": 9559,
+          "views": 7966,
           "likes": 1039,
           "comments": 136,
           "duration_min": 143.5,
