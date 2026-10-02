@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T07:25:00Z",
+  "updated_at": "2026-10-02T07:21:28Z",
   "items": [
     {
       "metric": "Samples shipped",
@@ -8,7 +8,7 @@
       "pct": -62.5,
       "direction": "down",
       "effect": "Shipped samples feed delivered samples one to three weeks out, so creator content supply keeps thinning into mid-October.",
-      "action": "Clear the 176 requests sitting in To Review so approvals stop throttling shipping."
+      "action": "Clear the 163 requests sitting in To Review so approvals stop throttling shipping."
     },
     {
       "metric": "LIVE GMV",
@@ -16,8 +16,8 @@
       "prior": 374.5,
       "pct": -44.2,
       "direction": "down",
-      "effect": "Third straight weekly decline takes live to 3.9 percent of GMV, with 133 streams producing 208.90.",
-      "action": "Consolidate the 133 streams into fewer longer flash-sale lives with the creators who carried the month."
+      "effect": "Third straight weekly decline takes live to 3.9 percent of GMV while video and shop tab carry the shop.",
+      "action": "Consolidate the 114 streams into fewer longer flash-sale lives with the creators who carried the month."
     },
     {
       "metric": "Samples delivered",
@@ -25,8 +25,8 @@
       "prior": 12,
       "pct": -16.7,
       "direction": "down",
-      "effect": "Third straight decline in delivered samples removes the inventory that creators need before they can post.",
-      "action": "Prioritise delivery and follow-up on the 31 requests already marked Ready to Ship."
+      "effect": "Third straight decline removes the inventory creators need before they can post.",
+      "action": "Push the 23 Ready to Ship requests through to delivery and follow up on the 38 in Content Pending."
     },
     {
       "metric": "Creators posting",
@@ -34,8 +34,17 @@
       "prior": 49,
       "pct": -16.3,
       "direction": "down",
-      "effect": "Third straight decline in posting creators, while DMs rose 102.9 percent, so more sends are reaching fewer active creators.",
-      "action": "Re-contact the mid-September posting cohort, 79 creators over 14 days versus 41 in the week."
+      "effect": "Third straight decline in posting creators feeds videos posted and affiliate GMV, which is 76.9 percent of shop GMV.",
+      "action": "Re-contact the mid-September posting cohort, 79 creators over 14 days against 41 in the week."
+    },
+    {
+      "metric": "Samples approved",
+      "current": 4,
+      "prior": 19,
+      "pct": -78.9,
+      "direction": "down",
+      "effect": "Approvals gate shipping, and 163 of 300 pipeline records are still unreviewed.",
+      "action": "Work the To Review queue down this week and keep approvals ahead of the Ready to Ship backlog."
     },
     {
       "metric": "Bidet 7/6 ROAS (90d)",
@@ -43,17 +52,8 @@
       "prior": 1.149,
       "pct": -15.4,
       "direction": "down",
-      "effect": "The campaign is still ENABLE with 90-day spend of 93,220.65 against 90,586.71 revenue, below ad break-even over that window.",
-      "action": "Trim or re-target bidet ad spend until week ROAS holds nearer the 2.3 target instead of scaling it."
-    },
-    {
-      "metric": "Sample approvals",
-      "current": 4,
-      "prior": 19,
-      "pct": -78.9,
-      "direction": "down",
-      "effect": "Approvals are the gate ahead of shipping, and 176 of 300 pipeline records are still unreviewed.",
-      "action": "Work the To Review queue down this week and keep approvals ahead of the Ready to Ship backlog."
+      "effect": "The campaign is still ENABLE with 90-day spend of 93,220.65 against 90,586.71 revenue, below ad break-even, and the same campaign reads 1.149 on the 60-day window.",
+      "action": "Trim or re-target bidet ad spend until ROAS holds nearer the 2.3 target instead of scaling it."
     }
   ]
 }
