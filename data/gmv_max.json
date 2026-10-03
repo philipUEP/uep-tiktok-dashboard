@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-02"
+    "pulled_on": "2026-10-03"
   },
   "periods": {
     "week": {
@@ -369,7 +369,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 0.6,
+          "roas_target": 1.0,
           "status": "ENABLE",
           "start": "2026-09-29"
         }
@@ -740,7 +740,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 0.6,
+          "roas_target": 1.0,
           "status": "ENABLE",
           "start": "2026-09-29"
         }
@@ -1111,7 +1111,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 0.6,
+          "roas_target": 1.0,
           "status": "ENABLE",
           "start": "2026-09-29"
         }
@@ -1482,7 +1482,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 0.6,
+          "roas_target": 1.0,
           "status": "ENABLE",
           "start": "2026-09-29"
         }
@@ -1853,7 +1853,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 0.6,
+          "roas_target": 1.0,
           "status": "ENABLE",
           "start": "2026-09-29"
         }
