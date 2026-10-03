@@ -1,41 +1,23 @@
 {
-  "updated_at": "2026-10-02T07:21:28Z",
+  "updated_at": "2026-10-03T07:21:24+00:00",
   "items": [
-    {
-      "metric": "Samples shipped",
-      "current": 6,
-      "prior": 16,
-      "pct": -62.5,
-      "direction": "down",
-      "effect": "Shipped samples feed delivered samples one to three weeks out, so creator content supply keeps thinning into mid-October.",
-      "action": "Clear the 163 requests sitting in To Review so approvals stop throttling shipping."
-    },
     {
       "metric": "LIVE GMV",
       "current": 208.9,
       "prior": 374.5,
       "pct": -44.2,
       "direction": "down",
-      "effect": "Third straight weekly decline takes live to 3.9 percent of GMV while video and shop tab carry the shop.",
-      "action": "Consolidate the 114 streams into fewer longer flash-sale lives with the creators who carried the month."
+      "effect": "Inferred: live-attributed revenue has fallen three weeks running from 2346.28 and now covers only 3.9% of GMV, leaving the shop reliant on the affiliate channel.",
+      "action": "Inferred: review the live stream offer and product mix before adding volume, since 114 streams produced 544922 views but only 178.18 live GMV."
     },
     {
-      "metric": "Samples delivered",
-      "current": 10,
-      "prior": 12,
-      "pct": -16.7,
+      "metric": "Samples shipped",
+      "current": 6,
+      "prior": 16,
+      "pct": -62.5,
       "direction": "down",
-      "effect": "Third straight decline removes the inventory creators need before they can post.",
-      "action": "Push the 23 Ready to Ship requests through to delivery and follow up on the 38 in Content Pending."
-    },
-    {
-      "metric": "Creators posting",
-      "current": 41,
-      "prior": 49,
-      "pct": -16.3,
-      "direction": "down",
-      "effect": "Third straight decline in posting creators feeds videos posted and affiliate GMV, which is 76.9 percent of shop GMV.",
-      "action": "Re-contact the mid-September posting cohort, 79 creators over 14 days against 41 in the week."
+      "effect": "Inferred: with samples delivered also down a third straight week, creator content supply should soften over the next two to four weeks given the delivery to post lag.",
+      "action": "Inferred: clear the 164 requests sitting in To Review and move the 20 Ready to Ship items out the door."
     },
     {
       "metric": "Samples approved",
@@ -43,17 +25,35 @@
       "prior": 19,
       "pct": -78.9,
       "direction": "down",
-      "effect": "Approvals gate shipping, and 163 of 300 pipeline records are still unreviewed.",
-      "action": "Work the To Review queue down this week and keep approvals ahead of the Ready to Ship backlog."
+      "effect": "Inferred: approvals rather than creator interest are the bottleneck, since the pipeline rejection rate is only 12.0% of 300 requests.",
+      "action": "Inferred: apply the inbound default-approve rule in one daily batch and assign a named owner for the review queue."
     },
     {
-      "metric": "Bidet 7/6 ROAS (90d)",
-      "current": 0.972,
-      "prior": 1.149,
-      "pct": -15.4,
+      "metric": "Creators posting",
+      "current": 41,
+      "prior": 49,
+      "pct": -16.3,
       "direction": "down",
-      "effect": "The campaign is still ENABLE with 90-day spend of 93,220.65 against 90,586.71 revenue, below ad break-even, and the same campaign reads 1.149 on the 60-day window.",
-      "action": "Trim or re-target bidet ad spend until ROAS holds nearer the 2.3 target instead of scaling it."
+      "effect": "Inferred: fewer creators are posting while video views are flat, so the sales pool is narrowing rather than reach falling.",
+      "action": "Inferred: re-engage the delivered-sample cohort that has not posted, starting with the top ten creators by GMV."
+    },
+    {
+      "metric": "Samples delivered",
+      "current": 10,
+      "prior": 12,
+      "pct": -16.7,
+      "direction": "down",
+      "effect": "Inferred: delivered samples translate to 409.57 GMV each, so a third straight weekly decline compounds into lower video supply and downstream GMV.",
+      "action": "Inferred: prioritise shipping on the oldest approved requests to rebuild the delivery run rate above 12 per week."
+    },
+    {
+      "metric": "GMV Max Shop Wide ROAS (30d)",
+      "current": 0.913,
+      "prior": 1.169,
+      "pct": -21.9,
+      "direction": "down",
+      "effect": "Inferred: the campaign spends more than it returns over 30 days and is already set to DISABLE.",
+      "action": "Inferred: keep it disabled and require a new creative test before any re-enable."
     }
   ]
 }
