@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats + /ads/campaigns (in-progress week, live read)",
-    "pulled_at": "2026-10-04T23:56:44.660211+00:00"
+    "pulled_at": "2026-10-04T23:58:44.979305+00:00"
   },
   "week_range": "2026-09-28 to 2026-10-04",
   "values": {
@@ -18,9 +18,9 @@
     "sample_requests": 218,
     "samples_approved": 118,
     "lives_posted": 117,
-    "gmv_max_revenue": 4560.47,
-    "gmv_max_spend": 3339.93,
-    "gmv_max_roas": 1.365
+    "gmv_max_revenue": 4910.32,
+    "gmv_max_spend": 3516.7799999999997,
+    "gmv_max_roas": 1.396
   },
   "stale": false,
   "last_error": null
