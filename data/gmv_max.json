@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-03"
+    "pulled_on": "2026-10-04"
   },
   "periods": {
     "week": {
@@ -33,7 +33,7 @@
           "roi": 1.739,
           "orders": 56,
           "cost_per_order": 23.66,
-          "roas_target": 2.3,
+          "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
         },
@@ -369,7 +369,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 0.6,
           "status": "ENABLE",
           "start": "2026-09-29"
         }
@@ -404,7 +404,7 @@
           "roi": 1.607,
           "orders": 87,
           "cost_per_order": 26.35,
-          "roas_target": 2.3,
+          "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
         },
@@ -740,7 +740,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 0.6,
           "status": "ENABLE",
           "start": "2026-09-29"
         }
@@ -763,7 +763,7 @@
           "roi": 1.483,
           "orders": 316,
           "cost_per_order": 28.45,
-          "roas_target": 2.3,
+          "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
         },
@@ -1111,7 +1111,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 0.6,
           "status": "ENABLE",
           "start": "2026-09-29"
         }
@@ -1134,7 +1134,7 @@
           "roi": 1.149,
           "orders": 1281,
           "cost_per_order": 34.79,
-          "roas_target": 2.3,
+          "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
         },
@@ -1482,7 +1482,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 0.6,
           "status": "ENABLE",
           "start": "2026-09-29"
         }
@@ -1505,7 +1505,7 @@
           "roi": 0.972,
           "orders": 2296,
           "cost_per_order": 40.6,
-          "roas_target": 2.3,
+          "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
         },
@@ -1853,7 +1853,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 0.6,
           "status": "ENABLE",
           "start": "2026-09-29"
         }

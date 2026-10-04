@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-03",
+    "pulled_on": "2026-10-04",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -345,7 +345,7 @@
         },
         {
           "product_id": "1730129811577671899",
-          "product_name": "Household Shoe Dryer Machine, Vented Heavy-Duty Work Boot Dryer with Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Multi-Material Safe",
+          "product_name": "Household Shoe Dryer Machine, Heavy-Duty Vented Boot Dryer with 0-180 Minutes Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Leather & Rubber Safe, 14.57\"d x 6.89\"w x 11.81\"h",
           "price": 103.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -570,7 +570,7 @@
         },
         {
           "product_id": "1730129811577671899",
-          "product_name": "Household Shoe Dryer Machine, Vented Heavy-Duty Work Boot Dryer with Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Multi-Material Safe",
+          "product_name": "Household Shoe Dryer Machine, Heavy-Duty Vented Boot Dryer with 0-180 Minutes Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Leather & Rubber Safe, 14.57\"d x 6.89\"w x 11.81\"h",
           "price": 103.99,
           "total_gmv": 79.36,
           "share_pct": 0.8,
@@ -818,7 +818,7 @@
         "total_gmv": 34358.48,
         "affiliate_gmv": 29530.56,
         "video_gmv": 17928.45,
-        "live_gmv": 11477.74,
+        "live_gmv": 11542.47,
         "shop_tab_gmv": 7025.94,
         "gmv_max_revenue": 26663.339999999997,
         "subscription_revenue": 0
@@ -1004,7 +1004,7 @@
         },
         {
           "product_id": "1730129811577671899",
-          "product_name": "Household Shoe Dryer Machine, Vented Heavy-Duty Work Boot Dryer with Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Multi-Material Safe",
+          "product_name": "Household Shoe Dryer Machine, Heavy-Duty Vented Boot Dryer with 0-180 Minutes Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Leather & Rubber Safe, 14.57\"d x 6.89\"w x 11.81\"h",
           "price": 103.99,
           "total_gmv": 79.36,
           "share_pct": 0.2,
@@ -1241,7 +1241,7 @@
         "total_gmv": 120514.44,
         "affiliate_gmv": 106409.23,
         "video_gmv": 63593.34,
-        "live_gmv": 41069.62,
+        "live_gmv": 41083.96,
         "shop_tab_gmv": 19130.92,
         "gmv_max_revenue": 101979.28000000001,
         "subscription_revenue": 0
@@ -1266,7 +1266,7 @@
       "volume": {
         "orders": 4898,
         "units_sold": 5520.0,
-        "creators": 507,
+        "creators": 506,
         "samples_delivered": 467,
         "video_views": 7066036
       },
@@ -1427,7 +1427,7 @@
         },
         {
           "product_id": "1730129811577671899",
-          "product_name": "Household Shoe Dryer Machine, Vented Heavy-Duty Work Boot Dryer with Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Multi-Material Safe",
+          "product_name": "Household Shoe Dryer Machine, Heavy-Duty Vented Boot Dryer with 0-180 Minutes Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Leather & Rubber Safe, 14.57\"d x 6.89\"w x 11.81\"h",
           "price": 103.99,
           "total_gmv": 79.36,
           "share_pct": 0.1,
@@ -1686,7 +1686,7 @@
         "total_gmv": 183297.13,
         "affiliate_gmv": 162616.79,
         "video_gmv": 104951.75,
-        "live_gmv": 55113.97,
+        "live_gmv": 55128.31,
         "shop_tab_gmv": 26476.16,
         "gmv_max_revenue": 169950.06,
         "subscription_revenue": 0
@@ -1711,7 +1711,7 @@
       "volume": {
         "orders": 7442,
         "units_sold": 8405.0,
-        "creators": 792,
+        "creators": 791,
         "samples_delivered": 807,
         "video_views": 13420604
       },
@@ -1905,7 +1905,7 @@
         },
         {
           "product_id": "1730129811577671899",
-          "product_name": "Household Shoe Dryer Machine, Vented Heavy-Duty Work Boot Dryer with Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Multi-Material Safe",
+          "product_name": "Household Shoe Dryer Machine, Heavy-Duty Vented Boot Dryer with 0-180 Minutes Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Leather & Rubber Safe, 14.57\"d x 6.89\"w x 11.81\"h",
           "price": 103.99,
           "total_gmv": 79.36,
           "share_pct": 0.0,

@@ -1,50 +1,41 @@
 {
-  "updated_at": "2026-10-03T07:21:24+00:00",
+  "updated_at": "2026-10-04T07:21:35+00:00",
   "items": [
     {
-      "metric": "LIVE GMV",
-      "current": 208.9,
-      "prior": 374.5,
-      "pct": -44.2,
+      "metric": "Collab invites",
+      "current": 5125,
+      "prior": 19400,
+      "pct": -73.6,
       "direction": "down",
-      "effect": "Inferred: live-attributed revenue has fallen three weeks running from 2346.28 and now covers only 3.9% of GMV, leaving the shop reliant on the affiliate channel.",
-      "action": "Inferred: review the live stream offer and product mix before adding volume, since 114 streams produced 544922 views but only 178.18 live GMV."
+      "effect": "Inferred: outreach volume has returned to its pre-spike baseline after a one-week high, so replies, sample requests and downstream affiliate GMV should flatten rather than fall further.",
+      "action": "Inferred: decide explicitly whether to rebuild invites toward 19000 per week or adopt the 5000 baseline in the forecast."
     },
     {
-      "metric": "Samples shipped",
-      "current": 6,
-      "prior": 16,
-      "pct": -62.5,
+      "metric": "Replies",
+      "current": 18,
+      "prior": 55,
+      "pct": -67.3,
       "direction": "down",
-      "effect": "Inferred: with samples delivered also down a third straight week, creator content supply should soften over the next two to four weeks given the delivery to post lag.",
-      "action": "Inferred: clear the 164 requests sitting in To Review and move the 20 Ready to Ship items out the door."
+      "effect": "Inferred: the reply rate of 0.35% means creator response, not just send volume, weakened this week.",
+      "action": "Inferred: rewrite the first DM line using the top hooks in creative_brief.json and retest on one list before scaling volume."
     },
     {
-      "metric": "Samples approved",
-      "current": 4,
-      "prior": 19,
-      "pct": -78.9,
+      "metric": "Affiliate GMV",
+      "current": 2621.14,
+      "prior": 4095.75,
+      "pct": -36.0,
       "direction": "down",
-      "effect": "Inferred: approvals rather than creator interest are the bottleneck, since the pipeline rejection rate is only 12.0% of 300 requests.",
-      "action": "Inferred: apply the inbound default-approve rule in one daily batch and assign a named owner for the review queue."
+      "effect": "Inferred: affiliate is 51.8% of shop GMV, so this decline carries most of the shop's revenue risk through the 2 to 4 week outreach lag.",
+      "action": "Inferred: re-engage the 79 creators who received samples this week with a posting reminder before their window closes."
     },
     {
-      "metric": "Creators posting",
-      "current": 41,
-      "prior": 49,
-      "pct": -16.3,
+      "metric": "Videos posted",
+      "current": 70,
+      "prior": 75,
+      "pct": -6.7,
       "direction": "down",
-      "effect": "Inferred: fewer creators are posting while video views are flat, so the sales pool is narrowing rather than reach falling.",
-      "action": "Inferred: re-engage the delivered-sample cohort that has not posted, starting with the top ten creators by GMV."
-    },
-    {
-      "metric": "Samples delivered",
-      "current": 10,
-      "prior": 12,
-      "pct": -16.7,
-      "direction": "down",
-      "effect": "Inferred: delivered samples translate to 409.57 GMV each, so a third straight weekly decline compounds into lower video supply and downstream GMV.",
-      "action": "Inferred: prioritise shipping on the oldest approved requests to rebuild the delivery run rate above 12 per week."
+      "effect": "Inferred: a third consecutive weekly decline (84, 75, 70) trims the content supply that feeds affiliate GMV, though 92 samples shipped and 79 delivered last week should reverse it within 1 to 3 weeks.",
+      "action": "Inferred: pair the 79 delivered samples with a tracked posting follow-up so the pipeline converts to videos."
     },
     {
       "metric": "GMV Max Shop Wide ROAS (30d)",
@@ -52,8 +43,17 @@
       "prior": 1.169,
       "pct": -21.9,
       "direction": "down",
-      "effect": "Inferred: the campaign spends more than it returns over 30 days and is already set to DISABLE.",
-      "action": "Inferred: keep it disabled and require a new creative test before any re-enable."
+      "effect": "Inferred: the campaign has returned less than it spent over 30 days and is already set to DISABLE, with the last week improving to 1.186.",
+      "action": "Inferred: keep it disabled and move the budget to Screen Door (week ROAS 2.14) and Bidet 7/6 (week ROAS 1.739)."
+    },
+    {
+      "metric": "Samples approved",
+      "current": 4,
+      "prior": 19,
+      "pct": -78.9,
+      "direction": "down",
+      "effect": "Inferred: approval throughput, not creator demand, is the pipeline constraint, since 133 of 300 requests are still To Review and rejection is only 14.3%.",
+      "action": "Inferred: assign a named owner to clear the To Review queue daily under the inbound default-approve rule."
     }
   ]
 }
