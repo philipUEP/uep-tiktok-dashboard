@@ -1,176 +1,260 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats with product_id + include_charts",
-    "pulled_on": "2026-10-04",
+    "pulled_on": "2026-10-05",
     "range": {
-      "from": "2026-09-21",
-      "to": "2026-09-27"
+      "from": "2026-09-28",
+      "to": "2026-10-04"
     }
   },
   "products": [
     {
       "product_id": "1729385884864975067",
       "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-      "total_gmv": 2136.4,
+      "total_gmv": 4904.34,
       "daily": [
         {
-          "date": "2026-09-21",
-          "gmv": 492.71,
+          "date": "2026-09-28",
+          "gmv": 270.81,
+          "units": 9.0
+        },
+        {
+          "date": "2026-09-29",
+          "gmv": 460.22,
           "units": 15.0
         },
         {
-          "date": "2026-09-22",
-          "gmv": 273.35,
-          "units": 9.0
+          "date": "2026-09-30",
+          "gmv": 218.62,
+          "units": 8.0
         },
         {
-          "date": "2026-09-23",
-          "gmv": 61.98,
-          "units": 2.0
+          "date": "2026-10-01",
+          "gmv": 362.14,
+          "units": 12.0
         },
         {
-          "date": "2026-09-24",
-          "gmv": 298.91,
-          "units": 9.0
+          "date": "2026-10-02",
+          "gmv": 159.04,
+          "units": 6.0
         },
         {
-          "date": "2026-09-25",
-          "gmv": 305.41,
-          "units": 10.0
+          "date": "2026-10-03",
+          "gmv": 1364.74,
+          "units": 40.0
         },
         {
-          "date": "2026-09-26",
-          "gmv": 461.16,
-          "units": 15.0
-        },
-        {
-          "date": "2026-09-27",
-          "gmv": 242.88,
-          "units": 9.0
+          "date": "2026-10-04",
+          "gmv": 2068.77,
+          "units": 62.0
         }
       ]
     },
     {
       "product_id": "1729391862339113179",
       "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
-      "total_gmv": 2066.58,
+      "total_gmv": 2195.68,
       "daily": [
         {
-          "date": "2026-09-21",
-          "gmv": 186.76,
-          "units": 11.0
+          "date": "2026-09-28",
+          "gmv": 172.76,
+          "units": 9.0
         },
         {
-          "date": "2026-09-22",
-          "gmv": 527.97,
-          "units": 30.0
+          "date": "2026-09-29",
+          "gmv": 301.95,
+          "units": 17.0
         },
         {
-          "date": "2026-09-23",
-          "gmv": 195.39,
-          "units": 11.0
+          "date": "2026-09-30",
+          "gmv": 304.88,
+          "units": 17.0
         },
         {
-          "date": "2026-09-24",
-          "gmv": 192.3,
-          "units": 11.0
+          "date": "2026-10-01",
+          "gmv": 397.25,
+          "units": 20.0
         },
         {
-          "date": "2026-09-25",
-          "gmv": 128.42,
-          "units": 7.0
+          "date": "2026-10-02",
+          "gmv": 248.18,
+          "units": 12.0
         },
         {
-          "date": "2026-09-26",
-          "gmv": 347.22,
-          "units": 19.0
+          "date": "2026-10-03",
+          "gmv": 177.17,
+          "units": 9.0
         },
         {
-          "date": "2026-09-27",
-          "gmv": 488.52,
-          "units": 26.0
+          "date": "2026-10-04",
+          "gmv": 593.49,
+          "units": 29.0
         }
       ]
     },
     {
-      "product_id": "1730105130585657563",
-      "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-      "total_gmv": 313.34,
+      "product_id": "1732530504119718107",
+      "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
+      "total_gmv": 539.53,
       "daily": [
         {
-          "date": "2026-09-21",
-          "gmv": 34.0,
-          "units": 2.0
-        },
-        {
-          "date": "2026-09-22",
-          "gmv": 35.41,
-          "units": 1.0
-        },
-        {
-          "date": "2026-09-23",
+          "date": "2026-09-28",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-24",
-          "gmv": 33.99,
-          "units": 1.0
+          "date": "2026-09-29",
+          "gmv": 129.27,
+          "units": 13.0
         },
         {
-          "date": "2026-09-25",
-          "gmv": 145.96,
-          "units": 4.0
+          "date": "2026-09-30",
+          "gmv": 73.66,
+          "units": 6.0
         },
         {
-          "date": "2026-09-26",
-          "gmv": 29.99,
-          "units": 1.0
+          "date": "2026-10-01",
+          "gmv": 108.26,
+          "units": 9.0
         },
         {
-          "date": "2026-09-27",
-          "gmv": 33.99,
-          "units": 1.0
+          "date": "2026-10-02",
+          "gmv": 77.99,
+          "units": 7.0
+        },
+        {
+          "date": "2026-10-03",
+          "gmv": 120.37,
+          "units": 11.0
+        },
+        {
+          "date": "2026-10-04",
+          "gmv": 29.98,
+          "units": 2.0
         }
       ]
     },
     {
       "product_id": "1729385798535319771",
       "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
-      "total_gmv": 180.81,
+      "total_gmv": 81.17,
       "daily": [
         {
-          "date": "2026-09-21",
-          "gmv": 27.99,
+          "date": "2026-09-28",
+          "gmv": 25.19,
           "units": 1.0
         },
         {
-          "date": "2026-09-22",
-          "gmv": 22.67,
-          "units": 1.0
-        },
-        {
-          "date": "2026-09-23",
-          "gmv": 27.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-09-24",
-          "gmv": 51.78,
-          "units": 2.0
-        },
-        {
-          "date": "2026-09-25",
-          "gmv": 50.38,
-          "units": 2.0
-        },
-        {
-          "date": "2026-09-26",
+          "date": "2026-09-29",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-27",
+          "date": "2026-09-30",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-01",
+          "gmv": 27.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-10-02",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-03",
+          "gmv": 27.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-10-04",
+          "gmv": 0.0,
+          "units": 0.0
+        }
+      ]
+    },
+    {
+      "product_id": "1730105130585657563",
+      "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+      "total_gmv": 61.98,
+      "daily": [
+        {
+          "date": "2026-09-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-09-29",
+          "gmv": 33.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-09-30",
+          "gmv": 27.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-10-01",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-02",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-03",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-04",
+          "gmv": 0.0,
+          "units": 0.0
+        }
+      ]
+    },
+    {
+      "product_id": "1729388475149750491",
+      "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Nighttime Hot Flash Relief",
+      "total_gmv": 59.98,
+      "daily": [
+        {
+          "date": "2026-09-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-09-29",
+          "gmv": 29.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-09-30",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-01",
+          "gmv": 29.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-10-02",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-03",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-04",
           "gmv": 0.0,
           "units": 0.0
         }
@@ -179,250 +263,166 @@
     {
       "product_id": "1729388554561294555",
       "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
-      "total_gmv": 130.79,
+      "total_gmv": 31.0,
       "daily": [
         {
-          "date": "2026-09-21",
-          "gmv": 50.06,
-          "units": 3.0
-        },
-        {
-          "date": "2026-09-22",
-          "gmv": 31.1,
-          "units": 2.0
-        },
-        {
-          "date": "2026-09-23",
+          "date": "2026-09-28",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-24",
+          "date": "2026-09-29",
+          "gmv": 13.01,
+          "units": 1.0
+        },
+        {
+          "date": "2026-09-30",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-25",
-          "gmv": 31.64,
-          "units": 2.0
+          "date": "2026-10-01",
+          "gmv": 0.0,
+          "units": 0.0
         },
         {
-          "date": "2026-09-26",
+          "date": "2026-10-02",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-03",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-04",
           "gmv": 17.99,
           "units": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "1729385809950380251",
+      "product_name": "Everlasting Comfort Armrest Cover Chair Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Desk/Gaming Chair Fit, Eliminates Fatigue, Improves Posture, Modern Solid, Ideal for Gamers",
+      "total_gmv": 23.99,
+      "daily": [
+        {
+          "date": "2026-09-28",
+          "gmv": 0.0,
+          "units": 0.0
         },
         {
-          "date": "2026-09-27",
+          "date": "2026-09-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-09-30",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-01",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-02",
+          "gmv": 23.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-10-03",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-04",
           "gmv": 0.0,
           "units": 0.0
         }
       ]
     },
     {
-      "product_id": "1730129570622640347",
-      "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - Low Noise Cool Mist, 60-Hour Run Time, 180ml/h Output, Standard Plug, Easy-Clean with Kit, Essential Oil Ready Home Therapy Device for Large/Kid Rooms, Corded Improves Breathing Unit",
-      "total_gmv": 119.99,
+      "product_id": "1730130703186235611",
+      "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
+      "total_gmv": 23.99,
       "daily": [
         {
-          "date": "2026-09-21",
-          "gmv": 119.99,
+          "date": "2026-09-28",
+          "gmv": 23.99,
           "units": 1.0
         },
         {
-          "date": "2026-09-22",
+          "date": "2026-09-29",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-23",
+          "date": "2026-09-30",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-24",
+          "date": "2026-10-01",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-25",
+          "date": "2026-10-02",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-26",
+          "date": "2026-10-03",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-27",
+          "date": "2026-10-04",
           "gmv": 0.0,
           "units": 0.0
         }
       ]
     },
     {
-      "product_id": "1732530504119718107",
-      "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
-      "total_gmv": 119.92,
+      "product_id": "1730273357213896923",
+      "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+      "total_gmv": 19.98,
       "daily": [
         {
-          "date": "2026-09-21",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-22",
-          "gmv": 30.59,
-          "units": 1.0
-        },
-        {
-          "date": "2026-09-23",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-24",
-          "gmv": 55.34,
+          "date": "2026-09-28",
+          "gmv": 19.98,
           "units": 2.0
         },
         {
-          "date": "2026-09-25",
+          "date": "2026-09-29",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-26",
+          "date": "2026-09-30",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-27",
-          "gmv": 33.99,
-          "units": 1.0
-        }
-      ]
-    },
-    {
-      "product_id": "1729385798632640731",
-      "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
-      "total_gmv": 55.98,
-      "daily": [
-        {
-          "date": "2026-09-21",
+          "date": "2026-10-01",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-22",
+          "date": "2026-10-02",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-23",
+          "date": "2026-10-03",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-09-24",
-          "gmv": 27.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-09-25",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-26",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-27",
-          "gmv": 27.99,
-          "units": 1.0
-        }
-      ]
-    },
-    {
-      "product_id": "1729388475149750491",
-      "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Nighttime Hot Flash Relief",
-      "total_gmv": 55.2,
-      "daily": [
-        {
-          "date": "2026-09-21",
-          "gmv": 29.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-09-22",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-23",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-24",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-25",
-          "gmv": 25.21,
-          "units": 1.0
-        },
-        {
-          "date": "2026-09-26",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-27",
-          "gmv": 0.0,
-          "units": 0.0
-        }
-      ]
-    },
-    {
-      "product_id": "1729394250782118107",
-      "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic Durable Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Good Posture, Stress Relief, Travel & Office Use Furniture Accessory",
-      "total_gmv": 50.99,
-      "daily": [
-        {
-          "date": "2026-09-21",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-22",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-23",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-24",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-25",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-09-26",
-          "gmv": 50.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-09-27",
+          "date": "2026-10-04",
           "gmv": 0.0,
           "units": 0.0
         }

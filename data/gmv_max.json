@@ -1,26 +1,26 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-04"
+    "pulled_on": "2026-10-05"
   },
   "periods": {
     "week": {
-      "range": "2026-09-21 to 2026-09-27",
+      "range": "2026-09-28 to 2026-10-04",
       "totals": {
-        "revenue": 5821.76,
-        "spend": 3371.17,
-        "orders": 195,
-        "roi": 1.727
+        "revenue": 5122.23,
+        "spend": 3608.97,
+        "orders": 189,
+        "roi": 1.419
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 2374.91,
-          "spend": 1109.76,
-          "roi": 2.14,
-          "orders": 104,
-          "cost_per_order": 10.67,
+          "revenue": 2395.17,
+          "spend": 1022.65,
+          "roi": 2.342,
+          "orders": 103,
+          "cost_per_order": 9.93,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
@@ -28,23 +28,35 @@
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 2305.0,
-          "spend": 1325.13,
-          "roi": 1.739,
-          "orders": 56,
-          "cost_per_order": 23.66,
+          "revenue": 1995.05,
+          "spend": 1115.97,
+          "roi": 1.788,
+          "orders": 53,
+          "cost_per_order": 21.06,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
         },
         {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 555.74,
+          "spend": 1145.96,
+          "roi": 0.485,
+          "orders": 26,
+          "cost_per_order": 44.08,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
+        },
+        {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 753.98,
-          "spend": 635.85,
-          "roi": 1.186,
-          "orders": 23,
-          "cost_per_order": 27.65,
+          "revenue": 148.28,
+          "spend": 260.38,
+          "roi": 0.569,
+          "orders": 6,
+          "cost_per_order": 43.4,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13"
@@ -52,11 +64,11 @@
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
-          "revenue": 387.87,
-          "spend": 300.43,
-          "roi": 1.291,
-          "orders": 12,
-          "cost_per_order": 25.04,
+          "revenue": 27.99,
+          "spend": 64.01,
+          "roi": 0.437,
+          "orders": 1,
+          "cost_per_order": 64.01,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21"
@@ -360,38 +372,26 @@
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-23"
-        },
-        {
-          "name": "Repel GMV MAX 9/29",
-          "campaign_id": "1877681559235809",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 0.6,
-          "status": "ENABLE",
-          "start": "2026-09-29"
         }
       ]
     },
     "14d": {
-      "range": "2026-09-14 to 2026-09-27",
+      "range": "2026-09-21 to 2026-10-04",
       "totals": {
-        "revenue": 9733.97,
-        "spend": 6098.04,
-        "orders": 329,
-        "roi": 1.596
+        "revenue": 10943.99,
+        "spend": 6980.14,
+        "orders": 384,
+        "roi": 1.568
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 4160.71,
-          "spend": 2002.61,
-          "roi": 2.078,
-          "orders": 182,
-          "cost_per_order": 11.0,
+          "revenue": 4770.08,
+          "spend": 2132.41,
+          "roi": 2.237,
+          "orders": 207,
+          "cost_per_order": 10.3,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
@@ -399,11 +399,11 @@
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 3684.06,
-          "spend": 2292.5,
-          "roi": 1.607,
-          "orders": 87,
-          "cost_per_order": 26.35,
+          "revenue": 4300.05,
+          "spend": 2441.1,
+          "roi": 1.762,
+          "orders": 109,
+          "cost_per_order": 22.4,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
@@ -411,23 +411,35 @@
         {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 1417.36,
-          "spend": 1212.84,
-          "roi": 1.169,
-          "orders": 45,
-          "cost_per_order": 26.95,
+          "revenue": 902.26,
+          "spend": 896.23,
+          "roi": 1.007,
+          "orders": 29,
+          "cost_per_order": 30.9,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13"
         },
         {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 555.74,
+          "spend": 1145.96,
+          "roi": 0.485,
+          "orders": 26,
+          "cost_per_order": 44.08,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
+        },
+        {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
-          "revenue": 471.84,
-          "spend": 590.09,
-          "roi": 0.8,
-          "orders": 15,
-          "cost_per_order": 39.34,
+          "revenue": 415.86,
+          "spend": 364.44,
+          "roi": 1.141,
+          "orders": 13,
+          "cost_per_order": 28.03,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21"
@@ -731,62 +743,50 @@
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-23"
-        },
-        {
-          "name": "Repel GMV MAX 9/29",
-          "campaign_id": "1877681559235809",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 0.6,
-          "status": "ENABLE",
-          "start": "2026-09-29"
         }
       ]
     },
     "month": {
-      "range": "2026-08-29 to 2026-09-27",
+      "range": "2026-09-05 to 2026-10-04",
       "totals": {
-        "revenue": 26663.34,
-        "spend": 18192.2,
-        "orders": 891,
-        "roi": 1.466
+        "revenue": 21937.64,
+        "spend": 13888.83,
+        "orders": 763,
+        "roi": 1.58
       },
       "campaigns": [
         {
-          "name": "Bidet 7/6",
-          "campaign_id": "1869091438759025",
-          "revenue": 13337.49,
-          "spend": 8990.67,
-          "roi": 1.483,
-          "orders": 316,
-          "cost_per_order": 28.45,
-          "roas_target": 2.5,
-          "status": "ENABLE",
-          "start": "2026-06-26"
-        },
-        {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 10094.83,
-          "spend": 5693.74,
-          "roi": 1.773,
-          "orders": 468,
-          "cost_per_order": 12.17,
+          "revenue": 9346.83,
+          "spend": 4511.1,
+          "roi": 2.072,
+          "orders": 417,
+          "cost_per_order": 10.82,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
         },
         {
+          "name": "Bidet 7/6",
+          "campaign_id": "1869091438759025",
+          "revenue": 9301.54,
+          "spend": 5189.25,
+          "roi": 1.792,
+          "orders": 228,
+          "cost_per_order": 22.76,
+          "roas_target": 2.5,
+          "status": "ENABLE",
+          "start": "2026-06-26"
+        },
+        {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 1959.39,
-          "spend": 2146.56,
-          "roi": 0.913,
-          "orders": 72,
-          "cost_per_order": 29.81,
+          "revenue": 1891.8,
+          "spend": 1939.17,
+          "roi": 0.976,
+          "orders": 66,
+          "cost_per_order": 29.38,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13"
@@ -794,14 +794,26 @@
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
-          "revenue": 1271.63,
-          "spend": 1361.23,
-          "roi": 0.934,
-          "orders": 35,
-          "cost_per_order": 38.89,
+          "revenue": 841.73,
+          "spend": 1103.35,
+          "roi": 0.763,
+          "orders": 26,
+          "cost_per_order": 42.44,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21"
+        },
+        {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 555.74,
+          "spend": 1145.96,
+          "roi": 0.485,
+          "orders": 26,
+          "cost_per_order": 44.08,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -1102,38 +1114,26 @@
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-23"
-        },
-        {
-          "name": "Repel GMV MAX 9/29",
-          "campaign_id": "1877681559235809",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 0.6,
-          "status": "ENABLE",
-          "start": "2026-09-29"
         }
       ]
     },
     "60d": {
-      "range": "2026-07-30 to 2026-09-27",
+      "range": "2026-08-06 to 2026-10-04",
       "totals": {
-        "revenue": 101979.28,
-        "spend": 89317.8,
-        "orders": 3589,
-        "roi": 1.142
+        "revenue": 85699.06,
+        "spend": 70329.65,
+        "orders": 3037,
+        "roi": 1.219
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 51209.3,
-          "spend": 44563.32,
-          "roi": 1.149,
-          "orders": 1281,
-          "cost_per_order": 34.79,
+          "revenue": 41501.32,
+          "spend": 33746.2,
+          "roi": 1.23,
+          "orders": 1041,
+          "cost_per_order": 32.42,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
@@ -1141,11 +1141,11 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 41643.02,
-          "spend": 32992.09,
-          "roi": 1.262,
-          "orders": 1900,
-          "cost_per_order": 17.36,
+          "revenue": 36442.57,
+          "spend": 26583.79,
+          "roi": 1.371,
+          "orders": 1665,
+          "cost_per_order": 15.97,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
@@ -1153,11 +1153,11 @@
         {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 7385.05,
-          "spend": 9526.71,
-          "roi": 0.775,
-          "orders": 355,
-          "cost_per_order": 26.84,
+          "revenue": 5429.53,
+          "spend": 6849.64,
+          "roi": 0.793,
+          "orders": 251,
+          "cost_per_order": 27.29,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13"
@@ -1165,20 +1165,32 @@
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
-          "revenue": 1741.91,
-          "spend": 1654.54,
-          "roi": 1.053,
-          "orders": 53,
-          "cost_per_order": 31.22,
+          "revenue": 1769.9,
+          "spend": 1718.55,
+          "roi": 1.03,
+          "orders": 54,
+          "cost_per_order": 31.82,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21"
         },
         {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 555.74,
+          "spend": 1145.96,
+          "roi": 0.485,
+          "orders": 26,
+          "cost_per_order": 44.08,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
+        },
+        {
           "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
           "campaign_id": "1870840754793602",
           "revenue": 0,
-          "spend": 581.14,
+          "spend": 285.51,
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
@@ -1473,38 +1485,26 @@
           "roas_target": 12.0,
           "status": "DISABLE",
           "start": "2026-03-19"
-        },
-        {
-          "name": "Repel GMV MAX 9/29",
-          "campaign_id": "1877681559235809",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 0.6,
-          "status": "ENABLE",
-          "start": "2026-09-29"
         }
       ]
     },
     "90d": {
-      "range": "2026-06-30 to 2026-09-27",
+      "range": "2026-07-07 to 2026-10-04",
       "totals": {
-        "revenue": 169950.06,
-        "spend": 165790.5,
-        "orders": 5623,
-        "roi": 1.025
+        "revenue": 164975.08,
+        "spend": 158333.74,
+        "orders": 5515,
+        "roi": 1.042
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 90586.71,
-          "spend": 93220.65,
-          "roi": 0.972,
-          "orders": 2296,
-          "cost_per_order": 40.6,
+          "revenue": 86033.83,
+          "spend": 86493.17,
+          "roi": 0.995,
+          "orders": 2178,
+          "cost_per_order": 39.71,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
@@ -1512,11 +1512,11 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 66366.47,
-          "spend": 55019.64,
-          "roi": 1.206,
-          "orders": 2779,
-          "cost_per_order": 19.8,
+          "revenue": 65212.36,
+          "spend": 52820.01,
+          "roi": 1.235,
+          "orders": 2756,
+          "cost_per_order": 19.17,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
@@ -1524,11 +1524,11 @@
         {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 11254.97,
-          "spend": 15306.26,
-          "roi": 0.735,
-          "orders": 495,
-          "cost_per_order": 30.92,
+          "revenue": 11403.25,
+          "spend": 15566.64,
+          "roi": 0.733,
+          "orders": 501,
+          "cost_per_order": 31.07,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13"
@@ -1536,14 +1536,26 @@
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
-          "revenue": 1741.91,
-          "spend": 1654.54,
-          "roi": 1.053,
-          "orders": 53,
-          "cost_per_order": 31.22,
+          "revenue": 1769.9,
+          "spend": 1718.55,
+          "roi": 1.03,
+          "orders": 54,
+          "cost_per_order": 31.82,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21"
+        },
+        {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 555.74,
+          "spend": 1145.96,
+          "roi": 0.485,
+          "orders": 26,
+          "cost_per_order": 44.08,
+          "roas_target": 0.6,
+          "status": "ENABLE",
+          "start": "2026-09-29"
         },
         {
           "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
@@ -1844,18 +1856,6 @@
           "roas_target": 12.0,
           "status": "DISABLE",
           "start": "2026-03-19"
-        },
-        {
-          "name": "Repel GMV MAX 9/29",
-          "campaign_id": "1877681559235809",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 0.6,
-          "status": "ENABLE",
-          "start": "2026-09-29"
         }
       ]
     }
