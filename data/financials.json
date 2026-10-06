@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-05",
+    "pulled_on": "2026-10-06",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -13,37 +13,37 @@
     "week": {
       "range": "2026-09-28 to 2026-10-04",
       "revenue": {
-        "total_gmv": 7941.64,
-        "affiliate_gmv": 4135.43,
-        "video_gmv": 2562.29,
+        "total_gmv": 8003.61,
+        "affiliate_gmv": 6760.44,
+        "video_gmv": 3315.22,
         "live_gmv": 2849.44,
         "shop_tab_gmv": 1478.36,
         "gmv_max_revenue": 5122.23,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 3608.9700000000003,
-        "commission": 787.63,
-        "refund_amount": 350.52,
-        "shipping_fees": 2242.0
+        "ad_spend": 3618.5400000000004,
+        "commission": 1213.41,
+        "refund_amount": 562.89,
+        "shipping_fees": 2264.8
       },
-      "net_after_ads_commissions_refunds": 3194.52,
+      "net_after_ads_commissions_refunds": 2608.77,
       "ratios": {
-        "blended_roas": 2.2005,
-        "gmv_max_roas": 1.4193,
-        "commission_rate_pct": 19.05,
-        "refund_rate_pct": 4.41,
-        "aov": 25.95,
-        "gpm": 5.28,
-        "emv": 2428.62,
-        "gmv_per_sample_delivered": 47.53
+        "blended_roas": 2.2118,
+        "gmv_max_roas": 1.4156,
+        "commission_rate_pct": 17.95,
+        "refund_rate_pct": 7.03,
+        "aov": 25.9,
+        "gpm": 6.07,
+        "emv": 2729.32,
+        "gmv_per_sample_delivered": 77.71
       },
       "volume": {
-        "orders": 306,
-        "units_sold": 326.0,
-        "creators": 52,
+        "orders": 309,
+        "units_sold": 329.0,
+        "creators": 62,
         "samples_delivered": 87,
-        "video_views": 485724
+        "video_views": 545864
       },
       "products": [
         {
@@ -51,7 +51,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
           "total_gmv": 4904.34,
-          "share_pct": 61.8,
+          "share_pct": 61.3,
           "video_gmv": 1107.67,
           "live_gmv": 3300.29,
           "shop_tab_gmv": 847.28,
@@ -61,19 +61,19 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 2195.68,
-          "share_pct": 27.6,
-          "video_gmv": 1775.53,
+          "total_gmv": 2257.65,
+          "share_pct": 28.2,
+          "video_gmv": 1837.5,
           "live_gmv": 0,
           "shop_tab_gmv": 368.34,
-          "units_sold": 113
+          "units_sold": 116
         },
         {
           "product_id": "1732530504119718107",
           "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 67.99,
           "total_gmv": 539.53,
-          "share_pct": 6.8,
+          "share_pct": 6.7,
           "video_gmv": 223.89,
           "live_gmv": 39.98,
           "shop_tab_gmv": 29.64,
@@ -103,10 +103,10 @@
         },
         {
           "product_id": "1729388475149750491",
-          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Nighttime Hot Flash Relief",
+          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
           "price": 29.99,
           "total_gmv": 59.98,
-          "share_pct": 0.8,
+          "share_pct": 0.7,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 59.98,
@@ -125,7 +125,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Desk/Gaming Chair Fit, Eliminates Fatigue, Improves Posture, Modern Solid, Ideal for Gamers",
+          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
           "price": 23.99,
           "total_gmv": 23.99,
           "share_pct": 0.3,
@@ -136,7 +136,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 23.99,
           "share_pct": 0.3,
@@ -150,7 +150,7 @@
           "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
           "price": 9.99,
           "total_gmv": 19.98,
-          "share_pct": 0.3,
+          "share_pct": 0.2,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 19.98,
@@ -392,37 +392,37 @@
     "14d": {
       "range": "2026-09-21 to 2026-10-04",
       "revenue": {
-        "total_gmv": 13265.59,
-        "affiliate_gmv": 8231.18,
-        "video_gmv": 6391.47,
+        "total_gmv": 13327.56,
+        "affiliate_gmv": 10856.19,
+        "video_gmv": 7144.4,
         "live_gmv": 3058.34,
         "shop_tab_gmv": 2890.85,
         "gmv_max_revenue": 10943.989999999998,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 6980.14,
-        "commission": 1608.81,
-        "refund_amount": 1151.58,
-        "shipping_fees": 3784.8
+        "ad_spend": 6989.71,
+        "commission": 2034.59,
+        "refund_amount": 1363.95,
+        "shipping_fees": 3807.6
       },
-      "net_after_ads_commissions_refunds": 3525.06,
+      "net_after_ads_commissions_refunds": 2939.31,
       "ratios": {
-        "blended_roas": 1.9005,
-        "gmv_max_roas": 1.5679,
-        "commission_rate_pct": 19.55,
-        "refund_rate_pct": 8.68,
-        "aov": 26.01,
-        "gpm": 7.62,
-        "emv": 4181.74,
-        "gmv_per_sample_delivered": 84.86
+        "blended_roas": 1.9067,
+        "gmv_max_roas": 1.5657,
+        "commission_rate_pct": 18.74,
+        "refund_rate_pct": 10.23,
+        "aov": 25.98,
+        "gpm": 7.95,
+        "emv": 4482.44,
+        "gmv_per_sample_delivered": 111.92
       },
       "volume": {
-        "orders": 510,
-        "units_sold": 550.0,
-        "creators": 82,
+        "orders": 513,
+        "units_sold": 553.0,
+        "creators": 92,
         "samples_delivered": 97,
-        "video_views": 836348
+        "video_views": 896488
       },
       "products": [
         {
@@ -430,7 +430,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
           "total_gmv": 7040.74,
-          "share_pct": 53.1,
+          "share_pct": 52.8,
           "video_gmv": 2580.18,
           "live_gmv": 3509.19,
           "shop_tab_gmv": 1381.06,
@@ -440,19 +440,19 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 4262.26,
-          "share_pct": 32.1,
-          "video_gmv": 3603.09,
+          "total_gmv": 4324.23,
+          "share_pct": 32.4,
+          "video_gmv": 3665.06,
           "live_gmv": 0,
           "shop_tab_gmv": 724.79,
-          "units_sold": 228
+          "units_sold": 231
         },
         {
           "product_id": "1732530504119718107",
           "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 67.99,
           "total_gmv": 659.45,
-          "share_pct": 5.0,
+          "share_pct": 4.9,
           "video_gmv": 254.48,
           "live_gmv": 39.98,
           "shop_tab_gmv": 149.56,
@@ -504,7 +504,7 @@
         },
         {
           "product_id": "1729388475149750491",
-          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Nighttime Hot Flash Relief",
+          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
           "price": 29.99,
           "total_gmv": 115.18,
           "share_pct": 0.9,
@@ -548,7 +548,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 47.98,
           "share_pct": 0.4,
@@ -570,7 +570,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Desk/Gaming Chair Fit, Eliminates Fatigue, Improves Posture, Modern Solid, Ideal for Gamers",
+          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
           "price": 23.99,
           "total_gmv": 23.99,
           "share_pct": 0.2,
@@ -793,37 +793,37 @@
     "month": {
       "range": "2026-09-05 to 2026-10-04",
       "revenue": {
-        "total_gmv": 26584.8,
-        "affiliate_gmv": 19439.37,
-        "video_gmv": 14254.92,
+        "total_gmv": 26646.77,
+        "affiliate_gmv": 22064.38,
+        "video_gmv": 15007.85,
         "live_gmv": 6033.58,
         "shop_tab_gmv": 6047.67,
         "gmv_max_revenue": 21937.64,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 13888.83,
-        "commission": 3757.61,
-        "refund_amount": 3107.25,
-        "shipping_fees": 7303.6
+        "ad_spend": 13898.4,
+        "commission": 4183.39,
+        "refund_amount": 3319.62,
+        "shipping_fees": 7326.4
       },
-      "net_after_ads_commissions_refunds": 5831.11,
+      "net_after_ads_commissions_refunds": 5245.36,
       "ratios": {
-        "blended_roas": 1.9141,
-        "gmv_max_roas": 1.5795,
-        "commission_rate_pct": 19.33,
-        "refund_rate_pct": 11.69,
-        "aov": 26.96,
-        "gpm": 8.76,
-        "emv": 8113.47,
-        "gmv_per_sample_delivered": 146.16
+        "blended_roas": 1.9173,
+        "gmv_max_roas": 1.5784,
+        "commission_rate_pct": 18.96,
+        "refund_rate_pct": 12.46,
+        "aov": 26.94,
+        "gpm": 8.9,
+        "emv": 8414.17,
+        "gmv_per_sample_delivered": 165.9
       },
       "volume": {
-        "orders": 986,
-        "units_sold": 1059.0,
-        "creators": 164,
+        "orders": 989,
+        "units_sold": 1062.0,
+        "creators": 174,
         "samples_delivered": 133,
-        "video_views": 1622694
+        "video_views": 1682834
       },
       "products": [
         {
@@ -831,7 +831,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
           "total_gmv": 14622.61,
-          "share_pct": 55.0,
+          "share_pct": 54.9,
           "video_gmv": 5818.21,
           "live_gmv": 6745.32,
           "shop_tab_gmv": 2867.65,
@@ -841,12 +841,12 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 8372.94,
-          "share_pct": 31.5,
-          "video_gmv": 7221.87,
+          "total_gmv": 8434.91,
+          "share_pct": 31.7,
+          "video_gmv": 7283.84,
           "live_gmv": 0,
           "shop_tab_gmv": 1524.56,
-          "units_sold": 454
+          "units_sold": 457
         },
         {
           "product_id": "1730105130585657563",
@@ -894,7 +894,7 @@
         },
         {
           "product_id": "1729388475149750491",
-          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Nighttime Hot Flash Relief",
+          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
           "price": 29.99,
           "total_gmv": 168.9,
           "share_pct": 0.6,
@@ -1004,7 +1004,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 47.98,
           "share_pct": 0.2,
@@ -1037,7 +1037,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Desk/Gaming Chair Fit, Eliminates Fatigue, Improves Posture, Modern Solid, Ideal for Gamers",
+          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
           "price": 23.99,
           "total_gmv": 23.99,
           "share_pct": 0.1,
@@ -1205,37 +1205,37 @@
     "60d": {
       "range": "2026-08-06 to 2026-10-04",
       "revenue": {
-        "total_gmv": 108012.72,
-        "affiliate_gmv": 92395.24,
-        "video_gmv": 53017.01,
+        "total_gmv": 108074.69,
+        "affiliate_gmv": 95020.25,
+        "video_gmv": 53769.94,
         "live_gmv": 39168.27,
         "shop_tab_gmv": 18004.34,
         "gmv_max_revenue": 85699.06000000001,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 70329.65000000001,
-        "commission": 21440.66,
-        "refund_amount": 11256.1,
-        "shipping_fees": 32429.2
+        "ad_spend": 70339.22,
+        "commission": 21866.44,
+        "refund_amount": 11468.47,
+        "shipping_fees": 32452.0
       },
-      "net_after_ads_commissions_refunds": 4986.31,
+      "net_after_ads_commissions_refunds": 4400.56,
       "ratios": {
-        "blended_roas": 1.5358,
-        "gmv_max_roas": 1.2185,
-        "commission_rate_pct": 23.21,
-        "refund_rate_pct": 10.42,
-        "aov": 25.11,
-        "gpm": 8.81,
-        "emv": 29931.54,
-        "gmv_per_sample_delivered": 203.07
+        "blended_roas": 1.5365,
+        "gmv_max_roas": 1.2184,
+        "commission_rate_pct": 23.01,
+        "refund_rate_pct": 10.61,
+        "aov": 25.1,
+        "gpm": 8.84,
+        "emv": 30232.24,
+        "gmv_per_sample_delivered": 208.84
       },
       "volume": {
-        "orders": 4302,
-        "units_sold": 4777.0,
-        "creators": 479,
+        "orders": 4305,
+        "units_sold": 4780.0,
+        "creators": 489,
         "samples_delivered": 455,
-        "video_views": 5986308
+        "video_views": 6046448
       },
       "products": [
         {
@@ -1243,7 +1243,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 57.99,
           "total_gmv": 71241.83,
-          "share_pct": 66.0,
+          "share_pct": 65.9,
           "video_gmv": 23527.49,
           "live_gmv": 40187.28,
           "shop_tab_gmv": 10386.53,
@@ -1253,12 +1253,12 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 29184.37,
-          "share_pct": 27.0,
-          "video_gmv": 26128.18,
+          "total_gmv": 29246.34,
+          "share_pct": 27.1,
+          "video_gmv": 26190.15,
           "live_gmv": 0,
           "shop_tab_gmv": 4394.22,
-          "units_sold": 1944
+          "units_sold": 1947
         },
         {
           "product_id": "1729388554561294555",
@@ -1339,7 +1339,7 @@
         },
         {
           "product_id": "1729388475149750491",
-          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Nighttime Hot Flash Relief",
+          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
           "price": 29.99,
           "total_gmv": 324.53,
           "share_pct": 0.3,
@@ -1427,7 +1427,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 71.23,
           "share_pct": 0.1,
@@ -1449,7 +1449,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Desk/Gaming Chair Fit, Eliminates Fatigue, Improves Posture, Modern Solid, Ideal for Gamers",
+          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
           "price": 23.99,
           "total_gmv": 57.41,
           "share_pct": 0.1,
@@ -1639,37 +1639,37 @@
     "90d": {
       "range": "2026-07-07 to 2026-10-04",
       "revenue": {
-        "total_gmv": 181055.87,
-        "affiliate_gmv": 157436.58,
-        "video_gmv": 101020.84,
-        "live_gmv": 55339.1,
+        "total_gmv": 181117.84,
+        "affiliate_gmv": 160061.59,
+        "video_gmv": 101773.77,
+        "live_gmv": 55280.34,
         "shop_tab_gmv": 26587.68,
         "gmv_max_revenue": 164975.08000000002,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 158333.74,
-        "commission": 37114.8,
-        "refund_amount": 18041.87,
-        "shipping_fees": 55654.8
+        "ad_spend": 158343.31,
+        "commission": 37540.58,
+        "refund_amount": 18254.24,
+        "shipping_fees": 55677.6
       },
-      "net_after_ads_commissions_refunds": -32434.54,
+      "net_after_ads_commissions_refunds": -33020.29,
       "ratios": {
-        "blended_roas": 1.1435,
+        "blended_roas": 1.1438,
         "gmv_max_roas": 1.0419,
-        "commission_rate_pct": 23.57,
-        "refund_rate_pct": 9.96,
+        "commission_rate_pct": 23.45,
+        "refund_rate_pct": 10.08,
         "aov": 24.57,
-        "gpm": 7.83,
-        "emv": 64282.49,
-        "gmv_per_sample_delivered": 207.43
+        "gpm": 7.86,
+        "emv": 64583.19,
+        "gmv_per_sample_delivered": 210.88
       },
       "volume": {
-        "orders": 7368,
-        "units_sold": 8327.0,
-        "creators": 736,
+        "orders": 7371,
+        "units_sold": 8330.0,
+        "creators": 745,
         "samples_delivered": 759,
-        "video_views": 12856499
+        "video_views": 12916639
       },
       "products": [
         {
@@ -1687,12 +1687,12 @@
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 50124.69,
+          "total_gmv": 50186.66,
           "share_pct": 27.7,
-          "video_gmv": 45000.47,
+          "video_gmv": 45062.44,
           "live_gmv": 77.97,
           "shop_tab_gmv": 6250.29,
-          "units_sold": 3231
+          "units_sold": 3234
         },
         {
           "product_id": "1729388554561294555",
@@ -1773,7 +1773,7 @@
         },
         {
           "product_id": "1729388475149750491",
-          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket for Hot Sleepers, Double-Sided Reversible, Japanese Icy-Cool Fibers & 100% Bamboo Cotton, Soft Lightweight for Nighttime Hot Flash Relief",
+          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
           "price": 29.99,
           "total_gmv": 350.76,
           "share_pct": 0.2,
@@ -1850,7 +1850,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Travel Footrest - Car Interior Mount, Compact Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Durable Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 88.74,
           "share_pct": 0.0,
@@ -1905,7 +1905,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pads - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Mesh Cover, Double-Sided Fasteners, Universal Desk/Gaming Chair Fit, Eliminates Fatigue, Improves Posture, Modern Solid, Ideal for Gamers",
+          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
           "price": 23.99,
           "total_gmv": 57.41,
           "share_pct": 0.0,

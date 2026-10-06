@@ -1,26 +1,26 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-05"
+    "pulled_on": "2026-10-06"
   },
   "periods": {
     "week": {
       "range": "2026-09-28 to 2026-10-04",
       "totals": {
         "revenue": 5122.23,
-        "spend": 3608.97,
+        "spend": 3618.54,
         "orders": 189,
-        "roi": 1.419
+        "roi": 1.416
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
           "revenue": 2395.17,
-          "spend": 1022.65,
-          "roi": 2.342,
+          "spend": 1031.32,
+          "roi": 2.322,
           "orders": 103,
-          "cost_per_order": 9.93,
+          "cost_per_order": 10.01,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
@@ -29,10 +29,10 @@
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
           "revenue": 1995.05,
-          "spend": 1115.97,
-          "roi": 1.788,
+          "spend": 1116.63,
+          "roi": 1.787,
           "orders": 53,
-          "cost_per_order": 21.06,
+          "cost_per_order": 21.07,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26"
@@ -41,12 +41,12 @@
           "name": "Repel GMV MAX 9/29",
           "campaign_id": "1877681559235809",
           "revenue": 555.74,
-          "spend": 1145.96,
+          "spend": 1146.2,
           "roi": 0.485,
           "orders": 26,
           "cost_per_order": 44.08,
           "roas_target": 0.6,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-09-29"
         },
         {
@@ -372,6 +372,18 @@
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-23"
+        },
+        {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.0,
+          "status": "ENABLE",
+          "start": "2026-10-05"
         }
       ]
     },
@@ -379,19 +391,19 @@
       "range": "2026-09-21 to 2026-10-04",
       "totals": {
         "revenue": 10943.99,
-        "spend": 6980.14,
+        "spend": 6989.71,
         "orders": 384,
-        "roi": 1.568
+        "roi": 1.566
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
           "revenue": 4770.08,
-          "spend": 2132.41,
-          "roi": 2.237,
+          "spend": 2141.08,
+          "roi": 2.228,
           "orders": 207,
-          "cost_per_order": 10.3,
+          "cost_per_order": 10.34,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
@@ -400,8 +412,8 @@
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
           "revenue": 4300.05,
-          "spend": 2441.1,
-          "roi": 1.762,
+          "spend": 2441.76,
+          "roi": 1.761,
           "orders": 109,
           "cost_per_order": 22.4,
           "roas_target": 2.5,
@@ -424,12 +436,12 @@
           "name": "Repel GMV MAX 9/29",
           "campaign_id": "1877681559235809",
           "revenue": 555.74,
-          "spend": 1145.96,
+          "spend": 1146.2,
           "roi": 0.485,
           "orders": 26,
           "cost_per_order": 44.08,
           "roas_target": 0.6,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-09-29"
         },
         {
@@ -743,6 +755,18 @@
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-23"
+        },
+        {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.0,
+          "status": "ENABLE",
+          "start": "2026-10-05"
         }
       ]
     },
@@ -750,19 +774,19 @@
       "range": "2026-09-05 to 2026-10-04",
       "totals": {
         "revenue": 21937.64,
-        "spend": 13888.83,
+        "spend": 13898.4,
         "orders": 763,
-        "roi": 1.58
+        "roi": 1.578
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
           "revenue": 9346.83,
-          "spend": 4511.1,
-          "roi": 2.072,
+          "spend": 4519.77,
+          "roi": 2.068,
           "orders": 417,
-          "cost_per_order": 10.82,
+          "cost_per_order": 10.84,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22"
@@ -771,7 +795,7 @@
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
           "revenue": 9301.54,
-          "spend": 5189.25,
+          "spend": 5189.91,
           "roi": 1.792,
           "orders": 228,
           "cost_per_order": 22.76,
@@ -807,12 +831,12 @@
           "name": "Repel GMV MAX 9/29",
           "campaign_id": "1877681559235809",
           "revenue": 555.74,
-          "spend": 1145.96,
+          "spend": 1146.2,
           "roi": 0.485,
           "orders": 26,
           "cost_per_order": 44.08,
           "roas_target": 0.6,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-09-29"
         },
         {
@@ -1114,6 +1138,18 @@
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-23"
+        },
+        {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.0,
+          "status": "ENABLE",
+          "start": "2026-10-05"
         }
       ]
     },
@@ -1121,16 +1157,16 @@
       "range": "2026-08-06 to 2026-10-04",
       "totals": {
         "revenue": 85699.06,
-        "spend": 70329.65,
+        "spend": 70339.22,
         "orders": 3037,
-        "roi": 1.219
+        "roi": 1.218
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
           "revenue": 41501.32,
-          "spend": 33746.2,
+          "spend": 33746.86,
           "roi": 1.23,
           "orders": 1041,
           "cost_per_order": 32.42,
@@ -1142,8 +1178,8 @@
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
           "revenue": 36442.57,
-          "spend": 26583.79,
-          "roi": 1.371,
+          "spend": 26592.46,
+          "roi": 1.37,
           "orders": 1665,
           "cost_per_order": 15.97,
           "roas_target": 2.5,
@@ -1178,12 +1214,12 @@
           "name": "Repel GMV MAX 9/29",
           "campaign_id": "1877681559235809",
           "revenue": 555.74,
-          "spend": 1145.96,
+          "spend": 1146.2,
           "roi": 0.485,
           "orders": 26,
           "cost_per_order": 44.08,
           "roas_target": 0.6,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-09-29"
         },
         {
@@ -1485,6 +1521,18 @@
           "roas_target": 12.0,
           "status": "DISABLE",
           "start": "2026-03-19"
+        },
+        {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.0,
+          "status": "ENABLE",
+          "start": "2026-10-05"
         }
       ]
     },
@@ -1492,7 +1540,7 @@
       "range": "2026-07-07 to 2026-10-04",
       "totals": {
         "revenue": 164975.08,
-        "spend": 158333.74,
+        "spend": 158343.31,
         "orders": 5515,
         "roi": 1.042
       },
@@ -1501,7 +1549,7 @@
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
           "revenue": 86033.83,
-          "spend": 86493.17,
+          "spend": 86493.83,
           "roi": 0.995,
           "orders": 2178,
           "cost_per_order": 39.71,
@@ -1513,8 +1561,8 @@
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
           "revenue": 65212.36,
-          "spend": 52820.01,
-          "roi": 1.235,
+          "spend": 52828.68,
+          "roi": 1.234,
           "orders": 2756,
           "cost_per_order": 19.17,
           "roas_target": 2.5,
@@ -1549,12 +1597,12 @@
           "name": "Repel GMV MAX 9/29",
           "campaign_id": "1877681559235809",
           "revenue": 555.74,
-          "spend": 1145.96,
+          "spend": 1146.2,
           "roi": 0.485,
           "orders": 26,
           "cost_per_order": 44.08,
           "roas_target": 0.6,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-09-29"
         },
         {
@@ -1856,6 +1904,18 @@
           "roas_target": 12.0,
           "status": "DISABLE",
           "start": "2026-03-19"
+        },
+        {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.0,
+          "status": "ENABLE",
+          "start": "2026-10-05"
         }
       ]
     }
