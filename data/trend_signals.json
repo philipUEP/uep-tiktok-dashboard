@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T07:00:46.977252+00:00",
+  "generated_at": "2026-10-07T07:01:15.993486+00:00",
   "weeks": [
     {
       "total_gmv": 7216.49,
@@ -48,8 +48,8 @@
       "sample_requests": 203,
       "samples_shipped": 6,
       "samples_delivered": 10,
-      "videos_posted": 75,
-      "distinct_creators": 41,
+      "videos_posted": 73,
+      "distinct_creators": 40,
       "_range": "2026-09-21 to 2026-09-27"
     },
     {
@@ -146,13 +146,13 @@
     "videos_posted": [
       77.0,
       84.0,
-      75.0,
+      73.0,
       97.0
     ],
     "distinct_creators": [
       62.0,
       49.0,
-      41.0,
+      40.0,
       62.0
     ]
   },
@@ -193,8 +193,8 @@
       "metric": "videos_posted",
       "label": "Videos posted",
       "current": 97.0,
-      "prior": 75.0,
-      "pct": 29.3,
+      "prior": 73.0,
+      "pct": 32.9,
       "direction": "up"
     },
     {
@@ -214,19 +214,19 @@
       "direction": "up"
     },
     {
-      "metric": "distinct_creators",
-      "label": "Creators posting",
-      "current": 62.0,
-      "prior": 41.0,
-      "pct": 51.2,
-      "direction": "up"
-    },
-    {
       "metric": "platform_orders",
       "label": "Orders",
       "current": 309.0,
       "prior": 204.0,
       "pct": 51.5,
+      "direction": "up"
+    },
+    {
+      "metric": "distinct_creators",
+      "label": "Creators posting",
+      "current": 62.0,
+      "prior": 40.0,
+      "pct": 55.0,
       "direction": "up"
     },
     {
