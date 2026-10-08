@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-07",
+    "pulled_on": "2026-10-08",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -16,7 +16,7 @@
         "total_gmv": 8003.61,
         "affiliate_gmv": 6760.44,
         "video_gmv": 3315.22,
-        "live_gmv": 2849.44,
+        "live_gmv": 2891.43,
         "shop_tab_gmv": 1478.36,
         "gmv_max_revenue": 5122.23,
         "subscription_revenue": 0
@@ -49,7 +49,7 @@
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "price": 57.99,
+          "price": 55.99,
           "total_gmv": 4904.34,
           "share_pct": 61.3,
           "video_gmv": 1107.67,
@@ -181,7 +181,7 @@
         {
           "product_id": "1729385810739499227",
           "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
-          "price": 67.98,
+          "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -257,7 +257,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic Durable Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Good Posture, Stress Relief, Travel & Office Use Furniture Accessory",
+          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
           "price": 67.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -395,7 +395,7 @@
         "total_gmv": 13327.56,
         "affiliate_gmv": 10856.19,
         "video_gmv": 7144.4,
-        "live_gmv": 3058.34,
+        "live_gmv": 3100.33,
         "shop_tab_gmv": 2890.85,
         "gmv_max_revenue": 10943.989999999998,
         "subscription_revenue": 0
@@ -428,7 +428,7 @@
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "price": 57.99,
+          "price": 55.99,
           "total_gmv": 7040.74,
           "share_pct": 52.8,
           "video_gmv": 2580.18,
@@ -526,7 +526,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic Durable Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Good Posture, Stress Relief, Travel & Office Use Furniture Accessory",
+          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
           "price": 67.99,
           "total_gmv": 50.99,
           "share_pct": 0.4,
@@ -593,7 +593,7 @@
         {
           "product_id": "1729385810739499227",
           "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
-          "price": 67.98,
+          "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -796,7 +796,7 @@
         "total_gmv": 26646.77,
         "affiliate_gmv": 22064.38,
         "video_gmv": 15007.85,
-        "live_gmv": 6033.58,
+        "live_gmv": 6075.57,
         "shop_tab_gmv": 6047.67,
         "gmv_max_revenue": 21937.64,
         "subscription_revenue": 0
@@ -829,7 +829,7 @@
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "price": 57.99,
+          "price": 55.99,
           "total_gmv": 14622.61,
           "share_pct": 54.9,
           "video_gmv": 5818.21,
@@ -938,7 +938,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic Durable Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Good Posture, Stress Relief, Travel & Office Use Furniture Accessory",
+          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
           "price": 67.99,
           "total_gmv": 116.38,
           "share_pct": 0.4,
@@ -1060,7 +1060,7 @@
         {
           "product_id": "1729385810739499227",
           "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
-          "price": 67.98,
+          "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1208,7 +1208,7 @@
         "total_gmv": 108074.69,
         "affiliate_gmv": 95020.25,
         "video_gmv": 53769.94,
-        "live_gmv": 39131.57,
+        "live_gmv": 39210.26,
         "shop_tab_gmv": 18004.34,
         "gmv_max_revenue": 85699.06000000001,
         "subscription_revenue": 0
@@ -1241,7 +1241,7 @@
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "price": 57.99,
+          "price": 55.99,
           "total_gmv": 71241.83,
           "share_pct": 65.9,
           "video_gmv": 23527.49,
@@ -1317,7 +1317,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic Durable Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Good Posture, Stress Relief, Travel & Office Use Furniture Accessory",
+          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
           "price": 67.99,
           "total_gmv": 405.25,
           "share_pct": 0.4,
@@ -1516,7 +1516,7 @@
         {
           "product_id": "1729385810739499227",
           "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
-          "price": 67.98,
+          "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1642,7 +1642,7 @@
         "total_gmv": 181117.84,
         "affiliate_gmv": 160061.59,
         "video_gmv": 101773.77,
-        "live_gmv": 55276.88,
+        "live_gmv": 55355.57,
         "shop_tab_gmv": 26587.68,
         "gmv_max_revenue": 164975.08000000002,
         "subscription_revenue": 0
@@ -1675,7 +1675,7 @@
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "price": 57.99,
+          "price": 55.99,
           "total_gmv": 119352.75,
           "share_pct": 65.9,
           "video_gmv": 49533.87,
@@ -1762,7 +1762,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic Durable Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Good Posture, Stress Relief, Travel & Office Use Furniture Accessory",
+          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
           "price": 67.99,
           "total_gmv": 501.95,
           "share_pct": 0.3,
@@ -2005,7 +2005,7 @@
         {
           "product_id": "1729385810739499227",
           "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
-          "price": 67.98,
+          "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
