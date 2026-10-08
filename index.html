@@ -173,6 +173,21 @@
 
   /* attention panel */
   .attention{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--bad);border-radius:12px;box-shadow:var(--shadow);padding:14px 18px;margin-bottom:16px}
+  /* break-even panel: flag chips + its own table so it never inherits the campaign table widths */
+  .be-panel{margin-bottom:16px}
+  .betable{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px}
+  .betable th,.betable td{padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:top;text-align:right;white-space:nowrap}
+  .betable th{font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+  .betable td .cname{font-weight:600}
+  .beflag{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.02em}
+  .be-keep{background:var(--good-soft);color:var(--good)}
+  .be-watch{background:var(--amber-soft);color:var(--amber)}
+  .be-pause{background:var(--bad-soft);color:var(--bad)}
+  .be-none{background:var(--line);color:var(--muted)}
+  .warn{color:var(--amber);font-size:11px}
+  .td-mid{color:var(--amber);font-weight:700}
+  .td-bad{color:var(--bad);font-weight:700}
+  .betable td.bad{color:var(--bad);font-weight:600}
   .at-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
   .at-title{font-size:12px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--text)}
   .at-time{font-size:11px;color:var(--faint)}
@@ -286,7 +301,7 @@
 "use strict";
 const $ = (id) => document.getElementById(id);
 let REPORT=null, PROD_CURRENT=null, PROD_DAILY=null, BRIEF=null, FIN=null,
-    GMVMAX=null, LIVES=null, SAMPLES=null, ATTENTION=null, TREND=null, TICKER=null,
+    GMVMAX=null, LIVES=null, SAMPLES=null, ATTENTION=null, TREND=null, TICKER=null, BE=null,
     PERIOD="week", TAB="overview";
 
 const money = (v)=> (v==null?"n/a":"$"+Number(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}));
@@ -318,11 +333,12 @@ function load(){
     fetch("data/samples.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/attention.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
     fetch("data/trend_signals.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
-    fetch("data/live_ticker.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
-  ]).then(([r,pc,b,fin,pd,gm,li,sa,at,tr,tk])=>{
+    fetch("data/live_ticker.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null),
+    fetch("data/breakeven_flags.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null)
+  ]).then(([r,pc,b,fin,pd,gm,li,sa,at,tr,tk,be])=>{
     if(!r.json.periods||!r.json.periods.week||!r.json.periods.month) throw new Error("unsupported or incomplete report data");
     REPORT=r.json; PROD_CURRENT=pc; BRIEF=b; FIN=fin; PROD_DAILY=pd;
-    GMVMAX=gm; LIVES=li; SAMPLES=sa; ATTENTION=at; TREND=tr; TICKER=tk;
+    GMVMAX=gm; LIVES=li; SAMPLES=sa; ATTENTION=at; TREND=tr; TICKER=tk; BE=be;
     buildPeriodSeg((REPORT.ranges&&REPORT.ranges.length)? REPORT.ranges : [
       {key:"week",label:"Last 7 days",days:7},{key:"14d",label:"Last 14 days",days:14},
       {key:"month",label:"Last 30 days",days:30},{key:"60d",label:"Last 60 days",days:60},
@@ -458,19 +474,27 @@ function renderOverview(){
   // deterministic trend-derived items so the panel always matches the page)
   const attFresh = ATTENTION&&ATTENTION.updated_at&&REPORT.freshness&&REPORT.freshness.pulled_on
     ? String(ATTENTION.updated_at).slice(0,10) >= String(REPORT.freshness.pulled_on).slice(0,10) : false;
-  const attItems = (attFresh&&ATTENTION.items&&ATTENTION.items.length)? ATTENTION.items
+  let attItems = (attFresh&&ATTENTION.items&&ATTENTION.items.length)? ATTENTION.items
     : fallbackAttention();
+  // A campaign flagged against its own ROI target is a false positive when that target sits below
+  // break-even, so those lines are replaced by the break-even items above.
+  const beItems = breakEvenAttention();
+  if(beItems.length) attItems = beItems.concat(attItems.filter(a=>!/ROI \(target|return target/i.test(a.metric||"")));
   if(attItems.length){
     html += '<div class="attention">'+
       '<div class="at-head"><span class="at-title">What needs your attention</span>'+
       (ATTENTION&&ATTENTION.updated_at?'<span class="at-time">'+ATTENTION.updated_at.slice(0,16)+'</span>':"")+'</div>'+
-      attItems.slice(0,5).map(a=>
+      attItems.slice(0, beItems.length? Math.max(5,beItems.length+2) : 5).map(a=>
         '<div class="at-item"><span class="at-metric">'+esc(a.metric)+'</span>'+
         '<span class="at-pct '+(a.direction==="down"?"bad":"good")+'">'+pct(a.pct)+'</span>'+
         '<span class="at-effect">'+esc(a.effect||"")+'</span>'+
         (a.action?'<span class="at-action">→ '+esc(a.action)+'</span>':"")+'</div>').join("")+
       '</div>';
   }
+
+  // break-even panel: the deliberate replacement for judging campaigns against their own targets,
+  // which are set below true break-even (Rebecca, 2026-10-07). Reads data/breakeven_flags.json.
+  if(BE&&BE.campaigns&&BE.campaigns.length) html += breakEvenPanel();
 
   // two-column: trend + funnel
   html += '<div class="cols2">'+
@@ -521,6 +545,108 @@ function fallbackAttention(){
     effect: "Declining week over week. Watch the funnel lag: this reaches GMV in 2 to 4 weeks.",
     action: "Review in the relevant tab; check whether the leading indicators upstream are also down."
   }));
+}
+
+/* ============== BREAK-EVEN (the Current Ask: judge ads against true break-even) ============== */
+const beCls = (f)=> f==="Keep"?"be-keep":(f==="Watch"?"be-watch":(f==="Pause"?"be-pause":"be-none"));
+function flagChip(f){ return '<span class="beflag '+beCls(f)+'">'+esc(f)+'</span>'; }
+
+// The attention box previously flagged a campaign against its own ROI target, and those targets sit
+// below true break-even, so a campaign could hit target and still lose money. These items are built
+// from the break-even file instead and go at the top; the target-based campaign lines are dropped.
+function breakEvenAttention(){
+  if(!BE||!BE.campaigns) return [];
+  const bad = BE.campaigns.filter(c=>c.flag==="Pause"||c.flag==="Watch");
+  if(!bad.length) return [];
+  const tgt = bad.filter(c=>c.target_is_below_break_even).length;
+  const measured = bad.filter(c=>c.be_roas!=null).length;
+  const items = bad.map(c=>({
+    metric: c.campaign+" · ROAS "+Number(c.roi).toFixed(2)+"x vs break-even "+(c.be_roas!=null?Number(c.be_roas).toFixed(1)+"x":"n/a"),
+    current: c.roi, prior: c.be_roas,
+    pct: (c.roi!=null&&c.be_roas)? ((c.roi-c.be_roas)/c.be_roas*100) : null,
+    direction: "down",
+    effect: (c.cm3_after_ads!=null? "CM3 after ads "+money(c.cm3_after_ads)+" on "+money(c.spend)+" of spend this window."
+              : "No break-even row for this campaign's product.")+
+            (c.target_is_below_break_even? " Its ROI target ("+Number(c.roas_target).toFixed(2)+"x) is set below break-even."
+             : (c.roas_target? " Target "+Number(c.roas_target).toFixed(2)+"x." :"")),
+    action: c.action
+  }));
+  items.unshift({
+    metric: "Ads vs true break-even", current: bad.length, prior: BE.campaigns.length,
+    pct: null, direction: "down",
+    effect: bad.length+" of "+BE.campaigns.length+" campaigns over "+money(BE.assumptions.min_ad_spend)+" spend are flagged Pause: "+
+            measured+" measured against their product's break-even ROAS, "+(bad.length-measured)+" below 1.0x where no break-even row exists yet"+
+            (tgt? ", and "+tgt+" carrying a target below break-even.": ".")+
+            " Total CM3 after ads this window: "+money(BE.summary.cm3_after_ads_total)+".",
+    action: "Work the Pause rows in the Break-even check panel below: Kurt pauses the campaign or raises its return target to at least break-even, and notes which."
+  });
+  return items;
+}
+
+// Weekly CM3 by product: units x the P&L's per-order margin, with ad spend charged against the
+// ad-driven orders. Rendered for the products that have a complete P&L row.
+function breakEvenPanel(){
+  const a = BE.assumptions||{}, s = BE.summary||{};
+  let h = '<div class="panel be-panel">'+
+    '<div class="pt">Break-even check · last 7 days'+(BE.window?' <span class="range">'+esc(BE.window)+'</span>':"")+'</div>'+
+    '<div class="ps">Every campaign that spent '+money(a.min_ad_spend)+'+ is judged against its product\'s true break-even ROAS '+
+      '(price less product cost, fulfillment, fees and commission, from the P&amp;L "Break-even by Product" tab), not against its own ROI target. '+
+      'Keep is at or above break-even, Watch is within '+Number(a.watch_band_pct||15)+'% below, Pause is further below. '+
+      '<b>Pause means someone acts</b> (Kurt pauses the campaign or raises its return target to at least break-even, and notes which).</div>';
+
+  h += '<table class="betable"><thead><tr><th>Campaign</th><th>Product</th><th>Spend 7d</th><th>Revenue</th>'+
+       '<th>ROAS</th><th>Break-even</th><th>ROI target</th><th>CM3 after ads</th><th>Flag</th><th>Action</th></tr></thead><tbody>';
+  BE.campaigns.forEach(c=>{
+    h += '<tr>'+
+      '<td style="text-align:left"><span class="cname">'+esc(c.campaign)+'</span>'+
+        (c.status==="DISABLE"?'<br><span class="chandle">campaign status DISABLE</span>':"")+'</td>'+
+      '<td style="text-align:left">'+(c.matched? esc(c.product||"") : '<span class="muted">unmatched</span>')+'</td>'+
+      '<td class="money">'+money(c.spend)+'</td><td class="money">'+money(c.revenue)+'</td>'+
+      '<td class="money">'+(c.roi==null?"n/a":Number(c.roi).toFixed(2)+"x")+'</td>'+
+      '<td class="money">'+(c.be_roas==null?'<span class="muted">no row</span>':Number(c.be_roas).toFixed(1)+"x")+'</td>'+
+      '<td class="money">'+(c.roas_target==null?"-":Number(c.roas_target).toFixed(1)+"x")+
+        (c.target_is_below_break_even?' <span class="warn">below BE</span>':"")+'</td>'+
+      '<td class="money '+(c.cm3_after_ads!=null&&c.cm3_after_ads<0?"bad":"")+'">'+(c.cm3_after_ads==null?"n/a":money(c.cm3_after_ads))+'</td>'+
+      '<td>'+flagChip(c.flag)+'</td>'+
+      '<td style="text-align:left" class="muted">'+esc(c.action||"")+'</td>'+
+    '</tr>';
+  });
+  h += '</tbody></table>';
+
+  // Weekly CM3 by product
+  const pr = (BE.products||[]).filter(p=>!p.input_needed);
+  if(pr.length){
+    h += '<div class="head" style="margin:16px 0 6px"><h2 style="font-size:14px">CM3 by product · last 7 days</h2>'+
+         '<span class="range">P&amp;L per-order margin applied to the week\'s units, ad spend charged against ad-driven orders</span></div>'+
+      '<table class="betable"><thead><tr><th>Product</th><th>Units</th><th>GMV</th><th>Ad spend</th>'+
+      '<th>Ad-driven margin</th><th>Break-even ROAS</th><th>CM3</th><th>CM3 / unit</th><th>Advertise?</th></tr></thead><tbody>';
+    pr.forEach(p=>{
+      const noSales = !p.units;
+      h += '<tr'+(noSales?' class="be-nosales"':'')+'><td style="text-align:left"><span class="cname">'+esc(p.product)+'</span>'+
+        (p.seller_sku?'<br><span class="chandle">'+esc(p.seller_sku)+'</span>':"")+'</td>'+
+        (noSales
+          ? '<td colspan="8" class="muted" style="text-align:left">No sales in this window'+
+            (p.be_roas_ad!=null?' · break-even '+Number(p.be_roas_ad).toFixed(1)+'x, '+(p.margin_ad_pct==null?"":Number(p.margin_ad_pct).toFixed(1)+"% ad margin"):'')+'</td>'
+          : '<td>'+num(p.units)+'</td><td class="money">'+money(p.gmv)+'</td><td class="money">'+money(p.ads_spend)+'</td>'+
+            '<td>'+(p.margin_ad_pct==null?"n/a":Number(p.margin_ad_pct).toFixed(1)+"%")+'</td>'+
+            '<td class="money">'+(p.be_roas_ad==null?"n/a":Number(p.be_roas_ad).toFixed(1)+"x")+'</td>'+
+            '<td class="money '+(p.cm3!=null&&p.cm3<0?"bad":"")+'">'+(p.cm3==null?"n/a":money(p.cm3))+'</td>'+
+            '<td class="money '+(p.cm3_per_unit!=null&&p.cm3_per_unit<0?"bad":"")+'">'+(p.cm3_per_unit==null?"n/a":money(p.cm3_per_unit))+'</td>'+
+            '<td class="muted" style="text-align:left">'+esc(p.advertise||"")+'</td>')+
+        '</tr>';
+    });
+    h += '</tbody></table>';
+  }
+  const gaps = (BE.products||[]).filter(p=>p.input_needed);
+  if(gaps.length){
+    h += '<div class="muted small" style="margin-top:8px">No break-even row yet (missing COGS/MCF in the P&amp;L): '+
+      gaps.map(p=>esc(p.product)).join(" · ")+'</div>';
+  }
+  h += '<div class="muted small" style="margin-top:8px">Break-even source: '+esc(BE.source||"")+
+    (BE.assumptions_generated_on? ' · read '+esc(String(BE.assumptions_generated_on).slice(0,16)) :"")+
+    ' · referral '+Number(a.referral_fee_pct||6)+'%, smart promotion '+Number(a.smart_promo_fee_pct||3)+'%.</div>';
+  h += '</div>';
+  return h;
 }
 
 function kpi(lbl, val, delta, sub, spk){
@@ -763,29 +889,39 @@ function renderAds(){
     $("view-ads").innerHTML='<div class="notice"><span class="title">GMV Max unavailable</span><br>No campaign data was found.</div>'; return;
   }
   const p = GMVMAX.periods[PERIOD]||GMVMAX.periods.week, t = p.totals;
+  // Break-even comes from the P&L per product, not from a flat 1.0x: on this shop true break-even
+  // ROAS is 2.0x to 7.1x depending on the product's margin, so a 1.0x rule flatters every campaign.
+  const beFor = (name)=> (BE&&BE.campaigns)? (BE.campaigns.find(c=>c.campaign===name)||null) : null;
   const roiCls = t.roi==null? "flat" : (t.roi>=1.5?"good":(t.roi>=1?"mid":"bad"));
   const rows = p.campaigns.map(c=>{
-    const rCls = c.roi==null? "" : (c.roi>=c.roas_target||c.roi>=1.5?"":(c.roi>=1?"":"bad"));
+    const be = beFor(c.name);
+    const rCls = (be&&be.be_roas!=null) ? (c.roi>=be.be_roas? "" : (be.flag==="Watch"?"td-mid":"td-bad"))
+      : (c.roi==null? "" : (c.roi>=c.roas_target||c.roi>=1.5?"":(c.roi>=1?"":"td-bad")));
     return '<tr><td style="text-align:left"><span class="cname">'+esc(c.name)+'</span><br><span class="chandle">'+esc(c.start||"")+'</span></td>'+
       '<td class="money">'+money(c.revenue)+'</td><td class="money">'+money(c.spend)+'</td>'+
       '<td class="'+rCls+'">'+(c.roi==null?"n/a":Number(c.roi).toFixed(2)+"x")+'</td>'+
-      '<td>'+num(c.orders)+'</td><td>'+money(c.cost_per_order)+'</td>'+
-      '<td>'+(c.roas_target? Number(c.roas_target).toFixed(2)+"x":"-")+'</td></tr>';
+      '<td>'+num(c.orders)+'</td><td class="money">'+money(c.cost_per_order)+'</td>'+
+      '<td>'+(c.roas_target? Number(c.roas_target).toFixed(2)+"x":"-")+'</td>'+
+      '<td class="money">'+(be&&be.be_roas!=null? Number(be.be_roas).toFixed(1)+"x" : '<span class="muted">below gate</span>')+'</td>'+
+      '<td>'+(be? flagChip(be.flag) : "")+'</td></tr>';
   }).join("");
-  const losing = p.campaigns.filter(c=>c.roi!=null && c.roi<1.0);
+  const losing = p.campaigns.filter(c=>{ const be=beFor(c.name); return be&&be.be_roas!=null&&c.roi!=null&&c.roi<be.be_roas; });
   $("view-ads").innerHTML =
     '<div class="head"><h2>GMV Max campaigns</h2><span class="range">'+p.range+'</span></div>'+
-    (losing.length?'<div class="attention"><div class="at-head"><span class="at-title">Campaigns losing money</span></div>'+
-      losing.slice(0,3).map(c=>'<div class="at-item"><span class="at-metric">'+esc(c.name)+'</span><span class="at-pct bad">'+Number(c.roi).toFixed(2)+'x ROAS</span>'+
-        '<span class="at-effect">Spend '+money(c.spend)+' returning '+money(c.revenue)+'. Below break-even.</span>'+
-        '<span class="at-action">→ Consider pausing or cutting budget to '+money((c.spend*0.5))+'</span></div>').join("")+'</div>':"")+
+    (losing.length?'<div class="attention"><div class="at-head"><span class="at-title">Campaigns below true break-even</span></div>'+
+      losing.slice(0,3).map(c=>{const be=beFor(c.name);
+        return '<div class="at-item"><span class="at-metric">'+esc(c.name)+'</span><span class="at-pct bad">'+Number(c.roi).toFixed(2)+'x ROAS</span>'+
+        '<span class="at-effect">Spend '+money(c.spend)+' returning '+money(c.revenue)+' against a break-even of '+Number(be.be_roas).toFixed(1)+'x'+
+          (be.cm3_after_ads!=null?' · CM3 after ads '+money(be.cm3_after_ads):"")+'.</span>'+
+        '<span class="at-action">→ '+esc(be.action)+'</span></div>';}).join("")+'</div>':"")+
+    (BE?'<div class="muted small" style="margin:-6px 0 10px">Break-even ROAS is per product from the P&amp;L "Break-even by Product" tab and shown for campaigns that cleared the '+money((BE.assumptions||{}).min_ad_spend)+' spend gate; smaller campaigns are not judged.</div>':"")+
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("GMV Max revenue", money(t.revenue))+
       kpi("Ad spend", money(t.spend))+
       kpi("Blended ROAS", t.roi==null?"n/a":Number(t.roi).toFixed(2)+"x", '<span class="delta '+roiCls+'">'+roiCls+'</span>')+
       kpi("Orders", num(t.orders))+'</div>'+
     '<div class="head" style="margin-top:14px"><h2>Campaigns</h2><span class="range">ranked by revenue</span></div>'+
-    '<div class="tablewrap"><table><thead><tr><th>Campaign</th><th>Revenue</th><th>Spend</th><th>ROAS</th><th>Orders</th><th>Cost / order</th><th>ROAS target</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
+    '<div class="tablewrap"><table><thead><tr><th>Campaign</th><th>Revenue</th><th>Spend</th><th>ROAS</th><th>Orders</th><th>Cost / order</th><th>ROAS target</th><th>Break-even</th><th>Flag</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
 }
 
 /* ============================= SAMPLING ============================= */
