@@ -1,5 +1,5 @@
 {
- "generated_on": "2026-10-08T09:27:18Z",
+ "generated_on": "2026-10-08T16:53:07Z",
  "window": "2026-09-28 to 2026-10-04",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
  "assumptions_generated_on": "2026-10-08T09:23:18Z",
@@ -92,6 +92,85 @@
    "product_margin_ad_pct": 17.0
   }
  ],
+ "live_campaigns": [
+  {
+   "campaign": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+   "campaign_id": "1878225250482562",
+   "product": "Repel Automatic Umbrella \u2013 colors",
+   "matched": true,
+   "spend": 542.18,
+   "revenue": 461.78,
+   "orders": 22,
+   "roi": 0.852,
+   "roas_target": 1.0,
+   "be_roas": null,
+   "pause_below_roas": null,
+   "margin_ad_pct": null,
+   "cm3_after_ads": null,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "ROAS is under 1.0x, so the spend exceeds the revenue it returns before any product cost. Pause it now, or raise the target above 1.0x at minimum. P&L row for Repel Automatic Umbrella \u2013 colors has no COGS/MCF yet, so the true break-even cannot be set; fix that row and re-run.",
+   "target_is_below_break_even": null
+  },
+  {
+   "campaign": "Repel GMV MAX 9/29",
+   "campaign_id": "1877681559235809",
+   "product": "Repel Automatic Umbrella \u2013 colors",
+   "matched": true,
+   "spend": 573.54,
+   "revenue": 279.86,
+   "orders": 14,
+   "roi": 0.488,
+   "roas_target": 0.6,
+   "be_roas": null,
+   "pause_below_roas": null,
+   "margin_ad_pct": null,
+   "cm3_after_ads": null,
+   "status": "DISABLE",
+   "flag": "Pause",
+   "action": "ROAS is under 1.0x, so the spend exceeds the revenue it returns before any product cost. Pause it now, or raise the target above 1.0x at minimum. P&L row for Repel Automatic Umbrella \u2013 colors has no COGS/MCF yet, so the true break-even cannot be set; fix that row and re-run.",
+   "target_is_below_break_even": null
+  },
+  {
+   "campaign": "Screen Door",
+   "campaign_id": "1865906453543986",
+   "product": "Screen Door \u2013 Fiberglass",
+   "matched": true,
+   "spend": 963.52,
+   "revenue": 2372.87,
+   "orders": 100,
+   "roi": 2.463,
+   "roas_target": 2.5,
+   "be_roas": 3.7,
+   "pause_below_roas": 3.2,
+   "margin_ad_pct": 26.8,
+   "cm3_after_ads": -327.59,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "It is live on a target of 2.50x, which is below its 3.7x break-even, so it can hit target and still lose money. Raise the return target to at least 3.7x (break-even), or pause and move the budget to a campaign above break-even.",
+   "target_is_below_break_even": true
+  },
+  {
+   "campaign": "Bidet 7/6",
+   "campaign_id": "1869091438759025",
+   "product": "Clear Rear Bidet \u2013 Original White",
+   "matched": true,
+   "spend": 901.31,
+   "revenue": 1496.22,
+   "orders": 38,
+   "roi": 1.66,
+   "roas_target": 2.5,
+   "be_roas": 5.9,
+   "pause_below_roas": 5.0,
+   "margin_ad_pct": 17.0,
+   "cm3_after_ads": -646.95,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "It is live on a target of 2.50x, which is below its 5.9x break-even, so it can hit target and still lose money. Raise the return target to at least 5.9x (break-even), or pause and move the budget to a campaign above break-even.",
+   "target_is_below_break_even": true
+  }
+ ],
+ "live_window": "2026-10-02 to 2026-10-08",
  "products": [
   {
    "product": "Clear Rear Bidet",
@@ -244,7 +323,11 @@
   "cm3_after_ads_total": -1166.88,
   "target_below_break_even": 2,
   "products_missing_inputs": 2,
-  "week_cm3_total": -1096.24
+  "week_cm3_total": -1096.24,
+  "live_campaigns_judged": 4,
+  "live_pause": 4,
+  "live_cm3_after_ads_total": -974.54,
+  "live_spend_total": 2980.55
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }

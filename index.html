@@ -185,6 +185,7 @@
   .be-pause{background:var(--bad-soft);color:var(--bad)}
   .be-none{background:var(--line);color:var(--muted)}
   .warn{color:var(--amber);font-size:11px}
+  .live-badge{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;font-size:10px;font-weight:700;background:var(--accent-soft);color:var(--accent);text-transform:none;letter-spacing:0}
   .td-mid{color:var(--amber);font-weight:700}
   .td-bad{color:var(--bad);font-weight:700}
   .betable td.bad{color:var(--bad);font-weight:600}
@@ -556,47 +557,45 @@ function flagChip(f){ return '<span class="beflag '+beCls(f)+'">'+esc(f)+'</span
 // from the break-even file instead and go at the top; the target-based campaign lines are dropped.
 function breakEvenAttention(){
   if(!BE||!BE.campaigns) return [];
-  const bad = BE.campaigns.filter(c=>c.flag==="Pause"||c.flag==="Watch");
+  // In-progress rows come first: a change made today (a new campaign, a raised target) is what the
+  // recipient is watching for, and the completed week cannot show it.
+  const live = BE.live_campaigns||[];
+  const liveNames = {}; live.forEach(c=>liveNames[c.campaign]=1);
+  const all = live.concat((BE.campaigns||[]).filter(c=>!liveNames[c.campaign]));
+  const bad = all.filter(c=>c.flag==="Pause"||c.flag==="Watch");
   if(!bad.length) return [];
   const tgt = bad.filter(c=>c.target_is_below_break_even).length;
   const measured = bad.filter(c=>c.be_roas!=null).length;
-  const items = bad.map(c=>({
+  const items = bad.slice(0,4).map(c=>({
     metric: c.campaign+" · ROAS "+Number(c.roi).toFixed(2)+"x vs break-even "+(c.be_roas!=null?Number(c.be_roas).toFixed(1)+"x":"n/a"),
     current: c.roi, prior: c.be_roas,
     pct: (c.roi!=null&&c.be_roas)? ((c.roi-c.be_roas)/c.be_roas*100) : null,
     direction: "down",
     effect: (c.cm3_after_ads!=null? "CM3 after ads "+money(c.cm3_after_ads)+" on "+money(c.spend)+" of spend this window."
-              : "No break-even row for this campaign's product.")+
+              : "No break-even measurement yet: "+money(c.spend)+" of spend, "+money(c.revenue)+" back.")+
             (c.target_is_below_break_even? " Its ROI target ("+Number(c.roas_target).toFixed(2)+"x) is set below break-even."
              : (c.roas_target? " Target "+Number(c.roas_target).toFixed(2)+"x." :"")),
     action: c.action
   }));
+  const lsum = BE.summary||{};
   items.unshift({
-    metric: "Ads vs true break-even", current: bad.length, prior: BE.campaigns.length,
-    pct: null, direction: "down",
-    effect: bad.length+" of "+BE.campaigns.length+" campaigns over "+money(BE.assumptions.min_ad_spend)+" spend are flagged Pause: "+
-            measured+" measured against their product's break-even ROAS, "+(bad.length-measured)+" below 1.0x where no break-even row exists yet"+
+    metric: "Ads vs true break-even", current: bad.length, prior: all.length, pct: null, direction: "down",
+    effect: bad.length+" of "+all.length+" campaigns over "+money(BE.assumptions.min_ad_spend)+" spend are flagged Pause, "+
+            measured+" measured against a break-even ROAS, "+(bad.length-measured)+" below 1.0x"+
             (tgt? ", and "+tgt+" carrying a target below break-even.": ".")+
-            " Total CM3 after ads this window: "+money(BE.summary.cm3_after_ads_total)+".",
+            " Completed week CM3 after ads "+money(lsum.cm3_after_ads_total)+
+            (BE.live_window? "; in progress ("+esc(BE.live_window)+") "+money(lsum.live_cm3_after_ads_total)+" on "+money(lsum.live_spend_total)+" of spend.": "."),
     action: "Work the Pause rows in the Break-even check panel below: Kurt pauses the campaign or raises its return target to at least break-even, and notes which."
   });
   return items;
 }
 
-// Weekly CM3 by product: units x the P&L's per-order margin, with ad spend charged against the
-// ad-driven orders. Rendered for the products that have a complete P&L row.
-function breakEvenPanel(){
-  const a = BE.assumptions||{}, s = BE.summary||{};
-  let h = '<div class="panel be-panel">'+
-    '<div class="pt">Break-even check · last 7 days'+(BE.window?' <span class="range">'+esc(BE.window)+'</span>':"")+'</div>'+
-    '<div class="ps">Every campaign that spent '+money(a.min_ad_spend)+'+ is judged against its product\'s true break-even ROAS '+
-      '(price less product cost, fulfillment, fees and commission, from the P&amp;L "Break-even by Product" tab), not against its own ROI target. '+
-      'Keep is at or above break-even, Watch is within '+Number(a.watch_band_pct||15)+'% below, Pause is further below. '+
-      '<b>Pause means someone acts</b> (Kurt pauses the campaign or raises its return target to at least break-even, and notes which).</div>';
-
-  h += '<table class="betable"><thead><tr><th>Campaign</th><th>Product</th><th>Spend 7d</th><th>Revenue</th>'+
+// One campaign table, rendered for any window, so the completed week and the in-progress window cannot
+// drift apart in shape or in wording.
+function beCampaignTable(rows, live){
+  let h = '<table class="betable"><thead><tr><th>Campaign</th><th>Product</th><th>Spend</th><th>Revenue</th>'+
        '<th>ROAS</th><th>Break-even</th><th>ROI target</th><th>CM3 after ads</th><th>Flag</th><th>Action</th></tr></thead><tbody>';
-  BE.campaigns.forEach(c=>{
+  rows.forEach(c=>{
     h += '<tr>'+
       '<td style="text-align:left"><span class="cname">'+esc(c.campaign)+'</span>'+
         (c.status==="DISABLE"?'<br><span class="chandle">campaign status DISABLE</span>':"")+'</td>'+
@@ -611,9 +610,33 @@ function breakEvenPanel(){
       '<td style="text-align:left" class="muted">'+esc(c.action||"")+'</td>'+
     '</tr>';
   });
-  h += '</tbody></table>';
+  return h+'</tbody></table>';
+}
 
-  // Weekly CM3 by product
+// Weekly CM3 by product family, with ad spend charged against the ad-driven orders. Rendered for the
+// products that have a complete P&L row; the ones missing cost data are listed underneath so the gap
+// is visible rather than silent.
+function breakEvenPanel(){
+  const a = BE.assumptions||{}, s = BE.summary||{};
+  let h = '<div class="panel be-panel">'+
+    '<div class="pt">Break-even check'+(BE.window?' <span class="range">'+esc(BE.window)+'</span>':"")+'</div>'+
+    '<div class="ps">Every campaign that spent '+money(a.min_ad_spend)+'+ is judged against its product\'s true break-even ROAS '+
+      '(price less product cost, fulfillment, fees and commission, from the P&amp;L "Break-even by Product" tab), not against its own ROI target. '+
+      'Keep is at or above break-even, Watch is within '+Number(a.watch_band_pct||15)+'% below, Pause is further below. '+
+      '<b>Pause means someone acts</b> (Kurt pauses the campaign or raises its return target to at least break-even, and notes which).</div>';
+
+  // In-progress window first. A campaign launched or changed since the last completed Sunday exists
+  // only here: the validated ranges all end on that Sunday, so anything new reads as zero spend there.
+  if(BE.live_campaigns && BE.live_campaigns.length){
+    h += '<div class="head" style="margin:10px 0 2px"><h2 style="font-size:14px">In progress · '+
+         esc(BE.live_window||"")+' <span class="live-badge">not yet validated</span></h2>'+
+         '<span class="range">trailing 7 days including today, so changes made this week show up</span></div>'+
+      beCampaignTable(BE.live_campaigns, true);
+  }
+  h += '<div class="head" style="margin:16px 0 2px"><h2 style="font-size:14px">Last completed week · '+
+       esc(BE.window||"")+'</h2></div>';
+  h += beCampaignTable(BE.campaigns||[]);
+
   const pr = (BE.products||[]).filter(p=>!p.input_needed);
   if(pr.length){
     h += '<div class="head" style="margin:16px 0 6px"><h2 style="font-size:14px">CM3 by product · last 7 days</h2>'+
@@ -906,8 +929,19 @@ function renderAds(){
       '<td>'+(be? flagChip(be.flag) : "")+'</td></tr>';
   }).join("");
   const losing = p.campaigns.filter(c=>{ const be=beFor(c.name); return be&&be.be_roas!=null&&c.roi!=null&&c.roi<be.be_roas; });
+  // Everything on this tab ends at the last completed Sunday, so a campaign launched since then reads
+  // as zero spend. The in-progress strip names those campaigns and their live numbers (2026-10-08: the
+  // Repel blitz, launched Oct 5, was invisible here and that is exactly what the requester was watching).
+  const liveRows = ((BE&&BE.live_campaigns)||[]).filter(c=>(c.spend||0)>0);
+  const liveStrip = liveRows.length
+    ? '<div class="panel" style="padding:10px 14px;margin:-4px 0 12px"><div class="ps" style="margin:0">In progress ('+esc((BE&&BE.live_window)||"")+'), trailing 7 days including today: '+
+      liveRows.map(c=>'<b>'+esc(c.campaign)+'</b> '+money(c.spend)+' spend at '+Number(c.roi).toFixed(2)+'x'+
+        (c.be_roas!=null? ' against a break-even of '+Number(c.be_roas).toFixed(1)+'x':'')+' ('+esc(c.flag)+')').join(" &middot; ")+
+      '. The ranges above end at the last completed Sunday, so work started this week shows as zero there.</div></div>'
+    : "";
   $("view-ads").innerHTML =
     '<div class="head"><h2>GMV Max campaigns</h2><span class="range">'+p.range+'</span></div>'+
+    liveStrip+
     (losing.length?'<div class="attention"><div class="at-head"><span class="at-title">Campaigns below true break-even</span></div>'+
       losing.slice(0,3).map(c=>{const be=beFor(c.name);
         return '<div class="at-item"><span class="at-metric">'+esc(c.name)+'</span><span class="at-pct bad">'+Number(c.roi).toFixed(2)+'x ROAS</span>'+
