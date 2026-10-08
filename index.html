@@ -308,6 +308,9 @@ let REPORT=null, PROD_CURRENT=null, PROD_DAILY=null, BRIEF=null, FIN=null,
 const money = (v)=> (v==null?"n/a":"$"+Number(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}));
 const num = (v)=> (v==null?"n/a":Number(v).toLocaleString("en-US"));
 const esc = (s)=> String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+// Product names in this shop are full Amazon-style titles (Screen Door is 200+ characters), which blow
+// the campaign table apart. Truncate for display and keep the full string in the title attribute.
+const shorten = (s,n)=> { s=String(s??""); return s.length>n? s.slice(0,n-1)+"\u2026" : s; };
 const pct = (v)=> (v==null?"n/a":(v>0?"+":"")+Number(v).toFixed(1)+"%");
 const parseDelta = (s)=>{ const m = /([+-]?\d+(?:\.\d+)?)%/.exec(s||""); return m? parseFloat(m[1]) : null; };
 const rangeLabel = (k)=>{ const r=(REPORT&&REPORT.ranges||[]).find(x=>x.key===k); return r? r.label : k; };
@@ -599,10 +602,12 @@ function beCampaignTable(rows, live){
     h += '<tr>'+
       '<td style="text-align:left"><span class="cname">'+esc(c.campaign)+'</span>'+
         (c.status==="DISABLE"?'<br><span class="chandle">campaign status DISABLE</span>':"")+'</td>'+
-      '<td style="text-align:left">'+(c.matched? esc(c.product||"") : '<span class="muted">unmatched</span>')+'</td>'+
+      '<td style="text-align:left">'+(c.matched? '<span title="'+esc(c.product||"")+'">'+esc(shorten(c.product||"", 46))+'</span>' : '<span class="muted">unmatched</span>')+'</td>'+
       '<td class="money">'+money(c.spend)+'</td><td class="money">'+money(c.revenue)+'</td>'+
       '<td class="money">'+(c.roi==null?"n/a":Number(c.roi).toFixed(2)+"x")+'</td>'+
-      '<td class="money">'+(c.be_roas==null?'<span class="muted">no row</span>':Number(c.be_roas).toFixed(1)+"x")+'</td>'+
+      '<td class="money">'+(c.be_roas==null?'<span class="muted">no row</span>':Number(c.be_roas).toFixed(1)+"x")+
+        (c.sku_coverage? '<br><span class="chandle" title="'+esc(c.be_basis||"")+'">'+c.sku_coverage.skus_mapped+'/'+c.sku_coverage.skus_total+' SKUs'+
+          (c.sku_coverage.pct_units_covered!=null? ' · '+Number(c.sku_coverage.pct_units_covered).toFixed(0)+'% of units':'')+'</span>':"")+'</td>'+
       '<td class="money">'+(c.roas_target==null?"-":Number(c.roas_target).toFixed(1)+"x")+
         (c.target_is_below_break_even?' <span class="warn">below BE</span>':"")+'</td>'+
       '<td class="money '+(c.cm3_after_ads!=null&&c.cm3_after_ads<0?"bad":"")+'">'+(c.cm3_after_ads==null?"n/a":money(c.cm3_after_ads))+'</td>'+
@@ -642,7 +647,7 @@ function breakEvenPanel(){
     h += '<div class="head" style="margin:16px 0 6px"><h2 style="font-size:14px">CM3 by product · last 7 days</h2>'+
          '<span class="range">P&amp;L per-order margin applied to the week\'s units, ad spend charged against ad-driven orders</span></div>'+
       '<table class="betable"><thead><tr><th>Product</th><th>Units</th><th>GMV</th><th>Ad spend</th>'+
-      '<th>Ad-driven margin</th><th>Break-even ROAS</th><th>CM3</th><th>CM3 / unit</th><th>Advertise?</th></tr></thead><tbody>';
+      '<th>Ad-driven margin</th><th>Break-even ROAS <span class="muted">(P&amp;L row)</span></th><th>CM3</th><th>CM3 / unit</th><th>Advertise?</th></tr></thead><tbody>';
     pr.forEach(p=>{
       const noSales = !p.units;
       h += '<tr'+(noSales?' class="be-nosales"':'')+'><td style="text-align:left"><span class="cname">'+esc(p.product)+'</span>'+
@@ -664,6 +669,39 @@ function breakEvenPanel(){
   if(gaps.length){
     h += '<div class="muted small" style="margin-top:8px">No break-even row yet (missing COGS/MCF in the P&amp;L): '+
       gaps.map(p=>esc(p.product)).join(" · ")+'</div>';
+  }
+
+  // Product mapping (Rebecca, 2026-10-08). GMV Max runs at the product level, so each campaign's spend
+  // lands on EVERY SKU under its product IDs. This shows, per campaign, which of those SKUs can be priced
+  // and which cannot, ordered by the units they sold: an unpriced SKU with 78 units is a live problem,
+  // an unpriced SKU with zero stock is housekeeping.
+  const bt = BE.live_campaigns||[], bw = BE.campaigns||[];
+  const seen = {}; const mapRows = [];
+  bt.concat(bw).forEach(c=>{
+    const k = c.campaign_id||c.campaign;
+    if(seen[k]) return; seen[k]=1;
+    const sc = c.sku_coverage; if(!sc && !(c.unmapped_skus||[]).length) return;
+    mapRows.push(c);
+  });
+  if(mapRows.length){
+    h += '<div class="head" style="margin:18px 0 6px"><h2 style="font-size:14px">Product mapping · campaign &#8594; product &#8594; SKUs</h2>'+
+         '<span class="range">a campaign\u2019s product ID covers every variant under it, so its break-even is the SKUs\u2019, weighted by the units that sold</span></div>';
+    h += '<table class="betable"><thead><tr><th>Campaign</th><th>Product</th><th>SKUs priced</th><th>Units covered</th>'+
+         '<th>Blended break-even</th><th>SKUs with no break-even row (by units)</th></tr></thead><tbody>';
+    mapRows.forEach(c=>{
+      const sc = c.sku_coverage||{};
+      const un = (c.unmapped_skus||[]).slice().sort((x,y)=>(y.units||0)-(x.units||0));
+      const top = un.filter(x=>x.units>0).slice(0,4);
+      const rest = un.length - top.length;
+      h += '<tr><td style="text-align:left"><span class="cname">'+esc(c.campaign)+'</span><br><span class="chandle">'+esc(c.campaign_id||"")+'</span></td>'+
+        '<td style="text-align:left">'+((c.product_ids||[]).length? '<span class="chandle">'+esc((c.product_ids||[]).join(", "))+'</span>':"")+'</td>'+
+        '<td>'+(sc.skus_mapped!=null? sc.skus_mapped+' / '+sc.skus_total : "-")+'</td>'+
+        '<td>'+(sc.pct_units_covered!=null? Number(sc.pct_units_covered).toFixed(0)+'% ('+num(sc.units_covered)+' of '+num(sc.units_total)+')' : "-")+'</td>'+
+        '<td class="money">'+(c.be_roas!=null? Number(c.be_roas).toFixed(1)+"x" : '<span class="muted">not measurable</span>')+'<br><span class="chandle">'+esc(c.be_basis||"")+'</span></td>'+
+        '<td style="text-align:left">'+(top.length? top.map(x=>esc(String(x.name||x.sku_id).slice(0,34))+' <span class="muted">('+num(x.units)+'u, '+money(x.price)+')</span>').join('<br>') : '<span class="muted">none</span>')+
+          (rest>0? '<br><span class="muted">+'+rest+' more with no units</span>':"")+'</td></tr>';
+    });
+    h += '</tbody></table>';
   }
   h += '<div class="muted small" style="margin-top:8px">Break-even source: '+esc(BE.source||"")+
     (BE.assumptions_generated_on? ' · read '+esc(String(BE.assumptions_generated_on).slice(0,16)) :"")+
