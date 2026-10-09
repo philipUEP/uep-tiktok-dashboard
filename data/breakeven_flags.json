@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-10-08T17:26:34Z",
+ "generated_on": "2026-10-09T07:01:09Z",
  "window": "2026-09-28 to 2026-10-04",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-10-08T09:23:18Z",
+ "assumptions_generated_on": "2026-10-09T07:01:07Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -64,6 +64,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707643491651803",
+     "name": null,
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732530572481433819",
      "name": "Lavendar",
      "units": 0,
@@ -113,17 +120,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146755803",
-     "name": "Black 3pack",
-     "units": 0,
-     "price": 61.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732707643491586267",
      "name": "Pastel Lavendar",
      "units": 5,
      "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146755803",
+     "name": "Black 3pack",
+     "units": 0,
+     "price": 61.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -180,13 +187,6 @@
      "name": "Gray",
      "units": 2,
      "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491651803",
-     "name": null,
-     "units": 0,
-     "price": null,
      "why": "no cost row in the cost model"
     }
    ],
@@ -483,7 +483,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 57,
+    "units_total": 53,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -491,14 +491,14 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 13,
+     "units": 10,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146428123",
      "name": "Clear",
-     "units": 6,
+     "units": 7,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -524,6 +524,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707643491651803",
+     "name": null,
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732530572481433819",
      "name": "Lavendar",
      "units": 0,
@@ -540,14 +547,14 @@
     {
      "sku_id": "1732707643491455195",
      "name": "Pastel pink",
-     "units": 6,
+     "units": 5,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707643491520731",
      "name": "Pastel Mint",
-     "units": 3,
+     "units": 2,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -573,6 +580,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 5,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146755803",
      "name": "Black 3pack",
      "units": 0,
@@ -580,16 +594,9 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 7,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146690267",
      "name": "Black 2pack",
-     "units": 1,
+     "units": 2,
      "price": 39.99,
      "why": "no cost row in the cost model"
     },
@@ -610,7 +617,7 @@
     {
      "sku_id": "1732694432146821339",
      "name": "Black Premium",
-     "units": 0,
+     "units": 1,
      "price": 35.99,
      "why": "no cost row in the cost model"
     },
@@ -641,20 +648,13 @@
      "units": 1,
      "price": 31.99,
      "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491651803",
-     "name": null,
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
     }
    ],
-   "spend": 542.18,
-   "revenue": 461.78,
-   "orders": 22,
-   "roi": 0.852,
-   "roas_target": 1.0,
+   "spend": 656.41,
+   "revenue": 643.69,
+   "orders": 31,
+   "roi": 0.981,
+   "roas_target": 1.2,
    "be_roas": null,
    "pause_below_roas": null,
    "margin_ad_pct": null,
@@ -676,7 +676,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 57,
+    "units_total": 53,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -684,14 +684,14 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 13,
+     "units": 10,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146428123",
      "name": "Clear",
-     "units": 6,
+     "units": 7,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -717,6 +717,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707643491651803",
+     "name": null,
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732530572481433819",
      "name": "Lavendar",
      "units": 0,
@@ -733,14 +740,14 @@
     {
      "sku_id": "1732707643491455195",
      "name": "Pastel pink",
-     "units": 6,
+     "units": 5,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707643491520731",
      "name": "Pastel Mint",
-     "units": 3,
+     "units": 2,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -766,6 +773,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 5,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146755803",
      "name": "Black 3pack",
      "units": 0,
@@ -773,16 +787,9 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 7,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146690267",
      "name": "Black 2pack",
-     "units": 1,
+     "units": 2,
      "price": 39.99,
      "why": "no cost row in the cost model"
     },
@@ -803,7 +810,7 @@
     {
      "sku_id": "1732694432146821339",
      "name": "Black Premium",
-     "units": 0,
+     "units": 1,
      "price": 35.99,
      "why": "no cost row in the cost model"
     },
@@ -834,19 +841,12 @@
      "units": 1,
      "price": 31.99,
      "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491651803",
-     "name": null,
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
     }
    ],
-   "spend": 573.54,
-   "revenue": 279.86,
-   "orders": 14,
-   "roi": 0.488,
+   "spend": 502.29,
+   "revenue": 259.87,
+   "orders": 13,
+   "roi": 0.517,
    "roas_target": 0.6,
    "be_roas": null,
    "pause_below_roas": null,
@@ -869,7 +869,7 @@
    "sku_coverage": {
     "skus_total": 7,
     "skus_mapped": 1,
-    "units_total": 114,
+    "units_total": 109,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -877,7 +877,7 @@
     {
      "sku_id": "1732283771626688731",
      "name": "Default,Heavy Duty Fiberglass (New)",
-     "units": 29,
+     "units": 27,
      "price": 21.99,
      "why": "no cost row in the cost model"
     },
@@ -891,7 +891,7 @@
     {
      "sku_id": "1732384554433482971",
      "name": "Default,Thermal",
-     "units": 7,
+     "units": 4,
      "price": 27.99,
      "why": "no cost row in the cost model"
     },
@@ -917,15 +917,15 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 963.52,
-   "revenue": 2372.87,
-   "orders": 100,
-   "roi": 2.463,
+   "spend": 937.56,
+   "revenue": 2348.87,
+   "orders": 99,
+   "roi": 2.505,
    "roas_target": 2.5,
    "be_roas": 4.0,
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
-   "cm3_after_ads": -327.59,
+   "cm3_after_ads": -308.06,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 2.50x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
@@ -943,35 +943,35 @@
    "sku_coverage": {
     "skus_total": 4,
     "skus_mapped": 3,
-    "units_total": 142,
-    "units_covered": 137,
-    "pct_units_covered": 96.5
+    "units_total": 137,
+    "units_covered": 131,
+    "pct_units_covered": 95.6
    },
    "unmapped_skus": [
     {
      "sku_id": "1732447698187423963",
      "name": "Original Black 2 Pack",
-     "units": 5,
+     "units": 6,
      "price": 55.99,
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 901.31,
-   "revenue": 1496.22,
-   "orders": 38,
-   "roi": 1.66,
+   "spend": 814.97,
+   "revenue": 1328.27,
+   "orders": 33,
+   "roi": 1.63,
    "roas_target": 2.5,
    "be_roas": 8.03,
    "pause_below_roas": 5.0,
    "margin_ad_pct": 12.7,
-   "cm3_after_ads": -711.29,
+   "cm3_after_ads": -646.28,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 2.50x, which is below its 8.0x break-even, so it can hit target and still lose money. Raise the return target to at least 8.0x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-10-02 to 2026-10-08",
+ "live_window": "2026-10-03 to 2026-10-09",
  "products": [
   {
    "product": "Clear Rear Bidet",
@@ -1127,8 +1127,8 @@
   "week_cm3_total": -1096.24,
   "live_campaigns_judged": 4,
   "live_pause": 4,
-  "live_cm3_after_ads_total": -1038.88,
-  "live_spend_total": 2980.55
+  "live_cm3_after_ads_total": -954.34,
+  "live_spend_total": 2911.23
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }

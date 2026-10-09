@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-08"
+    "pulled_on": "2026-10-09"
   },
   "periods": {
     "week": {
@@ -23,7 +23,11 @@
           "cost_per_order": 10.01,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-05-22"
+          "start": "2026-05-22",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Bidet 7/6",
@@ -35,7 +39,11 @@
           "cost_per_order": 21.07,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-06-26"
+          "start": "2026-06-26",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Repel GMV MAX 9/29",
@@ -47,7 +55,11 @@
           "cost_per_order": 44.08,
           "roas_target": 0.6,
           "status": "DISABLE",
-          "start": "2026-09-29"
+          "start": "2026-09-29",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "Shop Wide",
@@ -59,7 +71,15 @@
           "cost_per_order": 43.4,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-13"
+          "start": "2026-07-13",
+          "product_ids": [
+            "1730105130585657563",
+            "1729388554561294555",
+            "1729388475149750491",
+            "1730129570622640347",
+            "1730273357213896923"
+          ],
+          "budget": 700.0
         },
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
@@ -71,7 +91,17 @@
           "cost_per_order": 64.01,
           "roas_target": 5.4,
           "status": "DISABLE",
-          "start": "2026-08-21"
+          "start": "2026-08-21",
+          "product_ids": [
+            "1729391868219986139",
+            "1730130752085856475",
+            "1732530411400171739",
+            "1729385798535319771",
+            "1732530504119718107",
+            "1729385798632640731",
+            "1729385798566514907"
+          ],
+          "budget": 200.0
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -83,7 +113,13 @@
           "cost_per_order": 0,
           "roas_target": 6.0,
           "status": "DISABLE",
-          "start": "2024-04-15"
+          "start": "2024-04-15",
+          "product_ids": [
+            "1729385810603249883",
+            "1729385798535319771",
+            "1729385718293303515"
+          ],
+          "budget": 350.0
         },
         {
           "name": "GMV - SOAP DISPENSER/ COOLING BLANKET/ OIL DIFFUSER - RANKSTER",
@@ -95,7 +131,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729385810512941275",
+            "1729388475149750491",
+            "1729391864973463771"
+          ],
+          "budget": 400.0
         },
         {
           "name": "GMV - SCREEN DOOR - RANKSTER",
@@ -107,7 +149,11 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Product GMV Max_Gross revenue_Everlasting Comfort_20250225095858",
@@ -119,7 +165,9 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-02-25"
+          "start": "2025-02-25",
+          "product_ids": [],
+          "budget": 50.0
         },
         {
           "name": "GMV - Soap dispenser ",
@@ -131,7 +179,11 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 150.0
         },
         {
           "name": "GMV - All products",
@@ -143,7 +195,60 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810603249883",
+            "1729388475149750491",
+            "1729385798535319771",
+            "1729385718293303515",
+            "1729391863680307419",
+            "1729385810739499227",
+            "1729391864973463771",
+            "1729391862019821787",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729387976535412955",
+            "1729385884864975067",
+            "1729394250782118107",
+            "1729391862339113179",
+            "1729391860653920475",
+            "1729385798632640731",
+            "1729385872001831131",
+            "1729385810128507099",
+            "1729387967841997019",
+            "1729387931860635867",
+            "1729391868219986139",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729388510632448219",
+            "1730273357213896923",
+            "1729954162227777755",
+            "1729746413090279643",
+            "1730130752085856475",
+            "1730129060140454107",
+            "1729449384565117147",
+            "1729388511036477659",
+            "1729385822727409883",
+            "1729385809950380251",
+            "1730151035281707227",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730129811577671899",
+            "1729664580475916507",
+            "1729387938703773915",
+            "1730284425313423579",
+            "1730140656666317019",
+            "1730130928473313499",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730129398592344283",
+            "1730105130585657563",
+            "1730013557566443739",
+            "1729441013780025563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Soap Dispenser GMV",
@@ -155,7 +260,11 @@
           "cost_per_order": 0,
           "roas_target": 1.5,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 700.0
         },
         {
           "name": "Everlast GMV",
@@ -167,7 +276,28 @@
           "cost_per_order": 0,
           "roas_target": 1.8,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810603249883",
+            "1729391863680307419",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729394250782118107",
+            "1729391860653920475",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729391868219986139",
+            "1730130752085856475",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730284425313423579",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "SC GMV",
@@ -179,7 +309,11 @@
           "cost_per_order": 0,
           "roas_target": 1.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "Cooler Backpack GMV",
@@ -191,7 +325,12 @@
           "cost_per_order": 0,
           "roas_target": 1.3,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729385718293303515",
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Cooler Backpack Chair GMV",
@@ -203,7 +342,11 @@
           "cost_per_order": 0,
           "roas_target": 1.7,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "GMV ALL - SD Focused ",
@@ -215,7 +358,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729391862339113179",
+            "1730140656666317019"
+          ],
+          "budget": 800.0
         },
         {
           "name": "SGNL - Knee Pillow - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -227,7 +375,11 @@
           "cost_per_order": 0,
           "roas_target": 0.9,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1729391868219986139"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Humidifier 2.5 L",
@@ -239,7 +391,11 @@
           "cost_per_order": 0,
           "roas_target": 2.4,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730105130585657563"
+          ],
+          "budget": 600.0
         },
         {
           "name": "SGNL - Humidifiers 6L - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -251,7 +407,11 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Coffee Maker",
@@ -263,7 +423,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-18"
+          "start": "2025-09-18",
+          "product_ids": [
+            "1729746413090279643",
+            "1729387931860635867"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Temporary - SGNL - 6L Humidifier",
@@ -275,7 +440,11 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Humidifier - Mix",
@@ -287,7 +456,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730013557566443739",
+            "1730129608917422299",
+            "1729391860653920475"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary - SGNL - Knee Pillow",
@@ -299,7 +474,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729385798566514907",
+            "1729391868219986139"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Support Pillow",
@@ -311,7 +491,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730130752085856475",
+            "1730130848266359003"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary SGNL - Seat Cushions",
@@ -323,7 +508,15 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729394250782118107",
+            "1730130868699435227",
+            "1729388511036477659",
+            "1730130607268729051",
+            "1730130958582190299"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "[Auto created] Black Friday Promotion_20251107044411",
@@ -335,7 +528,12 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-11-13"
+          "start": "2025-11-13",
+          "product_ids": [
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 400.0
         },
         {
           "name": "Clear rear bidet test campaign",
@@ -347,7 +545,11 @@
           "cost_per_order": 0,
           "roas_target": 15.0,
           "status": "DISABLE",
-          "start": "2026-02-09"
+          "start": "2026-02-09",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 50.0
         },
         {
           "name": "Beach Blanket Test Campaign",
@@ -359,7 +561,11 @@
           "cost_per_order": 0,
           "roas_target": 12.0,
           "status": "DISABLE",
-          "start": "2026-03-19"
+          "start": "2026-03-19",
+          "product_ids": [
+            "1729388554561294555"
+          ],
+          "budget": 20.0
         },
         {
           "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
@@ -371,7 +577,12 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-23"
+          "start": "2026-07-23",
+          "product_ids": [
+            "1730130848266359003",
+            "1729391862019821787"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
@@ -381,9 +592,13 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 1.2,
           "status": "ENABLE",
-          "start": "2026-10-05"
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
@@ -406,7 +621,11 @@
           "cost_per_order": 10.34,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-05-22"
+          "start": "2026-05-22",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Bidet 7/6",
@@ -418,7 +637,11 @@
           "cost_per_order": 22.4,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-06-26"
+          "start": "2026-06-26",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Shop Wide",
@@ -430,7 +653,15 @@
           "cost_per_order": 30.9,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-13"
+          "start": "2026-07-13",
+          "product_ids": [
+            "1730105130585657563",
+            "1729388554561294555",
+            "1729388475149750491",
+            "1730129570622640347",
+            "1730273357213896923"
+          ],
+          "budget": 700.0
         },
         {
           "name": "Repel GMV MAX 9/29",
@@ -442,7 +673,11 @@
           "cost_per_order": 44.08,
           "roas_target": 0.6,
           "status": "DISABLE",
-          "start": "2026-09-29"
+          "start": "2026-09-29",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
@@ -454,7 +689,17 @@
           "cost_per_order": 28.03,
           "roas_target": 5.4,
           "status": "DISABLE",
-          "start": "2026-08-21"
+          "start": "2026-08-21",
+          "product_ids": [
+            "1729391868219986139",
+            "1730130752085856475",
+            "1732530411400171739",
+            "1729385798535319771",
+            "1732530504119718107",
+            "1729385798632640731",
+            "1729385798566514907"
+          ],
+          "budget": 200.0
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -466,7 +711,13 @@
           "cost_per_order": 0,
           "roas_target": 6.0,
           "status": "DISABLE",
-          "start": "2024-04-15"
+          "start": "2024-04-15",
+          "product_ids": [
+            "1729385810603249883",
+            "1729385798535319771",
+            "1729385718293303515"
+          ],
+          "budget": 350.0
         },
         {
           "name": "GMV - SOAP DISPENSER/ COOLING BLANKET/ OIL DIFFUSER - RANKSTER",
@@ -478,7 +729,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729385810512941275",
+            "1729388475149750491",
+            "1729391864973463771"
+          ],
+          "budget": 400.0
         },
         {
           "name": "GMV - SCREEN DOOR - RANKSTER",
@@ -490,7 +747,11 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Product GMV Max_Gross revenue_Everlasting Comfort_20250225095858",
@@ -502,7 +763,9 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-02-25"
+          "start": "2025-02-25",
+          "product_ids": [],
+          "budget": 50.0
         },
         {
           "name": "GMV - Soap dispenser ",
@@ -514,7 +777,11 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 150.0
         },
         {
           "name": "GMV - All products",
@@ -526,7 +793,60 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810603249883",
+            "1729388475149750491",
+            "1729385798535319771",
+            "1729385718293303515",
+            "1729391863680307419",
+            "1729385810739499227",
+            "1729391864973463771",
+            "1729391862019821787",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729387976535412955",
+            "1729385884864975067",
+            "1729394250782118107",
+            "1729391862339113179",
+            "1729391860653920475",
+            "1729385798632640731",
+            "1729385872001831131",
+            "1729385810128507099",
+            "1729387967841997019",
+            "1729387931860635867",
+            "1729391868219986139",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729388510632448219",
+            "1730273357213896923",
+            "1729954162227777755",
+            "1729746413090279643",
+            "1730130752085856475",
+            "1730129060140454107",
+            "1729449384565117147",
+            "1729388511036477659",
+            "1729385822727409883",
+            "1729385809950380251",
+            "1730151035281707227",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730129811577671899",
+            "1729664580475916507",
+            "1729387938703773915",
+            "1730284425313423579",
+            "1730140656666317019",
+            "1730130928473313499",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730129398592344283",
+            "1730105130585657563",
+            "1730013557566443739",
+            "1729441013780025563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Soap Dispenser GMV",
@@ -538,7 +858,11 @@
           "cost_per_order": 0,
           "roas_target": 1.5,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 700.0
         },
         {
           "name": "Everlast GMV",
@@ -550,7 +874,28 @@
           "cost_per_order": 0,
           "roas_target": 1.8,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810603249883",
+            "1729391863680307419",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729394250782118107",
+            "1729391860653920475",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729391868219986139",
+            "1730130752085856475",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730284425313423579",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "SC GMV",
@@ -562,7 +907,11 @@
           "cost_per_order": 0,
           "roas_target": 1.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "Cooler Backpack GMV",
@@ -574,7 +923,12 @@
           "cost_per_order": 0,
           "roas_target": 1.3,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729385718293303515",
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Cooler Backpack Chair GMV",
@@ -586,7 +940,11 @@
           "cost_per_order": 0,
           "roas_target": 1.7,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "GMV ALL - SD Focused ",
@@ -598,7 +956,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729391862339113179",
+            "1730140656666317019"
+          ],
+          "budget": 800.0
         },
         {
           "name": "SGNL - Knee Pillow - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -610,7 +973,11 @@
           "cost_per_order": 0,
           "roas_target": 0.9,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1729391868219986139"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Humidifier 2.5 L",
@@ -622,7 +989,11 @@
           "cost_per_order": 0,
           "roas_target": 2.4,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730105130585657563"
+          ],
+          "budget": 600.0
         },
         {
           "name": "SGNL - Humidifiers 6L - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -634,7 +1005,11 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Coffee Maker",
@@ -646,7 +1021,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-18"
+          "start": "2025-09-18",
+          "product_ids": [
+            "1729746413090279643",
+            "1729387931860635867"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Temporary - SGNL - 6L Humidifier",
@@ -658,7 +1038,11 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Humidifier - Mix",
@@ -670,7 +1054,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730013557566443739",
+            "1730129608917422299",
+            "1729391860653920475"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary - SGNL - Knee Pillow",
@@ -682,7 +1072,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729385798566514907",
+            "1729391868219986139"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Support Pillow",
@@ -694,7 +1089,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730130752085856475",
+            "1730130848266359003"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary SGNL - Seat Cushions",
@@ -706,7 +1106,15 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729394250782118107",
+            "1730130868699435227",
+            "1729388511036477659",
+            "1730130607268729051",
+            "1730130958582190299"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "[Auto created] Black Friday Promotion_20251107044411",
@@ -718,7 +1126,12 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-11-13"
+          "start": "2025-11-13",
+          "product_ids": [
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 400.0
         },
         {
           "name": "Clear rear bidet test campaign",
@@ -730,7 +1143,11 @@
           "cost_per_order": 0,
           "roas_target": 15.0,
           "status": "DISABLE",
-          "start": "2026-02-09"
+          "start": "2026-02-09",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 50.0
         },
         {
           "name": "Beach Blanket Test Campaign",
@@ -742,7 +1159,11 @@
           "cost_per_order": 0,
           "roas_target": 12.0,
           "status": "DISABLE",
-          "start": "2026-03-19"
+          "start": "2026-03-19",
+          "product_ids": [
+            "1729388554561294555"
+          ],
+          "budget": 20.0
         },
         {
           "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
@@ -754,7 +1175,12 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-23"
+          "start": "2026-07-23",
+          "product_ids": [
+            "1730130848266359003",
+            "1729391862019821787"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
@@ -764,9 +1190,13 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 1.2,
           "status": "ENABLE",
-          "start": "2026-10-05"
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
@@ -789,7 +1219,11 @@
           "cost_per_order": 10.84,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-05-22"
+          "start": "2026-05-22",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Bidet 7/6",
@@ -801,7 +1235,11 @@
           "cost_per_order": 22.76,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-06-26"
+          "start": "2026-06-26",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Shop Wide",
@@ -813,7 +1251,15 @@
           "cost_per_order": 29.38,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-13"
+          "start": "2026-07-13",
+          "product_ids": [
+            "1730105130585657563",
+            "1729388554561294555",
+            "1729388475149750491",
+            "1730129570622640347",
+            "1730273357213896923"
+          ],
+          "budget": 700.0
         },
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
@@ -825,7 +1271,17 @@
           "cost_per_order": 42.44,
           "roas_target": 5.4,
           "status": "DISABLE",
-          "start": "2026-08-21"
+          "start": "2026-08-21",
+          "product_ids": [
+            "1729391868219986139",
+            "1730130752085856475",
+            "1732530411400171739",
+            "1729385798535319771",
+            "1732530504119718107",
+            "1729385798632640731",
+            "1729385798566514907"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Repel GMV MAX 9/29",
@@ -837,7 +1293,11 @@
           "cost_per_order": 44.08,
           "roas_target": 0.6,
           "status": "DISABLE",
-          "start": "2026-09-29"
+          "start": "2026-09-29",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -849,7 +1309,13 @@
           "cost_per_order": 0,
           "roas_target": 6.0,
           "status": "DISABLE",
-          "start": "2024-04-15"
+          "start": "2024-04-15",
+          "product_ids": [
+            "1729385810603249883",
+            "1729385798535319771",
+            "1729385718293303515"
+          ],
+          "budget": 350.0
         },
         {
           "name": "GMV - SOAP DISPENSER/ COOLING BLANKET/ OIL DIFFUSER - RANKSTER",
@@ -861,7 +1327,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729385810512941275",
+            "1729388475149750491",
+            "1729391864973463771"
+          ],
+          "budget": 400.0
         },
         {
           "name": "GMV - SCREEN DOOR - RANKSTER",
@@ -873,7 +1345,11 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Product GMV Max_Gross revenue_Everlasting Comfort_20250225095858",
@@ -885,7 +1361,9 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-02-25"
+          "start": "2025-02-25",
+          "product_ids": [],
+          "budget": 50.0
         },
         {
           "name": "GMV - Soap dispenser ",
@@ -897,7 +1375,11 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 150.0
         },
         {
           "name": "GMV - All products",
@@ -909,7 +1391,60 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810603249883",
+            "1729388475149750491",
+            "1729385798535319771",
+            "1729385718293303515",
+            "1729391863680307419",
+            "1729385810739499227",
+            "1729391864973463771",
+            "1729391862019821787",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729387976535412955",
+            "1729385884864975067",
+            "1729394250782118107",
+            "1729391862339113179",
+            "1729391860653920475",
+            "1729385798632640731",
+            "1729385872001831131",
+            "1729385810128507099",
+            "1729387967841997019",
+            "1729387931860635867",
+            "1729391868219986139",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729388510632448219",
+            "1730273357213896923",
+            "1729954162227777755",
+            "1729746413090279643",
+            "1730130752085856475",
+            "1730129060140454107",
+            "1729449384565117147",
+            "1729388511036477659",
+            "1729385822727409883",
+            "1729385809950380251",
+            "1730151035281707227",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730129811577671899",
+            "1729664580475916507",
+            "1729387938703773915",
+            "1730284425313423579",
+            "1730140656666317019",
+            "1730130928473313499",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730129398592344283",
+            "1730105130585657563",
+            "1730013557566443739",
+            "1729441013780025563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Soap Dispenser GMV",
@@ -921,7 +1456,11 @@
           "cost_per_order": 0,
           "roas_target": 1.5,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 700.0
         },
         {
           "name": "Everlast GMV",
@@ -933,7 +1472,28 @@
           "cost_per_order": 0,
           "roas_target": 1.8,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810603249883",
+            "1729391863680307419",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729394250782118107",
+            "1729391860653920475",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729391868219986139",
+            "1730130752085856475",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730284425313423579",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "SC GMV",
@@ -945,7 +1505,11 @@
           "cost_per_order": 0,
           "roas_target": 1.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "Cooler Backpack GMV",
@@ -957,7 +1521,12 @@
           "cost_per_order": 0,
           "roas_target": 1.3,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729385718293303515",
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Cooler Backpack Chair GMV",
@@ -969,7 +1538,11 @@
           "cost_per_order": 0,
           "roas_target": 1.7,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "GMV ALL - SD Focused ",
@@ -981,7 +1554,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729391862339113179",
+            "1730140656666317019"
+          ],
+          "budget": 800.0
         },
         {
           "name": "SGNL - Knee Pillow - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -993,7 +1571,11 @@
           "cost_per_order": 0,
           "roas_target": 0.9,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1729391868219986139"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Humidifier 2.5 L",
@@ -1005,7 +1587,11 @@
           "cost_per_order": 0,
           "roas_target": 2.4,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730105130585657563"
+          ],
+          "budget": 600.0
         },
         {
           "name": "SGNL - Humidifiers 6L - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -1017,7 +1603,11 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Coffee Maker",
@@ -1029,7 +1619,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-18"
+          "start": "2025-09-18",
+          "product_ids": [
+            "1729746413090279643",
+            "1729387931860635867"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Temporary - SGNL - 6L Humidifier",
@@ -1041,7 +1636,11 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Humidifier - Mix",
@@ -1053,7 +1652,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730013557566443739",
+            "1730129608917422299",
+            "1729391860653920475"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary - SGNL - Knee Pillow",
@@ -1065,7 +1670,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729385798566514907",
+            "1729391868219986139"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Support Pillow",
@@ -1077,7 +1687,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730130752085856475",
+            "1730130848266359003"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary SGNL - Seat Cushions",
@@ -1089,7 +1704,15 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729394250782118107",
+            "1730130868699435227",
+            "1729388511036477659",
+            "1730130607268729051",
+            "1730130958582190299"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "[Auto created] Black Friday Promotion_20251107044411",
@@ -1101,7 +1724,12 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-11-13"
+          "start": "2025-11-13",
+          "product_ids": [
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 400.0
         },
         {
           "name": "Clear rear bidet test campaign",
@@ -1113,7 +1741,11 @@
           "cost_per_order": 0,
           "roas_target": 15.0,
           "status": "DISABLE",
-          "start": "2026-02-09"
+          "start": "2026-02-09",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 50.0
         },
         {
           "name": "Beach Blanket Test Campaign",
@@ -1125,7 +1757,11 @@
           "cost_per_order": 0,
           "roas_target": 12.0,
           "status": "DISABLE",
-          "start": "2026-03-19"
+          "start": "2026-03-19",
+          "product_ids": [
+            "1729388554561294555"
+          ],
+          "budget": 20.0
         },
         {
           "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
@@ -1137,7 +1773,12 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-23"
+          "start": "2026-07-23",
+          "product_ids": [
+            "1730130848266359003",
+            "1729391862019821787"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
@@ -1147,9 +1788,13 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 1.2,
           "status": "ENABLE",
-          "start": "2026-10-05"
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
@@ -1172,7 +1817,11 @@
           "cost_per_order": 32.42,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-06-26"
+          "start": "2026-06-26",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Screen Door",
@@ -1184,7 +1833,11 @@
           "cost_per_order": 15.97,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-05-22"
+          "start": "2026-05-22",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Shop Wide",
@@ -1196,7 +1849,15 @@
           "cost_per_order": 27.29,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-13"
+          "start": "2026-07-13",
+          "product_ids": [
+            "1730105130585657563",
+            "1729388554561294555",
+            "1729388475149750491",
+            "1730129570622640347",
+            "1730273357213896923"
+          ],
+          "budget": 700.0
         },
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
@@ -1208,7 +1869,17 @@
           "cost_per_order": 31.82,
           "roas_target": 5.4,
           "status": "DISABLE",
-          "start": "2026-08-21"
+          "start": "2026-08-21",
+          "product_ids": [
+            "1729391868219986139",
+            "1730130752085856475",
+            "1732530411400171739",
+            "1729385798535319771",
+            "1732530504119718107",
+            "1729385798632640731",
+            "1729385798566514907"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Repel GMV MAX 9/29",
@@ -1220,7 +1891,11 @@
           "cost_per_order": 44.08,
           "roas_target": 0.6,
           "status": "DISABLE",
-          "start": "2026-09-29"
+          "start": "2026-09-29",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
@@ -1232,7 +1907,12 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-23"
+          "start": "2026-07-23",
+          "product_ids": [
+            "1730130848266359003",
+            "1729391862019821787"
+          ],
+          "budget": 200.0
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -1244,7 +1924,13 @@
           "cost_per_order": 0,
           "roas_target": 6.0,
           "status": "DISABLE",
-          "start": "2024-04-15"
+          "start": "2024-04-15",
+          "product_ids": [
+            "1729385810603249883",
+            "1729385798535319771",
+            "1729385718293303515"
+          ],
+          "budget": 350.0
         },
         {
           "name": "GMV - SOAP DISPENSER/ COOLING BLANKET/ OIL DIFFUSER - RANKSTER",
@@ -1256,7 +1942,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729385810512941275",
+            "1729388475149750491",
+            "1729391864973463771"
+          ],
+          "budget": 400.0
         },
         {
           "name": "GMV - SCREEN DOOR - RANKSTER",
@@ -1268,7 +1960,11 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Product GMV Max_Gross revenue_Everlasting Comfort_20250225095858",
@@ -1280,7 +1976,9 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-02-25"
+          "start": "2025-02-25",
+          "product_ids": [],
+          "budget": 50.0
         },
         {
           "name": "GMV - Soap dispenser ",
@@ -1292,7 +1990,11 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 150.0
         },
         {
           "name": "GMV - All products",
@@ -1304,7 +2006,60 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810603249883",
+            "1729388475149750491",
+            "1729385798535319771",
+            "1729385718293303515",
+            "1729391863680307419",
+            "1729385810739499227",
+            "1729391864973463771",
+            "1729391862019821787",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729387976535412955",
+            "1729385884864975067",
+            "1729394250782118107",
+            "1729391862339113179",
+            "1729391860653920475",
+            "1729385798632640731",
+            "1729385872001831131",
+            "1729385810128507099",
+            "1729387967841997019",
+            "1729387931860635867",
+            "1729391868219986139",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729388510632448219",
+            "1730273357213896923",
+            "1729954162227777755",
+            "1729746413090279643",
+            "1730130752085856475",
+            "1730129060140454107",
+            "1729449384565117147",
+            "1729388511036477659",
+            "1729385822727409883",
+            "1729385809950380251",
+            "1730151035281707227",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730129811577671899",
+            "1729664580475916507",
+            "1729387938703773915",
+            "1730284425313423579",
+            "1730140656666317019",
+            "1730130928473313499",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730129398592344283",
+            "1730105130585657563",
+            "1730013557566443739",
+            "1729441013780025563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Soap Dispenser GMV",
@@ -1316,7 +2071,11 @@
           "cost_per_order": 0,
           "roas_target": 1.5,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 700.0
         },
         {
           "name": "Everlast GMV",
@@ -1328,7 +2087,28 @@
           "cost_per_order": 0,
           "roas_target": 1.8,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810603249883",
+            "1729391863680307419",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729394250782118107",
+            "1729391860653920475",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729391868219986139",
+            "1730130752085856475",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730284425313423579",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "SC GMV",
@@ -1340,7 +2120,11 @@
           "cost_per_order": 0,
           "roas_target": 1.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "Cooler Backpack GMV",
@@ -1352,7 +2136,12 @@
           "cost_per_order": 0,
           "roas_target": 1.3,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729385718293303515",
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Cooler Backpack Chair GMV",
@@ -1364,7 +2153,11 @@
           "cost_per_order": 0,
           "roas_target": 1.7,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "GMV ALL - SD Focused ",
@@ -1376,7 +2169,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729391862339113179",
+            "1730140656666317019"
+          ],
+          "budget": 800.0
         },
         {
           "name": "SGNL - Knee Pillow - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -1388,7 +2186,11 @@
           "cost_per_order": 0,
           "roas_target": 0.9,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1729391868219986139"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Humidifier 2.5 L",
@@ -1400,7 +2202,11 @@
           "cost_per_order": 0,
           "roas_target": 2.4,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730105130585657563"
+          ],
+          "budget": 600.0
         },
         {
           "name": "SGNL - Humidifiers 6L - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -1412,7 +2218,11 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Coffee Maker",
@@ -1424,7 +2234,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-18"
+          "start": "2025-09-18",
+          "product_ids": [
+            "1729746413090279643",
+            "1729387931860635867"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Temporary - SGNL - 6L Humidifier",
@@ -1436,7 +2251,11 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Humidifier - Mix",
@@ -1448,7 +2267,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730013557566443739",
+            "1730129608917422299",
+            "1729391860653920475"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary - SGNL - Knee Pillow",
@@ -1460,7 +2285,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729385798566514907",
+            "1729391868219986139"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Support Pillow",
@@ -1472,7 +2302,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730130752085856475",
+            "1730130848266359003"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary SGNL - Seat Cushions",
@@ -1484,7 +2319,15 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729394250782118107",
+            "1730130868699435227",
+            "1729388511036477659",
+            "1730130607268729051",
+            "1730130958582190299"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "[Auto created] Black Friday Promotion_20251107044411",
@@ -1496,7 +2339,12 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-11-13"
+          "start": "2025-11-13",
+          "product_ids": [
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 400.0
         },
         {
           "name": "Clear rear bidet test campaign",
@@ -1508,7 +2356,11 @@
           "cost_per_order": 0,
           "roas_target": 15.0,
           "status": "DISABLE",
-          "start": "2026-02-09"
+          "start": "2026-02-09",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 50.0
         },
         {
           "name": "Beach Blanket Test Campaign",
@@ -1520,7 +2372,11 @@
           "cost_per_order": 0,
           "roas_target": 12.0,
           "status": "DISABLE",
-          "start": "2026-03-19"
+          "start": "2026-03-19",
+          "product_ids": [
+            "1729388554561294555"
+          ],
+          "budget": 20.0
         },
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
@@ -1530,9 +2386,13 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 1.2,
           "status": "ENABLE",
-          "start": "2026-10-05"
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
@@ -1555,7 +2415,11 @@
           "cost_per_order": 39.71,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-06-26"
+          "start": "2026-06-26",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Screen Door",
@@ -1567,7 +2431,11 @@
           "cost_per_order": 19.17,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-05-22"
+          "start": "2026-05-22",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Shop Wide",
@@ -1579,7 +2447,15 @@
           "cost_per_order": 31.07,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-13"
+          "start": "2026-07-13",
+          "product_ids": [
+            "1730105130585657563",
+            "1729388554561294555",
+            "1729388475149750491",
+            "1730129570622640347",
+            "1730273357213896923"
+          ],
+          "budget": 700.0
         },
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
@@ -1591,7 +2467,17 @@
           "cost_per_order": 31.82,
           "roas_target": 5.4,
           "status": "DISABLE",
-          "start": "2026-08-21"
+          "start": "2026-08-21",
+          "product_ids": [
+            "1729391868219986139",
+            "1730130752085856475",
+            "1732530411400171739",
+            "1729385798535319771",
+            "1732530504119718107",
+            "1729385798632640731",
+            "1729385798566514907"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Repel GMV MAX 9/29",
@@ -1603,7 +2489,11 @@
           "cost_per_order": 44.08,
           "roas_target": 0.6,
           "status": "DISABLE",
-          "start": "2026-09-29"
+          "start": "2026-09-29",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
@@ -1615,7 +2505,12 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-23"
+          "start": "2026-07-23",
+          "product_ids": [
+            "1730130848266359003",
+            "1729391862019821787"
+          ],
+          "budget": 200.0
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -1627,7 +2522,13 @@
           "cost_per_order": 0,
           "roas_target": 6.0,
           "status": "DISABLE",
-          "start": "2024-04-15"
+          "start": "2024-04-15",
+          "product_ids": [
+            "1729385810603249883",
+            "1729385798535319771",
+            "1729385718293303515"
+          ],
+          "budget": 350.0
         },
         {
           "name": "GMV - SOAP DISPENSER/ COOLING BLANKET/ OIL DIFFUSER - RANKSTER",
@@ -1639,7 +2540,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729385810512941275",
+            "1729388475149750491",
+            "1729391864973463771"
+          ],
+          "budget": 400.0
         },
         {
           "name": "GMV - SCREEN DOOR - RANKSTER",
@@ -1651,7 +2558,11 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Product GMV Max_Gross revenue_Everlasting Comfort_20250225095858",
@@ -1663,7 +2574,9 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-02-25"
+          "start": "2025-02-25",
+          "product_ids": [],
+          "budget": 50.0
         },
         {
           "name": "GMV - Soap dispenser ",
@@ -1675,7 +2588,11 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 150.0
         },
         {
           "name": "GMV - All products",
@@ -1687,7 +2604,60 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810603249883",
+            "1729388475149750491",
+            "1729385798535319771",
+            "1729385718293303515",
+            "1729391863680307419",
+            "1729385810739499227",
+            "1729391864973463771",
+            "1729391862019821787",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729387976535412955",
+            "1729385884864975067",
+            "1729394250782118107",
+            "1729391862339113179",
+            "1729391860653920475",
+            "1729385798632640731",
+            "1729385872001831131",
+            "1729385810128507099",
+            "1729387967841997019",
+            "1729387931860635867",
+            "1729391868219986139",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729388510632448219",
+            "1730273357213896923",
+            "1729954162227777755",
+            "1729746413090279643",
+            "1730130752085856475",
+            "1730129060140454107",
+            "1729449384565117147",
+            "1729388511036477659",
+            "1729385822727409883",
+            "1729385809950380251",
+            "1730151035281707227",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730129811577671899",
+            "1729664580475916507",
+            "1729387938703773915",
+            "1730284425313423579",
+            "1730140656666317019",
+            "1730130928473313499",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730129398592344283",
+            "1730105130585657563",
+            "1730013557566443739",
+            "1729441013780025563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Soap Dispenser GMV",
@@ -1699,7 +2669,11 @@
           "cost_per_order": 0,
           "roas_target": 1.5,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 700.0
         },
         {
           "name": "Everlast GMV",
@@ -1711,7 +2685,28 @@
           "cost_per_order": 0,
           "roas_target": 1.8,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810603249883",
+            "1729391863680307419",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729394250782118107",
+            "1729391860653920475",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729391868219986139",
+            "1730130752085856475",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730284425313423579",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "SC GMV",
@@ -1723,7 +2718,11 @@
           "cost_per_order": 0,
           "roas_target": 1.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "Cooler Backpack GMV",
@@ -1735,7 +2734,12 @@
           "cost_per_order": 0,
           "roas_target": 1.3,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729385718293303515",
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Cooler Backpack Chair GMV",
@@ -1747,7 +2751,11 @@
           "cost_per_order": 0,
           "roas_target": 1.7,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "GMV ALL - SD Focused ",
@@ -1759,7 +2767,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729391862339113179",
+            "1730140656666317019"
+          ],
+          "budget": 800.0
         },
         {
           "name": "SGNL - Knee Pillow - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -1771,7 +2784,11 @@
           "cost_per_order": 0,
           "roas_target": 0.9,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1729391868219986139"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Humidifier 2.5 L",
@@ -1783,7 +2800,11 @@
           "cost_per_order": 0,
           "roas_target": 2.4,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730105130585657563"
+          ],
+          "budget": 600.0
         },
         {
           "name": "SGNL - Humidifiers 6L - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -1795,7 +2816,11 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Coffee Maker",
@@ -1807,7 +2832,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-18"
+          "start": "2025-09-18",
+          "product_ids": [
+            "1729746413090279643",
+            "1729387931860635867"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Temporary - SGNL - 6L Humidifier",
@@ -1819,7 +2849,11 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Humidifier - Mix",
@@ -1831,7 +2865,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730013557566443739",
+            "1730129608917422299",
+            "1729391860653920475"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary - SGNL - Knee Pillow",
@@ -1843,7 +2883,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729385798566514907",
+            "1729391868219986139"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Support Pillow",
@@ -1855,7 +2900,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730130752085856475",
+            "1730130848266359003"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary SGNL - Seat Cushions",
@@ -1867,7 +2917,15 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729394250782118107",
+            "1730130868699435227",
+            "1729388511036477659",
+            "1730130607268729051",
+            "1730130958582190299"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "[Auto created] Black Friday Promotion_20251107044411",
@@ -1879,7 +2937,12 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-11-13"
+          "start": "2025-11-13",
+          "product_ids": [
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 400.0
         },
         {
           "name": "Clear rear bidet test campaign",
@@ -1891,7 +2954,11 @@
           "cost_per_order": 0,
           "roas_target": 15.0,
           "status": "DISABLE",
-          "start": "2026-02-09"
+          "start": "2026-02-09",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 50.0
         },
         {
           "name": "Beach Blanket Test Campaign",
@@ -1903,7 +2970,11 @@
           "cost_per_order": 0,
           "roas_target": 12.0,
           "status": "DISABLE",
-          "start": "2026-03-19"
+          "start": "2026-03-19",
+          "product_ids": [
+            "1729388554561294555"
+          ],
+          "budget": 20.0
         },
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
@@ -1913,68 +2984,88 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 1.0,
+          "roas_target": 1.2,
           "status": "ENABLE",
-          "start": "2026-10-05"
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
     "live7d": {
-      "range": "2026-10-02 to 2026-10-08",
+      "range": "2026-10-03 to 2026-10-09",
       "totals": {
-        "revenue": 4610.73,
-        "spend": 2980.55,
-        "orders": 174,
-        "roi": 1.547
+        "revenue": 4580.7,
+        "spend": 2911.23,
+        "orders": 176,
+        "roi": 1.573
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 2372.87,
-          "spend": 963.52,
-          "roi": 2.463,
-          "orders": 100,
-          "cost_per_order": 9.64,
+          "revenue": 2348.87,
+          "spend": 937.56,
+          "roi": 2.505,
+          "orders": 99,
+          "cost_per_order": 9.47,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-05-22"
+          "start": "2026-05-22",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 1496.22,
-          "spend": 901.31,
-          "roi": 1.66,
-          "orders": 38,
-          "cost_per_order": 23.72,
+          "revenue": 1328.27,
+          "spend": 814.97,
+          "roi": 1.63,
+          "orders": 33,
+          "cost_per_order": 24.7,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-06-26"
+          "start": "2026-06-26",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 461.78,
-          "spend": 542.18,
-          "roi": 0.852,
-          "orders": 22,
-          "cost_per_order": 24.64,
-          "roas_target": 1.0,
+          "revenue": 643.69,
+          "spend": 656.41,
+          "roi": 0.981,
+          "orders": 31,
+          "cost_per_order": 21.17,
+          "roas_target": 1.2,
           "status": "ENABLE",
-          "start": "2026-10-05"
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         },
         {
           "name": "Repel GMV MAX 9/29",
           "campaign_id": "1877681559235809",
-          "revenue": 279.86,
-          "spend": 573.54,
-          "roi": 0.488,
-          "orders": 14,
-          "cost_per_order": 40.97,
+          "revenue": 259.87,
+          "spend": 502.29,
+          "roi": 0.517,
+          "orders": 13,
+          "cost_per_order": 38.64,
           "roas_target": 0.6,
           "status": "DISABLE",
-          "start": "2026-09-29"
+          "start": "2026-09-29",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -1986,7 +3077,13 @@
           "cost_per_order": 0,
           "roas_target": 6.0,
           "status": "DISABLE",
-          "start": "2024-04-15"
+          "start": "2024-04-15",
+          "product_ids": [
+            "1729385810603249883",
+            "1729385798535319771",
+            "1729385718293303515"
+          ],
+          "budget": 350.0
         },
         {
           "name": "GMV - SOAP DISPENSER/ COOLING BLANKET/ OIL DIFFUSER - RANKSTER",
@@ -1998,7 +3095,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729385810512941275",
+            "1729388475149750491",
+            "1729391864973463771"
+          ],
+          "budget": 400.0
         },
         {
           "name": "GMV - SCREEN DOOR - RANKSTER",
@@ -2010,7 +3113,11 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2024-04-25"
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Product GMV Max_Gross revenue_Everlasting Comfort_20250225095858",
@@ -2022,7 +3129,9 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-02-25"
+          "start": "2025-02-25",
+          "product_ids": [],
+          "budget": 50.0
         },
         {
           "name": "GMV - Soap dispenser ",
@@ -2034,7 +3143,11 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 150.0
         },
         {
           "name": "GMV - All products",
@@ -2046,7 +3159,60 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-03-19"
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810603249883",
+            "1729388475149750491",
+            "1729385798535319771",
+            "1729385718293303515",
+            "1729391863680307419",
+            "1729385810739499227",
+            "1729391864973463771",
+            "1729391862019821787",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729387976535412955",
+            "1729385884864975067",
+            "1729394250782118107",
+            "1729391862339113179",
+            "1729391860653920475",
+            "1729385798632640731",
+            "1729385872001831131",
+            "1729385810128507099",
+            "1729387967841997019",
+            "1729387931860635867",
+            "1729391868219986139",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729388510632448219",
+            "1730273357213896923",
+            "1729954162227777755",
+            "1729746413090279643",
+            "1730130752085856475",
+            "1730129060140454107",
+            "1729449384565117147",
+            "1729388511036477659",
+            "1729385822727409883",
+            "1729385809950380251",
+            "1730151035281707227",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730129811577671899",
+            "1729664580475916507",
+            "1729387938703773915",
+            "1730284425313423579",
+            "1730140656666317019",
+            "1730130928473313499",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730129398592344283",
+            "1730105130585657563",
+            "1730013557566443739",
+            "1729441013780025563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "Soap Dispenser GMV",
@@ -2058,7 +3224,11 @@
           "cost_per_order": 0,
           "roas_target": 1.5,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 700.0
         },
         {
           "name": "Everlast GMV",
@@ -2070,7 +3240,28 @@
           "cost_per_order": 0,
           "roas_target": 1.8,
           "status": "DISABLE",
-          "start": "2025-04-14"
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810603249883",
+            "1729391863680307419",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729394250782118107",
+            "1729391860653920475",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729391868219986139",
+            "1730130752085856475",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730284425313423579",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 150.0
         },
         {
           "name": "SC GMV",
@@ -2082,7 +3273,11 @@
           "cost_per_order": 0,
           "roas_target": 1.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 300.0
         },
         {
           "name": "Cooler Backpack GMV",
@@ -2094,7 +3289,12 @@
           "cost_per_order": 0,
           "roas_target": 1.3,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729385718293303515",
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "Cooler Backpack Chair GMV",
@@ -2106,7 +3306,11 @@
           "cost_per_order": 0,
           "roas_target": 1.7,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1730284425313423579"
+          ],
+          "budget": 500.0
         },
         {
           "name": "GMV ALL - SD Focused ",
@@ -2118,7 +3322,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-05-14"
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729391862339113179",
+            "1730140656666317019"
+          ],
+          "budget": 800.0
         },
         {
           "name": "SGNL - Knee Pillow - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -2130,7 +3339,11 @@
           "cost_per_order": 0,
           "roas_target": 0.9,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1729391868219986139"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Humidifier 2.5 L",
@@ -2142,7 +3355,11 @@
           "cost_per_order": 0,
           "roas_target": 2.4,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730105130585657563"
+          ],
+          "budget": 600.0
         },
         {
           "name": "SGNL - Humidifiers 6L - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
@@ -2154,7 +3371,11 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2025-09-02"
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 300.0
         },
         {
           "name": "SGNL - Coffee Maker",
@@ -2166,7 +3387,12 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-18"
+          "start": "2025-09-18",
+          "product_ids": [
+            "1729746413090279643",
+            "1729387931860635867"
+          ],
+          "budget": 200.0
         },
         {
           "name": "Temporary - SGNL - 6L Humidifier",
@@ -2178,7 +3404,11 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Humidifier - Mix",
@@ -2190,7 +3420,13 @@
           "cost_per_order": 0,
           "roas_target": 4.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730013557566443739",
+            "1730129608917422299",
+            "1729391860653920475"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary - SGNL - Knee Pillow",
@@ -2202,7 +3438,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729385798566514907",
+            "1729391868219986139"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "SGNL - Support Pillow",
@@ -2214,7 +3455,12 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730130752085856475",
+            "1730130848266359003"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Temporary SGNL - Seat Cushions",
@@ -2226,7 +3472,15 @@
           "cost_per_order": 0,
           "roas_target": 5.0,
           "status": "DISABLE",
-          "start": "2025-09-19"
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729394250782118107",
+            "1730130868699435227",
+            "1729388511036477659",
+            "1730130607268729051",
+            "1730130958582190299"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "[Auto created] Black Friday Promotion_20251107044411",
@@ -2238,7 +3492,12 @@
           "cost_per_order": 0,
           "roas_target": 1.2,
           "status": "DISABLE",
-          "start": "2025-11-13"
+          "start": "2025-11-13",
+          "product_ids": [
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 400.0
         },
         {
           "name": "Clear rear bidet test campaign",
@@ -2250,7 +3509,11 @@
           "cost_per_order": 0,
           "roas_target": 15.0,
           "status": "DISABLE",
-          "start": "2026-02-09"
+          "start": "2026-02-09",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 50.0
         },
         {
           "name": "Beach Blanket Test Campaign",
@@ -2262,7 +3525,11 @@
           "cost_per_order": 0,
           "roas_target": 12.0,
           "status": "DISABLE",
-          "start": "2026-03-19"
+          "start": "2026-03-19",
+          "product_ids": [
+            "1729388554561294555"
+          ],
+          "budget": 20.0
         },
         {
           "name": "Shop Wide",
@@ -2274,7 +3541,15 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-13"
+          "start": "2026-07-13",
+          "product_ids": [
+            "1730105130585657563",
+            "1729388554561294555",
+            "1729388475149750491",
+            "1730129570622640347",
+            "1730273357213896923"
+          ],
+          "budget": 700.0
         },
         {
           "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
@@ -2286,7 +3561,12 @@
           "cost_per_order": 0,
           "roas_target": 2.0,
           "status": "DISABLE",
-          "start": "2026-07-23"
+          "start": "2026-07-23",
+          "product_ids": [
+            "1730130848266359003",
+            "1729391862019821787"
+          ],
+          "budget": 200.0
         },
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
@@ -2298,7 +3578,17 @@
           "cost_per_order": 0,
           "roas_target": 5.4,
           "status": "DISABLE",
-          "start": "2026-08-21"
+          "start": "2026-08-21",
+          "product_ids": [
+            "1729391868219986139",
+            "1730130752085856475",
+            "1732530411400171739",
+            "1729385798535319771",
+            "1732530504119718107",
+            "1729385798632640731",
+            "1729385798566514907"
+          ],
+          "budget": 200.0
         }
       ],
       "in_progress": true

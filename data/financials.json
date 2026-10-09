@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-08",
+    "pulled_on": "2026-10-09",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -1208,7 +1208,7 @@
         "total_gmv": 108074.69,
         "affiliate_gmv": 95020.25,
         "video_gmv": 53769.94,
-        "live_gmv": 39210.26,
+        "live_gmv": 39174.49,
         "shop_tab_gmv": 18004.34,
         "gmv_max_revenue": 85699.06000000001,
         "subscription_revenue": 0
@@ -1233,7 +1233,7 @@
       "volume": {
         "orders": 4305,
         "units_sold": 4780.0,
-        "creators": 488,
+        "creators": 487,
         "samples_delivered": 455,
         "video_views": 6046448
       },
@@ -1642,7 +1642,7 @@
         "total_gmv": 181117.84,
         "affiliate_gmv": 160061.59,
         "video_gmv": 101773.77,
-        "live_gmv": 55355.57,
+        "live_gmv": 55319.8,
         "shop_tab_gmv": 26587.68,
         "gmv_max_revenue": 164975.08000000002,
         "subscription_revenue": 0
@@ -1667,7 +1667,7 @@
       "volume": {
         "orders": 7371,
         "units_sold": 8330.0,
-        "creators": 744,
+        "creators": 743,
         "samples_delivered": 759,
         "video_views": 12916639
       },
