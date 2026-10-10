@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-09",
+    "pulled_on": "2026-10-10",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -24,15 +24,15 @@
       "spend": {
         "ad_spend": 3618.5400000000004,
         "commission": 1213.41,
-        "refund_amount": 562.89,
+        "refund_amount": 606.26,
         "shipping_fees": 2264.8
       },
-      "net_after_ads_commissions_refunds": 2608.77,
+      "net_after_ads_commissions_refunds": 2565.4,
       "ratios": {
         "blended_roas": 2.2118,
         "gmv_max_roas": 1.4156,
         "commission_rate_pct": 17.95,
-        "refund_rate_pct": 7.03,
+        "refund_rate_pct": 7.57,
         "aov": 25.9,
         "gpm": 6.07,
         "emv": 2729.32,
@@ -235,7 +235,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
+          "product_name": "Heavy-Duty Shoe Dryer, Powerful Fast Drying Machine with 4 Extendable Removable Tubes, Extendable Tubes Pack Easy, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer for Gloves, Sneakers",
           "price": 149.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -403,15 +403,15 @@
       "spend": {
         "ad_spend": 6989.71,
         "commission": 2034.59,
-        "refund_amount": 1363.95,
+        "refund_amount": 1472.25,
         "shipping_fees": 3807.6
       },
-      "net_after_ads_commissions_refunds": 2939.31,
+      "net_after_ads_commissions_refunds": 2831.01,
       "ratios": {
         "blended_roas": 1.9067,
         "gmv_max_roas": 1.5657,
         "commission_rate_pct": 18.74,
-        "refund_rate_pct": 10.23,
+        "refund_rate_pct": 11.05,
         "aov": 25.98,
         "gpm": 7.95,
         "emv": 4482.44,
@@ -658,7 +658,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
+          "product_name": "Heavy-Duty Shoe Dryer, Powerful Fast Drying Machine with 4 Extendable Removable Tubes, Extendable Tubes Pack Easy, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer for Gloves, Sneakers",
           "price": 149.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -804,15 +804,15 @@
       "spend": {
         "ad_spend": 13898.4,
         "commission": 4183.39,
-        "refund_amount": 3319.62,
+        "refund_amount": 3580.83,
         "shipping_fees": 7326.4
       },
-      "net_after_ads_commissions_refunds": 5245.36,
+      "net_after_ads_commissions_refunds": 4984.15,
       "ratios": {
         "blended_roas": 1.9173,
         "gmv_max_roas": 1.5784,
         "commission_rate_pct": 18.96,
-        "refund_rate_pct": 12.46,
+        "refund_rate_pct": 13.44,
         "aov": 26.94,
         "gpm": 8.9,
         "emv": 8414.17,
@@ -916,7 +916,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
+          "product_name": "Heavy-Duty Shoe Dryer, Powerful Fast Drying Machine with 4 Extendable Removable Tubes, Extendable Tubes Pack Easy, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer for Gloves, Sneakers",
           "price": 149.99,
           "total_gmv": 122.49,
           "share_pct": 0.5,
@@ -1208,7 +1208,7 @@
         "total_gmv": 108074.69,
         "affiliate_gmv": 95020.25,
         "video_gmv": 53769.94,
-        "live_gmv": 39174.49,
+        "live_gmv": 39210.26,
         "shop_tab_gmv": 18004.34,
         "gmv_max_revenue": 85699.06000000001,
         "subscription_revenue": 0
@@ -1216,15 +1216,15 @@
       "spend": {
         "ad_spend": 70339.22,
         "commission": 21866.44,
-        "refund_amount": 11468.47,
+        "refund_amount": 12377.99,
         "shipping_fees": 32452.0
       },
-      "net_after_ads_commissions_refunds": 4400.56,
+      "net_after_ads_commissions_refunds": 3491.04,
       "ratios": {
         "blended_roas": 1.5365,
         "gmv_max_roas": 1.2184,
         "commission_rate_pct": 23.01,
-        "refund_rate_pct": 10.61,
+        "refund_rate_pct": 11.45,
         "aov": 25.1,
         "gpm": 8.84,
         "emv": 30232.24,
@@ -1361,7 +1361,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
+          "product_name": "Heavy-Duty Shoe Dryer, Powerful Fast Drying Machine with 4 Extendable Removable Tubes, Extendable Tubes Pack Easy, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer for Gloves, Sneakers",
           "price": 149.99,
           "total_gmv": 122.49,
           "share_pct": 0.1,
@@ -1642,7 +1642,7 @@
         "total_gmv": 181117.84,
         "affiliate_gmv": 160061.59,
         "video_gmv": 101773.77,
-        "live_gmv": 55319.8,
+        "live_gmv": 55355.57,
         "shop_tab_gmv": 26587.68,
         "gmv_max_revenue": 164975.08000000002,
         "subscription_revenue": 0
@@ -1650,15 +1650,15 @@
       "spend": {
         "ad_spend": 158343.31,
         "commission": 37540.58,
-        "refund_amount": 18254.24,
+        "refund_amount": 19163.76,
         "shipping_fees": 55677.6
       },
-      "net_after_ads_commissions_refunds": -33020.29,
+      "net_after_ads_commissions_refunds": -33929.81,
       "ratios": {
         "blended_roas": 1.1438,
         "gmv_max_roas": 1.0419,
         "commission_rate_pct": 23.45,
-        "refund_rate_pct": 10.08,
+        "refund_rate_pct": 10.58,
         "aov": 24.57,
         "gpm": 7.86,
         "emv": 64583.19,
@@ -1806,7 +1806,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer, Fast Drying for Shoes, Sneakers, Gloves",
+          "product_name": "Heavy-Duty Shoe Dryer, Powerful Fast Drying Machine with 4 Extendable Removable Tubes, Extendable Tubes Pack Easy, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer for Gloves, Sneakers",
           "price": 149.99,
           "total_gmv": 122.49,
           "share_pct": 0.1,
