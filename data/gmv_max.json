@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-10"
+    "pulled_on": "2026-10-11"
   },
   "periods": {
     "week": {
@@ -2995,22 +2995,22 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-04 to 2026-10-10",
+      "range": "2026-10-05 to 2026-10-11",
       "totals": {
-        "revenue": 4709.06,
-        "spend": 2818.03,
-        "orders": 183,
-        "roi": 1.671
+        "revenue": 4977.02,
+        "spend": 3021.47,
+        "orders": 191,
+        "roi": 1.647
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 2674.75,
-          "spend": 1046.48,
-          "roi": 2.556,
-          "orders": 114,
-          "cost_per_order": 9.18,
+          "revenue": 2396.88,
+          "spend": 936.74,
+          "roi": 2.559,
+          "orders": 106,
+          "cost_per_order": 8.84,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-05-22",
@@ -3022,11 +3022,11 @@
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 1210.71,
-          "spend": 737.79,
-          "roi": 1.641,
-          "orders": 29,
-          "cost_per_order": 25.44,
+          "revenue": 1461.68,
+          "spend": 788.58,
+          "roi": 1.854,
+          "orders": 32,
+          "cost_per_order": 24.64,
           "roas_target": 2.5,
           "status": "ENABLE",
           "start": "2026-06-26",
@@ -3038,11 +3038,11 @@
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 763.63,
-          "spend": 831.47,
-          "roi": 0.918,
-          "orders": 37,
-          "cost_per_order": 22.47,
+          "revenue": 1098.47,
+          "spend": 1222.61,
+          "roi": 0.898,
+          "orders": 52,
+          "cost_per_order": 23.51,
           "roas_target": 1.0,
           "status": "ENABLE",
           "start": "2026-10-05",
@@ -3054,11 +3054,11 @@
         {
           "name": "Repel GMV MAX 9/29",
           "campaign_id": "1877681559235809",
-          "revenue": 59.97,
-          "spend": 202.29,
-          "roi": 0.296,
-          "orders": 3,
-          "cost_per_order": 67.43,
+          "revenue": 19.99,
+          "spend": 73.54,
+          "roi": 0.272,
+          "orders": 1,
+          "cost_per_order": 73.54,
           "roas_target": 0.6,
           "status": "DISABLE",
           "start": "2026-09-29",
