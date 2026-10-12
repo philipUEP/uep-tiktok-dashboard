@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:00:37.455182+00:00",
+  "generated_at": "2026-10-12T07:00:39.058364+00:00",
   "weeks": [
     {
       "total_gmv": 4218.43,
@@ -53,20 +53,20 @@
       "_range": "2026-09-28 to 2026-10-04"
     },
     {
-      "total_gmv": 6285.79,
-      "platform_orders": 261,
-      "total_units_sold": 282.0,
-      "affiliate_gmv": 3909.34,
-      "live_gmv": 2380.7,
-      "video_views": 236896,
-      "dms_sent": 267,
+      "total_gmv": 8275.7,
+      "platform_orders": 333,
+      "total_units_sold": 363.0,
+      "affiliate_gmv": 5443.79,
+      "live_gmv": 2698.88,
+      "video_views": 312678,
+      "dms_sent": 270,
       "tc_invites_sent": 0,
-      "replies": 16,
-      "sample_requests": 121,
+      "replies": 17,
+      "sample_requests": 133,
       "samples_shipped": 59,
       "samples_delivered": 68,
-      "videos_posted": 216,
-      "distinct_creators": 67,
+      "videos_posted": 250,
+      "distinct_creators": 78,
       "_range": "2026-10-05 to 2026-10-11"
     }
   ],
@@ -75,43 +75,43 @@
       4218.43,
       5323.95,
       8003.61,
-      6285.79
+      8275.7
     ],
     "platform_orders": [
       154.0,
       204.0,
       309.0,
-      261.0
+      333.0
     ],
     "total_units_sold": [
       170.0,
       224.0,
       329.0,
-      282.0
+      363.0
     ],
     "affiliate_gmv": [
       3355.76,
       4095.75,
       6760.44,
-      3909.34
+      5443.79
     ],
     "live_gmv": [
       374.5,
       208.9,
       2891.43,
-      2380.7
+      2698.88
     ],
     "video_views": [
       347153.0,
       350624.0,
       545864.0,
-      236896.0
+      312678.0
     ],
     "dms_sent": [
       9585.0,
       19445.0,
       5185.0,
-      267.0
+      270.0
     ],
     "tc_invites_sent": [
       6196.0,
@@ -123,13 +123,13 @@
       42.0,
       55.0,
       20.0,
-      16.0
+      17.0
     ],
     "sample_requests": [
       68.0,
       203.0,
       219.0,
-      121.0
+      133.0
     ],
     "samples_shipped": [
       16.0,
@@ -147,13 +147,13 @@
       84.0,
       73.0,
       97.0,
-      216.0
+      250.0
     ],
     "distinct_creators": [
       49.0,
       40.0,
       62.0,
-      67.0
+      78.0
     ]
   },
   "changes": [
@@ -168,33 +168,17 @@
     {
       "metric": "dms_sent",
       "label": "DMs sent",
-      "current": 267.0,
+      "current": 270.0,
       "prior": 5185.0,
-      "pct": -94.9,
+      "pct": -94.8,
       "direction": "down"
     },
     {
       "metric": "video_views",
       "label": "Video views",
-      "current": 236896.0,
+      "current": 312678.0,
       "prior": 545864.0,
-      "pct": -56.6,
-      "direction": "down"
-    },
-    {
-      "metric": "sample_requests",
-      "label": "Sample requests",
-      "current": 121.0,
-      "prior": 219.0,
-      "pct": -44.7,
-      "direction": "down"
-    },
-    {
-      "metric": "affiliate_gmv",
-      "label": "Affiliate GMV",
-      "current": 3909.34,
-      "prior": 6760.44,
-      "pct": -42.2,
+      "pct": -42.7,
       "direction": "down"
     },
     {
@@ -206,6 +190,14 @@
       "direction": "down"
     },
     {
+      "metric": "sample_requests",
+      "label": "Sample requests",
+      "current": 133.0,
+      "prior": 219.0,
+      "pct": -39.3,
+      "direction": "down"
+    },
+    {
       "metric": "samples_delivered",
       "label": "Samples delivered",
       "current": 68.0,
@@ -214,59 +206,67 @@
       "direction": "down"
     },
     {
-      "metric": "total_gmv",
-      "label": "GMV",
-      "current": 6285.79,
-      "prior": 8003.61,
-      "pct": -21.5,
+      "metric": "affiliate_gmv",
+      "label": "Affiliate GMV",
+      "current": 5443.79,
+      "prior": 6760.44,
+      "pct": -19.5,
       "direction": "down"
     },
     {
       "metric": "replies",
       "label": "Replies",
-      "current": 16.0,
+      "current": 17.0,
       "prior": 20.0,
-      "pct": -20.0,
+      "pct": -15.0,
       "direction": "down"
     },
     {
       "metric": "live_gmv",
       "label": "LIVE GMV",
-      "current": 2380.7,
+      "current": 2698.88,
       "prior": 2891.43,
-      "pct": -17.7,
+      "pct": -6.7,
       "direction": "down"
+    },
+    {
+      "metric": "total_gmv",
+      "label": "GMV",
+      "current": 8275.7,
+      "prior": 8003.61,
+      "pct": 3.4,
+      "direction": "up"
     },
     {
       "metric": "platform_orders",
       "label": "Orders",
-      "current": 261.0,
+      "current": 333.0,
       "prior": 309.0,
-      "pct": -15.5,
-      "direction": "down"
+      "pct": 7.8,
+      "direction": "up"
     },
     {
       "metric": "total_units_sold",
       "label": "Units",
-      "current": 282.0,
+      "current": 363.0,
       "prior": 329.0,
-      "pct": -14.3,
-      "direction": "down"
+      "pct": 10.3,
+      "direction": "up"
     },
     {
       "metric": "distinct_creators",
       "label": "Creators posting",
-      "current": 67.0,
+      "current": 78.0,
       "prior": 62.0,
-      "pct": 8.1,
+      "pct": 25.8,
       "direction": "up"
     },
     {
       "metric": "videos_posted",
       "label": "Videos posted",
-      "current": 216.0,
+      "current": 250.0,
       "prior": 97.0,
-      "pct": 122.7,
+      "pct": 157.7,
       "direction": "up"
     }
   ],
@@ -277,7 +277,7 @@
       "last_3": [
         19445.0,
         5185.0,
-        267.0
+        270.0
       ],
       "note": "declining three weeks in a row"
     },
@@ -297,21 +297,21 @@
       "last_3": [
         55.0,
         20.0,
-        16.0
+        17.0
       ],
       "note": "declining three weeks in a row"
     }
   ],
   "ratios": {
-    "gmv_per_sample_shipped": 106.54,
-    "reply_rate_pct": 5.99,
-    "videos_per_creator": 3.22,
-    "live_share_of_gmv_pct": 37.9,
-    "affiliate_share_of_gmv_pct": 62.2
+    "gmv_per_sample_shipped": 140.27,
+    "reply_rate_pct": 6.3,
+    "videos_per_creator": 3.21,
+    "live_share_of_gmv_pct": 32.6,
+    "affiliate_share_of_gmv_pct": 65.8
   },
   "freshness": {
     "pull_age_days": 0.3,
-    "data_through": "2026-10-04"
+    "data_through": "2026-10-11"
   },
   "note": "Deterministic signal set from the Cruva REST API. The insights agent interprets these; the numbers are ground truth."
 }

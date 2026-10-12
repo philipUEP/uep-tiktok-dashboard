@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-11",
+    "pulled_on": "2026-10-12",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -11,150 +11,150 @@
   },
   "periods": {
     "week": {
-      "range": "2026-09-28 to 2026-10-04",
+      "range": "2026-10-05 to 2026-10-11",
       "revenue": {
-        "total_gmv": 8003.61,
-        "affiliate_gmv": 6760.44,
-        "video_gmv": 3315.22,
-        "live_gmv": 2891.43,
-        "shop_tab_gmv": 1478.36,
-        "gmv_max_revenue": 5122.23,
+        "total_gmv": 8275.7,
+        "affiliate_gmv": 5443.79,
+        "video_gmv": 3773.24,
+        "live_gmv": 2698.88,
+        "shop_tab_gmv": 1760.12,
+        "gmv_max_revenue": 6688.7,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 3618.5400000000004,
-        "commission": 1213.41,
-        "refund_amount": 562.89,
-        "shipping_fees": 2264.8
+        "ad_spend": 4081.09,
+        "commission": 1081.5,
+        "refund_amount": 1262.11,
+        "shipping_fees": 2432.0
       },
-      "net_after_ads_commissions_refunds": 2608.77,
+      "net_after_ads_commissions_refunds": 1851.0,
       "ratios": {
-        "blended_roas": 2.2118,
-        "gmv_max_roas": 1.4156,
-        "commission_rate_pct": 17.95,
-        "refund_rate_pct": 7.03,
-        "aov": 25.9,
-        "gpm": 6.07,
-        "emv": 2729.32,
-        "gmv_per_sample_delivered": 77.71
+        "blended_roas": 2.0278,
+        "gmv_max_roas": 1.6389,
+        "commission_rate_pct": 19.87,
+        "refund_rate_pct": 15.25,
+        "aov": 24.85,
+        "gpm": 12.07,
+        "emv": 1563.39,
+        "gmv_per_sample_delivered": 80.06
       },
       "volume": {
-        "orders": 309,
-        "units_sold": 329.0,
-        "creators": 62,
-        "samples_delivered": 87,
-        "video_views": 545864
+        "orders": 333,
+        "units_sold": 363.0,
+        "creators": 78,
+        "samples_delivered": 68,
+        "video_views": 312678
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 55.99,
-          "total_gmv": 4904.34,
-          "share_pct": 61.3,
-          "video_gmv": 1107.67,
-          "live_gmv": 3300.29,
-          "shop_tab_gmv": 847.28,
-          "units_sold": 152
+          "total_gmv": 3725.45,
+          "share_pct": 45.0,
+          "video_gmv": 1315.23,
+          "live_gmv": 1806.6,
+          "shop_tab_gmv": 939.79,
+          "units_sold": 97
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 2257.65,
-          "share_pct": 28.2,
-          "video_gmv": 1837.5,
+          "total_gmv": 2672.64,
+          "share_pct": 32.3,
+          "video_gmv": 2468.31,
           "live_gmv": 0,
-          "shop_tab_gmv": 368.34,
-          "units_sold": 116
+          "shop_tab_gmv": 375.38,
+          "units_sold": 139
         },
         {
           "product_id": "1732530504119718107",
           "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 67.99,
-          "total_gmv": 539.53,
-          "share_pct": 6.7,
-          "video_gmv": 223.89,
-          "live_gmv": 39.98,
-          "shop_tab_gmv": 29.64,
-          "units_sold": 48
+          "total_gmv": 1170.47,
+          "share_pct": 14.1,
+          "video_gmv": 759.76,
+          "live_gmv": 10.99,
+          "shop_tab_gmv": 140.61,
+          "units_sold": 98
         },
         {
-          "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
-          "price": 27.99,
-          "total_gmv": 81.17,
-          "share_pct": 1.0,
-          "video_gmv": 53.18,
-          "live_gmv": 0,
-          "shop_tab_gmv": 53.18,
-          "units_sold": 3
-        },
-        {
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "price": 39.99,
-          "total_gmv": 61.98,
-          "share_pct": 0.8,
-          "video_gmv": 61.98,
-          "live_gmv": 0,
-          "shop_tab_gmv": 33.99,
-          "units_sold": 2
-        },
-        {
-          "product_id": "1729388475149750491",
-          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
-          "price": 29.99,
-          "total_gmv": 59.98,
-          "share_pct": 0.7,
+          "product_id": "1732655825084190939",
+          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "price": 33.99,
+          "total_gmv": 270.0,
+          "share_pct": 3.3,
           "video_gmv": 0,
+          "live_gmv": 270.0,
+          "shop_tab_gmv": 27.0,
+          "units_sold": 13
+        },
+        {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
+          "price": 39.99,
+          "total_gmv": 157.83,
+          "share_pct": 1.9,
+          "video_gmv": 37.99,
           "live_gmv": 0,
-          "shop_tab_gmv": 59.98,
-          "units_sold": 2
+          "shop_tab_gmv": 79.85,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1729385798632640731",
+          "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
+          "price": 39.99,
+          "total_gmv": 105.52,
+          "share_pct": 1.3,
+          "video_gmv": 49.54,
+          "live_gmv": 0,
+          "shop_tab_gmv": 77.53,
+          "units_sold": 5
         },
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
           "price": 39.99,
-          "total_gmv": 31.0,
-          "share_pct": 0.4,
-          "video_gmv": 31.0,
+          "total_gmv": 71.82,
+          "share_pct": 0.9,
+          "video_gmv": 53.83,
           "live_gmv": 0,
           "shop_tab_gmv": 17.99,
-          "units_sold": 2
+          "units_sold": 4
         },
         {
-          "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
-          "price": 23.99,
-          "total_gmv": 23.99,
-          "share_pct": 0.3,
-          "video_gmv": 0,
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "price": 39.99,
+          "total_gmv": 39.99,
+          "share_pct": 0.5,
+          "video_gmv": 39.99,
           "live_gmv": 0,
-          "shop_tab_gmv": 23.99,
+          "shop_tab_gmv": 39.99,
           "units_sold": 1
         },
         {
-          "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
-          "price": 23.99,
-          "total_gmv": 23.99,
-          "share_pct": 0.3,
+          "product_id": "1729394250782118107",
+          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
+          "price": 67.99,
+          "total_gmv": 33.99,
+          "share_pct": 0.4,
           "video_gmv": 0,
           "live_gmv": 0,
-          "shop_tab_gmv": 23.99,
+          "shop_tab_gmv": 33.99,
           "units_sold": 1
         },
         {
-          "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
-          "price": 9.99,
-          "total_gmv": 19.98,
-          "share_pct": 0.2,
+          "product_id": "1729385798535319771",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
+          "price": 27.99,
+          "total_gmv": 27.99,
+          "share_pct": 0.3,
           "video_gmv": 0,
           "live_gmv": 0,
-          "shop_tab_gmv": 19.98,
-          "units_sold": 2
+          "shop_tab_gmv": 27.99,
+          "units_sold": 1
         },
         {
           "product_id": "1729385798566514907",
@@ -168,9 +168,9 @@
           "units_sold": 0
         },
         {
-          "product_id": "1729385798632640731",
-          "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
-          "price": 39.99,
+          "product_id": "1729385809950380251",
+          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
+          "price": 23.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -213,8 +213,19 @@
         },
         {
           "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Washable Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic Soft Transpirable Dual Layer Fabric, Machine Washable for Dorm Rooms",
+          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
           "price": 39.99,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
+          "product_id": "1729388475149750491",
+          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
+          "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -248,17 +259,6 @@
           "product_id": "1729391868219986139",
           "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
           "price": 47.99,
-          "total_gmv": 0,
-          "share_pct": 0.0,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 0
-        },
-        {
-          "product_id": "1729394250782118107",
-          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
-          "price": 67.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -322,9 +322,9 @@
           "units_sold": 0
         },
         {
-          "product_id": "1730129811577671899",
-          "product_name": "Household Shoe Dryer Machine, Heavy-Duty Vented Boot Dryer with 0-180 Minutes Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Leather & Rubber Safe, 14.57\"d x 6.89\"w x 11.81\"h",
-          "price": 103.99,
+          "product_id": "1730130703186235611",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
+          "price": 23.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -355,6 +355,17 @@
           "units_sold": 0
         },
         {
+          "product_id": "1730273357213896923",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "price": 9.99,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
           "price": 73.99,
@@ -375,197 +386,164 @@
           "live_gmv": 0,
           "shop_tab_gmv": 0,
           "units_sold": 0
-        },
-        {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 0,
-          "share_pct": 0.0,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 0
         }
       ]
     },
     "14d": {
-      "range": "2026-09-21 to 2026-10-04",
+      "range": "2026-09-28 to 2026-10-11",
       "revenue": {
-        "total_gmv": 13327.56,
-        "affiliate_gmv": 10856.19,
-        "video_gmv": 7144.4,
-        "live_gmv": 3100.33,
-        "shop_tab_gmv": 2890.85,
-        "gmv_max_revenue": 10943.989999999998,
+        "total_gmv": 16279.31,
+        "affiliate_gmv": 12204.23,
+        "video_gmv": 7088.46,
+        "live_gmv": 5590.31,
+        "shop_tab_gmv": 3238.48,
+        "gmv_max_revenue": 11810.93,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 6989.71,
-        "commission": 2034.59,
-        "refund_amount": 1363.95,
-        "shipping_fees": 3807.6
+        "ad_spend": 7699.629999999999,
+        "commission": 2294.91,
+        "refund_amount": 1825.0,
+        "shipping_fees": 4696.8
       },
-      "net_after_ads_commissions_refunds": 2939.31,
+      "net_after_ads_commissions_refunds": 4459.77,
       "ratios": {
-        "blended_roas": 1.9067,
-        "gmv_max_roas": 1.5657,
-        "commission_rate_pct": 18.74,
-        "refund_rate_pct": 10.23,
-        "aov": 25.98,
-        "gpm": 7.95,
-        "emv": 4482.44,
-        "gmv_per_sample_delivered": 111.92
+        "blended_roas": 2.1143,
+        "gmv_max_roas": 1.534,
+        "commission_rate_pct": 18.8,
+        "refund_rate_pct": 11.21,
+        "aov": 25.36,
+        "gpm": 8.26,
+        "emv": 4292.71,
+        "gmv_per_sample_delivered": 78.74
       },
       "volume": {
-        "orders": 513,
-        "units_sold": 553.0,
-        "creators": 91,
-        "samples_delivered": 97,
-        "video_views": 896488
+        "orders": 642,
+        "units_sold": 692.0,
+        "creators": 122,
+        "samples_delivered": 155,
+        "video_views": 858542
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 55.99,
-          "total_gmv": 7040.74,
-          "share_pct": 52.8,
-          "video_gmv": 2580.18,
-          "live_gmv": 3509.19,
-          "shop_tab_gmv": 1381.06,
-          "units_sold": 221
+          "total_gmv": 8629.79,
+          "share_pct": 53.0,
+          "video_gmv": 2422.9,
+          "live_gmv": 5106.89,
+          "shop_tab_gmv": 1787.07,
+          "units_sold": 249
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 4324.23,
-          "share_pct": 32.4,
-          "video_gmv": 3665.06,
+          "total_gmv": 4930.29,
+          "share_pct": 30.3,
+          "video_gmv": 4305.81,
           "live_gmv": 0,
-          "shop_tab_gmv": 724.79,
-          "units_sold": 231
+          "shop_tab_gmv": 743.72,
+          "units_sold": 255
         },
         {
           "product_id": "1732530504119718107",
           "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 67.99,
-          "total_gmv": 659.45,
-          "share_pct": 4.9,
-          "video_gmv": 254.48,
-          "live_gmv": 39.98,
-          "shop_tab_gmv": 149.56,
-          "units_sold": 52
+          "total_gmv": 1710.0,
+          "share_pct": 10.5,
+          "video_gmv": 983.65,
+          "live_gmv": 50.97,
+          "shop_tab_gmv": 170.25,
+          "units_sold": 146
         },
         {
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "product_id": "1732655825084190939",
+          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "price": 33.99,
+          "total_gmv": 270.0,
+          "share_pct": 1.7,
+          "video_gmv": 0,
+          "live_gmv": 270.0,
+          "shop_tab_gmv": 27.0,
+          "units_sold": 13
+        },
+        {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
           "price": 39.99,
-          "total_gmv": 375.32,
-          "share_pct": 2.8,
-          "video_gmv": 273.35,
+          "total_gmv": 157.83,
+          "share_pct": 1.0,
+          "video_gmv": 37.99,
           "live_gmv": 0,
-          "shop_tab_gmv": 135.96,
-          "units_sold": 12
+          "shop_tab_gmv": 79.85,
+          "units_sold": 4
         },
         {
           "product_id": "1729385798535319771",
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
-          "total_gmv": 261.98,
-          "share_pct": 2.0,
-          "video_gmv": 106.36,
+          "total_gmv": 109.16,
+          "share_pct": 0.7,
+          "video_gmv": 53.18,
           "live_gmv": 0,
-          "shop_tab_gmv": 210.2,
-          "units_sold": 10
-        },
-        {
-          "product_id": "1729388554561294555",
-          "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
-          "price": 39.99,
-          "total_gmv": 161.79,
-          "share_pct": 1.2,
-          "video_gmv": 144.0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 34.18,
-          "units_sold": 10
-        },
-        {
-          "product_id": "1730129570622640347",
-          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - 38W, Low Noise Cool Mist, 60-Hour Run Time, 180ml/h & 500ml Capability, Standard Plug, Easy-Clean Kit, Adds Essential Oils, Corded Bedroom Breathing Therapy Device",
-          "price": 119.99,
-          "total_gmv": 119.99,
-          "share_pct": 0.9,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 1
-        },
-        {
-          "product_id": "1729388475149750491",
-          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
-          "price": 29.99,
-          "total_gmv": 115.18,
-          "share_pct": 0.9,
-          "video_gmv": 29.99,
-          "live_gmv": 0,
-          "shop_tab_gmv": 115.18,
+          "shop_tab_gmv": 81.17,
           "units_sold": 4
         },
         {
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 39.99,
-          "total_gmv": 55.98,
+          "total_gmv": 105.52,
+          "share_pct": 0.6,
+          "video_gmv": 49.54,
+          "live_gmv": 0,
+          "shop_tab_gmv": 77.53,
+          "units_sold": 5
+        },
+        {
+          "product_id": "1729388554561294555",
+          "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
+          "price": 39.99,
+          "total_gmv": 102.82,
+          "share_pct": 0.6,
+          "video_gmv": 84.83,
+          "live_gmv": 0,
+          "shop_tab_gmv": 35.98,
+          "units_sold": 6
+        },
+        {
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "price": 39.99,
+          "total_gmv": 101.97,
+          "share_pct": 0.6,
+          "video_gmv": 101.97,
+          "live_gmv": 0,
+          "shop_tab_gmv": 73.98,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1729388475149750491",
+          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
+          "price": 29.99,
+          "total_gmv": 59.98,
           "share_pct": 0.4,
           "video_gmv": 0,
           "live_gmv": 0,
-          "shop_tab_gmv": 27.99,
+          "shop_tab_gmv": 59.98,
           "units_sold": 2
         },
         {
           "product_id": "1729394250782118107",
           "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
           "price": 67.99,
-          "total_gmv": 50.99,
-          "share_pct": 0.4,
-          "video_gmv": 50.99,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 1
-        },
-        {
-          "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
-          "price": 9.99,
-          "total_gmv": 49.95,
-          "share_pct": 0.4,
+          "total_gmv": 33.99,
+          "share_pct": 0.2,
           "video_gmv": 0,
           "live_gmv": 0,
-          "shop_tab_gmv": 39.96,
-          "units_sold": 5
-        },
-        {
-          "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
-          "price": 23.99,
-          "total_gmv": 47.98,
-          "share_pct": 0.4,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 47.98,
-          "units_sold": 2
-        },
-        {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 39.99,
-          "share_pct": 0.3,
-          "video_gmv": 39.99,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
+          "shop_tab_gmv": 33.99,
           "units_sold": 1
         },
         {
@@ -573,11 +551,33 @@
           "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
           "price": 23.99,
           "total_gmv": 23.99,
-          "share_pct": 0.2,
+          "share_pct": 0.1,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 23.99,
           "units_sold": 1
+        },
+        {
+          "product_id": "1730130703186235611",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
+          "price": 23.99,
+          "total_gmv": 23.99,
+          "share_pct": 0.1,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 23.99,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1730273357213896923",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "price": 9.99,
+          "total_gmv": 19.98,
+          "share_pct": 0.1,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 19.98,
+          "units_sold": 2
         },
         {
           "product_id": "1729385798566514907",
@@ -624,19 +624,8 @@
           "units_sold": 0
         },
         {
-          "product_id": "1729387967841997019",
-          "product_name": "Everlasting Comfort Anti-Allergen Pillow Protector - Single (27x21in), Soft Durable Polyester, 100% Waterproof Terry Cloth, Hypoallergenic Breathable Membrane, Blocks Dust Mites, Machine Washable, Dryer Safe, Lifetime Warranty, Allergen Reducing",
-          "price": 47.98,
-          "total_gmv": 0,
-          "share_pct": 0.0,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 0
-        },
-        {
           "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Washable Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic Soft Transpirable Dual Layer Fabric, Machine Washable for Dorm Rooms",
+          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
           "price": 39.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -723,6 +712,17 @@
           "units_sold": 0
         },
         {
+          "product_id": "1730129570622640347",
+          "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - 38W, Low Noise Cool Mist, 60-Hour Run Time, 180ml/h & 500ml Capability, Standard Plug, Easy-Clean Kit, Adds Essential Oils, Corded Bedroom Breathing Therapy Device",
+          "price": 119.99,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
           "product_id": "1730129811577671899",
           "product_name": "Household Shoe Dryer Machine, Heavy-Duty Vented Boot Dryer with 0-180 Minutes Timer Control, 4-Tube Design for 2 Pairs, 2-Hour Fast Drying, Quiet Operation, Boot Warmer for Athletes, Leather & Rubber Safe, 14.57\"d x 6.89\"w x 11.81\"h",
           "price": 103.99,
@@ -737,17 +737,6 @@
           "product_id": "1730130752085856475",
           "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
           "price": 59.99,
-          "total_gmv": 0,
-          "share_pct": 0.0,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 0
-        },
-        {
-          "product_id": "1730130868699435227",
-          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion, Supportive Sitting for Tailbone Pain Relief, Ideal for Home Office, Car Interior Use",
-          "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -791,172 +780,172 @@
       ]
     },
     "month": {
-      "range": "2026-09-05 to 2026-10-04",
+      "range": "2026-09-12 to 2026-10-11",
       "revenue": {
-        "total_gmv": 26646.77,
-        "affiliate_gmv": 22064.38,
-        "video_gmv": 15007.85,
-        "live_gmv": 6075.57,
-        "shop_tab_gmv": 6047.67,
-        "gmv_max_revenue": 21937.64,
+        "total_gmv": 28546.86,
+        "affiliate_gmv": 22001.81,
+        "video_gmv": 14796.28,
+        "live_gmv": 7371.51,
+        "shop_tab_gmv": 6105.41,
+        "gmv_max_revenue": 23155.33,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 13898.4,
-        "commission": 4183.39,
-        "refund_amount": 3319.62,
-        "shipping_fees": 7326.4
+        "ad_spend": 14638.41,
+        "commission": 4203.01,
+        "refund_amount": 4214.19,
+        "shipping_fees": 8048.4
       },
-      "net_after_ads_commissions_refunds": 5245.36,
+      "net_after_ads_commissions_refunds": 5491.25,
       "ratios": {
-        "blended_roas": 1.9173,
-        "gmv_max_roas": 1.5784,
-        "commission_rate_pct": 18.96,
-        "refund_rate_pct": 12.46,
-        "aov": 26.94,
-        "gpm": 8.9,
-        "emv": 8414.17,
-        "gmv_per_sample_delivered": 165.9
+        "blended_roas": 1.9501,
+        "gmv_max_roas": 1.5818,
+        "commission_rate_pct": 19.1,
+        "refund_rate_pct": 14.76,
+        "aov": 26.12,
+        "gpm": 8.93,
+        "emv": 8274.86,
+        "gmv_per_sample_delivered": 124.3
       },
       "volume": {
-        "orders": 989,
-        "units_sold": 1062.0,
-        "creators": 173,
-        "samples_delivered": 133,
-        "video_views": 1682834
+        "orders": 1093,
+        "units_sold": 1183.0,
+        "creators": 189,
+        "samples_delivered": 177,
+        "video_views": 1654972
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 55.99,
-          "total_gmv": 14622.61,
-          "share_pct": 54.9,
-          "video_gmv": 5818.21,
-          "live_gmv": 6745.32,
-          "shop_tab_gmv": 2867.65,
-          "units_sold": 446
+          "total_gmv": 14467.46,
+          "share_pct": 50.7,
+          "video_gmv": 5303.8,
+          "live_gmv": 7113.99,
+          "shop_tab_gmv": 2906.03,
+          "units_sold": 426
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 8434.91,
-          "share_pct": 31.7,
-          "video_gmv": 7283.84,
+          "total_gmv": 9248.68,
+          "share_pct": 32.4,
+          "video_gmv": 8053.09,
           "live_gmv": 0,
-          "shop_tab_gmv": 1524.56,
-          "units_sold": 457
-        },
-        {
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "price": 39.99,
-          "total_gmv": 843.66,
-          "share_pct": 3.2,
-          "video_gmv": 645.7,
-          "live_gmv": 0,
-          "shop_tab_gmv": 231.95,
-          "units_sold": 26
+          "shop_tab_gmv": 1471.78,
+          "units_sold": 494
         },
         {
           "product_id": "1732530504119718107",
           "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 67.99,
-          "total_gmv": 693.44,
-          "share_pct": 2.6,
-          "video_gmv": 254.48,
-          "live_gmv": 39.98,
-          "shop_tab_gmv": 183.55,
-          "units_sold": 53
+          "total_gmv": 1863.91,
+          "share_pct": 6.5,
+          "video_gmv": 1014.24,
+          "live_gmv": 50.97,
+          "shop_tab_gmv": 324.16,
+          "units_sold": 151
         },
         {
-          "product_id": "1729388554561294555",
-          "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 39.99,
-          "total_gmv": 431.28,
-          "share_pct": 1.6,
-          "video_gmv": 394.65,
+          "total_gmv": 810.55,
+          "share_pct": 2.8,
+          "video_gmv": 612.59,
           "live_gmv": 0,
-          "shop_tab_gmv": 99.71,
-          "units_sold": 29
+          "shop_tab_gmv": 271.94,
+          "units_sold": 25
         },
         {
           "product_id": "1729385798535319771",
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
-          "total_gmv": 424.05,
-          "share_pct": 1.6,
-          "video_gmv": 157.98,
+          "total_gmv": 368.07,
+          "share_pct": 1.3,
+          "video_gmv": 129.99,
           "live_gmv": 0,
-          "shop_tab_gmv": 344.28,
-          "units_sold": 16
+          "shop_tab_gmv": 316.29,
+          "units_sold": 14
         },
         {
-          "product_id": "1729388475149750491",
-          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
-          "price": 29.99,
-          "total_gmv": 168.9,
-          "share_pct": 0.6,
-          "video_gmv": 29.99,
+          "product_id": "1729388554561294555",
+          "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
+          "price": 39.99,
+          "total_gmv": 345.56,
+          "share_pct": 1.2,
+          "video_gmv": 290.94,
           "live_gmv": 0,
-          "shop_tab_gmv": 144.26,
-          "units_sold": 6
+          "shop_tab_gmv": 102.41,
+          "units_sold": 22
+        },
+        {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
+          "price": 39.99,
+          "total_gmv": 272.8,
+          "share_pct": 1.0,
+          "video_gmv": 152.96,
+          "live_gmv": 0,
+          "shop_tab_gmv": 79.85,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1732655825084190939",
+          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "price": 33.99,
+          "total_gmv": 270.0,
+          "share_pct": 0.9,
+          "video_gmv": 0,
+          "live_gmv": 270.0,
+          "shop_tab_gmv": 27.0,
+          "units_sold": 13
         },
         {
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 39.99,
-          "total_gmv": 158.41,
-          "share_pct": 0.6,
-          "video_gmv": 46.45,
+          "total_gmv": 215.95,
+          "share_pct": 0.8,
+          "video_gmv": 76.0,
           "live_gmv": 0,
-          "shop_tab_gmv": 110.43,
-          "units_sold": 6
+          "shop_tab_gmv": 159.97,
+          "units_sold": 9
         },
         {
-          "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Shoe Dryer, Powerful Fast Drying Machine with 4 Extendable Removable Tubes, Extendable Tubes Pack Easy, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer for Gloves, Sneakers",
-          "price": 149.99,
-          "total_gmv": 122.49,
+          "product_id": "1729394250782118107",
+          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
+          "price": 67.99,
+          "total_gmv": 150.37,
           "share_pct": 0.5,
-          "video_gmv": 122.49,
+          "video_gmv": 84.09,
           "live_gmv": 0,
-          "shop_tab_gmv": 122.49,
-          "units_sold": 1
+          "shop_tab_gmv": 67.09,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1729388475149750491",
+          "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
+          "price": 29.99,
+          "total_gmv": 139.82,
+          "share_pct": 0.5,
+          "video_gmv": 29.99,
+          "live_gmv": 0,
+          "shop_tab_gmv": 115.18,
+          "units_sold": 5
         },
         {
           "product_id": "1730129570622640347",
           "product_name": "Everlasting Comfort 6L Top-Fill Desktop Herbal Diffuser Humidifier - 38W, Low Noise Cool Mist, 60-Hour Run Time, 180ml/h & 500ml Capability, Standard Plug, Easy-Clean Kit, Adds Essential Oils, Corded Bedroom Breathing Therapy Device",
           "price": 119.99,
           "total_gmv": 119.99,
-          "share_pct": 0.5,
+          "share_pct": 0.4,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 0,
           "units_sold": 1
-        },
-        {
-          "product_id": "1729394250782118107",
-          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
-          "price": 67.99,
-          "total_gmv": 116.38,
-          "share_pct": 0.4,
-          "video_gmv": 84.09,
-          "live_gmv": 0,
-          "shop_tab_gmv": 33.1,
-          "units_sold": 3
-        },
-        {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 114.97,
-          "share_pct": 0.4,
-          "video_gmv": 114.97,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 3
         },
         {
           "product_id": "1730129811577671899",
@@ -974,22 +963,11 @@
           "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
           "price": 9.99,
           "total_gmv": 69.64,
-          "share_pct": 0.3,
+          "share_pct": 0.2,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 59.65,
           "units_sold": 7
-        },
-        {
-          "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
-          "price": 59.99,
-          "total_gmv": 55.0,
-          "share_pct": 0.2,
-          "video_gmv": 55.0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 55.0,
-          "units_sold": 1
         },
         {
           "product_id": "1732530411400171739",
@@ -1012,28 +990,6 @@
           "live_gmv": 0,
           "shop_tab_gmv": 47.98,
           "units_sold": 2
-        },
-        {
-          "product_id": "1730130848266359003",
-          "product_name": "Everlasting Comfort | Lumbar Support Pillow - Gel Infused Polyester Ergonomic Office Chair Cushion, Padded Supportive Sitting Waist Back Cushion for Gaming Chair, Car, Low Back Pain Relief & Better Posture Promotion, Padded Cushion, Ergonomic Cushion",
-          "price": 43.99,
-          "total_gmv": 39.99,
-          "share_pct": 0.2,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 39.99,
-          "units_sold": 1
-        },
-        {
-          "product_id": "1730130868699435227",
-          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion, Supportive Sitting for Tailbone Pain Relief, Ideal for Home Office, Car Interior Use",
-          "price": 29.99,
-          "total_gmv": 26.99,
-          "share_pct": 0.1,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 26.99,
-          "units_sold": 1
         },
         {
           "product_id": "1729385809950380251",
@@ -1103,7 +1059,7 @@
         },
         {
           "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Washable Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic Soft Transpirable Dual Layer Fabric, Machine Washable for Dorm Rooms",
+          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
           "price": 39.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1116,6 +1072,17 @@
           "product_id": "1729391860653920475",
           "product_name": "Everlasting Comfort 6L Humidifier - Large Room No-Filter, for Plants, Baby, Allergies, Dry Skin, Congestion, 50 Hr Run Time, Easy Clean",
           "price": 67.99,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
+          "product_id": "1729391862019821787",
+          "product_name": "Heavy-Duty Shoe Dryer, Powerful Fast Drying Machine with 4 Extendable Removable Tubes, Extendable Tubes Pack Easy, Fanless Quiet Operation, Automatic Drying Mode, 180-Minute Auto Timer for Gloves, Sneakers",
+          "price": 149.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1179,6 +1146,28 @@
           "units_sold": 0
         },
         {
+          "product_id": "1730130752085856475",
+          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
+          "price": 59.99,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
+          "product_id": "1730130868699435227",
+          "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion, Supportive Sitting for Tailbone Pain Relief, Ideal for Home Office, Car Interior Use",
+          "price": 29.99,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
           "product_id": "1730130928473313499",
           "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - 17.5 x 13 x 6 inches Ergonomic, Versatile, Adjustable High-Density Foam Leg Positioner Pillow with Breathable Cover, Elevates Feet for Office, Gaming Use, Improves Posture, Enhances Circulation",
           "price": 37.99,
@@ -1203,157 +1192,179 @@
       ]
     },
     "60d": {
-      "range": "2026-08-06 to 2026-10-04",
+      "range": "2026-08-13 to 2026-10-11",
       "revenue": {
-        "total_gmv": 108074.69,
-        "affiliate_gmv": 95020.25,
-        "video_gmv": 53769.94,
-        "live_gmv": 39210.26,
-        "shop_tab_gmv": 18004.34,
-        "gmv_max_revenue": 85699.06000000001,
+        "total_gmv": 92577.39,
+        "affiliate_gmv": 79157.42,
+        "video_gmv": 44673.05,
+        "live_gmv": 33738.57,
+        "shop_tab_gmv": 17008.02,
+        "gmv_max_revenue": 70785.86,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 70339.22,
-        "commission": 21866.44,
-        "refund_amount": 11468.47,
-        "shipping_fees": 32452.0
+        "ad_spend": 53498.37999999999,
+        "commission": 17769.52,
+        "refund_amount": 10261.57,
+        "shipping_fees": 26942.0
       },
-      "net_after_ads_commissions_refunds": 4400.56,
+      "net_after_ads_commissions_refunds": 11047.92,
       "ratios": {
-        "blended_roas": 1.5365,
-        "gmv_max_roas": 1.2184,
-        "commission_rate_pct": 23.01,
-        "refund_rate_pct": 10.61,
-        "aov": 25.1,
-        "gpm": 8.84,
-        "emv": 30232.24,
-        "gmv_per_sample_delivered": 208.84
+        "blended_roas": 1.7305,
+        "gmv_max_roas": 1.3231,
+        "commission_rate_pct": 22.45,
+        "refund_rate_pct": 11.08,
+        "aov": 25.77,
+        "gpm": 8.92,
+        "emv": 24893.31,
+        "gmv_per_sample_delivered": 206.14
       },
       "volume": {
-        "orders": 4305,
-        "units_sold": 4780.0,
-        "creators": 487,
-        "samples_delivered": 455,
-        "video_views": 6046448
+        "orders": 3592,
+        "units_sold": 3901.0,
+        "creators": 428,
+        "samples_delivered": 384,
+        "video_views": 4978663
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 55.99,
-          "total_gmv": 71241.83,
-          "share_pct": 65.9,
-          "video_gmv": 23527.49,
-          "live_gmv": 40187.28,
-          "shop_tab_gmv": 10386.53,
-          "units_sold": 2438
+          "total_gmv": 60235.36,
+          "share_pct": 65.1,
+          "video_gmv": 20109.76,
+          "live_gmv": 33752.27,
+          "shop_tab_gmv": 9598.49,
+          "units_sold": 1985
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 29246.34,
-          "share_pct": 27.1,
-          "video_gmv": 26190.15,
+          "total_gmv": 24321.77,
+          "share_pct": 26.3,
+          "video_gmv": 21485.84,
           "live_gmv": 0,
-          "shop_tab_gmv": 4394.22,
-          "units_sold": 1947
-        },
-        {
-          "product_id": "1729388554561294555",
-          "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
-          "price": 39.99,
-          "total_gmv": 2497.53,
-          "share_pct": 2.3,
-          "video_gmv": 2242.86,
-          "live_gmv": 0,
-          "shop_tab_gmv": 352.12,
-          "units_sold": 202
-        },
-        {
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "price": 39.99,
-          "total_gmv": 926.65,
-          "share_pct": 0.9,
-          "video_gmv": 645.7,
-          "live_gmv": 0,
-          "shop_tab_gmv": 314.94,
-          "units_sold": 27
+          "shop_tab_gmv": 4116.38,
+          "units_sold": 1493
         },
         {
           "product_id": "1732530504119718107",
           "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 67.99,
-          "total_gmv": 787.59,
-          "share_pct": 0.7,
-          "video_gmv": 254.48,
-          "live_gmv": 39.98,
-          "shop_tab_gmv": 277.7,
-          "units_sold": 59
+          "total_gmv": 1958.06,
+          "share_pct": 2.1,
+          "video_gmv": 1014.24,
+          "live_gmv": 50.97,
+          "shop_tab_gmv": 418.31,
+          "units_sold": 157
+        },
+        {
+          "product_id": "1729388554561294555",
+          "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
+          "price": 39.99,
+          "total_gmv": 1529.95,
+          "share_pct": 1.7,
+          "video_gmv": 1348.76,
+          "live_gmv": 0,
+          "shop_tab_gmv": 271.21,
+          "units_sold": 116
+        },
+        {
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "price": 39.99,
+          "total_gmv": 883.65,
+          "share_pct": 1.0,
+          "video_gmv": 685.69,
+          "live_gmv": 0,
+          "shop_tab_gmv": 271.94,
+          "units_sold": 27
         },
         {
           "product_id": "1729385798535319771",
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
-          "total_gmv": 583.59,
-          "share_pct": 0.5,
+          "total_gmv": 611.58,
+          "share_pct": 0.7,
           "video_gmv": 236.35,
           "live_gmv": 0,
-          "shop_tab_gmv": 422.65,
-          "units_sold": 22
-        },
-        {
-          "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
-          "price": 73.99,
-          "total_gmv": 570.87,
-          "share_pct": 0.5,
-          "video_gmv": 53.99,
-          "live_gmv": 0,
-          "shop_tab_gmv": 246.7,
-          "units_sold": 9
-        },
-        {
-          "product_id": "1729394250782118107",
-          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
-          "price": 67.99,
-          "total_gmv": 405.25,
-          "share_pct": 0.4,
-          "video_gmv": 84.09,
-          "live_gmv": 0,
-          "shop_tab_gmv": 189.35,
-          "units_sold": 10
+          "shop_tab_gmv": 450.64,
+          "units_sold": 23
         },
         {
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 39.99,
-          "total_gmv": 338.5,
-          "share_pct": 0.3,
-          "video_gmv": 106.64,
+          "total_gmv": 441.03,
+          "share_pct": 0.5,
+          "video_gmv": 156.18,
           "live_gmv": 0,
-          "shop_tab_gmv": 290.52,
-          "units_sold": 17
+          "shop_tab_gmv": 365.06,
+          "units_sold": 21
+        },
+        {
+          "product_id": "1729394250782118107",
+          "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
+          "price": 67.99,
+          "total_gmv": 439.24,
+          "share_pct": 0.5,
+          "video_gmv": 84.09,
+          "live_gmv": 0,
+          "shop_tab_gmv": 223.34,
+          "units_sold": 11
+        },
+        {
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "price": 73.99,
+          "total_gmv": 368.9,
+          "share_pct": 0.4,
+          "video_gmv": 53.99,
+          "live_gmv": 0,
+          "shop_tab_gmv": 172.71,
+          "units_sold": 6
         },
         {
           "product_id": "1729388475149750491",
           "product_name": "Everlasting Comfort Queen US Standard Knitted Cooling Blanket (60x80in) - Breathable Cold Blanket, Japanese Icy-Cool Ice Fabric, 100% Bamboo Cotton, Double-Sided Reversible, Soft Lightweight, Indoor Solid Bedding for Hot Sleepers' Hot Flash Relief",
           "price": 29.99,
-          "total_gmv": 324.53,
+          "total_gmv": 296.04,
           "share_pct": 0.3,
           "video_gmv": 29.99,
           "live_gmv": 0,
-          "shop_tab_gmv": 299.89,
-          "units_sold": 12
+          "shop_tab_gmv": 271.4,
+          "units_sold": 11
+        },
+        {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
+          "price": 39.99,
+          "total_gmv": 272.8,
+          "share_pct": 0.3,
+          "video_gmv": 152.96,
+          "live_gmv": 0,
+          "shop_tab_gmv": 79.85,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1732655825084190939",
+          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "price": 33.99,
+          "total_gmv": 270.0,
+          "share_pct": 0.3,
+          "video_gmv": 0,
+          "live_gmv": 270.0,
+          "shop_tab_gmv": 27.0,
+          "units_sold": 13
         },
         {
           "product_id": "1730130752085856475",
           "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
           "price": 59.99,
           "total_gmv": 161.09,
-          "share_pct": 0.1,
+          "share_pct": 0.2,
           "video_gmv": 82.64,
           "live_gmv": 0,
           "shop_tab_gmv": 93.46,
@@ -1380,17 +1391,6 @@
           "live_gmv": 0,
           "shop_tab_gmv": 0,
           "units_sold": 1
-        },
-        {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 114.97,
-          "share_pct": 0.1,
-          "video_gmv": 114.97,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 3
         },
         {
           "product_id": "1730273357213896923",
@@ -1437,28 +1437,6 @@
           "units_sold": 3
         },
         {
-          "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Washable Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic Soft Transpirable Dual Layer Fabric, Machine Washable for Dorm Rooms",
-          "price": 39.99,
-          "total_gmv": 69.48,
-          "share_pct": 0.1,
-          "video_gmv": 31.49,
-          "live_gmv": 0,
-          "shop_tab_gmv": 69.48,
-          "units_sold": 2
-        },
-        {
-          "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
-          "price": 23.99,
-          "total_gmv": 57.41,
-          "share_pct": 0.1,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 57.41,
-          "units_sold": 2
-        },
-        {
           "product_id": "1730130868699435227",
           "product_name": "Everlasting Comfort Donut Coccyx Cushion - 2-in-1 Velvet Memory Foam Car Seat Cushion, Supportive Sitting for Tailbone Pain Relief, Ideal for Home Office, Car Interior Use",
           "price": 29.99,
@@ -1474,11 +1452,22 @@
           "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
           "price": 47.99,
           "total_gmv": 50.93,
-          "share_pct": 0.0,
+          "share_pct": 0.1,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 50.93,
           "units_sold": 2
+        },
+        {
+          "product_id": "1729387976535412955",
+          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
+          "price": 39.99,
+          "total_gmv": 31.49,
+          "share_pct": 0.0,
+          "video_gmv": 31.49,
+          "live_gmv": 0,
+          "shop_tab_gmv": 31.49,
+          "units_sold": 1
         },
         {
           "product_id": "1729385798566514907",
@@ -1503,14 +1492,14 @@
           "units_sold": 1
         },
         {
-          "product_id": "1729664580475916507",
-          "product_name": "Pet Hair Remover w/ Fur Trapping Compartment - Easy to Use Pet Hair Removal Tool - Reusable Lint Roller, multi-surface",
-          "price": 15.99,
-          "total_gmv": 16.62,
+          "product_id": "1729385809950380251",
+          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
+          "price": 23.99,
+          "total_gmv": 23.99,
           "share_pct": 0.0,
-          "video_gmv": 16.62,
+          "video_gmv": 0,
           "live_gmv": 0,
-          "shop_tab_gmv": 16.62,
+          "shop_tab_gmv": 23.99,
           "units_sold": 1
         },
         {
@@ -1580,6 +1569,17 @@
           "units_sold": 0
         },
         {
+          "product_id": "1729664580475916507",
+          "product_name": "Pet Hair Remover w/ Fur Trapping Compartment - Easy to Use Pet Hair Removal Tool - Reusable Lint Roller, multi-surface",
+          "price": 15.99,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
           "product_id": "1730129060140454107",
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
           "price": 69.98,
@@ -1594,17 +1594,6 @@
           "product_id": "1730129398592344283",
           "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
           "price": 37.99,
-          "total_gmv": 0,
-          "share_pct": 0.0,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 0
-        },
-        {
-          "product_id": "1730129608917422299",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Humidifier for Plants, Indoor Humidifier for Plants & Flowers, Quiet, Easy to Clean & Fill, 20 Hour Run Time",
-          "price": 79.98,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1637,106 +1626,106 @@
       ]
     },
     "90d": {
-      "range": "2026-07-07 to 2026-10-04",
+      "range": "2026-07-14 to 2026-10-11",
       "revenue": {
-        "total_gmv": 181117.84,
-        "affiliate_gmv": 160061.59,
-        "video_gmv": 101773.77,
-        "live_gmv": 55323.28,
-        "shop_tab_gmv": 26587.68,
-        "gmv_max_revenue": 164975.08000000002,
+        "total_gmv": 176369.98,
+        "affiliate_gmv": 154230.46,
+        "video_gmv": 96755.21,
+        "live_gmv": 55839.21,
+        "shop_tab_gmv": 26342.22,
+        "gmv_max_revenue": 158318.92,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 158343.31,
-        "commission": 37540.58,
-        "refund_amount": 18254.24,
-        "shipping_fees": 55677.6
+        "ad_spend": 145419.61,
+        "commission": 36125.87,
+        "refund_amount": 18596.7,
+        "shipping_fees": 54393.2
       },
-      "net_after_ads_commissions_refunds": -33020.29,
+      "net_after_ads_commissions_refunds": -23772.2,
       "ratios": {
-        "blended_roas": 1.1438,
-        "gmv_max_roas": 1.0419,
-        "commission_rate_pct": 23.45,
-        "refund_rate_pct": 10.08,
-        "aov": 24.57,
-        "gpm": 7.86,
-        "emv": 64583.19,
-        "gmv_per_sample_delivered": 210.88
+        "blended_roas": 1.2128,
+        "gmv_max_roas": 1.0887,
+        "commission_rate_pct": 23.42,
+        "refund_rate_pct": 10.54,
+        "aov": 24.46,
+        "gpm": 8.25,
+        "emv": 58468.74,
+        "gmv_per_sample_delivered": 201.08
       },
       "volume": {
-        "orders": 7371,
-        "units_sold": 8330.0,
-        "creators": 743,
-        "samples_delivered": 759,
-        "video_views": 12916639
+        "orders": 7212,
+        "units_sold": 8135.0,
+        "creators": 710,
+        "samples_delivered": 767,
+        "video_views": 11693748
       },
       "products": [
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 55.99,
-          "total_gmv": 119352.75,
-          "share_pct": 65.9,
-          "video_gmv": 49533.87,
-          "live_gmv": 56504.27,
-          "shop_tab_gmv": 16205.52,
-          "units_sold": 4422
+          "total_gmv": 112936.94,
+          "share_pct": 64.0,
+          "video_gmv": 44269.28,
+          "live_gmv": 55904.53,
+          "shop_tab_gmv": 15752.18,
+          "units_sold": 4100
         },
         {
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
           "price": 27.99,
-          "total_gmv": 50186.66,
-          "share_pct": 27.7,
-          "video_gmv": 45062.44,
+          "total_gmv": 50415.82,
+          "share_pct": 28.6,
+          "video_gmv": 45397.0,
           "live_gmv": 77.97,
-          "shop_tab_gmv": 6250.29,
-          "units_sold": 3234
+          "shop_tab_gmv": 6396.2,
+          "units_sold": 3248
         },
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
           "price": 39.99,
-          "total_gmv": 5662.69,
-          "share_pct": 3.1,
-          "video_gmv": 5210.02,
+          "total_gmv": 5734.51,
+          "share_pct": 3.3,
+          "video_gmv": 5263.85,
           "live_gmv": 0,
-          "shop_tab_gmv": 572.47,
-          "units_sold": 453
-        },
-        {
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "price": 39.99,
-          "total_gmv": 926.65,
-          "share_pct": 0.5,
-          "video_gmv": 645.7,
-          "live_gmv": 0,
-          "shop_tab_gmv": 314.94,
-          "units_sold": 27
+          "shop_tab_gmv": 590.46,
+          "units_sold": 457
         },
         {
           "product_id": "1732530504119718107",
           "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
           "price": 67.99,
-          "total_gmv": 787.59,
-          "share_pct": 0.4,
-          "video_gmv": 254.48,
-          "live_gmv": 39.98,
-          "shop_tab_gmv": 277.7,
-          "units_sold": 59
+          "total_gmv": 1958.06,
+          "share_pct": 1.1,
+          "video_gmv": 1014.24,
+          "live_gmv": 50.97,
+          "shop_tab_gmv": 418.31,
+          "units_sold": 157
+        },
+        {
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "price": 39.99,
+          "total_gmv": 966.64,
+          "share_pct": 0.5,
+          "video_gmv": 685.69,
+          "live_gmv": 0,
+          "shop_tab_gmv": 354.93,
+          "units_sold": 28
         },
         {
           "product_id": "1729385798535319771",
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
           "price": 27.99,
-          "total_gmv": 583.59,
+          "total_gmv": 611.58,
           "share_pct": 0.3,
           "video_gmv": 236.35,
           "live_gmv": 0,
-          "shop_tab_gmv": 422.65,
-          "units_sold": 22
+          "shop_tab_gmv": 450.64,
+          "units_sold": 23
         },
         {
           "product_id": "1732530411400171739",
@@ -1753,22 +1742,22 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 39.99,
-          "total_gmv": 514.51,
+          "total_gmv": 498.19,
           "share_pct": 0.3,
-          "video_gmv": 147.22,
+          "video_gmv": 174.37,
           "live_gmv": 0,
-          "shop_tab_gmv": 451.54,
-          "units_sold": 27
+          "shop_tab_gmv": 407.23,
+          "units_sold": 25
         },
         {
           "product_id": "1729394250782118107",
           "product_name": "Everlasting Comfort Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Seat Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Supportive Sitting, Good Posture, Stress Relief, Modern Office & Car Furniture Accessory",
           "price": 67.99,
-          "total_gmv": 501.95,
+          "total_gmv": 475.95,
           "share_pct": 0.3,
           "video_gmv": 84.09,
           "live_gmv": 0,
-          "shop_tab_gmv": 286.05,
+          "shop_tab_gmv": 260.05,
           "units_sold": 12
         },
         {
@@ -1783,15 +1772,37 @@
           "units_sold": 14
         },
         {
+          "product_id": "1732604928188453083",
+          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
+          "price": 39.99,
+          "total_gmv": 272.8,
+          "share_pct": 0.2,
+          "video_gmv": 152.96,
+          "live_gmv": 0,
+          "shop_tab_gmv": 79.85,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1732655825084190939",
+          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "price": 33.99,
+          "total_gmv": 270.0,
+          "share_pct": 0.2,
+          "video_gmv": 0,
+          "live_gmv": 270.0,
+          "shop_tab_gmv": 27.0,
+          "units_sold": 13
+        },
+        {
           "product_id": "1730130752085856475",
           "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Airy Mesh Fabric Cover, Adjustable Straps, Removable Machine-Washable Cover, Contoured Shape, Posture Aid, Low Back Pain Relief for Office/Car/Couch",
           "price": 59.99,
-          "total_gmv": 292.56,
-          "share_pct": 0.2,
+          "total_gmv": 205.08,
+          "share_pct": 0.1,
           "video_gmv": 82.64,
           "live_gmv": 0,
-          "shop_tab_gmv": 224.93,
-          "units_sold": 8
+          "shop_tab_gmv": 137.45,
+          "units_sold": 6
         },
         {
           "product_id": "1730273357213896923",
@@ -1827,33 +1838,11 @@
           "units_sold": 1
         },
         {
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
-          "total_gmv": 114.97,
-          "share_pct": 0.1,
-          "video_gmv": 114.97,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 3
-        },
-        {
-          "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Washable Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic Soft Transpirable Dual Layer Fabric, Machine Washable for Dorm Rooms",
-          "price": 39.99,
-          "total_gmv": 96.68,
-          "share_pct": 0.1,
-          "video_gmv": 31.49,
-          "live_gmv": 0,
-          "shop_tab_gmv": 96.68,
-          "units_sold": 4
-        },
-        {
           "product_id": "1730130703186235611",
           "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 88.74,
-          "share_pct": 0.0,
+          "share_pct": 0.1,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 88.74,
@@ -1880,6 +1869,17 @@
           "live_gmv": 0,
           "shop_tab_gmv": 77.2,
           "units_sold": 2
+        },
+        {
+          "product_id": "1729387976535412955",
+          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
+          "price": 39.99,
+          "total_gmv": 69.49,
+          "share_pct": 0.0,
+          "video_gmv": 31.49,
+          "live_gmv": 0,
+          "shop_tab_gmv": 69.49,
+          "units_sold": 3
         },
         {
           "product_id": "1729391860653920475",
@@ -1926,28 +1926,6 @@
           "units_sold": 2
         },
         {
-          "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter-Strainer System, Thick Glass Water-Boiling Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Support for Coffee Brewing",
-          "price": 35.99,
-          "total_gmv": 55.84,
-          "share_pct": 0.0,
-          "video_gmv": 55.84,
-          "live_gmv": 0,
-          "shop_tab_gmv": 0,
-          "units_sold": 1
-        },
-        {
-          "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Perfect Gift for Dads, Moms",
-          "price": 69.99,
-          "total_gmv": 52.49,
-          "share_pct": 0.0,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 52.49,
-          "units_sold": 1
-        },
-        {
           "product_id": "1729391868219986139",
           "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
           "price": 47.99,
@@ -1957,17 +1935,6 @@
           "live_gmv": 0,
           "shop_tab_gmv": 50.93,
           "units_sold": 2
-        },
-        {
-          "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - 17.5 x 13 x 6 inches Ergonomic, Versatile, Adjustable High-Density Foam Leg Positioner Pillow with Breathable Cover, Elevates Feet for Office, Gaming Use, Improves Posture, Enhances Circulation",
-          "price": 37.99,
-          "total_gmv": 33.99,
-          "share_pct": 0.0,
-          "video_gmv": 0,
-          "live_gmv": 0,
-          "shop_tab_gmv": 33.99,
-          "units_sold": 1
         },
         {
           "product_id": "1729385798566514907",
@@ -2006,6 +1973,28 @@
           "product_id": "1729385810739499227",
           "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
           "price": 29.99,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
+          "product_id": "1729385884834369755",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Perfect Gift for Dads, Moms",
+          "price": 69.99,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
+          "product_id": "1729387931860635867",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter-Strainer System, Thick Glass Water-Boiling Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Support for Coffee Brewing",
+          "price": 35.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -2072,6 +2061,17 @@
           "product_id": "1730129608917422299",
           "product_name": "Everlasting Comfort 2.5L Top Fill Humidifier for Plants, Indoor Humidifier for Plants & Flowers, Quiet, Easy to Clean & Fill, 20 Hour Run Time",
           "price": 79.98,
+          "total_gmv": 0,
+          "share_pct": 0.0,
+          "video_gmv": 0,
+          "live_gmv": 0,
+          "shop_tab_gmv": 0,
+          "units_sold": 0
+        },
+        {
+          "product_id": "1730130928473313499",
+          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - 17.5 x 13 x 6 inches Ergonomic, Versatile, Adjustable High-Density Foam Leg Positioner Pillow with Breathable Cover, Elevates Feet for Office, Gaming Use, Improves Posture, Enhances Circulation",
+          "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
