@@ -33,19 +33,19 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-10-12",
+    "pulled_on": "2026-10-13",
     "data_through": "2026-10-11",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-10-12. Complete attribution through 2026-10-11."
+    "note": "Pulled from Cruva REST API on 2026-10-13. Complete attribution through 2026-10-11."
   },
   "latest_source_check": {
-    "date": "2026-10-11",
-    "seller_center_gmv": 1702.93,
-    "orders": 61,
-    "units": 68,
-    "gmv_max_revenue": 1671.7,
-    "gmv_max_spend": 1031.48,
-    "gmv_max_roas": 1.6206809632760693,
+    "date": "2026-10-12",
+    "seller_center_gmv": 891.57,
+    "orders": 46,
+    "units": 48,
+    "gmv_max_revenue": 1064.51,
+    "gmv_max_spend": 799.67,
+    "gmv_max_roas": 1.3311866144784725,
     "attribution_status": "complete"
   },
   "periods": {
@@ -56,20 +56,20 @@
         "sub": "Seller Center GMV through the latest complete Cruva day.",
         "range": "Oct 5 to Oct 11, 2026",
         "days": 7,
-        "gmv": 8275.7,
-        "gmvDelta": "+3.4% vs prior period",
+        "gmv": 8444.44,
+        "gmvDelta": "+5.5% vs prior period",
         "down": false,
-        "adRevenue": 6688.7,
-        "adSpend": 4081.09,
-        "roas": 1.6389,
+        "adRevenue": 6708.6900000000005,
+        "adSpend": 4120.33,
+        "roas": 1.6282,
         "m": {
-          "Orders": 333,
-          "Units sold": 363.0,
-          "Affiliate GMV": 5443.79,
-          "Commission": 1081.5,
-          "Videos posted": 250,
-          "Creators posting": 78,
-          "Video views": 312678,
+          "Orders": 340,
+          "Units sold": 370.0,
+          "Affiliate GMV": 6937.99,
+          "Commission": 1400.7,
+          "Videos posted": 267,
+          "Creators posting": 83,
+          "Video views": 418231,
           "LIVE GMV": 2698.88,
           "DMs sent": 270,
           "Sample requests": 133,
@@ -77,13 +77,13 @@
           "LIVE streams": 127
         },
         "deltas": {
-          "Orders": 7.77,
-          "Units sold": 10.33,
-          "Affiliate GMV": -19.48,
-          "Commission": -10.87,
-          "Videos posted": 157.73,
-          "Creators posting": 25.81,
-          "Video views": -42.72,
+          "Orders": 10.03,
+          "Units sold": 12.46,
+          "Affiliate GMV": 2.63,
+          "Commission": 15.44,
+          "Videos posted": 175.26,
+          "Creators posting": 33.87,
+          "Video views": -23.38,
           "LIVE GMV": -6.66,
           "DMs sent": -94.79,
           "Sample requests": -39.27,
@@ -109,7 +109,7 @@
           "Samples approved": 40,
           "Samples shipped": 59.0,
           "Samples delivered": 68,
-          "Creators with sales": 36
+          "Creators with sales": 46
         },
         "daily": [
           [
@@ -188,12 +188,22 @@
         [
           "Sylvia",
           "sylviaapproved",
-          998.78,
-          46,
-          132404,
-          208.8,
+          1607.57,
+          79,
+          185456,
+          346.4,
           13,
           0
+        ],
+        [
+          "Fortune Finds",
+          "fortune0420",
+          800.74,
+          19,
+          62,
+          212.0,
+          0,
+          10
         ],
         [
           "lauriesfinds",
@@ -206,6 +216,26 @@
           2
         ],
         [
+          "Muscle Dad",
+          "muscle_dad",
+          362.19,
+          8,
+          40309,
+          70.3,
+          0,
+          0
+        ],
+        [
+          "Red Oakley",
+          "jaterao92",
+          325.85,
+          8,
+          14265,
+          65.25,
+          0,
+          0
+        ],
+        [
           "opantalk",
           "opantalk",
           270.0,
@@ -216,43 +246,23 @@
           2
         ],
         [
-          "Fortune Finds",
-          "fortune0420",
-          239.78,
-          6,
-          44,
-          65.25,
-          0,
-          10
-        ],
-        [
-          "Muscle Dad",
-          "muscle_dad",
-          216.55,
-          5,
-          30685,
-          41.3,
-          0,
-          0
-        ],
-        [
-          "Red Oakley",
-          "jaterao92",
-          147.7,
-          4,
-          9906,
-          28.45,
-          0,
-          0
-        ],
-        [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          139.22,
-          7,
-          6676,
-          33.2,
+          176.03,
+          9,
+          9003,
+          39.5,
           13,
+          0
+        ],
+        [
+          "The Gem Of Gemini",
+          "the.gem.of.gemini",
+          101.95,
+          4,
+          2365,
+          15.3,
+          0,
           0
         ],
         [
@@ -260,28 +270,18 @@
           "happyshop968",
           91.95,
           3,
-          3013,
+          3486,
           6.0,
-          0,
-          0
-        ],
-        [
-          "MASK MAN",
-          "maskman..2",
-          61.98,
-          2,
-          3253,
-          7.7,
           0,
           0
         ],
         [
           "Mondo",
           "tapa_mondo",
-          54.97,
-          1,
-          8307,
-          5.5,
+          74.95,
+          3,
+          9699,
+          10.3,
           11,
           0
         ]
@@ -292,10 +292,10 @@
           "#automaticumbrella #umbrella #windproofumbrella #umbrellas #tiktokshopcreatorpicks   ",
           "tapa_mondo",
           "tapa_mondo",
-          64.96,
-          4,
-          1107,
-          22,
+          84.62,
+          6,
+          1344,
+          23,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
         [
@@ -305,8 +305,8 @@
           "mrhotpicks",
           59.97,
           3,
-          1944,
-          7,
+          2432,
+          8,
           "https://tiktok.com/@mrhotpicks/video/7694099956629507359"
         ],
         [
@@ -316,9 +316,20 @@
           "its.massielll",
           58.62,
           6,
-          3429,
-          35,
+          4135,
+          42,
           "https://tiktok.com/@its.massielll/video/7693018427660733710"
+        ],
+        [
+          "7694356427460070686",
+          "#tiktokshopfalldealsforyou #pink #umbrella #rainyday #rain",
+          "sylviaapproved",
+          "sylviaapproved",
+          44.87,
+          4,
+          6526,
+          57,
+          "https://tiktok.com/@sylviaapproved/video/7694356427460070686"
         ],
         [
           "7694783798537374990",
@@ -327,8 +338,8 @@
           "nursesylvia77",
           39.98,
           2,
-          63,
-          8,
+          68,
+          9,
           "https://tiktok.com/@nursesylvia77/video/7694783798537374990"
         ],
         [
@@ -338,7 +349,7 @@
           "repel_umbrella",
           34.98,
           2,
-          124,
+          125,
           0,
           "https://tiktok.com/@repel_umbrella/video/7694419735693298957"
         ],
@@ -349,9 +360,20 @@
           "tinkaagiovanni_",
           30.77,
           3,
-          2624,
-          64,
+          2959,
+          71,
           "https://tiktok.com/@tinkaagiovanni_/video/7693324466977279245"
+        ],
+        [
+          "7694302109830827277",
+          "I think I know which Asian umbrella is better #repelumbrella #umbrella #automaticumbrella #tiktoksho",
+          "worldsgreatestchad",
+          "worldsgreatestchad",
+          27.99,
+          2,
+          1204,
+          5,
+          "https://tiktok.com/@worldsgreatestchad/video/7694302109830827277"
         ],
         [
           "7693700292164046093",
@@ -360,8 +382,8 @@
           "marielos_granados",
           24.3,
           2,
-          1178,
-          7,
+          1298,
+          8,
           "https://tiktok.com/@marielos_granados/video/7693700292164046093"
         ],
         [
@@ -371,31 +393,9 @@
           "cannedmeatscompetitionbb",
           20.98,
           2,
-          1734,
+          1877,
           4,
           "https://tiktok.com/@cannedmeatscompetitionbb/video/7693029633289145631"
-        ],
-        [
-          "7693333761718603039",
-          "#creatorsearchinsights #viral_video #CityTasteTest #usa\ud83c\uddfa\ud83c\uddf8 #takopetchallenge ",
-          "junior_az_promo",
-          "junior_az_promo",
-          19.99,
-          1,
-          585,
-          2,
-          "https://tiktok.com/@junior_az_promo/video/7693333761718603039"
-        ],
-        [
-          "7694302109830827277",
-          "I think I know which Asian umbrella is better #repelumbrella #umbrella #automaticumbrella #tiktoksho",
-          "worldsgreatestchad",
-          "worldsgreatestchad",
-          19.99,
-          1,
-          876,
-          4,
-          "https://tiktok.com/@worldsgreatestchad/video/7694302109830827277"
         ]
       ]
     },
@@ -406,20 +406,20 @@
         "sub": "Seller Center GMV through the latest complete Cruva day.",
         "range": "Sep 28 to Oct 11, 2026",
         "days": 14,
-        "gmv": 16279.31,
-        "gmvDelta": "+70.6% vs prior period",
+        "gmv": 16448.05,
+        "gmvDelta": "+72.4% vs prior period",
         "down": false,
-        "adRevenue": 11810.93,
-        "adSpend": 7699.629999999999,
-        "roas": 1.534,
+        "adRevenue": 11830.92,
+        "adSpend": 7738.87,
+        "roas": 1.5288,
         "m": {
-          "Orders": 642,
-          "Units sold": 692.0,
-          "Affiliate GMV": 12204.23,
-          "Commission": 2294.91,
-          "Videos posted": 347,
-          "Creators posting": 122,
-          "Video views": 858542,
+          "Orders": 649,
+          "Units sold": 699.0,
+          "Affiliate GMV": 13698.43,
+          "Commission": 2614.11,
+          "Videos posted": 364,
+          "Creators posting": 127,
+          "Video views": 964095,
           "LIVE GMV": 5590.31,
           "DMs sent": 5455,
           "Sample requests": 352,
@@ -427,13 +427,13 @@
           "LIVE streams": 255
         },
         "deltas": {
-          "Orders": 79.33,
-          "Units sold": 75.63,
-          "Affiliate GMV": 63.78,
-          "Commission": 60.62,
-          "Videos posted": 121.02,
-          "Creators posting": 56.41,
-          "Video views": 23.04,
+          "Orders": 81.28,
+          "Units sold": 77.41,
+          "Affiliate GMV": 83.83,
+          "Commission": 82.96,
+          "Videos posted": 131.85,
+          "Creators posting": 62.82,
+          "Video views": 38.17,
           "LIVE GMV": 858.23,
           "DMs sent": -81.21,
           "Sample requests": 29.89,
@@ -459,7 +459,7 @@
           "Samples approved": 158,
           "Samples shipped": 157.0,
           "Samples delivered": 155,
-          "Creators with sales": 59
+          "Creators with sales": 68
         },
         "daily": [
           [
@@ -618,30 +618,40 @@
         [
           "Sylvia",
           "sylviaapproved",
-          2395.22,
-          121,
-          230068,
-          508.8,
+          3004.01,
+          154,
+          283120,
+          646.4,
           24,
           0
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          805.06,
-          23,
-          78708,
-          170.1,
+          950.7,
+          26,
+          88332,
+          199.1,
           0,
           0
         ],
         [
+          "Fortune Finds",
+          "fortune0420",
+          800.74,
+          19,
+          105,
+          212.0,
+          0,
+          21
+        ],
+        [
           "Red Oakley",
           "jaterao92",
-          390.02,
-          12,
-          21926,
-          81.3,
+          568.17,
+          16,
+          26285,
+          118.1,
           0,
           0
         ],
@@ -656,52 +666,42 @@
           4
         ],
         [
-          "Fortune Finds",
-          "fortune0420",
-          239.78,
-          6,
-          87,
-          65.25,
+          "The Gem Of Gemini",
+          "the.gem.of.gemini",
+          218.15,
+          10,
+          5814,
+          34.5,
           0,
-          21
+          0
+        ],
+        [
+          "Coop Queen Courtney",
+          "courtney_gonzales19",
+          215.01,
+          11,
+          17483,
+          47.8,
+          14,
+          0
+        ],
+        [
+          "keniaher",
+          "keniaher.77",
+          207.36,
+          7,
+          15251,
+          34.2,
+          1,
+          0
         ],
         [
           "happyshop",
           "happyshop968",
           190.9,
           7,
-          6773,
+          7246,
           12.12,
-          0,
-          0
-        ],
-        [
-          "keniaher",
-          "keniaher.77",
-          185.37,
-          6,
-          14367,
-          30.9,
-          1,
-          0
-        ],
-        [
-          "Coop Queen Courtney",
-          "courtney_gonzales19",
-          178.2,
-          9,
-          15156,
-          41.5,
-          14,
-          0
-        ],
-        [
-          "The Gem Of Gemini",
-          "the.gem.of.gemini",
-          158.18,
-          8,
-          5426,
-          25.5,
           0,
           0
         ]
@@ -712,10 +712,10 @@
           "Best umbrella out there! #umbrella #heavydutyumbrella #rainyday #winter #repelumbrella ",
           "sylviaapproved",
           "sylviaapproved",
-          114.19,
-          11,
-          14447,
-          34,
+          139.11,
+          13,
+          15171,
+          35,
           "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ],
         [
@@ -723,10 +723,10 @@
           "#automaticumbrella #umbrella #windproofumbrella #umbrellas #tiktokshopcreatorpicks   ",
           "tapa_mondo",
           "tapa_mondo",
-          64.96,
-          4,
-          1107,
-          22,
+          84.62,
+          6,
+          1344,
+          23,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
         [
@@ -736,8 +736,8 @@
           "mrhotpicks",
           59.97,
           3,
-          1944,
-          7,
+          2432,
+          8,
           "https://tiktok.com/@mrhotpicks/video/7694099956629507359"
         ],
         [
@@ -747,9 +747,20 @@
           "its.massielll",
           58.62,
           6,
-          3429,
-          35,
+          4135,
+          42,
           "https://tiktok.com/@its.massielll/video/7693018427660733710"
+        ],
+        [
+          "7694356427460070686",
+          "#tiktokshopfalldealsforyou #pink #umbrella #rainyday #rain",
+          "sylviaapproved",
+          "sylviaapproved",
+          44.87,
+          4,
+          6526,
+          57,
+          "https://tiktok.com/@sylviaapproved/video/7694356427460070686"
         ],
         [
           "7692589468401847565",
@@ -758,8 +769,8 @@
           "mileidys_mily",
           40.98,
           2,
-          3531,
-          84,
+          3998,
+          89,
           "https://tiktok.com/@mileidys_mily/video/7692589468401847565"
         ],
         [
@@ -769,8 +780,8 @@
           "nursesylvia77",
           39.98,
           2,
-          63,
-          8,
+          68,
+          9,
           "https://tiktok.com/@nursesylvia77/video/7694783798537374990"
         ],
         [
@@ -780,8 +791,8 @@
           "sylviaapproved",
           35.46,
           3,
-          4475,
-          28,
+          4840,
+          30,
           "https://tiktok.com/@sylviaapproved/video/7692131608479943967"
         ],
         [
@@ -791,7 +802,7 @@
           "repel_umbrella",
           34.98,
           2,
-          124,
+          125,
           0,
           "https://tiktok.com/@repel_umbrella/video/7694419735693298957"
         ],
@@ -802,20 +813,9 @@
           "tinkaagiovanni_",
           30.77,
           3,
-          2624,
-          64,
+          2959,
+          71,
           "https://tiktok.com/@tinkaagiovanni_/video/7693324466977279245"
-        ],
-        [
-          "7691372181376306462",
-          "No esperes hasta los d\u00edas lluviosos y c\u00f3mpralo hoy! #paraguas #umbrella #tiktokshopcreatorpicks #rai",
-          "sylviaapproved",
-          "sylviaapproved",
-          29.98,
-          2,
-          2434,
-          9,
-          "https://tiktok.com/@sylviaapproved/video/7691372181376306462"
         ]
       ]
     },
@@ -826,20 +826,20 @@
         "sub": "Seller Center GMV through the latest complete Cruva day.",
         "range": "Sep 12 to Oct 11, 2026",
         "days": 30,
-        "gmv": 28546.86,
-        "gmvDelta": "-55.4% vs prior period",
+        "gmv": 28715.6,
+        "gmvDelta": "-55.1% vs prior period",
         "down": true,
-        "adRevenue": 23155.33,
-        "adSpend": 14638.41,
-        "roas": 1.5818,
+        "adRevenue": 23175.32,
+        "adSpend": 14677.650000000001,
+        "roas": 1.579,
         "m": {
-          "Orders": 1093,
-          "Units sold": 1183.0,
-          "Affiliate GMV": 22001.81,
-          "Commission": 4203.01,
-          "Videos posted": 535,
-          "Creators posting": 189,
-          "Video views": 1654972,
+          "Orders": 1100,
+          "Units sold": 1190.0,
+          "Affiliate GMV": 23496.01,
+          "Commission": 4522.21,
+          "Videos posted": 552,
+          "Creators posting": 193,
+          "Video views": 1760525,
           "LIVE GMV": 7371.51,
           "DMs sent": 34499,
           "Sample requests": 650,
@@ -847,13 +847,13 @@
           "LIVE streams": 530
         },
         "deltas": {
-          "Orders": -56.26,
-          "Units sold": -56.48,
-          "Affiliate GMV": -61.51,
-          "Commission": -69.02,
-          "Videos posted": 19.69,
-          "Creators posting": -28.95,
-          "Video views": -50.21,
+          "Orders": -55.98,
+          "Units sold": -56.22,
+          "Affiliate GMV": -58.89,
+          "Commission": -66.67,
+          "Videos posted": 18.2,
+          "Creators posting": -30.32,
+          "Video views": -47.03,
           "LIVE GMV": -72.04,
           "DMs sent": -23.35,
           "Sample requests": 2.04,
@@ -879,7 +879,7 @@
           "Samples approved": 181,
           "Samples shipped": 179.0,
           "Samples delivered": 177,
-          "Creators with sales": 92
+          "Creators with sales": 100
         },
         "daily": [
           [
@@ -1188,10 +1188,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          4265.49,
-          214,
-          353411,
-          934.5,
+          4874.28,
+          247,
+          406463,
+          1072.1,
           25,
           0
         ],
@@ -1208,10 +1208,20 @@
         [
           "Muscle Dad",
           "muscle_dad",
-          1905.56,
-          51,
-          134028,
-          416.55,
+          2051.2,
+          54,
+          143652,
+          445.55,
+          0,
+          0
+        ],
+        [
+          "Red Oakley",
+          "jaterao92",
+          1331.43,
+          39,
+          58920,
+          289.65,
           0,
           0
         ],
@@ -1226,42 +1236,42 @@
           4
         ],
         [
-          "Red Oakley",
-          "jaterao92",
-          1153.28,
-          35,
-          54561,
-          252.85,
+          "Fortune Finds",
+          "fortune0420",
+          912.01,
+          22,
+          313,
+          241.75,
           0,
-          0
+          39
         ],
         [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          717.59,
-          36,
-          28681,
-          162.4,
+          754.4,
+          38,
+          31008,
+          168.7,
           18,
           0
         ],
         [
           "keniaher",
           "keniaher.77",
-          547.75,
-          28,
-          31902,
-          89.1,
+          569.74,
+          29,
+          32786,
+          92.4,
           4,
           0
         ],
         [
           "The Gem Of Gemini",
           "the.gem.of.gemini",
-          395.04,
-          19,
-          10836,
-          65.7,
+          455.01,
+          21,
+          11224,
+          74.7,
           0,
           0
         ],
@@ -1270,20 +1280,10 @@
           "happyshop968",
           380.44,
           17,
-          14102,
+          14575,
           29.04,
           0,
           0
-        ],
-        [
-          "alldaysteals",
-          "alldaysteals",
-          360.11,
-          8,
-          0,
-          74.16,
-          0,
-          6
         ]
       ],
       "videos": [
@@ -1294,7 +1294,7 @@
           "bellahana20",
           167.1,
           5,
-          6643,
+          6668,
           48,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -1303,10 +1303,10 @@
           "Best umbrella out there! #umbrella #heavydutyumbrella #rainyday #winter #repelumbrella ",
           "sylviaapproved",
           "sylviaapproved",
-          114.19,
-          11,
-          14447,
-          34,
+          139.11,
+          13,
+          15171,
+          35,
           "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ],
         [
@@ -1314,11 +1314,22 @@
           "Ahora si las moscas no dejar\u00e1n a mi casa #atrapamoscas #moscas #cortina #tiktokshop ",
           "keniaher.77",
           "keniaher.77",
-          98.75,
-          5,
-          7055,
+          118.74,
+          6,
+          7312,
           30,
           "https://tiktok.com/@keniaher.77/video/7685451539456068877"
+        ],
+        [
+          "7694153031432015117",
+          "#automaticumbrella #umbrella #windproofumbrella #umbrellas #tiktokshopcreatorpicks   ",
+          "tapa_mondo",
+          "tapa_mondo",
+          84.62,
+          6,
+          1344,
+          23,
+          "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
         [
           "7686565002299346206",
@@ -1327,20 +1338,9 @@
           "christianjohnson2022",
           74.98,
           2,
-          3966,
+          3999,
           32,
           "https://tiktok.com/@christianjohnson2022/video/7686565002299346206"
-        ],
-        [
-          "7694153031432015117",
-          "#automaticumbrella #umbrella #windproofumbrella #umbrellas #tiktokshopcreatorpicks   ",
-          "tapa_mondo",
-          "tapa_mondo",
-          64.96,
-          4,
-          1107,
-          22,
-          "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
         [
           "7694099956629507359",
@@ -1349,8 +1349,8 @@
           "mrhotpicks",
           59.97,
           3,
-          1944,
-          7,
+          2432,
+          8,
           "https://tiktok.com/@mrhotpicks/video/7694099956629507359"
         ],
         [
@@ -1360,8 +1360,8 @@
           "its.massielll",
           58.62,
           6,
-          3429,
-          35,
+          4135,
+          42,
           "https://tiktok.com/@its.massielll/video/7693018427660733710"
         ],
         [
@@ -1371,7 +1371,7 @@
           "shopalberto",
           54.37,
           2,
-          3867,
+          3868,
           16,
           "https://tiktok.com/@shopalberto/video/7685289196352785678"
         ],
@@ -1382,20 +1382,20 @@
           "sasashoo",
           49.27,
           2,
-          638,
+          647,
           3,
           "https://tiktok.com/@sasashoo/video/7690360928306777374"
         ],
         [
-          "7692589468401847565",
-          "#tiktokshopstockup #tiktokshopcreatorpick ",
-          "mileidys_mily",
-          "mileidys_mily",
-          40.98,
-          2,
-          3531,
-          84,
-          "https://tiktok.com/@mileidys_mily/video/7692589468401847565"
+          "7694356427460070686",
+          "#tiktokshopfalldealsforyou #pink #umbrella #rainyday #rain",
+          "sylviaapproved",
+          "sylviaapproved",
+          44.87,
+          4,
+          6526,
+          57,
+          "https://tiktok.com/@sylviaapproved/video/7694356427460070686"
         ]
       ]
     },
@@ -1406,20 +1406,20 @@
         "sub": "Seller Center GMV through the latest complete Cruva day.",
         "range": "Aug 13 to Oct 11, 2026",
         "days": 60,
-        "gmv": 92577.39,
-        "gmvDelta": "-22.2% vs prior period",
+        "gmv": 92746.13,
+        "gmvDelta": "-22.1% vs prior period",
         "down": true,
-        "adRevenue": 70785.86,
-        "adSpend": 53498.37999999999,
-        "roas": 1.3231,
+        "adRevenue": 70805.85,
+        "adSpend": 53537.61999999999,
+        "roas": 1.3225,
         "m": {
-          "Orders": 3592,
-          "Units sold": 3901.0,
-          "Affiliate GMV": 79157.42,
-          "Commission": 17769.52,
-          "Videos posted": 982,
-          "Creators posting": 428,
-          "Video views": 4978663,
+          "Orders": 3599,
+          "Units sold": 3908.0,
+          "Affiliate GMV": 80651.62,
+          "Commission": 18088.72,
+          "Videos posted": 1019,
+          "Creators posting": 443,
+          "Video views": 5084216,
           "LIVE GMV": 33738.57,
           "DMs sent": 79508,
           "Sample requests": 1287,
@@ -1427,14 +1427,14 @@
           "LIVE streams": 1222
         },
         "deltas": {
-          "Orders": -27.24,
-          "Units sold": -31.28,
-          "Affiliate GMV": -25.8,
-          "Commission": -25.49,
-          "Videos posted": -27.31,
-          "Creators posting": -30.52,
-          "Video views": -53.83,
-          "LIVE GMV": 23.77,
+          "Orders": -27.1,
+          "Units sold": -31.16,
+          "Affiliate GMV": -24.4,
+          "Commission": -24.15,
+          "Videos posted": -24.57,
+          "Creators posting": -28.08,
+          "Video views": -52.85,
+          "LIVE GMV": 23.54,
           "DMs sent": 40.98,
           "Sample requests": -22.61,
           "Samples approved": -54.96,
@@ -1459,7 +1459,7 @@
           "Samples approved": 345,
           "Samples shipped": 357.0,
           "Samples delivered": 384,
-          "Creators with sales": 176
+          "Creators with sales": 183
         },
         "daily": [
           [
@@ -2068,40 +2068,40 @@
         [
           "Fortune Finds",
           "fortune0420",
-          14657.25,
-          466,
-          6265,
-          4040.62,
+          15218.21,
+          479,
+          6283,
+          4187.37,
           2,
           71
         ],
         [
           "Sylvia",
           "sylviaapproved",
-          10959.12,
-          611,
-          862469,
-          2670.68,
+          11567.91,
+          644,
+          915521,
+          2808.28,
           27,
           0
         ],
         [
           "Muscle Dad",
           "muscle_dad",
-          9267.54,
-          263,
-          276647,
-          2319.51,
+          9413.18,
+          266,
+          286271,
+          2348.51,
           20,
           10
         ],
         [
           "Red Oakley",
           "jaterao92",
-          6365.01,
-          229,
-          448729,
-          1473.63,
+          6543.16,
+          233,
+          453088,
+          1510.43,
           1,
           0
         ],
@@ -2138,30 +2138,30 @@
         [
           "ryanxbradshaw",
           "ryanxbradshaw",
-          2144.75,
-          64,
-          1321140,
-          513.48,
+          2189.54,
+          65,
+          1321220,
+          527.48,
           0,
           0
         ],
         [
           "Coop Queen Courtney",
           "courtney_gonzales19",
-          2013.76,
-          107,
-          96769,
-          495.95,
+          2050.57,
+          109,
+          99096,
+          502.25,
           39,
           0
         ],
         [
           "keniaher",
           "keniaher.77",
-          1821.8,
-          105,
-          87932,
-          276.97,
+          1843.79,
+          106,
+          88816,
+          280.27,
           11,
           0
         ]
@@ -2172,9 +2172,9 @@
           "",
           "theevergreeneditco",
           "theevergreeneditco",
-          501.02,
-          23,
-          17687,
+          542.61,
+          24,
+          17970,
           38,
           "https://tiktok.com/@theevergreeneditco/video/7673494617085693214"
         ],
@@ -2185,7 +2185,7 @@
           "theevergreeneditco",
           297.81,
           12,
-          4594,
+          4666,
           12,
           "https://tiktok.com/@theevergreeneditco/video/7677230038281964830"
         ],
@@ -2196,9 +2196,20 @@
           "viralshopdealz",
           287.0,
           8,
-          256402,
-          4837,
+          257159,
+          4859,
           "https://tiktok.com/@viralshopdealz/video/7678725393917971742"
+        ],
+        [
+          "7677238294895152398",
+          "It\u2019s crazy how this isn\u2019t a standard! #TiktokShopCreatorPicks #christmas #tiktokshopbacktoschool #bi",
+          "muscle_dad",
+          "muscle_dad",
+          270.14,
+          6,
+          3067,
+          5,
+          "https://tiktok.com/@muscle_dad/video/7677238294895152398"
         ],
         [
           "7674461738112175391",
@@ -2207,8 +2218,8 @@
           "arocs_daily_deals",
           253.26,
           10,
-          41197,
-          337,
+          41229,
+          338,
           "https://tiktok.com/@arocs_daily_deals/video/7674461738112175391"
         ],
         [
@@ -2218,7 +2229,7 @@
           "1373bel",
           213.06,
           6,
-          9796,
+          9801,
           48,
           "https://tiktok.com/@1373bel/video/7683330512680766733"
         ],
@@ -2229,8 +2240,8 @@
           "icu185",
           180.97,
           10,
-          16695,
-          38,
+          17348,
+          41,
           "https://tiktok.com/@icu185/video/7683016023418653983"
         ],
         [
@@ -2240,7 +2251,7 @@
           "bellahana20",
           167.1,
           5,
-          6643,
+          6668,
           48,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -2251,31 +2262,20 @@
           "boni_kiyya",
           149.56,
           4,
-          9804,
+          9809,
           38,
           "https://tiktok.com/@boni_kiyya/video/7681020510536289550"
         ],
         [
-          "7677238294895152398",
-          "It\u2019s crazy how this isn\u2019t a standard! #TiktokShopCreatorPicks #christmas #tiktokshopbacktoschool #bi",
-          "muscle_dad",
-          "muscle_dad",
-          138.17,
-          3,
-          2728,
-          5,
-          "https://tiktok.com/@muscle_dad/video/7677238294895152398"
-        ],
-        [
-          "7677296937711832351",
-          "@UPPER ECHELON PRODUCTS I used to think bidets were only for fancy hotels, but now my bathroom is th",
-          "lazyko83",
-          "lazyko83",
-          122.31,
-          4,
-          5359,
-          53,
-          "https://tiktok.com/@lazyko83/video/7677296937711832351"
+          "7691377663906254110",
+          "Best umbrella out there! #umbrella #heavydutyumbrella #rainyday #winter #repelumbrella ",
+          "sylviaapproved",
+          "sylviaapproved",
+          139.11,
+          13,
+          15171,
+          35,
+          "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ]
       ]
     },
@@ -2286,35 +2286,35 @@
         "sub": "Seller Center GMV through the latest complete Cruva day.",
         "range": "Jul 14 to Oct 11, 2026",
         "days": 90,
-        "gmv": 176369.98,
-        "gmvDelta": "+66.6% vs prior period",
+        "gmv": 176538.72,
+        "gmvDelta": "+66.7% vs prior period",
         "down": false,
-        "adRevenue": 158318.92,
-        "adSpend": 145419.61,
-        "roas": 1.0887,
+        "adRevenue": 158338.91,
+        "adSpend": 145458.85,
+        "roas": 1.0885,
         "m": {
-          "Orders": 7212,
-          "Units sold": 8135.0,
-          "Affiliate GMV": 154230.46,
-          "Commission": 36125.87,
-          "Videos posted": 1835,
-          "Creators posting": 710,
-          "Video views": 11693748,
-          "LIVE GMV": 55839.21,
+          "Orders": 7219,
+          "Units sold": 8142.0,
+          "Affiliate GMV": 155724.66,
+          "Commission": 36445.07,
+          "Videos posted": 1872,
+          "Creators posting": 722,
+          "Video views": 11799301,
+          "LIVE GMV": 55856.21,
           "DMs sent": 129632,
           "Sample requests": 2210,
           "Samples approved": 751,
           "LIVE streams": 1878
         },
         "deltas": {
-          "Orders": 96.51,
-          "Units sold": 99.88,
-          "Affiliate GMV": 59.32,
-          "Commission": 107.36,
-          "Videos posted": 64.28,
-          "Creators posting": 7.74,
-          "Video views": 81.04,
-          "LIVE GMV": 66.97,
+          "Orders": 96.7,
+          "Units sold": 100.05,
+          "Affiliate GMV": 60.86,
+          "Commission": 109.19,
+          "Videos posted": 67.59,
+          "Creators posting": 9.56,
+          "Video views": 82.68,
+          "LIVE GMV": 70.82,
           "DMs sent": 1967.17,
           "Sample requests": 84.78,
           "Samples approved": 21.92,
@@ -2339,7 +2339,7 @@
           "Samples approved": 751,
           "Samples shipped": 764.0,
           "Samples delivered": 767,
-          "Creators with sales": 277
+          "Creators with sales": 284
         },
         "daily": [
           [
@@ -3248,20 +3248,20 @@
         [
           "Muscle Dad",
           "muscle_dad",
-          23346.33,
-          703,
-          837454,
-          6358.7,
+          23491.97,
+          706,
+          847078,
+          6387.7,
           88,
           35
         ],
         [
           "Fortune Finds",
           "fortune0420",
-          19271.91,
-          606,
-          8490,
-          5307.43,
+          19832.87,
+          619,
+          8508,
+          5454.18,
           5,
           86
         ],
@@ -3278,20 +3278,20 @@
         [
           "Red Oakley",
           "jaterao92",
-          14301.71,
-          537,
-          1454901,
-          3343.02,
+          14479.86,
+          541,
+          1459260,
+          3379.82,
           3,
           0
         ],
         [
           "Sylvia",
           "sylviaapproved",
-          10959.12,
-          611,
-          862469,
-          2670.68,
+          11567.91,
+          644,
+          915521,
+          2808.28,
           27,
           0
         ],
@@ -3308,10 +3308,10 @@
         [
           "ryanxbradshaw",
           "ryanxbradshaw",
-          6397.57,
-          205,
-          2617082,
-          1644.95,
+          6442.36,
+          206,
+          2617162,
+          1658.95,
           0,
           0
         ],
@@ -3328,11 +3328,11 @@
         [
           "The Evergreen Edit",
           "theevergreeneditco",
-          3780.93,
-          151,
-          157412,
-          1132.81,
-          27,
+          3809.92,
+          152,
+          158146,
+          1143.81,
+          28,
           0
         ],
         [
@@ -3352,10 +3352,10 @@
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          3962.76,
-          235,
-          348804,
-          1589,
+          4097.73,
+          242,
+          379112,
+          1648,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
@@ -3363,10 +3363,10 @@
           "Ahora si no se van a meter las moscas a tu casa #BackToSchool #movingday #atrapamoscas  #cortina #mo",
           "keniaher.77",
           "keniaher.77",
-          2282.9,
-          161,
-          92828,
-          402,
+          2302.89,
+          162,
+          93420,
+          403,
           "https://tiktok.com/@keniaher.77/video/7670969961753431309"
         ],
         [
@@ -3374,9 +3374,9 @@
           "Buenisima! #puertamosquitero #puertamagnetica #screendoor #parati #tiktokshopcreatorpicks ",
           "sylviaapproved",
           "sylviaapproved",
-          1453.71,
-          103,
-          125470,
+          1470.44,
+          104,
+          126292,
           467,
           "https://tiktok.com/@sylviaapproved/video/7663728633059544351"
         ],
@@ -3385,10 +3385,10 @@
           "This magnetic screen door installs in minutes with no tools required, snaps shut automatically behin",
           "courtney_gonzales19",
           "courtney_gonzales19",
-          1271.42,
-          83,
-          66122,
-          130,
+          1313.4,
+          85,
+          66419,
+          134,
           "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958"
         ],
         [
@@ -3398,8 +3398,8 @@
           "courtney_gonzales19",
           1163.95,
           82,
-          38751,
-          87,
+          39591,
+          89,
           "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597"
         ],
         [
@@ -3409,7 +3409,7 @@
           "favoritefavoritefind",
           863.0,
           32,
-          30715,
+          30847,
           71,
           "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047"
         ],
@@ -3420,7 +3420,7 @@
           "sylviaapproved",
           757.78,
           43,
-          43527,
+          43720,
           268,
           "https://tiktok.com/@sylviaapproved/video/7662535458450083103"
         ],
@@ -3431,7 +3431,7 @@
           "delbarnesadventure",
           738.94,
           33,
-          10546,
+          10609,
           20,
           "https://tiktok.com/@delbarnesadventure/video/7664372520132283661"
         ],
@@ -3442,8 +3442,8 @@
           "sylviaapproved",
           563.59,
           30,
-          29460,
-          70,
+          30299,
+          72,
           "https://tiktok.com/@sylviaapproved/video/7672862005375634719"
         ],
         [
@@ -3453,7 +3453,7 @@
           "thatsjesslifenow",
           545.42,
           50,
-          96705,
+          96708,
           449,
           "https://tiktok.com/@thatsjesslifenow/video/7663988958346415390"
         ]

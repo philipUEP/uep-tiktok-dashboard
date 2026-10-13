@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats with product_id + include_charts",
-    "pulled_on": "2026-10-12",
+    "pulled_on": "2026-10-13",
     "range": {
       "from": "2026-10-05",
       "to": "2026-10-11"
@@ -11,7 +11,7 @@
     {
       "product_id": "1729385884864975067",
       "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-      "total_gmv": 3725.45,
+      "total_gmv": 3769.44,
       "daily": [
         {
           "date": "2026-10-05",
@@ -45,15 +45,15 @@
         },
         {
           "date": "2026-10-11",
-          "gmv": 1018.29,
-          "units": 24.0
+          "gmv": 1062.28,
+          "units": 25.0
         }
       ]
     },
     {
       "product_id": "1729391862339113179",
       "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
-      "total_gmv": 2672.64,
+      "total_gmv": 2692.63,
       "daily": [
         {
           "date": "2026-10-05",
@@ -87,15 +87,15 @@
         },
         {
           "date": "2026-10-11",
-          "gmv": 367.59,
-          "units": 19.0
+          "gmv": 387.58,
+          "units": 20.0
         }
       ]
     },
     {
       "product_id": "1732530504119718107",
       "product_name": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
-      "total_gmv": 1170.47,
+      "total_gmv": 1207.25,
       "daily": [
         {
           "date": "2026-10-05",
@@ -129,8 +129,8 @@
         },
         {
           "date": "2026-10-11",
-          "gmv": 206.28,
-          "units": 19.0
+          "gmv": 243.06,
+          "units": 22.0
         }
       ]
     },
@@ -221,7 +221,7 @@
     {
       "product_id": "1729385798632640731",
       "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
-      "total_gmv": 105.52,
+      "total_gmv": 133.51,
       "daily": [
         {
           "date": "2026-10-05",
@@ -255,8 +255,50 @@
         },
         {
           "date": "2026-10-11",
-          "gmv": 56.84,
-          "units": 3.0
+          "gmv": 84.83,
+          "units": 4.0
+        }
+      ]
+    },
+    {
+      "product_id": "1730105130585657563",
+      "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+      "total_gmv": 79.98,
+      "daily": [
+        {
+          "date": "2026-10-05",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-06",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-07",
+          "gmv": 39.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-10-08",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-09",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-10",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-11",
+          "gmv": 39.99,
+          "units": 1.0
         }
       ]
     },
@@ -299,48 +341,6 @@
           "date": "2026-10-11",
           "gmv": 53.93,
           "units": 3.0
-        }
-      ]
-    },
-    {
-      "product_id": "1730105130585657563",
-      "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-      "total_gmv": 39.99,
-      "daily": [
-        {
-          "date": "2026-10-05",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-06",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-07",
-          "gmv": 39.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-08",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-09",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-10",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-11",
-          "gmv": 0.0,
-          "units": 0.0
         }
       ]
     },
