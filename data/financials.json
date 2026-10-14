@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-13",
+    "pulled_on": "2026-10-14",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -18,21 +18,21 @@
         "video_gmv": 4786.63,
         "live_gmv": 2698.88,
         "shop_tab_gmv": 1808.1,
-        "gmv_max_revenue": 6708.6900000000005,
+        "gmv_max_revenue": 7186.84,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 4120.33,
+        "ad_spend": 4432.08,
         "commission": 1400.7,
-        "refund_amount": 1285.1,
+        "refund_amount": 1388.4,
         "shipping_fees": 2485.2
       },
-      "net_after_ads_commissions_refunds": 1638.31,
+      "net_after_ads_commissions_refunds": 1223.26,
       "ratios": {
-        "blended_roas": 2.0495,
-        "gmv_max_roas": 1.6282,
+        "blended_roas": 1.9053,
+        "gmv_max_roas": 1.6216,
         "commission_rate_pct": 20.19,
-        "refund_rate_pct": 15.22,
+        "refund_rate_pct": 16.44,
         "aov": 24.84,
         "gpm": 11.44,
         "emv": 2091.15,
@@ -191,7 +191,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Perfect Gift for Dads, Moms",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
           "price": 69.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -356,7 +356,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Washable Reusable Carpet Stickers, Easy Installation, Residue-Free Hold, Non Slip Pad, Multisurface Use, Floor Protection Rug Grip Tape & Pads for Tile & Wood Floors",
           "price": 9.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -367,7 +367,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
           "price": 73.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -397,21 +397,21 @@
         "video_gmv": 8101.85,
         "live_gmv": 5590.31,
         "shop_tab_gmv": 3286.46,
-        "gmv_max_revenue": 11830.92,
+        "gmv_max_revenue": 12309.07,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 7738.87,
+        "ad_spend": 8050.62,
         "commission": 2614.11,
-        "refund_amount": 1847.99,
+        "refund_amount": 1994.66,
         "shipping_fees": 4750.0
       },
-      "net_after_ads_commissions_refunds": 4247.08,
+      "net_after_ads_commissions_refunds": 3788.66,
       "ratios": {
-        "blended_roas": 2.1254,
-        "gmv_max_roas": 1.5288,
+        "blended_roas": 2.0431,
+        "gmv_max_roas": 1.529,
         "commission_rate_pct": 19.08,
-        "refund_rate_pct": 11.24,
+        "refund_rate_pct": 12.13,
         "aov": 25.34,
         "gpm": 8.4,
         "emv": 4820.48,
@@ -570,7 +570,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Washable Reusable Carpet Stickers, Easy Installation, Residue-Free Hold, Non Slip Pad, Multisurface Use, Floor Protection Rug Grip Tape & Pads for Tile & Wood Floors",
           "price": 9.99,
           "total_gmv": 19.98,
           "share_pct": 0.1,
@@ -603,7 +603,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Perfect Gift for Dads, Moms",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
           "price": 69.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -757,7 +757,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
           "price": 73.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -787,21 +787,21 @@
         "video_gmv": 15809.67,
         "live_gmv": 7371.51,
         "shop_tab_gmv": 6153.39,
-        "gmv_max_revenue": 23175.32,
+        "gmv_max_revenue": 23653.47,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 14677.650000000001,
+        "ad_spend": 14989.400000000001,
         "commission": 4522.21,
-        "refund_amount": 4237.18,
+        "refund_amount": 4570.91,
         "shipping_fees": 8101.6
       },
-      "net_after_ads_commissions_refunds": 5278.56,
+      "net_after_ads_commissions_refunds": 4633.08,
       "ratios": {
-        "blended_roas": 1.9564,
-        "gmv_max_roas": 1.579,
+        "blended_roas": 1.9157,
+        "gmv_max_roas": 1.578,
         "commission_rate_pct": 19.25,
-        "refund_rate_pct": 14.76,
+        "refund_rate_pct": 15.92,
         "aov": 26.11,
         "gpm": 8.97,
         "emv": 8802.62,
@@ -960,7 +960,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Washable Reusable Carpet Stickers, Easy Installation, Residue-Free Hold, Non Slip Pad, Multisurface Use, Floor Protection Rug Grip Tape & Pads for Tile & Wood Floors",
           "price": 9.99,
           "total_gmv": 69.64,
           "share_pct": 0.2,
@@ -971,7 +971,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
           "price": 73.99,
           "total_gmv": 52.73,
           "share_pct": 0.2,
@@ -1026,7 +1026,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Perfect Gift for Dads, Moms",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
           "price": 69.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1199,21 +1199,21 @@
         "video_gmv": 45686.44,
         "live_gmv": 33738.57,
         "shop_tab_gmv": 17056.0,
-        "gmv_max_revenue": 70805.85,
+        "gmv_max_revenue": 71284.0,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 53537.61999999999,
+        "ad_spend": 53849.36999999999,
         "commission": 18088.72,
-        "refund_amount": 10284.56,
+        "refund_amount": 11096.41,
         "shipping_fees": 26995.2
       },
-      "net_after_ads_commissions_refunds": 10835.23,
+      "net_after_ads_commissions_refunds": 9711.63,
       "ratios": {
-        "blended_roas": 1.7324,
-        "gmv_max_roas": 1.3225,
+        "blended_roas": 1.7223,
+        "gmv_max_roas": 1.3238,
         "commission_rate_pct": 22.43,
-        "refund_rate_pct": 11.09,
+        "refund_rate_pct": 11.96,
         "aov": 25.77,
         "gpm": 8.93,
         "emv": 25421.08,
@@ -1317,7 +1317,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
           "price": 73.99,
           "total_gmv": 368.9,
           "share_pct": 0.4,
@@ -1394,7 +1394,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Washable Reusable Carpet Stickers, Easy Installation, Residue-Free Hold, Non Slip Pad, Multisurface Use, Floor Protection Rug Grip Tape & Pads for Tile & Wood Floors",
           "price": 9.99,
           "total_gmv": 97.33,
           "share_pct": 0.1,
@@ -1515,7 +1515,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Perfect Gift for Dads, Moms",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
           "price": 69.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1633,21 +1633,21 @@
         "video_gmv": 97768.6,
         "live_gmv": 55856.21,
         "shop_tab_gmv": 26390.2,
-        "gmv_max_revenue": 158338.91,
+        "gmv_max_revenue": 158817.06,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 145458.85,
+        "ad_spend": 145770.6,
         "commission": 36445.07,
-        "refund_amount": 18619.69,
+        "refund_amount": 19632.51,
         "shipping_fees": 54446.4
       },
-      "net_after_ads_commissions_refunds": -23984.89,
+      "net_after_ads_commissions_refunds": -25309.46,
       "ratios": {
-        "blended_roas": 1.2137,
-        "gmv_max_roas": 1.0885,
+        "blended_roas": 1.2111,
+        "gmv_max_roas": 1.0895,
         "commission_rate_pct": 23.4,
-        "refund_rate_pct": 10.55,
+        "refund_rate_pct": 11.12,
         "aov": 24.45,
         "gpm": 8.26,
         "emv": 58996.5,
@@ -1729,7 +1729,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomic Office Chair Accessory for Tailbone Pressure Relief",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
           "price": 73.99,
           "total_gmv": 570.87,
           "share_pct": 0.3,
@@ -1806,7 +1806,7 @@
         },
         {
           "product_id": "1730273357213896923",
-          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Fully Washable Reusable Carpet Stickers, Easy Installation, High Traffic Areas, Stops Corner Curling, Secure Walking, Fits Tile & Wood Floors, Non-Slip Pad, Flattens Rugs",
+          "product_name": "Everlasting Comfort 8-Pack Rectangular Anti-Slip Rug Grippers - Dual-Sided Washable Reusable Carpet Stickers, Easy Installation, Residue-Free Hold, Non Slip Pad, Multisurface Use, Floor Protection Rug Grip Tape & Pads for Tile & Wood Floors",
           "price": 9.99,
           "total_gmv": 177.07,
           "share_pct": 0.1,
@@ -1982,7 +1982,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Perfect Gift for Dads, Moms",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
           "price": 69.99,
           "total_gmv": 0,
           "share_pct": 0.0,
