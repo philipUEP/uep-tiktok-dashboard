@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T07:25:00+00:00",
+  "updated_at": "2026-10-14T07:21:19+00:00",
   "items": [
     {
       "metric": "Collab invites",
@@ -7,7 +7,7 @@
       "prior": 5125,
       "pct": -100.0,
       "direction": "down",
-      "effect": "Inferred: inviting has been at zero for a full week across a three week fall from 19,400 to 5,125 to 0, so no new creator can enter the reply, sample and video queue.",
+      "effect": "Inferred: inviting has been at zero for a full week across a three week fall from 19,400 to 5,125 to 0, so no new creator enters the reply, sample and video queue.",
       "action": "Inferred: restart inviting against a logged daily floor owned by Melodie and report the count daily in the morning review."
     },
     {
@@ -16,8 +16,17 @@
       "prior": 5185,
       "pct": -94.8,
       "direction": "down",
-      "effect": "Inferred: automated outreach is effectively off for a second week and sample requests have already fallen 39.3%, so affiliate GMV loses its replacement layer in three to five weeks.",
+      "effect": "Inferred: automated outreach has been effectively off for a second week and sample requests have already fallen 39.3%, so affiliate GMV loses its replacement layer in three to five weeks.",
       "action": "Inferred: restore sending to a stated daily floor and report the count daily alongside the invite count."
+    },
+    {
+      "metric": "Samples shipped",
+      "current": 59,
+      "prior": 98,
+      "pct": -39.8,
+      "direction": "down",
+      "effect": "Inferred: shipments fell while 68 samples were delivered and 40 were approved against 118 prior, so the approval and shipping layer is now the constraint rather than creator demand.",
+      "action": "Inferred: work the 102 rows in To Review and the 43 Expired rows to a daily clearance number owned by Jermin."
     },
     {
       "metric": "Replies",
@@ -29,31 +38,22 @@
       "action": "Inferred: test the best umbrella and bidet hooks as the first DM line on one list once sending restarts."
     },
     {
-      "metric": "Samples shipped",
-      "current": 59,
-      "prior": 98,
-      "pct": -39.8,
-      "direction": "down",
-      "effect": "Inferred: shipments fell while 68 samples were delivered, so the reviewer queue that feeds posting is now the constraint rather than creator demand.",
-      "action": "Inferred: clear the 114 rows in To Review before the 2026-10-20 expiry, owned by Jermin with a daily clearance number."
-    },
-    {
       "metric": "Repel Blitz Ad Campaign 10/5 ROI (roas_target 1.2)",
-      "current": 0.873,
+      "current": 0.876,
       "prior": 1.2,
-      "pct": -27.3,
+      "pct": -27.0,
       "direction": "down",
-      "effect": "Inferred: the largest enabled ad line is under water, spending 1,820.37 to return 1,588.54 at a 23.95 cost per order on the umbrella org.md records as excluded on margin.",
-      "action": "Inferred: cap or pause it and move the budget to Screen Door at 2.573 with an 8.77 cost per order, and Bidet 7/6 at 1.999."
+      "effect": "Inferred: the largest enabled ad line is under water, spending 1,961.91 to return 1,718.79 at a 23.93 cost per order, and it worsened to 0.825 over Oct 8 to Oct 14, on the umbrella org.md records as excluded on margin.",
+      "action": "Inferred: cap or pause it and move the budget to Screen Door at 2.586 with an 8.70 cost per order and Bidet 7/6 at 1.977."
     },
     {
-      "metric": "Samples awaiting review",
-      "current": 114,
-      "prior": 103,
-      "pct": 10.7,
+      "metric": "Samples expired",
+      "current": 43,
+      "prior": 38,
+      "pct": 13.2,
       "direction": "up",
-      "effect": "Inferred: the review queue grew alongside 38 expired rows, and inbound requests are approved by default, so delay turns free inbound demand into expiry.",
-      "action": "Inferred: assign daily queue clearance to Jermin and report the outstanding count until it stays near zero."
+      "effect": "Inferred: expired sample rows rose against a queue that shrank to 102 from 114 while inbound requests are approved by default, so delay turns free inbound demand into expiry.",
+      "action": "Inferred: surface expiry dates ahead of lapse and report the outstanding To Review count daily until it stays near zero."
     }
   ]
 }
