@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T07:21:19+00:00",
+  "updated_at": "2026-10-15T07:21:08+00:00",
   "items": [
     {
       "metric": "Collab invites",
@@ -7,8 +7,8 @@
       "prior": 5125,
       "pct": -100.0,
       "direction": "down",
-      "effect": "Inferred: inviting has been at zero for a full week across a three week fall from 19,400 to 5,125 to 0, so no new creator enters the reply, sample and video queue.",
-      "action": "Inferred: restart inviting against a logged daily floor owned by Melodie and report the count daily in the morning review."
+      "effect": "Inferred: inviting has been at zero for three straight weeks, from 19,400 to 5,125 to 0, so no new creator enters the reply, sample and video queue.",
+      "action": "Inferred: restart inviting against a logged daily floor owned by Melodie and report the daily count in the morning review."
     },
     {
       "metric": "DMs sent",
@@ -16,8 +16,8 @@
       "prior": 5185,
       "pct": -94.8,
       "direction": "down",
-      "effect": "Inferred: automated outreach has been effectively off for a second week and sample requests have already fallen 39.3%, so affiliate GMV loses its replacement layer in three to five weeks.",
-      "action": "Inferred: restore sending to a stated daily floor and report the count daily alongside the invite count."
+      "effect": "Inferred: outreach is effectively off, with daily sends between 5 and 173 all week, and sample requests have already fallen 39.3%, so affiliate GMV loses its replacement layer in three to five weeks.",
+      "action": "Inferred: rebuild the Cruva send queue to a stated daily floor and report the count daily alongside the invite count."
     },
     {
       "metric": "Samples shipped",
@@ -25,8 +25,8 @@
       "prior": 98,
       "pct": -39.8,
       "direction": "down",
-      "effect": "Inferred: shipments fell while 68 samples were delivered and 40 were approved against 118 prior, so the approval and shipping layer is now the constraint rather than creator demand.",
-      "action": "Inferred: work the 102 rows in To Review and the 43 Expired rows to a daily clearance number owned by Jermin."
+      "effect": "Inferred: shipments fell while approvals dropped to 40 from 118, so the approval and shipping layer, not creator demand, is now the constraint on new video supply.",
+      "action": "Inferred: work the 96 To Review rows and the 5 Ready to Ship rows to a daily clearance number owned by Jermin."
     },
     {
       "metric": "Replies",
@@ -34,26 +34,26 @@
       "prior": 20,
       "pct": -15.0,
       "direction": "down",
-      "effect": "Inferred: a third weekly fall, from 55 to 20 to 17, empties the layer that feeds requests and samples and makes the 6.3% reply rate an artifact of a 270 send base.",
-      "action": "Inferred: test the best umbrella and bidet hooks as the first DM line on one list once sending restarts."
+      "effect": "Inferred: a third weekly fall, from 55 to 20 to 17, empties the layer that feeds requests and samples, and it sits on a send base of only 270.",
+      "action": "Inferred: follow up non responders in the Cruva inbox and route every reply to Jermin the same day."
     },
     {
       "metric": "Repel Blitz Ad Campaign 10/5 ROI (roas_target 1.2)",
-      "current": 0.876,
-      "prior": 1.2,
-      "pct": -27.0,
+      "current": 0.754,
+      "prior": 0.873,
+      "pct": -13.6,
       "direction": "down",
-      "effect": "Inferred: the largest enabled ad line is under water, spending 1,961.91 to return 1,718.79 at a 23.93 cost per order, and it worsened to 0.825 over Oct 8 to Oct 14, on the umbrella org.md records as excluded on margin.",
-      "action": "Inferred: cap or pause it and move the budget to Screen Door at 2.586 with an 8.70 cost per order and Bidet 7/6 at 1.977."
+      "effect": "Inferred: the only enabled umbrella line returns 0.75 per dollar, spending 2,108.51 to return 1,589.14 over Oct 9 to Oct 15 at 28.11 per order, on the umbrella org.md records as excluded on margin.",
+      "action": "Inferred: pause it and move the budget to Screen Door at 2.486 with an 8.52 cost per order and Bidet 7/6 at 2.044."
     },
     {
       "metric": "Samples expired",
-      "current": 43,
-      "prior": 38,
-      "pct": 13.2,
+      "current": 58,
+      "prior": 43,
+      "pct": 34.9,
       "direction": "up",
-      "effect": "Inferred: expired sample rows rose against a queue that shrank to 102 from 114 while inbound requests are approved by default, so delay turns free inbound demand into expiry.",
-      "action": "Inferred: surface expiry dates ahead of lapse and report the outstanding To Review count daily until it stays near zero."
+      "effect": "Inferred: expired rows rose 34.9% in a day against a To Review queue of 96 while inbound requests are approved by default, so delay turns free inbound demand into expiry.",
+      "action": "Inferred: surface expiry dates ahead of lapse and report the outstanding To Review and Expired counts daily until they fall."
     }
   ]
 }
