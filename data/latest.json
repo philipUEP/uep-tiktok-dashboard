@@ -33,19 +33,19 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-10-14",
+    "pulled_on": "2026-10-15",
     "data_through": "2026-10-11",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-10-14. Complete attribution through 2026-10-11."
+    "note": "Pulled from Cruva REST API on 2026-10-15. Complete attribution through 2026-10-11."
   },
   "latest_source_check": {
-    "date": "2026-10-13",
-    "seller_center_gmv": 730.27,
-    "orders": 35,
-    "units": 35,
-    "gmv_max_revenue": 829.96,
-    "gmv_max_spend": 521.72,
-    "gmv_max_roas": 1.5908149965498735,
+    "date": "2026-10-14",
+    "seller_center_gmv": 349.65,
+    "orders": 16,
+    "units": 16,
+    "gmv_max_revenue": 395.85,
+    "gmv_max_spend": 346.68,
+    "gmv_max_roas": 1.1418310834198686,
     "attribution_status": "complete"
   },
   "periods": {
@@ -59,9 +59,9 @@
         "gmv": 8444.44,
         "gmvDelta": "+5.5% vs prior period",
         "down": false,
-        "adRevenue": 7186.84,
-        "adSpend": 4432.08,
-        "roas": 1.6216,
+        "adRevenue": 6708.6900000000005,
+        "adSpend": 4120.32,
+        "roas": 1.6282,
         "m": {
           "Orders": 340,
           "Units sold": 370.0,
@@ -81,7 +81,7 @@
           "Units sold": 12.46,
           "Affiliate GMV": 2.63,
           "Commission": 15.44,
-          "Videos posted": 178.12,
+          "Videos posted": 181.05,
           "Creators posting": 33.87,
           "Video views": -23.38,
           "LIVE GMV": -6.66,
@@ -294,8 +294,8 @@
           "tapa_mondo",
           94.61,
           7,
-          2247,
-          30,
+          2972,
+          38,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
         [
@@ -305,7 +305,7 @@
           "its.massielll",
           68.61,
           7,
-          4421,
+          4480,
           44,
           "https://tiktok.com/@its.massielll/video/7693018427660733710"
         ],
@@ -316,8 +316,8 @@
           "sylviaapproved",
           64.05,
           6,
-          9829,
-          85,
+          10491,
+          86,
           "https://tiktok.com/@sylviaapproved/video/7694356427460070686"
         ],
         [
@@ -327,9 +327,20 @@
           "mrhotpicks",
           59.97,
           3,
-          3451,
-          11,
+          4276,
+          15,
           "https://tiktok.com/@mrhotpicks/video/7694099956629507359"
+        ],
+        [
+          "7693700292164046093",
+          "#ad Sombrilla multifuncional..#sombr\u00eda#umbrella #casa#home @UPPER ECHELON PRODUCTS ",
+          "marielos_granados",
+          "marielos_granados",
+          54.28,
+          4,
+          1452,
+          8,
+          "https://tiktok.com/@marielos_granados/video/7693700292164046093"
         ],
         [
           "7694302109830827277",
@@ -338,8 +349,8 @@
           "worldsgreatestchad",
           47.98,
           3,
-          1770,
-          6,
+          2424,
+          7,
           "https://tiktok.com/@worldsgreatestchad/video/7694302109830827277"
         ],
         [
@@ -349,8 +360,8 @@
           "nursesylvia77",
           39.98,
           2,
-          432,
-          9,
+          878,
+          12,
           "https://tiktok.com/@nursesylvia77/video/7694783798537374990"
         ],
         [
@@ -360,20 +371,20 @@
           "repel_umbrella",
           34.98,
           2,
-          419,
+          694,
           2,
           "https://tiktok.com/@repel_umbrella/video/7694419735693298957"
         ],
         [
-          "7693700292164046093",
-          "#ad Sombrilla multifuncional..#sombr\u00eda#umbrella #casa#home @UPPER ECHELON PRODUCTS ",
-          "marielos_granados",
-          "marielos_granados",
-          34.29,
-          3,
-          1391,
-          8,
-          "https://tiktok.com/@marielos_granados/video/7693700292164046093"
+          "7694358563417771294",
+          "And very affordable! #tiktokshopfalldealsforyou #pink #umbrella #rain #winter",
+          "sylviaapproved",
+          "sylviaapproved",
+          31.86,
+          2,
+          1961,
+          6,
+          "https://tiktok.com/@sylviaapproved/video/7694358563417771294"
         ],
         [
           "7693324466977279245",
@@ -382,20 +393,9 @@
           "tinkaagiovanni_",
           30.77,
           3,
-          3192,
-          71,
+          3253,
+          74,
           "https://tiktok.com/@tinkaagiovanni_/video/7693324466977279245"
-        ],
-        [
-          "7694354573145787679",
-          "#pink #umbrella #rainyday #tiktokshopfalldealsforyou #falldealsforyou",
-          "sylviaapproved",
-          "sylviaapproved",
-          29.84,
-          3,
-          5283,
-          15,
-          "https://tiktok.com/@sylviaapproved/video/7694354573145787679"
         ]
       ]
     },
@@ -409,15 +409,15 @@
         "gmv": 16448.05,
         "gmvDelta": "+72.4% vs prior period",
         "down": false,
-        "adRevenue": 12309.07,
-        "adSpend": 8050.62,
-        "roas": 1.529,
+        "adRevenue": 11830.92,
+        "adSpend": 7738.86,
+        "roas": 1.5288,
         "m": {
           "Orders": 649,
           "Units sold": 699.0,
           "Affiliate GMV": 13698.43,
           "Commission": 2614.11,
-          "Videos posted": 363,
+          "Videos posted": 362,
           "Creators posting": 127,
           "Video views": 964095,
           "LIVE GMV": 5590.31,
@@ -431,7 +431,7 @@
           "Units sold": 77.41,
           "Affiliate GMV": 83.83,
           "Commission": 82.96,
-          "Videos posted": 131.21,
+          "Videos posted": 130.57,
           "Creators posting": 62.82,
           "Video views": 38.17,
           "LIVE GMV": 858.23,
@@ -714,8 +714,8 @@
           "sylviaapproved",
           148.99,
           14,
-          15902,
-          36,
+          16082,
+          38,
           "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ],
         [
@@ -725,8 +725,8 @@
           "tapa_mondo",
           94.61,
           7,
-          2247,
-          30,
+          2972,
+          38,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
         [
@@ -736,7 +736,7 @@
           "its.massielll",
           68.61,
           7,
-          4421,
+          4480,
           44,
           "https://tiktok.com/@its.massielll/video/7693018427660733710"
         ],
@@ -747,8 +747,8 @@
           "sylviaapproved",
           64.05,
           6,
-          9829,
-          85,
+          10491,
+          86,
           "https://tiktok.com/@sylviaapproved/video/7694356427460070686"
         ],
         [
@@ -758,9 +758,20 @@
           "mrhotpicks",
           59.97,
           3,
-          3451,
-          11,
+          4276,
+          15,
           "https://tiktok.com/@mrhotpicks/video/7694099956629507359"
+        ],
+        [
+          "7693700292164046093",
+          "#ad Sombrilla multifuncional..#sombr\u00eda#umbrella #casa#home @UPPER ECHELON PRODUCTS ",
+          "marielos_granados",
+          "marielos_granados",
+          54.28,
+          4,
+          1452,
+          8,
+          "https://tiktok.com/@marielos_granados/video/7693700292164046093"
         ],
         [
           "7694302109830827277",
@@ -769,8 +780,8 @@
           "worldsgreatestchad",
           47.98,
           3,
-          1770,
-          6,
+          2424,
+          7,
           "https://tiktok.com/@worldsgreatestchad/video/7694302109830827277"
         ],
         [
@@ -780,8 +791,8 @@
           "mileidys_mily",
           40.98,
           2,
-          4210,
-          93,
+          4234,
+          94,
           "https://tiktok.com/@mileidys_mily/video/7692589468401847565"
         ],
         [
@@ -791,8 +802,8 @@
           "nursesylvia77",
           39.98,
           2,
-          432,
-          9,
+          878,
+          12,
           "https://tiktok.com/@nursesylvia77/video/7694783798537374990"
         ],
         [
@@ -802,20 +813,9 @@
           "sylviaapproved",
           39.97,
           3,
-          2997,
+          3031,
           9,
           "https://tiktok.com/@sylviaapproved/video/7691372181376306462"
-        ],
-        [
-          "7692131608479943967",
-          "#umbrella #tiktokshopfalldealsforyou #rainyday #rain #shopwithconfidence ",
-          "sylviaapproved",
-          "sylviaapproved",
-          35.46,
-          3,
-          5089,
-          30,
-          "https://tiktok.com/@sylviaapproved/video/7692131608479943967"
         ]
       ]
     },
@@ -829,15 +829,15 @@
         "gmv": 28715.6,
         "gmvDelta": "-55.1% vs prior period",
         "down": true,
-        "adRevenue": 23653.47,
-        "adSpend": 14989.400000000001,
-        "roas": 1.578,
+        "adRevenue": 23175.32,
+        "adSpend": 14677.64,
+        "roas": 1.579,
         "m": {
           "Orders": 1100,
           "Units sold": 1190.0,
           "Affiliate GMV": 23496.01,
           "Commission": 4522.21,
-          "Videos posted": 551,
+          "Videos posted": 550,
           "Creators posting": 193,
           "Video views": 1760525,
           "LIVE GMV": 7371.51,
@@ -851,10 +851,10 @@
           "Units sold": -56.22,
           "Affiliate GMV": -58.89,
           "Commission": -66.67,
-          "Videos posted": 17.99,
+          "Videos posted": 17.77,
           "Creators posting": -30.32,
           "Video views": -47.03,
-          "LIVE GMV": -72.04,
+          "LIVE GMV": -72.1,
           "DMs sent": -23.35,
           "Sample requests": 2.04,
           "Samples approved": 10.37,
@@ -1294,7 +1294,7 @@
           "bellahana20",
           167.1,
           5,
-          6691,
+          6703,
           48,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -1305,8 +1305,8 @@
           "sylviaapproved",
           148.99,
           14,
-          15902,
-          36,
+          16082,
+          38,
           "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ],
         [
@@ -1316,7 +1316,7 @@
           "keniaher.77",
           118.74,
           6,
-          7571,
+          7821,
           32,
           "https://tiktok.com/@keniaher.77/video/7685451539456068877"
         ],
@@ -1327,8 +1327,8 @@
           "tapa_mondo",
           94.61,
           7,
-          2247,
-          30,
+          2972,
+          38,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
         [
@@ -1338,8 +1338,8 @@
           "christianjohnson2022",
           74.98,
           2,
-          4049,
-          32,
+          4072,
+          33,
           "https://tiktok.com/@christianjohnson2022/video/7686565002299346206"
         ],
         [
@@ -1349,7 +1349,7 @@
           "its.massielll",
           68.61,
           7,
-          4421,
+          4480,
           44,
           "https://tiktok.com/@its.massielll/video/7693018427660733710"
         ],
@@ -1360,8 +1360,8 @@
           "sylviaapproved",
           64.05,
           6,
-          9829,
-          85,
+          10491,
+          86,
           "https://tiktok.com/@sylviaapproved/video/7694356427460070686"
         ],
         [
@@ -1371,8 +1371,8 @@
           "mrhotpicks",
           59.97,
           3,
-          3451,
-          11,
+          4276,
+          15,
           "https://tiktok.com/@mrhotpicks/video/7694099956629507359"
         ],
         [
@@ -1382,20 +1382,20 @@
           "shopalberto",
           54.37,
           2,
-          3870,
+          3873,
           16,
           "https://tiktok.com/@shopalberto/video/7685289196352785678"
         ],
         [
-          "7690360928306777374",
-          "Lifetime warranty, windproof umbrella \u2602\ufe0f. #tiktokshop #umbrella #repelumbrella #newyork ",
-          "sasashoo",
-          "sasashoo",
-          49.27,
-          2,
-          666,
-          3,
-          "https://tiktok.com/@sasashoo/video/7690360928306777374"
+          "7693700292164046093",
+          "#ad Sombrilla multifuncional..#sombr\u00eda#umbrella #casa#home @UPPER ECHELON PRODUCTS ",
+          "marielos_granados",
+          "marielos_granados",
+          54.28,
+          4,
+          1452,
+          8,
+          "https://tiktok.com/@marielos_granados/video/7693700292164046093"
         ]
       ]
     },
@@ -1409,18 +1409,18 @@
         "gmv": 92746.13,
         "gmvDelta": "-22.1% vs prior period",
         "down": true,
-        "adRevenue": 71284.0,
-        "adSpend": 53849.36999999999,
-        "roas": 1.3238,
+        "adRevenue": 70805.85,
+        "adSpend": 53537.60999999999,
+        "roas": 1.3225,
         "m": {
           "Orders": 3599,
           "Units sold": 3908.0,
           "Affiliate GMV": 80651.62,
           "Commission": 18088.72,
-          "Videos posted": 1018,
+          "Videos posted": 1017,
           "Creators posting": 443,
           "Video views": 5084216,
-          "LIVE GMV": 33738.57,
+          "LIVE GMV": 33795.23,
           "DMs sent": 79508,
           "Sample requests": 1287,
           "Samples approved": 345,
@@ -1431,10 +1431,10 @@
           "Units sold": -31.16,
           "Affiliate GMV": -24.4,
           "Commission": -24.15,
-          "Videos posted": -24.65,
+          "Videos posted": -24.72,
           "Creators posting": -28.08,
           "Video views": -52.85,
-          "LIVE GMV": 23.54,
+          "LIVE GMV": 23.75,
           "DMs sent": 40.98,
           "Sample requests": -22.61,
           "Samples approved": -54.96,
@@ -2174,9 +2174,20 @@
           "theevergreeneditco",
           632.05,
           28,
-          18065,
+          18077,
           39,
           "https://tiktok.com/@theevergreeneditco/video/7673494617085693214"
+        ],
+        [
+          "7678725393917971742",
+          "Por eso los chinos est\u00e1n 20 anos adelantados\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping",
+          "viralshopdealz",
+          "viralshopdealz",
+          330.88,
+          9,
+          259482,
+          4938,
+          "https://tiktok.com/@viralshopdealz/video/7678725393917971742"
         ],
         [
           "7677230038281964830",
@@ -2185,20 +2196,9 @@
           "theevergreeneditco",
           297.81,
           12,
-          4683,
+          4744,
           12,
           "https://tiktok.com/@theevergreeneditco/video/7677230038281964830"
-        ],
-        [
-          "7678725393917971742",
-          "Por eso los chinos est\u00e1n 20 anos adelantados\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping",
-          "viralshopdealz",
-          "viralshopdealz",
-          287.0,
-          8,
-          257796,
-          4878,
-          "https://tiktok.com/@viralshopdealz/video/7678725393917971742"
         ],
         [
           "7677238294895152398",
@@ -2207,7 +2207,7 @@
           "muscle_dad",
           270.14,
           6,
-          3185,
+          3492,
           5,
           "https://tiktok.com/@muscle_dad/video/7677238294895152398"
         ],
@@ -2218,8 +2218,8 @@
           "arocs_daily_deals",
           253.26,
           10,
-          41274,
-          338,
+          41351,
+          339,
           "https://tiktok.com/@arocs_daily_deals/video/7674461738112175391"
         ],
         [
@@ -2229,7 +2229,7 @@
           "1373bel",
           213.06,
           6,
-          9807,
+          9810,
           48,
           "https://tiktok.com/@1373bel/video/7683330512680766733"
         ],
@@ -2240,8 +2240,8 @@
           "icu185",
           180.97,
           10,
-          17920,
-          41,
+          19133,
+          43,
           "https://tiktok.com/@icu185/video/7683016023418653983"
         ],
         [
@@ -2251,7 +2251,7 @@
           "bellahana20",
           167.1,
           5,
-          6691,
+          6703,
           48,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -2262,7 +2262,7 @@
           "boni_kiyya",
           149.56,
           4,
-          9814,
+          9818,
           38,
           "https://tiktok.com/@boni_kiyya/video/7681020510536289550"
         ],
@@ -2273,8 +2273,8 @@
           "sylviaapproved",
           148.99,
           14,
-          15902,
-          36,
+          16082,
+          38,
           "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ]
       ]
@@ -2289,18 +2289,18 @@
         "gmv": 176538.72,
         "gmvDelta": "+66.7% vs prior period",
         "down": false,
-        "adRevenue": 158817.06,
-        "adSpend": 145770.6,
-        "roas": 1.0895,
+        "adRevenue": 158338.91,
+        "adSpend": 145458.84,
+        "roas": 1.0885,
         "m": {
           "Orders": 7219,
           "Units sold": 8142.0,
           "Affiliate GMV": 155724.66,
           "Commission": 36445.07,
-          "Videos posted": 1871,
+          "Videos posted": 1870,
           "Creators posting": 722,
           "Video views": 11799301,
-          "LIVE GMV": 55856.21,
+          "LIVE GMV": 55912.87,
           "DMs sent": 129632,
           "Sample requests": 2210,
           "Samples approved": 751,
@@ -2311,10 +2311,10 @@
           "Units sold": 100.05,
           "Affiliate GMV": 60.86,
           "Commission": 109.19,
-          "Videos posted": 67.5,
+          "Videos posted": 67.41,
           "Creators posting": 9.56,
           "Video views": 82.68,
-          "LIVE GMV": 70.82,
+          "LIVE GMV": 70.99,
           "DMs sent": 1967.17,
           "Sample requests": 84.78,
           "Samples approved": 21.92,
@@ -3352,10 +3352,10 @@
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          4372.86,
-          256,
-          423351,
-          1743,
+          4638.22,
+          270,
+          452256,
+          1805,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
@@ -3365,8 +3365,8 @@
           "keniaher.77",
           2322.88,
           163,
-          94179,
-          404,
+          94847,
+          407,
           "https://tiktok.com/@keniaher.77/video/7670969961753431309"
         ],
         [
@@ -3374,10 +3374,10 @@
           "Buenisima! #puertamosquitero #puertamagnetica #screendoor #parati #tiktokshopcreatorpicks ",
           "sylviaapproved",
           "sylviaapproved",
-          1485.43,
-          105,
-          127693,
-          470,
+          1518.74,
+          107,
+          130592,
+          474,
           "https://tiktok.com/@sylviaapproved/video/7663728633059544351"
         ],
         [
@@ -3385,10 +3385,10 @@
           "This magnetic screen door installs in minutes with no tools required, snaps shut automatically behin",
           "courtney_gonzales19",
           "courtney_gonzales19",
-          1359.37,
-          88,
-          66943,
-          135,
+          1399.35,
+          90,
+          67329,
+          136,
           "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958"
         ],
         [
@@ -3398,8 +3398,8 @@
           "courtney_gonzales19",
           1163.95,
           82,
-          40890,
-          93,
+          41933,
+          94,
           "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597"
         ],
         [
@@ -3420,8 +3420,8 @@
           "sylviaapproved",
           757.78,
           43,
-          43815,
-          268,
+          43954,
+          269,
           "https://tiktok.com/@sylviaapproved/video/7662535458450083103"
         ],
         [
@@ -3431,9 +3431,20 @@
           "delbarnesadventure",
           738.94,
           33,
-          10634,
+          10749,
           20,
           "https://tiktok.com/@delbarnesadventure/video/7664372520132283661"
+        ],
+        [
+          "7672862005375634719",
+          "No es lo mismo!!! #puertamagnetica #screendoor #tiktokshopholidayhaul #fall #parati ",
+          "sylviaapproved",
+          "sylviaapproved",
+          636.55,
+          34,
+          33229,
+          79,
+          "https://tiktok.com/@sylviaapproved/video/7672862005375634719"
         ],
         [
           "7673494617085693214",
@@ -3442,20 +3453,9 @@
           "theevergreeneditco",
           632.05,
           28,
-          18065,
+          18077,
           39,
           "https://tiktok.com/@theevergreeneditco/video/7673494617085693214"
-        ],
-        [
-          "7672862005375634719",
-          "No es lo mismo!!! #puertamagnetica #screendoor #tiktokshopholidayhaul #fall #parati ",
-          "sylviaapproved",
-          "sylviaapproved",
-          603.57,
-          32,
-          32053,
-          78,
-          "https://tiktok.com/@sylviaapproved/video/7672862005375634719"
         ]
       ]
     }

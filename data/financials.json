@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-14",
+    "pulled_on": "2026-10-15",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -18,19 +18,19 @@
         "video_gmv": 4786.63,
         "live_gmv": 2698.88,
         "shop_tab_gmv": 1808.1,
-        "gmv_max_revenue": 7186.84,
+        "gmv_max_revenue": 6708.6900000000005,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 4432.08,
+        "ad_spend": 4120.32,
         "commission": 1400.7,
         "refund_amount": 1388.4,
         "shipping_fees": 2485.2
       },
-      "net_after_ads_commissions_refunds": 1223.26,
+      "net_after_ads_commissions_refunds": 1535.02,
       "ratios": {
-        "blended_roas": 1.9053,
-        "gmv_max_roas": 1.6216,
+        "blended_roas": 2.0495,
+        "gmv_max_roas": 1.6282,
         "commission_rate_pct": 20.19,
         "refund_rate_pct": 16.44,
         "aov": 24.84,
@@ -93,7 +93,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
+          "price": 53.99,
           "total_gmv": 157.83,
           "share_pct": 1.9,
           "video_gmv": 37.99,
@@ -126,7 +126,7 @@
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
-          "price": 39.99,
+          "price": 25.99,
           "total_gmv": 71.82,
           "share_pct": 0.9,
           "video_gmv": 53.83,
@@ -180,7 +180,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
+          "product_name": "Everlasting Comfort Cozy Throw Blanket - Double-Sided Animal Print & Solid Design, Fluffy, Thick Plush Warmth, Durable, Machine Washable & Dryer Safe, Comfy and Cozy Vibes, Modern Home Decor, Fade & Stain Resistant, Indoor Christmas Accent",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -235,7 +235,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Humidifier - Large Room No-Filter, for Plants, Baby, Allergies, Dry Skin, Congestion, 50 Hr Run Time, Easy Clean",
+          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
           "price": 49.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -268,7 +268,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -397,19 +397,19 @@
         "video_gmv": 8101.85,
         "live_gmv": 5590.31,
         "shop_tab_gmv": 3286.46,
-        "gmv_max_revenue": 12309.07,
+        "gmv_max_revenue": 11830.92,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 8050.62,
+        "ad_spend": 7738.86,
         "commission": 2614.11,
         "refund_amount": 1994.66,
         "shipping_fees": 4750.0
       },
-      "net_after_ads_commissions_refunds": 3788.66,
+      "net_after_ads_commissions_refunds": 4100.42,
       "ratios": {
-        "blended_roas": 2.0431,
-        "gmv_max_roas": 1.529,
+        "blended_roas": 2.1254,
+        "gmv_max_roas": 1.5288,
         "commission_rate_pct": 19.08,
         "refund_rate_pct": 12.13,
         "aov": 25.34,
@@ -472,7 +472,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
+          "price": 53.99,
           "total_gmv": 157.83,
           "share_pct": 1.0,
           "video_gmv": 37.99,
@@ -516,7 +516,7 @@
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
-          "price": 39.99,
+          "price": 25.99,
           "total_gmv": 102.82,
           "share_pct": 0.6,
           "video_gmv": 84.83,
@@ -592,7 +592,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
+          "product_name": "Everlasting Comfort Cozy Throw Blanket - Double-Sided Animal Print & Solid Design, Fluffy, Thick Plush Warmth, Durable, Machine Washable & Dryer Safe, Comfy and Cozy Vibes, Modern Home Decor, Fade & Stain Resistant, Indoor Christmas Accent",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -636,7 +636,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Humidifier - Large Room No-Filter, for Plants, Baby, Allergies, Dry Skin, Congestion, 50 Hr Run Time, Easy Clean",
+          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
           "price": 49.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -669,7 +669,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -787,19 +787,19 @@
         "video_gmv": 15809.67,
         "live_gmv": 7371.51,
         "shop_tab_gmv": 6153.39,
-        "gmv_max_revenue": 23653.47,
+        "gmv_max_revenue": 23175.32,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 14989.400000000001,
+        "ad_spend": 14677.64,
         "commission": 4522.21,
         "refund_amount": 4570.91,
         "shipping_fees": 8101.6
       },
-      "net_after_ads_commissions_refunds": 4633.08,
+      "net_after_ads_commissions_refunds": 4944.84,
       "ratios": {
-        "blended_roas": 1.9157,
-        "gmv_max_roas": 1.578,
+        "blended_roas": 1.9564,
+        "gmv_max_roas": 1.579,
         "commission_rate_pct": 19.25,
         "refund_rate_pct": 15.92,
         "aov": 26.11,
@@ -873,7 +873,7 @@
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
-          "price": 39.99,
+          "price": 25.99,
           "total_gmv": 345.56,
           "share_pct": 1.2,
           "video_gmv": 290.94,
@@ -884,7 +884,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
+          "price": 53.99,
           "total_gmv": 272.8,
           "share_pct": 1.0,
           "video_gmv": 152.96,
@@ -1015,7 +1015,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
+          "product_name": "Everlasting Comfort Cozy Throw Blanket - Double-Sided Animal Print & Solid Design, Fluffy, Thick Plush Warmth, Durable, Machine Washable & Dryer Safe, Comfy and Cozy Vibes, Modern Home Decor, Fade & Stain Resistant, Indoor Christmas Accent",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1070,7 +1070,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Humidifier - Large Room No-Filter, for Plants, Baby, Allergies, Dry Skin, Congestion, 50 Hr Run Time, Easy Clean",
+          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
           "price": 49.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1103,7 +1103,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1197,21 +1197,21 @@
         "total_gmv": 92746.13,
         "affiliate_gmv": 80651.62,
         "video_gmv": 45686.44,
-        "live_gmv": 33738.57,
+        "live_gmv": 33795.23,
         "shop_tab_gmv": 17056.0,
-        "gmv_max_revenue": 71284.0,
+        "gmv_max_revenue": 70805.85,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 53849.36999999999,
+        "ad_spend": 53537.60999999999,
         "commission": 18088.72,
         "refund_amount": 11096.41,
         "shipping_fees": 26995.2
       },
-      "net_after_ads_commissions_refunds": 9711.63,
+      "net_after_ads_commissions_refunds": 10023.39,
       "ratios": {
-        "blended_roas": 1.7223,
-        "gmv_max_roas": 1.3238,
+        "blended_roas": 1.7324,
+        "gmv_max_roas": 1.3225,
         "commission_rate_pct": 22.43,
         "refund_rate_pct": 11.96,
         "aov": 25.77,
@@ -1263,7 +1263,7 @@
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
-          "price": 39.99,
+          "price": 25.99,
           "total_gmv": 1529.95,
           "share_pct": 1.6,
           "video_gmv": 1348.76,
@@ -1340,7 +1340,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
+          "price": 53.99,
           "total_gmv": 272.8,
           "share_pct": 0.3,
           "video_gmv": 152.96,
@@ -1504,7 +1504,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
+          "product_name": "Everlasting Comfort Cozy Throw Blanket - Double-Sided Animal Print & Solid Design, Fluffy, Thick Plush Warmth, Durable, Machine Washable & Dryer Safe, Comfy and Cozy Vibes, Modern Home Decor, Fade & Stain Resistant, Indoor Christmas Accent",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1548,7 +1548,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Humidifier - Large Room No-Filter, for Plants, Baby, Allergies, Dry Skin, Congestion, 50 Hr Run Time, Easy Clean",
+          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
           "price": 49.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1559,7 +1559,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1631,21 +1631,21 @@
         "total_gmv": 176538.72,
         "affiliate_gmv": 155724.66,
         "video_gmv": 97768.6,
-        "live_gmv": 55856.21,
+        "live_gmv": 55912.87,
         "shop_tab_gmv": 26390.2,
-        "gmv_max_revenue": 158817.06,
+        "gmv_max_revenue": 158338.91,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 145770.6,
+        "ad_spend": 145458.84,
         "commission": 36445.07,
         "refund_amount": 19632.51,
         "shipping_fees": 54446.4
       },
-      "net_after_ads_commissions_refunds": -25309.46,
+      "net_after_ads_commissions_refunds": -24997.7,
       "ratios": {
-        "blended_roas": 1.2111,
-        "gmv_max_roas": 1.0895,
+        "blended_roas": 1.2137,
+        "gmv_max_roas": 1.0885,
         "commission_rate_pct": 23.4,
         "refund_rate_pct": 11.12,
         "aov": 24.45,
@@ -1686,7 +1686,7 @@
         {
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Outdoor Picnic Blanket - Portable Washable, Quick-Dry, Reusable Waterproof, Sandproof - With Carrying Bag, Travel Clip, 4 Stakes - Extra Large for 5-8 People, Fast Pack for Beach, Camping (Sports & Outdoor Picnicware)",
-          "price": 39.99,
+          "price": 25.99,
           "total_gmv": 5734.51,
           "share_pct": 3.2,
           "video_gmv": 5263.85,
@@ -1774,7 +1774,7 @@
         {
           "product_id": "1732604928188453083",
           "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest",
-          "price": 39.99,
+          "price": 53.99,
           "total_gmv": 272.8,
           "share_pct": 0.2,
           "video_gmv": 152.96,
@@ -1883,7 +1883,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Humidifier - Large Room No-Filter, for Plants, Baby, Allergies, Dry Skin, Congestion, 50 Hr Run Time, Easy Clean",
+          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
           "price": 49.99,
           "total_gmv": 67.99,
           "share_pct": 0.0,
@@ -1971,7 +1971,7 @@
         },
         {
           "product_id": "1729385810739499227",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush, Thick, Durable, Machine Washable & Dryer Safe, Cozy, Fluffy, Modern Home Decor, Resists Fading & Stains, Indoor/Outdoor Christmas Accent",
+          "product_name": "Everlasting Comfort Cozy Throw Blanket - Double-Sided Animal Print & Solid Design, Fluffy, Thick Plush Warmth, Durable, Machine Washable & Dryer Safe, Comfy and Cozy Vibes, Modern Home Decor, Fade & Stain Resistant, Indoor Christmas Accent",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -2026,7 +2026,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket Portable Folding Windproof Umbrella for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee, Fully",
+          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
           "price": 31.98,
           "total_gmv": 0,
           "share_pct": 0.0,

@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-10-14T07:01:15Z",
+ "generated_on": "2026-10-15T07:02:22Z",
  "window": "2026-10-05 to 2026-10-11",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-10-14T07:01:14Z",
+ "assumptions_generated_on": "2026-10-15T07:02:19Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -71,17 +71,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491651803",
-     "name": null,
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732707643491520731",
      "name": "Pastel Mint",
      "units": 3,
      "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491651803",
+     "name": null,
+     "units": 0,
+     "price": null,
      "why": "no cost row in the cost model"
     },
     {
@@ -127,13 +127,6 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 5,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146362587",
      "name": "Yellow",
      "units": 1,
@@ -145,6 +138,13 @@
      "name": "Black 2pack",
      "units": 7,
      "price": 39.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 5,
+     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -190,10 +190,10 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 1961.91,
-   "revenue": 1718.79,
-   "orders": 82,
-   "roi": 0.876,
+   "spend": 1820.37,
+   "revenue": 1588.54,
+   "orders": 76,
+   "roi": 0.873,
    "roas_target": 1.2,
    "be_roas": null,
    "pause_below_roas": null,
@@ -265,15 +265,15 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 1165.54,
-   "revenue": 3014.58,
-   "orders": 134,
-   "roi": 2.586,
+   "spend": 1131.11,
+   "revenue": 2910.63,
+   "orders": 129,
+   "roi": 2.573,
    "roas_target": 2.5,
    "be_roas": 4.0,
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
-   "cm3_after_ads": -357.63,
+   "cm3_after_ads": -351.06,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 2.50x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
@@ -305,15 +305,15 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 1231.09,
-   "revenue": 2433.48,
-   "orders": 49,
-   "roi": 1.977,
+   "spend": 1095.3,
+   "revenue": 2189.53,
+   "orders": 44,
+   "roi": 1.999,
    "roas_target": 2.5,
    "be_roas": 7.62,
    "pause_below_roas": 5.0,
    "margin_ad_pct": 13.4,
-   "cm3_after_ads": -905.0,
+   "cm3_after_ads": -801.9,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 2.50x, which is below its 7.6x break-even, so it can hit target and still lose money. Raise the return target to at least 7.6x (break-even), or pause and move the budget to a campaign above break-even.",
@@ -334,7 +334,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 91,
+    "units_total": 79,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -342,21 +342,21 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 27,
+     "units": 28,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146428123",
      "name": "Clear",
-     "units": 6,
+     "units": 4,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707650287079643",
      "name": "Navy Blue",
-     "units": 7,
+     "units": 5,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -370,7 +370,7 @@
     {
      "sku_id": "1732694432146165979",
      "name": "Slate Blue",
-     "units": 4,
+     "units": 3,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -382,17 +382,17 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707643491520731",
+     "name": "Pastel Mint",
+     "units": 0,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732707643491651803",
      "name": null,
      "units": 0,
      "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491520731",
-     "name": "Pastel Mint",
-     "units": 1,
-     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -433,14 +433,7 @@
     {
      "sku_id": "1732694432146100443",
      "name": "Red",
-     "units": 2,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 2,
+     "units": 1,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -459,9 +452,16 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 2,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146821339",
      "name": "Black Premium",
-     "units": 3,
+     "units": 1,
      "price": 35.99,
      "why": "no cost row in the cost model"
     },
@@ -475,14 +475,14 @@
     {
      "sku_id": "1732694432146034907",
      "name": "Pastel Blue",
-     "units": 2,
+     "units": 1,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146231515",
      "name": "Black/Red",
-     "units": 8,
+     "units": 6,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -496,15 +496,15 @@
     {
      "sku_id": "1732694432146624731",
      "name": "Black Fog",
-     "units": 1,
+     "units": 0,
      "price": 31.99,
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 2777.36,
-   "revenue": 2290.5,
-   "orders": 109,
-   "roi": 0.825,
+   "spend": 2108.51,
+   "revenue": 1589.14,
+   "orders": 75,
+   "roi": 0.754,
    "roas_target": 1.2,
    "be_roas": null,
    "pause_below_roas": null,
@@ -527,7 +527,7 @@
    "sku_coverage": {
     "skus_total": 7,
     "skus_mapped": 1,
-    "units_total": 139,
+    "units_total": 135,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -535,14 +535,14 @@
     {
      "sku_id": "1732283771626688731",
      "name": "Default,Heavy Duty Fiberglass (New)",
-     "units": 31,
+     "units": 30,
      "price": 21.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732283771626623195",
      "name": "Default,Original Standard Mesh",
-     "units": 106,
+     "units": 103,
      "price": 19.99,
      "why": "no cost row in the cost model"
     },
@@ -575,15 +575,15 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 1318.92,
-   "revenue": 3250.77,
-   "orders": 151,
-   "roi": 2.465,
+   "spend": 1116.32,
+   "revenue": 2774.96,
+   "orders": 131,
+   "roi": 2.486,
    "roas_target": 2.5,
    "be_roas": 4.0,
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
-   "cm3_after_ads": -447.71,
+   "cm3_after_ads": -372.63,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 2.50x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
@@ -594,16 +594,16 @@
    "campaign_id": "1869091438759025",
    "product": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
    "matched": true,
-   "be_basis": "SKU blend: blended over 3 of 4 SKUs (71% of units sold)",
+   "be_basis": "SKU blend: blended over 3 of 4 SKUs (68% of units sold)",
    "product_ids": [
     "1729385884864975067"
    ],
    "sku_coverage": {
     "skus_total": 4,
     "skus_mapped": 3,
-    "units_total": 70,
-    "units_covered": 50,
-    "pct_units_covered": 71.4
+    "units_total": 63,
+    "units_covered": 43,
+    "pct_units_covered": 68.3
    },
    "unmapped_skus": [
     {
@@ -614,22 +614,22 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 1067.04,
-   "revenue": 2082.58,
-   "orders": 39,
-   "roi": 1.952,
+   "spend": 850.55,
+   "revenue": 1738.65,
+   "orders": 32,
+   "roi": 2.044,
    "roas_target": 2.5,
-   "be_roas": 7.4,
+   "be_roas": 7.38,
    "pause_below_roas": 5.0,
    "margin_ad_pct": 13.8,
-   "cm3_after_ads": -779.64,
+   "cm3_after_ads": -610.62,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 2.50x, which is below its 7.4x break-even, so it can hit target and still lose money. Raise the return target to at least 7.4x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-10-08 to 2026-10-14",
+ "live_window": "2026-10-09 to 2026-10-15",
  "products": [
   {
    "product": "Screen Door",
@@ -639,12 +639,12 @@
    "price": 21.99,
    "units": 140,
    "gmv": 2692.63,
-   "units_ad": 134,
-   "ads_spend": 1165.54,
-   "ads_revenue": 3014.58,
+   "units_ad": 129,
+   "ads_spend": 1131.11,
+   "ads_revenue": 2910.63,
    "organic_revenue": 0.0,
-   "cm3": -346.14,
-   "cm3_per_unit": -2.47,
+   "cm3": -317.21,
+   "cm3_per_unit": -2.27,
    "margin_ad_pct": 26.8,
    "be_roas_ad": 3.7,
    "pause_below_roas": 3.2,
@@ -660,12 +660,12 @@
    "price": 34.99,
    "units": 98,
    "gmv": 3769.44,
-   "units_ad": 49,
-   "ads_spend": 1231.09,
-   "ads_revenue": 2433.48,
-   "organic_revenue": 1335.96,
-   "cm3": -907.2,
-   "cm3_per_unit": -9.26,
+   "units_ad": 44,
+   "ads_spend": 1095.3,
+   "ads_revenue": 2189.53,
+   "organic_revenue": 1579.91,
+   "cm3": -797.66,
+   "cm3_per_unit": -8.14,
    "margin_ad_pct": 17.0,
    "be_roas_ad": 5.9,
    "pause_below_roas": 5.0,
@@ -743,9 +743,9 @@
    "variants": 1,
    "gmv": 1207.25,
    "units": 101,
-   "ads_spend": 1961.91,
-   "ads_revenue": 1718.79,
-   "units_ad": 82,
+   "ads_spend": 1820.37,
+   "ads_revenue": 1588.54,
+   "units_ad": 76,
    "cm3": null,
    "cm3_per_unit": null,
    "margin_ad_pct": null,
@@ -779,14 +779,14 @@
   "watch": 0,
   "keep": 0,
   "no_break_even": 0,
-  "cm3_after_ads_total": -1262.63,
+  "cm3_after_ads_total": -1152.96,
   "target_below_break_even": 2,
   "products_missing_inputs": 2,
-  "week_cm3_total": -1241.26,
+  "week_cm3_total": -1102.79,
   "live_campaigns_judged": 3,
   "live_pause": 3,
-  "live_cm3_after_ads_total": -1227.35,
-  "live_spend_total": 5163.32
+  "live_cm3_after_ads_total": -983.25,
+  "live_spend_total": 4075.38
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
