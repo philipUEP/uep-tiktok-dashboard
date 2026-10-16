@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-15",
+    "pulled_on": "2026-10-16",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -59,7 +59,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
           "price": 27.99,
           "total_gmv": 2692.63,
           "share_pct": 31.9,
@@ -257,7 +257,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 47.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -301,7 +301,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer - 110V Input Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Fanless Quiet Powerful 2-Tube Dryer, Gentle on Leather & Rubber, Dries 1 Pair for Fleece Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -438,7 +438,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
           "price": 27.99,
           "total_gmv": 4950.28,
           "share_pct": 30.1,
@@ -658,7 +658,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 47.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -702,7 +702,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer - 110V Input Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Fanless Quiet Powerful 2-Tube Dryer, Gentle on Leather & Rubber, Dries 1 Pair for Fleece Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -828,7 +828,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
           "price": 27.99,
           "total_gmv": 9268.67,
           "share_pct": 32.3,
@@ -1092,7 +1092,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 47.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1136,7 +1136,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer - 110V Input Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Fanless Quiet Powerful 2-Tube Dryer, Gentle on Leather & Rubber, Dries 1 Pair for Fleece Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1197,7 +1197,7 @@
         "total_gmv": 92746.13,
         "affiliate_gmv": 80651.62,
         "video_gmv": 45686.44,
-        "live_gmv": 33795.23,
+        "live_gmv": 33728.39,
         "shop_tab_gmv": 17056.0,
         "gmv_max_revenue": 70805.85,
         "subscription_revenue": 0
@@ -1240,7 +1240,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
           "price": 27.99,
           "total_gmv": 24341.76,
           "share_pct": 26.2,
@@ -1449,7 +1449,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 47.99,
           "total_gmv": 50.93,
           "share_pct": 0.1,
@@ -1592,7 +1592,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer - 110V Input Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Fanless Quiet Powerful 2-Tube Dryer, Gentle on Leather & Rubber, Dries 1 Pair for Fleece Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1631,7 +1631,7 @@
         "total_gmv": 176538.72,
         "affiliate_gmv": 155724.66,
         "video_gmv": 97768.6,
-        "live_gmv": 55912.87,
+        "live_gmv": 55932.4,
         "shop_tab_gmv": 26390.2,
         "gmv_max_revenue": 158338.91,
         "subscription_revenue": 0
@@ -1674,7 +1674,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
           "price": 27.99,
           "total_gmv": 50435.81,
           "share_pct": 28.6,
@@ -1927,7 +1927,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour Fits Legs, Pure Foam Gentle Support for Knees, Adjustable Strap, Side Sleeper Pain Relief, Hip and Spine Alignment, Lifetime Replacement",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 47.99,
           "total_gmv": 50.93,
           "share_pct": 0.0,
@@ -2048,7 +2048,7 @@
         },
         {
           "product_id": "1730129398592344283",
-          "product_name": "Household Portable Shoe Dryer Machine - Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Heavy-Duty 2-Tube Fanless Quiet Powerful Dryer for Rubber, Fleece, Leather Shoes, Athletes",
+          "product_name": "Household Portable Shoe Dryer - 110V Input Compact Foldable Vented Boot Warmer with Timer Control, 2-Hour Fast Drying, Fanless Quiet Powerful 2-Tube Dryer, Gentle on Leather & Rubber, Dries 1 Pair for Fleece Shoes, Athletes",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,

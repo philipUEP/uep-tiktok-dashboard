@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-10-15T07:02:22Z",
+ "generated_on": "2026-10-16T07:01:03Z",
  "window": "2026-10-05 to 2026-10-11",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-10-15T07:02:19Z",
+ "assumptions_generated_on": "2026-10-16T07:01:02Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -57,16 +57,23 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146165979",
-     "name": "Slate Blue",
-     "units": 7,
-     "price": 31.99,
+     "sku_id": "1732707643491651803",
+     "name": null,
+     "units": 0,
+     "price": null,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707643491455195",
      "name": "Pastel pink",
      "units": 14,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146165979",
+     "name": "Slate Blue",
+     "units": 7,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -78,10 +85,10 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491651803",
-     "name": null,
+     "sku_id": "1732694432146755803",
+     "name": "Black 3pack",
      "units": 0,
-     "price": null,
+     "price": 61.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -89,13 +96,6 @@
      "name": "Lavendar",
      "units": 0,
      "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146755803",
-     "name": "Black 3pack",
-     "units": 0,
-     "price": 61.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -120,16 +120,16 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 2,
+     "sku_id": "1732694432146362587",
+     "name": "Yellow",
+     "units": 1,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146362587",
-     "name": "Yellow",
-     "units": 1,
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 2,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -155,6 +155,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
+     "units": 0,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732530572481368283",
      "name": "Rainbow",
      "units": 0,
@@ -172,13 +179,6 @@
      "sku_id": "1732694432146231515",
      "name": "Black/Red",
      "units": 9,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146297051",
-     "name": "Gray",
-     "units": 0,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -208,7 +208,7 @@
   {
    "campaign": "Screen Door",
    "campaign_id": "1865906453543986",
-   "product": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
+   "product": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
    "matched": true,
    "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
    "product_ids": [
@@ -334,7 +334,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 79,
+    "units_total": 88,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -342,7 +342,7 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 28,
+     "units": 31,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -363,27 +363,6 @@
     {
      "sku_id": "1732694432146886875",
      "name": "Starry Night",
-     "units": 1,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146165979",
-     "name": "Slate Blue",
-     "units": 3,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491455195",
-     "name": "Pastel pink",
-     "units": 14,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491520731",
-     "name": "Pastel Mint",
      "units": 0,
      "price": 31.99,
      "why": "no cost row in the cost model"
@@ -396,10 +375,24 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732530572481433819",
-     "name": "Lavendar",
-     "units": 0,
-     "price": null,
+     "sku_id": "1732707643491455195",
+     "name": "Pastel pink",
+     "units": 14,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146165979",
+     "name": "Slate Blue",
+     "units": 3,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491520731",
+     "name": "Pastel Mint",
+     "units": 1,
+     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -410,16 +403,23 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732530572481433819",
+     "name": "Lavendar",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146493659",
      "name": "Blue Sky",
-     "units": 5,
+     "units": 4,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146559195",
      "name": "White Fog",
-     "units": 0,
+     "units": 1,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -431,6 +431,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732694432146362587",
+     "name": "Yellow",
+     "units": 3,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146100443",
      "name": "Red",
      "units": 1,
@@ -438,31 +445,31 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146362587",
-     "name": "Yellow",
-     "units": 2,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146690267",
      "name": "Black 2pack",
-     "units": 6,
+     "units": 9,
      "price": 39.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707643491586267",
      "name": "Pastel Lavendar",
-     "units": 2,
+     "units": 3,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146821339",
      "name": "Black Premium",
-     "units": 1,
+     "units": 3,
      "price": 35.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
+     "units": 0,
+     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -482,14 +489,7 @@
     {
      "sku_id": "1732694432146231515",
      "name": "Black/Red",
-     "units": 6,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146297051",
-     "name": "Gray",
-     "units": 0,
+     "units": 5,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -501,10 +501,10 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 2108.51,
-   "revenue": 1589.14,
-   "orders": 75,
-   "roi": 0.754,
+   "spend": 2329.27,
+   "revenue": 1838.03,
+   "orders": 86,
+   "roi": 0.789,
    "roas_target": 1.2,
    "be_roas": null,
    "pause_below_roas": null,
@@ -518,7 +518,7 @@
   {
    "campaign": "Screen Door",
    "campaign_id": "1865906453543986",
-   "product": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Hook-Tape Easy Install, Keeps Bugs Out, Modern, No-Drill Home Solutions, Front/Patio Door Hardware",
+   "product": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
    "matched": true,
    "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
    "product_ids": [
@@ -527,7 +527,7 @@
    "sku_coverage": {
     "skus_total": 7,
     "skus_mapped": 1,
-    "units_total": 135,
+    "units_total": 140,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -535,21 +535,21 @@
     {
      "sku_id": "1732283771626688731",
      "name": "Default,Heavy Duty Fiberglass (New)",
-     "units": 30,
+     "units": 35,
      "price": 21.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732283771626623195",
      "name": "Default,Original Standard Mesh",
-     "units": 103,
+     "units": 101,
      "price": 19.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732384554433482971",
      "name": "Default,Thermal",
-     "units": 2,
+     "units": 4,
      "price": 27.99,
      "why": "no cost row in the cost model"
     },
@@ -575,15 +575,15 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 1116.32,
-   "revenue": 2774.96,
-   "orders": 131,
-   "roi": 2.486,
+   "spend": 1138.23,
+   "revenue": 2900.91,
+   "orders": 134,
+   "roi": 2.549,
    "roas_target": 2.5,
    "be_roas": 4.0,
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
-   "cm3_after_ads": -372.63,
+   "cm3_after_ads": -360.79,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 2.50x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
@@ -594,7 +594,7 @@
    "campaign_id": "1869091438759025",
    "product": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
    "matched": true,
-   "be_basis": "SKU blend: blended over 3 of 4 SKUs (68% of units sold)",
+   "be_basis": "SKU blend: blended over 3 of 4 SKUs (67% of units sold)",
    "product_ids": [
     "1729385884864975067"
    ],
@@ -602,34 +602,34 @@
     "skus_total": 4,
     "skus_mapped": 3,
     "units_total": 63,
-    "units_covered": 43,
-    "pct_units_covered": 68.3
+    "units_covered": 42,
+    "pct_units_covered": 66.7
    },
    "unmapped_skus": [
     {
      "sku_id": "1732447698187423963",
      "name": "Original Black 2 Pack",
-     "units": 20,
+     "units": 21,
      "price": 55.99,
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 850.55,
-   "revenue": 1738.65,
-   "orders": 32,
-   "roi": 2.044,
+   "spend": 845.48,
+   "revenue": 1802.64,
+   "orders": 33,
+   "roi": 2.132,
    "roas_target": 2.5,
-   "be_roas": 7.38,
+   "be_roas": 7.45,
    "pause_below_roas": 5.0,
-   "margin_ad_pct": 13.8,
-   "cm3_after_ads": -610.62,
+   "margin_ad_pct": 13.7,
+   "cm3_after_ads": -598.52,
    "status": "ENABLE",
    "flag": "Pause",
-   "action": "It is live on a target of 2.50x, which is below its 7.4x break-even, so it can hit target and still lose money. Raise the return target to at least 7.4x (break-even), or pause and move the budget to a campaign above break-even.",
+   "action": "It is live on a target of 2.50x, which is below its 7.5x break-even, so it can hit target and still lose money. Raise the return target to at least 7.5x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-10-09 to 2026-10-15",
+ "live_window": "2026-10-10 to 2026-10-16",
  "products": [
   {
    "product": "Screen Door",
@@ -785,8 +785,8 @@
   "week_cm3_total": -1102.79,
   "live_campaigns_judged": 3,
   "live_pause": 3,
-  "live_cm3_after_ads_total": -983.25,
-  "live_spend_total": 4075.38
+  "live_cm3_after_ads_total": -959.31,
+  "live_spend_total": 4312.98
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
