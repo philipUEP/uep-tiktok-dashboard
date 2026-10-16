@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T07:21:08+00:00",
+  "updated_at": "2026-10-16T07:22:00+00:00",
   "items": [
     {
       "metric": "Collab invites",
@@ -7,8 +7,8 @@
       "prior": 5125,
       "pct": -100.0,
       "direction": "down",
-      "effect": "Inferred: inviting has been at zero for three straight weeks, from 19,400 to 5,125 to 0, so no new creator enters the reply, sample and video queue.",
-      "action": "Inferred: restart inviting against a logged daily floor owned by Melodie and report the daily count in the morning review."
+      "effect": "Inferred: invites have run three weeks down from 19,400 to 5,125 to 0, so no new creator enters the reply, sample and video chain.",
+      "action": "Inferred: restart inviting against a logged daily floor owned by Melodie and report the daily count in the 08:15 review."
     },
     {
       "metric": "DMs sent",
@@ -16,8 +16,8 @@
       "prior": 5185,
       "pct": -94.8,
       "direction": "down",
-      "effect": "Inferred: outreach is effectively off, with daily sends between 5 and 173 all week, and sample requests have already fallen 39.3%, so affiliate GMV loses its replacement layer in three to five weeks.",
-      "action": "Inferred: rebuild the Cruva send queue to a stated daily floor and report the count daily alongside the invite count."
+      "effect": "Inferred: outreach is effectively off at 270 sends, 98.6% below the Sep 21 week, and sample requests are already 39.3% lower.",
+      "action": "Inferred: rebuild the Cruva send queue to a stated daily floor and report the count daily beside the invite count."
     },
     {
       "metric": "Samples shipped",
@@ -25,8 +25,8 @@
       "prior": 98,
       "pct": -39.8,
       "direction": "down",
-      "effect": "Inferred: shipments fell while approvals dropped to 40 from 118, so the approval and shipping layer, not creator demand, is now the constraint on new video supply.",
-      "action": "Inferred: work the 96 To Review rows and the 5 Ready to Ship rows to a daily clearance number owned by Jermin."
+      "effect": "Inferred: shipments fell while approvals dropped to 40, so the approval and shipping layer, not creator demand, is the constraint on new video supply.",
+      "action": "Inferred: clear the 102 To Review and 3 Ready to Ship rows to a daily clearance number owned by Jermin."
     },
     {
       "metric": "Replies",
@@ -34,26 +34,26 @@
       "prior": 20,
       "pct": -15.0,
       "direction": "down",
-      "effect": "Inferred: a third weekly fall, from 55 to 20 to 17, empties the layer that feeds requests and samples, and it sits on a send base of only 270.",
+      "effect": "Inferred: a third weekly fall, 55 to 20 to 17, empties the layer that feeds sample requests while the send base is only 270.",
       "action": "Inferred: follow up non responders in the Cruva inbox and route every reply to Jermin the same day."
     },
     {
       "metric": "Repel Blitz Ad Campaign 10/5 ROI (roas_target 1.2)",
-      "current": 0.754,
+      "current": 0.789,
       "prior": 0.873,
-      "pct": -13.6,
+      "pct": -9.6,
       "direction": "down",
-      "effect": "Inferred: the only enabled umbrella line returns 0.75 per dollar, spending 2,108.51 to return 1,589.14 over Oct 9 to Oct 15 at 28.11 per order, on the umbrella org.md records as excluded on margin.",
-      "action": "Inferred: pause it and move the budget to Screen Door at 2.486 with an 8.52 cost per order and Bidet 7/6 at 2.044."
+      "effect": "Inferred: the only enabled umbrella line returns 0.79 per dollar, spending 2,329.27 for 1,838.03 across Oct 10 to Oct 16 at a 27.08 cost per order.",
+      "action": "Inferred: pause it and move the budget to Screen Door at 2.549 with an 8.49 cost per order and Bidet 7/6 at 2.132."
     },
     {
-      "metric": "Samples expired",
-      "current": 58,
-      "prior": 43,
-      "pct": 34.9,
-      "direction": "up",
-      "effect": "Inferred: expired rows rose 34.9% in a day against a To Review queue of 96 while inbound requests are approved by default, so delay turns free inbound demand into expiry.",
-      "action": "Inferred: surface expiry dates ahead of lapse and report the outstanding To Review and Expired counts daily until they fall."
+      "metric": "Samples approved",
+      "current": 40,
+      "prior": 118,
+      "pct": -66.1,
+      "direction": "down",
+      "effect": "Inferred: approvals fell to 40 against 55 rejected and 24 posted rows, a 69.6% rejection share of resolved rows, with 64 rows expired.",
+      "action": "Inferred: re-check rejected rows carrying post rates above 90% and surface expiry dates ahead of the Oct 22 batch."
     }
   ]
 }
