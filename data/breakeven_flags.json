@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-10-16T07:01:03Z",
+ "generated_on": "2026-10-17T07:00:59Z",
  "window": "2026-10-05 to 2026-10-11",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-10-16T07:01:02Z",
+ "assumptions_generated_on": "2026-10-17T07:00:57Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -14,7 +14,7 @@
   {
    "campaign": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
    "campaign_id": "1878225250482562",
-   "product": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
+   "product": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
    "matched": true,
    "be_basis": "unpriced SKUs: no SKU under this product has a break-even row yet",
    "product_ids": [
@@ -106,13 +106,6 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 1,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732530571945677019",
      "name": "Light Blue",
      "units": 0,
@@ -120,16 +113,16 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146362587",
-     "name": "Yellow",
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
      "units": 1,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 2,
+     "sku_id": "1732694432146362587",
+     "name": "Yellow",
+     "units": 1,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -141,9 +134,23 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 2,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732707643491586267",
      "name": "Pastel Lavendar",
      "units": 5,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
+     "units": 0,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -152,13 +159,6 @@
      "name": "Black Premium",
      "units": 2,
      "price": 35.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146297051",
-     "name": "Gray",
-     "units": 0,
-     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -274,9 +274,9 @@
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
    "cm3_after_ads": -351.06,
-   "status": "ENABLE",
+   "status": "DISABLE",
    "flag": "Pause",
-   "action": "It is live on a target of 2.50x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
+   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 4.0x (break-even), If it restarts: move the budget to a campaign above break-even.",
    "target_is_below_break_even": true,
    "product_margin_ad_pct": 26.8
   },
@@ -314,9 +314,9 @@
    "pause_below_roas": 5.0,
    "margin_ad_pct": 13.4,
    "cm3_after_ads": -801.9,
-   "status": "ENABLE",
+   "status": "DISABLE",
    "flag": "Pause",
-   "action": "It is live on a target of 2.50x, which is below its 7.6x break-even, so it can hit target and still lose money. Raise the return target to at least 7.6x (break-even), or pause and move the budget to a campaign above break-even.",
+   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 7.6x (break-even), If it restarts: move the budget to a campaign above break-even.",
    "target_is_below_break_even": true,
    "product_margin_ad_pct": 13.4
   }
@@ -325,7 +325,7 @@
   {
    "campaign": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
    "campaign_id": "1878225250482562",
-   "product": "Repel Automatic Umbrella - Windproof Travel, 100MPH Wind-Resistant, Durable Light Portable Adult, Fits Backpacks & Cars, Umbrellas for Rain, Rainy Day Use",
+   "product": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
    "matched": true,
    "be_basis": "unpriced SKUs: no SKU under this product has a break-even row yet",
    "product_ids": [
@@ -334,7 +334,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 88,
+    "units_total": 81,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -342,28 +342,28 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 31,
+     "units": 28,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146428123",
      "name": "Clear",
-     "units": 4,
+     "units": 3,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707650287079643",
      "name": "Navy Blue",
-     "units": 5,
+     "units": 6,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146886875",
      "name": "Starry Night",
-     "units": 0,
+     "units": 1,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -377,7 +377,7 @@
     {
      "sku_id": "1732707643491455195",
      "name": "Pastel pink",
-     "units": 14,
+     "units": 12,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -417,17 +417,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 1,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732530571945677019",
      "name": "Light Blue",
      "units": 0,
      "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
+     "units": 1,
+     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -438,23 +438,30 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 1,
-     "price": 31.99,
+     "sku_id": "1732694432146690267",
+     "name": "Black 2pack",
+     "units": 8,
+     "price": 39.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146690267",
-     "name": "Black 2pack",
-     "units": 9,
-     "price": 39.99,
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 3,
+     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707643491586267",
      "name": "Pastel Lavendar",
-     "units": 3,
+     "units": 2,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
+     "units": 0,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -463,13 +470,6 @@
      "name": "Black Premium",
      "units": 3,
      "price": 35.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146297051",
-     "name": "Gray",
-     "units": 0,
-     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -482,14 +482,14 @@
     {
      "sku_id": "1732694432146034907",
      "name": "Pastel Blue",
-     "units": 1,
+     "units": 0,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146231515",
      "name": "Black/Red",
-     "units": 5,
+     "units": 3,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -501,10 +501,10 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 2329.27,
-   "revenue": 1838.03,
-   "orders": 86,
-   "roi": 0.789,
+   "spend": 2279.67,
+   "revenue": 1720.4,
+   "orders": 81,
+   "roi": 0.755,
    "roas_target": 1.2,
    "be_roas": null,
    "pause_below_roas": null,
@@ -527,7 +527,7 @@
    "sku_coverage": {
     "skus_total": 7,
     "skus_mapped": 1,
-    "units_total": 140,
+    "units_total": 130,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -535,14 +535,14 @@
     {
      "sku_id": "1732283771626688731",
      "name": "Default,Heavy Duty Fiberglass (New)",
-     "units": 35,
+     "units": 33,
      "price": 21.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732283771626623195",
      "name": "Default,Original Standard Mesh",
-     "units": 101,
+     "units": 93,
      "price": 19.99,
      "why": "no cost row in the cost model"
     },
@@ -575,18 +575,18 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 1138.23,
-   "revenue": 2900.91,
-   "orders": 134,
-   "roi": 2.549,
+   "spend": 1030.06,
+   "revenue": 2599.06,
+   "orders": 119,
+   "roi": 2.523,
    "roas_target": 2.5,
    "be_roas": 4.0,
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
-   "cm3_after_ads": -360.79,
-   "status": "ENABLE",
+   "cm3_after_ads": -333.51,
+   "status": "DISABLE",
    "flag": "Pause",
-   "action": "It is live on a target of 2.50x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
+   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 4.0x (break-even), If it restarts: move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   },
   {
@@ -594,42 +594,42 @@
    "campaign_id": "1869091438759025",
    "product": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
    "matched": true,
-   "be_basis": "SKU blend: blended over 3 of 4 SKUs (67% of units sold)",
+   "be_basis": "SKU blend: blended over 3 of 4 SKUs (61% of units sold)",
    "product_ids": [
     "1729385884864975067"
    ],
    "sku_coverage": {
     "skus_total": 4,
     "skus_mapped": 3,
-    "units_total": 63,
-    "units_covered": 42,
-    "pct_units_covered": 66.7
+    "units_total": 36,
+    "units_covered": 22,
+    "pct_units_covered": 61.1
    },
    "unmapped_skus": [
     {
      "sku_id": "1732447698187423963",
      "name": "Original Black 2 Pack",
-     "units": 21,
+     "units": 14,
      "price": 55.99,
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 845.48,
-   "revenue": 1802.64,
-   "orders": 33,
-   "roi": 2.132,
+   "spend": 652.26,
+   "revenue": 1299.74,
+   "orders": 23,
+   "roi": 1.993,
    "roas_target": 2.5,
-   "be_roas": 7.45,
+   "be_roas": 7.73,
    "pause_below_roas": 5.0,
-   "margin_ad_pct": 13.7,
-   "cm3_after_ads": -598.52,
-   "status": "ENABLE",
+   "margin_ad_pct": 13.3,
+   "cm3_after_ads": -479.39,
+   "status": "DISABLE",
    "flag": "Pause",
-   "action": "It is live on a target of 2.50x, which is below its 7.5x break-even, so it can hit target and still lose money. Raise the return target to at least 7.5x (break-even), or pause and move the budget to a campaign above break-even.",
+   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 7.7x (break-even), If it restarts: move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-10-10 to 2026-10-16",
+ "live_window": "2026-10-11 to 2026-10-17",
  "products": [
   {
    "product": "Screen Door",
@@ -785,8 +785,8 @@
   "week_cm3_total": -1102.79,
   "live_campaigns_judged": 3,
   "live_pause": 3,
-  "live_cm3_after_ads_total": -959.31,
-  "live_spend_total": 4312.98
+  "live_cm3_after_ads_total": -812.9,
+  "live_spend_total": 3961.99
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }

@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-16"
+    "pulled_on": "2026-10-17"
   },
   "periods": {
     "week": {
@@ -22,7 +22,7 @@
           "orders": 129,
           "cost_per_order": 8.77,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-05-22",
           "product_ids": [
             "1729391862339113179"
@@ -38,7 +38,7 @@
           "orders": 44,
           "cost_per_order": 24.89,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-06-26",
           "product_ids": [
             "1729385884864975067"
@@ -620,7 +620,7 @@
           "orders": 232,
           "cost_per_order": 9.32,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-05-22",
           "product_ids": [
             "1729391862339113179"
@@ -636,7 +636,7 @@
           "orders": 97,
           "cost_per_order": 22.8,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-06-26",
           "product_ids": [
             "1729385884864975067"
@@ -1218,7 +1218,7 @@
           "orders": 446,
           "cost_per_order": 9.97,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-05-22",
           "product_ids": [
             "1729391862339113179"
@@ -1234,7 +1234,7 @@
           "orders": 203,
           "cost_per_order": 23.98,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-06-26",
           "product_ids": [
             "1729385884864975067"
@@ -1816,7 +1816,7 @@
           "orders": 848,
           "cost_per_order": 29.92,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-06-26",
           "product_ids": [
             "1729385884864975067"
@@ -1832,7 +1832,7 @@
           "orders": 1327,
           "cost_per_order": 14.08,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-05-22",
           "product_ids": [
             "1729391862339113179"
@@ -1866,7 +1866,7 @@
           "spend": 1718.55,
           "roi": 1.03,
           "orders": 54,
-          "cost_per_order": 31.82,
+          "cost_per_order": 31.83,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21",
@@ -2414,7 +2414,7 @@
           "orders": 1944,
           "cost_per_order": 37.78,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-06-26",
           "product_ids": [
             "1729385884864975067"
@@ -2430,7 +2430,7 @@
           "orders": 2778,
           "cost_per_order": 18.45,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-05-22",
           "product_ids": [
             "1729391862339113179"
@@ -2464,7 +2464,7 @@
           "spend": 1718.55,
           "roi": 1.03,
           "orders": 54,
-          "cost_per_order": 31.82,
+          "cost_per_order": 31.83,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21",
@@ -2995,24 +2995,24 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-10 to 2026-10-16",
+      "range": "2026-10-11 to 2026-10-17",
       "totals": {
-        "revenue": 6541.58,
-        "spend": 4312.98,
-        "orders": 253,
-        "roi": 1.517
+        "revenue": 5619.2,
+        "spend": 3961.99,
+        "orders": 223,
+        "roi": 1.418
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 2900.91,
-          "spend": 1138.23,
-          "roi": 2.549,
-          "orders": 134,
-          "cost_per_order": 8.49,
+          "revenue": 2599.06,
+          "spend": 1030.06,
+          "roi": 2.523,
+          "orders": 119,
+          "cost_per_order": 8.66,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-05-22",
           "product_ids": [
             "1729391862339113179"
@@ -3022,11 +3022,11 @@
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 1838.03,
-          "spend": 2329.27,
-          "roi": 0.789,
-          "orders": 86,
-          "cost_per_order": 27.08,
+          "revenue": 1720.4,
+          "spend": 2279.67,
+          "roi": 0.755,
+          "orders": 81,
+          "cost_per_order": 28.14,
           "roas_target": 1.2,
           "status": "ENABLE",
           "start": "2026-10-05",
@@ -3038,13 +3038,13 @@
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 1802.64,
-          "spend": 845.48,
-          "roi": 2.132,
-          "orders": 33,
-          "cost_per_order": 25.62,
+          "revenue": 1299.74,
+          "spend": 652.26,
+          "roi": 1.993,
+          "orders": 23,
+          "cost_per_order": 28.36,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-06-26",
           "product_ids": [
             "1729385884864975067"
