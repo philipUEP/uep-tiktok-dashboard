@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T07:22:00+00:00",
+  "updated_at": "2026-10-17T07:21:29+00:00",
   "items": [
     {
       "metric": "Collab invites",
@@ -8,7 +8,7 @@
       "pct": -100.0,
       "direction": "down",
       "effect": "Inferred: invites have run three weeks down from 19,400 to 5,125 to 0, so no new creator enters the reply, sample and video chain.",
-      "action": "Inferred: restart inviting against a logged daily floor owned by Melodie and report the daily count in the 08:15 review."
+      "action": "Inferred: restart invites to a logged daily floor and report the count in the 08:15 review."
     },
     {
       "metric": "DMs sent",
@@ -16,8 +16,8 @@
       "prior": 5185,
       "pct": -94.8,
       "direction": "down",
-      "effect": "Inferred: outreach is effectively off at 270 sends, 98.6% below the Sep 21 week, and sample requests are already 39.3% lower.",
-      "action": "Inferred: rebuild the Cruva send queue to a stated daily floor and report the count daily beside the invite count."
+      "effect": "Inferred: outreach is effectively off at 270 sends and sample requests are already 39.3% lower, which removes the base of the affiliate chain.",
+      "action": "Inferred: rebuild the Cruva send queue to a stated daily floor and report the daily count beside the invite count."
     },
     {
       "metric": "Samples shipped",
@@ -25,8 +25,8 @@
       "prior": 98,
       "pct": -39.8,
       "direction": "down",
-      "effect": "Inferred: shipments fell while approvals dropped to 40, so the approval and shipping layer, not creator demand, is the constraint on new video supply.",
-      "action": "Inferred: clear the 102 To Review and 3 Ready to Ship rows to a daily clearance number owned by Jermin."
+      "effect": "Inferred: shipments fell while 98 rows sit in To Review, so the approval and shipping layer, not creator demand, limits new video supply.",
+      "action": "Inferred: set a daily clearance number for the 98 To Review rows, ordered by the Oct 22 expiry batch."
     },
     {
       "metric": "Replies",
@@ -34,26 +34,26 @@
       "prior": 20,
       "pct": -15.0,
       "direction": "down",
-      "effect": "Inferred: a third weekly fall, 55 to 20 to 17, empties the layer that feeds sample requests while the send base is only 270.",
-      "action": "Inferred: follow up non responders in the Cruva inbox and route every reply to Jermin the same day."
+      "effect": "Inferred: replies fell for a third week to 17 even though the reply rate rose to 6.3%, so the size of the send base is the binding constraint.",
+      "action": "Inferred: track replies per 100 DMs daily so a shrinking base is visible before the weekly rollup."
     },
     {
-      "metric": "Repel Blitz Ad Campaign 10/5 ROI (roas_target 1.2)",
-      "current": 0.789,
+      "metric": "Repel Blitz Ad Campaign 10/5 ROI (Oct 11 to Oct 17 vs Oct 5 to Oct 11, target 1.2)",
+      "current": 0.755,
       "prior": 0.873,
-      "pct": -9.6,
+      "pct": -13.5,
       "direction": "down",
-      "effect": "Inferred: the only enabled umbrella line returns 0.79 per dollar, spending 2,329.27 for 1,838.03 across Oct 10 to Oct 16 at a 27.08 cost per order.",
-      "action": "Inferred: pause it and move the budget to Screen Door at 2.549 with an 8.49 cost per order and Bidet 7/6 at 2.132."
+      "effect": "Inferred: the only enabled campaign lost 231.83 in the week window and returns 0.755 per dollar in the last 7 days, below 1.0 and below its 1.2 target.",
+      "action": "Inferred: cap or pause it and re-enable Screen Door at 2.573 and Bidet 7/6 at 1.999 against the 2.5 target."
     },
     {
-      "metric": "Samples approved",
-      "current": 40,
-      "prior": 118,
-      "pct": -66.1,
+      "metric": "Week net after ads, commissions and refunds",
+      "current": 1535.02,
+      "prior": 2565.4,
+      "pct": -40.2,
       "direction": "down",
-      "effect": "Inferred: approvals fell to 40 against 55 rejected and 24 posted rows, a 69.6% rejection share of resolved rows, with 64 rows expired.",
-      "action": "Inferred: re-check rejected rows carrying post rates above 90% and surface expiry dates ahead of the Oct 22 batch."
+      "effect": "Inferred: GMV rose 5.5% while ad spend rose 13.9% and refunds rose 129.0%, so the week earns an 18.18% margin before COGS.",
+      "action": "Inferred: hold ad spend flat until Repel Blitz clears 1.0 and pull refunds by SKU for Oct 5 to Oct 11."
     }
   ]
 }
