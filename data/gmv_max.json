@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-17"
+    "pulled_on": "2026-10-18"
   },
   "periods": {
     "week": {
@@ -1866,7 +1866,7 @@
           "spend": 1718.55,
           "roi": 1.03,
           "orders": 54,
-          "cost_per_order": 31.83,
+          "cost_per_order": 31.82,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21",
@@ -2464,7 +2464,7 @@
           "spend": 1718.55,
           "roi": 1.03,
           "orders": 54,
-          "cost_per_order": 31.83,
+          "cost_per_order": 31.82,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21",
@@ -2995,22 +2995,22 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-11 to 2026-10-17",
+      "range": "2026-10-12 to 2026-10-18",
       "totals": {
-        "revenue": 5619.2,
-        "spend": 3961.99,
-        "orders": 223,
-        "roi": 1.418
+        "revenue": 3987.48,
+        "spend": 3129.9,
+        "orders": 169,
+        "roi": 1.274
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 2599.06,
-          "spend": 1030.06,
-          "roi": 2.523,
-          "orders": 119,
-          "cost_per_order": 8.66,
+          "revenue": 2105.3,
+          "spend": 843.67,
+          "roi": 2.495,
+          "orders": 97,
+          "cost_per_order": 8.7,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -3022,11 +3022,11 @@
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 1720.4,
-          "spend": 2279.67,
-          "roi": 0.755,
-          "orders": 81,
-          "cost_per_order": 28.14,
+          "revenue": 1310.29,
+          "spend": 1933.02,
+          "roi": 0.678,
+          "orders": 61,
+          "cost_per_order": 31.69,
           "roas_target": 1.2,
           "status": "ENABLE",
           "start": "2026-10-05",
@@ -3038,11 +3038,11 @@
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 1299.74,
-          "spend": 652.26,
-          "roi": 1.993,
-          "orders": 23,
-          "cost_per_order": 28.36,
+          "revenue": 571.89,
+          "spend": 353.21,
+          "roi": 1.619,
+          "orders": 11,
+          "cost_per_order": 32.11,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",
