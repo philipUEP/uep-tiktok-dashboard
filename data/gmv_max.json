@@ -1,26 +1,26 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-18"
+    "pulled_on": "2026-10-19"
   },
   "periods": {
     "week": {
-      "range": "2026-10-05 to 2026-10-11",
+      "range": "2026-10-12 to 2026-10-18",
       "totals": {
-        "revenue": 6708.69,
-        "spend": 4120.32,
-        "orders": 250,
-        "roi": 1.628
+        "revenue": 4047.45,
+        "spend": 3276.53,
+        "orders": 172,
+        "roi": 1.235
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 2910.63,
-          "spend": 1131.11,
-          "roi": 2.573,
-          "orders": 129,
-          "cost_per_order": 8.77,
+          "revenue": 2105.3,
+          "spend": 843.67,
+          "roi": 2.495,
+          "orders": 97,
+          "cost_per_order": 8.7,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -30,13 +30,29 @@
           "budget": 500.0
         },
         {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 1370.26,
+          "spend": 2079.65,
+          "roi": 0.659,
+          "orders": 64,
+          "cost_per_order": 32.49,
+          "roas_target": 1.2,
+          "status": "ENABLE",
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 600.0
+        },
+        {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 2189.53,
-          "spend": 1095.3,
-          "roi": 1.999,
-          "orders": 44,
-          "cost_per_order": 24.89,
+          "revenue": 571.89,
+          "spend": 353.21,
+          "roi": 1.619,
+          "orders": 11,
+          "cost_per_order": 32.11,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",
@@ -46,13 +62,579 @@
           "budget": 1000.0
         },
         {
+          "name": "EOS, BP, CB GMV MAX BETA",
+          "campaign_id": "1796379454137346",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 6.0,
+          "status": "DISABLE",
+          "start": "2024-04-15",
+          "product_ids": [
+            "1729385810603249883",
+            "1729385798535319771",
+            "1729385718293303515"
+          ],
+          "budget": 350.0
+        },
+        {
+          "name": "GMV - SOAP DISPENSER/ COOLING BLANKET/ OIL DIFFUSER - RANKSTER",
+          "campaign_id": "1797322405563394",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 4.0,
+          "status": "DISABLE",
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729385810512941275",
+            "1729388475149750491",
+            "1729391864973463771"
+          ],
+          "budget": 400.0
+        },
+        {
+          "name": "GMV - SCREEN DOOR - RANKSTER",
+          "campaign_id": "1797322542842994",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 5.0,
+          "status": "DISABLE",
+          "start": "2024-04-25",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 150.0
+        },
+        {
+          "name": "Product GMV Max_Gross revenue_Everlasting Comfort_20250225095858",
+          "campaign_id": "1825045597725713",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.2,
+          "status": "DISABLE",
+          "start": "2025-02-25",
+          "product_ids": [],
+          "budget": 50.0
+        },
+        {
+          "name": "GMV - Soap dispenser ",
+          "campaign_id": "1827039700345889",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.2,
+          "status": "DISABLE",
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 150.0
+        },
+        {
+          "name": "GMV - All products",
+          "campaign_id": "1827039878662289",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.2,
+          "status": "DISABLE",
+          "start": "2025-03-19",
+          "product_ids": [
+            "1729385810603249883",
+            "1729388475149750491",
+            "1729385798535319771",
+            "1729385718293303515",
+            "1729391863680307419",
+            "1729385810739499227",
+            "1729391864973463771",
+            "1729391862019821787",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729387976535412955",
+            "1729385884864975067",
+            "1729394250782118107",
+            "1729391862339113179",
+            "1729391860653920475",
+            "1729385798632640731",
+            "1729385872001831131",
+            "1729385810128507099",
+            "1729387967841997019",
+            "1729387931860635867",
+            "1729391868219986139",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729388510632448219",
+            "1730273357213896923",
+            "1729954162227777755",
+            "1729746413090279643",
+            "1730130752085856475",
+            "1730129060140454107",
+            "1729449384565117147",
+            "1729388511036477659",
+            "1729385822727409883",
+            "1729385809950380251",
+            "1730151035281707227",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730129811577671899",
+            "1729664580475916507",
+            "1729387938703773915",
+            "1730284425313423579",
+            "1730140656666317019",
+            "1730130928473313499",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730129398592344283",
+            "1730105130585657563",
+            "1730013557566443739",
+            "1729441013780025563"
+          ],
+          "budget": 150.0
+        },
+        {
+          "name": "Soap Dispenser GMV",
+          "campaign_id": "1829391459188785",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.5,
+          "status": "DISABLE",
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810512941275"
+          ],
+          "budget": 700.0
+        },
+        {
+          "name": "Everlast GMV",
+          "campaign_id": "1829391637802113",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.8,
+          "status": "DISABLE",
+          "start": "2025-04-14",
+          "product_ids": [
+            "1729385810603249883",
+            "1729391863680307419",
+            "1729385810182639835",
+            "1729385871983677659",
+            "1729394250782118107",
+            "1729391860653920475",
+            "1729388554561294555",
+            "1730130703186235611",
+            "1729391868219986139",
+            "1730130752085856475",
+            "1730130958582190299",
+            "1730130868699435227",
+            "1730284425313423579",
+            "1730130848266359003",
+            "1730130607268729051",
+            "1730129608917422299",
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 150.0
+        },
+        {
+          "name": "SC GMV",
+          "campaign_id": "1832097782843522",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.0,
+          "status": "DISABLE",
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 300.0
+        },
+        {
+          "name": "Cooler Backpack GMV",
+          "campaign_id": "1832097852359762",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.3,
+          "status": "DISABLE",
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729385718293303515",
+            "1730284425313423579"
+          ],
+          "budget": 500.0
+        },
+        {
+          "name": "Cooler Backpack Chair GMV",
+          "campaign_id": "1832097893115937",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.7,
+          "status": "DISABLE",
+          "start": "2025-05-14",
+          "product_ids": [
+            "1730284425313423579"
+          ],
+          "budget": 500.0
+        },
+        {
+          "name": "GMV ALL - SD Focused ",
+          "campaign_id": "1832097992862817",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 4.0,
+          "status": "DISABLE",
+          "start": "2025-05-14",
+          "product_ids": [
+            "1729391862339113179",
+            "1730140656666317019"
+          ],
+          "budget": 800.0
+        },
+        {
+          "name": "SGNL - Knee Pillow - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
+          "campaign_id": "1842139342632994",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 0.9,
+          "status": "DISABLE",
+          "start": "2025-09-02",
+          "product_ids": [
+            "1729391868219986139"
+          ],
+          "budget": 300.0
+        },
+        {
+          "name": "SGNL - Humidifier 2.5 L",
+          "campaign_id": "1842139500366897",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.4,
+          "status": "DISABLE",
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730105130585657563"
+          ],
+          "budget": 600.0
+        },
+        {
+          "name": "SGNL - Humidifiers 6L - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
+          "campaign_id": "1842139774899666",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.0,
+          "status": "DISABLE",
+          "start": "2025-09-02",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 300.0
+        },
+        {
+          "name": "SGNL - Coffee Maker",
+          "campaign_id": "1843588553964673",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 4.0,
+          "status": "DISABLE",
+          "start": "2025-09-18",
+          "product_ids": [
+            "1729746413090279643",
+            "1729387931860635867"
+          ],
+          "budget": 200.0
+        },
+        {
+          "name": "Temporary - SGNL - 6L Humidifier",
+          "campaign_id": "1843679900852337",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 4.0,
+          "status": "DISABLE",
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730129570622640347"
+          ],
+          "budget": 1000.0
+        },
+        {
+          "name": "SGNL - Humidifier - Mix",
+          "campaign_id": "1843680791532722",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 4.0,
+          "status": "DISABLE",
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730013557566443739",
+            "1730129608917422299",
+            "1729391860653920475"
+          ],
+          "budget": 1000.0
+        },
+        {
+          "name": "Temporary - SGNL - Knee Pillow",
+          "campaign_id": "1843681070439810",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 5.0,
+          "status": "DISABLE",
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729385798566514907",
+            "1729391868219986139"
+          ],
+          "budget": 1000.0
+        },
+        {
+          "name": "SGNL - Support Pillow",
+          "campaign_id": "1843690736326754",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 5.0,
+          "status": "DISABLE",
+          "start": "2025-09-19",
+          "product_ids": [
+            "1730130752085856475",
+            "1730130848266359003"
+          ],
+          "budget": 1000.0
+        },
+        {
+          "name": "Temporary SGNL - Seat Cushions",
+          "campaign_id": "1843691852661378",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 5.0,
+          "status": "DISABLE",
+          "start": "2025-09-19",
+          "product_ids": [
+            "1729394250782118107",
+            "1730130868699435227",
+            "1729388511036477659",
+            "1730130607268729051",
+            "1730130958582190299"
+          ],
+          "budget": 1000.0
+        },
+        {
+          "name": "[Auto created] Black Friday Promotion_20251107044411",
+          "campaign_id": "1848105388609553",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.2,
+          "status": "DISABLE",
+          "start": "2025-11-13",
+          "product_ids": [
+            "1730129570622640347",
+            "1730105130585657563"
+          ],
+          "budget": 400.0
+        },
+        {
+          "name": "Clear rear bidet test campaign",
+          "campaign_id": "1856647889479826",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 15.0,
+          "status": "DISABLE",
+          "start": "2026-02-09",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 50.0
+        },
+        {
+          "name": "Beach Blanket Test Campaign",
+          "campaign_id": "1860057113839666",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 12.0,
+          "status": "DISABLE",
+          "start": "2026-03-19",
+          "product_ids": [
+            "1729388554561294555"
+          ],
+          "budget": 20.0
+        },
+        {
+          "name": "Shop Wide",
+          "campaign_id": "1870566666748178",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.0,
+          "status": "DISABLE",
+          "start": "2026-07-13",
+          "product_ids": [
+            "1730105130585657563",
+            "1729388554561294555",
+            "1729388475149750491",
+            "1730129570622640347",
+            "1730273357213896923"
+          ],
+          "budget": 700.0
+        },
+        {
+          "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
+          "campaign_id": "1870840754793602",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.0,
+          "status": "DISABLE",
+          "start": "2026-07-23",
+          "product_ids": [
+            "1730130848266359003",
+            "1729391862019821787"
+          ],
+          "budget": 200.0
+        },
+        {
+          "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
+          "campaign_id": "1874074123260274",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 5.4,
+          "status": "DISABLE",
+          "start": "2026-08-21",
+          "product_ids": [
+            "1729391868219986139",
+            "1730130752085856475",
+            "1732530411400171739",
+            "1729385798535319771",
+            "1732530504119718107",
+            "1729385798632640731",
+            "1729385798566514907"
+          ],
+          "budget": 200.0
+        },
+        {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 0.6,
+          "status": "DISABLE",
+          "start": "2026-09-29",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 300.0
+        }
+      ]
+    },
+    "14d": {
+      "range": "2026-10-05 to 2026-10-18",
+      "totals": {
+        "revenue": 10756.14,
+        "spend": 7396.85,
+        "orders": 422,
+        "roi": 1.454
+      },
+      "campaigns": [
+        {
+          "name": "Screen Door",
+          "campaign_id": "1865906453543986",
+          "revenue": 5015.93,
+          "spend": 1974.78,
+          "roi": 2.54,
+          "orders": 226,
+          "cost_per_order": 8.74,
+          "roas_target": 2.5,
+          "status": "DISABLE",
+          "start": "2026-05-22",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 500.0
+        },
+        {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 1588.54,
-          "spend": 1820.37,
-          "roi": 0.873,
-          "orders": 76,
-          "cost_per_order": 23.95,
+          "revenue": 2958.8,
+          "spend": 3900.02,
+          "roi": 0.759,
+          "orders": 140,
+          "cost_per_order": 27.86,
           "roas_target": 1.2,
           "status": "ENABLE",
           "start": "2026-10-05",
@@ -60,6 +642,22 @@
             "1732530504119718107"
           ],
           "budget": 600.0
+        },
+        {
+          "name": "Bidet 7/6",
+          "campaign_id": "1869091438759025",
+          "revenue": 2761.42,
+          "spend": 1448.51,
+          "roi": 1.906,
+          "orders": 55,
+          "cost_per_order": 26.34,
+          "roas_target": 2.5,
+          "status": "DISABLE",
+          "start": "2026-06-26",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Repel GMV MAX 9/29",
@@ -602,621 +1200,23 @@
         }
       ]
     },
-    "14d": {
-      "range": "2026-09-28 to 2026-10-11",
-      "totals": {
-        "revenue": 11830.92,
-        "spend": 7738.86,
-        "orders": 439,
-        "roi": 1.529
-      },
-      "campaigns": [
-        {
-          "name": "Screen Door",
-          "campaign_id": "1865906453543986",
-          "revenue": 5305.8,
-          "spend": 2162.43,
-          "roi": 2.454,
-          "orders": 232,
-          "cost_per_order": 9.32,
-          "roas_target": 2.5,
-          "status": "DISABLE",
-          "start": "2026-05-22",
-          "product_ids": [
-            "1729391862339113179"
-          ],
-          "budget": 500.0
-        },
-        {
-          "name": "Bidet 7/6",
-          "campaign_id": "1869091438759025",
-          "revenue": 4184.58,
-          "spend": 2211.93,
-          "roi": 1.892,
-          "orders": 97,
-          "cost_per_order": 22.8,
-          "roas_target": 2.5,
-          "status": "DISABLE",
-          "start": "2026-06-26",
-          "product_ids": [
-            "1729385884864975067"
-          ],
-          "budget": 1000.0
-        },
-        {
-          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
-          "campaign_id": "1878225250482562",
-          "revenue": 1588.54,
-          "spend": 1820.37,
-          "roi": 0.873,
-          "orders": 76,
-          "cost_per_order": 23.95,
-          "roas_target": 1.2,
-          "status": "ENABLE",
-          "start": "2026-10-05",
-          "product_ids": [
-            "1732530504119718107"
-          ],
-          "budget": 600.0
-        },
-        {
-          "name": "Repel GMV MAX 9/29",
-          "campaign_id": "1877681559235809",
-          "revenue": 575.73,
-          "spend": 1219.74,
-          "roi": 0.472,
-          "orders": 27,
-          "cost_per_order": 45.18,
-          "roas_target": 0.6,
-          "status": "DISABLE",
-          "start": "2026-09-29",
-          "product_ids": [
-            "1732530504119718107"
-          ],
-          "budget": 300.0
-        },
-        {
-          "name": "Shop Wide",
-          "campaign_id": "1870566666748178",
-          "revenue": 148.28,
-          "spend": 260.38,
-          "roi": 0.569,
-          "orders": 6,
-          "cost_per_order": 43.4,
-          "roas_target": 2.0,
-          "status": "DISABLE",
-          "start": "2026-07-13",
-          "product_ids": [
-            "1730105130585657563",
-            "1729388554561294555",
-            "1729388475149750491",
-            "1730129570622640347",
-            "1730273357213896923"
-          ],
-          "budget": 700.0
-        },
-        {
-          "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
-          "campaign_id": "1874074123260274",
-          "revenue": 27.99,
-          "spend": 64.01,
-          "roi": 0.437,
-          "orders": 1,
-          "cost_per_order": 64.01,
-          "roas_target": 5.4,
-          "status": "DISABLE",
-          "start": "2026-08-21",
-          "product_ids": [
-            "1729391868219986139",
-            "1730130752085856475",
-            "1732530411400171739",
-            "1729385798535319771",
-            "1732530504119718107",
-            "1729385798632640731",
-            "1729385798566514907"
-          ],
-          "budget": 200.0
-        },
-        {
-          "name": "EOS, BP, CB GMV MAX BETA",
-          "campaign_id": "1796379454137346",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 6.0,
-          "status": "DISABLE",
-          "start": "2024-04-15",
-          "product_ids": [
-            "1729385810603249883",
-            "1729385798535319771",
-            "1729385718293303515"
-          ],
-          "budget": 350.0
-        },
-        {
-          "name": "GMV - SOAP DISPENSER/ COOLING BLANKET/ OIL DIFFUSER - RANKSTER",
-          "campaign_id": "1797322405563394",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 4.0,
-          "status": "DISABLE",
-          "start": "2024-04-25",
-          "product_ids": [
-            "1729385810512941275",
-            "1729388475149750491",
-            "1729391864973463771"
-          ],
-          "budget": 400.0
-        },
-        {
-          "name": "GMV - SCREEN DOOR - RANKSTER",
-          "campaign_id": "1797322542842994",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 5.0,
-          "status": "DISABLE",
-          "start": "2024-04-25",
-          "product_ids": [
-            "1729391862339113179"
-          ],
-          "budget": 150.0
-        },
-        {
-          "name": "Product GMV Max_Gross revenue_Everlasting Comfort_20250225095858",
-          "campaign_id": "1825045597725713",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.2,
-          "status": "DISABLE",
-          "start": "2025-02-25",
-          "product_ids": [],
-          "budget": 50.0
-        },
-        {
-          "name": "GMV - Soap dispenser ",
-          "campaign_id": "1827039700345889",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.2,
-          "status": "DISABLE",
-          "start": "2025-03-19",
-          "product_ids": [
-            "1729385810512941275"
-          ],
-          "budget": 150.0
-        },
-        {
-          "name": "GMV - All products",
-          "campaign_id": "1827039878662289",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.2,
-          "status": "DISABLE",
-          "start": "2025-03-19",
-          "product_ids": [
-            "1729385810603249883",
-            "1729388475149750491",
-            "1729385798535319771",
-            "1729385718293303515",
-            "1729391863680307419",
-            "1729385810739499227",
-            "1729391864973463771",
-            "1729391862019821787",
-            "1729385810182639835",
-            "1729385871983677659",
-            "1729387976535412955",
-            "1729385884864975067",
-            "1729394250782118107",
-            "1729391862339113179",
-            "1729391860653920475",
-            "1729385798632640731",
-            "1729385872001831131",
-            "1729385810128507099",
-            "1729387967841997019",
-            "1729387931860635867",
-            "1729391868219986139",
-            "1729388554561294555",
-            "1730130703186235611",
-            "1729388510632448219",
-            "1730273357213896923",
-            "1729954162227777755",
-            "1729746413090279643",
-            "1730130752085856475",
-            "1730129060140454107",
-            "1729449384565117147",
-            "1729388511036477659",
-            "1729385822727409883",
-            "1729385809950380251",
-            "1730151035281707227",
-            "1730130958582190299",
-            "1730130868699435227",
-            "1730129811577671899",
-            "1729664580475916507",
-            "1729387938703773915",
-            "1730284425313423579",
-            "1730140656666317019",
-            "1730130928473313499",
-            "1730130848266359003",
-            "1730130607268729051",
-            "1730129608917422299",
-            "1730129570622640347",
-            "1730129398592344283",
-            "1730105130585657563",
-            "1730013557566443739",
-            "1729441013780025563"
-          ],
-          "budget": 150.0
-        },
-        {
-          "name": "Soap Dispenser GMV",
-          "campaign_id": "1829391459188785",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.5,
-          "status": "DISABLE",
-          "start": "2025-04-14",
-          "product_ids": [
-            "1729385810512941275"
-          ],
-          "budget": 700.0
-        },
-        {
-          "name": "Everlast GMV",
-          "campaign_id": "1829391637802113",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.8,
-          "status": "DISABLE",
-          "start": "2025-04-14",
-          "product_ids": [
-            "1729385810603249883",
-            "1729391863680307419",
-            "1729385810182639835",
-            "1729385871983677659",
-            "1729394250782118107",
-            "1729391860653920475",
-            "1729388554561294555",
-            "1730130703186235611",
-            "1729391868219986139",
-            "1730130752085856475",
-            "1730130958582190299",
-            "1730130868699435227",
-            "1730284425313423579",
-            "1730130848266359003",
-            "1730130607268729051",
-            "1730129608917422299",
-            "1730129570622640347",
-            "1730105130585657563"
-          ],
-          "budget": 150.0
-        },
-        {
-          "name": "SC GMV",
-          "campaign_id": "1832097782843522",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.0,
-          "status": "DISABLE",
-          "start": "2025-05-14",
-          "product_ids": [
-            "1729394250782118107"
-          ],
-          "budget": 300.0
-        },
-        {
-          "name": "Cooler Backpack GMV",
-          "campaign_id": "1832097852359762",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.3,
-          "status": "DISABLE",
-          "start": "2025-05-14",
-          "product_ids": [
-            "1729385718293303515",
-            "1730284425313423579"
-          ],
-          "budget": 500.0
-        },
-        {
-          "name": "Cooler Backpack Chair GMV",
-          "campaign_id": "1832097893115937",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.7,
-          "status": "DISABLE",
-          "start": "2025-05-14",
-          "product_ids": [
-            "1730284425313423579"
-          ],
-          "budget": 500.0
-        },
-        {
-          "name": "GMV ALL - SD Focused ",
-          "campaign_id": "1832097992862817",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 4.0,
-          "status": "DISABLE",
-          "start": "2025-05-14",
-          "product_ids": [
-            "1729391862339113179",
-            "1730140656666317019"
-          ],
-          "budget": 800.0
-        },
-        {
-          "name": "SGNL - Knee Pillow - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
-          "campaign_id": "1842139342632994",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 0.9,
-          "status": "DISABLE",
-          "start": "2025-09-02",
-          "product_ids": [
-            "1729391868219986139"
-          ],
-          "budget": 300.0
-        },
-        {
-          "name": "SGNL - Humidifier 2.5 L",
-          "campaign_id": "1842139500366897",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 2.4,
-          "status": "DISABLE",
-          "start": "2025-09-02",
-          "product_ids": [
-            "1730105130585657563"
-          ],
-          "budget": 600.0
-        },
-        {
-          "name": "SGNL - Humidifiers 6L - Volume First 1.2 ROI - Change on 8th Sept. Testing - (12am/12pm)",
-          "campaign_id": "1842139774899666",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 2.0,
-          "status": "DISABLE",
-          "start": "2025-09-02",
-          "product_ids": [
-            "1730129570622640347"
-          ],
-          "budget": 300.0
-        },
-        {
-          "name": "SGNL - Coffee Maker",
-          "campaign_id": "1843588553964673",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 4.0,
-          "status": "DISABLE",
-          "start": "2025-09-18",
-          "product_ids": [
-            "1729746413090279643",
-            "1729387931860635867"
-          ],
-          "budget": 200.0
-        },
-        {
-          "name": "Temporary - SGNL - 6L Humidifier",
-          "campaign_id": "1843679900852337",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 4.0,
-          "status": "DISABLE",
-          "start": "2025-09-19",
-          "product_ids": [
-            "1730129570622640347"
-          ],
-          "budget": 1000.0
-        },
-        {
-          "name": "SGNL - Humidifier - Mix",
-          "campaign_id": "1843680791532722",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 4.0,
-          "status": "DISABLE",
-          "start": "2025-09-19",
-          "product_ids": [
-            "1730013557566443739",
-            "1730129608917422299",
-            "1729391860653920475"
-          ],
-          "budget": 1000.0
-        },
-        {
-          "name": "Temporary - SGNL - Knee Pillow",
-          "campaign_id": "1843681070439810",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 5.0,
-          "status": "DISABLE",
-          "start": "2025-09-19",
-          "product_ids": [
-            "1729385798566514907",
-            "1729391868219986139"
-          ],
-          "budget": 1000.0
-        },
-        {
-          "name": "SGNL - Support Pillow",
-          "campaign_id": "1843690736326754",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 5.0,
-          "status": "DISABLE",
-          "start": "2025-09-19",
-          "product_ids": [
-            "1730130752085856475",
-            "1730130848266359003"
-          ],
-          "budget": 1000.0
-        },
-        {
-          "name": "Temporary SGNL - Seat Cushions",
-          "campaign_id": "1843691852661378",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 5.0,
-          "status": "DISABLE",
-          "start": "2025-09-19",
-          "product_ids": [
-            "1729394250782118107",
-            "1730130868699435227",
-            "1729388511036477659",
-            "1730130607268729051",
-            "1730130958582190299"
-          ],
-          "budget": 1000.0
-        },
-        {
-          "name": "[Auto created] Black Friday Promotion_20251107044411",
-          "campaign_id": "1848105388609553",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.2,
-          "status": "DISABLE",
-          "start": "2025-11-13",
-          "product_ids": [
-            "1730129570622640347",
-            "1730105130585657563"
-          ],
-          "budget": 400.0
-        },
-        {
-          "name": "Clear rear bidet test campaign",
-          "campaign_id": "1856647889479826",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 15.0,
-          "status": "DISABLE",
-          "start": "2026-02-09",
-          "product_ids": [
-            "1729385884864975067"
-          ],
-          "budget": 50.0
-        },
-        {
-          "name": "Beach Blanket Test Campaign",
-          "campaign_id": "1860057113839666",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 12.0,
-          "status": "DISABLE",
-          "start": "2026-03-19",
-          "product_ids": [
-            "1729388554561294555"
-          ],
-          "budget": 20.0
-        },
-        {
-          "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
-          "campaign_id": "1870840754793602",
-          "revenue": 0,
-          "spend": 0,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 2.0,
-          "status": "DISABLE",
-          "start": "2026-07-23",
-          "product_ids": [
-            "1730130848266359003",
-            "1729391862019821787"
-          ],
-          "budget": 200.0
-        }
-      ]
-    },
     "month": {
-      "range": "2026-09-12 to 2026-10-11",
+      "range": "2026-09-19 to 2026-10-18",
       "totals": {
-        "revenue": 23175.32,
-        "spend": 14677.64,
-        "orders": 824,
-        "roi": 1.579
+        "revenue": 23467.79,
+        "spend": 15448.68,
+        "orders": 865,
+        "roi": 1.519
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 10138.18,
-          "spend": 4446.99,
-          "roi": 2.28,
-          "orders": 446,
-          "cost_per_order": 9.97,
+          "revenue": 10563.94,
+          "spend": 4541.65,
+          "roi": 2.326,
+          "orders": 467,
+          "cost_per_order": 9.73,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -1228,11 +1228,11 @@
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 8639.45,
-          "spend": 4867.39,
-          "roi": 1.775,
-          "orders": 203,
-          "cost_per_order": 23.98,
+          "revenue": 7711.31,
+          "spend": 4266.93,
+          "roi": 1.807,
+          "orders": 178,
+          "cost_per_order": 23.97,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",
@@ -1244,11 +1244,11 @@
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 1588.54,
-          "spend": 1820.37,
-          "roi": 0.873,
-          "orders": 76,
-          "cost_per_order": 23.95,
+          "revenue": 2958.8,
+          "spend": 3900.02,
+          "roi": 0.759,
+          "orders": 140,
+          "cost_per_order": 27.86,
           "roas_target": 1.2,
           "status": "ENABLE",
           "start": "2026-10-05",
@@ -1260,11 +1260,11 @@
         {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 1583.63,
-          "spend": 1571.6,
-          "roi": 1.008,
-          "orders": 52,
-          "cost_per_order": 30.22,
+          "revenue": 1186.17,
+          "spend": 1073.21,
+          "roi": 1.105,
+          "orders": 38,
+          "cost_per_order": 28.24,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13",
@@ -1276,28 +1276,6 @@
             "1730273357213896923"
           ],
           "budget": 700.0
-        },
-        {
-          "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
-          "campaign_id": "1874074123260274",
-          "revenue": 649.79,
-          "spend": 751.55,
-          "roi": 0.865,
-          "orders": 20,
-          "cost_per_order": 37.58,
-          "roas_target": 5.4,
-          "status": "DISABLE",
-          "start": "2026-08-21",
-          "product_ids": [
-            "1729391868219986139",
-            "1730130752085856475",
-            "1732530411400171739",
-            "1729385798535319771",
-            "1732530504119718107",
-            "1729385798632640731",
-            "1729385798566514907"
-          ],
-          "budget": 200.0
         },
         {
           "name": "Repel GMV MAX 9/29",
@@ -1314,6 +1292,28 @@
             "1732530504119718107"
           ],
           "budget": 300.0
+        },
+        {
+          "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
+          "campaign_id": "1874074123260274",
+          "revenue": 471.84,
+          "spend": 447.13,
+          "roi": 1.055,
+          "orders": 15,
+          "cost_per_order": 29.81,
+          "roas_target": 5.4,
+          "status": "DISABLE",
+          "start": "2026-08-21",
+          "product_ids": [
+            "1729391868219986139",
+            "1730130752085856475",
+            "1732530411400171739",
+            "1729385798535319771",
+            "1732530504119718107",
+            "1729385798632640731",
+            "1729385798566514907"
+          ],
+          "budget": 200.0
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -1799,22 +1799,22 @@
       ]
     },
     "60d": {
-      "range": "2026-08-13 to 2026-10-11",
+      "range": "2026-08-20 to 2026-10-18",
       "totals": {
-        "revenue": 70805.85,
-        "spend": 53537.61,
-        "orders": 2494,
-        "roi": 1.323
+        "revenue": 58860.23,
+        "spend": 41927.62,
+        "orders": 2124,
+        "roi": 1.404
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 34222.7,
-          "spend": 25374.97,
-          "roi": 1.349,
-          "orders": 848,
-          "cost_per_order": 29.92,
+          "revenue": 25910.38,
+          "spend": 17628.55,
+          "roi": 1.47,
+          "orders": 640,
+          "cost_per_order": 27.54,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",
@@ -1826,11 +1826,11 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 28850.55,
-          "spend": 18688.68,
-          "roi": 1.544,
-          "orders": 1327,
-          "cost_per_order": 14.08,
+          "revenue": 24674.53,
+          "spend": 14040.5,
+          "roi": 1.757,
+          "orders": 1147,
+          "cost_per_order": 12.24,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -1842,11 +1842,11 @@
         {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 3798.43,
-          "spend": 4715.3,
-          "roi": 0.806,
-          "orders": 162,
-          "cost_per_order": 29.11,
+          "revenue": 2970.89,
+          "spend": 3420.26,
+          "roi": 0.869,
+          "orders": 116,
+          "cost_per_order": 29.49,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13",
@@ -1858,6 +1858,22 @@
             "1730273357213896923"
           ],
           "budget": 700.0
+        },
+        {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 2958.8,
+          "spend": 3900.02,
+          "roi": 0.759,
+          "orders": 140,
+          "cost_per_order": 27.86,
+          "roas_target": 1.2,
+          "status": "ENABLE",
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 600.0
         },
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
@@ -1880,22 +1896,6 @@
             "1729385798566514907"
           ],
           "budget": 200.0
-        },
-        {
-          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
-          "campaign_id": "1878225250482562",
-          "revenue": 1588.54,
-          "spend": 1820.37,
-          "roi": 0.873,
-          "orders": 76,
-          "cost_per_order": 23.95,
-          "roas_target": 1.2,
-          "status": "ENABLE",
-          "start": "2026-10-05",
-          "product_ids": [
-            "1732530504119718107"
-          ],
-          "budget": 600.0
         },
         {
           "name": "Repel GMV MAX 9/29",
@@ -2397,22 +2397,22 @@
       ]
     },
     "90d": {
-      "range": "2026-07-14 to 2026-10-11",
+      "range": "2026-07-21 to 2026-10-18",
       "totals": {
-        "revenue": 158338.91,
-        "spend": 145458.84,
-        "orders": 5380,
-        "roi": 1.089
+        "revenue": 144646.76,
+        "spend": 129908.0,
+        "orders": 5017,
+        "roi": 1.113
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 77860.78,
-          "spend": 73442.38,
-          "roi": 1.06,
-          "orders": 1944,
-          "cost_per_order": 37.78,
+          "revenue": 69437.44,
+          "spend": 63388.25,
+          "roi": 1.095,
+          "orders": 1727,
+          "cost_per_order": 36.7,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",
@@ -2424,11 +2424,11 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 65140.71,
-          "spend": 51267.0,
-          "roi": 1.271,
-          "orders": 2778,
-          "cost_per_order": 18.45,
+          "revenue": 60024.78,
+          "spend": 45881.79,
+          "roi": 1.308,
+          "orders": 2620,
+          "cost_per_order": 17.51,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -2440,11 +2440,11 @@
         {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 11403.25,
-          "spend": 15401.39,
-          "roi": 0.74,
-          "orders": 501,
-          "cost_per_order": 30.74,
+          "revenue": 9880.11,
+          "spend": 13210.24,
+          "roi": 0.748,
+          "orders": 449,
+          "cost_per_order": 29.42,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13",
@@ -2456,6 +2456,22 @@
             "1730273357213896923"
           ],
           "budget": 700.0
+        },
+        {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 2958.8,
+          "spend": 3900.02,
+          "roi": 0.759,
+          "orders": 140,
+          "cost_per_order": 27.86,
+          "roas_target": 1.2,
+          "status": "ENABLE",
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 600.0
         },
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
@@ -2478,22 +2494,6 @@
             "1729385798566514907"
           ],
           "budget": 200.0
-        },
-        {
-          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
-          "campaign_id": "1878225250482562",
-          "revenue": 1588.54,
-          "spend": 1820.37,
-          "roi": 0.873,
-          "orders": 76,
-          "cost_per_order": 23.95,
-          "roas_target": 1.2,
-          "status": "ENABLE",
-          "start": "2026-10-05",
-          "product_ids": [
-            "1732530504119718107"
-          ],
-          "budget": 600.0
         },
         {
           "name": "Repel GMV MAX 9/29",
@@ -2995,22 +2995,22 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-12 to 2026-10-18",
+      "range": "2026-10-13 to 2026-10-19",
       "totals": {
-        "revenue": 3987.48,
-        "spend": 3129.9,
-        "orders": 169,
-        "roi": 1.274
+        "revenue": 2841.01,
+        "spend": 2379.44,
+        "orders": 118,
+        "roi": 1.194
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 2105.3,
-          "spend": 843.67,
-          "roi": 2.495,
-          "orders": 97,
-          "cost_per_order": 8.7,
+          "revenue": 1445.62,
+          "spend": 603.39,
+          "roi": 2.396,
+          "orders": 66,
+          "cost_per_order": 9.14,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -3022,11 +3022,11 @@
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 1310.29,
-          "spend": 1933.02,
-          "roi": 0.678,
-          "orders": 61,
-          "cost_per_order": 31.69,
+          "revenue": 923.48,
+          "spend": 1508.84,
+          "roi": 0.612,
+          "orders": 43,
+          "cost_per_order": 35.09,
           "roas_target": 1.2,
           "status": "ENABLE",
           "start": "2026-10-05",
@@ -3038,11 +3038,11 @@
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 571.89,
-          "spend": 353.21,
-          "roi": 1.619,
-          "orders": 11,
-          "cost_per_order": 32.11,
+          "revenue": 471.91,
+          "spend": 267.21,
+          "roi": 1.766,
+          "orders": 9,
+          "cost_per_order": 29.69,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",

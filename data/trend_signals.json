@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T07:00:34.632640+00:00",
+  "generated_at": "2026-10-19T07:00:36.491132+00:00",
   "weeks": [
     {
       "total_gmv": 5323.95,
@@ -48,25 +48,25 @@
       "sample_requests": 133,
       "samples_shipped": 59,
       "samples_delivered": 68,
-      "videos_posted": 267,
-      "distinct_creators": 83,
+      "videos_posted": 268,
+      "distinct_creators": 84,
       "_range": "2026-10-05 to 2026-10-11"
     },
     {
-      "total_gmv": 4454.16,
-      "platform_orders": 214,
-      "total_units_sold": 226.0,
-      "affiliate_gmv": 3124.18,
-      "live_gmv": 527.07,
-      "video_views": 390041,
-      "dms_sent": 2103,
+      "total_gmv": 4843.0,
+      "platform_orders": 230,
+      "total_units_sold": 243.0,
+      "affiliate_gmv": 3474.19,
+      "live_gmv": 544.8,
+      "video_views": 439315,
+      "dms_sent": 2114,
       "tc_invites_sent": 1993,
       "replies": 8,
-      "sample_requests": 123,
-      "samples_shipped": 19,
+      "sample_requests": 134,
+      "samples_shipped": 20,
       "samples_delivered": 20,
-      "videos_posted": 246,
-      "distinct_creators": 74,
+      "videos_posted": 301,
+      "distinct_creators": 84,
       "_range": "2026-10-12 to 2026-10-18"
     }
   ],
@@ -75,43 +75,43 @@
       5323.95,
       8003.61,
       8444.44,
-      4454.16
+      4843.0
     ],
     "platform_orders": [
       204.0,
       309.0,
       340.0,
-      214.0
+      230.0
     ],
     "total_units_sold": [
       224.0,
       329.0,
       370.0,
-      226.0
+      243.0
     ],
     "affiliate_gmv": [
       4095.75,
       6760.44,
       6937.99,
-      3124.18
+      3474.19
     ],
     "live_gmv": [
       208.9,
       2891.43,
       2698.88,
-      527.07
+      544.8
     ],
     "video_views": [
       350624.0,
       545864.0,
       418231.0,
-      390041.0
+      439315.0
     ],
     "dms_sent": [
       19445.0,
       5185.0,
       270.0,
-      2103.0
+      2114.0
     ],
     "tc_invites_sent": [
       19400.0,
@@ -129,13 +129,13 @@
       203.0,
       219.0,
       133.0,
-      123.0
+      134.0
     ],
     "samples_shipped": [
       6.0,
       98.0,
       59.0,
-      19.0
+      20.0
     ],
     "samples_delivered": [
       10.0,
@@ -146,23 +146,23 @@
     "videos_posted": [
       73.0,
       95.0,
-      267.0,
-      246.0
+      268.0,
+      301.0
     ],
     "distinct_creators": [
       40.0,
       62.0,
-      83.0,
-      74.0
+      84.0,
+      84.0
     ]
   },
   "changes": [
     {
       "metric": "live_gmv",
       "label": "LIVE GMV",
-      "current": 527.07,
+      "current": 544.8,
       "prior": 2698.88,
-      "pct": -80.5,
+      "pct": -79.8,
       "direction": "down"
     },
     {
@@ -176,17 +176,9 @@
     {
       "metric": "samples_shipped",
       "label": "Samples shipped",
-      "current": 19.0,
+      "current": 20.0,
       "prior": 59.0,
-      "pct": -67.8,
-      "direction": "down"
-    },
-    {
-      "metric": "affiliate_gmv",
-      "label": "Affiliate GMV",
-      "current": 3124.18,
-      "prior": 6937.99,
-      "pct": -55.0,
+      "pct": -66.1,
       "direction": "down"
     },
     {
@@ -198,67 +190,75 @@
       "direction": "down"
     },
     {
+      "metric": "affiliate_gmv",
+      "label": "Affiliate GMV",
+      "current": 3474.19,
+      "prior": 6937.99,
+      "pct": -49.9,
+      "direction": "down"
+    },
+    {
       "metric": "total_gmv",
       "label": "GMV",
-      "current": 4454.16,
+      "current": 4843.0,
       "prior": 8444.44,
-      "pct": -47.3,
+      "pct": -42.6,
       "direction": "down"
     },
     {
       "metric": "total_units_sold",
       "label": "Units",
-      "current": 226.0,
+      "current": 243.0,
       "prior": 370.0,
-      "pct": -38.9,
+      "pct": -34.3,
       "direction": "down"
     },
     {
       "metric": "platform_orders",
       "label": "Orders",
-      "current": 214.0,
+      "current": 230.0,
       "prior": 340.0,
-      "pct": -37.1,
+      "pct": -32.4,
       "direction": "down"
     },
     {
       "metric": "distinct_creators",
       "label": "Creators posting",
-      "current": 74.0,
-      "prior": 83.0,
-      "pct": -10.8,
-      "direction": "down"
-    },
-    {
-      "metric": "videos_posted",
-      "label": "Videos posted",
-      "current": 246.0,
-      "prior": 267.0,
-      "pct": -7.9,
-      "direction": "down"
+      "current": 84.0,
+      "prior": 84.0,
+      "pct": 0.0,
+      "direction": "up"
     },
     {
       "metric": "sample_requests",
       "label": "Sample requests",
-      "current": 123.0,
+      "current": 134.0,
       "prior": 133.0,
-      "pct": -7.5,
-      "direction": "down"
+      "pct": 0.8,
+      "direction": "up"
     },
     {
       "metric": "video_views",
       "label": "Video views",
-      "current": 390041.0,
+      "current": 439315.0,
       "prior": 418231.0,
-      "pct": -6.7,
-      "direction": "down"
+      "pct": 5.0,
+      "direction": "up"
+    },
+    {
+      "metric": "videos_posted",
+      "label": "Videos posted",
+      "current": 301.0,
+      "prior": 268.0,
+      "pct": 12.3,
+      "direction": "up"
     },
     {
       "metric": "dms_sent",
       "label": "DMs sent",
-      "current": 2103.0,
+      "current": 2114.0,
       "prior": 270.0,
-      "pct": 678.9,
+      "pct": 683.0,
       "direction": "up"
     }
   ],
@@ -269,17 +269,7 @@
       "last_3": [
         2891.43,
         2698.88,
-        527.07
-      ],
-      "note": "declining three weeks in a row"
-    },
-    {
-      "metric": "video_views",
-      "label": "Video views",
-      "last_3": [
-        545864.0,
-        418231.0,
-        390041.0
+        544.8
       ],
       "note": "declining three weeks in a row"
     },
@@ -304,22 +294,12 @@
       "note": "declining three weeks in a row"
     },
     {
-      "metric": "sample_requests",
-      "label": "Sample requests",
-      "last_3": [
-        219.0,
-        133.0,
-        123.0
-      ],
-      "note": "declining three weeks in a row"
-    },
-    {
       "metric": "samples_shipped",
       "label": "Samples shipped",
       "last_3": [
         98.0,
         59.0,
-        19.0
+        20.0
       ],
       "note": "declining three weeks in a row"
     },
@@ -335,15 +315,15 @@
     }
   ],
   "ratios": {
-    "gmv_per_sample_shipped": 234.43,
+    "gmv_per_sample_shipped": 242.15,
     "reply_rate_pct": 0.38,
-    "videos_per_creator": 3.32,
-    "live_share_of_gmv_pct": 11.8,
-    "affiliate_share_of_gmv_pct": 70.1
+    "videos_per_creator": 3.58,
+    "live_share_of_gmv_pct": 11.2,
+    "affiliate_share_of_gmv_pct": 71.7
   },
   "freshness": {
     "pull_age_days": 0.3,
-    "data_through": "2026-10-11"
+    "data_through": "2026-10-18"
   },
   "note": "Deterministic signal set from the Cruva REST API. The insights agent interprets these; the numbers are ground truth."
 }

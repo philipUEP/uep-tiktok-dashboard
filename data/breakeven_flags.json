@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-10-18T07:01:00Z",
- "window": "2026-10-05 to 2026-10-11",
+ "generated_on": "2026-10-19T07:01:01Z",
+ "window": "2026-10-12 to 2026-10-18",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-10-18T07:00:58Z",
+ "assumptions_generated_on": "2026-10-19T07:00:59Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -23,7 +23,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 101,
+    "units_total": 68,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -31,21 +31,21 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 24,
+     "units": 26,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146428123",
      "name": "Clear",
-     "units": 10,
+     "units": 3,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707650287079643",
      "name": "Navy Blue",
-     "units": 7,
+     "units": 4,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -61,324 +61,6 @@
      "name": null,
      "units": 0,
      "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146165979",
-     "name": "Slate Blue",
-     "units": 7,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491455195",
-     "name": "Pastel pink",
-     "units": 14,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491520731",
-     "name": "Pastel Mint",
-     "units": 3,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146755803",
-     "name": "Black 3pack",
-     "units": 0,
-     "price": 61.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732530572481433819",
-     "name": "Lavendar",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 1,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
-     "units": 5,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732530571945677019",
-     "name": "Light Blue",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146362587",
-     "name": "Yellow",
-     "units": 1,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146690267",
-     "name": "Black 2pack",
-     "units": 7,
-     "price": 39.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 2,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 5,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146297051",
-     "name": "Gray",
-     "units": 0,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146821339",
-     "name": "Black Premium",
-     "units": 2,
-     "price": 35.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732530572481368283",
-     "name": "Rainbow",
-     "units": 0,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146034907",
-     "name": "Pastel Blue",
-     "units": 2,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146231515",
-     "name": "Black/Red",
-     "units": 9,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146624731",
-     "name": "Black Fog",
-     "units": 1,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    }
-   ],
-   "spend": 1820.37,
-   "revenue": 1588.54,
-   "orders": 76,
-   "roi": 0.873,
-   "roas_target": 1.2,
-   "be_roas": null,
-   "pause_below_roas": null,
-   "margin_ad_pct": null,
-   "cm3_after_ads": null,
-   "status": "ENABLE",
-   "flag": "Pause",
-   "action": "ROAS is under 1.0x, so the spend exceeds the revenue it returns before any product cost. Pause it now, or raise the target above 1.0x at minimum. P&L row for Repel Automatic Umbrella \u2013 colors has no COGS/MCF yet, so the true break-even cannot be set; fix that row and re-run.",
-   "target_is_below_break_even": null,
-   "product_margin_ad_pct": null
-  },
-  {
-   "campaign": "Screen Door",
-   "campaign_id": "1865906453543986",
-   "product": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-   "matched": true,
-   "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
-   "product_ids": [
-    "1729391862339113179"
-   ],
-   "sku_coverage": {
-    "skus_total": 7,
-    "skus_mapped": 1,
-    "units_total": 140,
-    "units_covered": 0,
-    "pct_units_covered": 0.0
-   },
-   "unmapped_skus": [
-    {
-     "sku_id": "1732283771626688731",
-     "name": "Default,Heavy Duty Fiberglass (New)",
-     "units": 33,
-     "price": 21.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732283771626623195",
-     "name": "Default,Original Standard Mesh",
-     "units": 104,
-     "price": 19.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732384554433482971",
-     "name": "Default,Thermal",
-     "units": 3,
-     "price": 27.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732357652881117403",
-     "name": "Default,White",
-     "units": 0,
-     "price": 25.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732384554433417435",
-     "name": "Default,Padded Thermal",
-     "units": 0,
-     "price": 25.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732357652881051867",
-     "name": "1732357652881051867",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    }
-   ],
-   "spend": 1131.11,
-   "revenue": 2910.63,
-   "orders": 129,
-   "roi": 2.573,
-   "roas_target": 2.5,
-   "be_roas": 4.0,
-   "pause_below_roas": 3.2,
-   "margin_ad_pct": 26.8,
-   "cm3_after_ads": -351.06,
-   "status": "DISABLE",
-   "flag": "Pause",
-   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 4.0x (break-even), If it restarts: move the budget to a campaign above break-even.",
-   "target_is_below_break_even": true,
-   "product_margin_ad_pct": 26.8
-  },
-  {
-   "campaign": "Bidet 7/6",
-   "campaign_id": "1869091438759025",
-   "product": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-   "matched": true,
-   "be_basis": "SKU blend: blended over 3 of 4 SKUs (78% of units sold)",
-   "product_ids": [
-    "1729385884864975067"
-   ],
-   "sku_coverage": {
-    "skus_total": 4,
-    "skus_mapped": 3,
-    "units_total": 98,
-    "units_covered": 76,
-    "pct_units_covered": 77.6
-   },
-   "unmapped_skus": [
-    {
-     "sku_id": "1732447698187423963",
-     "name": "Original Black 2 Pack",
-     "units": 22,
-     "price": 55.99,
-     "why": "no cost row in the cost model"
-    }
-   ],
-   "spend": 1095.3,
-   "revenue": 2189.53,
-   "orders": 44,
-   "roi": 1.999,
-   "roas_target": 2.5,
-   "be_roas": 7.62,
-   "pause_below_roas": 5.0,
-   "margin_ad_pct": 13.4,
-   "cm3_after_ads": -801.9,
-   "status": "DISABLE",
-   "flag": "Pause",
-   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 7.6x (break-even), If it restarts: move the budget to a campaign above break-even.",
-   "target_is_below_break_even": true,
-   "product_margin_ad_pct": 13.4
-  }
- ],
- "live_campaigns": [
-  {
-   "campaign": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
-   "campaign_id": "1878225250482562",
-   "product": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-   "matched": true,
-   "be_basis": "unpriced SKUs: no SKU under this product has a break-even row yet",
-   "product_ids": [
-    "1732530504119718107"
-   ],
-   "sku_coverage": {
-    "skus_total": 23,
-    "skus_mapped": 0,
-    "units_total": 64,
-    "units_covered": 0,
-    "pct_units_covered": 0.0
-   },
-   "unmapped_skus": [
-    {
-     "sku_id": "1732530562875494619",
-     "name": "Black",
-     "units": 24,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146428123",
-     "name": "Clear",
-     "units": 3,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707650287079643",
-     "name": "Navy Blue",
-     "units": 3,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146886875",
-     "name": "Starry Night",
-     "units": 1,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491651803",
-     "name": null,
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146165979",
-     "name": "Slate Blue",
-     "units": 1,
-     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -389,6 +71,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732694432146165979",
+     "name": "Slate Blue",
+     "units": 1,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732707643491520731",
      "name": "Pastel Mint",
      "units": 1,
@@ -407,13 +96,6 @@
      "name": "Lavendar",
      "units": 0,
      "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 1,
-     "price": 31.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -431,6 +113,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
+     "units": 1,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146362587",
      "name": "Yellow",
      "units": 3,
@@ -445,6 +134,20 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732530572481368283",
+     "name": "Rainbow",
+     "units": 0,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 2,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146100443",
      "name": "Red",
      "units": 3,
@@ -452,9 +155,9 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 1,
+     "sku_id": "1732694432146034907",
+     "name": "Pastel Blue",
+     "units": 0,
      "price": 31.99,
      "why": "no cost row in the cost model"
     },
@@ -473,20 +176,6 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732530572481368283",
-     "name": "Rainbow",
-     "units": 0,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146034907",
-     "name": "Pastel Blue",
-     "units": 0,
-     "price": 31.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146231515",
      "name": "Black/Red",
      "units": 3,
@@ -501,10 +190,10 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 1933.02,
-   "revenue": 1310.29,
-   "orders": 61,
-   "roi": 0.678,
+   "spend": 2079.65,
+   "revenue": 1370.26,
+   "orders": 64,
+   "roi": 0.659,
    "roas_target": 1.2,
    "be_roas": null,
    "pause_below_roas": null,
@@ -513,7 +202,48 @@
    "status": "ENABLE",
    "flag": "Pause",
    "action": "ROAS is under 1.0x, so the spend exceeds the revenue it returns before any product cost. Pause it now, or raise the target above 1.0x at minimum. P&L row for Repel Automatic Umbrella \u2013 colors has no COGS/MCF yet, so the true break-even cannot be set; fix that row and re-run.",
-   "target_is_below_break_even": null
+   "target_is_below_break_even": null,
+   "product_margin_ad_pct": null
+  },
+  {
+   "campaign": "Bidet 7/6",
+   "campaign_id": "1869091438759025",
+   "product": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+   "matched": true,
+   "be_basis": "SKU blend: blended over 3 of 4 SKUs (42% of units sold)",
+   "product_ids": [
+    "1729385884864975067"
+   ],
+   "sku_coverage": {
+    "skus_total": 4,
+    "skus_mapped": 3,
+    "units_total": 12,
+    "units_covered": 5,
+    "pct_units_covered": 41.7
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732447698187423963",
+     "name": "Original Black 2 Pack",
+     "units": 7,
+     "price": 55.99,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 353.21,
+   "revenue": 571.89,
+   "orders": 11,
+   "roi": 1.619,
+   "roas_target": 2.5,
+   "be_roas": 7.78,
+   "pause_below_roas": 5.0,
+   "margin_ad_pct": 13.6,
+   "cm3_after_ads": -275.43,
+   "status": "DISABLE",
+   "flag": "Pause",
+   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 7.8x (break-even), If it restarts: move the budget to a campaign above break-even.",
+   "target_is_below_break_even": true,
+   "product_margin_ad_pct": 13.6
   },
   {
    "campaign": "Screen Door",
@@ -527,7 +257,7 @@
    "sku_coverage": {
     "skus_total": 7,
     "skus_mapped": 1,
-    "units_total": 123,
+    "units_total": 134,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -535,14 +265,14 @@
     {
      "sku_id": "1732283771626688731",
      "name": "Default,Heavy Duty Fiberglass (New)",
-     "units": 34,
+     "units": 35,
      "price": 21.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732283771626623195",
      "name": "Default,Original Standard Mesh",
-     "units": 85,
+     "units": 95,
      "price": 19.99,
      "why": "no cost row in the cost model"
     },
@@ -587,14 +317,210 @@
    "status": "DISABLE",
    "flag": "Pause",
    "action": "Already paused (campaign status DISABLE). Raise the return target to at least 4.0x (break-even), If it restarts: move the budget to a campaign above break-even.",
-   "target_is_below_break_even": true
+   "target_is_below_break_even": true,
+   "product_margin_ad_pct": 26.8
+  }
+ ],
+ "live_campaigns": [
+  {
+   "campaign": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+   "campaign_id": "1878225250482562",
+   "product": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+   "matched": true,
+   "be_basis": "unpriced SKUs: no SKU under this product has a break-even row yet",
+   "product_ids": [
+    "1732530504119718107"
+   ],
+   "sku_coverage": {
+    "skus_total": 23,
+    "skus_mapped": 0,
+    "units_total": 49,
+    "units_covered": 0,
+    "pct_units_covered": 0.0
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732530562875494619",
+     "name": "Black",
+     "units": 18,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146428123",
+     "name": "Clear",
+     "units": 2,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707650287079643",
+     "name": "Navy Blue",
+     "units": 3,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146886875",
+     "name": "Starry Night",
+     "units": 1,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491651803",
+     "name": null,
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491455195",
+     "name": "Pastel pink",
+     "units": 5,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146165979",
+     "name": "Slate Blue",
+     "units": 1,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491520731",
+     "name": "Pastel Mint",
+     "units": 1,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146755803",
+     "name": "Black 3pack",
+     "units": 0,
+     "price": 61.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530572481433819",
+     "name": "Lavendar",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 3,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530571945677019",
+     "name": "Light Blue",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
+     "units": 1,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146362587",
+     "name": "Yellow",
+     "units": 2,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146690267",
+     "name": "Black 2pack",
+     "units": 5,
+     "price": 39.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530572481368283",
+     "name": "Rainbow",
+     "units": 0,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 2,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 3,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146034907",
+     "name": "Pastel Blue",
+     "units": 0,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
+     "units": 0,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146821339",
+     "name": "Black Premium",
+     "units": 2,
+     "price": 35.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146231515",
+     "name": "Black/Red",
+     "units": 0,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146624731",
+     "name": "Black Fog",
+     "units": 0,
+     "price": 31.99,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 1508.84,
+   "revenue": 923.48,
+   "orders": 43,
+   "roi": 0.612,
+   "roas_target": 1.2,
+   "be_roas": null,
+   "pause_below_roas": null,
+   "margin_ad_pct": null,
+   "cm3_after_ads": null,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "ROAS is under 1.0x, so the spend exceeds the revenue it returns before any product cost. Pause it now, or raise the target above 1.0x at minimum. P&L row for Repel Automatic Umbrella \u2013 colors has no COGS/MCF yet, so the true break-even cannot be set; fix that row and re-run.",
+   "target_is_below_break_even": null
   },
   {
    "campaign": "Bidet 7/6",
    "campaign_id": "1869091438759025",
    "product": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
    "matched": true,
-   "be_basis": "SKU blend: blended over 3 of 4 SKUs (36% of units sold)",
+   "be_basis": "SKU blend: blended over 3 of 4 SKUs (45% of units sold)",
    "product_ids": [
     "1729385884864975067"
    ],
@@ -602,34 +528,108 @@
     "skus_total": 4,
     "skus_mapped": 3,
     "units_total": 11,
-    "units_covered": 4,
-    "pct_units_covered": 36.4
+    "units_covered": 5,
+    "pct_units_covered": 45.5
    },
    "unmapped_skus": [
     {
      "sku_id": "1732447698187423963",
      "name": "Original Black 2 Pack",
-     "units": 7,
+     "units": 6,
      "price": 55.99,
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 353.21,
-   "revenue": 571.89,
-   "orders": 11,
-   "roi": 1.619,
+   "spend": 267.21,
+   "revenue": 471.91,
+   "orders": 9,
+   "roi": 1.766,
    "roas_target": 2.5,
-   "be_roas": 8.25,
+   "be_roas": 7.78,
    "pause_below_roas": 5.0,
-   "margin_ad_pct": 12.8,
-   "cm3_after_ads": -280.01,
+   "margin_ad_pct": 13.6,
+   "cm3_after_ads": -203.03,
    "status": "DISABLE",
    "flag": "Pause",
-   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 8.2x (break-even), If it restarts: move the budget to a campaign above break-even.",
+   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 7.8x (break-even), If it restarts: move the budget to a campaign above break-even.",
+   "target_is_below_break_even": true
+  },
+  {
+   "campaign": "Screen Door",
+   "campaign_id": "1865906453543986",
+   "product": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
+   "matched": true,
+   "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
+   "product_ids": [
+    "1729391862339113179"
+   ],
+   "sku_coverage": {
+    "skus_total": 7,
+    "skus_mapped": 1,
+    "units_total": 102,
+    "units_covered": 0,
+    "pct_units_covered": 0.0
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732283771626688731",
+     "name": "Default,Heavy Duty Fiberglass (New)",
+     "units": 25,
+     "price": 21.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732283771626623195",
+     "name": "Default,Original Standard Mesh",
+     "units": 73,
+     "price": 19.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433482971",
+     "name": "Default,Thermal",
+     "units": 4,
+     "price": 27.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881117403",
+     "name": "Default,White",
+     "units": 0,
+     "price": 25.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433417435",
+     "name": "Default,Padded Thermal",
+     "units": 0,
+     "price": 25.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881051867",
+     "name": "1732357652881051867",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 603.39,
+   "revenue": 1445.62,
+   "orders": 66,
+   "roi": 2.396,
+   "roas_target": 2.5,
+   "be_roas": 4.0,
+   "pause_below_roas": 3.2,
+   "margin_ad_pct": 26.8,
+   "cm3_after_ads": -215.96,
+   "status": "DISABLE",
+   "flag": "Pause",
+   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 4.0x (break-even), If it restarts: move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-10-12 to 2026-10-18",
+ "live_window": "2026-10-13 to 2026-10-19",
  "products": [
   {
    "product": "Screen Door",
@@ -637,14 +637,14 @@
    "input_needed": false,
    "variants": 2,
    "price": 21.99,
-   "units": 140,
-   "gmv": 2692.63,
-   "units_ad": 129,
-   "ads_spend": 1131.11,
-   "ads_revenue": 2910.63,
-   "organic_revenue": 0.0,
-   "cm3": -317.21,
-   "cm3_per_unit": -2.27,
+   "units": 134,
+   "gmv": 2530.66,
+   "units_ad": 97,
+   "ads_spend": 843.67,
+   "ads_revenue": 2105.3,
+   "organic_revenue": 425.36,
+   "cm3": -93.77,
+   "cm3_per_unit": -0.7,
    "margin_ad_pct": 26.8,
    "be_roas_ad": 3.7,
    "pause_below_roas": 3.2,
@@ -658,14 +658,14 @@
    "input_needed": false,
    "variants": 3,
    "price": 34.99,
-   "units": 98,
-   "gmv": 3769.44,
-   "units_ad": 44,
-   "ads_spend": 1095.3,
-   "ads_revenue": 2189.53,
-   "organic_revenue": 1579.91,
-   "cm3": -797.66,
-   "cm3_per_unit": -8.14,
+   "units": 12,
+   "gmv": 530.11,
+   "units_ad": 11,
+   "ads_spend": 353.21,
+   "ads_revenue": 571.89,
+   "organic_revenue": 0.0,
+   "cm3": -287.3,
+   "cm3_per_unit": -23.94,
    "margin_ad_pct": 17.0,
    "be_roas_ad": 5.9,
    "pause_below_roas": 5.0,
@@ -674,18 +674,39 @@
    "listings_matched": 1
   },
   {
+   "product": "Elevate Seat Cushion",
+   "seller_sku": "PSC-U-B",
+   "input_needed": false,
+   "variants": 1,
+   "price": 59.99,
+   "units": 4,
+   "gmv": 185.28,
+   "units_ad": 0,
+   "ads_spend": 0,
+   "ads_revenue": 0,
+   "organic_revenue": 185.28,
+   "cm3": 96.04,
+   "cm3_per_unit": 24.01,
+   "margin_ad_pct": 50.0,
+   "be_roas_ad": 2.0,
+   "pause_below_roas": 1.7,
+   "advertise": "Yes",
+   "margin_basis": "Elevate Seat Cushion",
+   "listings_matched": 2
+  },
+  {
    "product": "Original Seat Cushion",
    "seller_sku": "SC-B-LD",
    "input_needed": false,
    "variants": 1,
    "price": 39.99,
-   "units": 1,
-   "gmv": 33.99,
+   "units": 4,
+   "gmv": 169.96,
    "units_ad": 0,
    "ads_spend": 0,
    "ads_revenue": 0,
-   "organic_revenue": 33.99,
-   "cm3": 12.08,
+   "organic_revenue": 169.96,
+   "cm3": 48.32,
    "cm3_per_unit": 12.08,
    "margin_ad_pct": 40.2,
    "be_roas_ad": 2.5,
@@ -716,36 +737,15 @@
    "listings_matched": 0
   },
   {
-   "product": "Elevate Seat Cushion",
-   "seller_sku": "PSC-U-B",
-   "input_needed": false,
-   "variants": 1,
-   "price": 59.99,
-   "units": 0,
-   "gmv": 0.0,
-   "units_ad": 0,
-   "ads_spend": 0,
-   "ads_revenue": 0,
-   "organic_revenue": 0.0,
-   "cm3": 0.0,
-   "cm3_per_unit": null,
-   "margin_ad_pct": 50.0,
-   "be_roas_ad": 2.0,
-   "pause_below_roas": 1.7,
-   "advertise": "Yes",
-   "margin_basis": "Elevate Seat Cushion",
-   "listings_matched": 2
-  },
-  {
    "product": "Repel Automatic Umbrella",
    "seller_sku": "TBD",
    "input_needed": true,
    "variants": 1,
-   "gmv": 1207.25,
-   "units": 101,
-   "ads_spend": 1820.37,
-   "ads_revenue": 1588.54,
-   "units_ad": 76,
+   "gmv": 924.85,
+   "units": 68,
+   "ads_spend": 2079.65,
+   "ads_revenue": 1370.26,
+   "units_ad": 64,
    "cm3": null,
    "cm3_per_unit": null,
    "margin_ad_pct": null,
@@ -779,14 +779,14 @@
   "watch": 0,
   "keep": 0,
   "no_break_even": 0,
-  "cm3_after_ads_total": -1152.96,
+  "cm3_after_ads_total": -554.88,
   "target_below_break_even": 2,
   "products_missing_inputs": 2,
-  "week_cm3_total": -1102.79,
+  "week_cm3_total": -236.71,
   "live_campaigns_judged": 3,
   "live_pause": 3,
-  "live_cm3_after_ads_total": -559.46,
-  "live_spend_total": 3129.9
+  "live_cm3_after_ads_total": -418.99,
+  "live_spend_total": 2379.44
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
