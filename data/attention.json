@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-18T07:21:30+00:00",
+  "updated_at": "2026-10-19T07:21:18+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
-      "current": 527.07,
+      "current": 544.8,
       "prior": 2698.88,
-      "pct": -80.5,
+      "pct": -79.8,
       "direction": "down",
-      "effect": "Inferred: live revenue has fallen three weeks straight from 2,891.43 to 527.07 on host concentration, with lauriesfindslive down 83.2% and zero new videos in the prior week.",
-      "action": "Inferred: book a two-host live roster at three streams a day and track GMV per stream in the 08:15 review."
+      "effect": "Inferred: live is 11.2% of GMV and fell for a third week from 2,891.43 to 544.80, removing about 2,154 dollars that no other channel offsets.",
+      "action": "Inferred: cut zero GMV streams and book fortune0420 and opantalk three times a day against the 4.93 dollars per stream baseline."
     },
     {
       "metric": "Samples delivered",
@@ -16,17 +16,17 @@
       "prior": 68,
       "pct": -70.6,
       "direction": "down",
-      "effect": "Inferred: three weeks of delivery decline (87 to 68 to 20) removes the creator cohort that should post in late October and early November.",
-      "action": "Inferred: clear the 109 To Review rows at a daily quota and report delivered samples daily next to videos posted."
+      "effect": "Inferred: the run of 87, 68, 20 caps creator posts in the 2026-10-26 to 2026-11-09 window.",
+      "action": "Inferred: clear the 116 To Review rows on a 72 hour SLA, starting with the 34 that expire by 2026-10-25."
     },
     {
       "metric": "Samples shipped",
-      "current": 19,
+      "current": 20,
       "prior": 59,
-      "pct": -67.8,
+      "pct": -66.1,
       "direction": "down",
-      "effect": "Inferred: shipments fell three weeks running (98 to 59 to 19) while 109 rows wait in To Review, so the approval layer rather than creator demand limits supply.",
-      "action": "Inferred: bulk ignore the 40 off-strategy umbrella requests and ship bidet and screen door rows first."
+      "effect": "Inferred: shipments fell three weeks from 98 to 20 while 116 requests sit unreviewed, so the approval layer limits supply rather than creator demand.",
+      "action": "Inferred: bulk reject the 38 pending Repel umbrella requests and ship screen door and bidet rows first."
     },
     {
       "metric": "Replies",
@@ -34,26 +34,26 @@
       "prior": 17,
       "pct": -52.9,
       "direction": "down",
-      "effect": "Inferred: 2,103 DMs returned 8 replies, a 0.38% reply rate against 6.3% the prior week, so restored volume is not reaching qualified creators.",
-      "action": "Inferred: cut sends to 300 to 500 per day with follower and GPM filters and report replies per 100 DMs daily."
+      "effect": "Inferred: 2,031 of 2,114 DMs went out on 2026-10-13 in one batch and daily sends fell to 6 to 27 after, so the drop tracks send volume at a flat 0.38% reply rate.",
+      "action": "Inferred: set a logged daily floor of 300 to 500 filtered DMs and report replies per 100 DMs in the 08:15 review."
     },
     {
-      "metric": "Collab invites",
-      "current": 1993,
-      "prior": 5125,
-      "pct": -61.1,
-      "direction": "down",
-      "effect": "Inferred: invites ran 5,125 then 0 then 1,993, so the top of the creator funnel has been unstable and the reply and sample chain has no steady inflow.",
-      "action": "Inferred: set a logged daily invite floor and report the count beside DMs sent in the 08:15 review."
-    },
-    {
-      "metric": "Repel Blitz Ad Campaign 10/5 ROI (Oct 12 to Oct 18 vs Oct 5 to Oct 11, target 1.2)",
-      "current": 0.678,
+      "metric": "Repel Blitz Ad Campaign ROI (target 1.2)",
+      "current": 0.659,
       "prior": 0.873,
-      "pct": -22.3,
+      "pct": -24.5,
       "direction": "down",
-      "effect": "Inferred: the only enabled campaign returns 0.678 per dollar, below 1.0 and below its 1.2 target, losing 622.73 in the current window while two campaigns above 1.6 sit paused.",
-      "action": "Inferred: pause Repel Blitz and re-enable Screen Door at 2.495 and Bidet 7/6 at 1.619 against the 2.5 target."
+      "effect": "Inferred: the only enabled campaign spent 2,079.65 of 3,276.53 total ad spend to return 1,370.26, while Screen Door at 2.495 and Bidet at 1.619 sit paused.",
+      "action": "Inferred: pause Repel Blitz below 1.0 and re-enable Screen Door, which carries 52.3% of product GMV."
+    },
+    {
+      "metric": "Sample rejects vs approving outcomes",
+      "current": 41,
+      "prior": 39,
+      "pct": 5.1,
+      "direction": "up",
+      "effect": "Inferred: rejections now outnumber posted, content pending, shipped and ready rows combined, and 91 requests expired this cycle.",
+      "action": "Inferred: apply a saved off-strategy rejection reason in bulk so review time goes to requests that can still post."
     }
   ]
 }
