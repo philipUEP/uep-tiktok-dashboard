@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats with product_id + include_charts",
-    "pulled_on": "2026-10-19",
+    "pulled_on": "2026-10-20",
     "range": {
       "from": "2026-10-12",
       "to": "2026-10-18"
@@ -11,7 +11,7 @@
     {
       "product_id": "1729391862339113179",
       "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-      "total_gmv": 2530.66,
+      "total_gmv": 2552.65,
       "daily": [
         {
           "date": "2026-10-12",
@@ -45,8 +45,8 @@
         },
         {
           "date": "2026-10-18",
-          "gmv": 202.16,
-          "units": 11.0
+          "gmv": 224.15,
+          "units": 12.0
         }
       ]
     },
