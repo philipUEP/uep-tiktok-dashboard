@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:21:18+00:00",
+  "updated_at": "2026-10-20T07:21:39+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,8 +7,8 @@
       "prior": 2698.88,
       "pct": -79.8,
       "direction": "down",
-      "effect": "Inferred: live is 11.2% of GMV and fell for a third week from 2,891.43 to 544.80, removing about 2,154 dollars that no other channel offsets.",
-      "action": "Inferred: cut zero GMV streams and book fortune0420 and opantalk three times a day against the 4.93 dollars per stream baseline."
+      "effect": "Inferred: live is 11.2% of GMV and fell for a third week, removing 2,154.08 dollars that no other channel replaced.",
+      "action": "Inferred: book fortune0420 and opantalk on repeat slots and stop streams that return zero, since GMV per stream fell from 14.06 to 4.93."
     },
     {
       "metric": "Samples delivered",
@@ -16,8 +16,8 @@
       "prior": 68,
       "pct": -70.6,
       "direction": "down",
-      "effect": "Inferred: the run of 87, 68, 20 caps creator posts in the 2026-10-26 to 2026-11-09 window.",
-      "action": "Inferred: clear the 116 To Review rows on a 72 hour SLA, starting with the 34 that expire by 2026-10-25."
+      "effect": "Inferred: three weeks of decline from 87 to 68 to 20 caps creator posts in the late October to mid November window at about 9,031 dollars less GMV at 188.15 per delivered sample.",
+      "action": "Inferred: clear the 108 To Review rows on a 72 hour SLA, starting with the 50 listed rows that expire by 2026-10-27."
     },
     {
       "metric": "Samples shipped",
@@ -25,17 +25,8 @@
       "prior": 59,
       "pct": -66.1,
       "direction": "down",
-      "effect": "Inferred: shipments fell three weeks from 98 to 20 while 116 requests sit unreviewed, so the approval layer limits supply rather than creator demand.",
-      "action": "Inferred: bulk reject the 38 pending Repel umbrella requests and ship screen door and bidet rows first."
-    },
-    {
-      "metric": "Replies",
-      "current": 8,
-      "prior": 17,
-      "pct": -52.9,
-      "direction": "down",
-      "effect": "Inferred: 2,031 of 2,114 DMs went out on 2026-10-13 in one batch and daily sends fell to 6 to 27 after, so the drop tracks send volume at a flat 0.38% reply rate.",
-      "action": "Inferred: set a logged daily floor of 300 to 500 filtered DMs and report replies per 100 DMs in the 08:15 review."
+      "effect": "Inferred: the approval layer, not creator demand, limits supply, since 108 requests sit in To Review while 134 new requests arrived.",
+      "action": "Inferred: bulk reject the 39 Repel umbrella rows in the pending list with a saved reason and ship screen door and bidet rows first."
     },
     {
       "metric": "Repel Blitz Ad Campaign ROI (target 1.2)",
@@ -43,17 +34,26 @@
       "prior": 0.873,
       "pct": -24.5,
       "direction": "down",
-      "effect": "Inferred: the only enabled campaign spent 2,079.65 of 3,276.53 total ad spend to return 1,370.26, while Screen Door at 2.495 and Bidet at 1.619 sit paused.",
-      "action": "Inferred: pause Repel Blitz below 1.0 and re-enable Screen Door, which carries 52.3% of product GMV."
+      "effect": "Inferred: the only enabled campaign took 2,080.29 of 3,277.17 weekly ad spend to return 1,370.26, while Screen Door at 2.495 sits disabled.",
+      "action": "Inferred: pause Repel Blitz and move that budget to Screen Door, and treat umbrella as off mix per the 20% margin rule."
     },
     {
-      "metric": "Sample rejects vs approving outcomes",
-      "current": 41,
-      "prior": 39,
-      "pct": 5.1,
-      "direction": "up",
-      "effect": "Inferred: rejections now outnumber posted, content pending, shipped and ready rows combined, and 91 requests expired this cycle.",
-      "action": "Inferred: apply a saved off-strategy rejection reason in bulk so review time goes to requests that can still post."
+      "metric": "Sample rejection rate % (rejected over decided)",
+      "current": 50.7,
+      "prior": 51.3,
+      "pct": -1.2,
+      "direction": "down",
+      "effect": "Inferred: half of decided requests fail review and 103 of 300 rows expired this cycle, so queue time is going to requests that cannot convert.",
+      "action": "Inferred: reject off mix products at intake with a saved reason so review capacity goes to requests that can post."
+    },
+    {
+      "metric": "Replies",
+      "current": 8,
+      "prior": 17,
+      "pct": -52.9,
+      "direction": "down",
+      "effect": "Inferred: third week of decline, and reply rate fell from 6.30% to 0.38% while DMs rose 683%, so the sends are broader rather than better targeted.",
+      "action": "Inferred: cap sends at 300 to 500 filtered creators per day and report replies per 100 DMs in the 08:15 review."
     }
   ]
 }
