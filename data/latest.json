@@ -33,19 +33,19 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-10-20",
+    "pulled_on": "2026-10-21",
     "data_through": "2026-10-18",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-10-20. Complete attribution through 2026-10-18."
+    "note": "Pulled from Cruva REST API on 2026-10-21. Complete attribution through 2026-10-18."
   },
   "latest_source_check": {
-    "date": "2026-10-19",
-    "seller_center_gmv": 250.84,
-    "orders": 6,
-    "units": 6,
-    "gmv_max_revenue": 39.99,
-    "gmv_max_spend": 101.33,
-    "gmv_max_roas": 0.39465113984012634,
+    "date": "2026-10-20",
+    "seller_center_gmv": 501.98,
+    "orders": 24,
+    "units": 24,
+    "gmv_max_revenue": 0,
+    "gmv_max_spend": 16.04,
+    "gmv_max_roas": 0.0,
     "attribution_status": "complete"
   },
   "periods": {
@@ -67,7 +67,7 @@
           "Units sold": 244.0,
           "Affiliate GMV": 3763.06,
           "Commission": 791.68,
-          "Videos posted": 314,
+          "Videos posted": 315,
           "Creators posting": 90,
           "Video views": 480559,
           "LIVE GMV": 544.8,
@@ -81,7 +81,7 @@
           "Units sold": -34.05,
           "Affiliate GMV": -45.76,
           "Commission": -43.48,
-          "Videos posted": 17.16,
+          "Videos posted": 17.98,
           "Creators posting": 7.14,
           "Video views": 14.9,
           "LIVE GMV": -79.81,
@@ -109,7 +109,7 @@
           "Samples approved": 21,
           "Samples shipped": 20.0,
           "Samples delivered": 20,
-          "Creators with sales": 38
+          "Creators with sales": 42
         },
         "daily": [
           [
@@ -188,10 +188,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          1900.1,
-          99,
+          2048.29,
+          107,
           213283,
-          447.7,
+          486.0,
           22,
           0
         ],
@@ -226,6 +226,16 @@
           2
         ],
         [
+          "Kenia  Hogar y mas",
+          "keniaher.77",
+          78.96,
+          4,
+          4051,
+          11.3,
+          0,
+          0
+        ],
+        [
           "Mimis",
           "noemizr1",
           69.98,
@@ -234,6 +244,16 @@
           7.0,
           0,
           0
+        ],
+        [
+          "Cinnytravels",
+          "therealcinnimon",
+          69.9,
+          4,
+          2738,
+          10.08,
+          24,
+          6
         ],
         [
           "Daves",
@@ -254,26 +274,6 @@
           11.6,
           0,
           0
-        ],
-        [
-          "Kenia  Hogar y mas",
-          "keniaher.77",
-          56.97,
-          3,
-          4051,
-          8.0,
-          0,
-          0
-        ],
-        [
-          "Cinnytravels",
-          "therealcinnimon",
-          52.17,
-          3,
-          2738,
-          7.56,
-          24,
-          6
         ],
         [
           "Christian Johnson",
@@ -459,7 +459,7 @@
           "Samples approved": 61,
           "Samples shipped": 79.0,
           "Samples delivered": 88,
-          "Creators with sales": 67
+          "Creators with sales": 70
         },
         "daily": [
           [
@@ -608,10 +608,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          3862.95,
-          197,
+          4011.14,
+          205,
           398739,
-          872.2,
+          910.5,
           35,
           0
         ],
@@ -656,6 +656,16 @@
           0
         ],
         [
+          "Red Oakley",
+          "jaterao92",
+          407.83,
+          10,
+          15916,
+          80.65,
+          0,
+          0
+        ],
+        [
           "opantalk",
           "opantalk",
           401.0,
@@ -666,12 +676,12 @@
           4
         ],
         [
-          "Red Oakley",
-          "jaterao92",
-          363.84,
-          9,
-          15916,
-          71.85,
+          "Kenia  Hogar y mas",
+          "keniaher.77",
+          174.56,
+          8,
+          10836,
+          26.6,
           0,
           0
         ],
@@ -683,16 +693,6 @@
           15450,
           27.5,
           11,
-          0
-        ],
-        [
-          "Kenia  Hogar y mas",
-          "keniaher.77",
-          152.57,
-          7,
-          10836,
-          23.3,
-          0,
           0
         ],
         [
@@ -791,7 +791,7 @@
           "repel_umbrella",
           34.98,
           2,
-          960,
+          962,
           3,
           "https://tiktok.com/@repel_umbrella/video/7694419735693298957"
         ],
@@ -879,7 +879,7 @@
           "Samples approved": 183,
           "Samples shipped": 190.0,
           "Samples delivered": 193,
-          "Creators with sales": 107
+          "Creators with sales": 110
         },
         "daily": [
           [
@@ -1188,10 +1188,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          6477.88,
-          333,
+          6626.07,
+          341,
           573821,
-          1442.9,
+          1481.2,
           45,
           0
         ],
@@ -1228,10 +1228,10 @@
         [
           "Red Oakley",
           "jaterao92",
-          1061.65,
-          32,
+          1105.64,
+          33,
           45728,
-          236.05,
+          244.85,
           0,
           0
         ],
@@ -1248,10 +1248,10 @@
         [
           "Kenia  Hogar y mas",
           "keniaher.77",
-          535.08,
-          27,
+          557.07,
+          28,
           31051,
-          88.2,
+          91.5,
           2,
           0
         ],
@@ -1434,7 +1434,7 @@
           "Videos posted": -24.38,
           "Creators posting": -41.83,
           "Video views": -59.98,
-          "LIVE GMV": -24.48,
+          "LIVE GMV": -24.55,
           "DMs sent": 28.53,
           "Sample requests": -22.24,
           "Samples approved": -59.32,
@@ -1459,7 +1459,7 @@
           "Samples approved": 299,
           "Samples shipped": 301.0,
           "Samples delivered": 319,
-          "Creators with sales": 164
+          "Creators with sales": 167
         },
         "daily": [
           [
@@ -2068,10 +2068,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          12442.59,
-          680,
+          12590.78,
+          688,
           1128804,
-          2960.76,
+          2999.06,
           48,
           0
         ],
@@ -2108,10 +2108,10 @@
         [
           "Red Oakley",
           "jaterao92",
-          4772.68,
-          164,
+          4816.67,
+          165,
           269546,
-          1077.61,
+          1086.41,
           0,
           0
         ],
@@ -2158,10 +2158,10 @@
         [
           "Kenia  Hogar y mas",
           "keniaher.77",
-          1413.42,
-          80,
+          1435.41,
+          81,
           74646,
-          206.34,
+          209.64,
           9,
           0
         ]
@@ -2300,7 +2300,7 @@
           "Videos posted": 2033,
           "Creators posting": 714,
           "Video views": 10885994,
-          "LIVE GMV": 54728.58,
+          "LIVE GMV": 54763.57,
           "DMs sent": 125024,
           "Sample requests": 2171,
           "Samples approved": 700,
@@ -2314,7 +2314,7 @@
           "Videos posted": 72.14,
           "Creators posting": 8.35,
           "Video views": 38.62,
-          "LIVE GMV": 26.91,
+          "LIVE GMV": 26.99,
           "DMs sent": 862.24,
           "Sample requests": 59.16,
           "Samples approved": 2.19,
@@ -2339,7 +2339,7 @@
           "Samples approved": 700,
           "Samples shipped": 723.0,
           "Samples delivered": 726,
-          "Creators with sales": 268
+          "Creators with sales": 271
         },
         "daily": [
           [
@@ -3248,10 +3248,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          26535.58,
-          1518,
+          26683.77,
+          1526,
           1128804,
-          6981.92,
+          7020.22,
           71,
           0
         ],
@@ -3278,10 +3278,10 @@
         [
           "Red Oakley",
           "jaterao92",
-          12389.72,
-          455,
+          12433.71,
+          456,
           1163858,
-          2868.03,
+          2876.83,
           3,
           0
         ],
@@ -3354,8 +3354,8 @@
           "sylviaapproved",
           5197.18,
           299,
-          512713,
-          1986,
+          515380,
+          1990,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
@@ -3365,7 +3365,7 @@
           "keniaher.77",
           2339.87,
           164,
-          96090,
+          96131,
           411,
           "https://tiktok.com/@keniaher.77/video/7670969961753431309"
         ],
@@ -3376,7 +3376,7 @@
           "courtney_gonzales19",
           1399.35,
           90,
-          68725,
+          69016,
           144,
           "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958"
         ],
@@ -3387,7 +3387,7 @@
           "courtney_gonzales19",
           1215.99,
           85,
-          44436,
+          44636,
           97,
           "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597"
         ],
@@ -3409,8 +3409,8 @@
           "sylviaapproved",
           677.21,
           36,
-          36226,
-          88,
+          36397,
+          91,
           "https://tiktok.com/@sylviaapproved/video/7672862005375634719"
         ],
         [
@@ -3420,7 +3420,7 @@
           "theevergreeneditco",
           632.05,
           28,
-          18109,
+          18128,
           39,
           "https://tiktok.com/@theevergreeneditco/video/7673494617085693214"
         ],

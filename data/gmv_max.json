@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-20"
+    "pulled_on": "2026-10-21"
   },
   "periods": {
     "week": {
@@ -38,7 +38,7 @@
           "orders": 64,
           "cost_per_order": 32.5,
           "roas_target": 1.2,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-10-05",
           "product_ids": [
             "1732530504119718107"
@@ -636,7 +636,7 @@
           "orders": 140,
           "cost_per_order": 27.86,
           "roas_target": 1.2,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-10-05",
           "product_ids": [
             "1732530504119718107"
@@ -1250,7 +1250,7 @@
           "orders": 140,
           "cost_per_order": 27.86,
           "roas_target": 1.2,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-10-05",
           "product_ids": [
             "1732530504119718107"
@@ -1868,7 +1868,7 @@
           "orders": 140,
           "cost_per_order": 27.86,
           "roas_target": 1.2,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-10-05",
           "product_ids": [
             "1732530504119718107"
@@ -2466,7 +2466,7 @@
           "orders": 140,
           "cost_per_order": 27.86,
           "roas_target": 1.2,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-10-05",
           "product_ids": [
             "1732530504119718107"
@@ -2995,22 +2995,38 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-14 to 2026-10-20",
+      "range": "2026-10-15 to 2026-10-21",
       "totals": {
-        "revenue": 1983.47,
-        "spend": 1913.36,
-        "orders": 81,
-        "roi": 1.037
+        "revenue": 1501.66,
+        "spend": 1553.21,
+        "orders": 62,
+        "roi": 0.967
       },
       "campaigns": [
         {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 743.97,
+          "spend": 1208.86,
+          "roi": 0.615,
+          "orders": 34,
+          "cost_per_order": 35.55,
+          "roas_target": 1.2,
+          "status": "DISABLE",
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 600.0
+        },
+        {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 871.59,
-          "spend": 363.32,
-          "roi": 2.399,
-          "orders": 38,
-          "cost_per_order": 9.56,
+          "revenue": 593.72,
+          "spend": 248.41,
+          "roi": 2.39,
+          "orders": 25,
+          "cost_per_order": 9.94,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -3020,29 +3036,13 @@
           "budget": 500.0
         },
         {
-          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
-          "campaign_id": "1878225250482562",
-          "revenue": 835.93,
-          "spend": 1372.07,
-          "roi": 0.609,
-          "orders": 38,
-          "cost_per_order": 36.11,
-          "roas_target": 1.2,
-          "status": "ENABLE",
-          "start": "2026-10-05",
-          "product_ids": [
-            "1732530504119718107"
-          ],
-          "budget": 600.0
-        },
-        {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 275.95,
-          "spend": 177.97,
-          "roi": 1.551,
-          "orders": 5,
-          "cost_per_order": 35.59,
+          "revenue": 163.97,
+          "spend": 95.94,
+          "roi": 1.709,
+          "orders": 3,
+          "cost_per_order": 31.98,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",

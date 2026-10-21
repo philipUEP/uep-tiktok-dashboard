@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-20",
+    "pulled_on": "2026-10-21",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -59,8 +59,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "price": 67.99,
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "price": 69.99,
           "total_gmv": 924.85,
           "share_pct": 19.0,
           "video_gmv": 604.75,
@@ -147,7 +147,7 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - 17.5 x 13 x 6 inches Ergonomic, Versatile, Adjustable High-Density Foam Leg Positioner Pillow with Breathable Cover, Elevates Feet for Office, Gaming Use, Improves Posture, Enhances Circulation",
+          "product_name": "Everlasting Comfort Adjustable Memory Foam Under Desk Foot Rest - 17.5x13x6in Ergonomic Versatile High-Density Foam Leg Positioner Pillow with Breathable Washable Cover, Elevates Feet for Office Use, Improves Posture, Supports Better Circulation",
           "price": 39.99,
           "total_gmv": 37.99,
           "share_pct": 0.8,
@@ -202,7 +202,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Comfortable Travel Foot Rest, Portable & Easy to Use, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 23.3,
           "share_pct": 0.5,
@@ -213,7 +213,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
+          "product_name": "Everlasting Comfort Chair Arm Pad Cover - Premium Memory Foam-Cooling Gel, Contoured, Machine Washable Breathable Mesh, Double-Sided Fasteners, 9.5x3x1.5in, All Seasons, Desk/Gaming Universal Fit, Improves Posture, Eliminates Fatigue, Modern Solid",
           "price": 23.99,
           "total_gmv": 21.13,
           "share_pct": 0.4,
@@ -449,8 +449,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "price": 67.99,
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "price": 69.99,
           "total_gmv": 2132.1,
           "share_pct": 16.0,
           "video_gmv": 1382.5,
@@ -548,7 +548,7 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - 17.5 x 13 x 6 inches Ergonomic, Versatile, Adjustable High-Density Foam Leg Positioner Pillow with Breathable Cover, Elevates Feet for Office, Gaming Use, Improves Posture, Enhances Circulation",
+          "product_name": "Everlasting Comfort Adjustable Memory Foam Under Desk Foot Rest - 17.5x13x6in Ergonomic Versatile High-Density Foam Leg Positioner Pillow with Breathable Washable Cover, Elevates Feet for Office Use, Improves Posture, Supports Better Circulation",
           "price": 39.99,
           "total_gmv": 37.99,
           "share_pct": 0.3,
@@ -592,7 +592,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Comfortable Travel Foot Rest, Portable & Easy to Use, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 23.3,
           "share_pct": 0.2,
@@ -603,7 +603,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
+          "product_name": "Everlasting Comfort Chair Arm Pad Cover - Premium Memory Foam-Cooling Gel, Contoured, Machine Washable Breathable Mesh, Double-Sided Fasteners, 9.5x3x1.5in, All Seasons, Desk/Gaming Universal Fit, Improves Posture, Eliminates Fatigue, Modern Solid",
           "price": 23.99,
           "total_gmv": 21.13,
           "share_pct": 0.2,
@@ -828,8 +828,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "price": 67.99,
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "price": 69.99,
           "total_gmv": 2791.55,
           "share_pct": 9.8,
           "video_gmv": 1636.98,
@@ -960,7 +960,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Comfortable Travel Foot Rest, Portable & Easy to Use, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 71.28,
           "share_pct": 0.2,
@@ -993,7 +993,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
+          "product_name": "Everlasting Comfort Chair Arm Pad Cover - Premium Memory Foam-Cooling Gel, Contoured, Machine Washable Breathable Mesh, Double-Sided Fasteners, 9.5x3x1.5in, All Seasons, Desk/Gaming Universal Fit, Improves Posture, Eliminates Fatigue, Modern Solid",
           "price": 23.99,
           "total_gmv": 45.12,
           "share_pct": 0.2,
@@ -1004,7 +1004,7 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - 17.5 x 13 x 6 inches Ergonomic, Versatile, Adjustable High-Density Foam Leg Positioner Pillow with Breathable Cover, Elevates Feet for Office, Gaming Use, Improves Posture, Enhances Circulation",
+          "product_name": "Everlasting Comfort Adjustable Memory Foam Under Desk Foot Rest - 17.5x13x6in Ergonomic Versatile High-Density Foam Leg Positioner Pillow with Breathable Washable Cover, Elevates Feet for Office Use, Improves Posture, Supports Better Circulation",
           "price": 39.99,
           "total_gmv": 37.99,
           "share_pct": 0.1,
@@ -1240,8 +1240,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "price": 67.99,
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "price": 69.99,
           "total_gmv": 2919.69,
           "share_pct": 3.7,
           "video_gmv": 1636.98,
@@ -1416,7 +1416,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Comfortable Travel Foot Rest, Portable & Easy to Use, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 71.28,
           "share_pct": 0.1,
@@ -1471,7 +1471,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
+          "product_name": "Everlasting Comfort Chair Arm Pad Cover - Premium Memory Foam-Cooling Gel, Contoured, Machine Washable Breathable Mesh, Double-Sided Fasteners, 9.5x3x1.5in, All Seasons, Desk/Gaming Universal Fit, Improves Posture, Eliminates Fatigue, Modern Solid",
           "price": 23.99,
           "total_gmv": 45.12,
           "share_pct": 0.1,
@@ -1482,7 +1482,7 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - 17.5 x 13 x 6 inches Ergonomic, Versatile, Adjustable High-Density Foam Leg Positioner Pillow with Breathable Cover, Elevates Feet for Office, Gaming Use, Improves Posture, Enhances Circulation",
+          "product_name": "Everlasting Comfort Adjustable Memory Foam Under Desk Foot Rest - 17.5x13x6in Ergonomic Versatile High-Density Foam Leg Positioner Pillow with Breathable Washable Cover, Elevates Feet for Office Use, Improves Posture, Supports Better Circulation",
           "price": 39.99,
           "total_gmv": 37.99,
           "share_pct": 0.0,
@@ -1620,7 +1620,7 @@
         "total_gmv": 167100.32,
         "affiliate_gmv": 146622.08,
         "video_gmv": 90273.26,
-        "live_gmv": 54728.58,
+        "live_gmv": 54763.57,
         "shop_tab_gmv": 26405.9,
         "gmv_max_revenue": 144646.76,
         "subscription_revenue": 0
@@ -1685,8 +1685,8 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "price": 67.99,
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "price": 69.99,
           "total_gmv": 2919.69,
           "share_pct": 1.7,
           "video_gmv": 1636.98,
@@ -1828,7 +1828,7 @@
         },
         {
           "product_id": "1730130703186235611",
-          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Portable & Easy to Use Airplane Accessory, Adjustable Straps, Shape-Hold Base, Dual Areas, Superior Leg Support",
+          "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Comfortable Travel Foot Rest, Portable & Easy to Use, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Superior Leg Support",
           "price": 23.99,
           "total_gmv": 112.04,
           "share_pct": 0.1,
@@ -1861,7 +1861,7 @@
         },
         {
           "product_id": "1729385809950380251",
-          "product_name": "Everlasting Comfort Armrest Cover Chair Pad - Premium Memory Foam-Cooling Gel, Contoured Design, Machine Washable Breathable Mesh Cover, Double-Sided Fasteners, 9.5 x 3 x 1.5 Inches, All Seasons, Office/Car Universal Fit, Improves Posture, Modern Solid",
+          "product_name": "Everlasting Comfort Chair Arm Pad Cover - Premium Memory Foam-Cooling Gel, Contoured, Machine Washable Breathable Mesh, Double-Sided Fasteners, 9.5x3x1.5in, All Seasons, Desk/Gaming Universal Fit, Improves Posture, Eliminates Fatigue, Modern Solid",
           "price": 23.99,
           "total_gmv": 78.54,
           "share_pct": 0.0,
@@ -1938,7 +1938,7 @@
         },
         {
           "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Memory Foam Under Desk Foot Rest - 17.5 x 13 x 6 inches Ergonomic, Versatile, Adjustable High-Density Foam Leg Positioner Pillow with Breathable Cover, Elevates Feet for Office, Gaming Use, Improves Posture, Enhances Circulation",
+          "product_name": "Everlasting Comfort Adjustable Memory Foam Under Desk Foot Rest - 17.5x13x6in Ergonomic Versatile High-Density Foam Leg Positioner Pillow with Breathable Washable Cover, Elevates Feet for Office Use, Improves Posture, Supports Better Circulation",
           "price": 39.99,
           "total_gmv": 37.99,
           "share_pct": 0.0,
