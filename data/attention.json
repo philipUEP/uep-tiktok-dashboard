@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T07:21:39+00:00",
+  "updated_at": "2026-10-21T07:32:00+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,8 +7,8 @@
       "prior": 2698.88,
       "pct": -79.8,
       "direction": "down",
-      "effect": "Inferred: live is 11.2% of GMV and fell for a third week, removing 2,154.08 dollars that no other channel replaced.",
-      "action": "Inferred: book fortune0420 and opantalk on repeat slots and stop streams that return zero, since GMV per stream fell from 14.06 to 4.93."
+      "effect": "Inferred: 100 streams returned $544.80 for a third straight weekly decline, and only 5 of 25 returned streams carried any GMV, so live airtime is no longer converting.",
+      "action": "Inferred: cut LIVE to the accounts that sold (fortune0420 $162.63, opantalk $131.00, UEP own account $181.27 across two streams) and drop zero-GMV streams."
     },
     {
       "metric": "Samples delivered",
@@ -16,8 +16,8 @@
       "prior": 68,
       "pct": -70.6,
       "direction": "down",
-      "effect": "Inferred: three weeks of decline from 87 to 68 to 20 caps creator posts in the late October to mid November window at about 9,031 dollars less GMV at 188.15 per delivered sample.",
-      "action": "Inferred: clear the 108 To Review rows on a 72 hour SLA, starting with the 50 listed rows that expire by 2026-10-27."
+      "effect": "Inferred: three weeks of decline from 87 to 68 to 20 caps creator posting in the late October to mid November window.",
+      "action": "Inferred: ship the 89 requests sitting in To Review against a 20-approval daily target so the delivered cohort rebuilds within two weeks."
     },
     {
       "metric": "Samples shipped",
@@ -25,26 +25,8 @@
       "prior": 59,
       "pct": -66.1,
       "direction": "down",
-      "effect": "Inferred: the approval layer, not creator demand, limits supply, since 108 requests sit in To Review while 134 new requests arrived.",
-      "action": "Inferred: bulk reject the 39 Repel umbrella rows in the pending list with a saved reason and ship screen door and bidet rows first."
-    },
-    {
-      "metric": "Repel Blitz Ad Campaign ROI (target 1.2)",
-      "current": 0.659,
-      "prior": 0.873,
-      "pct": -24.5,
-      "direction": "down",
-      "effect": "Inferred: the only enabled campaign took 2,080.29 of 3,277.17 weekly ad spend to return 1,370.26, while Screen Door at 2.495 sits disabled.",
-      "action": "Inferred: pause Repel Blitz and move that budget to Screen Door, and treat umbrella as off mix per the 20% margin rule."
-    },
-    {
-      "metric": "Sample rejection rate % (rejected over decided)",
-      "current": 50.7,
-      "prior": 51.3,
-      "pct": -1.2,
-      "direction": "down",
-      "effect": "Inferred: half of decided requests fail review and 103 of 300 rows expired this cycle, so queue time is going to requests that cannot convert.",
-      "action": "Inferred: reject off mix products at intake with a saved reason so review capacity goes to requests that can post."
+      "effect": "Inferred: with 1 request in Ready to Ship and 5 in Shipped, the constraint sits at fulfilment and not at creator demand, since 134 new requests arrived.",
+      "action": "Inferred: clear the Ready to Ship queue today and set a floor of 40 shipped samples per week."
     },
     {
       "metric": "Replies",
@@ -52,8 +34,26 @@
       "prior": 17,
       "pct": -52.9,
       "direction": "down",
-      "effect": "Inferred: third week of decline, and reply rate fell from 6.30% to 0.38% while DMs rose 683%, so the sends are broader rather than better targeted.",
-      "action": "Inferred: cap sends at 300 to 500 filtered creators per day and report replies per 100 DMs in the 08:15 review."
+      "effect": "Inferred: reply rate fell from 6.30% to 0.38% while DMs rose 683% to 2,114, so sends are broader rather than better targeted.",
+      "action": "Inferred: hold sends near 2,000 per week and route prior responders to sample offers instead of widening the list."
+    },
+    {
+      "metric": "Repel Blitz Ad Campaign ROI (target 1.2)",
+      "current": 0.659,
+      "prior": 0.873,
+      "pct": -24.5,
+      "direction": "down",
+      "effect": "Inferred: the campaign took $2,080.29 of $3,277.17 weekly ad spend to return $1,370.26, a net of -$710.03, while Screen Door returns 2.495 on $843.67 of spend.",
+      "action": "Inferred: pause campaign 1878225250482562 and move that budget to Screen Door."
+    },
+    {
+      "metric": "Sample rejection rate % (rejected over decided)",
+      "current": 51.4,
+      "prior": 50.7,
+      "pct": 1.4,
+      "direction": "up",
+      "effect": "Inferred: half of decided requests fail review while 125 of 300 rows expired, so queue time goes to requests that cannot convert.",
+      "action": "Inferred: audit the 36 rejections for criteria and product fit, then reject off-mix products at intake with a saved reason."
     }
   ]
 }
