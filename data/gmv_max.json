@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-21"
+    "pulled_on": "2026-10-22"
   },
   "periods": {
     "week": {
@@ -2995,22 +2995,22 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-15 to 2026-10-21",
+      "range": "2026-10-16 to 2026-10-22",
       "totals": {
-        "revenue": 1501.66,
-        "spend": 1553.21,
-        "orders": 62,
-        "roi": 0.967
+        "revenue": 399.13,
+        "spend": 817.43,
+        "orders": 18,
+        "roi": 0.488
       },
       "campaigns": [
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 743.97,
-          "spend": 1208.86,
-          "roi": 0.615,
-          "orders": 34,
-          "cost_per_order": 35.55,
+          "revenue": 337.16,
+          "spend": 773.47,
+          "roi": 0.436,
+          "orders": 15,
+          "cost_per_order": 51.56,
           "roas_target": 1.2,
           "status": "DISABLE",
           "start": "2026-10-05",
@@ -3022,11 +3022,11 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 593.72,
-          "spend": 248.41,
-          "roi": 2.39,
-          "orders": 25,
-          "cost_per_order": 9.94,
+          "revenue": 61.97,
+          "spend": 23.7,
+          "roi": 2.615,
+          "orders": 3,
+          "cost_per_order": 7.9,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -3038,11 +3038,11 @@
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 163.97,
-          "spend": 95.94,
-          "roi": 1.709,
-          "orders": 3,
-          "cost_per_order": 31.98,
+          "revenue": 0,
+          "spend": 20.26,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T07:32:00+00:00",
+  "updated_at": "2026-10-22T07:32:00+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,8 +7,8 @@
       "prior": 2698.88,
       "pct": -79.8,
       "direction": "down",
-      "effect": "Inferred: 100 streams returned $544.80 for a third straight weekly decline, and only 5 of 25 returned streams carried any GMV, so live airtime is no longer converting.",
-      "action": "Inferred: cut LIVE to the accounts that sold (fortune0420 $162.63, opantalk $131.00, UEP own account $181.27 across two streams) and drop zero-GMV streams."
+      "effect": "Inferred: a third straight weekly decline takes live to 11.2% of GMV from 32.0%, and 20 of the 25 streams listed in the payload returned no GMV.",
+      "action": "Inferred: cut LIVE to fortune0420, opantalk and the UEP own account, which carried $474.90 of the week, and drop zero-GMV streams."
     },
     {
       "metric": "Samples delivered",
@@ -16,8 +16,8 @@
       "prior": 68,
       "pct": -70.6,
       "direction": "down",
-      "effect": "Inferred: three weeks of decline from 87 to 68 to 20 caps creator posting in the late October to mid November window.",
-      "action": "Inferred: ship the 89 requests sitting in To Review against a 20-approval daily target so the delivered cohort rebuilds within two weeks."
+      "effect": "Inferred: delivered fell 87 to 68 to 20 in three weeks, which caps creator posting in the late October to mid November window.",
+      "action": "Inferred: approve the 80 requests in To Review at 20 a day so delivered returns above 40 per week."
     },
     {
       "metric": "Samples shipped",
@@ -25,8 +25,8 @@
       "prior": 59,
       "pct": -66.1,
       "direction": "down",
-      "effect": "Inferred: with 1 request in Ready to Ship and 5 in Shipped, the constraint sits at fulfilment and not at creator demand, since 134 new requests arrived.",
-      "action": "Inferred: clear the Ready to Ship queue today and set a floor of 40 shipped samples per week."
+      "effect": "Inferred: with 1 request in Ready to Ship and 1 in Shipped, the constraint sits in fulfilment while 134 new requests arrived.",
+      "action": "Inferred: clear the Ready to Ship queue today and hold a floor of 40 shipped samples per week."
     },
     {
       "metric": "Replies",
@@ -34,7 +34,7 @@
       "prior": 17,
       "pct": -52.9,
       "direction": "down",
-      "effect": "Inferred: reply rate fell from 6.30% to 0.38% while DMs rose 683% to 2,114, so sends are broader rather than better targeted.",
+      "effect": "Inferred: reply rate fell to 0.38% from 6.30% while DMs rose 683% to 2,114, so sends are broader rather than better targeted.",
       "action": "Inferred: hold sends near 2,000 per week and route prior responders to sample offers instead of widening the list."
     },
     {
@@ -43,17 +43,17 @@
       "prior": 0.873,
       "pct": -24.5,
       "direction": "down",
-      "effect": "Inferred: the campaign took $2,080.29 of $3,277.17 weekly ad spend to return $1,370.26, a net of -$710.03, while Screen Door returns 2.495 on $843.67 of spend.",
-      "action": "Inferred: pause campaign 1878225250482562 and move that budget to Screen Door."
+      "effect": "Inferred: the campaign spent $2,080.29 to return $1,370.26, a net of -$710.03, while Screen Door returns 2.495 on $843.67.",
+      "action": "Inferred: move the campaign 1878225250482562 budget to Screen Door and Bidet 7/6, which returned 2.495 and 1.619."
     },
     {
-      "metric": "Sample rejection rate % (rejected over decided)",
-      "current": 51.4,
-      "prior": 50.7,
-      "pct": 1.4,
+      "metric": "Sample rejection rate % (rejected over rejected plus posted)",
+      "current": 70.8,
+      "prior": 51.4,
+      "pct": 37.8,
       "direction": "up",
-      "effect": "Inferred: half of decided requests fail review while 125 of 300 rows expired, so queue time goes to requests that cannot convert.",
-      "action": "Inferred: audit the 36 rejections for criteria and product fit, then reject off-mix products at intake with a saved reason."
+      "effect": "Inferred: 34 rejected against 14 posted means most reviewed requests cannot convert, and 136 of 300 rows expired before review.",
+      "action": "Inferred: reject off-mix products at intake with a saved reason and audit the 34 rejections for criteria drift."
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-10-21T07:01:06Z",
+ "generated_on": "2026-10-22T07:01:02Z",
  "window": "2026-10-12 to 2026-10-18",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-10-21T07:01:04Z",
+ "assumptions_generated_on": "2026-10-22T07:01:00Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -92,6 +92,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 2,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732530572481433819",
      "name": "Lavendar",
      "units": 0,
@@ -99,30 +106,9 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 1,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
-     "units": 4,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732530571945677019",
-     "name": "Light Blue",
+     "sku_id": "1732694432146034907",
+     "name": "Pastel Blue",
      "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 2,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -134,10 +120,24 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146034907",
-     "name": "Pastel Blue",
-     "units": 0,
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 4,
      "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530571945677019",
+     "name": "Light Blue",
+     "units": 0,
+     "price": null,
      "why": "no cost row in the cost model"
     },
     {
@@ -155,16 +155,23 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146297051",
-     "name": "Gray",
-     "units": 0,
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 3,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
+     "sku_id": "1732694432146821339",
+     "name": "Black Premium",
      "units": 3,
+     "price": 34.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -180,13 +187,6 @@
      "name": "Black Fog",
      "units": 0,
      "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146821339",
-     "name": "Black Premium",
-     "units": 3,
-     "price": 34.99,
      "why": "no cost row in the cost model"
     }
    ],
@@ -334,7 +334,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 39,
+    "units_total": 25,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -342,14 +342,14 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 13,
+     "units": 7,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146428123",
      "name": "Clear",
-     "units": 1,
+     "units": 3,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -377,7 +377,7 @@
     {
      "sku_id": "1732707643491455195",
      "name": "Pastel pink",
-     "units": 4,
+     "units": 3,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -391,7 +391,7 @@
     {
      "sku_id": "1732707643491520731",
      "name": "Pastel Mint",
-     "units": 1,
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -403,6 +403,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732530572481433819",
      "name": "Lavendar",
      "units": 0,
@@ -410,30 +417,9 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 1,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
-     "units": 4,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732530571945677019",
-     "name": "Light Blue",
+     "sku_id": "1732694432146034907",
+     "name": "Pastel Blue",
      "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 2,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -445,37 +431,58 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146034907",
-     "name": "Pastel Blue",
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 3,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732530571945677019",
+     "name": "Light Blue",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146362587",
      "name": "Yellow",
-     "units": 1,
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146690267",
      "name": "Black 2pack",
-     "units": 4,
+     "units": 3,
      "price": 49.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146821339",
+     "name": "Black Premium",
+     "units": 0,
+     "price": 34.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146297051",
      "name": "Gray",
      "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 3,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -492,19 +499,12 @@
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146821339",
-     "name": "Black Premium",
-     "units": 1,
-     "price": 34.99,
-     "why": "no cost row in the cost model"
     }
    ],
-   "spend": 1208.86,
-   "revenue": 743.97,
-   "orders": 34,
-   "roi": 0.615,
+   "spend": 773.47,
+   "revenue": 337.16,
+   "orders": 15,
+   "roi": 0.436,
    "roas_target": 1.2,
    "be_roas": null,
    "pause_below_roas": null,
@@ -514,83 +514,9 @@
    "flag": "Pause",
    "action": "ROAS is under 1.0x, so the spend exceeds the revenue it returns before any product cost. Pause it now, or raise the target above 1.0x at minimum. P&L row for Repel Automatic Umbrella \u2013 colors has no COGS/MCF yet, so the true break-even cannot be set; fix that row and re-run.",
    "target_is_below_break_even": null
-  },
-  {
-   "campaign": "Screen Door",
-   "campaign_id": "1865906453543986",
-   "product": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-   "matched": true,
-   "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
-   "product_ids": [
-    "1729391862339113179"
-   ],
-   "sku_coverage": {
-    "skus_total": 7,
-    "skus_mapped": 1,
-    "units_total": 64,
-    "units_covered": 0,
-    "pct_units_covered": 0.0
-   },
-   "unmapped_skus": [
-    {
-     "sku_id": "1732283771626688731",
-     "name": "Default,Heavy Duty Fiberglass (New)",
-     "units": 19,
-     "price": 27.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732283771626623195",
-     "name": "Default,Original Standard Mesh",
-     "units": 43,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732384554433482971",
-     "name": "Default,Thermal",
-     "units": 2,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732357652881117403",
-     "name": "Default,White",
-     "units": 0,
-     "price": 25.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732384554433417435",
-     "name": "Default,Padded Thermal",
-     "units": 0,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732357652881051867",
-     "name": "1732357652881051867",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    }
-   ],
-   "spend": 248.41,
-   "revenue": 593.72,
-   "orders": 25,
-   "roi": 2.39,
-   "roas_target": 2.5,
-   "be_roas": 4.0,
-   "pause_below_roas": 3.2,
-   "margin_ad_pct": 26.8,
-   "cm3_after_ads": -89.29,
-   "status": "DISABLE",
-   "flag": "Pause",
-   "action": "Already paused (campaign status DISABLE). Raise the return target to at least 4.0x (break-even), If it restarts: move the budget to a campaign above break-even.",
-   "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-10-15 to 2026-10-21",
+ "live_window": "2026-10-16 to 2026-10-22",
  "products": [
   {
    "product": "Screen Door",
@@ -744,10 +670,10 @@
   "target_below_break_even": 2,
   "products_missing_inputs": 2,
   "week_cm3_total": -231.91,
-  "live_campaigns_judged": 2,
-  "live_pause": 2,
-  "live_cm3_after_ads_total": -89.29,
-  "live_spend_total": 1457.27
+  "live_campaigns_judged": 1,
+  "live_pause": 1,
+  "live_cm3_after_ads_total": 0,
+  "live_spend_total": 773.47
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }

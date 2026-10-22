@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:00:42.625914+00:00",
+  "generated_at": "2026-10-22T07:00:37.930093+00:00",
   "weeks": [
     {
       "total_gmv": 5323.95,
@@ -48,7 +48,7 @@
       "sample_requests": 133,
       "samples_shipped": 59,
       "samples_delivered": 68,
-      "videos_posted": 267,
+      "videos_posted": 262,
       "distinct_creators": 84,
       "_range": "2026-10-05 to 2026-10-11"
     },
@@ -146,7 +146,7 @@
     "videos_posted": [
       73.0,
       95.0,
-      267.0,
+      262.0,
       315.0
     ],
     "distinct_creators": [
@@ -249,8 +249,8 @@
       "metric": "videos_posted",
       "label": "Videos posted",
       "current": 315.0,
-      "prior": 267.0,
-      "pct": 18.0,
+      "prior": 262.0,
+      "pct": 20.2,
       "direction": "up"
     },
     {

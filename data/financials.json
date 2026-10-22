@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-21",
+    "pulled_on": "2026-10-22",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -104,7 +104,7 @@
         {
           "product_id": "1732655825084190939",
           "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
-          "price": 33.99,
+          "price": 29.99,
           "total_gmv": 131.0,
           "share_pct": 2.7,
           "video_gmv": 0,
@@ -461,7 +461,7 @@
         {
           "product_id": "1732655825084190939",
           "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
-          "price": 33.99,
+          "price": 29.99,
           "total_gmv": 401.0,
           "share_pct": 3.0,
           "video_gmv": 0,
@@ -851,7 +851,7 @@
         {
           "product_id": "1732655825084190939",
           "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
-          "price": 33.99,
+          "price": 29.99,
           "total_gmv": 401.0,
           "share_pct": 1.4,
           "video_gmv": 0,
@@ -1186,7 +1186,7 @@
         "total_gmv": 77993.77,
         "affiliate_gmv": 66472.58,
         "video_gmv": 39387.91,
-        "live_gmv": 26578.47,
+        "live_gmv": 26652.73,
         "shop_tab_gmv": 15311.7,
         "gmv_max_revenue": 58860.23000000001,
         "subscription_revenue": 0
@@ -1318,7 +1318,7 @@
         {
           "product_id": "1732655825084190939",
           "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
-          "price": 33.99,
+          "price": 29.99,
           "total_gmv": 401.0,
           "share_pct": 0.5,
           "video_gmv": 0,
@@ -1620,7 +1620,7 @@
         "total_gmv": 167100.32,
         "affiliate_gmv": 146622.08,
         "video_gmv": 90273.26,
-        "live_gmv": 54763.57,
+        "live_gmv": 54837.83,
         "shop_tab_gmv": 26405.9,
         "gmv_max_revenue": 144646.76,
         "subscription_revenue": 0
@@ -1752,7 +1752,7 @@
         {
           "product_id": "1732655825084190939",
           "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
-          "price": 33.99,
+          "price": 29.99,
           "total_gmv": 401.0,
           "share_pct": 0.2,
           "video_gmv": 0,
