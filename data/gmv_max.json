@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-22"
+    "pulled_on": "2026-10-23"
   },
   "periods": {
     "week": {
@@ -2995,22 +2995,22 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-16 to 2026-10-22",
+      "range": "2026-10-17 to 2026-10-23",
       "totals": {
-        "revenue": 399.13,
-        "spend": 817.43,
-        "orders": 18,
-        "roi": 0.488
+        "revenue": 159.93,
+        "spend": 505.77,
+        "orders": 7,
+        "roi": 0.316
       },
       "campaigns": [
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 337.16,
-          "spend": 773.47,
-          "roi": 0.436,
-          "orders": 15,
-          "cost_per_order": 51.56,
+          "revenue": 159.93,
+          "spend": 505.77,
+          "roi": 0.316,
+          "orders": 7,
+          "cost_per_order": 72.25,
           "roas_target": 1.2,
           "status": "DISABLE",
           "start": "2026-10-05",
@@ -3018,38 +3018,6 @@
             "1732530504119718107"
           ],
           "budget": 600.0
-        },
-        {
-          "name": "Screen Door",
-          "campaign_id": "1865906453543986",
-          "revenue": 61.97,
-          "spend": 23.7,
-          "roi": 2.615,
-          "orders": 3,
-          "cost_per_order": 7.9,
-          "roas_target": 2.5,
-          "status": "DISABLE",
-          "start": "2026-05-22",
-          "product_ids": [
-            "1729391862339113179"
-          ],
-          "budget": 500.0
-        },
-        {
-          "name": "Bidet 7/6",
-          "campaign_id": "1869091438759025",
-          "revenue": 0,
-          "spend": 20.26,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 2.5,
-          "status": "DISABLE",
-          "start": "2026-06-26",
-          "product_ids": [
-            "1729385884864975067"
-          ],
-          "budget": 1000.0
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -3514,6 +3482,38 @@
             "1729388554561294555"
           ],
           "budget": 20.0
+        },
+        {
+          "name": "Screen Door",
+          "campaign_id": "1865906453543986",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.5,
+          "status": "DISABLE",
+          "start": "2026-05-22",
+          "product_ids": [
+            "1729391862339113179"
+          ],
+          "budget": 500.0
+        },
+        {
+          "name": "Bidet 7/6",
+          "campaign_id": "1869091438759025",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.5,
+          "status": "DISABLE",
+          "start": "2026-06-26",
+          "product_ids": [
+            "1729385884864975067"
+          ],
+          "budget": 1000.0
         },
         {
           "name": "Shop Wide",

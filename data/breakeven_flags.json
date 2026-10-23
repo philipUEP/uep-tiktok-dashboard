@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-10-22T07:01:02Z",
+ "generated_on": "2026-10-23T07:00:57Z",
  "window": "2026-10-12 to 2026-10-18",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-10-22T07:01:00Z",
+ "assumptions_generated_on": "2026-10-23T07:00:55Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -58,7 +58,7 @@
     },
     {
      "sku_id": "1732707643491651803",
-     "name": null,
+     "name": "Black 4pack",
      "units": 0,
      "price": null,
      "why": "no cost row in the cost model"
@@ -120,13 +120,6 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
-     "units": 4,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146559195",
      "name": "White Fog",
      "units": 1,
@@ -138,6 +131,13 @@
      "name": "Light Blue",
      "units": 0,
      "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 4,
+     "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -169,16 +169,16 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146297051",
-     "name": "Gray",
-     "units": 0,
+     "sku_id": "1732694432146231515",
+     "name": "Black/Red",
+     "units": 3,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146231515",
-     "name": "Black/Red",
-     "units": 3,
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -226,7 +226,7 @@
      "sku_id": "1732447698187423963",
      "name": "Original Black 2 Pack",
      "units": 7,
-     "price": 55.99,
+     "price": 79.99,
      "why": "no cost row in the cost model"
     }
    ],
@@ -285,7 +285,7 @@
     },
     {
      "sku_id": "1732357652881117403",
-     "name": "Default,White",
+     "name": "Default / White",
      "units": 0,
      "price": 25.99,
      "why": "no cost row in the cost model"
@@ -334,7 +334,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 25,
+    "units_total": 20,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -342,42 +342,42 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 7,
+     "units": 6,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146428123",
      "name": "Clear",
-     "units": 3,
+     "units": 4,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707650287079643",
      "name": "Navy Blue",
-     "units": 3,
+     "units": 2,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146886875",
      "name": "Starry Night",
-     "units": 1,
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707643491651803",
-     "name": null,
-     "units": 0,
+     "name": "Black 4pack",
+     "units": 1,
      "price": null,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707643491455195",
      "name": "Pastel pink",
-     "units": 3,
+     "units": 2,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -431,13 +431,6 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
-     "units": 3,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146559195",
      "name": "White Fog",
      "units": 0,
@@ -452,6 +445,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146362587",
      "name": "Yellow",
      "units": 0,
@@ -461,34 +461,34 @@
     {
      "sku_id": "1732694432146690267",
      "name": "Black 2pack",
-     "units": 3,
+     "units": 2,
      "price": 49.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146100443",
      "name": "Red",
-     "units": 1,
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146821339",
      "name": "Black Premium",
-     "units": 0,
+     "units": 1,
      "price": 34.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146297051",
-     "name": "Gray",
-     "units": 0,
-     "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146231515",
      "name": "Black/Red",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
@@ -501,10 +501,10 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 773.47,
-   "revenue": 337.16,
-   "orders": 15,
-   "roi": 0.436,
+   "spend": 505.77,
+   "revenue": 159.93,
+   "orders": 7,
+   "roi": 0.316,
    "roas_target": 1.2,
    "be_roas": null,
    "pause_below_roas": null,
@@ -516,7 +516,7 @@
    "target_is_below_break_even": null
   }
  ],
- "live_window": "2026-10-16 to 2026-10-22",
+ "live_window": "2026-10-17 to 2026-10-23",
  "products": [
   {
    "product": "Screen Door",
@@ -587,20 +587,20 @@
    "input_needed": false,
    "variants": 1,
    "price": 39.99,
-   "units": 4,
-   "gmv": 169.96,
+   "units": 1,
+   "gmv": 35.99,
    "units_ad": 0,
    "ads_spend": 0,
    "ads_revenue": 0,
-   "organic_revenue": 169.96,
-   "cm3": 48.32,
+   "organic_revenue": 35.99,
+   "cm3": 12.08,
    "cm3_per_unit": 12.08,
    "margin_ad_pct": 40.2,
    "be_roas_ad": 2.5,
    "pause_below_roas": 2.1,
    "advertise": "Yes",
    "margin_basis": "Original Seat Cushion",
-   "listings_matched": 2
+   "listings_matched": 1
   },
   {
    "product": "Repel Travel Umbrella",
@@ -669,11 +669,11 @@
   "cm3_after_ads_total": -554.88,
   "target_below_break_even": 2,
   "products_missing_inputs": 2,
-  "week_cm3_total": -231.91,
+  "week_cm3_total": -268.15,
   "live_campaigns_judged": 1,
   "live_pause": 1,
   "live_cm3_after_ads_total": 0,
-  "live_spend_total": 773.47
+  "live_spend_total": 505.77
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
