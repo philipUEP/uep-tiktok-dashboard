@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-23"
+    "pulled_on": "2026-10-24"
   },
   "periods": {
     "week": {
@@ -1846,7 +1846,7 @@
           "spend": 3420.26,
           "roi": 0.869,
           "orders": 116,
-          "cost_per_order": 29.49,
+          "cost_per_order": 29.48,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13",
@@ -2995,22 +2995,22 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-17 to 2026-10-23",
+      "range": "2026-10-18 to 2026-10-24",
       "totals": {
-        "revenue": 159.93,
-        "spend": 505.77,
-        "orders": 7,
-        "roi": 0.316
+        "revenue": 99.96,
+        "spend": 264.26,
+        "orders": 4,
+        "roi": 0.378
       },
       "campaigns": [
         {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 159.93,
-          "spend": 505.77,
-          "roi": 0.316,
-          "orders": 7,
-          "cost_per_order": 72.25,
+          "revenue": 99.96,
+          "spend": 264.26,
+          "roi": 0.378,
+          "orders": 4,
+          "cost_per_order": 66.06,
           "roas_target": 1.2,
           "status": "DISABLE",
           "start": "2026-10-05",

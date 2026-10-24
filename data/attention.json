@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T07:22:00+00:00",
+  "updated_at": "2026-10-24T07:21:39+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,8 +7,8 @@
       "prior": 2698.88,
       "pct": -79.8,
       "direction": "down",
-      "effect": "Inferred: a third straight weekly decline takes live to 11.2% of GMV from 32.0%, and only 5 of 25 streams in lives.json returned any GMV on 535,031 views.",
-      "action": "Inferred: keep fortune0420, opantalk and the UEP own account, which carried $474.90 of the week, and stop booking zero-GMV streams."
+      "effect": "Inferred: a third consecutive week lower takes live to 11.2% of GMV, and bidet, which is 86.0% of 30 day live GMV, is where the drop sits.",
+      "action": "Inferred: keep fortune0420 and rebuild the rest of the schedule as fewer, longer, bidet led lives."
     },
     {
       "metric": "Samples delivered",
@@ -16,8 +16,8 @@
       "prior": 68,
       "pct": -70.6,
       "direction": "down",
-      "effect": "Inferred: delivered fell 87 to 68 to 20 in three weeks, which caps creator posting in the first half of November given a 2 to 4 week delivery-to-post lag.",
-      "action": "Inferred: approve 20 of the 74 requests in To Review each day so delivered returns above 40 per week."
+      "effect": "Inferred: 48 fewer delivered samples than the prior week removes roughly 5,800 to 9,000 of GMV at 2 to 4 week maturity.",
+      "action": "Inferred: ship at least 40 samples this week by clearing the 77 rows sitting in To Review."
     },
     {
       "metric": "Samples shipped",
@@ -25,8 +25,8 @@
       "prior": 59,
       "pct": -66.1,
       "direction": "down",
-      "effect": "Inferred: with 0 rows in Ready to Ship and 1 in Shipped, the constraint is fulfilment and intake while 134 new requests arrived.",
-      "action": "Inferred: clear the review queue daily and hold a floor of 40 shipped samples per week."
+      "effect": "Inferred: with 0 rows in Ready to Ship and 0 in Shipped, outbound fulfilment stopped while 134 new requests arrived.",
+      "action": "Inferred: hold a floor of 40 shipped per week and decide requests the day they land."
     },
     {
       "metric": "Replies",
@@ -34,26 +34,26 @@
       "prior": 17,
       "pct": -52.9,
       "direction": "down",
-      "effect": "Inferred: reply rate fell to 0.38% from 6.30% while DMs rose 683% to 2,114, so sends are broader rather than better targeted.",
-      "action": "Inferred: hold sends near 2,000 per week and route prior responders to sample offers instead of widening the list."
+      "effect": "Inferred: a 0.38% reply rate on 2,114 DMs starves sample requests and the content pipeline behind them.",
+      "action": "Inferred: cut sends to targeted lists and re-offer samples to creators who replied before."
     },
     {
-      "metric": "Repel Blitz Ad Campaign ROI (target 1.2)",
+      "metric": "Repel Blitz campaign ROAS (target 1.2)",
       "current": 0.659,
-      "prior": 0.873,
-      "pct": -24.5,
+      "prior": 1.2,
+      "pct": -45.1,
       "direction": "down",
-      "effect": "Inferred: the campaign spent $2,080.29 to return $1,370.26, a net of -$710.03 and 63.5% of all ad spend, while a live 7 day read shows 0.316.",
-      "action": "Inferred: cap or pause campaign 1878225250482562 and move budget to Screen Door and Bidet 7/6, which returned 2.495 and 1.619."
+      "effect": "Inferred: the campaign spent 2,080.29 to return 1,370.26, which is 63.5% of all ad spend, and the 7 day read is 0.378.",
+      "action": "Inferred: pause campaign 1878225250482562 and move the budget to Screen Door at 2.495."
     },
     {
-      "metric": "Sample rejection rate % (rejected over rejected plus posted)",
-      "current": 71.4,
-      "prior": 51.4,
-      "pct": 39.0,
+      "metric": "Samples expired unactioned (of 300)",
+      "current": 152,
+      "prior": 300,
+      "pct": 50.7,
       "direction": "up",
-      "effect": "Inferred: 30 rejected against 12 posted means most reviewed requests cannot convert, and 148 of 300 rows expired before review.",
-      "action": "Inferred: reject off-mix products at intake with a saved reason and audit the 30 rejections for criteria drift."
+      "effect": "Inferred: half the sample pipeline expired before review, so those creators never received product and never posted.",
+      "action": "Inferred: triage the expired rows for re-request and cap review turnaround at 3 days."
     }
   ]
 }
