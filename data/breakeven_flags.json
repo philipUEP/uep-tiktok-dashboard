@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-10-24T07:00:57Z",
+ "generated_on": "2026-10-25T07:00:59Z",
  "window": "2026-10-12 to 2026-10-18",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-10-24T07:00:55Z",
+ "assumptions_generated_on": "2026-10-25T07:00:57Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -57,17 +57,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491651803",
-     "name": "Black 4pack",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732707643491455195",
      "name": "Pastel pink",
      "units": 8,
      "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491651803",
+     "name": "Black 4pack",
+     "units": 0,
+     "price": null,
      "why": "no cost row in the cost model"
     },
     {
@@ -321,202 +321,8 @@
    "product_margin_ad_pct": 26.8
   }
  ],
- "live_campaigns": [
-  {
-   "campaign": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
-   "campaign_id": "1878225250482562",
-   "product": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-   "matched": true,
-   "be_basis": "unpriced SKUs: no SKU under this product has a break-even row yet",
-   "product_ids": [
-    "1732530504119718107"
-   ],
-   "sku_coverage": {
-    "skus_total": 23,
-    "skus_mapped": 0,
-    "units_total": 15,
-    "units_covered": 0,
-    "pct_units_covered": 0.0
-   },
-   "unmapped_skus": [
-    {
-     "sku_id": "1732530562875494619",
-     "name": "Black",
-     "units": 3,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146428123",
-     "name": "Clear",
-     "units": 3,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707650287079643",
-     "name": "Navy Blue",
-     "units": 2,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146886875",
-     "name": "Starry Night",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491651803",
-     "name": "Black 4pack",
-     "units": 1,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491455195",
-     "name": "Pastel pink",
-     "units": 1,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146165979",
-     "name": "Slate Blue",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491520731",
-     "name": "Pastel Mint",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 1,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146034907",
-     "name": "Pastel Blue",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146755803",
-     "name": "Black 3pack",
-     "units": 0,
-     "price": 59.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732530572481433819",
-     "name": "Lavendar",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732530572481368283",
-     "name": "Rainbow",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732530571945677019",
-     "name": "Light Blue",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
-     "units": 1,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146362587",
-     "name": "Yellow",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146690267",
-     "name": "Black 2pack",
-     "units": 2,
-     "price": 49.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146821339",
-     "name": "Black Premium",
-     "units": 1,
-     "price": 34.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146231515",
-     "name": "Black/Red",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146297051",
-     "name": "Gray",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146624731",
-     "name": "Black Fog",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    }
-   ],
-   "spend": 264.26,
-   "revenue": 99.96,
-   "orders": 4,
-   "roi": 0.378,
-   "roas_target": 1.2,
-   "be_roas": null,
-   "pause_below_roas": null,
-   "margin_ad_pct": null,
-   "cm3_after_ads": null,
-   "status": "DISABLE",
-   "flag": "Pause",
-   "action": "ROAS is under 1.0x, so the spend exceeds the revenue it returns before any product cost. Pause it now, or raise the target above 1.0x at minimum. P&L row for Repel Automatic Umbrella \u2013 colors has no COGS/MCF yet, so the true break-even cannot be set; fix that row and re-run.",
-   "target_is_below_break_even": null
-  }
- ],
- "live_window": "2026-10-18 to 2026-10-24",
+ "live_campaigns": [],
+ "live_window": "2026-10-19 to 2026-10-25",
  "products": [
   {
    "product": "Screen Door",
@@ -670,10 +476,10 @@
   "target_below_break_even": 2,
   "products_missing_inputs": 2,
   "week_cm3_total": -268.15,
-  "live_campaigns_judged": 1,
-  "live_pause": 1,
+  "live_campaigns_judged": 0,
+  "live_pause": 0,
   "live_cm3_after_ads_total": 0,
-  "live_spend_total": 264.26
+  "live_spend_total": 0
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
