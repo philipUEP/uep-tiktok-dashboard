@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats + /ads/campaigns (in-progress week, live read)",
-    "pulled_at": "2026-10-25T22:24:09.294224+00:00"
+    "pulled_at": "2026-10-25T22:26:09.295495+00:00"
   },
   "week_range": "2026-10-19 to 2026-10-25",
   "values": {
@@ -22,7 +22,6 @@
     "gmv_max_spend": 117.47,
     "gmv_max_roas": 0.34
   },
-  "stale": true,
-  "last_error": "HTTP Error 500: INTERNAL SERVER ERROR",
-  "last_error_at": "2026-10-25T22:24:09.294224+00:00"
+  "stale": false,
+  "last_error": null
 }
