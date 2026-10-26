@@ -1,12 +1,368 @@
 {
   "_provenance": {
     "source": "Cruva REST API /affiliate/videos/list (AI analysis fields)",
-    "pulled_on": "2026-10-25",
+    "pulled_on": "2026-10-26",
     "sort": "gmv desc"
   },
   "periods": {
     "week": {
-      "range": "2026-10-12 to 2026-10-18",
+      "range": "2026-10-19 to 2026-10-25",
+      "videos": [
+        {
+          "rank": 1,
+          "title": "The best colors for rainy days! \u2614\u2728 Upgrade your storm aesthetic with the Repel Travel Umbrella in so",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7697250041420975373",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 8,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 2,
+          "title": "If you've got sciatica and your job means sitting all day\u2014at a desk, behind the wheel, or at the kit",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7697258520193895693",
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
+          "view_count": 7,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 3,
+          "title": "Truckers' wives\u2014if he comes home with back pain every night, gift him this! \ud83d\ude9b\ud83d\udca5 Long hours behind the",
+          "handle": "upperechelonproducts_",
+          "video_url": "https://tiktok.com/@upperechelonproducts_/video/7697263991755754765",
+          "product_id": "1732604651629416667",
+          "product_name": "Everlasting Comfort Memory Foam Car Seat Cushion - Washable Cover, Back & Sciatica Relief, Automotive Cars Accessories for Driving",
+          "view_count": 8,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 4,
+          "title": "If your umbrellas was free, You need to have one that\u2019s actually good and can withstand 100 mph wind",
+          "handle": "ghost_labrador",
+          "video_url": "https://tiktok.com/@ghost_labrador/video/7698018947207138591",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 30,
+          "like_count": 1,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 5,
+          "title": "This umbrella does it all! #umbrella #rain #compactumbrella #repelumbrella #winter",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7698165510030101790",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 51,
+          "like_count": 4,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 6,
+          "title": "#paraguas #lluvia #compactumbrella #tiktokshopcreatorpicks #sombrilla",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7698168546865564958",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 44,
+          "like_count": 3,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 7,
+          "title": "Sombrilla o paraguas de excelente calidad, que son bien formales #sombrillas #paraguas #tiktoshopsto",
+          "handle": "less3382",
+          "video_url": "https://tiktok.com/@less3382/video/7698186578677484814",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 29,
+          "like_count": 2,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 8,
+          "title": "Los precios est\u00e1n sujeto a cambios por las ofertas en el momento de hacer el video consulta el preci",
+          "handle": "bonnietrend",
+          "video_url": "https://tiktok.com/@bonnietrend/video/7698192280976411934",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 12,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 9,
+          "title": "This umbrella withstands even the strongest wind #umbrella #automaticumbrella #windproofumbrella #wi",
+          "handle": "mrhotpicks",
+          "video_url": "https://tiktok.com/@mrhotpicks/video/7698193796722429214",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 0,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": null,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 10,
+          "title": "This umbrella withstands even the strongest wind #umbrella #automaticumbrella #windproofumbrella #wi",
+          "handle": "mrhotpicks",
+          "video_url": "https://tiktok.com/@mrhotpicks/video/7698194168102784286",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 0,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": null,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 11,
+          "title": "This umbrella withstands even the strongest wind #umbrella #automaticumbrella #windproofumbrella #wi",
+          "handle": "mrhotpicks",
+          "video_url": "https://tiktok.com/@mrhotpicks/video/7698195903944887583",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 359,
+          "like_count": 4,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [
+            {
+              "hook": "I'm an American umbrella, and I'm a Japanese umbrella. So which one's better?",
+              "score": 8,
+              "explanation": "Presents a direct comparison between two popular products, immediately hooking the viewer's curiosity about which one is superior."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "22 reinforced ribs made of fiberglass that can withstand up to 100 mile an hour wind",
+              "score": 9,
+              "explanation": "Highlights superior durability and high wind resistance, directly addressing a primary pain point of cheap umbrellas."
+            },
+            {
+              "selling_point": "Double layered vented canopy, so not only are you getting UV protection from the sun, but wind is also going to go through it",
+              "score": 8,
+              "explanation": "Explains multiple functional benefits including UV protection and wind-venting design."
+            }
+          ],
+          "content_overview": "A creator plays two characters comparing an American umbrella and a Japanese umbrella in a humorous face-off. The video demonstrates the weaknesses of the flimsy American umbrella and highlights the superior durability and features of the Japanese umbrella.",
+          "on_screen_text": "Japanese VS American, @mrhotpicks, KEPEL SUN, 29mph WIND GUST, 100mph WIND GUST",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 60,
+          "tone": "playful",
+          "target_audience": "Shoppers looking for a durable, high-quality umbrella that can withstand harsh weather conditions."
+        },
+        {
+          "rank": 12,
+          "title": "#shopping #shop ",
+          "handle": "xuehu661",
+          "video_url": "https://tiktok.com/@xuehu661/video/7698381617307372814",
+          "product_id": "1729391862339113179",
+          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
+          "view_count": 30,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 13,
+          "title": "Repel 22-Rib Automatic Folding Solid Umbrella - 100MPH Windproof #tiktokshopfalldealsforyou #TikTokS",
+          "handle": "quiltinmomma",
+          "video_url": "https://tiktok.com/@quiltinmomma/video/7698384046329548062",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 20,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 14,
+          "title": "Sombrilla \u2602\ufe0f resistente a cualquier biento #TikTokshop #blackfriday #tiktokshopblackfridaysale #",
+          "handle": "brisojitos1",
+          "video_url": "https://tiktok.com/@brisojitos1/video/7698397003885088014",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 359,
+          "like_count": 8,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [
+            {
+              "hook": "Fue tanto lo que me encant\u00f3 esta sombrilla que me la volv\u00ed a pedir",
+              "score": 8,
+              "explanation": "Starting with a repeat purchase creates strong social proof and curiosity about what makes the product so good."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Esta est\u00e1 mucho m\u00e1s compacta que esta",
+              "score": 8,
+              "explanation": "Highlights the compact size and portability compared to previous versions."
+            },
+            {
+              "selling_point": "Vienen doble, est\u00e1n doble y aguantan con un gran viento que no se te van a doblar hacia atr\u00e1s",
+              "score": 9,
+              "explanation": "Emphasizes windproof durability and double-layer construction for harsh weather conditions."
+            }
+          ],
+          "content_overview": "A creator showcases a compact umbrella she loved so much she ordered a second one in a different design. She demonstrates its size, its compact travel case, and highlights its windproof double-layer construction.",
+          "on_screen_text": "@brisojitos1",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 45,
+          "tone": "casual",
+          "target_audience": "Shoppers and travelers looking for a durable, compact, and wind-resistant umbrella."
+        },
+        {
+          "rank": 15,
+          "title": "You wouldn't play at 30 fps, so stop sitting on a flat cushion. Tucker seat cushion, A Number 1 sell",
+          "handle": "jdandthecrew",
+          "video_url": "https://tiktok.com/@jdandthecrew/video/7698400388449389837",
+          "product_id": "1732530411400171739",
+          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
+          "view_count": 7,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        }
+      ],
+      "total_found": 81,
+      "has_more": true
+    },
+    "14d": {
+      "range": "2026-10-12 to 2026-10-25",
       "videos": [
         {
           "rank": 1,
@@ -48,6 +404,44 @@
         },
         {
           "rank": 2,
+          "title": "Dile adi\u00f3s a los paraguas que se doblan. \u2614\ufe0f lmaterial \u00fanico y resistente #paraguas #windproofumbrell",
+          "handle": "erikal0728",
+          "video_url": "https://tiktok.com/@erikal0728/video/7697867914514369805",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 288,
+          "like_count": 11,
+          "gmv": 19.99,
+          "units_sold": 1,
+          "gmv_per_view": 0.0694,
+          "hooks": [
+            {
+              "hook": "Este paraguas est\u00e1 dise\u00f1ado para soportar condiciones de viento intenso y ha sido probado con vientos de hasta 100 millas por hora",
+              "score": 9,
+              "explanation": "The hook immediately highlights extreme durability and wind resistance backed by a specific metric."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Probado con vientos de hasta 100 millas por hora",
+              "score": 10,
+              "explanation": "Provides concrete proof of the umbrella's exceptional windproof capability."
+            },
+            {
+              "selling_point": "Disponible en diferentes colores y dise\u00f1os",
+              "score": 7,
+              "explanation": "Offers aesthetic variety ranging from neutral classics to colorful options."
+            }
+          ],
+          "content_overview": "A person demonstrates the Repel umbrella by opening and closing it outdoors near a potted plant. The video highlights its durability against strong winds up to 100 mph and showcases the variety of available colors and designs.",
+          "on_screen_text": "Paraguas resistente \n@erikal0728\nMaterial \u00fanico y resistente\nDise\u00f1ado para resistir vientos intensos",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 38,
+          "tone": "casual",
+          "target_audience": "Shoppers and travelers looking for a durable, wind-resistant, and portable umbrella for rainy and windy weather."
+        },
+        {
+          "rank": 3,
           "title": "#fyp ",
           "handle": "donawow3",
           "video_url": "https://tiktok.com/@donawow3/video/7697431189937835295",
@@ -85,7 +479,7 @@
           "target_audience": "Shoppers and commuters looking for a compact, durable, and wind-resistant umbrella for daily travel."
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "Good umbrella #mvc55 #repel #umbrella #umbrellas #tiktokshopfalldealsforyou @UPPER ECHELON PRODUCTS",
           "handle": "dave_mvc55",
           "video_url": "https://tiktok.com/@dave_mvc55/video/7696317677756747039",
@@ -128,7 +522,7 @@
           "target_audience": "Everyday shoppers and travelers looking for a durable, high-quality, windproof umbrella."
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "#Repel Automatic Umbrella - Win#foryoupage#creatorsearchinsights#fyp  ",
           "handle": "meski.sis",
           "video_url": "https://tiktok.com/@meski.sis/video/7696523538978573582",
@@ -171,7 +565,7 @@
           "target_audience": "Shoppers looking for affordable, high-quality, and convenient travel umbrellas."
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "#fyp #umbrella",
           "handle": "neupanekrishna11",
           "video_url": "https://tiktok.com/@neupanekrishna11/video/7696628773357178126",
@@ -192,7 +586,7 @@
           "target_audience": "General consumers looking for a durable, windproof portable umbrella for rainy weather."
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "Good umbrella #mvc55 #repel #umbrella #umbrellas #tiktokshopfalldealsforyou @UPPER ECHELON PRODUCTS",
           "handle": "dave_mvc55",
           "video_url": "https://tiktok.com/@dave_mvc55/video/7696669965713198367",
@@ -235,7 +629,7 @@
           "target_audience": "Outdoor enthusiasts, commuters, and everyday shoppers looking for versatile, high-quality umbrellas for both rain and sun protection."
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Nice umbrella #mvc55 #umbrella #upperechelonproducts #umbrellas #tiktokshopfalldealsforyou @UPPER ECHELON PRODUCTS",
           "handle": "dave_mvc55",
           "video_url": "https://tiktok.com/@dave_mvc55/video/7695540584685030686",
@@ -278,7 +672,7 @@
           "target_audience": "Everyday consumers looking for a durable, reliable, and windproof travel umbrella."
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "I wish I had this years ago \ud83d\ude2d #umbrella #automaticumbrella #windproofumbrella #umbrellas #repelumbre",
           "handle": "mrhotpicks",
           "video_url": "https://tiktok.com/@mrhotpicks/video/7696258861895798047",
@@ -316,7 +710,7 @@
           "target_audience": "Everyday consumers looking for durable, high-quality, and convenient travel umbrellas."
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Umbrella sombrilla \ud83c\udf02 para la lluvia o sol.. #umbrella #\u2614\ufe0f #lluvias #sombrilla #windproof ",
           "handle": "tiktokshopzuleika",
           "video_url": "https://tiktok.com/@tiktokshopzuleika/video/7695796007442877709",
@@ -354,7 +748,7 @@
           "target_audience": "Shoppers looking for durable and stylish umbrellas for rainy days."
         },
         {
-          "rank": 10,
+          "rank": 11,
           "title": "#umbrella #rainyday #sunprotection #babyessentials #windproofumbrella ",
           "handle": "kaye_shana",
           "video_url": "https://tiktok.com/@kaye_shana/video/7696953674370780446",
@@ -375,7 +769,7 @@
           "target_audience": "Shoppers and travelers looking for a portable, easy-to-use umbrella for sun or rain protection."
         },
         {
-          "rank": 11,
+          "rank": 12,
           "title": "perfect umbrella for the season and even better it\u2019s pink \ud83c\udf80\ud83e\udd0d #tiktokshopfalldealsforyou #automaticum",
           "handle": "boldvideos7",
           "video_url": "https://tiktok.com/@boldvideos7/video/7697010109947350302",
@@ -396,7 +790,7 @@
           "target_audience": "Shoppers and individuals looking for durable, compact, and stylish umbrellas for everyday use."
         },
         {
-          "rank": 12,
+          "rank": 13,
           "title": "\u2614 Paraguas autom\u00e1tico Repel, resistente al viento, compacto y ligero. Se abre y se cierra con solo p",
           "handle": "jorgefragancias",
           "video_url": "https://tiktok.com/@jorgefragancias/video/7696594820873063694",
@@ -439,7 +833,7 @@
           "target_audience": "Shoppers looking for a portable, windproof, and affordable travel umbrella."
         },
         {
-          "rank": 13,
+          "rank": 14,
           "title": "Normal Umbrella vs. Repel Umbrella! \u2614\ud83c\udfb6 Sad violin hours vs. pure happy vibes! Struggling with a slow",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7694759820175445261",
@@ -460,7 +854,7 @@
           "target_audience": null
         },
         {
-          "rank": 14,
+          "rank": 15,
           "title": "",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7694760430513720590",
@@ -479,671 +873,16 @@
           "product_screen_time_seconds": null,
           "tone": null,
           "target_audience": null
-        },
-        {
-          "rank": 15,
-          "title": "",
-          "handle": "repel_umbrella",
-          "video_url": "https://tiktok.com/@repel_umbrella/video/7694761551626046733",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 371,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
         }
       ],
-      "total_found": 259,
-      "has_more": true
-    },
-    "14d": {
-      "range": "2026-10-05 to 2026-10-18",
-      "videos": [
-        {
-          "rank": 1,
-          "title": "#automaticumbrella #umbrella #windproofumbrella #umbrellas #tiktokshopcreatorpicks   ",
-          "handle": "tapa_mondo",
-          "video_url": "https://tiktok.com/@tapa_mondo/video/7694153031432015117",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 6117,
-          "like_count": 63,
-          "gmv": 153.57,
-          "units_sold": 11,
-          "gmv_per_view": 0.0251,
-          "hooks": [
-            {
-              "hook": "So here's a basic umbrella versus a repelled umbrella.",
-              "score": 8,
-              "explanation": "Direct comparison hook that creates immediate curiosity about which product performs better."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "It's actually rated to handle winds at a hundred miles an hour.",
-              "score": 9,
-              "explanation": "Highlights extreme durability and wind resistance as a major benefit."
-            },
-            {
-              "selling_point": "Push this button it opens, push it again it closes.",
-              "score": 8,
-              "explanation": "Emphasizes convenience and automatic functionality."
-            },
-            {
-              "selling_point": "Plus it's also got a vented double canopy so the wind is actually flowing through it",
-              "score": 8,
-              "explanation": "Explains a specific design feature that prevents the umbrella from breaking in the wind."
-            }
-          ],
-          "content_overview": "A creator compares a basic umbrella with a Repel umbrella outdoors, demonstrating the flaws of the basic model and highlighting the durability, wind resistance, automatic open/close mechanism, and compact design of the Repel umbrella.",
-          "on_screen_text": "Repel umbrella Basic umbrella @tapa_mondo",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 29,
-          "tone": "casual",
-          "target_audience": "Adults looking for a durable, high-performance umbrella that can withstand strong winds."
-        },
-        {
-          "rank": 2,
-          "title": "S\u00faper buena calidad \ud83d\udcaf\ud83e\udd0c\ud83c\udffb",
-          "handle": "its.massielll",
-          "video_url": "https://tiktok.com/@its.massielll/video/7693018427660733710",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 4520,
-          "like_count": 44,
-          "gmv": 68.61,
-          "units_sold": 7,
-          "gmv_per_view": 0.0152,
-          "hooks": [
-            {
-              "hook": "Me compr\u00e9 esta sombrillita a mi hermana para cuando ella vaya para la escuela",
-              "score": 8,
-              "explanation": "Starts the video by stating a personal purchase for a family member, immediately setting up a relatable use case."
-            },
-            {
-              "hook": "Miren qu\u00e9 f\u00e1cil se abre",
-              "score": 7,
-              "explanation": "Highlights a key product feature right away, driving curiosity and demonstrating convenience."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Ella la puede guardar hasta en la mochila",
-              "score": 9,
-              "explanation": "Emphasizes the compact and portable nature of the umbrella, making it ideal for students."
-            },
-            {
-              "selling_point": "Tiene un bot\u00f3n aqu\u00ed para abrirse, miren qu\u00e9 f\u00e1cil se abre",
-              "score": 9,
-              "explanation": "Demonstrates the automatic opening feature, showcasing ease of use."
-            }
-          ],
-          "content_overview": "A creator presents a compact automatic umbrella purchased for her sister. She demonstrates how easily it opens and closes using the built-in button, shows its color and design, and mentions its convenience for carrying in a backpack before directing viewers to the shopping link.",
-          "on_screen_text": "@its.massielll",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 38,
-          "tone": "casual",
-          "target_audience": "Students, parents, and everyday shoppers looking for a compact, portable, and easy-to-use umbrella."
-        },
-        {
-          "rank": 3,
-          "title": "#tiktokshopfalldealsforyou #pink #umbrella #rainyday #rain",
-          "handle": "sylviaapproved",
-          "video_url": "https://tiktok.com/@sylviaapproved/video/7694356427460070686",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 10712,
-          "like_count": 87,
-          "gmv": 64.05,
-          "units_sold": 6,
-          "gmv_per_view": 0.006,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": "A short video showcasing a pink umbrella being opened, closed, and carried outdoors in a sunny environment. The text overlay emphasizes its durability despite its feminine appearance.",
-          "on_screen_text": "Pretty in pink... but built for the storm",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 7,
-          "tone": "playful",
-          "target_audience": "People looking for stylish yet durable rain gear, particularly those who prefer pink or cute accessories."
-        },
-        {
-          "rank": 4,
-          "title": "Your kids will actually want this umbrella #umbrella #automaticumbrella #windproofumbrella #rainysea",
-          "handle": "mrhotpicks",
-          "video_url": "https://tiktok.com/@mrhotpicks/video/7694099956629507359",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 5426,
-          "like_count": 20,
-          "gmv": 59.97,
-          "units_sold": 3,
-          "gmv_per_view": 0.0111,
-          "hooks": [
-            {
-              "hook": "You ever wonder why your kids hate bringing umbrellas to school even though it's raining?",
-              "score": 8,
-              "explanation": "Starts with a relatable question about a common parenting frustration regarding kids and umbrellas."
-            },
-            {
-              "hook": "But here's an umbrella they're actually going to want and use in the rain.",
-              "score": 8,
-              "explanation": "Presents a direct solution to the problem raised in the hook."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "It has nine reinforced fiberglass rods and can withstand a hundred mile an hour winds.",
-              "score": 9,
-              "explanation": "Highlights durability and wind resistance as key product benefits."
-            },
-            {
-              "selling_point": "The double layered quick dry canopy is going to dry within a fraction of the time",
-              "score": 9,
-              "explanation": "Emphasizes fast drying material to address convenience."
-            },
-            {
-              "selling_point": "With a single button you can open and close it so your kids don't have to worry about pinching their fingers.",
-              "score": 9,
-              "explanation": "Focuses on safety and ease of use specifically for children."
-            }
-          ],
-          "content_overview": "A presenter compares a flimsy, traditional umbrella with a durable, wind-resistant automatic umbrella. He highlights common pain points like weak frames, slow drying fabric, and finger pinching, then demonstrates the superior features of the featured umbrella including fiberglass rods, quick-dry canopy, and one-button operation.",
-          "on_screen_text": "The umbrella your stubborn kids will actually use... @mrhotpicks",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 25,
-          "tone": "casual",
-          "target_audience": "Parents, caregivers, and people looking for durable, high-quality umbrellas for children or everyday use."
-        },
-        {
-          "rank": 5,
-          "title": "#ad Sombrilla multifuncional..#sombr\u00eda#umbrella #casa#home @UPPER ECHELON PRODUCTS ",
-          "handle": "marielos_granados",
-          "video_url": "https://tiktok.com/@marielos_granados/video/7693700292164046093",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 1662,
-          "like_count": 9,
-          "gmv": 54.28,
-          "units_sold": 4,
-          "gmv_per_view": 0.0327,
-          "hooks": [
-            {
-              "hook": "Esta es la \u00fanica sombrilla que se abre y se cierra completamente sola.",
-              "score": 9,
-              "explanation": "Makes a strong, unique product claim that instantly captures curiosity."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Solamente presionando el bot\u00f3n en frente la vas a abrir y la vas a cerrar sola",
-              "score": 9,
-              "explanation": "Highlights the convenience of automatic opening and closing mechanism."
-            },
-            {
-              "selling_point": "De la parte de adentro es s\u00faper resistente, a diferencia de otras estas varillas no se doblan",
-              "score": 8,
-              "explanation": "Emphasizes durability and wind resistance compared to standard umbrellas."
-            },
-            {
-              "selling_point": "Son peque\u00f1as, as\u00ed que las puedes andar hasta en tu cartera.",
-              "score": 8,
-              "explanation": "Focuses on portability and compact size for everyday carry."
-            }
-          ],
-          "content_overview": "A creator demonstrates a compact, automatic umbrella, showing how it opens and closes with the push of a single button. She highlights its sturdy interior ribs designed to withstand heavy wind and explains that it is small enough to fit inside a purse.",
-          "on_screen_text": "@marielos_granados",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 26,
-          "tone": "casual",
-          "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use umbrella for rainy days."
-        },
-        {
-          "rank": 6,
-          "title": "I think I know which Asian umbrella is better #repelumbrella #umbrella #automaticumbrella #tiktoksho",
-          "handle": "worldsgreatestchad",
-          "video_url": "https://tiktok.com/@worldsgreatestchad/video/7694302109830827277",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 3075,
-          "like_count": 9,
-          "gmv": 47.98,
-          "units_sold": 3,
-          "gmv_per_view": 0.0156,
-          "hooks": [
-            {
-              "hook": "Chinese umbrella or Japanese umbrella, which one is better?",
-              "score": 9,
-              "explanation": "Presents an immediate comparison and curiosity gap between two competing products, drawing the viewer in to see which wins."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Nine resin reinforced fiberglass ribs and wind tunnel tested to over 100 mph",
-              "score": 10,
-              "explanation": "Provides strong proof of durability and high wind resistance compared to standard umbrellas."
-            },
-            {
-              "selling_point": "Air pockets to tune the lower and upper canopy",
-              "score": 9,
-              "explanation": "Explains the engineering design that prevents the umbrella from flipping inside out in strong winds."
-            },
-            {
-              "selling_point": "UV protected and one button opens the same button closes",
-              "score": 8,
-              "explanation": "Highlights everyday convenience features like sun protection and one-touch automatic opening and closing."
-            }
-          ],
-          "content_overview": "A presenter compares a flimsy Chinese umbrella with a high-end Japanese umbrella, testing and highlighting the superior durability, wind tunnel testing up to 100 mph, UV protection, and one-touch open/close mechanism of the Japanese umbrella.",
-          "on_screen_text": "Asian Umbrella Battle \ud83c\udde8\ud83c\uddf3 Vs \ud83c\uddef\ud83c\uddf5 @worldsgreatestchad 43mph wind speed 74mph wind speed 78mph wind speed 100mph wind tunnel laboratory",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 31,
-          "tone": "humorous",
-          "target_audience": "Shoppers looking for durable rain gear, travelers, and consumers interested in product comparison reviews."
-        },
-        {
-          "rank": 7,
-          "title": "#umbrella #tiktokshopdealsforyou @UPPER ECHELON PRODUCTS ",
-          "handle": "nursesylvia77",
-          "video_url": "https://tiktok.com/@nursesylvia77/video/7694783798537374990",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 964,
-          "like_count": 12,
-          "gmv": 39.98,
-          "units_sold": 2,
-          "gmv_per_view": 0.0415,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 8,
-          "title": "American vs. Japanese umbrellas\u2014here\u2019s why Repel stands out! \u2614\u2728 It opens automatically, closes autom",
-          "handle": "repel_umbrella",
-          "video_url": "https://tiktok.com/@repel_umbrella/video/7694419735693298957",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 962,
-          "like_count": 3,
-          "gmv": 34.98,
-          "units_sold": 2,
-          "gmv_per_view": 0.0364,
-          "hooks": [
-            {
-              "hook": "Here's the difference between an American umbrella and a Japanese umbrella.",
-              "score": 8,
-              "explanation": "Creates curiosity and frames the video around a comparison between two familiar items."
-            },
-            {
-              "hook": "And you're not going to believe the price on these things.",
-              "score": 7,
-              "explanation": "Uses a curiosity gap and affordability angle to keep viewers watching."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "It's 100 mph wind tested and double-vented so any gusts of wind that blow from the side aren't going to blow it off your hands.",
-              "score": 9,
-              "explanation": "Highlights key durability and weather-resistance features that solve a common pain point with umbrellas."
-            },
-            {
-              "selling_point": "It's super compact, it packs in less than 12 inches.",
-              "score": 8,
-              "explanation": "Emphasizes portability and convenience for travelers and daily commuters."
-            },
-            {
-              "selling_point": "17 colors, and it is on a sale with free shipping right now, so get it while it lasts.",
-              "score": 8,
-              "explanation": "Creates urgency with a sale and free shipping incentive alongside a wide variety of color options."
-            }
-          ],
-          "content_overview": "A presenter compares an American umbrella with a Japanese umbrella, demonstrating its automatic open and close features, wind resistance, compact size, and carrying case while pitching the sale price and color options.",
-          "on_screen_text": "American umbrellas vs Japanese umbrellas TikTok @repel_umbrella BUILT FOR better MAKE IT WORTH SHARING MADE TO STAND OUT Travel ready. ALWAYS. Upper Bachelor LEVEL UP repel_umbrella",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 32,
-          "tone": "casual",
-          "target_audience": "Shoppers and travelers looking for a durable, compact, and wind-resistant umbrella."
-        },
-        {
-          "rank": 9,
-          "title": "And very affordable! #tiktokshopfalldealsforyou #pink #umbrella #rain #winter",
-          "handle": "sylviaapproved",
-          "video_url": "https://tiktok.com/@sylviaapproved/video/7694358563417771294",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 2704,
-          "like_count": 8,
-          "gmv": 31.86,
-          "units_sold": 2,
-          "gmv_per_view": 0.0118,
-          "hooks": [
-            {
-              "hook": "Closes with a push of a button.",
-              "score": 8,
-              "explanation": "Demonstrates a key convenience feature immediately to grab the viewer's attention."
-            },
-            {
-              "hook": "Takes up to 100 miles per hour of wind so it's not going to fly away",
-              "score": 9,
-              "explanation": "Makes a strong durability claim that addresses a major pain point with cheap umbrellas."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Takes up to 100 miles per hour of wind so it's not going to fly away",
-              "score": 9,
-              "explanation": "Highlights extreme wind resistance, proving durability in severe weather."
-            },
-            {
-              "selling_point": "Very compact so it fits in your purse or your backpack",
-              "score": 8,
-              "explanation": "Emphasizes portability and convenience for everyday carry."
-            },
-            {
-              "selling_point": "I have 17 colors to pick from",
-              "score": 7,
-              "explanation": "Provides a wide variety of aesthetic choices for potential buyers."
-            }
-          ],
-          "content_overview": "A creator presents an automatic travel umbrella while demonstrating its features, including push-button opening and closing, wind resistance up to 100 mph, and compact size.",
-          "on_screen_text": "closes with a push of a button, i have 17 colours to pick from, it opens with a push of a button, it's double layered, takes up to 100 miles per hour of wind, it's not gonna fly away when it's pouring rain or very windy outside, and the best part is that it's very easy to put away, very compact so it fits in your purse or your backpack or maybe just leave it in the car, so if you're looking for a good umbrella to hold up the storm this winter, i highly highly recommend",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 20,
-          "tone": "casual",
-          "target_audience": "Shoppers and commuters looking for a durable, compact, and easy-to-use umbrella for rainy and windy weather."
-        },
-        {
-          "rank": 10,
-          "title": "I found the best Umbrella ever ! \u2602\ufe0f #umbrella #heavydutyumbrella #rain #rainyday #repelumbrella ",
-          "handle": "tinkaagiovanni_",
-          "video_url": "https://tiktok.com/@tinkaagiovanni_/video/7693324466977279245",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 3343,
-          "like_count": 76,
-          "gmv": 30.77,
-          "units_sold": 3,
-          "gmv_per_view": 0.0092,
-          "hooks": [
-            {
-              "hook": "I just found the perfect umbrella.",
-              "score": 8,
-              "explanation": "Strong opening statement that instantly grabs attention by promising a solution to a common hassle."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Baby, all you have to do is press a button and it will open and close on its own.",
-              "score": 9,
-              "explanation": "Highlights the automated, effortless operation of the umbrella which solves the annoyance of manual handling."
-            }
-          ],
-          "content_overview": "A creator showcases a pink automatic umbrella outdoors, demonstrating how easily it opens and closes with the press of a button. She expresses her frustration with traditional umbrellas and praises the convenience of this product.",
-          "on_screen_text": "@tinkaagiovanni_",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 28,
-          "tone": "casual",
-          "target_audience": "Shoppers and everyday commuters looking for convenient rain gear solutions."
-        },
-        {
-          "rank": 11,
-          "title": "Not all umbrellas are built the same! \u2614\ud83d\udca6 Reinforced fiberglass ribs, wind-resistant design, water-repellent fabric, and automatic open/close. Rainy season essentials! #umbrella #tiktokshopfalldealsforyou #windproof #rain #wintermusthaves",
-          "handle": "courtney_gonzales19",
-          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7695427610460900621",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 2978,
-          "like_count": 16,
-          "gmv": 30.6,
-          "units_sold": 3,
-          "gmv_per_view": 0.0103,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": "A woman tests an umbrella outdoors in windy conditions by opening and closing it. The video demonstrates the umbrella's durability against strong wind gusts.",
-          "on_screen_text": "Can this umbrella withstand 100mph winds? @courtney_gonzales19",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 10,
-          "tone": "casual",
-          "target_audience": "General consumers looking for durable, wind-resistant umbrellas for everyday use or travel."
-        },
-        {
-          "rank": 12,
-          "title": "Rainy days don\u2019t have to be a struggle! \u2614\ufe0f\ud83d\udca8 This Repel Umbrella is compact, lightweight, and designed to handle wind without flipping inside out! \ud83c\udf27\ufe0f Small enough to take anywhere, but strong enough to get the job done! \ud83d\ude4c Grab yours on TikTok Shop! \ud83d\udecd\ufe0f #tik",
-          "handle": "mamabearteacher84",
-          "video_url": "https://tiktok.com/@mamabearteacher84/video/7696300705627311390",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 1208,
-          "like_count": 11,
-          "gmv": 29.98,
-          "units_sold": 2,
-          "gmv_per_view": 0.0248,
-          "hooks": [
-            {
-              "hook": "So yeah, I am that mom sitting in the parking lot at my kids' dance practice talking to you about these Repel umbrellas.",
-              "score": 7,
-              "explanation": "Relatable framing set in a common mom scenario (waiting at kids' practice) that immediately introduces the product."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "I love how simple and easy these are for opening and closing.",
-              "score": 8,
-              "explanation": "Highlights the convenience and ease of use, which is a major purchase driver for daily travel accessories."
-            },
-            {
-              "selling_point": "These have a lifetime warranty.",
-              "score": 9,
-              "explanation": "Strong trust signal and value proposition demonstrating product durability and peace of mind for the buyer."
-            }
-          ],
-          "content_overview": "A mother sitting in her car parked at dance practice records a video talking about the Repel umbrella, demonstrating its simple one-button open and close mechanism and mentioning its lifetime warranty.",
-          "on_screen_text": "@mamabeartrcher84\nBAILEY ISLAND",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 25,
-          "tone": "casual",
-          "target_audience": "Busy parents, commuters, and everyday consumers looking for a durable, easy-to-use travel umbrella."
-        },
-        {
-          "rank": 13,
-          "title": "#pink #umbrella #rainyday #tiktokshopfalldealsforyou #falldealsforyou",
-          "handle": "sylviaapproved",
-          "video_url": "https://tiktok.com/@sylviaapproved/video/7694354573145787679",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 5463,
-          "like_count": 15,
-          "gmv": 29.84,
-          "units_sold": 3,
-          "gmv_per_view": 0.0055,
-          "hooks": [
-            {
-              "hook": "If you love pink, you need this umbrella.",
-              "score": 8,
-              "explanation": "Instantly segments the target audience by color preference and presents an immediate product need."
-            },
-            {
-              "hook": "Not only does it open with a push of a button, but it also closes with one push of a button.",
-              "score": 9,
-              "explanation": "Highlights a major convenience feature right at the start, capturing curiosity."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "It also closes with one push of a button.",
-              "score": 9,
-              "explanation": "Emphasizes the effortless auto-close mechanism that makes storage quick and convenient."
-            },
-            {
-              "selling_point": "It also takes up to 100 miles per hour of wind.",
-              "score": 9,
-              "explanation": "Demonstrates high durability and wind-resistance, proving the product's quality."
-            }
-          ],
-          "content_overview": "A creator reviews a pink automatic umbrella, demonstrating its one-touch open and close features, easy storage, and 100MPH wind resistance. She talks directly to the camera while holding and showcasing the umbrella outdoors.",
-          "on_screen_text": "IF YOU LOVE THIS UMBRELLA. AND NOT ONLY DOES IT OPEN WITH A PUSH OF A BUTTON, BUT IT ALSO CLOSES WITH ONE PUSH OF A BUTTON AND WHAT I LOVE THE MOST IS THAT IT'S SO EASY TO PUT AWAY. LOVE THE FACT THAT YOU COULD JUST OPEN IT AND IF YOU'RE RUSHING IN AND OUT OF THE HOUSE, IN AND OUT OF THE CAR, PUSH THE BUTTON GET IN YOUR CAR OR YOUR HOUSE AND IT ALSO TAKES UP TO 100 MILES PER HOUR OF WIND. IT IS DOUBLE LAYERED.",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 36,
-          "tone": "casual",
-          "target_audience": "Shoppers looking for a durable, wind-resistant, and convenient travel umbrella, particularly those who prefer pink accessories."
-        },
-        {
-          "rank": 14,
-          "title": "I flipped this Repel umbrella inside-out and it just\u2026 snapped right back \u2602\ufe0f\ud83d\udcaa 100 MPH wind tested with a double-vented canopy, so it won't turn on you in the wind. linked below \u2b07\ufe0f #TikTokShopFallDealsForYou #repelumbrella #windproofumbrella #rainydayessent",
-          "handle": "iliobsessions",
-          "video_url": "https://tiktok.com/@iliobsessions/video/7694287003038387487",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 1266,
-          "like_count": 3,
-          "gmv": 27.59,
-          "units_sold": 1,
-          "gmv_per_view": 0.0218,
-          "hooks": [
-            {
-              "hook": "I've never seen this before. Have you?",
-              "score": 8,
-              "explanation": "Creates a strong curiosity gap by showcasing a unique product feature right at the start."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Can withstand a 100 mph wind",
-              "score": 9,
-              "explanation": "Highlights extreme durability against severe weather conditions like snowstorms and heavy rain."
-            },
-            {
-              "selling_point": "It fits right in my purse",
-              "score": 8,
-              "explanation": "Emphasizes the compact size and portability of the umbrella."
-            },
-            {
-              "selling_point": "The closing on its own",
-              "score": 9,
-              "explanation": "Presents a convenient automated closing feature that solves the frustration of getting wet while entering a car."
-            }
-          ],
-          "content_overview": "A creator reviews an innovative compact umbrella that features automatic closing and high wind resistance. She demonstrates the umbrella's features and encourages viewers to purchase while it is on sale.",
-          "on_screen_text": "@iliobsessions",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 25,
-          "tone": "casual",
-          "target_audience": "Shoppers looking for practical everyday accessories, particularly commuters and drivers seeking convenience in bad weather."
-        },
-        {
-          "rank": 15,
-          "title": "repel automatic open and close wind resistant umbrella #tiktokshopcybermonday #TikTokShopBlackFriday",
-          "handle": "cannedmeatscompetitionbb",
-          "video_url": "https://tiktok.com/@cannedmeatscompetitionbb/video/7693029633289145631",
-          "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-          "view_count": 2004,
-          "like_count": 4,
-          "gmv": 20.98,
-          "units_sold": 2,
-          "gmv_per_view": 0.0105,
-          "hooks": [
-            {
-              "hook": "My wife told me it was bad luck to open umbrellas indoors, but this one's so cool I just had to show it to you.",
-              "score": 8,
-              "explanation": "Creates instant curiosity by defying a common superstition and introducing a compelling product."
-            },
-            {
-              "hook": "This thing's actually wind resistant up to 100 miles an hour.",
-              "score": 9,
-              "explanation": "Makes a bold and impressive product claim right at the start to grab attention."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Wind resistant up to 100 miles an hour and won't tear or rip.",
-              "score": 9,
-              "explanation": "Highlights durability and heavy-duty performance against extreme weather."
-            },
-            {
-              "selling_point": "Press the button to open and close automatically for super easy operation.",
-              "score": 9,
-              "explanation": "Emphasizes convenience and eliminates the hassle of manual operation."
-            },
-            {
-              "selling_point": "Great deals currently running on pricing.",
-              "score": 7,
-              "explanation": "Creates a sense of urgency and highlights immediate cost-saving value."
-            }
-          ],
-          "content_overview": "A creator demonstrates an automatic, wind-resistant umbrella indoors, showing how easily it opens and closes with a button. He highlights its durability up to 100 mph winds, lightweight design, and current promotional pricing before encouraging viewers to purchase via the linked product tag.",
-          "on_screen_text": "@cannedmeatscompetitionbb",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 35,
-          "tone": "casual",
-          "target_audience": "Shoppers looking for durable, convenient, and high-performance travel umbrellas for everyday or severe weather use."
-        }
-      ],
-      "total_found": 519,
+      "total_found": 397,
       "has_more": true
     },
     "month": {
-      "range": "2026-09-19 to 2026-10-18",
+      "range": "2026-09-26 to 2026-10-25",
       "videos": [
         {
           "rank": 1,
-          "title": "",
-          "handle": "bellahana20",
-          "video_url": "https://tiktok.com/@bellahana20/video/7687300190646078733",
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "view_count": 6810,
-          "like_count": 48,
-          "gmv": 207.09,
-          "units_sold": 6,
-          "gmv_per_view": 0.0304,
-          "hooks": [
-            {
-              "hook": "\u1264\u1273\u127d\u1201 \u12a8\u1270\u12ad\u1276\u1265\u129d \u12c8\u12ed\u121d \u12a8\u121a\u1291\u121a\u1291\u121a\u1291\u121b \u1275\u1320\u1240\u1219 \u12a8\u1206\u1290 \u1208\u12a5\u122d\u1231 \u1290\u1308\u122d \u1290\u12cd \u12e8\u121a\u1228\u12f3\u127d\u1201 \u1264\u1273\u127d\u1201 \u12a8\u12f0\u1228\u1240 \u12a5\u122d\u1325\u1260\u1275\u1295 \u1208\u1218\u134d\u1320\u122d",
-              "score": 8,
-              "explanation": "Directly addresses a common home issue (dry air) and offers a practical solution right away."
-            },
-            {
-              "hook": "\u12a5\u1294 \u12a8\u12a0\u1218\u1275 \u1260\u120b\u12ed \u1290\u12cd \u12e8\u1270\u1320\u1240\u121d\u12a9\u1260\u1275 \u12a5\u1235\u12ab\u1201\u1295 \u12a5\u12e8\u1270\u1320\u1240\u121d\u12a9\u1260\u1275 \u12eb\u1208\u1201\u1275 \u1355\u122e\u12f3\u12ad\u1275 \u1290\u12cd",
-              "score": 7,
-              "explanation": "Establishes long-term product reliability and personal experience to build trust."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "\u1260\u12db \u12eb\u1208 \u12cd\u1203 \u1235\u1208\u121a\u12dd \u1260\u1235\u121d\u1295\u1275 \u1230\u12a0\u1273\u1275 \u12ed\u1246\u12ed\u120b\u127d\u128b\u120d",
-              "score": 8,
-              "explanation": "Highlights long run time and capacity for convenience."
-            },
-            {
-              "selling_point": "\u12a5\u1231\u1295 \u12a0\u12f0\u1228\u12a9\u1260\u1275 \u1208\u123d\u1273 \u1235\u1208\u1218\u1348\u120d\u1308\u12cd \u1260\u1243 \u1264\u1274\u1295 \u12a5\u12cd\u12f5 \u1290\u12cd \u12e8\u121a\u12eb\u12f0\u122d\u1308\u12cd",
-              "score": 9,
-              "explanation": "Emphasizes the aromatic benefits using essential oils to make the home smell wonderful."
-            }
-          ],
-          "content_overview": "The creator demonstrates a top-fill cool mist humidifier on a coffee table in a neatly decorated living room. She explains how to fill it with water and essential oils, showcases the vapor output and LED lighting, and shares her positive long-term experience using the product.",
-          "on_screen_text": "@bellahana20 Aroma Oil HOTEL FRAGRANCE OILS",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 46,
-          "tone": "casual",
-          "target_audience": "Homeowners and apartment dwellers looking to improve indoor air moisture and add pleasant fragrances to their living space."
-        },
-        {
-          "rank": 2,
           "title": "Best umbrella out there! #umbrella #heavydutyumbrella #rainyday #winter #repelumbrella ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7691377663906254110",
@@ -1191,7 +930,7 @@
           "target_audience": "Shoppers and commuters looking for a durable, compact umbrella for stormy weather."
         },
         {
-          "rank": 3,
+          "rank": 2,
           "title": "#automaticumbrella #umbrella #windproofumbrella #umbrellas #tiktokshopcreatorpicks   ",
           "handle": "tapa_mondo",
           "video_url": "https://tiktok.com/@tapa_mondo/video/7694153031432015117",
@@ -1234,7 +973,7 @@
           "target_audience": "Adults looking for a durable, high-performance umbrella that can withstand strong winds."
         },
         {
-          "rank": 4,
+          "rank": 3,
           "title": "#umbrella #tiktokshopfalldealsforyou #rainyday #rain #shopwithconfidence ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7692131608479943967",
@@ -1277,7 +1016,7 @@
           "target_audience": "Commuters, drivers, and everyday shoppers looking for a durable, wind-resistant, and easy-to-use umbrella for rainy days."
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "S\u00faper buena calidad \ud83d\udcaf\ud83e\udd0c\ud83c\udffb",
           "handle": "its.massielll",
           "video_url": "https://tiktok.com/@its.massielll/video/7693018427660733710",
@@ -1320,7 +1059,7 @@
           "target_audience": "Students, parents, and everyday shoppers looking for a compact, portable, and easy-to-use umbrella."
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "#tiktokshopfalldealsforyou #pink #umbrella #rainyday #rain",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7694356427460070686",
@@ -1341,7 +1080,7 @@
           "target_audience": "People looking for stylish yet durable rain gear, particularly those who prefer pink or cute accessories."
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "Your kids will actually want this umbrella #umbrella #automaticumbrella #windproofumbrella #rainysea",
           "handle": "mrhotpicks",
           "video_url": "https://tiktok.com/@mrhotpicks/video/7694099956629507359",
@@ -1389,7 +1128,7 @@
           "target_audience": "Parents, caregivers, and people looking for durable, high-quality umbrellas for children or everyday use."
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "#ad Sombrilla multifuncional..#sombr\u00eda#umbrella #casa#home @UPPER ECHELON PRODUCTS ",
           "handle": "marielos_granados",
           "video_url": "https://tiktok.com/@marielos_granados/video/7693700292164046093",
@@ -1432,7 +1171,7 @@
           "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use umbrella for rainy days."
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "Lifetime warranty, windproof umbrella \u2602\ufe0f. #tiktokshop #umbrella #repelumbrella #newyork ",
           "handle": "sasashoo",
           "video_url": "https://tiktok.com/@sasashoo/video/7690360928306777374",
@@ -1480,7 +1219,7 @@
           "target_audience": "Shoppers looking for a reliable, compact, and windproof travel umbrella for everyday use or bad weather."
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "I think I know which Asian umbrella is better #repelumbrella #umbrella #automaticumbrella #tiktoksho",
           "handle": "worldsgreatestchad",
           "video_url": "https://tiktok.com/@worldsgreatestchad/video/7694302109830827277",
@@ -1523,7 +1262,7 @@
           "target_audience": "Shoppers looking for durable rain gear, travelers, and consumers interested in product comparison reviews."
         },
         {
-          "rank": 11,
+          "rank": 10,
           "title": "#tiktokshopstockup #tiktokshopcreatorpick ",
           "handle": "mileidys_mily",
           "video_url": "https://tiktok.com/@mileidys_mily/video/7692589468401847565",
@@ -1556,7 +1295,7 @@
           "target_audience": "Everyday shoppers, parents, and adults looking for reliable umbrellas for family members and their cars."
         },
         {
-          "rank": 12,
+          "rank": 11,
           "title": "Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Clos",
           "handle": "mroliva4",
           "video_url": "https://tiktok.com/@mroliva4/video/7690982471801916702",
@@ -1599,7 +1338,7 @@
           "target_audience": "Homeowners, pet owners, and renters looking for an easy, no-drill pest screen solution for patios and balconies."
         },
         {
-          "rank": 13,
+          "rank": 12,
           "title": "#umbrella #tiktokshopdealsforyou @UPPER ECHELON PRODUCTS ",
           "handle": "nursesylvia77",
           "video_url": "https://tiktok.com/@nursesylvia77/video/7694783798537374990",
@@ -1620,7 +1359,7 @@
           "target_audience": null
         },
         {
-          "rank": 14,
+          "rank": 13,
           "title": "No esperes hasta los d\u00edas lluviosos y c\u00f3mpralo hoy! #paraguas #umbrella #tiktokshopcreatorpicks #rai",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7691372181376306462",
@@ -1668,7 +1407,7 @@
           "target_audience": "Shoppers looking for a durable, wind-resistant automatic umbrella for daily commute or travel."
         },
         {
-          "rank": 15,
+          "rank": 14,
           "title": "Fyp#viralvideo ",
           "handle": "yesenia_coria_vargas",
           "video_url": "https://tiktok.com/@yesenia_coria_vargas/video/7692627819989421343",
@@ -1699,59 +1438,64 @@
           "product_screen_time_seconds": 58,
           "tone": "casual",
           "target_audience": "Students, commuters, and daily walkers looking for a reliable, portable travel umbrella for rainy days."
-        }
-      ],
-      "total_found": 704,
-      "has_more": true
-    },
-    "60d": {
-      "range": "2026-08-20 to 2026-10-18",
-      "videos": [
+        },
         {
-          "rank": 1,
-          "title": "@UPPER ECHELON PRODUCTS bidet is the easiest way to upgrade your bathroom\u203c\ufe0f#tiktockshopbacktoschool ",
-          "handle": "theevergreeneditco",
-          "video_url": "https://tiktok.com/@theevergreeneditco/video/7677230038281964830",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 4973,
-          "like_count": 12,
-          "gmv": 355.45,
-          "units_sold": 14,
-          "gmv_per_view": 0.0715,
+          "rank": 15,
+          "title": "American vs. Japanese umbrellas\u2014here\u2019s why Repel stands out! \u2614\u2728 It opens automatically, closes autom",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7694419735693298957",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 962,
+          "like_count": 3,
+          "gmv": 34.98,
+          "units_sold": 2,
+          "gmv_per_view": 0.0364,
           "hooks": [
             {
-              "hook": "This is my top selling product on TikTok Shop right now, and there is a reason why.",
-              "score": 9,
-              "explanation": "Instantly captures attention by framing the product as a top seller and creating curiosity about why it is popular."
+              "hook": "Here's the difference between an American umbrella and a Japanese umbrella.",
+              "score": 8,
+              "explanation": "Creates curiosity and frames the video around a comparison between two familiar items."
             },
             {
-              "hook": "This is an easy to install bidet.",
-              "score": 8,
-              "explanation": "Clearly addresses a primary customer desire for hassle-free installation."
+              "hook": "And you're not going to believe the price on these things.",
+              "score": 7,
+              "explanation": "Uses a curiosity gap and affordability angle to keep viewers watching."
             }
           ],
           "selling_points": [
             {
-              "selling_point": "This has a self-cleaning bidet nozzle.",
-              "score": 8,
-              "explanation": "Highlights a hygienic feature that appeals to hygiene-conscious buyers."
+              "selling_point": "It's 100 mph wind tested and double-vented so any gusts of wind that blow from the side aren't going to blow it off your hands.",
+              "score": 9,
+              "explanation": "Highlights key durability and weather-resistance features that solve a common pain point with umbrellas."
             },
             {
-              "selling_point": "It also comes with a standard wash and feminine wash control, adjustable water pressure, an install kit with the hardware, easy to follow directions, and it also has a two year warranty.",
-              "score": 9,
-              "explanation": "Provides a comprehensive overview of features and value included in the box."
+              "selling_point": "It's super compact, it packs in less than 12 inches.",
+              "score": 8,
+              "explanation": "Emphasizes portability and convenience for travelers and daily commuters."
+            },
+            {
+              "selling_point": "17 colors, and it is on a sale with free shipping right now, so get it while it lasts.",
+              "score": 8,
+              "explanation": "Creates urgency with a sale and free shipping incentive alongside a wide variety of color options."
             }
           ],
-          "content_overview": "The creator presents their top-selling TikTok Shop product, which is a bidet attachment. They showcase the bidet unit, the box, and the installation kit while explaining its key features, ease of installation, and warranty.",
-          "on_screen_text": "Easy bathroom upgrade",
+          "content_overview": "A presenter compares an American umbrella with a Japanese umbrella, demonstrating its automatic open and close features, wind resistance, compact size, and carrying case while pitching the sale price and color options.",
+          "on_screen_text": "American umbrellas vs Japanese umbrellas TikTok @repel_umbrella BUILT FOR better MAKE IT WORTH SHARING MADE TO STAND OUT Travel ready. ALWAYS. Upper Bachelor LEVEL UP repel_umbrella",
           "product_visible_3s": true,
-          "product_screen_time_seconds": 33,
+          "product_screen_time_seconds": 32,
           "tone": "casual",
-          "target_audience": "TikTok shoppers looking for easy home and bathroom upgrades."
-        },
+          "target_audience": "Shoppers and travelers looking for a durable, compact, and wind-resistant umbrella."
+        }
+      ],
+      "total_found": 772,
+      "has_more": true
+    },
+    "60d": {
+      "range": "2026-08-27 to 2026-10-25",
+      "videos": [
         {
-          "rank": 2,
+          "rank": 1,
           "title": "Por eso los chinos est\u00e1n 20 anos adelantados\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping",
           "handle": "viralshopdealz",
           "video_url": "https://tiktok.com/@viralshopdealz/video/7678725393917971742",
@@ -1778,55 +1522,7 @@
           "target_audience": "Adults looking to improve their bathroom hygiene and toilet paper usage habits."
         },
         {
-          "rank": 3,
-          "title": "It\u2019s crazy how this isn\u2019t a standard! #TiktokShopCreatorPicks #christmas #tiktokshopbacktoschool #bi",
-          "handle": "muscle_dad",
-          "video_url": "https://tiktok.com/@muscle_dad/video/7677238294895152398",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 4194,
-          "like_count": 5,
-          "gmv": 314.93,
-          "units_sold": 7,
-          "gmv_per_view": 0.0751,
-          "hooks": [
-            {
-              "hook": "For everyone who is waiting, they finally released the two pack for less than the price of one.",
-              "score": 9,
-              "explanation": "Immediately grabs attention by offering a high-value deal on a popular product."
-            },
-            {
-              "hook": "Stop thinking about getting a bidet. You're getting this risk free, they're doing free returns within 30 days.",
-              "score": 8,
-              "explanation": "Addresses purchase hesitation directly by highlighting a risk-free return policy."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "It's got the dual spraying action, which is going to allow you to clean up the rear. It's also going to allow the ladies to clean up those lady parts.",
-              "score": 9,
-              "explanation": "Highlights key hygiene features with separate nozzles for versatile cleaning."
-            },
-            {
-              "selling_point": "One of the most affordable easy upgrades you can grab right now.",
-              "score": 8,
-              "explanation": "Emphasizes cost-effectiveness and simple installation as a major home upgrade."
-            },
-            {
-              "selling_point": "You're getting this risk free, they're doing free returns within 30 days.",
-              "score": 8,
-              "explanation": "Provides a strong incentive to buy by minimizing financial risk through easy returns."
-            }
-          ],
-          "content_overview": "A creator demonstrates and promotes a bidet attachment installed on a toilet, highlighting its dual-nozzle features, self-cleaning function, affordability, and a special two-pack sale with free returns.",
-          "on_screen_text": "Easy bidet install.. TikTok @muscle_dad ClearRear The Bidet",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 39,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for affordable bathroom upgrades and improved personal hygiene solutions."
-        },
-        {
-          "rank": 4,
+          "rank": 2,
           "title": "",
           "handle": "1373bel",
           "video_url": "https://tiktok.com/@1373bel/video/7683330512680766733",
@@ -1864,7 +1560,7 @@
           "target_audience": "Home cooks, homemakers, and individuals looking to eliminate cooking smells and improve indoor air quality."
         },
         {
-          "rank": 5,
+          "rank": 3,
           "title": "",
           "handle": "bellahana20",
           "video_url": "https://tiktok.com/@bellahana20/video/7687300190646078733",
@@ -1907,7 +1603,7 @@
           "target_audience": "Homeowners and apartment dwellers looking to improve indoor air moisture and add pleasant fragrances to their living space."
         },
         {
-          "rank": 6,
+          "rank": 4,
           "title": "#magneticdoorscreen #doorscreen #screendoor #fyp ",
           "handle": "icu185",
           "video_url": "https://tiktok.com/@icu185/video/7683016023418653983",
@@ -1950,7 +1646,7 @@
           "target_audience": "Homeowners, renters, parents, and pet owners looking for an easy-to-install insect screen for their doors."
         },
         {
-          "rank": 7,
+          "rank": 5,
           "title": "Best umbrella out there! #umbrella #heavydutyumbrella #rainyday #winter #repelumbrella ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7691377663906254110",
@@ -1998,7 +1694,7 @@
           "target_audience": "Shoppers and commuters looking for a durable, compact umbrella for stormy weather."
         },
         {
-          "rank": 8,
+          "rank": 6,
           "title": "Ahora si las moscas no dejar\u00e1n a mi casa #atrapamoscas #moscas #cortina #tiktokshop ",
           "handle": "keniaher.77",
           "video_url": "https://tiktok.com/@keniaher.77/video/7685451539456068877",
@@ -2036,7 +1732,7 @@
           "target_audience": "Homeowners or renters looking for an easy-to-install insect screen for their doors."
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "#automaticumbrella #umbrella #windproofumbrella #umbrellas #tiktokshopcreatorpicks   ",
           "handle": "tapa_mondo",
           "video_url": "https://tiktok.com/@tapa_mondo/video/7694153031432015117",
@@ -2079,7 +1775,7 @@
           "target_audience": "Adults looking for a durable, high-performance umbrella that can withstand strong winds."
         },
         {
-          "rank": 10,
+          "rank": 8,
           "title": "#onthisday ",
           "handle": "boni_kiyya",
           "video_url": "https://tiktok.com/@boni_kiyya/video/7681020510536289550",
@@ -2122,45 +1818,7 @@
           "target_audience": "Homeowners, parents, and individuals looking for home fragrance and air humidification solutions."
         },
         {
-          "rank": 11,
-          "title": "@UPPER ECHELON PRODUCTS I used to think bidets were only for fancy hotels, but now my bathroom is th",
-          "handle": "lazyko83",
-          "video_url": "https://tiktok.com/@lazyko83/video/7677296937711832351",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 5501,
-          "like_count": 55,
-          "gmv": 122.31,
-          "units_sold": 4,
-          "gmv_per_view": 0.0222,
-          "hooks": [
-            {
-              "hook": "Holy shit, y'all. Look how powerful that thing is. Feeling bougie as hell.",
-              "score": 8,
-              "explanation": "Strong enthusiastic reaction that grabs attention and highlights the upgrade."
-            },
-            {
-              "hook": "Hey guys, let's install this bidet together.",
-              "score": 7,
-              "explanation": "Direct invitation to the viewer to follow along with a DIY project."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "So this is all there is to it, so should be pretty easy to put together.",
-              "score": 8,
-              "explanation": "Emphasizes ease of installation with minimal parts."
-            }
-          ],
-          "content_overview": "A creator enthusiastically introduces a new bidet attachment, showing its powerful spray before walking the viewer step-by-step through the simple installation process, including turning off the water, removing the toilet seat, and installing the bidet plate.",
-          "on_screen_text": "Officially entering my rich, bougie, clean-booty era \u2728, Let's install this together \ud83d\ude4c, Just a few parts!, Don't forget to turn the water off & flush to empty the bowl., Take the toilet seat off, Put this piece on & line up the holes., Put the toilet seat back using the existing hardware.",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 15,
-          "tone": "playful",
-          "target_audience": "Homeowners or renters looking for an easy, affordable bathroom upgrade to improve personal hygiene."
-        },
-        {
-          "rank": 12,
+          "rank": 9,
           "title": "@AFM Agency #traveltok #travelessentials #neckpillow #travelpillow #airportessentials ",
           "handle": "christianjohnson2022",
           "video_url": "https://tiktok.com/@christianjohnson2022/video/7686565002299346206",
@@ -2203,45 +1861,7 @@
           "target_audience": "Frequent travelers, plane passengers, and shoppers looking for comfortable travel accessories."
         },
         {
-          "rank": 13,
-          "title": "More than a summer screen! Works like a dog door, snaps shut automatically, lets fresh air in while ",
-          "handle": "courtney_gonzales19",
-          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7676555459486141727",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-          "view_count": 3736,
-          "like_count": 13,
-          "gmv": 116.93,
-          "units_sold": 6,
-          "gmv_per_view": 0.0313,
-          "hooks": [
-            {
-              "hook": "A magnetic screen door is not just a summer purchase and something you will use only in the summer.",
-              "score": 8,
-              "explanation": "Challenges common assumptions about seasonal product use, capturing viewer interest immediately."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Holds together seamlessly by fifty-two magnets.",
-              "score": 9,
-              "explanation": "Highlights product durability and strong magnetic sealing performance."
-            },
-            {
-              "selling_point": "Also weighted at the bottom so you don't have to worry about it opening randomly",
-              "score": 8,
-              "explanation": "Emphasizes stability and wind resistance features."
-            }
-          ],
-          "content_overview": "A creator demonstrates a magnetic screen door, highlighting that it is useful beyond the summer months. She showcases how the 52 magnets seal the door automatically and points out the weighted bottom to prevent random opening. The video serves as a practical demonstration of the product's features and utility.",
-          "on_screen_text": "PSA: A MAGNETIC SCREEN DOOR ISN'T JUST A SUMMER THING @courtney_gonzales19",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 27,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for practical bug screens and home improvement solutions for doors."
-        },
-        {
-          "rank": 14,
+          "rank": 10,
           "title": "Este humidificador se volvi\u00f3 mi favorito para estos d\u00edas \ud83e\udd27\ud83d\udc97 #humidifier #humidificador #congestionre",
           "handle": "macneggga",
           "video_url": "https://tiktok.com/@macneggga/video/7683413553163914526",
@@ -2284,54 +1904,209 @@
           "target_audience": "Parents and caregivers of young children and toddlers looking for remedies during flu and cold season."
         },
         {
-          "rank": 15,
-          "title": "Flux Phenom Magnetic Screen Door 38 x 82 in, Magnetic Mesh Screen Door, Automatic Self-Closing Bug S",
-          "handle": "yolilucas123tiktokshop",
-          "video_url": "https://tiktok.com/@yolilucas123tiktokshop/video/7677806839886646542",
-          "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-          "view_count": 5789,
-          "like_count": 16,
-          "gmv": 100.82,
-          "units_sold": 6,
-          "gmv_per_view": 0.0174,
+          "rank": 11,
+          "title": "#clearrearbidetattachment #bidettoilet #bidets ",
+          "handle": "crisp720",
+          "video_url": "https://tiktok.com/@crisp720/video/7681112989516221710",
+          "product_id": "1729385884864975067",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+          "view_count": 14728,
+          "like_count": 31,
+          "gmv": 95.52,
+          "units_sold": 3,
+          "gmv_per_view": 0.0065,
           "hooks": [
             {
-              "hook": "Hasta de 12 se est\u00e1n llevando la mallita que se coloca en la puerta",
+              "hook": "Pues el precio de este bidet trasero ha bajado de nuevo.",
               "score": 8,
-              "explanation": "Creates social proof and urgency by stating high demand."
+              "explanation": "Grabs attention immediately by highlighting a price drop on a popular product."
             },
             {
-              "hook": "Para que las moscas ni zancudos entran para tu casa",
-              "score": 8,
-              "explanation": "Addresses a universal pest problem directly."
+              "hook": "No puedo creer que el precio se haya bajado de nuevo.",
+              "score": 7,
+              "explanation": "Creates curiosity and excitement about an unbelievable discount."
             }
           ],
           "selling_points": [
             {
-              "selling_point": "Aqu\u00ed ya te trae todo lo necesario para que t\u00fa nada m\u00e1s lo instales en la puerta de tu casa",
+              "selling_point": "Es un bidet no el\u00e9ctrico que se instala en unos 15 minutos y se adapta a la mayor\u00eda de los inodoros.",
               "score": 9,
-              "explanation": "Highlights ease of installation and completeness of the kit."
+              "explanation": "Highlights ease of installation, compatibility, and lack of electrical requirements."
             },
             {
-              "selling_point": "Aqu\u00ed abajito las encuentras con un precio bien econ\u00f3mico",
+              "selling_point": "El precio de este bidet trasero ha bajado de nuevo.",
               "score": 8,
-              "explanation": "Emphasizes affordability and availability on the platform."
+              "explanation": "Emphasizes affordability and great value for money due to a price drop."
             }
           ],
-          "content_overview": "A woman holding a magnetic screen door and its installation kit explains its benefits for keeping bugs out of the house. She highlights the ease of installation, affordable price, and encourages viewers to order one.",
-          "on_screen_text": "yoliilucas123tiktokshop, Buscar similares, UPGRADED FIBERGLASS MAGNETIC SCREEN DOOR 38\"X82\" INSTALLATION WITH POWERFUL MAGNETS",
+          "content_overview": "The video demonstrates a bidet attachment installed on a toilet while a voiceover discusses its discounted price, easy installation, and compatibility with most toilets. It concludes with a call to action to click the link to purchase.",
+          "on_screen_text": "@crisp720",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 16,
+          "tone": "casual",
+          "target_audience": "Homeowners or renters looking for an affordable, easy-to-install bathroom upgrade."
+        },
+        {
+          "rank": 12,
+          "title": "#umbrella #tiktokshopfalldealsforyou #rainyday #rain #shopwithconfidence ",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7692131608479943967",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 6135,
+          "like_count": 35,
+          "gmv": 74.83,
+          "units_sold": 6,
+          "gmv_per_view": 0.0122,
+          "hooks": [
+            {
+              "hook": "I don't know about you, but on rainy days, I hate struggling closing my umbrella as I'm getting inside the car and this one here is perfect.",
+              "score": 8,
+              "explanation": "The hook immediately identifies a common, relatable pain point regarding umbrellas and presents the product as the immediate solution."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "It automatically opens, automatically closes with the push of one button.",
+              "score": 9,
+              "explanation": "Highlights the convenience of the one-touch automatic open and close mechanism."
+            },
+            {
+              "selling_point": "It takes very high wind. It's not going to fly away as soon as you get out of your house, your car.",
+              "score": 8,
+              "explanation": "Emphasizes wind resistance and durability during stormy weather."
+            },
+            {
+              "selling_point": "It's honestly very heavy duty.",
+              "score": 7,
+              "explanation": "Stresses the robust build quality of the umbrella."
+            }
+          ],
+          "content_overview": "A woman stands outside her doorway demonstrating a compact, automatic umbrella. She shows how it opens and closes with a single button, discusses its wind resistance and heavy-duty build, and mentions available color options.",
+          "on_screen_text": "@sylviaapproved",
           "product_visible_3s": true,
           "product_screen_time_seconds": 22,
           "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an affordable, easy-to-install solution to keep bugs and mosquitoes out of their homes."
+          "target_audience": "Commuters, drivers, and everyday shoppers looking for a durable, wind-resistant, and easy-to-use umbrella for rainy days."
+        },
+        {
+          "rank": 13,
+          "title": "S\u00faper buena calidad \ud83d\udcaf\ud83e\udd0c\ud83c\udffb",
+          "handle": "its.massielll",
+          "video_url": "https://tiktok.com/@its.massielll/video/7693018427660733710",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 4520,
+          "like_count": 44,
+          "gmv": 68.61,
+          "units_sold": 7,
+          "gmv_per_view": 0.0152,
+          "hooks": [
+            {
+              "hook": "Me compr\u00e9 esta sombrillita a mi hermana para cuando ella vaya para la escuela",
+              "score": 8,
+              "explanation": "Starts the video by stating a personal purchase for a family member, immediately setting up a relatable use case."
+            },
+            {
+              "hook": "Miren qu\u00e9 f\u00e1cil se abre",
+              "score": 7,
+              "explanation": "Highlights a key product feature right away, driving curiosity and demonstrating convenience."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Ella la puede guardar hasta en la mochila",
+              "score": 9,
+              "explanation": "Emphasizes the compact and portable nature of the umbrella, making it ideal for students."
+            },
+            {
+              "selling_point": "Tiene un bot\u00f3n aqu\u00ed para abrirse, miren qu\u00e9 f\u00e1cil se abre",
+              "score": 9,
+              "explanation": "Demonstrates the automatic opening feature, showcasing ease of use."
+            }
+          ],
+          "content_overview": "A creator presents a compact automatic umbrella purchased for her sister. She demonstrates how easily it opens and closes using the built-in button, shows its color and design, and mentions its convenience for carrying in a backpack before directing viewers to the shopping link.",
+          "on_screen_text": "@its.massielll",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 38,
+          "tone": "casual",
+          "target_audience": "Students, parents, and everyday shoppers looking for a compact, portable, and easy-to-use umbrella."
+        },
+        {
+          "rank": 14,
+          "title": "#tiktokshopfalldealsforyou #pink #umbrella #rainyday #rain",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7694356427460070686",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 10712,
+          "like_count": 87,
+          "gmv": 64.05,
+          "units_sold": 6,
+          "gmv_per_view": 0.006,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": "A short video showcasing a pink umbrella being opened, closed, and carried outdoors in a sunny environment. The text overlay emphasizes its durability despite its feminine appearance.",
+          "on_screen_text": "Pretty in pink... but built for the storm",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 7,
+          "tone": "playful",
+          "target_audience": "People looking for stylish yet durable rain gear, particularly those who prefer pink or cute accessories."
+        },
+        {
+          "rank": 15,
+          "title": "Your kids will actually want this umbrella #umbrella #automaticumbrella #windproofumbrella #rainysea",
+          "handle": "mrhotpicks",
+          "video_url": "https://tiktok.com/@mrhotpicks/video/7694099956629507359",
+          "product_id": "1732530504119718107",
+          "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
+          "view_count": 5426,
+          "like_count": 20,
+          "gmv": 59.97,
+          "units_sold": 3,
+          "gmv_per_view": 0.0111,
+          "hooks": [
+            {
+              "hook": "You ever wonder why your kids hate bringing umbrellas to school even though it's raining?",
+              "score": 8,
+              "explanation": "Starts with a relatable question about a common parenting frustration regarding kids and umbrellas."
+            },
+            {
+              "hook": "But here's an umbrella they're actually going to want and use in the rain.",
+              "score": 8,
+              "explanation": "Presents a direct solution to the problem raised in the hook."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "It has nine reinforced fiberglass rods and can withstand a hundred mile an hour winds.",
+              "score": 9,
+              "explanation": "Highlights durability and wind resistance as key product benefits."
+            },
+            {
+              "selling_point": "The double layered quick dry canopy is going to dry within a fraction of the time",
+              "score": 9,
+              "explanation": "Emphasizes fast drying material to address convenience."
+            },
+            {
+              "selling_point": "With a single button you can open and close it so your kids don't have to worry about pinching their fingers.",
+              "score": 9,
+              "explanation": "Focuses on safety and ease of use specifically for children."
+            }
+          ],
+          "content_overview": "A presenter compares a flimsy, traditional umbrella with a durable, wind-resistant automatic umbrella. He highlights common pain points like weak frames, slow drying fabric, and finger pinching, then demonstrates the superior features of the featured umbrella including fiberglass rods, quick-dry canopy, and one-button operation.",
+          "on_screen_text": "The umbrella your stubborn kids will actually use... @mrhotpicks",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 25,
+          "tone": "casual",
+          "target_audience": "Parents, caregivers, and people looking for durable, high-quality umbrellas for children or everyday use."
         }
       ],
-      "total_found": 1069,
+      "total_found": 1086,
       "has_more": true
     },
     "90d": {
-      "range": "2026-07-21 to 2026-10-18",
+      "range": "2026-07-28 to 2026-10-25",
       "videos": [
         {
           "rank": 1,
@@ -2340,8 +2115,8 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672846600267468062",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-          "view_count": 524785,
-          "like_count": 2024,
+          "view_count": 527654,
+          "like_count": 2040,
           "gmv": 5257.15,
           "units_sold": 302,
           "gmv_per_view": 0.01,
@@ -2388,8 +2163,8 @@
           "video_url": "https://tiktok.com/@keniaher.77/video/7670969961753431309",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-          "view_count": 96358,
-          "like_count": 411,
+          "view_count": 96425,
+          "like_count": 412,
           "gmv": 2339.87,
           "units_sold": 164,
           "gmv_per_view": 0.0243,
@@ -2436,11 +2211,11 @@
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7667655800428530958",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-          "view_count": 70092,
-          "like_count": 146,
+          "view_count": 70297,
+          "like_count": 147,
           "gmv": 1423.26,
           "units_sold": 91,
-          "gmv_per_view": 0.0203,
+          "gmv_per_view": 0.0202,
           "hooks": [
             {
               "hook": "Don't wait till the sale ends",
@@ -2489,11 +2264,11 @@
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-          "view_count": 45489,
-          "like_count": 98,
+          "view_count": 45632,
+          "like_count": 99,
           "gmv": 1215.99,
           "units_sold": 85,
-          "gmv_per_view": 0.0267,
+          "gmv_per_view": 0.0266,
           "hooks": [
             {
               "hook": "They dropped the price even lower.",
@@ -2532,7 +2307,7 @@
           "video_url": "https://tiktok.com/@favoritefavoritefind/video/7672651476019318047",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 30884,
+          "view_count": 30885,
           "like_count": 71,
           "gmv": 863.0,
           "units_sold": 32,
@@ -2565,11 +2340,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7672862005375634719",
           "product_id": "1729391862339113179",
           "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-          "view_count": 37179,
-          "like_count": 92,
+          "view_count": 37446,
+          "like_count": 94,
           "gmv": 677.21,
           "units_sold": 36,
-          "gmv_per_view": 0.0182,
+          "gmv_per_view": 0.0181,
           "hooks": [
             {
               "hook": "Si vas a comprar una de estas puertas por 5 10 d\u00f3lares en otra tienda, est\u00e1 bien",
@@ -2613,7 +2388,7 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7673494617085693214",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 18157,
+          "view_count": 18170,
           "like_count": 39,
           "gmv": 632.05,
           "units_sold": 28,
@@ -2724,7 +2499,7 @@
           "video_url": "https://tiktok.com/@theevergreeneditco/video/7677230038281964830",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 4973,
+          "view_count": 4974,
           "like_count": 12,
           "gmv": 355.45,
           "units_sold": 14,
@@ -2794,11 +2569,11 @@
           "video_url": "https://tiktok.com/@muscle_dad/video/7677238294895152398",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 4194,
+          "view_count": 4199,
           "like_count": 5,
           "gmv": 314.93,
           "units_sold": 7,
-          "gmv_per_view": 0.0751,
+          "gmv_per_view": 0.075,
           "hooks": [
             {
               "hook": "For everyone who is waiting, they finally released the two pack for less than the price of one.",
@@ -2842,7 +2617,7 @@
           "video_url": "https://tiktok.com/@arocs_daily_deals/video/7674461738112175391",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 41568,
+          "view_count": 41574,
           "like_count": 342,
           "gmv": 253.26,
           "units_sold": 10,
@@ -2890,7 +2665,7 @@
           "video_url": "https://tiktok.com/@dawnmichele1972/video/7670635055097695501",
           "product_id": "1729388554561294555",
           "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\" x 85\" Extra Large for 5-8 People, Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack & Go - With Carrying Bag, Travel Clip, 4 Stakes - For Beach & Camps (Sports & Outdoor Picnicware)",
-          "view_count": 20090,
+          "view_count": 20091,
           "like_count": 61,
           "gmv": 227.6,
           "units_sold": 22,
@@ -3003,7 +2778,7 @@
           "target_audience": "Homeowners and apartment dwellers looking to improve indoor air moisture and add pleasant fragrances to their living space."
         }
       ],
-      "total_found": 1970,
+      "total_found": 1914,
       "has_more": true
     }
   }

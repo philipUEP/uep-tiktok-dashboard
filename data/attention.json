@@ -1,14 +1,23 @@
 {
-  "updated_at": "2026-10-25T07:21:25+00:00",
+  "updated_at": "2026-10-26T07:21:18+00:00",
   "items": [
     {
-      "metric": "DMs sent",
-      "current": 120,
-      "prior": 2114,
-      "pct": -94.3,
+      "metric": "Collab invites sent",
+      "current": 0,
+      "prior": 1993,
+      "pct": -100.0,
       "direction": "down",
-      "effect": "Inferred: outreach is effectively stopped while reply rate rose to 3.33% from 0.38%, so the list still works and the volume is what is missing.",
-      "action": "Inferred: restore a weekly floor of 1,500 DMs and one invite batch aimed at screen door and bidet creators."
+      "effect": "Inferred: invites have been zero in two of the last three weeks, so no new creators entered the pipeline and sample requests fell to 61 from 134.",
+      "action": "Inferred: send one invite batch of 500 bidet and screen door lookalikes this week."
+    },
+    {
+      "metric": "DMs sent",
+      "current": 130,
+      "prior": 2114,
+      "pct": -93.9,
+      "direction": "down",
+      "effect": "Inferred: 130 DMs at a 3.08% reply rate caps replies at 4, which is the start of the video and GMV decline now visible.",
+      "action": "Inferred: restore a 1500 DM weekly floor with one dedicated outreach block per day."
     },
     {
       "metric": "Samples shipped",
@@ -16,26 +25,17 @@
       "prior": 20,
       "pct": -80.0,
       "direction": "down",
-      "effect": "Inferred: with 0 rows in Ready to Ship and 0 in Shipped, fulfilment has stalled and November content is already short.",
-      "action": "Inferred: clear the 61 rows in To Review and ship at least 40 this week."
-    },
-    {
-      "metric": "Videos posted",
-      "current": 73,
-      "prior": 316,
-      "pct": -76.9,
-      "direction": "down",
-      "effect": "Inferred: 243 fewer videos from 45 creators instead of 90 removes about 3,250 of GMV at 25.62 per video if supply returns to 200.",
-      "action": "Inferred: hold creators already posting this week and re-offer samples before the queue expires on Nov 1."
+      "effect": "Inferred: with 0 rows in Ready to Ship and 0 in Shipped, no creator can post new content from the sample program this week.",
+      "action": "Inferred: approve and ship 40 of the 53 To Review rows before they expire on Nov 1 and Nov 2."
     },
     {
       "metric": "GMV",
-      "current": 1870.54,
+      "current": 1958.73,
       "prior": 4864.99,
-      "pct": -61.6,
+      "pct": -59.7,
       "direction": "down",
-      "effect": "Inferred: a third consecutive weekly drop (8,444.44 then 4,864.99 then 1,870.54) is driven by the DM and ad shutoffs, not by demand quality.",
-      "action": "Inferred: restart ads and outreach together this week rather than one at a time."
+      "effect": "Inferred: third consecutive weekly fall (8444.44, 4864.99, 1958.73) tracks the outreach and sample shutdown, not weaker demand, with affiliate GMV down 71.6%.",
+      "action": "Inferred: restart outreach, samples and the two above-target ad campaigns in the same week rather than one at a time."
     },
     {
       "metric": "Repel Blitz ROAS (target 1.2)",
@@ -43,16 +43,16 @@
       "prior": 0.659,
       "pct": -48.4,
       "direction": "down",
-      "effect": "Inferred: campaign 1878225250482562 is now the only campaign spending and returns 39.99 on 117.47, while Screen Door at 2.495 sits disabled.",
-      "action": "Inferred: pause Repel Blitz and re-enable Screen Door at its 500 budget."
+      "effect": "Inferred: Repel Blitz is the only campaign spending this week and returns 39.99 on 117.47, while Screen Door at 2.467 month ROI sits disabled.",
+      "action": "Inferred: keep Repel Blitz off and re-enable Screen Door at its 150 budget and Bidet at a capped budget."
     },
     {
-      "metric": "Samples expired unactioned (of 300)",
-      "current": 170,
-      "prior": 152,
-      "pct": 11.8,
+      "metric": "Samples expired (of 300)",
+      "current": 184,
+      "prior": 170,
+      "pct": 8.2,
       "direction": "up",
-      "effect": "Inferred: 56.7% of the sample pipeline expired before review, so those creators never received product and never posted.",
+      "effect": "Inferred: 61.3% of the sample pipeline expired before review, so those creators never received product and never posted.",
       "action": "Inferred: triage expired rows for re-request and cap review turnaround at 3 days."
     }
   ]
