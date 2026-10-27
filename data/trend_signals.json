@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:01:20.945443+00:00",
+  "generated_at": "2026-10-27T07:03:16.382704+00:00",
   "weeks": [
     {
       "total_gmv": 8003.61,
@@ -14,8 +14,8 @@
       "sample_requests": 219,
       "samples_shipped": 98,
       "samples_delivered": 87,
-      "videos_posted": 95,
-      "distinct_creators": 62,
+      "videos_posted": 87,
+      "distinct_creators": 55,
       "_range": "2026-09-28 to 2026-10-04"
     },
     {
@@ -31,8 +31,8 @@
       "sample_requests": 133,
       "samples_shipped": 59,
       "samples_delivered": 68,
-      "videos_posted": 260,
-      "distinct_creators": 84,
+      "videos_posted": 214,
+      "distinct_creators": 71,
       "_range": "2026-10-05 to 2026-10-11"
     },
     {
@@ -48,7 +48,7 @@
       "sample_requests": 134,
       "samples_shipped": 20,
       "samples_delivered": 20,
-      "videos_posted": 316,
+      "videos_posted": 317,
       "distinct_creators": 90,
       "_range": "2026-10-12 to 2026-10-18"
     },
@@ -56,7 +56,7 @@
       "total_gmv": 1958.73,
       "platform_orders": 77,
       "total_units_sold": 83.0,
-      "affiliate_gmv": 1067.78,
+      "affiliate_gmv": 1155.97,
       "live_gmv": 354.98,
       "video_views": 139861,
       "dms_sent": 130,
@@ -65,8 +65,8 @@
       "sample_requests": 61,
       "samples_shipped": 4,
       "samples_delivered": 6,
-      "videos_posted": 83,
-      "distinct_creators": 47,
+      "videos_posted": 94,
+      "distinct_creators": 49,
       "_range": "2026-10-19 to 2026-10-25"
     }
   ],
@@ -93,7 +93,7 @@
       6760.44,
       6937.99,
       3763.06,
-      1067.78
+      1155.97
     ],
     "live_gmv": [
       2891.43,
@@ -144,16 +144,16 @@
       6.0
     ],
     "videos_posted": [
-      95.0,
-      260.0,
-      316.0,
-      83.0
+      87.0,
+      214.0,
+      317.0,
+      94.0
     ],
     "distinct_creators": [
-      62.0,
-      84.0,
+      55.0,
+      71.0,
       90.0,
-      47.0
+      49.0
     ]
   },
   "changes": [
@@ -182,22 +182,6 @@
       "direction": "down"
     },
     {
-      "metric": "videos_posted",
-      "label": "Videos posted",
-      "current": 83.0,
-      "prior": 316.0,
-      "pct": -73.7,
-      "direction": "down"
-    },
-    {
-      "metric": "affiliate_gmv",
-      "label": "Affiliate GMV",
-      "current": 1067.78,
-      "prior": 3763.06,
-      "pct": -71.6,
-      "direction": "down"
-    },
-    {
       "metric": "video_views",
       "label": "Video views",
       "current": 139861.0,
@@ -206,11 +190,27 @@
       "direction": "down"
     },
     {
+      "metric": "videos_posted",
+      "label": "Videos posted",
+      "current": 94.0,
+      "prior": 317.0,
+      "pct": -70.3,
+      "direction": "down"
+    },
+    {
       "metric": "samples_delivered",
       "label": "Samples delivered",
       "current": 6.0,
       "prior": 20.0,
       "pct": -70.0,
+      "direction": "down"
+    },
+    {
+      "metric": "affiliate_gmv",
+      "label": "Affiliate GMV",
+      "current": 1155.97,
+      "prior": 3763.06,
+      "pct": -69.3,
       "direction": "down"
     },
     {
@@ -256,9 +256,9 @@
     {
       "metric": "distinct_creators",
       "label": "Creators posting",
-      "current": 47.0,
+      "current": 49.0,
       "prior": 90.0,
-      "pct": -47.8,
+      "pct": -45.6,
       "direction": "down"
     },
     {
@@ -307,7 +307,7 @@
       "last_3": [
         6937.99,
         3763.06,
-        1067.78
+        1155.97
       ],
       "note": "declining three weeks in a row"
     },
@@ -365,9 +365,9 @@
   "ratios": {
     "gmv_per_sample_shipped": 489.68,
     "reply_rate_pct": 3.08,
-    "videos_per_creator": 1.77,
+    "videos_per_creator": 1.92,
     "live_share_of_gmv_pct": 18.1,
-    "affiliate_share_of_gmv_pct": 54.5
+    "affiliate_share_of_gmv_pct": 59.0
   },
   "freshness": {
     "pull_age_days": 0.3,

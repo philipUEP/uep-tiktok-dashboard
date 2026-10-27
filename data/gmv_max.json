@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-26"
+    "pulled_on": "2026-10-27"
   },
   "periods": {
     "week": {
@@ -2995,30 +2995,14 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-20 to 2026-10-26",
+      "range": "2026-10-21 to 2026-10-27",
       "totals": {
         "revenue": 0,
-        "spend": 16.04,
+        "spend": 0,
         "orders": 0,
-        "roi": 0.0
+        "roi": null
       },
       "campaigns": [
-        {
-          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
-          "campaign_id": "1878225250482562",
-          "revenue": 0,
-          "spend": 16.04,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
-          "roas_target": 1.2,
-          "status": "DISABLE",
-          "start": "2026-10-05",
-          "product_ids": [
-            "1732530504119718107"
-          ],
-          "budget": 600.0
-        },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
           "campaign_id": "1796379454137346",
@@ -3589,6 +3573,22 @@
             "1732530504119718107"
           ],
           "budget": 300.0
+        },
+        {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.2,
+          "status": "DISABLE",
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 600.0
         }
       ],
       "in_progress": true
