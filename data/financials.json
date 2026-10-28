@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-27",
+    "pulled_on": "2026-10-28",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -34,8 +34,8 @@
         "commission_rate_pct": 19.79,
         "refund_rate_pct": 17.53,
         "aov": 25.44,
-        "gpm": 5.61,
-        "emv": 699.3,
+        "gpm": 5.23,
+        "emv": 834.64,
         "gmv_per_sample_delivered": 192.66
       },
       "volume": {
@@ -43,7 +43,7 @@
         "units_sold": 83.0,
         "creators": 49,
         "samples_delivered": 6,
-        "video_views": 139861
+        "video_views": 166929
       },
       "products": [
         {
@@ -257,7 +257,7 @@
         },
         {
           "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
+          "product_name": "Everlasting Comfort 100% Waterproof Polyester Mattress Protector - Zippered Smooth Bed Bug Cover, 360\u00b0 Hold, Dust Mite Proof, Hypoallergenic, Cooling Soft Breathable Dual-Layer Fabric, Comfortable for Kids, Families",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -400,7 +400,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
+          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
           "price": 73.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -411,8 +411,8 @@
         },
         {
           "product_id": "1732777280888475867",
-          "product_name": "CloudFur Double-Sided Faux Fur Throw Blanket, 50x60in, 520 GSM, Plush Soft, Machine Washable for Movie Nights, Housewarmings",
-          "price": 79.99,
+          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
+          "price": 69.0,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -446,8 +446,8 @@
         "commission_rate_pct": 20.75,
         "refund_rate_pct": 18.64,
         "aov": 22.15,
-        "gpm": 6.86,
-        "emv": 3102.1,
+        "gpm": 6.71,
+        "emv": 3237.44,
         "gmv_per_sample_delivered": 189.19
       },
       "volume": {
@@ -455,7 +455,7 @@
         "units_sold": 327.0,
         "creators": 120,
         "samples_delivered": 26,
-        "video_views": 620420
+        "video_views": 647488
       },
       "products": [
         {
@@ -548,7 +548,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
+          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
           "price": 73.99,
           "total_gmv": 147.29,
           "share_pct": 2.2,
@@ -691,7 +691,7 @@
         },
         {
           "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
+          "product_name": "Everlasting Comfort 100% Waterproof Polyester Mattress Protector - Zippered Smooth Bed Bug Cover, 360\u00b0 Hold, Dust Mite Proof, Hypoallergenic, Cooling Soft Breathable Dual-Layer Fabric, Comfortable for Kids, Families",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -823,8 +823,8 @@
         },
         {
           "product_id": "1732777280888475867",
-          "product_name": "CloudFur Double-Sided Faux Fur Throw Blanket, 50x60in, 520 GSM, Plush Soft, Machine Washable for Movie Nights, Housewarmings",
-          "price": 79.99,
+          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
+          "price": 69.0,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -858,16 +858,16 @@
         "commission_rate_pct": 19.6,
         "refund_rate_pct": 13.6,
         "aov": 24.42,
-        "gpm": 8.01,
-        "emv": 8644.22,
+        "gpm": 7.94,
+        "emv": 8779.56,
         "gmv_per_sample_delivered": 109.77
       },
       "volume": {
         "orders": 1026,
         "units_sold": 1103.0,
-        "creators": 202,
+        "creators": 219,
         "samples_delivered": 184,
-        "video_views": 1728844
+        "video_views": 1755912
       },
       "products": [
         {
@@ -982,7 +982,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
+          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
           "price": 73.99,
           "total_gmv": 147.29,
           "share_pct": 0.6,
@@ -1126,7 +1126,7 @@
         {
           "product_id": "1729387967841997019",
           "product_name": "Everlasting Comfort Anti-Allergen Pillow Protector - Single (27x21in), Soft Durable Polyester, 100% Waterproof Terry Cloth, Hypoallergenic Breathable Membrane, Blocks Dust Mites, Machine Washable, Dryer Safe, Lifetime Warranty, Allergen Reducing",
-          "price": 29.99,
+          "price": 19.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1136,7 +1136,7 @@
         },
         {
           "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
+          "product_name": "Everlasting Comfort 100% Waterproof Polyester Mattress Protector - Zippered Smooth Bed Bug Cover, 360\u00b0 Hold, Dust Mite Proof, Hypoallergenic, Cooling Soft Breathable Dual-Layer Fabric, Comfortable for Kids, Families",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1257,8 +1257,8 @@
         },
         {
           "product_id": "1732777280888475867",
-          "product_name": "CloudFur Double-Sided Faux Fur Throw Blanket, 50x60in, 520 GSM, Plush Soft, Machine Washable for Movie Nights, Housewarmings",
-          "price": 79.99,
+          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
+          "price": 69.0,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1274,7 +1274,7 @@
         "total_gmv": 62267.82,
         "affiliate_gmv": 52144.68,
         "video_gmv": 32624.22,
-        "live_gmv": 19520.52,
+        "live_gmv": 19492.93,
         "shop_tab_gmv": 13171.58,
         "gmv_max_revenue": 45951.97,
         "subscription_revenue": 0
@@ -1292,16 +1292,16 @@
         "commission_rate_pct": 20.67,
         "refund_rate_pct": 13.9,
         "aov": 26.08,
-        "gpm": 8.82,
-        "emv": 18273.75,
+        "gpm": 8.78,
+        "emv": 18409.09,
         "gmv_per_sample_delivered": 186.23
       },
       "volume": {
         "orders": 2388,
         "units_sold": 2567.0,
-        "creators": 349,
+        "creators": 366,
         "samples_delivered": 280,
-        "video_views": 3654750
+        "video_views": 3681818
       },
       "products": [
         {
@@ -1416,7 +1416,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
+          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
           "price": 73.99,
           "total_gmv": 373.99,
           "share_pct": 0.6,
@@ -1648,7 +1648,7 @@
         {
           "product_id": "1729387967841997019",
           "product_name": "Everlasting Comfort Anti-Allergen Pillow Protector - Single (27x21in), Soft Durable Polyester, 100% Waterproof Terry Cloth, Hypoallergenic Breathable Membrane, Blocks Dust Mites, Machine Washable, Dryer Safe, Lifetime Warranty, Allergen Reducing",
-          "price": 29.99,
+          "price": 19.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1658,7 +1658,7 @@
         },
         {
           "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
+          "product_name": "Everlasting Comfort 100% Waterproof Polyester Mattress Protector - Zippered Smooth Bed Bug Cover, 360\u00b0 Hold, Dust Mite Proof, Hypoallergenic, Cooling Soft Breathable Dual-Layer Fabric, Comfortable for Kids, Families",
           "price": 29.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1713,8 +1713,8 @@
         },
         {
           "product_id": "1732777280888475867",
-          "product_name": "CloudFur Double-Sided Faux Fur Throw Blanket, 50x60in, 520 GSM, Plush Soft, Machine Washable for Movie Nights, Housewarmings",
-          "price": 79.99,
+          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
+          "price": 69.0,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1730,7 +1730,7 @@
         "total_gmv": 147771.52,
         "affiliate_gmv": 128373.04,
         "video_gmv": 78548.47,
-        "live_gmv": 48631.55,
+        "live_gmv": 48603.96,
         "shop_tab_gmv": 24972.56,
         "gmv_max_revenue": 122366.46,
         "subscription_revenue": 0
@@ -1748,16 +1748,16 @@
         "commission_rate_pct": 23.16,
         "refund_rate_pct": 12.08,
         "aov": 24.58,
-        "gpm": 8.65,
-        "emv": 45101.74,
+        "gpm": 8.64,
+        "emv": 45237.08,
         "gmv_per_sample_delivered": 190.46
       },
       "volume": {
         "orders": 6012,
         "units_sold": 6737.0,
-        "creators": 667,
+        "creators": 683,
         "samples_delivered": 674,
-        "video_views": 9020348
+        "video_views": 9047416
       },
       "products": [
         {
@@ -1817,7 +1817,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort ELEVATE SERIES U-Shaped Doctor-Recommended Medium-Firm Memory Foam Seat and Back Cushions - Ergonomics Furniture Accessories, Lumbar Support Furniture Accessories for Tailbone Pressure Relief & Good Posture Office Use",
+          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
           "price": 73.99,
           "total_gmv": 718.16,
           "share_pct": 0.5,
@@ -1993,7 +1993,7 @@
         },
         {
           "product_id": "1729387976535412955",
-          "product_name": "Everlasting Comfort Polyester Waterproof Mattress Protector - Zippered Bed Bug Mattress Cover, Dust Mite Proof, Hypoallergenic, Soft, Breathable Dual-Layer Fabric, Blocks Dust, Ideal for Kids, Families, Dorm Rooms",
+          "product_name": "Everlasting Comfort 100% Waterproof Polyester Mattress Protector - Zippered Smooth Bed Bug Cover, 360\u00b0 Hold, Dust Mite Proof, Hypoallergenic, Cooling Soft Breathable Dual-Layer Fabric, Comfortable for Kids, Families",
           "price": 29.99,
           "total_gmv": 69.49,
           "share_pct": 0.0,
@@ -2126,7 +2126,7 @@
         {
           "product_id": "1729387967841997019",
           "product_name": "Everlasting Comfort Anti-Allergen Pillow Protector - Single (27x21in), Soft Durable Polyester, 100% Waterproof Terry Cloth, Hypoallergenic Breathable Membrane, Blocks Dust Mites, Machine Washable, Dryer Safe, Lifetime Warranty, Allergen Reducing",
-          "price": 29.99,
+          "price": 19.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -2180,8 +2180,8 @@
         },
         {
           "product_id": "1732777280888475867",
-          "product_name": "CloudFur Double-Sided Faux Fur Throw Blanket, 50x60in, 520 GSM, Plush Soft, Machine Washable for Movie Nights, Housewarmings",
-          "price": 79.99,
+          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
+          "price": 69.0,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,

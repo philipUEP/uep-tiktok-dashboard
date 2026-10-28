@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:03:16.382704+00:00",
+  "generated_at": "2026-10-28T07:03:51.447385+00:00",
   "weeks": [
     {
       "total_gmv": 8003.61,
@@ -14,8 +14,8 @@
       "sample_requests": 219,
       "samples_shipped": 98,
       "samples_delivered": 87,
-      "videos_posted": 87,
-      "distinct_creators": 55,
+      "videos_posted": 96,
+      "distinct_creators": 63,
       "_range": "2026-09-28 to 2026-10-04"
     },
     {
@@ -31,8 +31,8 @@
       "sample_requests": 133,
       "samples_shipped": 59,
       "samples_delivered": 68,
-      "videos_posted": 214,
-      "distinct_creators": 71,
+      "videos_posted": 243,
+      "distinct_creators": 84,
       "_range": "2026-10-05 to 2026-10-11"
     },
     {
@@ -48,7 +48,7 @@
       "sample_requests": 134,
       "samples_shipped": 20,
       "samples_delivered": 20,
-      "videos_posted": 317,
+      "videos_posted": 316,
       "distinct_creators": 90,
       "_range": "2026-10-12 to 2026-10-18"
     },
@@ -58,7 +58,7 @@
       "total_units_sold": 83.0,
       "affiliate_gmv": 1155.97,
       "live_gmv": 354.98,
-      "video_views": 139861,
+      "video_views": 166929,
       "dms_sent": 130,
       "tc_invites_sent": 0,
       "replies": 4,
@@ -105,7 +105,7 @@
       545864.0,
       418231.0,
       480559.0,
-      139861.0
+      166929.0
     ],
     "dms_sent": [
       5185.0,
@@ -144,14 +144,14 @@
       6.0
     ],
     "videos_posted": [
-      87.0,
-      214.0,
-      317.0,
+      96.0,
+      243.0,
+      316.0,
       94.0
     ],
     "distinct_creators": [
-      55.0,
-      71.0,
+      63.0,
+      84.0,
       90.0,
       49.0
     ]
@@ -182,18 +182,10 @@
       "direction": "down"
     },
     {
-      "metric": "video_views",
-      "label": "Video views",
-      "current": 139861.0,
-      "prior": 480559.0,
-      "pct": -70.9,
-      "direction": "down"
-    },
-    {
       "metric": "videos_posted",
       "label": "Videos posted",
       "current": 94.0,
-      "prior": 317.0,
+      "prior": 316.0,
       "pct": -70.3,
       "direction": "down"
     },
@@ -227,6 +219,14 @@
       "current": 83.0,
       "prior": 244.0,
       "pct": -66.0,
+      "direction": "down"
+    },
+    {
+      "metric": "video_views",
+      "label": "Video views",
+      "current": 166929.0,
+      "prior": 480559.0,
+      "pct": -65.3,
       "direction": "down"
     },
     {
