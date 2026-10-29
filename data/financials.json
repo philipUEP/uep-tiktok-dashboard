@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-28",
+    "pulled_on": "2026-10-29",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -357,7 +357,7 @@
         {
           "product_id": "1730129811577671899",
           "product_name": "Household Shoe Dryer Machine - 4-Tube 120V Heavy-Duty Vented Boot Dryer, 0-180 Minutes Timer Control, 2-Pair Capacity, 2-Hour Fast Drying, Quiet Operation, Multi-Material Safe Tube-Shape Boot Warmer, 14.57\"d x 6.89\"w x 11.81\"h",
-          "price": 49.99,
+          "price": 74.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -791,7 +791,7 @@
         {
           "product_id": "1730129811577671899",
           "product_name": "Household Shoe Dryer Machine - 4-Tube 120V Heavy-Duty Vented Boot Dryer, 0-180 Minutes Timer Control, 2-Pair Capacity, 2-Hour Fast Drying, Quiet Operation, Multi-Material Safe Tube-Shape Boot Warmer, 14.57\"d x 6.89\"w x 11.81\"h",
-          "price": 49.99,
+          "price": 74.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1225,7 +1225,7 @@
         {
           "product_id": "1730129811577671899",
           "product_name": "Household Shoe Dryer Machine - 4-Tube 120V Heavy-Duty Vented Boot Dryer, 0-180 Minutes Timer Control, 2-Pair Capacity, 2-Hour Fast Drying, Quiet Operation, Multi-Material Safe Tube-Shape Boot Warmer, 14.57\"d x 6.89\"w x 11.81\"h",
-          "price": 49.99,
+          "price": 74.99,
           "total_gmv": 0,
           "share_pct": 0.0,
           "video_gmv": 0,
@@ -1505,7 +1505,7 @@
         {
           "product_id": "1730129811577671899",
           "product_name": "Household Shoe Dryer Machine - 4-Tube 120V Heavy-Duty Vented Boot Dryer, 0-180 Minutes Timer Control, 2-Pair Capacity, 2-Hour Fast Drying, Quiet Operation, Multi-Material Safe Tube-Shape Boot Warmer, 14.57\"d x 6.89\"w x 11.81\"h",
-          "price": 49.99,
+          "price": 74.99,
           "total_gmv": 79.36,
           "share_pct": 0.1,
           "video_gmv": 0,
@@ -1961,7 +1961,7 @@
         {
           "product_id": "1730129811577671899",
           "product_name": "Household Shoe Dryer Machine - 4-Tube 120V Heavy-Duty Vented Boot Dryer, 0-180 Minutes Timer Control, 2-Pair Capacity, 2-Hour Fast Drying, Quiet Operation, Multi-Material Safe Tube-Shape Boot Warmer, 14.57\"d x 6.89\"w x 11.81\"h",
-          "price": 49.99,
+          "price": 74.99,
           "total_gmv": 79.36,
           "share_pct": 0.1,
           "video_gmv": 0,

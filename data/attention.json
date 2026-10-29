@@ -1,59 +1,8 @@
-{
-  "updated_at": "2026-10-28T07:35:00+00:00",
-  "items": [
-    {
-      "metric": "GMV",
-      "current": 1958.73,
-      "prior": 4864.99,
-      "pct": -59.7,
-      "direction": "down",
-      "effect": "Inferred: the third consecutive weekly fall (8444.44, 4864.99, 1958.73) tracks the 96.4% drop in GMV Max spend, which carried 70.9% of month GMV.",
-      "action": "Inferred: re-enable Screen Door at 500 and Bidet 7/6 at a capped 300 in the same week, and leave the two Repel campaigns off."
-    },
-    {
-      "metric": "DMs sent",
-      "current": 130,
-      "prior": 2114,
-      "pct": -93.9,
-      "direction": "down",
-      "effect": "Inferred: at a 3.08% reply rate 130 DMs cap replies at 4, so outreach cannot seed the November posting cohort.",
-      "action": "Inferred: restore a 1500 DM weekly floor plus one 500 invite batch, sent in one block per day."
-    },
-    {
-      "metric": "Samples shipped",
-      "current": 4,
-      "prior": 20,
-      "pct": -80.0,
-      "direction": "down",
-      "effect": "Inferred: 4 shipped samples and 22 rows still in To Review leave the sample program unable to add posting creators for two to three weeks.",
-      "action": "Inferred: approve the 22 To Review rows today, the 12 expiring by 2026-10-30 first, and ship the 1 Ready to Ship row."
-    },
-    {
-      "metric": "Videos posted",
-      "current": 94,
-      "prior": 316,
-      "pct": -70.3,
-      "direction": "down",
-      "effect": "Inferred: views per video actually rose to 1775.8 from 1520.8, so the 222 missing posts at 15.40 GMV each account for 3419 of foregone GMV.",
-      "action": "Inferred: re-offer samples to the 90 creators who posted in the week of Oct 12 to Oct 18 to rebuild the posting cohort from 49."
-    },
-    {
-      "metric": "Repel Blitz ROAS (target 1.2)",
-      "current": 0.34,
-      "prior": 1.235,
-      "pct": -72.5,
-      "direction": "down",
-      "effect": "Inferred: Repel Blitz was the only campaign that spent this week and returned 39.99 on 117.47, a loss of 77.48 with a month ROI of 0.746.",
-      "action": "Inferred: keep Repel Blitz and Repel GMV MAX disabled and move the budget to the two campaigns above target."
-    },
-    {
-      "metric": "Samples expired (of 300)",
-      "current": 193,
-      "prior": 186,
-      "pct": 3.8,
-      "direction": "up",
-      "effect": "Inferred: 64.3% of the pipeline has expired unreviewed while rejection is only 13.0%, so inbound demand is discarded by review delay rather than by creator refusal.",
-      "action": "Inferred: set a 3 day review turnaround and re-offer samples to expired rows with a post rate above 70%."
-    }
-  ]
-}
+{"updated_at": "2026-10-29T07:21:44+00:00", "items": [
+  {"metric": "GMV", "current": 1958.73, "prior": 4864.99, "pct": -59.7, "direction": "down", "effect": "Inferred: the third consecutive weekly fall (8444.44, 4864.99, 1958.73) tracks the 96.4% drop in GMV Max spend, which carried 70.9% of month GMV.", "action": "Inferred: re-enable Screen Door at 500 and Bidet 7/6 at a capped 300 this week and leave the two Repel campaigns off."},
+  {"metric": "DMs sent", "current": 130, "prior": 2114, "pct": -93.9, "direction": "down", "effect": "Inferred: at a 3.08% reply rate 130 DMs cap replies at 4, with collab invites at 0, so outreach cannot seed the November posting cohort.", "action": "Inferred: restore a 1500 DM weekly floor plus one 500 invite batch, sent in one block per day."},
+  {"metric": "Samples shipped", "current": 4, "prior": 20, "pct": -80.0, "direction": "down", "effect": "Inferred: 4 shipped samples against 24 rows still in To Review, 13 of them expiring by 2026-10-31, leaves the program unable to add posting creators for two to three weeks.", "action": "Inferred: clear the 24 To Review rows today, the 9 expiring 2026-10-30 first, and review the 14 Repel umbrella rows last."},
+  {"metric": "Videos posted", "current": 95, "prior": 315, "pct": -69.8, "direction": "down", "effect": "Inferred: views per video rose to 1757.1 from 1525.6, so the 220 missing posts at 15.44 GMV each account for 3397 of foregone GMV.", "action": "Inferred: re-offer samples to the 90 creators who posted in the week of Oct 12 to Oct 18 to rebuild the posting cohort from 49."},
+  {"metric": "Repel Blitz ROAS (target 1.2)", "current": 0.34, "prior": 1.235, "pct": -72.5, "direction": "down", "effect": "Inferred: Repel Blitz was the only campaign that spent this week and returned 39.99 on 117.47, a loss of 77.48, with a month ROI of 0.746.", "action": "Inferred: keep Repel Blitz and Repel GMV MAX disabled and move the budget to Screen Door and Bidet 7/6."},
+  {"metric": "Samples expired (of 300)", "current": 193, "prior": 186, "pct": 3.8, "direction": "up", "effect": "Inferred: 64.3% of the pipeline has expired unreviewed while rejection is 12.7%, so inbound demand is discarded by review delay rather than by creator refusal.", "action": "Inferred: set a 3 day review turnaround and re-offer samples to expired rows with a post rate above 70%."}
+]}
