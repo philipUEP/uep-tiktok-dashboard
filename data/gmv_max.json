@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-10-29"
+    "pulled_on": "2026-10-30"
   },
   "periods": {
     "week": {
@@ -2480,7 +2480,7 @@
           "spend": 1718.55,
           "roi": 1.03,
           "orders": 54,
-          "cost_per_order": 31.82,
+          "cost_per_order": 31.83,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21",
@@ -2995,7 +2995,7 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-23 to 2026-10-29",
+      "range": "2026-10-24 to 2026-10-30",
       "totals": {
         "revenue": 0,
         "spend": 0,

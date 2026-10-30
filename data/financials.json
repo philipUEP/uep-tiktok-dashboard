@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-29",
+    "pulled_on": "2026-10-30",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -312,7 +312,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
+          "product_name": "Rain-Mate Fully Automatic Rainproof Lightweight Folding Travel Umbrella - Pocket-Portable, 9-Rib Reinforced Canopy, Auto-Open-Close Button, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee (Umbrellas for Rain), Rainproof Umbrella",
           "price": 15.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -400,7 +400,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
+          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
           "price": 73.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -548,7 +548,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
+          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
           "price": 73.99,
           "total_gmv": 147.29,
           "share_pct": 2.2,
@@ -746,7 +746,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
+          "product_name": "Rain-Mate Fully Automatic Rainproof Lightweight Folding Travel Umbrella - Pocket-Portable, 9-Rib Reinforced Canopy, Auto-Open-Close Button, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee (Umbrellas for Rain), Rainproof Umbrella",
           "price": 15.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -982,7 +982,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
+          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
           "price": 73.99,
           "total_gmv": 147.29,
           "share_pct": 0.6,
@@ -1180,7 +1180,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
+          "product_name": "Rain-Mate Fully Automatic Rainproof Lightweight Folding Travel Umbrella - Pocket-Portable, 9-Rib Reinforced Canopy, Auto-Open-Close Button, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee (Umbrellas for Rain), Rainproof Umbrella",
           "price": 15.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1274,7 +1274,7 @@
         "total_gmv": 62267.82,
         "affiliate_gmv": 52144.68,
         "video_gmv": 32624.22,
-        "live_gmv": 19492.93,
+        "live_gmv": 19462.74,
         "shop_tab_gmv": 13171.58,
         "gmv_max_revenue": 45951.97,
         "subscription_revenue": 0
@@ -1416,7 +1416,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
+          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
           "price": 73.99,
           "total_gmv": 373.99,
           "share_pct": 0.6,
@@ -1680,7 +1680,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
+          "product_name": "Rain-Mate Fully Automatic Rainproof Lightweight Folding Travel Umbrella - Pocket-Portable, 9-Rib Reinforced Canopy, Auto-Open-Close Button, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee (Umbrellas for Rain), Rainproof Umbrella",
           "price": 15.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1730,7 +1730,7 @@
         "total_gmv": 147771.52,
         "affiliate_gmv": 128373.04,
         "video_gmv": 78548.47,
-        "live_gmv": 48603.96,
+        "live_gmv": 48573.77,
         "shop_tab_gmv": 24972.56,
         "gmv_max_revenue": 122366.46,
         "subscription_revenue": 0
@@ -1817,7 +1817,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series | Premium Memory Foam Seat Cushion & Lumbar Support - Ergonomic Pads for Office & Driving",
+          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
           "price": 73.99,
           "total_gmv": 718.16,
           "share_pct": 0.5,
@@ -2158,7 +2158,7 @@
         },
         {
           "product_id": "1729449384565117147",
-          "product_name": "Rain-Mate Fully Automatic Lightweight Rainproof Compact Travel Umbrella - Pocket-Portable Folding Windproof Umbrellas for Rain with Auto-Open-Close Button, 9-Rib Reinforced Canopy, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee",
+          "product_name": "Rain-Mate Fully Automatic Rainproof Lightweight Folding Travel Umbrella - Pocket-Portable, 9-Rib Reinforced Canopy, Auto-Open-Close Button, Fail-Safe Flip, Auto-Eject Function, Lifetime Replacement Guarantee (Umbrellas for Rain), Rainproof Umbrella",
           "price": 15.99,
           "total_gmv": 0,
           "share_pct": 0.0,
