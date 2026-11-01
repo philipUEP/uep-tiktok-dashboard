@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-10-30",
+    "pulled_on": "2026-11-01",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -147,7 +147,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow for Adults - 14.56\"l x 15.35\"w, Cover Included, 4-Cup Secure Suction Cups, Airflow Encouragement Mesh, Advanced Upper Body Support, Quick-Dry, Durable Selfcare Bathroom Gadget",
           "price": 29.99,
           "total_gmv": 29.99,
           "share_pct": 1.5,
@@ -235,7 +235,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 in, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Perfect Gift for Dads & Enthusiasts, Bar & Wine Utensil",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -279,7 +279,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
+          "product_name": "Everlasting Comfort 6L Filterless Humidifier - 22W, 50 Hr Run Time, 400 Sq. Ft Large Room Bedroom Humidifier, Built-In Essential Oil Diffuser, Easy Clean, for Baby Dry Skin Relief",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -301,7 +301,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 43.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -614,7 +614,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow for Adults - 14.56\"l x 15.35\"w, Cover Included, 4-Cup Secure Suction Cups, Airflow Encouragement Mesh, Advanced Upper Body Support, Quick-Dry, Durable Selfcare Bathroom Gadget",
           "price": 29.99,
           "total_gmv": 29.99,
           "share_pct": 0.4,
@@ -669,7 +669,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 in, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Perfect Gift for Dads & Enthusiasts, Bar & Wine Utensil",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -713,7 +713,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
+          "product_name": "Everlasting Comfort 6L Filterless Humidifier - 22W, 50 Hr Run Time, 400 Sq. Ft Large Room Bedroom Humidifier, Built-In Essential Oil Diffuser, Easy Clean, for Baby Dry Skin Relief",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -735,7 +735,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 43.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -865,7 +865,7 @@
       "volume": {
         "orders": 1026,
         "units_sold": 1103.0,
-        "creators": 219,
+        "creators": 208,
         "samples_delivered": 184,
         "video_views": 1755912
       },
@@ -993,7 +993,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow for Adults - 14.56\"l x 15.35\"w, Cover Included, 4-Cup Secure Suction Cups, Airflow Encouragement Mesh, Advanced Upper Body Support, Quick-Dry, Durable Selfcare Bathroom Gadget",
           "price": 29.99,
           "total_gmv": 139.15,
           "share_pct": 0.6,
@@ -1103,7 +1103,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 in, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Perfect Gift for Dads & Enthusiasts, Bar & Wine Utensil",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1147,7 +1147,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
+          "product_name": "Everlasting Comfort 6L Filterless Humidifier - 22W, 50 Hr Run Time, 400 Sq. Ft Large Room Bedroom Humidifier, Built-In Essential Oil Diffuser, Easy Clean, for Baby Dry Skin Relief",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1169,7 +1169,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 43.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1274,7 +1274,7 @@
         "total_gmv": 62267.82,
         "affiliate_gmv": 52144.68,
         "video_gmv": 32624.22,
-        "live_gmv": 19462.74,
+        "live_gmv": 19482.73,
         "shop_tab_gmv": 13171.58,
         "gmv_max_revenue": 45951.97,
         "subscription_revenue": 0
@@ -1299,7 +1299,7 @@
       "volume": {
         "orders": 2388,
         "units_sold": 2567.0,
-        "creators": 366,
+        "creators": 356,
         "samples_delivered": 280,
         "video_views": 3681818
       },
@@ -1372,7 +1372,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow for Adults - 14.56\"l x 15.35\"w, Cover Included, 4-Cup Secure Suction Cups, Airflow Encouragement Mesh, Advanced Upper Body Support, Quick-Dry, Durable Selfcare Bathroom Gadget",
           "price": 29.99,
           "total_gmv": 510.02,
           "share_pct": 0.8,
@@ -1581,7 +1581,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 43.99,
           "total_gmv": 22.94,
           "share_pct": 0.0,
@@ -1625,7 +1625,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 in, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Perfect Gift for Dads & Enthusiasts, Bar & Wine Utensil",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1669,7 +1669,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
+          "product_name": "Everlasting Comfort 6L Filterless Humidifier - 22W, 50 Hr Run Time, 400 Sq. Ft Large Room Bedroom Humidifier, Built-In Essential Oil Diffuser, Easy Clean, for Baby Dry Skin Relief",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1730,7 +1730,7 @@
         "total_gmv": 147771.52,
         "affiliate_gmv": 128373.04,
         "video_gmv": 78548.47,
-        "live_gmv": 48573.77,
+        "live_gmv": 48558.77,
         "shop_tab_gmv": 24972.56,
         "gmv_max_revenue": 122366.46,
         "subscription_revenue": 0
@@ -1755,7 +1755,7 @@
       "volume": {
         "orders": 6012,
         "units_sold": 6737.0,
-        "creators": 683,
+        "creators": 675,
         "samples_delivered": 674,
         "video_views": 9047416
       },
@@ -1839,7 +1839,7 @@
         },
         {
           "product_id": "1729385798535319771",
-          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow - Cover Included, 4-Cup Smooth Secure Suction Cup Grip, Airflow Encouraging Quick-Dry Breathable Mesh, Shoulder Support, Modern Design, Versatile Compatibility, Durable Bathroom Gadget for Relaxation",
+          "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow for Adults - 14.56\"l x 15.35\"w, Cover Included, 4-Cup Secure Suction Cups, Airflow Encouragement Mesh, Advanced Upper Body Support, Quick-Dry, Durable Selfcare Bathroom Gadget",
           "price": 29.99,
           "total_gmv": 641.57,
           "share_pct": 0.4,
@@ -2037,7 +2037,7 @@
         },
         {
           "product_id": "1729391868219986139",
-          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour for Legs, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
+          "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
           "price": 43.99,
           "total_gmv": 50.93,
           "share_pct": 0.0,
@@ -2103,7 +2103,7 @@
         },
         {
           "product_id": "1729385884834369755",
-          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 Inches, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Utensils, Elegant Table Accent, Fits 750ml Standard Bottles, Ideal Gift for Adults, Suitable for Any Occasion",
+          "product_name": "Lead-Free Crystal Wine Decanter - Le Chateau Hand Blown, 2.2 lbs, 10 in, Easy-Pour Slanted Spout, Wide Body for Aroma Opening, Home Bar Accessories, Elegant Table Accent, Fits 750ml Standard Bottles, Perfect Gift for Dads & Enthusiasts, Bar & Wine Utensil",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -2136,7 +2136,7 @@
         },
         {
           "product_id": "1729391860653920475",
-          "product_name": "Everlasting Comfort 6L Home Humidifier - Filterless Fine Mist Large Room Humidifier, 22W Low Power, 50 Hr Run Time, Easy Clean, for Baby, Dry Skin Relief",
+          "product_name": "Everlasting Comfort 6L Filterless Humidifier - 22W, 50 Hr Run Time, 400 Sq. Ft Large Room Bedroom Humidifier, Built-In Essential Oil Diffuser, Easy Clean, for Baby Dry Skin Relief",
           "price": 59.99,
           "total_gmv": 0,
           "share_pct": 0.0,
