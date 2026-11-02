@@ -1,260 +1,176 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats with product_id + include_charts",
-    "pulled_on": "2026-11-01",
+    "pulled_on": "2026-11-02",
     "range": {
-      "from": "2026-10-19",
-      "to": "2026-10-25"
+      "from": "2026-10-26",
+      "to": "2026-11-01"
     }
   },
   "products": [
     {
+      "product_id": "1729391862339113179",
+      "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
+      "total_gmv": 655.15,
+      "daily": [
+        {
+          "date": "2026-10-26",
+          "gmv": 158.71,
+          "units": 7.0
+        },
+        {
+          "date": "2026-10-27",
+          "gmv": 72.17,
+          "units": 3.0
+        },
+        {
+          "date": "2026-10-28",
+          "gmv": 158.97,
+          "units": 7.0
+        },
+        {
+          "date": "2026-10-29",
+          "gmv": 94.47,
+          "units": 4.0
+        },
+        {
+          "date": "2026-10-30",
+          "gmv": 71.87,
+          "units": 3.0
+        },
+        {
+          "date": "2026-10-31",
+          "gmv": 27.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "gmv": 70.97,
+          "units": 3.0
+        }
+      ]
+    },
+    {
       "product_id": "1729385884864975067",
       "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-      "total_gmv": 492.09,
+      "total_gmv": 291.94,
       "daily": [
         {
-          "date": "2026-10-19",
-          "gmv": 55.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-20",
-          "gmv": 115.66,
-          "units": 4.0
-        },
-        {
-          "date": "2026-10-21",
-          "gmv": 47.49,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-22",
-          "gmv": 139.97,
+          "date": "2026-10-26",
+          "gmv": 149.97,
           "units": 3.0
         },
         {
-          "date": "2026-10-23",
-          "gmv": 79.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-24",
-          "gmv": 52.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-25",
-          "gmv": 0.0,
-          "units": 0.0
-        }
-      ]
-    },
-    {
-      "product_id": "1729391862339113179",
-      "product_name": "Flux Phenom Fiberglass Screendoor - 38x82 in, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, Modern No-Drill Home Solution for Apartments, Balconies, Patios&Porch, Front Door Hardware",
-      "total_gmv": 471.11,
-      "daily": [
-        {
-          "date": "2026-10-19",
+          "date": "2026-10-27",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-20",
-          "gmv": 97.73,
-          "units": 5.0
-        },
-        {
-          "date": "2026-10-21",
-          "gmv": 80.57,
-          "units": 5.0
-        },
-        {
-          "date": "2026-10-22",
-          "gmv": 50.58,
-          "units": 2.0
-        },
-        {
-          "date": "2026-10-23",
-          "gmv": 136.36,
-          "units": 6.0
-        },
-        {
-          "date": "2026-10-24",
-          "gmv": 41.67,
-          "units": 2.0
-        },
-        {
-          "date": "2026-10-25",
-          "gmv": 64.2,
-          "units": 4.0
-        }
-      ]
-    },
-    {
-      "product_id": "1730129060140454107",
-      "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
-      "total_gmv": 198.09,
-      "daily": [
-        {
-          "date": "2026-10-19",
+          "date": "2026-10-28",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-20",
-          "gmv": 48.62,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-21",
-          "gmv": 49.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-22",
-          "gmv": 49.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-23",
-          "gmv": 49.49,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-24",
+          "date": "2026-10-29",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-25",
-          "gmv": 0.0,
-          "units": 0.0
-        }
-      ]
-    },
-    {
-      "product_id": "1732655825084190939",
-      "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
-      "total_gmv": 188.0,
-      "daily": [
-        {
-          "date": "2026-10-19",
+          "date": "2026-10-30",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-20",
-          "gmv": 168.0,
-          "units": 11.0
+          "date": "2026-10-31",
+          "gmv": 0.0,
+          "units": 0.0
         },
         {
-          "date": "2026-10-21",
-          "gmv": 15.0,
+          "date": "2026-11-01",
+          "gmv": 141.97,
           "units": 3.0
-        },
-        {
-          "date": "2026-10-22",
-          "gmv": 3.0,
-          "units": 2.0
-        },
-        {
-          "date": "2026-10-23",
-          "gmv": 2.0,
-          "units": 2.0
-        },
-        {
-          "date": "2026-10-24",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-25",
-          "gmv": 0.0,
-          "units": 0.0
         }
       ]
     },
     {
-      "product_id": "1732530504119718107",
-      "product_name": "Repel 9-Rib Automatic Folding Solid Umbrella - 100MPH Windproof, Durable Ultra Portable Adult Option, Fits Backpacks & Cars, Rain-Ready Travel Essential for Ultra Portable Umbrellas Needs",
-      "total_gmv": 176.98,
+      "product_id": "1732530411400171739",
+      "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
+      "total_gmv": 119.97,
       "daily": [
         {
-          "date": "2026-10-19",
+          "date": "2026-10-26",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "gmv": 79.98,
+          "units": 2.0
+        },
+        {
+          "date": "2026-10-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-30",
           "gmv": 39.99,
           "units": 1.0
         },
         {
-          "date": "2026-10-20",
-          "gmv": 17.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-21",
-          "gmv": 26.0,
-          "units": 4.0
-        },
-        {
-          "date": "2026-10-22",
-          "gmv": 93.0,
-          "units": 5.0
-        },
-        {
-          "date": "2026-10-23",
+          "date": "2026-10-31",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-24",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-25",
+          "date": "2026-11-01",
           "gmv": 0.0,
           "units": 0.0
         }
       ]
     },
     {
-      "product_id": "1732604928188453083",
-      "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Solutions for Travel Rest Needs",
-      "total_gmv": 107.98,
+      "product_id": "1730129811577671899",
+      "product_name": "Household Shoe Dryer Machine - 4-Tube 120V Heavy-Duty Vented Boot Dryer, 0-180 Minutes Timer Control, 2-Pair Capacity, 2-Hour Fast Drying, Quiet Operation, Multi-Material Safe Tube-Shape Boot Warmer, 14.57\"d x 6.89\"w x 11.81\"h",
+      "total_gmv": 95.49,
       "daily": [
         {
-          "date": "2026-10-19",
-          "gmv": 107.98,
-          "units": 2.0
+          "date": "2026-10-26",
+          "gmv": 49.99,
+          "units": 1.0
         },
         {
-          "date": "2026-10-20",
+          "date": "2026-10-27",
+          "gmv": 45.5,
+          "units": 1.0
+        },
+        {
+          "date": "2026-10-28",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-21",
+          "date": "2026-10-29",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-22",
+          "date": "2026-10-30",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-23",
+          "date": "2026-10-31",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-24",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-25",
+          "date": "2026-11-01",
           "gmv": 0.0,
           "units": 0.0
         }
@@ -263,82 +179,124 @@
     {
       "product_id": "1730105130585657563",
       "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-      "total_gmv": 105.86,
+      "total_gmv": 66.68,
       "daily": [
         {
-          "date": "2026-10-19",
-          "gmv": 8.89,
+          "date": "2026-10-26",
+          "gmv": 32.69,
           "units": 1.0
         },
         {
-          "date": "2026-10-20",
+          "date": "2026-10-27",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-21",
+          "date": "2026-10-28",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-22",
+          "date": "2026-10-29",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-23",
+          "date": "2026-10-30",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-24",
-          "gmv": 96.97,
-          "units": 3.0
+          "date": "2026-10-31",
+          "gmv": 0.0,
+          "units": 0.0
         },
         {
-          "date": "2026-10-25",
+          "date": "2026-11-01",
+          "gmv": 33.99,
+          "units": 1.0
+        }
+      ]
+    },
+    {
+      "product_id": "1729391862019821787",
+      "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+      "total_gmv": 59.99,
+      "daily": [
+        {
+          "date": "2026-10-26",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-28",
+          "gmv": 59.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-10-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-30",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-31",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-11-01",
           "gmv": 0.0,
           "units": 0.0
         }
       ]
     },
     {
-      "product_id": "1730130703186235611",
-      "product_name": "Everlasting Comfort Ergonomic Memory Foam Footrest - OEKO-TEX Certified Car Interior Mount, Comfortable Travel Foot Rest, Portable & Easy to Use, Adjustable Straps, Shape-Hold Base, Dual Foot Rest Areas, Superior Leg Support",
-      "total_gmv": 66.77,
+      "product_id": "1730129060140454107",
+      "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
+      "total_gmv": 49.99,
       "daily": [
         {
-          "date": "2026-10-19",
+          "date": "2026-10-26",
+          "gmv": 49.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-10-27",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-20",
-          "gmv": 23.99,
-          "units": 1.0
-        },
-        {
-          "date": "2026-10-21",
+          "date": "2026-10-28",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-22",
+          "date": "2026-10-29",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-23",
-          "gmv": 23.99,
-          "units": 1.0
+          "date": "2026-10-30",
+          "gmv": 0.0,
+          "units": 0.0
         },
         {
-          "date": "2026-10-24",
-          "gmv": 18.79,
-          "units": 1.0
+          "date": "2026-10-31",
+          "gmv": 0.0,
+          "units": 0.0
         },
         {
-          "date": "2026-10-25",
+          "date": "2026-11-01",
           "gmv": 0.0,
           "units": 0.0
         }
@@ -347,42 +305,42 @@
     {
       "product_id": "1729394250782118107",
       "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firm Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Stress Relief, Office & Car Accessory",
-      "total_gmv": 37.99,
+      "total_gmv": 44.72,
       "daily": [
         {
-          "date": "2026-10-19",
-          "gmv": 37.99,
+          "date": "2026-10-26",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-30",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-31",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-11-01",
+          "gmv": 44.72,
           "units": 1.0
-        },
-        {
-          "date": "2026-10-20",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-21",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-22",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-23",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-24",
-          "gmv": 0.0,
-          "units": 0.0
-        },
-        {
-          "date": "2026-10-25",
-          "gmv": 0.0,
-          "units": 0.0
         }
       ]
     },
@@ -392,37 +350,79 @@
       "total_gmv": 29.99,
       "daily": [
         {
-          "date": "2026-10-19",
+          "date": "2026-10-26",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-20",
+          "date": "2026-10-27",
           "gmv": 29.99,
           "units": 1.0
         },
         {
-          "date": "2026-10-21",
+          "date": "2026-10-28",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-22",
+          "date": "2026-10-29",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-23",
+          "date": "2026-10-30",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-31",
           "gmv": 0.0,
           "units": 0.0
         },
         {
-          "date": "2026-10-25",
+          "date": "2026-11-01",
+          "gmv": 0.0,
+          "units": 0.0
+        }
+      ]
+    },
+    {
+      "product_id": "1729391868219986139",
+      "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Ergonomic Curved Contour, Pure Foam Gentle Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee",
+      "total_gmv": 29.99,
+      "daily": [
+        {
+          "date": "2026-10-26",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-27",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-28",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-29",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-30",
+          "gmv": 0.0,
+          "units": 0.0
+        },
+        {
+          "date": "2026-10-31",
+          "gmv": 29.99,
+          "units": 1.0
+        },
+        {
+          "date": "2026-11-01",
           "gmv": 0.0,
           "units": 0.0
         }
