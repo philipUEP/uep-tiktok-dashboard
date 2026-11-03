@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-11-02",
+    "pulled_on": "2026-11-03",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -14,8 +14,8 @@
       "range": "2026-10-26 to 2026-11-01",
       "revenue": {
         "total_gmv": 1524.91,
-        "affiliate_gmv": 832.83,
-        "video_gmv": 745.01,
+        "affiliate_gmv": 909.8,
+        "video_gmv": 821.98,
         "live_gmv": 201.49,
         "shop_tab_gmv": 780.68,
         "gmv_max_revenue": 0,
@@ -23,27 +23,27 @@
       },
       "spend": {
         "ad_spend": 0,
-        "commission": 138.6,
-        "refund_amount": 270.51,
+        "commission": 149.2,
+        "refund_amount": 317.91,
         "shipping_fees": 319.2
       },
-      "net_after_ads_commissions_refunds": 1115.8,
+      "net_after_ads_commissions_refunds": 1057.8,
       "ratios": {
         "blended_roas": null,
         "gmv_max_roas": null,
-        "commission_rate_pct": 16.64,
-        "refund_rate_pct": 17.74,
+        "commission_rate_pct": 16.4,
+        "refund_rate_pct": 20.85,
         "aov": 33.89,
-        "gpm": 4.28,
-        "emv": 797.02,
-        "gmv_per_sample_delivered": 166.57
+        "gpm": 4.11,
+        "emv": 923.9,
+        "gmv_per_sample_delivered": 181.96
       },
       "volume": {
         "orders": 45,
         "units_sold": 52.0,
-        "creators": 33,
+        "creators": 35,
         "samples_delivered": 5,
-        "video_views": 159404
+        "video_views": 184781
       },
       "products": [
         {
@@ -104,7 +104,7 @@
         {
           "product_id": "1729391862019821787",
           "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
-          "price": 79.99,
+          "price": 89.99,
           "total_gmv": 59.99,
           "share_pct": 3.9,
           "video_gmv": 0,
@@ -268,7 +268,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -301,7 +301,7 @@
         },
         {
           "product_id": "1729388554561294555",
-          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\" x 85\" Extra Large for 5-8 People, Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack & Go - With Carrying Bag, Travel Clip, 4 Stakes - For Beach & Camps (Sports & Outdoor Picnicware)",
+          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\"x85\" Extra Large (5-8 People), Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack-Go, Reusable - W/Carrying Bag, Travel Clip, 4 Stakes - For Beach,Camping - Sports & Outdoor Picnicware, E",
           "price": 23.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -426,8 +426,8 @@
       "range": "2026-10-19 to 2026-11-01",
       "revenue": {
         "total_gmv": 3483.64,
-        "affiliate_gmv": 1988.8,
-        "video_gmv": 1668.1,
+        "affiliate_gmv": 2065.77,
+        "video_gmv": 1745.07,
         "live_gmv": 556.47,
         "shop_tab_gmv": 1727.26,
         "gmv_max_revenue": 39.99,
@@ -435,27 +435,27 @@
       },
       "spend": {
         "ad_spend": 117.47,
-        "commission": 367.38,
-        "refund_amount": 613.81,
+        "commission": 377.98,
+        "refund_amount": 661.21,
         "shipping_fees": 858.8
       },
-      "net_after_ads_commissions_refunds": 2384.98,
+      "net_after_ads_commissions_refunds": 2326.98,
       "ratios": {
         "blended_roas": 29.6556,
         "gmv_max_roas": 0.3404,
-        "commission_rate_pct": 18.47,
-        "refund_rate_pct": 17.62,
+        "commission_rate_pct": 18.3,
+        "refund_rate_pct": 18.98,
         "aov": 28.55,
-        "gpm": 4.77,
-        "emv": 1631.67,
-        "gmv_per_sample_delivered": 180.8
+        "gpm": 4.64,
+        "emv": 1758.55,
+        "gmv_per_sample_delivered": 187.8
       },
       "volume": {
         "orders": 122,
         "units_sold": 135.0,
-        "creators": 72,
+        "creators": 74,
         "samples_delivered": 11,
-        "video_views": 326333
+        "video_views": 351710
       },
       "products": [
         {
@@ -582,7 +582,7 @@
         {
           "product_id": "1729391862019821787",
           "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
-          "price": 79.99,
+          "price": 89.99,
           "total_gmv": 59.99,
           "share_pct": 1.7,
           "video_gmv": 0,
@@ -625,7 +625,7 @@
         },
         {
           "product_id": "1729388554561294555",
-          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\" x 85\" Extra Large for 5-8 People, Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack & Go - With Carrying Bag, Travel Clip, 4 Stakes - For Beach & Camps (Sports & Outdoor Picnicware)",
+          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\"x85\" Extra Large (5-8 People), Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack-Go, Reusable - W/Carrying Bag, Travel Clip, 4 Stakes - For Beach,Camping - Sports & Outdoor Picnicware, E",
           "price": 23.99,
           "total_gmv": 23.99,
           "share_pct": 0.7,
@@ -702,7 +702,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -838,8 +838,8 @@
       "range": "2026-10-03 to 2026-11-01",
       "revenue": {
         "total_gmv": 21255.54,
-        "affiliate_gmv": 16829.15,
-        "video_gmv": 11060.19,
+        "affiliate_gmv": 16906.12,
+        "video_gmv": 11137.16,
         "live_gmv": 6279.08,
         "shop_tab_gmv": 5168.65,
         "gmv_max_revenue": 12313.09,
@@ -847,27 +847,27 @@
       },
       "spend": {
         "ad_spend": 8610.119999999999,
-        "commission": 3235.52,
-        "refund_amount": 3196.59,
+        "commission": 3246.12,
+        "refund_amount": 3243.99,
         "shipping_fees": 6178.8
       },
-      "net_after_ads_commissions_refunds": 6213.31,
+      "net_after_ads_commissions_refunds": 6155.31,
       "ratios": {
         "blended_roas": 2.4687,
         "gmv_max_roas": 1.4301,
-        "commission_rate_pct": 19.23,
-        "refund_rate_pct": 15.04,
+        "commission_rate_pct": 19.2,
+        "refund_rate_pct": 15.26,
         "aov": 25.3,
-        "gpm": 8.11,
-        "emv": 6725.09,
-        "gmv_per_sample_delivered": 132.51
+        "gpm": 8.01,
+        "emv": 6851.98,
+        "gmv_per_sample_delivered": 133.12
       },
       "volume": {
         "orders": 840,
         "units_sold": 907.0,
-        "creators": 211,
+        "creators": 213,
         "samples_delivered": 127,
-        "video_views": 1345018
+        "video_views": 1370395
       },
       "products": [
         {
@@ -982,7 +982,7 @@
         },
         {
           "product_id": "1729388554561294555",
-          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\" x 85\" Extra Large for 5-8 People, Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack & Go - With Carrying Bag, Travel Clip, 4 Stakes - For Beach & Camps (Sports & Outdoor Picnicware)",
+          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\"x85\" Extra Large (5-8 People), Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack-Go, Reusable - W/Carrying Bag, Travel Clip, 4 Stakes - For Beach,Camping - Sports & Outdoor Picnicware, E",
           "price": 23.99,
           "total_gmv": 147.08,
           "share_pct": 0.7,
@@ -1038,7 +1038,7 @@
         {
           "product_id": "1729391862019821787",
           "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
-          "price": 79.99,
+          "price": 89.99,
           "total_gmv": 59.99,
           "share_pct": 0.3,
           "video_gmv": 0,
@@ -1125,7 +1125,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1250,8 +1250,8 @@
       "range": "2026-09-03 to 2026-11-01",
       "revenue": {
         "total_gmv": 48229.57,
-        "affiliate_gmv": 39268.24,
-        "video_gmv": 26988.15,
+        "affiliate_gmv": 39345.21,
+        "video_gmv": 27065.12,
         "live_gmv": 12239.47,
         "shop_tab_gmv": 11111.32,
         "gmv_max_revenue": 35522.100000000006,
@@ -1259,27 +1259,27 @@
       },
       "spend": {
         "ad_spend": 23570.29,
-        "commission": 7691.13,
-        "refund_amount": 7252.63,
+        "commission": 7701.73,
+        "refund_amount": 7300.03,
         "shipping_fees": 13550.8
       },
-      "net_after_ads_commissions_refunds": 9715.52,
+      "net_after_ads_commissions_refunds": 9657.52,
       "ratios": {
         "blended_roas": 2.0462,
         "gmv_max_roas": 1.5071,
-        "commission_rate_pct": 19.59,
-        "refund_rate_pct": 15.04,
+        "commission_rate_pct": 19.57,
+        "refund_rate_pct": 15.14,
         "aov": 26.31,
-        "gpm": 8.78,
-        "emv": 15261.75,
-        "gmv_per_sample_delivered": 166.39
+        "gpm": 8.73,
+        "emv": 15388.63,
+        "gmv_per_sample_delivered": 166.72
       },
       "volume": {
         "orders": 1833,
         "units_sold": 1976.0,
         "creators": 337,
         "samples_delivered": 236,
-        "video_views": 3052349
+        "video_views": 3077726
       },
       "products": [
         {
@@ -1339,7 +1339,7 @@
         },
         {
           "product_id": "1729388554561294555",
-          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\" x 85\" Extra Large for 5-8 People, Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack & Go - With Carrying Bag, Travel Clip, 4 Stakes - For Beach & Camps (Sports & Outdoor Picnicware)",
+          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\"x85\" Extra Large (5-8 People), Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack-Go, Reusable - W/Carrying Bag, Travel Clip, 4 Stakes - For Beach,Camping - Sports & Outdoor Picnicware, E",
           "price": 23.99,
           "total_gmv": 560.37,
           "share_pct": 1.2,
@@ -1428,7 +1428,7 @@
         {
           "product_id": "1729391862019821787",
           "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
-          "price": 79.99,
+          "price": 89.99,
           "total_gmv": 182.48,
           "share_pct": 0.4,
           "video_gmv": 122.49,
@@ -1614,7 +1614,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1706,36 +1706,36 @@
       "range": "2026-08-04 to 2026-11-01",
       "revenue": {
         "total_gmv": 131518.94,
-        "affiliate_gmv": 113709.84,
-        "video_gmv": 67494.25,
-        "live_gmv": 45148.06,
+        "affiliate_gmv": 113786.81,
+        "video_gmv": 67571.22,
+        "live_gmv": 45212.79,
         "shop_tab_gmv": 23316.13,
         "gmv_max_revenue": 103212.35000000002,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 84861.95,
-        "commission": 25929.15,
-        "refund_amount": 16026.99,
+        "commission": 25939.75,
+        "refund_amount": 16074.39,
         "shipping_fees": 39884.8
       },
-      "net_after_ads_commissions_refunds": 4700.85,
+      "net_after_ads_commissions_refunds": 4642.85,
       "ratios": {
         "blended_roas": 1.5498,
         "gmv_max_roas": 1.2162,
         "commission_rate_pct": 22.8,
-        "refund_rate_pct": 12.19,
+        "refund_rate_pct": 12.22,
         "aov": 24.78,
-        "gpm": 8.63,
-        "emv": 38836.32,
-        "gmv_per_sample_delivered": 187.02
+        "gpm": 8.61,
+        "emv": 38963.21,
+        "gmv_per_sample_delivered": 187.15
       },
       "volume": {
         "orders": 5307,
         "units_sold": 5897.0,
         "creators": 644,
         "samples_delivered": 608,
-        "video_views": 7767264
+        "video_views": 7792641
       },
       "products": [
         {
@@ -1773,7 +1773,7 @@
         },
         {
           "product_id": "1729388554561294555",
-          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\" x 85\" Extra Large for 5-8 People, Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack & Go - With Carrying Bag, Travel Clip, 4 Stakes - For Beach & Camps (Sports & Outdoor Picnicware)",
+          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\"x85\" Extra Large (5-8 People), Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack-Go, Reusable - W/Carrying Bag, Travel Clip, 4 Stakes - For Beach,Camping - Sports & Outdoor Picnicware, E",
           "price": 23.99,
           "total_gmv": 3007.86,
           "share_pct": 2.3,
@@ -1895,7 +1895,7 @@
         {
           "product_id": "1729391862019821787",
           "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
-          "price": 79.99,
+          "price": 89.99,
           "total_gmv": 182.48,
           "share_pct": 0.1,
           "video_gmv": 122.49,
@@ -2092,7 +2092,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filtration Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
