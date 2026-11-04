@@ -307,6 +307,9 @@ let REPORT=null, PROD_CURRENT=null, PROD_DAILY=null, BRIEF=null, FIN=null,
 
 const money = (v)=> (v==null?"n/a":"$"+Number(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}));
 const num = (v)=> (v==null?"n/a":Number(v).toLocaleString("en-US"));
+// A ratio whose denominator is zero is undefined, not zero: render the
+// awaiting-data dash rather than a "0.00x" that reads as a real result.
+const ratio = (v, digits, suffix)=> (v==null? '<span class="muted">—</span>' : Number(v).toFixed(digits)+(suffix||"x"));
 const esc = (s)=> String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 // Product names in this shop are full Amazon-style titles (Screen Door is 200+ characters), which blow
 // the campaign table apart. Truncate for display and keep the full string in the title attribute.
@@ -456,7 +459,7 @@ function renderOverview(){
   html += '<div class="kpis">'+
     kpi("Seller Center GMV", money(s.gmv), deltaChip(deltaPct), (s.gmvDelta||"").replace(" vs prior period",""), spark("total_gmv"))+
     kpi("Orders", num(m0["Orders"]||0), deltaChip(dlt["Orders"]!=null? dlt["Orders"] : trendPct("platform_orders")), "", spark("platform_orders"))+
-    kpi("GMV Max revenue", money(s.adRevenue), '<span class="delta '+(s.roas>=1.5?"up":(s.roas>=1?"flat":"down"))+'">ROAS '+Number(s.roas).toFixed(2)+'x</span>', "Spend "+money(s.adSpend), "")+
+    kpi("GMV Max revenue", money(s.adRevenue), s.roas==null? '<span class="delta flat">ROAS —</span>' : '<span class="delta '+(s.roas>=1.5?"up":(s.roas>=1?"flat":"down"))+'">ROAS '+Number(s.roas).toFixed(2)+'x</span>', "Spend "+money(s.adSpend), "")+
     kpi("Affiliate GMV", money(aff), deltaChip(dlt["Affiliate GMV"]!=null? dlt["Affiliate GMV"] : trendPct("affiliate_gmv")), "Commission "+money(comm), spark("affiliate_gmv"))+
     kpi("Creator output", num(m0["Videos posted"]||0), deltaChip(dlt["Videos posted"]!=null? dlt["Videos posted"] : trendPct("videos_posted")), num(m0["Creators posting"]||0)+" creators posting", spark("videos_posted"))+
     kpi("Video views", num(m0["Video views"]||0), deltaChip(dlt["Video views"]!=null? dlt["Video views"] : trendPct("video_views")), money(m0["LIVE GMV"]||0)+" LIVE GMV · "+num(m0["LIVE streams"]||0)+" streams", spark("video_views"))+
@@ -766,8 +769,8 @@ function renderFinancials(){
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("Total GMV", money(f.revenue.total_gmv), "", "All channels")+
       kpi("Net of ads, commissions, refunds", money(net), '<span class="delta '+netCls+'">'+(net<0?"negative":"positive")+'</span>', "Excludes COGS")+
-      kpi("Blended ROAS", Number(f.ratios.blended_roas).toFixed(2)+"x", "", "Total GMV / ad spend")+
-      kpi("Commission rate", Number(f.ratios.commission_rate_pct).toFixed(1)+"%", "", "Of affiliate GMV")+
+      kpi("Blended ROAS", ratio(f.ratios.blended_roas, 2), "", (f.spend.ad_spend||0)? "Total GMV / ad spend" : "No ad spend in this range")+
+      kpi("Commission rate", f.ratios.commission_rate_pct==null? '<span class="muted">—</span>' : Number(f.ratios.commission_rate_pct).toFixed(1)+"%", "", "Of affiliate GMV")+
     '</div>'+
     '<div class="cols2">'+
       '<div class="panel"><div class="pt">Revenue stack</div><div class="ps">Where GMV comes from</div>'+revStack(f.revenue)+'</div>'+

@@ -45,7 +45,7 @@
     "units": 5,
     "gmv_max_revenue": 0,
     "gmv_max_spend": 0,
-    "gmv_max_roas": 0.0,
+    "gmv_max_roas": null,
     "attribution_status": "complete"
   },
   "periods": {
@@ -61,7 +61,7 @@
         "down": true,
         "adRevenue": 0.0,
         "adSpend": 0.0,
-        "roas": 0.0,
+        "roas": null,
         "m": {
           "Orders": 45,
           "Units sold": 52.0,
@@ -305,8 +305,8 @@
           "upperechelonproducts_",
           0,
           0,
-          40,
-          2,
+          43,
+          3,
           "https://tiktok.com/@upperechelonproducts_/video/7698833497334517005"
         ],
         [
@@ -1434,7 +1434,7 @@
           "Videos posted": -26.36,
           "Creators posting": -46.59,
           "Video views": -73.33,
-          "LIVE GMV": -74.2,
+          "LIVE GMV": -74.0,
           "DMs sent": -11.56,
           "Sample requests": -25.1,
           "Samples approved": -62.7,
@@ -2262,7 +2262,7 @@
           "crisp720",
           95.52,
           3,
-          14743,
+          14744,
           31,
           "https://tiktok.com/@crisp720/video/7681112989516221710"
         ],
@@ -2300,7 +2300,7 @@
           "Videos posted": 1787,
           "Creators posting": 644,
           "Video views": 7792641,
-          "LIVE GMV": 45170.8,
+          "LIVE GMV": 45112.04,
           "DMs sent": 96196,
           "Sample requests": 1828,
           "Samples approved": 487,
@@ -2314,7 +2314,7 @@
           "Videos posted": 25.14,
           "Creators posting": -9.55,
           "Video views": -31.03,
-          "LIVE GMV": -2.78,
+          "LIVE GMV": -2.26,
           "DMs sent": 127.89,
           "Sample requests": 1.84,
           "Samples approved": -43.7,
@@ -3352,10 +3352,10 @@
           "Def worth your money! #screendoor #magneticscreendoor #tiktokshopcreatorpicks #fyp #fall ",
           "sylviaapproved",
           "sylviaapproved",
-          5480.56,
-          313,
-          547609,
-          2121,
+          5504.55,
+          314,
+          548783,
+          2126,
           "https://tiktok.com/@sylviaapproved/video/7672846600267468062"
         ],
         [
@@ -3365,7 +3365,7 @@
           "keniaher.77",
           2478.86,
           170,
-          97372,
+          97427,
           418,
           "https://tiktok.com/@keniaher.77/video/7670969961753431309"
         ],
@@ -3376,7 +3376,7 @@
           "courtney_gonzales19",
           1215.99,
           85,
-          46874,
+          46901,
           102,
           "https://tiktok.com/@courtney_gonzales19/video/7671831593891171597"
         ],
@@ -3398,7 +3398,7 @@
           "sylviaapproved",
           703.8,
           37,
-          39599,
+          39687,
           99,
           "https://tiktok.com/@sylviaapproved/video/7672862005375634719"
         ],
@@ -3409,7 +3409,7 @@
           "theevergreeneditco",
           632.05,
           28,
-          18246,
+          18252,
           39,
           "https://tiktok.com/@theevergreeneditco/video/7673494617085693214"
         ],
@@ -3420,7 +3420,7 @@
           "theevergreeneditco",
           355.45,
           14,
-          4976,
+          4977,
           12,
           "https://tiktok.com/@theevergreeneditco/video/7677230038281964830"
         ],
@@ -3431,7 +3431,7 @@
           "viralshopdealz",
           330.88,
           9,
-          264559,
+          264598,
           5046,
           "https://tiktok.com/@viralshopdealz/video/7678725393917971742"
         ],
@@ -3442,7 +3442,7 @@
           "muscle_dad",
           314.93,
           7,
-          4252,
+          4256,
           5,
           "https://tiktok.com/@muscle_dad/video/7677238294895152398"
         ],
@@ -3453,7 +3453,7 @@
           "arocs_daily_deals",
           253.26,
           10,
-          42181,
+          42196,
           344,
           "https://tiktok.com/@arocs_daily_deals/video/7674461738112175391"
         ]
