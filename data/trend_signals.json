@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T07:02:24.800722+00:00",
+  "generated_at": "2026-11-04T07:03:03.381829+00:00",
   "weeks": [
     {
       "total_gmv": 8444.44,
@@ -48,7 +48,7 @@
       "sample_requests": 61,
       "samples_shipped": 4,
       "samples_delivered": 6,
-      "videos_posted": 93,
+      "videos_posted": 94,
       "distinct_creators": 49,
       "_range": "2026-10-19 to 2026-10-25"
     },
@@ -65,7 +65,7 @@
       "sample_requests": 70,
       "samples_shipped": 6,
       "samples_delivered": 5,
-      "videos_posted": 81,
+      "videos_posted": 84,
       "distinct_creators": 35,
       "_range": "2026-10-26 to 2026-11-01"
     }
@@ -146,8 +146,8 @@
     "videos_posted": [
       243.0,
       300.0,
-      93.0,
-      81.0
+      94.0,
+      84.0
     ],
     "distinct_creators": [
       84.0,
@@ -216,9 +216,9 @@
     {
       "metric": "videos_posted",
       "label": "Videos posted",
-      "current": 81.0,
-      "prior": 93.0,
-      "pct": -12.9,
+      "current": 84.0,
+      "prior": 94.0,
+      "pct": -10.6,
       "direction": "down"
     },
     {
@@ -338,8 +338,8 @@
       "label": "Videos posted",
       "last_3": [
         300.0,
-        93.0,
-        81.0
+        94.0,
+        84.0
       ],
       "note": "declining three weeks in a row"
     },
@@ -357,7 +357,7 @@
   "ratios": {
     "gmv_per_sample_shipped": 254.15,
     "reply_rate_pct": 3.85,
-    "videos_per_creator": 2.31,
+    "videos_per_creator": 2.4,
     "live_share_of_gmv_pct": 13.2,
     "affiliate_share_of_gmv_pct": 59.7
   },
