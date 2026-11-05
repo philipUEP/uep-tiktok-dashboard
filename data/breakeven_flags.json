@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-11-04T19:01:31Z",
+ "generated_on": "2026-11-05T07:03:02Z",
  "window": "2026-10-26 to 2026-11-01",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-11-04T19:01:26Z",
+ "assumptions_generated_on": "2026-11-05T07:02:59Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -12,7 +12,7 @@
  },
  "campaigns": [],
  "live_campaigns": [],
- "live_window": "2026-10-29 to 2026-11-04",
+ "live_window": "2026-10-30 to 2026-11-05",
  "products": [
   {
    "product": "Screen Door",
@@ -75,7 +75,7 @@
    "pause_below_roas": 1.7,
    "advertise": "Yes",
    "margin_basis": "Elevate Seat Cushion",
-   "listings_matched": 2
+   "listings_matched": 1
   },
   {
    "product": "Original Seat Cushion",

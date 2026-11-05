@@ -769,7 +769,7 @@ function renderFinancials(){
     '<div class="kpis" style="grid-template-columns:repeat(4,1fr)">'+
       kpi("Total GMV", money(f.revenue.total_gmv), "", "All channels")+
       kpi("Net of ads, commissions, refunds", money(net), '<span class="delta '+netCls+'">'+(net<0?"negative":"positive")+'</span>', "Excludes COGS")+
-      kpi("Blended ROAS", ratio(f.ratios.blended_roas, 2), "", (f.spend.ad_spend||0)? "Total GMV / ad spend" : "No ad spend in this range")+
+      kpi("Blended ROAS", ratio(f.ratios.blended_roas, 2), "", (f.spend&&f.spend.ad_spend)? "Total GMV / ad spend" : "No ad spend in this range")+
       kpi("Commission rate", f.ratios.commission_rate_pct==null? '<span class="muted">—</span>' : Number(f.ratios.commission_rate_pct).toFixed(1)+"%", "", "Of affiliate GMV")+
     '</div>'+
     '<div class="cols2">'+

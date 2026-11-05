@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:00:39.272411+00:00",
+  "generated_at": "2026-11-05T07:02:28.583247+00:00",
   "weeks": [
     {
       "total_gmv": 8444.44,
@@ -362,7 +362,7 @@
     "affiliate_share_of_gmv_pct": 59.7
   },
   "freshness": {
-    "pull_age_days": 0.8,
+    "pull_age_days": 0.3,
     "data_through": "2026-11-01"
   },
   "note": "Deterministic signal set from the Cruva REST API. The insights agent interprets these; the numbers are ground truth."
