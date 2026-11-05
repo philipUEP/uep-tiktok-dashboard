@@ -1,8 +1,11 @@
-{"updated_at": "2026-11-04T07:26:00+00:00", "items": [
-  {"metric": "LIVE GMV", "current": 201.49, "prior": 354.98, "pct": -43.2, "direction": "down", "effect": "Third straight weekly decline, and 86.2% of the 201.49 came from 5 own-handle streams out of 67.", "action": "Shift live scheduling to creator-hosted Screen Door sessions, where mgreat20 produced 27.83 on 9,569 views."},
-  {"metric": "Orders", "current": 45, "prior": 77, "pct": -41.6, "direction": "down", "effect": "Order volume fell with paid traffic at zero and only 35 creators posting against 90 in the Oct 12 week.", "action": "Restart collab invites at 500 per week and clear the 181 sample requests in To Review within 48 hours."},
-  {"metric": "Units", "current": 52, "prior": 83, "pct": -37.3, "direction": "down", "effect": "Units fell faster than GMV, so fewer buyers at a 33.89 AOV drove the loss rather than price.", "action": "Push Screen Door bundles to the 10 creators who sold this week instead of discounting the 79.99 bidet."},
-  {"metric": "GMV (3 week run)", "current": 1524.91, "prior": 1958.73, "pct": -22.1, "direction": "down", "effect": "Fourth weekly decline from 8,444.44, and 84 videos posted leaves the next two weeks with thin content.", "action": "Set a 120 videos per week floor and review posting supply every Monday."},
-  {"metric": "GMV Max active campaigns", "current": 0, "prior": 31, "pct": -100, "direction": "down", "effect": "All 31 campaigns are disabled at 0 spend, removing a channel that carried 57.4% of month orders.", "action": "Restart Screen Door only at its 2.52 month ROAS and keep Repel Blitz off at 0.746 against a 1.2 target."},
-  {"metric": "Samples in To Review", "current": 181, "prior": 114, "pct": 58.8, "direction": "up", "effect": "The queue grew 58.8% in a day and holds 60.3% of the 300-record pipeline while 72 records are Expired.", "action": "Clear it within 48 hours filtering to post rate at or above 90% and GPM at or above 10."}
-]}
+{
+  "updated_at": "2026-11-05T07:22:03+00:00",
+  "items": [
+    {"metric": "LIVE GMV", "current": 201.49, "prior": 354.98, "pct": -43.2, "direction": "down", "effect": "67 streams drew 255,693 views but converted only 8 units, so live traffic never reaches a purchase path.", "action": "Pin products on every stream, add a bundle offer and raise minimum stream length to 30 minutes."},
+    {"metric": "Orders", "current": 45, "prior": 77, "pct": -41.6, "direction": "down", "effect": "Orders fell for three straight weeks while views rose 10.7%, so the break is conversion rather than reach.", "action": "Re-check product links on the top viewed videos and concentrate promotion on Screen Door and Bidet."},
+    {"metric": "Units", "current": 52, "prior": 83, "pct": -37.3, "direction": "down", "effect": "Units fell faster than GMV, so fewer buyers at a 33.89 AOV drove the loss rather than a price drop.", "action": "Keep bundle offers live on the top two SKUs instead of discounting the 79.99 bidet."},
+    {"metric": "GMV (3 week run)", "current": 1524.91, "prior": 1958.73, "pct": -22.1, "direction": "down", "effect": "Third consecutive weekly decline leaves GMV at 18.1% of the 8,444.44 peak in the week of Oct 5.", "action": "Restart paid spend on Screen Door and Bidet only, at a combined 300 dollars per day cap."},
+    {"metric": "GMV Max spend", "current": 0, "prior": 117.47, "pct": -100, "direction": "down", "effect": "All 31 campaigns are disabled at zero spend, removing a channel that produced 57.9% of October GMV.", "action": "Reactivate Screen Door at 2.52 month ROAS and Bidet at 1.82, and keep Repel Blitz off at 0.746."},
+    {"metric": "Samples in To Review", "current": 197, "prior": 181, "pct": 8.8, "direction": "up", "effect": "The review queue grew to 197 of 300 records while 50 expired, so requests are aging out before approval.", "action": "Clear the queue within 48 hours, starting with the CloudFur Holiday Deal requests that expire 2026-11-12."}
+  ]
+}
