@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-11-05"
+    "pulled_on": "2026-11-06"
   },
   "periods": {
     "week": {
@@ -599,6 +599,25 @@
             "1732530504119718107"
           ],
           "budget": 600.0
+        },
+        {
+          "name": "[Auto-created] US Black Friday Cyber Monday Promotion_20261105092150",
+          "campaign_id": "1881009178555186",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 17.0,
+          "status": "ENABLE",
+          "start": "2026-11-12",
+          "product_ids": [
+            "1729394250782118107",
+            "1732530411400171739",
+            "1729391862339113179",
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
@@ -1197,6 +1216,25 @@
             "1732530504119718107"
           ],
           "budget": 300.0
+        },
+        {
+          "name": "[Auto-created] US Black Friday Cyber Monday Promotion_20261105092150",
+          "campaign_id": "1881009178555186",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 17.0,
+          "status": "ENABLE",
+          "start": "2026-11-12",
+          "product_ids": [
+            "1729394250782118107",
+            "1732530411400171739",
+            "1729391862339113179",
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
@@ -1795,6 +1833,25 @@
             "1729385798566514907"
           ],
           "budget": 200.0
+        },
+        {
+          "name": "[Auto-created] US Black Friday Cyber Monday Promotion_20261105092150",
+          "campaign_id": "1881009178555186",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 17.0,
+          "status": "ENABLE",
+          "start": "2026-11-12",
+          "product_ids": [
+            "1729394250782118107",
+            "1732530411400171739",
+            "1729391862339113179",
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
@@ -2393,6 +2450,25 @@
             "1729391862019821787"
           ],
           "budget": 200.0
+        },
+        {
+          "name": "[Auto-created] US Black Friday Cyber Monday Promotion_20261105092150",
+          "campaign_id": "1881009178555186",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 17.0,
+          "status": "ENABLE",
+          "start": "2026-11-12",
+          "product_ids": [
+            "1729394250782118107",
+            "1732530411400171739",
+            "1729391862339113179",
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
@@ -2480,7 +2556,7 @@
           "spend": 1718.55,
           "roi": 1.03,
           "orders": 54,
-          "cost_per_order": 31.83,
+          "cost_per_order": 31.82,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21",
@@ -2991,11 +3067,30 @@
             "1729388554561294555"
           ],
           "budget": 20.0
+        },
+        {
+          "name": "[Auto-created] US Black Friday Cyber Monday Promotion_20261105092150",
+          "campaign_id": "1881009178555186",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 17.0,
+          "status": "ENABLE",
+          "start": "2026-11-12",
+          "product_ids": [
+            "1729394250782118107",
+            "1732530411400171739",
+            "1729391862339113179",
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ]
     },
     "live7d": {
-      "range": "2026-10-30 to 2026-11-05",
+      "range": "2026-10-31 to 2026-11-06",
       "totals": {
         "revenue": 0,
         "spend": 0,
@@ -3589,6 +3684,25 @@
             "1732530504119718107"
           ],
           "budget": 600.0
+        },
+        {
+          "name": "[Auto-created] US Black Friday Cyber Monday Promotion_20261105092150",
+          "campaign_id": "1881009178555186",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 17.0,
+          "status": "ENABLE",
+          "start": "2026-11-12",
+          "product_ids": [
+            "1729394250782118107",
+            "1732530411400171739",
+            "1729391862339113179",
+            "1732530504119718107"
+          ],
+          "budget": 400.0
         }
       ],
       "in_progress": true

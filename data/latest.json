@@ -33,16 +33,16 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-11-05",
+    "pulled_on": "2026-11-06",
     "data_through": "2026-11-01",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-11-05. Complete attribution through 2026-11-01."
+    "note": "Pulled from Cruva REST API on 2026-11-06. Complete attribution through 2026-11-01."
   },
   "latest_source_check": {
-    "date": "2026-11-04",
-    "seller_center_gmv": 138.77,
-    "orders": 5,
-    "units": 7,
+    "date": "2026-11-05",
+    "seller_center_gmv": 182.78,
+    "orders": 6,
+    "units": 6,
     "gmv_max_revenue": 0,
     "gmv_max_spend": 0,
     "gmv_max_roas": null,
@@ -67,7 +67,7 @@
           "Units sold": 52.0,
           "Affiliate GMV": 909.8,
           "Commission": 149.2,
-          "Videos posted": 84,
+          "Videos posted": 66,
           "Creators posting": 35,
           "Video views": 184781,
           "LIVE GMV": 201.49,
@@ -81,7 +81,7 @@
           "Units sold": -37.35,
           "Affiliate GMV": -21.3,
           "Commission": -34.78,
-          "Videos posted": -10.64,
+          "Videos posted": -29.79,
           "Creators posting": -28.57,
           "Video views": 10.69,
           "LIVE GMV": -43.24,
@@ -310,6 +310,17 @@
           "https://tiktok.com/@upperechelonproducts_/video/7698833497334517005"
         ],
         [
+          "7699196597791411469",
+          "POV: You finally made your car seat comfortable \ud83d\ude97\u2728 Goodbye long commute stiffness and lower back ach",
+          "everlasting_comfort",
+          "everlasting_comfort",
+          0,
+          0,
+          1,
+          0,
+          "https://tiktok.com/@everlasting_comfort/video/7699196597791411469"
+        ],
+        [
           "7699198079206968590",
           "",
           "repel_umbrella",
@@ -327,7 +338,7 @@
           "marielayroberto",
           0,
           0,
-          13771,
+          13799,
           368,
           "https://tiktok.com/@marielayroberto/video/7700766230990441742"
         ],
@@ -338,7 +349,7 @@
           "kripaprasai7",
           0,
           0,
-          60,
+          62,
           5,
           "https://tiktok.com/@kripaprasai7/video/7700769650811866382"
         ],
@@ -349,7 +360,7 @@
           "darlinechery7",
           0,
           0,
-          20,
+          21,
           2,
           "https://tiktok.com/@darlinechery7/video/7700824169029651726"
         ],
@@ -385,17 +396,6 @@
           2,
           1,
           "https://tiktok.com/@cloudfurclub/video/7701061417113292062"
-        ],
-        [
-          "7701061850619776287",
-          "POV: The best blanket has NEW colors! \u2601\ufe0f\u2728 The Cloudfur Throw Blanket just dropped 4 gorgeous new sha",
-          "cloudfurclub",
-          "cloudfurclub",
-          0,
-          0,
-          1,
-          0,
-          "https://tiktok.com/@cloudfurclub/video/7701061850619776287"
         ]
       ]
     },
@@ -417,7 +417,7 @@
           "Units sold": 135.0,
           "Affiliate GMV": 2065.77,
           "Commission": 377.98,
-          "Videos posted": 178,
+          "Videos posted": 160,
           "Creators posting": 74,
           "Video views": 351710,
           "LIVE GMV": 556.47,
@@ -431,7 +431,7 @@
           "Units sold": -78.01,
           "Affiliate GMV": -80.7,
           "Commission": -82.76,
-          "Videos posted": -67.22,
+          "Videos posted": -70.53,
           "Creators posting": -48.97,
           "Video views": -60.87,
           "LIVE GMV": -82.84,
@@ -758,7 +758,7 @@
           "sylviaapproved",
           0,
           0,
-          440,
+          441,
           6,
           "https://tiktok.com/@sylviaapproved/video/7698165510030101790"
         ],
@@ -769,7 +769,7 @@
           "sylviaapproved",
           0,
           0,
-          454,
+          455,
           9,
           "https://tiktok.com/@sylviaapproved/video/7698168546865564958"
         ],
@@ -802,7 +802,7 @@
           "mrhotpicks",
           0,
           0,
-          671,
+          676,
           8,
           "https://tiktok.com/@mrhotpicks/video/7698195903944887583"
         ],
@@ -837,7 +837,7 @@
           "Units sold": 907.0,
           "Affiliate GMV": 16906.12,
           "Commission": 3246.12,
-          "Videos posted": 755,
+          "Videos posted": 737,
           "Creators posting": 213,
           "Video views": 1370395,
           "LIVE GMV": 6237.09,
@@ -851,7 +851,7 @@
           "Units sold": -15.15,
           "Affiliate GMV": -24.66,
           "Commission": -27.15,
-          "Videos posted": 138.17,
+          "Videos posted": 132.49,
           "Creators posting": 34.81,
           "Video views": -19.73,
           "LIVE GMV": 4.64,
@@ -1294,7 +1294,7 @@
           "tapa_mondo",
           153.57,
           11,
-          6295,
+          6299,
           65,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
@@ -1316,7 +1316,7 @@
           "sylviaapproved",
           64.05,
           6,
-          10961,
+          10969,
           87,
           "https://tiktok.com/@sylviaapproved/video/7694356427460070686"
         ],
@@ -1327,7 +1327,7 @@
           "mrhotpicks",
           59.97,
           3,
-          5531,
+          5534,
           20,
           "https://tiktok.com/@mrhotpicks/video/7694099956629507359"
         ],
@@ -1338,7 +1338,7 @@
           "marielos_granados",
           54.28,
           4,
-          1699,
+          1703,
           9,
           "https://tiktok.com/@marielos_granados/video/7693700292164046093"
         ],
@@ -1349,7 +1349,7 @@
           "worldsgreatestchad",
           47.98,
           3,
-          3170,
+          3175,
           9,
           "https://tiktok.com/@worldsgreatestchad/video/7694302109830827277"
         ],
@@ -1360,8 +1360,8 @@
           "mileidys_mily",
           40.98,
           2,
-          4349,
-          108,
+          4353,
+          109,
           "https://tiktok.com/@mileidys_mily/video/7692589468401847565"
         ],
         [
@@ -1382,8 +1382,8 @@
           "yesenia_coria_vargas",
           38.68,
           3,
-          5158,
-          1177,
+          5174,
+          1186,
           "https://tiktok.com/@yesenia_coria_vargas/video/7692627819989421343"
         ],
         [
@@ -1417,7 +1417,7 @@
           "Units sold": 1976.0,
           "Affiliate GMV": 39345.21,
           "Commission": 7701.73,
-          "Videos posted": 1072,
+          "Videos posted": 1054,
           "Creators posting": 336,
           "Video views": 3077726,
           "LIVE GMV": 12197.48,
@@ -1431,10 +1431,10 @@
           "Units sold": -72.74,
           "Affiliate GMV": -71.23,
           "Commission": -76.73,
-          "Videos posted": -26.42,
+          "Videos posted": -27.66,
           "Creators posting": -46.75,
           "Video views": -73.33,
-          "LIVE GMV": -74.0,
+          "LIVE GMV": -73.73,
           "DMs sent": -11.56,
           "Sample requests": -25.1,
           "Samples approved": -62.7,
@@ -2168,13 +2168,24 @@
       ],
       "videos": [
         [
+          "7687300190646078733",
+          "",
+          "bellahana20",
+          "bellahana20",
+          241.08,
+          7,
+          7035,
+          49,
+          "https://tiktok.com/@bellahana20/video/7687300190646078733"
+        ],
+        [
           "7683016023418653983",
           "#magneticdoorscreen #doorscreen #screendoor #fyp ",
           "icu185",
           "icu185",
           223.13,
           12,
-          22388,
+          22424,
           53,
           "https://tiktok.com/@icu185/video/7683016023418653983"
         ],
@@ -2190,24 +2201,13 @@
           "https://tiktok.com/@1373bel/video/7683330512680766733"
         ],
         [
-          "7687300190646078733",
-          "",
-          "bellahana20",
-          "bellahana20",
-          207.09,
-          6,
-          7030,
-          49,
-          "https://tiktok.com/@bellahana20/video/7687300190646078733"
-        ],
-        [
           "7686565002299346206",
           "@AFM Agency #traveltok #travelessentials #neckpillow #travelpillow #airportessentials ",
           "christianjohnson2022",
           "christianjohnson2022",
           174.47,
           4,
-          5577,
+          5598,
           40,
           "https://tiktok.com/@christianjohnson2022/video/7686565002299346206"
         ],
@@ -2218,7 +2218,7 @@
           "sylviaapproved",
           162.65,
           15,
-          16602,
+          16612,
           42,
           "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ],
@@ -2229,7 +2229,7 @@
           "keniaher.77",
           160.72,
           8,
-          9139,
+          9155,
           35,
           "https://tiktok.com/@keniaher.77/video/7685451539456068877"
         ],
@@ -2240,7 +2240,7 @@
           "tapa_mondo",
           153.57,
           11,
-          6295,
+          6299,
           65,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
@@ -2251,7 +2251,7 @@
           "macneggga",
           115.97,
           3,
-          2365,
+          2372,
           9,
           "https://tiktok.com/@macneggga/video/7683413553163914526"
         ],
@@ -2273,7 +2273,7 @@
           "sylviaapproved",
           74.83,
           6,
-          6287,
+          6290,
           35,
           "https://tiktok.com/@sylviaapproved/video/7692131608479943967"
         ]
@@ -2297,10 +2297,10 @@
           "Units sold": 5897.0,
           "Affiliate GMV": 113786.81,
           "Commission": 25939.75,
-          "Videos posted": 1786,
+          "Videos posted": 1768,
           "Creators posting": 643,
           "Video views": 7792641,
-          "LIVE GMV": 45112.04,
+          "LIVE GMV": 45108.58,
           "DMs sent": 96196,
           "Sample requests": 1828,
           "Samples approved": 487,
@@ -2311,10 +2311,10 @@
           "Units sold": -3.9,
           "Affiliate GMV": -13.54,
           "Commission": -2.3,
-          "Videos posted": 25.07,
+          "Videos posted": 23.81,
           "Creators posting": -9.69,
           "Video views": -31.03,
-          "LIVE GMV": -2.26,
+          "LIVE GMV": -1.23,
           "DMs sent": 127.89,
           "Sample requests": 1.84,
           "Samples approved": -43.7,
