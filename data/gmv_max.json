@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-11-06"
+    "pulled_on": "2026-11-07"
   },
   "periods": {
     "week": {
@@ -608,7 +608,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 17.0,
+          "roas_target": 5.5,
           "status": "ENABLE",
           "start": "2026-11-12",
           "product_ids": [
@@ -1225,7 +1225,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 17.0,
+          "roas_target": 5.5,
           "status": "ENABLE",
           "start": "2026-11-12",
           "product_ids": [
@@ -1842,7 +1842,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 17.0,
+          "roas_target": 5.5,
           "status": "ENABLE",
           "start": "2026-11-12",
           "product_ids": [
@@ -2459,7 +2459,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 17.0,
+          "roas_target": 5.5,
           "status": "ENABLE",
           "start": "2026-11-12",
           "product_ids": [
@@ -3076,7 +3076,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 17.0,
+          "roas_target": 5.5,
           "status": "ENABLE",
           "start": "2026-11-12",
           "product_ids": [
@@ -3090,7 +3090,7 @@
       ]
     },
     "live7d": {
-      "range": "2026-10-31 to 2026-11-06",
+      "range": "2026-11-01 to 2026-11-07",
       "totals": {
         "revenue": 0,
         "spend": 0,
@@ -3693,7 +3693,7 @@
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
-          "roas_target": 17.0,
+          "roas_target": 5.5,
           "status": "ENABLE",
           "start": "2026-11-12",
           "product_ids": [

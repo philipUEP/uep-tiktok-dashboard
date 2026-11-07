@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-11-06",
+    "pulled_on": "2026-11-07",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -125,7 +125,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firm Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Stress Relief, Office & Car Accessory",
+          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
           "price": 79.99,
           "total_gmv": 44.72,
           "share_pct": 2.9,
@@ -191,7 +191,7 @@
         },
         {
           "product_id": "1732655825084190939",
-          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets",
           "price": 29.99,
           "total_gmv": 5.0,
           "share_pct": 0.3,
@@ -504,7 +504,7 @@
         },
         {
           "product_id": "1732655825084190939",
-          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets",
           "price": 29.99,
           "total_gmv": 193.0,
           "share_pct": 5.5,
@@ -570,7 +570,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firm Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Stress Relief, Office & Car Accessory",
+          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
           "price": 79.99,
           "total_gmv": 82.71,
           "share_pct": 2.4,
@@ -840,7 +840,7 @@
         "total_gmv": 21255.54,
         "affiliate_gmv": 16906.12,
         "video_gmv": 11137.16,
-        "live_gmv": 6237.09,
+        "live_gmv": 6279.08,
         "shop_tab_gmv": 5168.65,
         "gmv_max_revenue": 12313.09,
         "subscription_revenue": 0
@@ -905,7 +905,7 @@
         },
         {
           "product_id": "1732655825084190939",
-          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets",
           "price": 29.99,
           "total_gmv": 594.0,
           "share_pct": 2.8,
@@ -960,7 +960,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firm Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Stress Relief, Office & Car Accessory",
+          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
           "price": 79.99,
           "total_gmv": 250.67,
           "share_pct": 1.2,
@@ -1252,7 +1252,7 @@
         "total_gmv": 48229.57,
         "affiliate_gmv": 39345.21,
         "video_gmv": 27065.12,
-        "live_gmv": 12197.48,
+        "live_gmv": 12239.47,
         "shop_tab_gmv": 11111.32,
         "gmv_max_revenue": 35522.100000000006,
         "subscription_revenue": 0
@@ -1328,7 +1328,7 @@
         },
         {
           "product_id": "1732655825084190939",
-          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets",
           "price": 29.99,
           "total_gmv": 594.0,
           "share_pct": 1.2,
@@ -1383,7 +1383,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firm Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Stress Relief, Office & Car Accessory",
+          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
           "price": 79.99,
           "total_gmv": 367.05,
           "share_pct": 0.8,
@@ -1708,7 +1708,7 @@
         "total_gmv": 131518.94,
         "affiliate_gmv": 113786.81,
         "video_gmv": 67571.22,
-        "live_gmv": 45108.58,
+        "live_gmv": 45187.27,
         "shop_tab_gmv": 23316.13,
         "gmv_max_revenue": 103212.35000000002,
         "subscription_revenue": 0
@@ -1817,7 +1817,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firm Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Stress Relief, Office & Car Accessory",
+          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
           "price": 79.99,
           "total_gmv": 655.92,
           "share_pct": 0.5,
@@ -1828,7 +1828,7 @@
         },
         {
           "product_id": "1732655825084190939",
-          "product_name": "Everlasting Comfort Faux Fur Throw - Double-Sided Animal Print & Solid Design, Plush, Thick & Durable, Machine Washable & Dryer Safe, Animal Style Blanket, Comfortable Soft Option for Cozy Nights, Feel Cosy Home Snuggles",
+          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets",
           "price": 29.99,
           "total_gmv": 594.0,
           "share_pct": 0.5,
