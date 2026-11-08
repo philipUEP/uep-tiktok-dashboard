@@ -1,58 +1,58 @@
 {
-  "updated_at": "2026-11-07T07:50:03+00:00",
+  "updated_at": "2026-11-08T07:20:00+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
-      "current": 201.49,
-      "prior": 354.98,
-      "pct": -43.24,
+      "current": 0.0,
+      "prior": 201.49,
+      "pct": -100.0,
       "direction": "down",
-      "effect": "67 streams drew 255,693 views but converted only 8 units, and at $3.01 GMV per stream the format returns about a fifth of October's $14.71.",
-      "action": "Pin Screen Door and Bidet on every stream, enforce a 30 minute minimum and add a two unit bundle."
+      "effect": "Live covered 13.2% of last week's GMV and is now at zero, leaving shop tab and paid as the only channels.",
+      "action": "Run streams this week with Screen Door and Bidet pinned, 30 minute minimums and a two unit bundle."
     },
     {
-      "metric": "Orders (52 units)",
-      "current": 45,
-      "prior": 77,
-      "pct": -41.56,
+      "metric": "DMs sent",
+      "current": 48,
+      "prior": 260,
+      "pct": -81.54,
       "direction": "down",
-      "effect": "Orders and units fell three weeks running while views rose 10.7%, so the loss tracks 28 fewer video posts rather than reach.",
-      "action": "Rebuild weekly posting toward 90 videos before adding discounts, since orders per video only fell from 0.82 to 0.68."
+      "effect": "Outreach input collapsed to 48 sends, so replies of 14 sit on a base a fifth of last week's and the posting pipeline loses its feed.",
+      "action": "Hold DM volume at 200 per week to protect the 29.17% reply rate."
     },
     {
-      "metric": "GMV (3 week run)",
-      "current": 1524.91,
-      "prior": 1958.73,
-      "pct": -22.11,
-      "direction": "down",
-      "effect": "The third consecutive weekly decline leaves the shop at 18.1% of the 8,444.44 week of Oct 5.",
-      "action": "Treat this as a supply problem and restore posting volume and paid spend on Screen Door and Bidet in the same week."
-    },
-    {
-      "metric": "Creators posting",
+      "metric": "Videos posted",
       "current": 35,
-      "prior": 49,
-      "pct": -28.57,
+      "prior": 66,
+      "pct": -46.97,
       "direction": "down",
-      "effect": "Active creators fell for a third straight week while collab invites stayed at zero, so the posting base keeps shrinking.",
-      "action": "Re-invite creators active in the Oct 12 week who went silent in Oct 26, and resume collab invites this week."
+      "effect": "Post volume fell 47% while views per video rose 45.3% and orders per video rose from 0.68 to 0.97, so the GMV loss tracks missing posts.",
+      "action": "Re-invite the 90 creators active in the Oct 12 week and resume collab invites, zero for four weeks."
     },
     {
-      "metric": "Repel Blitz ROAS (target 1.2)",
+      "metric": "GMV (4 week run)",
+      "current": 1224.49,
+      "prior": 1524.91,
+      "pct": -19.7,
+      "direction": "down",
+      "effect": "Four straight weekly declines leave GMV at 25.2% of the 4,864.99 week of Oct 12, though the open week understates the per day figure.",
+      "action": "Restore posting volume and restart paid on Screen Door and Bidet in the same week."
+    },
+    {
+      "metric": "Repel Blitz ROAS (30d, target 1.2)",
       "current": 0.746,
       "prior": 1.2,
       "pct": -37.83,
       "direction": "down",
-      "effect": "The campaign spent 4,018.13 to return 2,998.79 over 30 days, under its 1.2 target and under the 1.43 shop-wide GMV Max ROAS.",
+      "effect": "The campaign spent 4,018.13 to return 2,998.79 over 30 days, below its 1.2 target and below the 1.43 shop-wide GMV Max ROAS.",
       "action": "Keep it paused and do not restart until refreshed creative holds above 1.2."
     },
     {
       "metric": "Sample rejection rate (of decided)",
-      "current": 85.7,
-      "prior": 90.9,
-      "pct": -5.72,
+      "current": 58.3,
+      "prior": 85.7,
+      "pct": -31.97,
       "direction": "down",
-      "effect": "18 rejections against 3 posts plus 46 expiries leave 204 of 300 applications unreviewed and almost no creator producing content.",
+      "effect": "14 rejections against 3 posts and 7 content pending leaves 205 of 300 applications unreviewed, so almost no intake reaches a video.",
       "action": "Clear the queue at 25 approvals per day for two days, ranked by follower count and post rate."
     }
   ]
