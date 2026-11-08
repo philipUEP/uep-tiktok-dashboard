@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T07:24:00+00:00",
+  "updated_at": "2026-11-07T07:50:03+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,8 +7,8 @@
       "prior": 354.98,
       "pct": -43.24,
       "direction": "down",
-      "effect": "67 streams drew 255,693 views and converted 8 units against 29 units the week before, so live is reaching fewer viewers and monetising them worse.",
-      "action": "Pin the lead product on every stream, enforce a 30 minute minimum and add a two unit bundle."
+      "effect": "67 streams drew 255,693 views but converted only 8 units, and at $3.01 GMV per stream the format returns about a fifth of October's $14.71.",
+      "action": "Pin Screen Door and Bidet on every stream, enforce a 30 minute minimum and add a two unit bundle."
     },
     {
       "metric": "Orders (52 units)",
@@ -16,17 +16,8 @@
       "prior": 77,
       "pct": -41.56,
       "direction": "down",
-      "effect": "Orders and units have fallen three weeks running while views rose 10.7%, so the break is video volume and conversion per video, not reach.",
-      "action": "Rebuild weekly video volume toward 90 posts before adding discounts, since orders per video only slipped from 0.82 to 0.68."
-    },
-    {
-      "metric": "Creators posting",
-      "current": 35,
-      "prior": 49,
-      "pct": -28.57,
-      "direction": "down",
-      "effect": "Active creators fell for a third straight week after collab invites dropped to zero from 1,993 in the week of Oct 12.",
-      "action": "Re-invite every creator who posted in the Oct 12 week but was silent last week, and resume collab invites this week."
+      "effect": "Orders and units fell three weeks running while views rose 10.7%, so the loss tracks 28 fewer video posts rather than reach.",
+      "action": "Rebuild weekly posting toward 90 videos before adding discounts, since orders per video only fell from 0.82 to 0.68."
     },
     {
       "metric": "GMV (3 week run)",
@@ -34,26 +25,35 @@
       "prior": 1958.73,
       "pct": -22.11,
       "direction": "down",
-      "effect": "Third consecutive weekly decline leaves the shop at 18.1% of the 8,444.44 peak week of Oct 5.",
-      "action": "Treat this as a supply problem and restore posting volume plus paid spend on Screen Door and Bidet in the same week."
+      "effect": "The third consecutive weekly decline leaves the shop at 18.1% of the 8,444.44 week of Oct 5.",
+      "action": "Treat this as a supply problem and restore posting volume and paid spend on Screen Door and Bidet in the same week."
     },
     {
-      "metric": "GMV Max spend",
-      "current": 0,
-      "prior": 117.47,
-      "pct": -100.0,
+      "metric": "Creators posting",
+      "current": 35,
+      "prior": 49,
+      "pct": -28.57,
       "direction": "down",
-      "effect": "31 of 32 campaigns are disabled and the one enabled Black Friday campaign recorded no spend, so the channel that carried 57.9% of October GMV is dark.",
-      "action": "Turn Screen Door and Bidet back on at their October levels of 2,315 and 1,774 monthly spend, and keep Repel Blitz off at 0.746."
+      "effect": "Active creators fell for a third straight week while collab invites stayed at zero, so the posting base keeps shrinking.",
+      "action": "Re-invite creators active in the Oct 12 week who went silent in Oct 26, and resume collab invites this week."
     },
     {
-      "metric": "Samples awaiting review",
-      "current": 207,
-      "prior": 197,
-      "pct": 5.08,
-      "direction": "up",
-      "effect": "207 of 300 applications sit un-reviewed while 42 expired and 20 were rejected against 2 posted, so creators age out before a sample ships.",
-      "action": "Clear the queue in 48 hours at 25 approvals per day, ranked by follower count and post rate."
+      "metric": "Repel Blitz ROAS (target 1.2)",
+      "current": 0.746,
+      "prior": 1.2,
+      "pct": -37.83,
+      "direction": "down",
+      "effect": "The campaign spent 4,018.13 to return 2,998.79 over 30 days, under its 1.2 target and under the 1.43 shop-wide GMV Max ROAS.",
+      "action": "Keep it paused and do not restart until refreshed creative holds above 1.2."
+    },
+    {
+      "metric": "Sample rejection rate (of decided)",
+      "current": 85.7,
+      "prior": 90.9,
+      "pct": -5.72,
+      "direction": "down",
+      "effect": "18 rejections against 3 posts plus 46 expiries leave 204 of 300 applications unreviewed and almost no creator producing content.",
+      "action": "Clear the queue at 25 approvals per day for two days, ranked by follower count and post rate."
     }
   ]
 }
