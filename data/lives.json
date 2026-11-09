@@ -1,19 +1,333 @@
 {
   "_provenance": {
     "source": "Cruva REST /affiliate/lives/list",
-    "pulled_on": "2026-11-08"
+    "pulled_on": "2026-11-09"
   },
   "periods": {
     "week": {
-      "range": "2026-10-26 to 2026-11-01",
-      "total": 67,
-      "total_count": 67,
+      "range": "2026-11-02 to 2026-11-08",
+      "total": 62,
+      "total_count": 62,
+      "truncated": false,
+      "totals": {
+        "gmv": 0,
+        "units": 0,
+        "views": 220570,
+        "streams": 62
+      },
+      "lives": [
+        {
+          "handle": "emilydeck6",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 3271,
+          "likes": 34797,
+          "comments": 403,
+          "duration_min": 199.1,
+          "start": "11/02/2026",
+          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
+        },
+        {
+          "handle": "betty02_2626",
+          "title": "Bienvenidos\ud83e\udd17\ud83d\ude4f\ud83c\udffd",
+          "gmv": 0,
+          "units": 0,
+          "views": 624,
+          "likes": 649,
+          "comments": 3,
+          "duration_min": 44.6,
+          "start": "11/02/2026",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,"
+        },
+        {
+          "handle": "shortbgirl86",
+          "title": "flashsales and auctions",
+          "gmv": 0,
+          "units": 0,
+          "views": 0,
+          "likes": 0,
+          "comments": 0,
+          "duration_min": 0.2,
+          "start": "11/02/2026",
+          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory"
+        },
+        {
+          "handle": "upperechelonproducts_",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 528,
+          "likes": 1,
+          "comments": 2,
+          "duration_min": 90.4,
+          "start": "11/02/2026",
+          "product_name": ""
+        },
+        {
+          "handle": "docmac0922",
+          "title": "HIY6? COME CHAT AND SHOP",
+          "gmv": 0,
+          "units": 0,
+          "views": 1168,
+          "likes": 15787,
+          "comments": 341,
+          "duration_min": 150.3,
+          "start": "11/02/2026",
+          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen"
+        },
+        {
+          "handle": "noon_vr",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 477,
+          "likes": 1926,
+          "comments": 3,
+          "duration_min": 34.4,
+          "start": "11/02/2026",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,"
+        },
+        {
+          "handle": "fabdshops",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 6079,
+          "likes": 30141,
+          "comments": 719,
+          "duration_min": 219.4,
+          "start": "11/02/2026",
+          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
+        },
+        {
+          "handle": "noon_vr",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 75,
+          "likes": 211,
+          "comments": 0,
+          "duration_min": 14.3,
+          "start": "11/02/2026",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,"
+        },
+        {
+          "handle": "zaygenoffers",
+          "title": "Black Friday #tablet #android",
+          "gmv": 0,
+          "units": 0,
+          "views": 3735,
+          "likes": 2014,
+          "comments": 13,
+          "duration_min": 73.3,
+          "start": "11/03/2026",
+          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
+        },
+        {
+          "handle": "latoyamance",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 381,
+          "likes": 12,
+          "comments": 2,
+          "duration_min": 51.6,
+          "start": "11/03/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "josejoya0422",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 539,
+          "likes": 2511,
+          "comments": 53,
+          "duration_min": 110.3,
+          "start": "11/03/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "shortbgirl86",
+          "title": "flashsales and auctions",
+          "gmv": 0,
+          "units": 0,
+          "views": 571,
+          "likes": 69363,
+          "comments": 95,
+          "duration_min": 68.5,
+          "start": "11/03/2026",
+          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory"
+        },
+        {
+          "handle": "hot.mom.energy.fi",
+          "title": "What is NMN?",
+          "gmv": 0,
+          "units": 0,
+          "views": 947,
+          "likes": 46884,
+          "comments": 189,
+          "duration_min": 92.7,
+          "start": "11/03/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "zaygenoffers",
+          "title": "Black Friday #tv #smartv",
+          "gmv": 0,
+          "units": 0,
+          "views": 13851,
+          "likes": 2281,
+          "comments": 127,
+          "duration_min": 180.2,
+          "start": "11/03/2026",
+          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
+        },
+        {
+          "handle": "fortune0420",
+          "title": "Detachable bidet flash sale",
+          "gmv": 0,
+          "units": 0,
+          "views": 2501,
+          "likes": 163,
+          "comments": 37,
+          "duration_min": 56.2,
+          "start": "11/03/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "poppys.pets1959",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 865,
+          "likes": 50404,
+          "comments": 241,
+          "duration_min": 58.0,
+          "start": "11/04/2026",
+          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen"
+        },
+        {
+          "handle": "yulietemprededoracubana",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 1112,
+          "likes": 7060,
+          "comments": 47,
+          "duration_min": 101.7,
+          "start": "11/04/2026",
+          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\"x85\" Extra Large (5-8 People), Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack-Go, Reusable - W/Carrying Bag, Travel Clip, 4 Stakes - For Beach,Camping - Sports & Outdoor Picnicware, E"
+        },
+        {
+          "handle": "mgreat20",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 1096,
+          "likes": 13420,
+          "comments": 11,
+          "duration_min": 150.5,
+          "start": "11/04/2026",
+          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen"
+        },
+        {
+          "handle": "shortbgirl86",
+          "title": "flashsales and auctions",
+          "gmv": 0,
+          "units": 0,
+          "views": 633,
+          "likes": 36681,
+          "comments": 52,
+          "duration_min": 72.8,
+          "start": "11/04/2026",
+          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory"
+        },
+        {
+          "handle": "docmac0922",
+          "title": "HIY6? WHAT IT DO",
+          "gmv": 0,
+          "units": 0,
+          "views": 982,
+          "likes": 12321,
+          "comments": 371,
+          "duration_min": 106.5,
+          "start": "11/04/2026",
+          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen"
+        },
+        {
+          "handle": "gisselleshop",
+          "title": "Oferta con las 3 b",
+          "gmv": 0,
+          "units": 0,
+          "views": 612,
+          "likes": 16169,
+          "comments": 16,
+          "duration_min": 51.4,
+          "start": "11/04/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "zaygenoffers",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 16880,
+          "likes": 1950,
+          "comments": 166,
+          "duration_min": 122.0,
+          "start": "11/04/2026",
+          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
+        },
+        {
+          "handle": "fortune0420",
+          "title": "Detachable bidet flash sale",
+          "gmv": 0,
+          "units": 0,
+          "views": 13827,
+          "likes": 3184,
+          "comments": 263,
+          "duration_min": 123.0,
+          "start": "11/04/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "gabriela_johnson26",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 1868,
+          "likes": 560,
+          "comments": 26,
+          "duration_min": 94.6,
+          "start": "11/04/2026",
+          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
+        },
+        {
+          "handle": "fortune0420",
+          "title": "smart bidet flash sale",
+          "gmv": 0,
+          "units": 0,
+          "views": 12952,
+          "likes": 342,
+          "comments": 145,
+          "duration_min": 129.3,
+          "start": "11/05/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        }
+      ]
+    },
+    "14d": {
+      "range": "2026-10-26 to 2026-11-08",
+      "total": 136,
+      "total_count": 136,
       "truncated": false,
       "totals": {
         "gmv": 201.49,
         "units": 8,
-        "views": 255693,
-        "streams": 67
+        "views": 499696,
+        "streams": 136
       },
       "lives": [
         {
@@ -318,18 +632,42 @@
         }
       ]
     },
-    "14d": {
-      "range": "2026-10-19 to 2026-11-01",
-      "total": 151,
-      "total_count": 151,
+    "month": {
+      "range": "2026-10-10 to 2026-11-08",
+      "total": 362,
+      "total_count": 362,
       "truncated": false,
       "totals": {
-        "gmv": 556.47,
-        "units": 37,
-        "views": 838179,
-        "streams": 151
+        "gmv": 1991.4,
+        "units": 84,
+        "views": 1803714,
+        "streams": 362
       },
       "lives": [
+        {
+          "handle": "fortune0420",
+          "title": "Fall Deals For You LIVE",
+          "gmv": 447.99,
+          "units": 12,
+          "views": 38907,
+          "likes": 143,
+          "comments": 92,
+          "duration_min": 99.7,
+          "start": "10/10/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "fortune0420",
+          "title": "Fall Deals For You LIVE",
+          "gmv": 318.18,
+          "units": 8,
+          "views": 21732,
+          "likes": 522,
+          "comments": 102,
+          "duration_min": 126.0,
+          "start": "10/11/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
         {
           "handle": "opantalk",
           "title": "Non Stop Giveaways MEGA Live!",
@@ -340,7 +678,43 @@
           "comments": 29884,
           "duration_min": 339.9,
           "start": "10/21/2026",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets"
+          "product_name": ""
+        },
+        {
+          "handle": "fortune0420",
+          "title": "Fall Deals For You LIVE",
+          "gmv": 162.63,
+          "units": 4,
+          "views": 21704,
+          "likes": 516,
+          "comments": 87,
+          "duration_min": 104.3,
+          "start": "10/12/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "opantalk",
+          "title": "PS5/iPads Giveaways MEGA Live",
+          "gmv": 131.0,
+          "units": 10,
+          "views": 182348,
+          "likes": 3223764,
+          "comments": 39026,
+          "duration_min": 384.7,
+          "start": "10/15/2026",
+          "product_name": ""
+        },
+        {
+          "handle": "fortune0420",
+          "title": "Fall Deals For You LIVE",
+          "gmv": 112.97,
+          "units": 3,
+          "views": 30306,
+          "likes": 280,
+          "comments": 45,
+          "duration_min": 84.3,
+          "start": "10/11/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
           "handle": "upperechelonproducts_",
@@ -369,6 +743,30 @@
         {
           "handle": "upperechelonproducts_",
           "title": "",
+          "gmv": 93.97,
+          "units": 3,
+          "views": 573,
+          "likes": 1218,
+          "comments": 24,
+          "duration_min": 43.9,
+          "start": "10/16/2026",
+          "product_name": ""
+        },
+        {
+          "handle": "upperechelonproducts_",
+          "title": "",
+          "gmv": 87.3,
+          "units": 2,
+          "views": 413,
+          "likes": 0,
+          "comments": 9,
+          "duration_min": 28.7,
+          "start": "10/15/2026",
+          "product_name": ""
+        },
+        {
+          "handle": "upperechelonproducts_",
+          "title": "",
           "gmv": 41.0,
           "units": 7,
           "views": 600,
@@ -389,6 +787,18 @@
           "duration_min": 76.0,
           "start": "10/30/2026",
           "product_name": ""
+        },
+        {
+          "handle": "therealcinnimon",
+          "title": "Latenight shop \ud83d\udecd\ufe0f",
+          "gmv": 34.18,
+          "units": 2,
+          "views": 3210,
+          "likes": 42213,
+          "comments": 32,
+          "duration_min": 102.5,
+          "start": "10/18/2026",
+          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
         },
         {
           "handle": "upperechelonproducts_",
@@ -427,6 +837,18 @@
           "product_name": ""
         },
         {
+          "handle": "therealcinnimon",
+          "title": "Flashsale \ud83d\udecd\ufe0f mega live",
+          "gmv": 17.99,
+          "units": 1,
+          "views": 2935,
+          "likes": 1113,
+          "comments": 16,
+          "duration_min": 84.0,
+          "start": "10/16/2026",
+          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
+        },
+        {
           "handle": "upperechelonproducts_",
           "title": "",
           "gmv": 17.99,
@@ -439,209 +861,101 @@
           "product_name": ""
         },
         {
-          "handle": "ghost_labrador",
-          "title": "Pop-In Live! Catch Up & Goodies!",
-          "gmv": 0,
-          "units": 0,
-          "views": 677,
-          "likes": 17392,
-          "comments": 259,
-          "duration_min": 77.8,
-          "start": "10/19/2026",
+          "handle": "therealcinnimon",
+          "title": "Chat and shop \ud83d\udecd\ufe0f",
+          "gmv": 17.73,
+          "units": 1,
+          "views": 604,
+          "likes": 1448,
+          "comments": 16,
+          "duration_min": 33.5,
+          "start": "10/18/2026",
           "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
         },
         {
-          "handle": "goldvizta",
-          "title": "tiktok live #fyp #viral",
-          "gmv": 0,
-          "units": 0,
-          "views": 588,
-          "likes": 1024,
-          "comments": 836,
-          "duration_min": 62.7,
-          "start": "10/19/2026",
-          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen"
-        },
-        {
-          "handle": "shortbgirl86",
-          "title": "flashsales and auctions",
-          "gmv": 0,
-          "units": 0,
-          "views": 679,
-          "likes": 14171,
-          "comments": 31,
-          "duration_min": 61.8,
-          "start": "10/19/2026",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory"
-        },
-        {
-          "handle": "upperechelonproducts_",
+          "handle": "allday_dream",
           "title": "",
-          "gmv": 0,
-          "units": 0,
-          "views": 436,
-          "likes": 170,
-          "comments": 8,
-          "duration_min": 45.9,
-          "start": "10/19/2026",
-          "product_name": ""
-        },
-        {
-          "handle": "lorenag694",
-          "title": "Hola  bienvenidos saludos",
-          "gmv": 0,
-          "units": 0,
-          "views": 1439,
-          "likes": 2220,
-          "comments": 19,
-          "duration_min": 64.7,
-          "start": "10/19/2026",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
-        },
-        {
-          "handle": "brisojitos1",
-          "title": "Bienvenido \ud83e\udd17",
-          "gmv": 0,
-          "units": 0,
-          "views": 10,
-          "likes": 0,
-          "comments": 0,
-          "duration_min": 1.6,
-          "start": "10/19/2026",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
-        },
-        {
-          "handle": "zaygenoffers",
-          "title": "#blower #soplador #oto\u00f1o",
-          "gmv": 0,
-          "units": 0,
-          "views": 7188,
-          "likes": 2184,
-          "comments": 18,
-          "duration_min": 91.0,
-          "start": "10/19/2026",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
-        },
-        {
-          "handle": "upperechelonproducts_",
-          "title": "",
-          "gmv": 0,
-          "units": 0,
-          "views": 392,
-          "likes": 0,
-          "comments": 1,
-          "duration_min": 22.8,
-          "start": "10/19/2026",
-          "product_name": ""
-        },
-        {
-          "handle": "fortune0420",
-          "title": "Bidet flash sale",
-          "gmv": 0,
-          "units": 0,
-          "views": 23631,
-          "likes": 393,
-          "comments": 165,
-          "duration_min": 129.7,
-          "start": "10/19/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "madelyn.official5",
-          "title": "",
-          "gmv": 0,
-          "units": 0,
-          "views": 597,
-          "likes": 79,
+          "gmv": 10.99,
+          "units": 1,
+          "views": 2178,
+          "likes": 208,
           "comments": 2,
-          "duration_min": 41.5,
-          "start": "10/19/2026",
+          "duration_min": 53.1,
+          "start": "10/10/2026",
           "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
         },
         {
-          "handle": "shopwithisela",
-          "title": "Tell me the # you want!",
+          "handle": "poppys.pets1959",
+          "title": "",
           "gmv": 0,
           "units": 0,
-          "views": 753,
-          "likes": 8376,
-          "comments": 7,
-          "duration_min": 100.6,
-          "start": "10/20/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "zaygenoffers",
-          "title": "Ducha #Home",
-          "gmv": 0,
-          "units": 0,
-          "views": 2415,
-          "likes": 1244,
-          "comments": 9,
-          "duration_min": 60.0,
-          "start": "10/20/2026",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
-        },
-        {
-          "handle": "goldvizta",
-          "title": "tiktok live #fyp #viral",
-          "gmv": 0,
-          "units": 0,
-          "views": 501,
-          "likes": 3974,
-          "comments": 54,
-          "duration_min": 61.2,
-          "start": "10/20/2026",
+          "views": 1034,
+          "likes": 37816,
+          "comments": 223,
+          "duration_min": 66.2,
+          "start": "10/10/2026",
           "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen"
         },
         {
-          "handle": "shortbgirl86",
-          "title": "flashsales and auctions",
+          "handle": "mgreat20",
+          "title": "NEX PLAYGROUND-El mejor regalo!",
           "gmv": 0,
           "units": 0,
-          "views": 583,
-          "likes": 76657,
-          "comments": 33,
-          "duration_min": 64.6,
-          "start": "10/20/2026",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory"
+          "views": 558,
+          "likes": 6277,
+          "comments": 6,
+          "duration_min": 188.1,
+          "start": "10/10/2026",
+          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen"
         },
         {
-          "handle": "upperechelonproducts_",
+          "handle": "allday_dream",
           "title": "",
           "gmv": 0,
           "units": 0,
-          "views": 537,
-          "likes": 26,
-          "comments": 3,
-          "duration_min": 61.0,
-          "start": "10/20/2026",
-          "product_name": ""
+          "views": 1284,
+          "likes": 992,
+          "comments": 4,
+          "duration_min": 50.9,
+          "start": "10/10/2026",
+          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
         },
         {
-          "handle": "sweetlorraines7",
+          "handle": "tastemyunicornsprinkles",
           "title": "",
           "gmv": 0,
           "units": 0,
-          "views": 340,
-          "likes": 41,
-          "comments": 7,
-          "duration_min": 27.2,
-          "start": "10/20/2026",
+          "views": 1048,
+          "likes": 4679,
+          "comments": 141,
+          "duration_min": 58.2,
+          "start": "10/10/2026",
+          "product_name": "Everlasting Comfort Sturdy Outdoor Picnic Blanket - 97\"x85\" Extra Large (5-8 People), Portable, Washable, Quick-Dry, Waterproof, Sandproof, Fast Pack-Go, Reusable - W/Carrying Bag, Travel Clip, 4 Stakes - For Beach,Camping - Sports & Outdoor Picnicware, E"
+        },
+        {
+          "handle": "rosalialacayo",
+          "title": "",
+          "gmv": 0,
+          "units": 0,
+          "views": 846,
+          "likes": 656,
+          "comments": 32,
+          "duration_min": 103.2,
+          "start": "10/10/2026",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         }
       ]
     },
-    "month": {
-      "range": "2026-10-03 to 2026-11-01",
-      "total": 427,
-      "total_count": 427,
+    "60d": {
+      "range": "2026-09-10 to 2026-11-08",
+      "total": 908,
+      "total_count": 908,
       "truncated": false,
       "totals": {
-        "gmv": 6279.08,
-        "units": 234,
-        "views": 2438109,
-        "streams": 427
+        "gmv": 8718.4,
+        "units": 319,
+        "views": 4909318,
+        "streams": 908
       },
       "lives": [
         {
@@ -649,7 +963,7 @@
           "title": "Better Butts Start Here\ud83d\udebd\ud83e\uddfb",
           "gmv": 1203.0,
           "units": 36,
-          "views": 117430,
+          "views": 58716,
           "likes": 675,
           "comments": 156,
           "duration_min": 93.7,
@@ -661,7 +975,7 @@
           "title": "Better Butts Start Here\ud83d\udebd\ud83e\uddfb",
           "gmv": 1197.94,
           "units": 35,
-          "views": 39356,
+          "views": 31485,
           "likes": 2415,
           "comments": 226,
           "duration_min": 83.0,
@@ -678,6 +992,18 @@
           "comments": 115,
           "duration_min": 61.2,
           "start": "10/05/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "boldvideos7",
+          "title": "LIVE FLASH SALE",
+          "gmv": 515.0,
+          "units": 16,
+          "views": 33280,
+          "likes": 186,
+          "comments": 47,
+          "duration_min": 91.0,
+          "start": "09/12/2026",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
@@ -705,6 +1031,18 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
+          "handle": "boldvideos7",
+          "title": "WEEKEND DEALS",
+          "gmv": 372.0,
+          "units": 12,
+          "views": 12952,
+          "likes": 277,
+          "comments": 27,
+          "duration_min": 87.6,
+          "start": "09/13/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
           "handle": "fortune0420",
           "title": "Fall Deals For You LIVE",
           "gmv": 318.18,
@@ -717,6 +1055,18 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
+          "handle": "boldvideos7",
+          "title": "WEEKEND DEALS",
+          "gmv": 310.8,
+          "units": 11,
+          "views": 44550,
+          "likes": 120,
+          "comments": 44,
+          "duration_min": 77.8,
+          "start": "09/12/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
           "handle": "opantalk",
           "title": "Non Stop Giveaways MEGA Live",
           "gmv": 270.0,
@@ -726,7 +1076,7 @@
           "comments": 36636,
           "duration_min": 296.8,
           "start": "10/07/2026",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets"
+          "product_name": ""
         },
         {
           "handle": "opantalk",
@@ -738,7 +1088,19 @@
           "comments": 29884,
           "duration_min": 339.9,
           "start": "10/21/2026",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets"
+          "product_name": ""
+        },
+        {
+          "handle": "alldaysteals",
+          "title": "Major Bidet Sale",
+          "gmv": 165.76,
+          "units": 4,
+          "views": 2244,
+          "likes": 56,
+          "comments": 2,
+          "duration_min": 24.4,
+          "start": "09/18/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
           "handle": "fortune0420",
@@ -765,6 +1127,18 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
+          "handle": "boldvideos7",
+          "title": "",
+          "gmv": 133.41,
+          "units": 4,
+          "views": 14440,
+          "likes": 4,
+          "comments": 34,
+          "duration_min": 62.9,
+          "start": "09/11/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
           "handle": "opantalk",
           "title": "PS5/iPads Giveaways MEGA Live",
           "gmv": 131.0,
@@ -774,7 +1148,7 @@
           "comments": 39026,
           "duration_min": 384.7,
           "start": "10/15/2026",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets"
+          "product_name": ""
         },
         {
           "handle": "fortune0420",
@@ -786,6 +1160,18 @@
           "comments": 45,
           "duration_min": 84.3,
           "start": "10/11/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "boldvideos7",
+          "title": "LIVE EXCLUSIVE FLASH SALE",
+          "gmv": 112.21,
+          "units": 3,
+          "views": 27314,
+          "likes": 25,
+          "comments": 22,
+          "duration_min": 76.8,
+          "start": "09/10/2026",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
@@ -871,404 +1257,18 @@
           "duration_min": 28.7,
           "start": "10/15/2026",
           "product_name": ""
-        },
-        {
-          "handle": "upperechelonproducts_",
-          "title": "",
-          "gmv": 58.0,
-          "units": 6,
-          "views": 596,
-          "likes": 51,
-          "comments": 8,
-          "duration_min": 16.7,
-          "start": "10/03/2026",
-          "product_name": ""
-        },
-        {
-          "handle": "upperechelonproducts_",
-          "title": "",
-          "gmv": 41.0,
-          "units": 7,
-          "views": 600,
-          "likes": 1,
-          "comments": 36,
-          "duration_min": 66.0,
-          "start": "10/21/2026",
-          "product_name": ""
-        },
-        {
-          "handle": "upperechelonproducts_",
-          "title": "",
-          "gmv": 39.99,
-          "units": 1,
-          "views": 628,
-          "likes": 82,
-          "comments": 10,
-          "duration_min": 76.0,
-          "start": "10/30/2026",
-          "product_name": ""
-        },
-        {
-          "handle": "therealcinnimon",
-          "title": "Latenight shop \ud83d\udecd\ufe0f",
-          "gmv": 34.18,
-          "units": 2,
-          "views": 3210,
-          "likes": 42213,
-          "comments": 32,
-          "duration_min": 102.5,
-          "start": "10/18/2026",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas"
-        },
-        {
-          "handle": "upperechelonproducts_",
-          "title": "",
-          "gmv": 31.99,
-          "units": 3,
-          "views": 596,
-          "likes": 1611,
-          "comments": 14,
-          "duration_min": 65.6,
-          "start": "10/23/2026",
-          "product_name": ""
-        },
-        {
-          "handle": "mgreat20",
-          "title": "",
-          "gmv": 27.83,
-          "units": 1,
-          "views": 9569,
-          "likes": 14193,
-          "comments": 50,
-          "duration_min": 185.7,
-          "start": "10/29/2026",
-          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen"
-        }
-      ]
-    },
-    "60d": {
-      "range": "2026-09-03 to 2026-11-01",
-      "total": 956,
-      "total_count": 956,
-      "truncated": false,
-      "totals": {
-        "gmv": 12239.47,
-        "units": 432,
-        "views": 5284171,
-        "streams": 956
-      },
-      "lives": [
-        {
-          "handle": "lauriesfindslive",
-          "title": "Better Butts Start Here\ud83d\udebd\ud83e\uddfb",
-          "gmv": 1203.0,
-          "units": 36,
-          "views": 117430,
-          "likes": 675,
-          "comments": 156,
-          "duration_min": 93.7,
-          "start": "10/04/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "lauriesfindslive",
-          "title": "Better Butts Start Here\ud83d\udebd\ud83e\uddfb",
-          "gmv": 1197.94,
-          "units": 35,
-          "views": 39356,
-          "likes": 2415,
-          "comments": 226,
-          "duration_min": 83.0,
-          "start": "10/03/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "boldvideos7",
-          "title": "LIVE EXCLUSIVE BIDET DISCOUNT",
-          "gmv": 726.85,
-          "units": 22,
-          "views": 44664,
-          "likes": 2496,
-          "comments": 52,
-          "duration_min": 131.4,
-          "start": "09/03/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "fortune0420",
-          "title": "\"Bidet\" flash sale!!",
-          "gmv": 723.9,
-          "units": 24,
-          "views": 58790,
-          "likes": 1516,
-          "comments": 180,
-          "duration_min": 186.3,
-          "start": "09/03/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "lauriesfindslive",
-          "title": "Better Butts Start Here\ud83d\udebd\ud83e\uddfb",
-          "gmv": 634.09,
-          "units": 19,
-          "views": 88105,
-          "likes": 556,
-          "comments": 115,
-          "duration_min": 61.2,
-          "start": "10/05/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "boldvideos7",
-          "title": "LIVE FLASH SALE",
-          "gmv": 515.0,
-          "units": 16,
-          "views": 33280,
-          "likes": 186,
-          "comments": 47,
-          "duration_min": 91.0,
-          "start": "09/12/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "fortune0420",
-          "title": "Fall Deals For You LIVE",
-          "gmv": 447.99,
-          "units": 12,
-          "views": 38907,
-          "likes": 143,
-          "comments": 92,
-          "duration_min": 99.7,
-          "start": "10/10/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "lauriesfindslive",
-          "title": "Better Butts Start Here\ud83d\udebd\ud83e\uddfb",
-          "gmv": 385.09,
-          "units": 11,
-          "views": 24750,
-          "likes": 223,
-          "comments": 58,
-          "duration_min": 56.6,
-          "start": "10/05/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "boldvideos7",
-          "title": "WEEKEND DEALS",
-          "gmv": 372.0,
-          "units": 12,
-          "views": 12952,
-          "likes": 277,
-          "comments": 27,
-          "duration_min": 87.6,
-          "start": "09/13/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "boldvideos7",
-          "title": "LABOR DAY SALES",
-          "gmv": 371.75,
-          "units": 10,
-          "views": 23459,
-          "likes": 30,
-          "comments": 44,
-          "duration_min": 79.9,
-          "start": "09/07/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "boldvideos7",
-          "title": "LABOR DAY SALES",
-          "gmv": 355.03,
-          "units": 12,
-          "views": 36711,
-          "likes": 9,
-          "comments": 65,
-          "duration_min": 82.2,
-          "start": "09/08/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "fortune0420",
-          "title": "\"Bidet\" flash sale!!",
-          "gmv": 349.1,
-          "units": 12,
-          "views": 59198,
-          "likes": 9529,
-          "comments": 98,
-          "duration_min": 130.5,
-          "start": "09/04/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "fortune0420",
-          "title": "Fall Deals For You LIVE",
-          "gmv": 318.18,
-          "units": 8,
-          "views": 21732,
-          "likes": 522,
-          "comments": 102,
-          "duration_min": 126.0,
-          "start": "10/11/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "boldvideos7",
-          "title": "WEEKEND DEALS",
-          "gmv": 310.8,
-          "units": 11,
-          "views": 44550,
-          "likes": 120,
-          "comments": 44,
-          "duration_min": 77.8,
-          "start": "09/12/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "opantalk",
-          "title": "Non Stop Giveaways MEGA Live",
-          "gmv": 270.0,
-          "units": 13,
-          "views": 183447,
-          "likes": 1790201,
-          "comments": 36636,
-          "duration_min": 296.8,
-          "start": "10/07/2026",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets"
-        },
-        {
-          "handle": "alldaysteals",
-          "title": "Major Bidet Sale",
-          "gmv": 254.46,
-          "units": 8,
-          "views": 13786,
-          "likes": 211,
-          "comments": 15,
-          "duration_min": 105.1,
-          "start": "09/06/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "boldvideos7",
-          "title": "LIVE EXCLUSIVE BIDET DISCOUNT",
-          "gmv": 232.73,
-          "units": 9,
-          "views": 36466,
-          "likes": 48,
-          "comments": 39,
-          "duration_min": 125.8,
-          "start": "09/04/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "rosalialacayo",
-          "title": "",
-          "gmv": 170.01,
-          "units": 5,
-          "views": 32263,
-          "likes": 2065,
-          "comments": 68,
-          "duration_min": 103.0,
-          "start": "09/03/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "opantalk",
-          "title": "Non Stop Giveaways MEGA Live!",
-          "gmv": 168.0,
-          "units": 11,
-          "views": 233779,
-          "likes": 1921134,
-          "comments": 29884,
-          "duration_min": 339.9,
-          "start": "10/21/2026",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets"
-        },
-        {
-          "handle": "alldaysteals",
-          "title": "Major Bidet Sale",
-          "gmv": 165.76,
-          "units": 4,
-          "views": 2244,
-          "likes": 56,
-          "comments": 2,
-          "duration_min": 24.4,
-          "start": "09/18/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "fortune0420",
-          "title": "Fall Deals For You LIVE",
-          "gmv": 162.63,
-          "units": 4,
-          "views": 21704,
-          "likes": 516,
-          "comments": 87,
-          "duration_min": 104.3,
-          "start": "10/12/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "fortune0420",
-          "title": "Bidet flash sale",
-          "gmv": 133.96,
-          "units": 4,
-          "views": 39706,
-          "likes": 1387,
-          "comments": 58,
-          "duration_min": 84.3,
-          "start": "10/08/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "boldvideos7",
-          "title": "",
-          "gmv": 133.41,
-          "units": 4,
-          "views": 14440,
-          "likes": 4,
-          "comments": 34,
-          "duration_min": 62.9,
-          "start": "09/11/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "rosalialacayo",
-          "title": "",
-          "gmv": 131.17,
-          "units": 4,
-          "views": 4913,
-          "likes": 917,
-          "comments": 73,
-          "duration_min": 130.0,
-          "start": "09/04/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "opantalk",
-          "title": "PS5/iPads Giveaways MEGA Live",
-          "gmv": 131.0,
-          "units": 10,
-          "views": 182348,
-          "likes": 3223764,
-          "comments": 39026,
-          "duration_min": 384.7,
-          "start": "10/15/2026",
-          "product_name": "Everlasting Comfort Faux Fur Throw Blanket - Double-Sided Animal Print & Solid Design, Plush Chunky Fluffy, Durable, Machine Washable & Dryer Safe, Animal Accent Patterned Blanket for Cozy Home Snuggles, Animal Accent Blankets, Durable Blankets"
         }
       ]
     },
     "90d": {
-      "range": "2026-08-04 to 2026-11-01",
+      "range": "2026-08-11 to 2026-11-08",
       "total": 1000,
-      "total_count": 1773,
+      "total_count": 1623,
       "truncated": true,
       "totals": {
-        "gmv": 45151.5,
-        "units": 1536,
-        "views": 6865283,
+        "gmv": 37667.48,
+        "units": 1268,
+        "views": 6232102,
         "streams": 1000
       },
       "lives": [
@@ -1277,7 +1277,7 @@
           "title": "Better Butts Start Here\ud83d\udebd\ud83e\uddfb",
           "gmv": 1203.0,
           "units": 36,
-          "views": 117430,
+          "views": 58716,
           "likes": 675,
           "comments": 156,
           "duration_min": 93.7,
@@ -1289,7 +1289,7 @@
           "title": "Better Butts Start Here\ud83d\udebd\ud83e\uddfb",
           "gmv": 1197.94,
           "units": 35,
-          "views": 39356,
+          "views": 31485,
           "likes": 2415,
           "comments": 226,
           "duration_min": 83.0,
@@ -1357,18 +1357,6 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
-          "handle": "arocs_daily_deals",
-          "title": "Clear Rear Bidet! FLASH SALE",
-          "gmv": 761.0,
-          "units": 26,
-          "views": 80545,
-          "likes": 2069,
-          "comments": 148,
-          "duration_min": 168.3,
-          "start": "08/04/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
           "handle": "boldvideos7",
           "title": "LIVE EXCLUSIVE BIDET DISCOUNT",
           "gmv": 726.85,
@@ -1397,7 +1385,7 @@
           "title": "\"Bidet\" flash sale!!",
           "gmv": 687.52,
           "units": 25,
-          "views": 20919,
+          "views": 15690,
           "likes": 569,
           "comments": 140,
           "duration_min": 189.9,
@@ -1441,18 +1429,6 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
-          "handle": "fortune0420",
-          "title": "\"Bidet\" flash sale!!",
-          "gmv": 649.69,
-          "units": 20,
-          "views": 26142,
-          "likes": 124,
-          "comments": 88,
-          "duration_min": 164.6,
-          "start": "08/05/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
           "handle": "boldvideos7",
           "title": "LIVE EXCLUSIVE BIDET DISCOUNT",
           "gmv": 645.69,
@@ -1477,18 +1453,6 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
-          "handle": "muscle_dad",
-          "title": "MEGA Live Flash Sale",
-          "gmv": 614.34,
-          "units": 22,
-          "views": 34920,
-          "likes": 20219,
-          "comments": 38,
-          "duration_min": 81.7,
-          "start": "08/08/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
           "handle": "arocs_daily_deals",
           "title": "Clear Rear Bidet! \u26a1\ufe0fFlash Sale",
           "gmv": 610.83,
@@ -1498,18 +1462,6 @@
           "comments": 136,
           "duration_min": 143.5,
           "start": "08/12/2026",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
-        },
-        {
-          "handle": "arocs_daily_deals",
-          "title": "Clear Rear Bidet! FLASH SALE",
-          "gmv": 610.32,
-          "units": 20,
-          "views": 67664,
-          "likes": 1255,
-          "comments": 171,
-          "duration_min": 140.8,
-          "start": "08/08/2026",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         },
         {
@@ -1570,6 +1522,54 @@
           "comments": 178,
           "duration_min": 138.7,
           "start": "08/24/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "arocs_daily_deals",
+          "title": "Clear Rear Bidet! \u26a1\ufe0fFlash Sale",
+          "gmv": 517.96,
+          "units": 15,
+          "views": 49706,
+          "likes": 46,
+          "comments": 200,
+          "duration_min": 76.6,
+          "start": "08/23/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "arocs_daily_deals",
+          "title": "Clear Rear Bidet! \u26a1\ufe0fFlash Sale",
+          "gmv": 515.33,
+          "units": 18,
+          "views": 43135,
+          "likes": 74,
+          "comments": 59,
+          "duration_min": 93.0,
+          "start": "08/14/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "boldvideos7",
+          "title": "LIVE FLASH SALE",
+          "gmv": 515.0,
+          "units": 16,
+          "views": 33280,
+          "likes": 186,
+          "comments": 47,
+          "duration_min": 91.0,
+          "start": "09/12/2026",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
+        },
+        {
+          "handle": "fortune0420",
+          "title": "\"Bidet\" flash sale!!",
+          "gmv": 512.85,
+          "units": 16,
+          "views": 72078,
+          "likes": 2395,
+          "comments": 78,
+          "duration_min": 118.2,
+          "start": "09/01/2026",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets"
         }
       ]

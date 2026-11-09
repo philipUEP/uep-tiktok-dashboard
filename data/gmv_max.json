@@ -1,11 +1,11 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-11-08"
+    "pulled_on": "2026-11-09"
   },
   "periods": {
     "week": {
-      "range": "2026-10-26 to 2026-11-01",
+      "range": "2026-11-02 to 2026-11-08",
       "totals": {
         "revenue": 0,
         "spend": 0,
@@ -622,30 +622,14 @@
       ]
     },
     "14d": {
-      "range": "2026-10-19 to 2026-11-01",
+      "range": "2026-10-26 to 2026-11-08",
       "totals": {
-        "revenue": 39.99,
-        "spend": 117.47,
-        "orders": 1,
-        "roi": 0.34
+        "revenue": 0,
+        "spend": 0,
+        "orders": 0,
+        "roi": null
       },
       "campaigns": [
-        {
-          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
-          "campaign_id": "1878225250482562",
-          "revenue": 39.99,
-          "spend": 117.47,
-          "roi": 0.34,
-          "orders": 1,
-          "cost_per_order": 117.47,
-          "roas_target": 1.2,
-          "status": "DISABLE",
-          "start": "2026-10-05",
-          "product_ids": [
-            "1732530504119718107"
-          ],
-          "budget": 600.0
-        },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
           "campaign_id": "1796379454137346",
@@ -1216,6 +1200,22 @@
             "1732530504119718107"
           ],
           "budget": 300.0
+        },
+        {
+          "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
+          "campaign_id": "1878225250482562",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 1.2,
+          "status": "DISABLE",
+          "start": "2026-10-05",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 600.0
         },
         {
           "name": "[Auto-created] US Black Friday Cyber Monday Promotion_20261105092150",
@@ -1239,22 +1239,22 @@
       ]
     },
     "month": {
-      "range": "2026-10-03 to 2026-11-01",
+      "range": "2026-10-10 to 2026-11-08",
       "totals": {
-        "revenue": 12313.09,
-        "spend": 8610.12,
-        "orders": 482,
-        "roi": 1.43
+        "revenue": 7000.68,
+        "spend": 5211.96,
+        "orders": 274,
+        "roi": 1.343
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 5823.54,
-          "spend": 2315.22,
-          "roi": 2.515,
-          "orders": 260,
-          "cost_per_order": 8.9,
+          "revenue": 2962.88,
+          "spend": 1165.41,
+          "roi": 2.542,
+          "orders": 137,
+          "cost_per_order": 8.51,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -1264,29 +1264,13 @@
           "budget": 500.0
         },
         {
-          "name": "Bidet 7/6",
-          "campaign_id": "1869091438759025",
-          "revenue": 3230.89,
-          "spend": 1774.48,
-          "roi": 1.821,
-          "orders": 68,
-          "cost_per_order": 26.1,
-          "roas_target": 2.5,
-          "status": "DISABLE",
-          "start": "2026-06-26",
-          "product_ids": [
-            "1729385884864975067"
-          ],
-          "budget": 1000.0
-        },
-        {
           "name": "Repel Blitz Ad Campaign 10/5 (1 ROI)",
           "campaign_id": "1878225250482562",
-          "revenue": 2998.79,
-          "spend": 4018.13,
-          "roi": 0.746,
-          "orders": 141,
-          "cost_per_order": 28.5,
+          "revenue": 2235.16,
+          "spend": 3176.77,
+          "roi": 0.704,
+          "orders": 104,
+          "cost_per_order": 30.55,
           "roas_target": 1.2,
           "status": "DISABLE",
           "start": "2026-10-05",
@@ -1296,20 +1280,20 @@
           "budget": 600.0
         },
         {
-          "name": "Repel GMV MAX 9/29",
-          "campaign_id": "1877681559235809",
-          "revenue": 259.87,
-          "spend": 502.29,
-          "roi": 0.517,
-          "orders": 13,
-          "cost_per_order": 38.64,
-          "roas_target": 0.6,
+          "name": "Bidet 7/6",
+          "campaign_id": "1869091438759025",
+          "revenue": 1802.64,
+          "spend": 869.78,
+          "roi": 2.073,
+          "orders": 33,
+          "cost_per_order": 26.36,
+          "roas_target": 2.5,
           "status": "DISABLE",
-          "start": "2026-09-29",
+          "start": "2026-06-26",
           "product_ids": [
-            "1732530504119718107"
+            "1729385884864975067"
           ],
-          "budget": 300.0
+          "budget": 1000.0
         },
         {
           "name": "EOS, BP, CB GMV MAX BETA",
@@ -1835,6 +1819,22 @@
           "budget": 200.0
         },
         {
+          "name": "Repel GMV MAX 9/29",
+          "campaign_id": "1877681559235809",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 0.6,
+          "status": "DISABLE",
+          "start": "2026-09-29",
+          "product_ids": [
+            "1732530504119718107"
+          ],
+          "budget": 300.0
+        },
+        {
           "name": "[Auto-created] US Black Friday Cyber Monday Promotion_20261105092150",
           "campaign_id": "1881009178555186",
           "revenue": 0,
@@ -1856,22 +1856,22 @@
       ]
     },
     "60d": {
-      "range": "2026-09-03 to 2026-11-01",
+      "range": "2026-09-10 to 2026-11-08",
       "totals": {
-        "revenue": 35522.1,
-        "spend": 23570.29,
-        "orders": 1263,
-        "roi": 1.507
+        "revenue": 28475.97,
+        "spend": 18824.43,
+        "orders": 1036,
+        "roi": 1.513
       },
       "campaigns": [
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 14926.49,
-          "spend": 6832.32,
-          "roi": 2.185,
-          "orders": 666,
-          "cost_per_order": 10.26,
+          "revenue": 12641.29,
+          "spend": 5521.48,
+          "roi": 2.289,
+          "orders": 562,
+          "cost_per_order": 9.82,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -1883,11 +1883,11 @@
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 14081.61,
-          "spend": 8263.38,
-          "roi": 1.704,
-          "orders": 332,
-          "cost_per_order": 24.89,
+          "revenue": 9852.49,
+          "spend": 5541.94,
+          "roi": 1.778,
+          "orders": 228,
+          "cost_per_order": 24.31,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",
@@ -1915,11 +1915,11 @@
         {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 1921.79,
-          "spend": 2033.19,
-          "roi": 0.945,
-          "orders": 67,
-          "cost_per_order": 30.35,
+          "revenue": 1729.89,
+          "spend": 1686.5,
+          "roi": 1.026,
+          "orders": 57,
+          "cost_per_order": 29.59,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13",
@@ -1935,11 +1935,11 @@
         {
           "name": "[Auto-created] US SS Level Back to School Promotion_20260820202825",
           "campaign_id": "1874074123260274",
-          "revenue": 1017.69,
-          "spend": 1203.53,
-          "roi": 0.846,
-          "orders": 30,
-          "cost_per_order": 40.12,
+          "revenue": 677.78,
+          "spend": 836.64,
+          "roi": 0.81,
+          "orders": 21,
+          "cost_per_order": 39.84,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21",
@@ -2473,22 +2473,22 @@
       ]
     },
     "90d": {
-      "range": "2026-08-04 to 2026-11-01",
+      "range": "2026-08-11 to 2026-11-08",
       "totals": {
-        "revenue": 103212.35,
-        "spend": 84861.95,
-        "orders": 3710,
-        "roi": 1.216
+        "revenue": 80777.24,
+        "spend": 62435.1,
+        "orders": 2877,
+        "roi": 1.294
       },
       "campaigns": [
         {
           "name": "Bidet 7/6",
           "campaign_id": "1869091438759025",
-          "revenue": 47134.07,
-          "spend": 38361.95,
-          "roi": 1.229,
-          "orders": 1169,
-          "cost_per_order": 32.82,
+          "revenue": 37616.85,
+          "spend": 28467.02,
+          "roi": 1.321,
+          "orders": 929,
+          "cost_per_order": 30.64,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-06-26",
@@ -2500,11 +2500,11 @@
         {
           "name": "Screen Door",
           "campaign_id": "1865906453543986",
-          "revenue": 44625.84,
-          "spend": 31360.7,
-          "roi": 1.423,
-          "orders": 2031,
-          "cost_per_order": 15.44,
+          "revenue": 33639.75,
+          "spend": 21657.24,
+          "roi": 1.553,
+          "orders": 1543,
+          "cost_per_order": 14.04,
           "roas_target": 2.5,
           "status": "DISABLE",
           "start": "2026-05-22",
@@ -2516,11 +2516,11 @@
         {
           "name": "Shop Wide",
           "campaign_id": "1870566666748178",
-          "revenue": 6108.02,
-          "spend": 7815.7,
-          "roi": 0.782,
-          "orders": 288,
-          "cost_per_order": 27.14,
+          "revenue": 4176.22,
+          "spend": 5274.48,
+          "roi": 0.792,
+          "orders": 183,
+          "cost_per_order": 28.82,
           "roas_target": 2.0,
           "status": "DISABLE",
           "start": "2026-07-13",
@@ -2556,7 +2556,7 @@
           "spend": 1718.55,
           "roi": 1.03,
           "orders": 54,
-          "cost_per_order": 31.83,
+          "cost_per_order": 31.82,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21",
@@ -2591,7 +2591,7 @@
           "name": "[Auto-created] US Summer Sale Promotion_20260716033958",
           "campaign_id": "1870840754793602",
           "revenue": 0,
-          "spend": 367.18,
+          "spend": 79.94,
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
@@ -3090,7 +3090,7 @@
       ]
     },
     "live7d": {
-      "range": "2026-11-02 to 2026-11-08",
+      "range": "2026-11-03 to 2026-11-09",
       "totals": {
         "revenue": 0,
         "spend": 0,
