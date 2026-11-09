@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T07:20:00+00:00",
+  "updated_at": "2026-11-09T07:20:00+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,53 +7,53 @@
       "prior": 201.49,
       "pct": -100.0,
       "direction": "down",
-      "effect": "Live covered 13.2% of last week's GMV and is now at zero, leaving shop tab and paid as the only channels.",
-      "action": "Run streams this week with Screen Door and Bidet pinned, 30 minute minimums and a two unit bundle."
+      "effect": "62 streams drew 220,570 views and sold nothing, so live has gone from 13.2% of weekly GMV to zero in one week.",
+      "action": "Restart streams this week with Screen Door and Bidet pinned, 60 minute minimum and a written host script."
     },
     {
       "metric": "DMs sent",
-      "current": 48,
+      "current": 53,
       "prior": 260,
-      "pct": -81.54,
+      "pct": -79.6,
       "direction": "down",
-      "effect": "Outreach input collapsed to 48 sends, so replies of 14 sit on a base a fifth of last week's and the posting pipeline loses its feed.",
-      "action": "Hold DM volume at 200 per week to protect the 29.17% reply rate."
+      "effect": "Outreach input is a fifth of last week while collab invites sit at zero for three weeks, so new creator intake stops within 2 to 4 weeks.",
+      "action": "Return to 250 DMs per week and re-enable collab invites."
+    },
+    {
+      "metric": "Affiliate GMV",
+      "current": 556.65,
+      "prior": 909.8,
+      "pct": -38.8,
+      "direction": "down",
+      "effect": "Third straight weekly decline and 51.9% below the 1,155.97 of three weeks ago, tracking the fall in posting creators.",
+      "action": "Re-engage Sylvia, Muscle Dad and Kenia at two posts per week and clear the sample queue so new creators reach video."
     },
     {
       "metric": "Videos posted",
-      "current": 35,
+      "current": 46,
       "prior": 66,
-      "pct": -46.97,
+      "pct": -30.3,
       "direction": "down",
-      "effect": "Post volume fell 47% while views per video rose 45.3% and orders per video rose from 0.68 to 0.97, so the GMV loss tracks missing posts.",
-      "action": "Re-invite the 90 creators active in the Oct 12 week and resume collab invites, zero for four weeks."
-    },
-    {
-      "metric": "GMV (4 week run)",
-      "current": 1224.49,
-      "prior": 1524.91,
-      "pct": -19.7,
-      "direction": "down",
-      "effect": "Four straight weekly declines leave GMV at 25.2% of the 4,864.99 week of Oct 12, though the open week understates the per day figure.",
-      "action": "Restore posting volume and restart paid on Screen Door and Bidet in the same week."
+      "effect": "Post volume is down from 94 three weeks ago and creators posting fell from 49 to 31, so next week's affiliate GMV is already short of posts.",
+      "action": "Approve 25 samples per day and re-enable collab invites to rebuild the posting base."
     },
     {
       "metric": "Repel Blitz ROAS (30d, target 1.2)",
-      "current": 0.746,
+      "current": 0.704,
       "prior": 1.2,
-      "pct": -37.83,
+      "pct": -41.33,
       "direction": "down",
-      "effect": "The campaign spent 4,018.13 to return 2,998.79 over 30 days, below its 1.2 target and below the 1.43 shop-wide GMV Max ROAS.",
-      "action": "Keep it paused and do not restart until refreshed creative holds above 1.2."
+      "effect": "The campaign spent 3,176.77 to return 2,235.16 over 30 days, below target and below the 1.343 shop-wide GMV Max figure.",
+      "action": "Keep it paused and put the BFCM budget on Screen Door at 2.542 and Bidet at 2.073."
     },
     {
-      "metric": "Sample rejection rate (of decided)",
-      "current": 58.3,
-      "prior": 85.7,
-      "pct": -31.97,
-      "direction": "down",
-      "effect": "14 rejections against 3 posts and 7 content pending leaves 205 of 300 applications unreviewed, so almost no intake reaches a video.",
-      "action": "Clear the queue at 25 approvals per day for two days, ranked by follower count and post rate."
+      "metric": "Sample requests (vs 204 awaiting review)",
+      "current": 228,
+      "prior": 70,
+      "pct": 225.71,
+      "direction": "up",
+      "effect": "Intake is running 4.3 requests per DM sent while 68.0% of the 300 open applications stay unreviewed and rows expire Nov 13 to Nov 15.",
+      "action": "Approve 25 per day ranked by follower count and post rate until the queue clears."
     }
   ]
 }
