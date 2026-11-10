@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-11-09",
+    "pulled_on": "2026-11-10",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -13,37 +13,37 @@
     "week": {
       "range": "2026-11-02 to 2026-11-08",
       "revenue": {
-        "total_gmv": 1548.27,
-        "affiliate_gmv": 556.65,
-        "video_gmv": 409.18,
+        "total_gmv": 1582.73,
+        "affiliate_gmv": 715.04,
+        "video_gmv": 567.57,
         "live_gmv": 0,
-        "shop_tab_gmv": 581.87,
+        "shop_tab_gmv": 582.34,
         "gmv_max_revenue": 0,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 0,
-        "commission": 85.1,
+        "commission": 106.5,
         "refund_amount": 195.95,
-        "shipping_fees": 342.0
+        "shipping_fees": 357.2
       },
-      "net_after_ads_commissions_refunds": 1267.22,
+      "net_after_ads_commissions_refunds": 1280.28,
       "ratios": {
         "blended_roas": null,
         "gmv_max_roas": null,
-        "commission_rate_pct": 15.29,
-        "refund_rate_pct": 12.66,
-        "aov": 34.41,
-        "gpm": 2.51,
-        "emv": 711.85,
-        "gmv_per_sample_delivered": 92.77
+        "commission_rate_pct": 14.89,
+        "refund_rate_pct": 12.38,
+        "aov": 33.68,
+        "gpm": 2.72,
+        "emv": 1043.17,
+        "gmv_per_sample_delivered": 119.17
       },
       "volume": {
-        "orders": 45,
-        "units_sold": 53.0,
-        "creators": 31,
+        "orders": 47,
+        "units_sold": 55.0,
+        "creators": 34,
         "samples_delivered": 6,
-        "video_views": 142370
+        "video_views": 208634
       },
       "products": [
         {
@@ -51,7 +51,7 @@
           "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
           "price": 27.99,
           "total_gmv": 382.24,
-          "share_pct": 24.7,
+          "share_pct": 24.2,
           "video_gmv": 310.27,
           "live_gmv": 0,
           "shop_tab_gmv": 50.11,
@@ -62,7 +62,7 @@
           "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
           "price": 69.0,
           "total_gmv": 265.76,
-          "share_pct": 17.2,
+          "share_pct": 16.8,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 106.76,
@@ -73,7 +73,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 79.99,
           "total_gmv": 237.92,
-          "share_pct": 15.4,
+          "share_pct": 15.0,
           "video_gmv": 0,
           "live_gmv": 147.47,
           "shop_tab_gmv": 140.44,
@@ -84,7 +84,7 @@
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
           "price": 49.99,
           "total_gmv": 149.55,
-          "share_pct": 9.7,
+          "share_pct": 9.4,
           "video_gmv": 49.56,
           "live_gmv": 0,
           "shop_tab_gmv": 99.99,
@@ -94,19 +94,19 @@
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 33.99,
-          "total_gmv": 94.41,
-          "share_pct": 6.1,
-          "video_gmv": 93.47,
+          "total_gmv": 128.4,
+          "share_pct": 8.1,
+          "video_gmv": 127.46,
           "live_gmv": 0,
           "shop_tab_gmv": 0.94,
-          "units_sold": 5
+          "units_sold": 6
         },
         {
           "product_id": "1729385810739499227",
           "product_name": "Everlasting Comfort Cozy Throw Blanket - 50\" x 65\" Double-Sided Animal Print & Solid, Fluffy Blankets with Long Thick Plush Warmth, Durable, Machine Washable, Dryer Safe, Fade-Stain Resistant, Aesthetic Room Plush Home Decor",
           "price": 29.99,
           "total_gmv": 89.97,
-          "share_pct": 5.8,
+          "share_pct": 5.7,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 0,
@@ -116,19 +116,19 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 79.81,
-          "share_pct": 5.2,
-          "video_gmv": 79.81,
+          "total_gmv": 80.28,
+          "share_pct": 5.1,
+          "video_gmv": 80.28,
           "live_gmv": 0,
-          "shop_tab_gmv": 0.01,
-          "units_sold": 5
+          "shop_tab_gmv": 0.48,
+          "units_sold": 6
         },
         {
           "product_id": "1730129811577671899",
           "product_name": "Household Shoe Dryer Machine - 4-Tube 120V Heavy-Duty Vented Boot Dryer, 0 to 180 Minutes Timer Control, 2-Pair Capacity, 2-Hour Fast Drying, Quiet Operation, Rubber/Fleece/Leather Safe Tube-Shape Boot Warmer, 14.57\"d x 6.89\"w x 11.81\"h",
           "price": 74.99,
           "total_gmv": 64.99,
-          "share_pct": 4.2,
+          "share_pct": 4.1,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 0,
@@ -172,7 +172,7 @@
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow for Adults - 14.56\"l x 15.35\"w, Cover Included, 4-Cup Secure Suction Cups, Airflow Encouragement Mesh, Advanced Upper Body Support, Quick-Dry, Durable Selfcare Bathroom Gadget",
           "price": 29.99,
           "total_gmv": 28.95,
-          "share_pct": 1.9,
+          "share_pct": 1.8,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 28.95,
@@ -183,7 +183,7 @@
           "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Breathable Airy Mesh Cover, Adjustable Straps, Removable Machine-Wash Cover, Contoured Shape, Posture Aid, Body Alignment, Low Back Pain Relief for Office, Car",
           "price": 43.99,
           "total_gmv": 14.99,
-          "share_pct": 1.0,
+          "share_pct": 0.9,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 14.99,
@@ -279,7 +279,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -381,37 +381,37 @@
     "14d": {
       "range": "2026-10-26 to 2026-11-08",
       "revenue": {
-        "total_gmv": 3073.18,
-        "affiliate_gmv": 1466.45,
-        "video_gmv": 1231.16,
+        "total_gmv": 3107.64,
+        "affiliate_gmv": 1624.84,
+        "video_gmv": 1389.55,
         "live_gmv": 201.49,
-        "shop_tab_gmv": 1362.55,
+        "shop_tab_gmv": 1363.02,
         "gmv_max_revenue": 0,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 0,
-        "commission": 234.3,
+        "commission": 255.7,
         "refund_amount": 513.86,
-        "shipping_fees": 661.2
+        "shipping_fees": 676.4
       },
-      "net_after_ads_commissions_refunds": 2325.02,
+      "net_after_ads_commissions_refunds": 2338.08,
       "ratios": {
         "blended_roas": null,
         "gmv_max_roas": null,
-        "commission_rate_pct": 15.98,
-        "refund_rate_pct": 16.72,
-        "aov": 34.15,
-        "gpm": 3.41,
-        "emv": 1635.76,
-        "gmv_per_sample_delivered": 133.31
+        "commission_rate_pct": 15.74,
+        "refund_rate_pct": 16.54,
+        "aov": 33.78,
+        "gpm": 3.37,
+        "emv": 1967.08,
+        "gmv_per_sample_delivered": 147.71
       },
       "volume": {
-        "orders": 90,
-        "units_sold": 105.0,
-        "creators": 57,
+        "orders": 92,
+        "units_sold": 107.0,
+        "creators": 60,
         "samples_delivered": 11,
-        "video_views": 327151
+        "video_views": 393415
       },
       "products": [
         {
@@ -419,7 +419,7 @@
           "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
           "price": 27.99,
           "total_gmv": 1037.39,
-          "share_pct": 33.8,
+          "share_pct": 33.4,
           "video_gmv": 885.61,
           "live_gmv": 27.83,
           "shop_tab_gmv": 286.66,
@@ -430,7 +430,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 79.99,
           "total_gmv": 529.86,
-          "share_pct": 17.2,
+          "share_pct": 17.1,
           "video_gmv": 149.97,
           "live_gmv": 147.47,
           "shop_tab_gmv": 340.4,
@@ -452,11 +452,22 @@
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
           "price": 49.99,
           "total_gmv": 199.54,
-          "share_pct": 6.5,
+          "share_pct": 6.4,
           "video_gmv": 49.56,
           "live_gmv": 0,
           "shop_tab_gmv": 149.98,
           "units_sold": 5
+        },
+        {
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "price": 33.99,
+          "total_gmv": 195.08,
+          "share_pct": 6.3,
+          "video_gmv": 194.14,
+          "live_gmv": 0,
+          "shop_tab_gmv": 67.62,
+          "units_sold": 8
         },
         {
           "product_id": "1732530411400171739",
@@ -468,17 +479,6 @@
           "live_gmv": 0,
           "shop_tab_gmv": 49.99,
           "units_sold": 4
-        },
-        {
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "price": 33.99,
-          "total_gmv": 161.09,
-          "share_pct": 5.2,
-          "video_gmv": 160.15,
-          "live_gmv": 0,
-          "shop_tab_gmv": 67.62,
-          "units_sold": 7
         },
         {
           "product_id": "1730129811577671899",
@@ -506,19 +506,19 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 79.81,
+          "total_gmv": 80.28,
           "share_pct": 2.6,
-          "video_gmv": 79.81,
+          "video_gmv": 80.28,
           "live_gmv": 0,
-          "shop_tab_gmv": 0.01,
-          "units_sold": 5
+          "shop_tab_gmv": 0.48,
+          "units_sold": 6
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 59.99,
-          "share_pct": 2.0,
+          "share_pct": 1.9,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 0,
@@ -562,7 +562,7 @@
           "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
           "price": 79.99,
           "total_gmv": 44.72,
-          "share_pct": 1.5,
+          "share_pct": 1.4,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 44.72,
@@ -793,37 +793,37 @@
     "month": {
       "range": "2026-10-10 to 2026-11-08",
       "revenue": {
-        "total_gmv": 13640.25,
-        "affiliate_gmv": 9414.13,
-        "video_gmv": 7644.32,
+        "total_gmv": 13674.71,
+        "affiliate_gmv": 9572.52,
+        "video_gmv": 7802.71,
         "live_gmv": 1991.4,
-        "shop_tab_gmv": 4281.92,
+        "shop_tab_gmv": 4282.39,
         "gmv_max_revenue": 7000.68,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 5211.96,
-        "commission": 1925.61,
+        "commission": 1947.01,
         "refund_amount": 1983.95,
-        "shipping_fees": 3967.2
+        "shipping_fees": 3982.4
       },
-      "net_after_ads_commissions_refunds": 4518.73,
+      "net_after_ads_commissions_refunds": 4531.79,
       "ratios": {
-        "blended_roas": 2.6171,
+        "blended_roas": 2.6237,
         "gmv_max_roas": 1.3432,
-        "commission_rate_pct": 20.45,
-        "refund_rate_pct": 14.54,
-        "aov": 25.54,
-        "gpm": 6.43,
-        "emv": 5779.87,
-        "gmv_per_sample_delivered": 229.61
+        "commission_rate_pct": 20.34,
+        "refund_rate_pct": 14.51,
+        "aov": 25.51,
+        "gpm": 6.26,
+        "emv": 6111.19,
+        "gmv_per_sample_delivered": 233.48
       },
       "volume": {
-        "orders": 534,
-        "units_sold": 580.0,
-        "creators": 181,
+        "orders": 536,
+        "units_sold": 582.0,
+        "creators": 184,
         "samples_delivered": 41,
-        "video_views": 1155974
+        "video_views": 1222238
       },
       "products": [
         {
@@ -831,7 +831,7 @@
           "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
           "price": 27.99,
           "total_gmv": 4871.94,
-          "share_pct": 35.7,
+          "share_pct": 35.6,
           "video_gmv": 4283.24,
           "live_gmv": 27.83,
           "shop_tab_gmv": 1079.61,
@@ -874,12 +874,12 @@
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 33.99,
-          "total_gmv": 426.91,
-          "share_pct": 3.1,
-          "video_gmv": 234.13,
+          "total_gmv": 460.9,
+          "share_pct": 3.4,
+          "video_gmv": 268.12,
           "live_gmv": 0,
           "shop_tab_gmv": 101.61,
-          "units_sold": 15
+          "units_sold": 16
         },
         {
           "product_id": "1732655825084190939",
@@ -929,12 +929,12 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 212.53,
+          "total_gmv": 213.0,
           "share_pct": 1.6,
-          "video_gmv": 156.55,
+          "video_gmv": 157.02,
           "live_gmv": 0,
-          "shop_tab_gmv": 132.73,
-          "units_sold": 11
+          "shop_tab_gmv": 133.2,
+          "units_sold": 12
         },
         {
           "product_id": "1732604928188453083",
@@ -1015,7 +1015,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 59.99,
           "share_pct": 0.4,
@@ -1205,37 +1205,37 @@
     "60d": {
       "range": "2026-09-10 to 2026-11-08",
       "revenue": {
-        "total_gmv": 39949.26,
-        "affiliate_gmv": 30993.58,
-        "video_gmv": 22309.57,
+        "total_gmv": 39983.72,
+        "affiliate_gmv": 31151.97,
+        "video_gmv": 22467.96,
         "live_gmv": 8718.4,
-        "shop_tab_gmv": 9785.25,
+        "shop_tab_gmv": 9785.72,
         "gmv_max_revenue": 28475.970000000005,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 18824.43,
-        "commission": 5982.47,
+        "commission": 6003.87,
         "refund_amount": 6523.66,
-        "shipping_fees": 11400.0
+        "shipping_fees": 11415.2
       },
-      "net_after_ads_commissions_refunds": 8618.7,
+      "net_after_ads_commissions_refunds": 8631.76,
       "ratios": {
-        "blended_roas": 2.1222,
+        "blended_roas": 2.124,
         "gmv_max_roas": 1.5127,
-        "commission_rate_pct": 19.3,
-        "refund_rate_pct": 16.33,
-        "aov": 25.86,
-        "gpm": 7.84,
-        "emv": 14074.87,
-        "gmv_per_sample_delivered": 143.49
+        "commission_rate_pct": 19.27,
+        "refund_rate_pct": 16.32,
+        "aov": 25.85,
+        "gpm": 7.74,
+        "emv": 14406.19,
+        "gmv_per_sample_delivered": 144.22
       },
       "volume": {
-        "orders": 1545,
-        "units_sold": 1671.0,
-        "creators": 317,
+        "orders": 1547,
+        "units_sold": 1673.0,
+        "creators": 324,
         "samples_delivered": 216,
-        "video_views": 2814974
+        "video_views": 2881238
       },
       "products": [
         {
@@ -1243,7 +1243,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 79.99,
           "total_gmv": 16919.4,
-          "share_pct": 42.4,
+          "share_pct": 42.3,
           "video_gmv": 6557.81,
           "live_gmv": 7598.06,
           "shop_tab_gmv": 3795.8,
@@ -1254,7 +1254,7 @@
           "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
           "price": 27.99,
           "total_gmv": 13654.37,
-          "share_pct": 34.2,
+          "share_pct": 34.1,
           "video_gmv": 11908.69,
           "live_gmv": 27.83,
           "shop_tab_gmv": 2459.44,
@@ -1275,12 +1275,12 @@
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 33.99,
-          "total_gmv": 1310.56,
-          "share_pct": 3.3,
-          "video_gmv": 919.82,
+          "total_gmv": 1344.55,
+          "share_pct": 3.4,
+          "video_gmv": 953.81,
           "live_gmv": 0,
           "shop_tab_gmv": 373.55,
-          "units_sold": 42
+          "units_sold": 43
         },
         {
           "product_id": "1732655825084190939",
@@ -1341,12 +1341,12 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 371.64,
+          "total_gmv": 372.11,
           "share_pct": 0.9,
-          "video_gmv": 203.7,
+          "video_gmv": 204.17,
           "live_gmv": 0,
-          "shop_tab_gmv": 235.86,
-          "units_sold": 17
+          "shop_tab_gmv": 236.33,
+          "units_sold": 18
         },
         {
           "product_id": "1732530411400171739",
@@ -1460,7 +1460,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 59.99,
           "share_pct": 0.2,
@@ -1639,37 +1639,37 @@
     "90d": {
       "range": "2026-08-11 to 2026-11-08",
       "revenue": {
-        "total_gmv": 109727.12,
-        "affiliate_gmv": 93370.17,
-        "video_gmv": 54860.58,
+        "total_gmv": 109761.58,
+        "affiliate_gmv": 93528.56,
+        "video_gmv": 55018.97,
         "live_gmv": 37667.48,
-        "shop_tab_gmv": 21248.36,
+        "shop_tab_gmv": 21248.83,
         "gmv_max_revenue": 80777.24000000002,
         "subscription_revenue": 0
       },
       "spend": {
         "ad_spend": 62435.1,
-        "commission": 20873.05,
+        "commission": 20894.45,
         "refund_amount": 13624.83,
-        "shipping_fees": 32216.4
+        "shipping_fees": 32231.6
       },
-      "net_after_ads_commissions_refunds": 12794.14,
+      "net_after_ads_commissions_refunds": 12807.2,
       "ratios": {
-        "blended_roas": 1.7575,
+        "blended_roas": 1.758,
         "gmv_max_roas": 1.2938,
-        "commission_rate_pct": 22.36,
-        "refund_rate_pct": 12.42,
+        "commission_rate_pct": 22.34,
+        "refund_rate_pct": 12.41,
         "aov": 25.54,
-        "gpm": 8.43,
-        "emv": 32254.61,
-        "gmv_per_sample_delivered": 212.69
+        "gpm": 8.37,
+        "emv": 32585.93,
+        "gmv_per_sample_delivered": 213.05
       },
       "volume": {
-        "orders": 4296,
-        "units_sold": 4688.0,
-        "creators": 583,
+        "orders": 4298,
+        "units_sold": 4690.0,
+        "creators": 597,
         "samples_delivered": 439,
-        "video_views": 6450923
+        "video_views": 6517187
       },
       "products": [
         {
@@ -1677,7 +1677,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 79.99,
           "total_gmv": 66662.33,
-          "share_pct": 60.8,
+          "share_pct": 60.7,
           "video_gmv": 22439.34,
           "live_gmv": 36716.14,
           "shop_tab_gmv": 10929.56,
@@ -1720,12 +1720,12 @@
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 33.99,
-          "total_gmv": 1393.55,
+          "total_gmv": 1427.54,
           "share_pct": 1.3,
-          "video_gmv": 919.82,
+          "video_gmv": 953.81,
           "live_gmv": 0,
           "shop_tab_gmv": 456.54,
-          "units_sold": 43
+          "units_sold": 44
         },
         {
           "product_id": "1729385798535319771",
@@ -1764,12 +1764,12 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 596.72,
+          "total_gmv": 597.19,
           "share_pct": 0.5,
-          "video_gmv": 283.88,
+          "video_gmv": 284.35,
           "live_gmv": 0,
-          "shop_tab_gmv": 440.95,
-          "units_sold": 29
+          "shop_tab_gmv": 441.42,
+          "units_sold": 30
         },
         {
           "product_id": "1732655825084190939",
@@ -1850,7 +1850,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 182.48,
           "share_pct": 0.2,

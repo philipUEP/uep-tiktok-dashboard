@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats with product_id + include_charts",
-    "pulled_on": "2026-11-09",
+    "pulled_on": "2026-11-10",
     "range": {
       "from": "2026-11-02",
       "to": "2026-11-08"
@@ -179,7 +179,7 @@
     {
       "product_id": "1730105130585657563",
       "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-      "total_gmv": 94.41,
+      "total_gmv": 128.4,
       "daily": [
         {
           "date": "2026-11-02",
@@ -213,8 +213,8 @@
         },
         {
           "date": "2026-11-08",
-          "gmv": 0.01,
-          "units": 1.0
+          "gmv": 34.0,
+          "units": 2.0
         }
       ]
     },
@@ -263,7 +263,7 @@
     {
       "product_id": "1729385798632640731",
       "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
-      "total_gmv": 79.81,
+      "total_gmv": 80.28,
       "daily": [
         {
           "date": "2026-11-02",
@@ -297,8 +297,8 @@
         },
         {
           "date": "2026-11-08",
-          "gmv": 0.0,
-          "units": 0.0
+          "gmv": 0.47,
+          "units": 1.0
         }
       ]
     },

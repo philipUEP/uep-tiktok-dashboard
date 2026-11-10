@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /timeseries/products",
-    "pulled_on": "2026-11-09"
+    "pulled_on": "2026-11-10"
   },
   "periods": {
     "week": {
@@ -54,12 +54,12 @@
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 33.99,
-          "total_gmv": 94.41,
-          "affiliate_gmv": 93.47,
-          "video_gmv": 93.47,
+          "total_gmv": 128.4,
+          "affiliate_gmv": 127.46,
+          "video_gmv": 127.46,
           "live_gmv": 0.0,
           "shop_tab_gmv": 0.94,
-          "units_sold": 5
+          "units_sold": 6
         },
         {
           "product_id": "1729385810739499227",
@@ -76,12 +76,12 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 79.81,
-          "affiliate_gmv": 79.81,
-          "video_gmv": 79.81,
+          "total_gmv": 80.28,
+          "affiliate_gmv": 80.28,
+          "video_gmv": 80.28,
           "live_gmv": 0.0,
-          "shop_tab_gmv": 0.01,
-          "units_sold": 5
+          "shop_tab_gmv": 0.48,
+          "units_sold": 6
         },
         {
           "product_id": "1730129811577671899",
@@ -239,7 +239,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 0.0,
           "affiliate_gmv": 0.0,
@@ -386,6 +386,17 @@
           "units_sold": 5
         },
         {
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
+          "price": 33.99,
+          "total_gmv": 195.08,
+          "affiliate_gmv": 194.14,
+          "video_gmv": 194.14,
+          "live_gmv": 0.0,
+          "shop_tab_gmv": 67.62,
+          "units_sold": 8
+        },
+        {
           "product_id": "1732530411400171739",
           "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
           "price": 73.99,
@@ -395,17 +406,6 @@
           "live_gmv": 0.0,
           "shop_tab_gmv": 49.99,
           "units_sold": 4
-        },
-        {
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
-          "price": 33.99,
-          "total_gmv": 161.09,
-          "affiliate_gmv": 160.15,
-          "video_gmv": 160.15,
-          "live_gmv": 0.0,
-          "shop_tab_gmv": 67.62,
-          "units_sold": 7
         },
         {
           "product_id": "1730129811577671899",
@@ -433,16 +433,16 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 79.81,
-          "affiliate_gmv": 79.81,
-          "video_gmv": 79.81,
+          "total_gmv": 80.28,
+          "affiliate_gmv": 80.28,
+          "video_gmv": 80.28,
           "live_gmv": 0.0,
-          "shop_tab_gmv": 0.01,
-          "units_sold": 5
+          "shop_tab_gmv": 0.48,
+          "units_sold": 6
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 59.99,
           "affiliate_gmv": 59.99,
@@ -768,12 +768,12 @@
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 33.99,
-          "total_gmv": 426.91,
-          "affiliate_gmv": 243.02,
-          "video_gmv": 234.13,
+          "total_gmv": 460.9,
+          "affiliate_gmv": 277.01,
+          "video_gmv": 268.12,
           "live_gmv": 0.0,
           "shop_tab_gmv": 101.61,
-          "units_sold": 15
+          "units_sold": 16
         },
         {
           "product_id": "1732655825084190939",
@@ -823,12 +823,12 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 212.53,
-          "affiliate_gmv": 156.55,
-          "video_gmv": 156.55,
+          "total_gmv": 213.0,
+          "affiliate_gmv": 157.02,
+          "video_gmv": 157.02,
           "live_gmv": 0.0,
-          "shop_tab_gmv": 132.73,
-          "units_sold": 11
+          "shop_tab_gmv": 133.2,
+          "units_sold": 12
         },
         {
           "product_id": "1732604928188453083",
@@ -909,7 +909,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 59.99,
           "affiliate_gmv": 59.99,
@@ -1136,12 +1136,12 @@
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 33.99,
-          "total_gmv": 1310.56,
-          "affiliate_gmv": 953.7,
-          "video_gmv": 919.82,
+          "total_gmv": 1344.55,
+          "affiliate_gmv": 987.69,
+          "video_gmv": 953.81,
           "live_gmv": 0.0,
           "shop_tab_gmv": 373.55,
-          "units_sold": 42
+          "units_sold": 43
         },
         {
           "product_id": "1732655825084190939",
@@ -1202,12 +1202,12 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 371.64,
-          "affiliate_gmv": 203.7,
-          "video_gmv": 203.7,
+          "total_gmv": 372.11,
+          "affiliate_gmv": 204.17,
+          "video_gmv": 204.17,
           "live_gmv": 0.0,
-          "shop_tab_gmv": 235.86,
-          "units_sold": 17
+          "shop_tab_gmv": 236.33,
+          "units_sold": 18
         },
         {
           "product_id": "1732530411400171739",
@@ -1321,7 +1321,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 59.99,
           "affiliate_gmv": 59.99,
@@ -1548,12 +1548,12 @@
           "product_id": "1730105130585657563",
           "product_name": "Everlasting Comfort 2.5L Top Fill Cool Mist Humidifier - Quiet Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20 Hour Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy Save, High-Low Humidity Settings, Cleaning Kit Included for Bedrooms/Nurseries,",
           "price": 33.99,
-          "total_gmv": 1393.55,
-          "affiliate_gmv": 953.7,
-          "video_gmv": 919.82,
+          "total_gmv": 1427.54,
+          "affiliate_gmv": 987.69,
+          "video_gmv": 953.81,
           "live_gmv": 0.0,
           "shop_tab_gmv": 456.54,
-          "units_sold": 43
+          "units_sold": 44
         },
         {
           "product_id": "1729385798535319771",
@@ -1592,12 +1592,12 @@
           "product_id": "1729385798632640731",
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
-          "total_gmv": 596.72,
-          "affiliate_gmv": 283.88,
-          "video_gmv": 283.88,
+          "total_gmv": 597.19,
+          "affiliate_gmv": 284.35,
+          "video_gmv": 284.35,
           "live_gmv": 0.0,
-          "shop_tab_gmv": 440.95,
-          "units_sold": 29
+          "shop_tab_gmv": 441.42,
+          "units_sold": 30
         },
         {
           "product_id": "1732655825084190939",
@@ -1678,7 +1678,7 @@
         },
         {
           "product_id": "1729391862019821787",
-          "product_name": "Heavy-Duty Boot and Glove Dryer, Powerful Fast-Drying Home Appliance with 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Mode, 180-Minute Auto Timer, 23.62\"d x 13.58\"w x 16.34\"h, 120v, 250w Power",
+          "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 182.48,
           "affiliate_gmv": 182.48,
