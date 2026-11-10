@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T07:20:00+00:00",
+  "updated_at": "2026-11-10T07:22:34+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,53 +7,53 @@
       "prior": 201.49,
       "pct": -100.0,
       "direction": "down",
-      "effect": "62 streams drew 220,570 views and sold nothing, so live has gone from 13.2% of weekly GMV to zero in one week.",
-      "action": "Restart streams this week with Screen Door and Bidet pinned, 60 minute minimum and a written host script."
+      "effect": "62 streams drew 220,555 views and sold 0 units, which points to missing or broken cart linkage rather than lost audience.",
+      "action": "Audit 5 of the zero-unit lives for product attachment, then run 5 product-linked lives on Bidet and Screen Door with hosts who converted in October."
     },
     {
       "metric": "DMs sent",
       "current": 53,
       "prior": 260,
-      "pct": -79.6,
+      "pct": -79.62,
       "direction": "down",
-      "effect": "Outreach input is a fifth of last week while collab invites sit at zero for three weeks, so new creator intake stops within 2 to 4 weeks.",
-      "action": "Return to 250 DMs per week and re-enable collab invites."
-    },
-    {
-      "metric": "Affiliate GMV",
-      "current": 556.65,
-      "prior": 909.8,
-      "pct": -38.8,
-      "direction": "down",
-      "effect": "Third straight weekly decline and 51.9% below the 1,155.97 of three weeks ago, tracking the fall in posting creators.",
-      "action": "Re-engage Sylvia, Muscle Dad and Kenia at two posts per week and clear the sample queue so new creators reach video."
+      "effect": "Outreach is down to 7.6 DMs per day with collab invites at zero for 3 weeks, so replies and sample requests should soften within 2 to 3 weeks.",
+      "action": "Restart outreach at 250 DMs and 150 collab invites per week and hold that level for 3 weeks."
     },
     {
       "metric": "Videos posted",
-      "current": 46,
-      "prior": 66,
-      "pct": -30.3,
+      "current": 55,
+      "prior": 85,
+      "pct": -35.29,
       "direction": "down",
-      "effect": "Post volume is down from 94 three weeks ago and creators posting fell from 49 to 31, so next week's affiliate GMV is already short of posts.",
-      "action": "Approve 25 samples per day and re-enable collab invites to rebuild the posting base."
+      "effect": "Third consecutive decline (98, 85, 55) at 1.62 videos per creator caps affiliate GMV near current levels for the next 2 to 3 weeks.",
+      "action": "Ask the 8 creators with sales this week for a second video each to lift output toward 63 posts."
     },
     {
-      "metric": "Repel Blitz ROAS (30d, target 1.2)",
+      "metric": "Affiliate GMV",
+      "current": 715.04,
+      "prior": 909.8,
+      "pct": -21.41,
+      "direction": "down",
+      "effect": "Third consecutive weekly decline (1,155.97, 909.80, 715.04) is about 220 per week, which projects roughly 495 next week.",
+      "action": "Pair the outreach restart with a reactivation message to creators who posted in the past 14 days but not this week."
+    },
+    {
+      "metric": "Repel Blitz ROAS (30d) vs 1.2 target",
       "current": 0.704,
       "prior": 1.2,
       "pct": -41.33,
       "direction": "down",
-      "effect": "The campaign spent 3,176.77 to return 2,235.16 over 30 days, below target and below the 1.343 shop-wide GMV Max figure.",
-      "action": "Keep it paused and put the BFCM budget on Screen Door at 2.542 and Bidet at 2.073."
+      "effect": "The campaign spent 3,176.77 to return 2,235.16, and with ad spend at zero for 14 days GMV Max revenue is now 0 for the week.",
+      "action": "Exclude the Repel Blitz creative set from the BFCM product list and set that campaign to a 1.6 to 2.0 ROAS target on a 400 daily cap."
     },
     {
-      "metric": "Sample requests (vs 204 awaiting review)",
-      "current": 228,
+      "metric": "Sample requests awaiting review",
+      "current": 149,
       "prior": 70,
       "pct": 225.71,
       "direction": "up",
-      "effect": "Intake is running 4.3 requests per DM sent while 68.0% of the 300 open applications stay unreviewed and rows expire Nov 13 to Nov 15.",
-      "action": "Approve 25 per day ranked by follower count and post rate until the queue clears."
+      "effect": "Requests rose 225.7% while only 7 were approved and 6 delivered, so the review queue now caps video supply and 109 requests have already expired.",
+      "action": "Approve the top 30 pending requests by GPM and post rate on Repel umbrella, Screen Door, CloudFur and Bidet, and expire the rest."
     }
   ]
 }
