@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:22:34+00:00",
+  "updated_at": "2026-11-11T07:22:18+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,8 +7,8 @@
       "prior": 201.49,
       "pct": -100.0,
       "direction": "down",
-      "effect": "62 streams drew 220,555 views and sold 0 units, which points to missing or broken cart linkage rather than lost audience.",
-      "action": "Audit 5 of the zero-unit lives for product attachment, then run 5 product-linked lives on Bidet and Screen Door with hosts who converted in October."
+      "effect": "62 streams drew 220,555 views and sold 0 units, which points to broken cart or product attachment rather than a lost audience.",
+      "action": "Audit 5 of the zero unit lives this week, then run 5 product linked lives on Screen Door and Bidet with hosts who converted in October."
     },
     {
       "metric": "DMs sent",
@@ -16,17 +16,17 @@
       "prior": 260,
       "pct": -79.62,
       "direction": "down",
-      "effect": "Outreach is down to 7.6 DMs per day with collab invites at zero for 3 weeks, so replies and sample requests should soften within 2 to 3 weeks.",
-      "action": "Restart outreach at 250 DMs and 150 collab invites per week and hold that level for 3 weeks."
+      "effect": "Outreach runs at 7.6 DMs per day with collab invites at 0 for three weeks, so new creator starts fall further in 2 to 4 weeks.",
+      "action": "Restore 250 DMs and 150 collab invites per week and hold that level for 3 weeks."
     },
     {
       "metric": "Videos posted",
-      "current": 55,
+      "current": 56,
       "prior": 85,
-      "pct": -35.29,
+      "pct": -34.12,
       "direction": "down",
-      "effect": "Third consecutive decline (98, 85, 55) at 1.62 videos per creator caps affiliate GMV near current levels for the next 2 to 3 weeks.",
-      "action": "Ask the 8 creators with sales this week for a second video each to lift output toward 63 posts."
+      "effect": "Video supply leads affiliate GMV by about 2 to 4 weeks, so this drop pulls the next two weekly GMV prints lower.",
+      "action": "Ask the 11 creators with sales this week for a second video each to recover volume without new samples."
     },
     {
       "metric": "Affiliate GMV",
@@ -34,26 +34,26 @@
       "prior": 909.8,
       "pct": -21.41,
       "direction": "down",
-      "effect": "Third consecutive weekly decline (1,155.97, 909.80, 715.04) is about 220 per week, which projects roughly 495 next week.",
-      "action": "Pair the outreach restart with a reactivation message to creators who posted in the past 14 days but not this week."
+      "effect": "Third straight weekly decline averaging $220, which projects near $495 next week if the slope holds.",
+      "action": "Concentrate outreach and samples on Screen Door, Bidet and CloudFur, the products that sold this week, and review the top creator level drops."
     },
     {
-      "metric": "Repel Blitz ROAS (30d) vs 1.2 target",
+      "metric": "Repel Blitz GMV Max ROAS vs 1.2 target",
       "current": 0.704,
       "prior": 1.2,
       "pct": -41.33,
       "direction": "down",
-      "effect": "The campaign spent 3,176.77 to return 2,235.16, and with ad spend at zero for 14 days GMV Max revenue is now 0 for the week.",
-      "action": "Exclude the Repel Blitz creative set from the BFCM product list and set that campaign to a 1.6 to 2.0 ROAS target on a 400 daily cap."
+      "effect": "The campaign returned $2,235.16 on $3,176.77 spend, roughly $941 short of break even before COGS.",
+      "action": "Keep the campaign off and exclude its creative set from the BFCM Repel campaign."
     },
     {
       "metric": "Sample requests awaiting review",
-      "current": 149,
-      "prior": 70,
-      "pct": 225.71,
-      "direction": "up",
-      "effect": "Requests rose 225.7% while only 7 were approved and 6 delivered, so the review queue now caps video supply and 109 requests have already expired.",
-      "action": "Approve the top 30 pending requests by GPM and post rate on Repel umbrella, Screen Door, CloudFur and Bidet, and expire the rest."
+      "current": 116,
+      "prior": 149,
+      "pct": -22.15,
+      "direction": "down",
+      "effect": "The queue cleared 33 items but only 7 approvals landed against 228 requests this week, and 148 requests already expired.",
+      "action": "Approve or reject the top 30 by GPM within 48 hours and expire the remainder so approvals stop lagging demand."
     }
   ]
 }
