@@ -33,19 +33,19 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-11-10",
+    "pulled_on": "2026-11-11",
     "data_through": "2026-11-08",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-11-10. Complete attribution through 2026-11-08."
+    "note": "Pulled from Cruva REST API on 2026-11-11. Complete attribution through 2026-11-08."
   },
   "latest_source_check": {
-    "date": "2026-11-09",
-    "seller_center_gmv": 101.51,
-    "orders": 4,
-    "units": 4,
-    "gmv_max_revenue": 0,
-    "gmv_max_spend": 0,
-    "gmv_max_roas": null,
+    "date": "2026-11-10",
+    "seller_center_gmv": 215.92,
+    "orders": 8,
+    "units": 8,
+    "gmv_max_revenue": 151.94,
+    "gmv_max_spend": 104.72,
+    "gmv_max_roas": 1.450916730328495,
     "attribution_status": "complete"
   },
   "periods": {
@@ -67,7 +67,7 @@
           "Units sold": 55.0,
           "Affiliate GMV": 715.04,
           "Commission": 106.5,
-          "Videos posted": 55,
+          "Videos posted": 56,
           "Creators posting": 34,
           "Video views": 208634,
           "LIVE GMV": 0.0,
@@ -81,7 +81,7 @@
           "Units sold": 5.77,
           "Affiliate GMV": -21.41,
           "Commission": -28.62,
-          "Videos posted": -35.29,
+          "Videos posted": -34.12,
           "Creators posting": -2.86,
           "Video views": 12.91,
           "LIVE GMV": -100.0,
@@ -109,7 +109,7 @@
           "Samples approved": 7,
           "Samples shipped": 6.0,
           "Samples delivered": 6,
-          "Creators with sales": 8
+          "Creators with sales": 11
         },
         "daily": [
           [
@@ -188,10 +188,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          183.92,
-          8,
+          207.91,
+          9,
           10966,
-          33.6,
+          37.2,
           0,
           0
         ],
@@ -208,10 +208,10 @@
         [
           "IVF MomTok",
           "ivf.momtok",
-          79.81,
-          4,
+          80.28,
+          5,
           888,
-          11.0,
+          12.0,
           0,
           0
         ],
@@ -226,12 +226,42 @@
           0
         ],
         [
+          "Claire  Motivated  Messy",
+          "motivatedandmessy",
+          50.38,
+          2,
+          137,
+          8.4,
+          0,
+          0
+        ],
+        [
+          "Mimis",
+          "noemizr1",
+          49.56,
+          1,
+          324,
+          5.0,
+          0,
+          0
+        ],
+        [
           "lauriesfinds",
           "lauriesfindslive",
           47.49,
           1,
           0,
           7.5,
+          0,
+          0
+        ],
+        [
+          "Ary Alfaro",
+          "aracelyalfaro38",
+          33.99,
+          1,
+          80,
+          3.4,
           0,
           0
         ],
@@ -254,36 +284,6 @@
           4.2,
           0,
           0
-        ],
-        [
-          "Coop Queen Courtney",
-          "courtney_gonzales19",
-          23.99,
-          1,
-          1141,
-          3.6,
-          1,
-          0
-        ],
-        [
-          "Coco love MT",
-          "12coco.love",
-          0,
-          0,
-          0,
-          0,
-          0,
-          1
-        ],
-        [
-          "TigreReal",
-          "andrewsm9",
-          0,
-          0,
-          259,
-          0,
-          1,
-          0
         ]
       ],
       "videos": [
@@ -305,7 +305,7 @@
           "everlasting_comfort",
           0,
           0,
-          349,
+          352,
           0,
           "https://tiktok.com/@everlasting_comfort/video/7702486977135774989"
         ],
@@ -327,7 +327,7 @@
           "upperechelonproducts_",
           0,
           0,
-          58,
+          59,
           0,
           "https://tiktok.com/@upperechelonproducts_/video/7702491130679545102"
         ],
@@ -349,7 +349,7 @@
           "upperechelonproducts_",
           0,
           0,
-          149,
+          150,
           1,
           "https://tiktok.com/@upperechelonproducts_/video/7703662112974949645"
         ],
@@ -365,13 +365,24 @@
           "https://tiktok.com/@repel_umbrella/video/7703665547581443341"
         ],
         [
+          "7703666604860607757",
+          "\"Enjoy the rain from the dry side \u2602\ufe0f\" Crystal-clear visibility, instant auto-collapse, and complete ",
+          "repel_umbrella",
+          "repel_umbrella",
+          0,
+          0,
+          0,
+          0,
+          "https://tiktok.com/@repel_umbrella/video/7703666604860607757"
+        ],
+        [
           "7703672651331456269",
           "CloudFur Unboxing \ud83d\udce6\u2601\ufe0f\u26a1 Scarily soft, ultra-plush ribbed faux fur ready to transform your living room",
           "cloudfurclub",
           "cloudfurclub",
           0,
           0,
-          274,
+          283,
           0,
           "https://tiktok.com/@cloudfurclub/video/7703672651331456269"
         ],
@@ -382,20 +393,9 @@
           "upperechelonproducts_",
           0,
           0,
-          98,
+          102,
           1,
           "https://tiktok.com/@upperechelonproducts_/video/7703676995913256205"
-        ],
-        [
-          "7703679070768205070",
-          "\"CloudFur: BUY NOW\" \ud83d\udecf\ufe0f\u26a1 The belly-flop-approved, ribbed faux-fur throw you'll never want to climb ou",
-          "cloudfur_uep",
-          "cloudfur_uep",
-          0,
-          0,
-          1,
-          0,
-          "https://tiktok.com/@cloudfur_uep/video/7703679070768205070"
         ]
       ]
     },
@@ -417,7 +417,7 @@
           "Units sold": 107.0,
           "Affiliate GMV": 1624.84,
           "Commission": 255.7,
-          "Videos posted": 140,
+          "Videos posted": 141,
           "Creators posting": 60,
           "Video views": 393415,
           "LIVE GMV": 201.49,
@@ -431,7 +431,7 @@
           "Units sold": -67.28,
           "Affiliate GMV": -66.97,
           "Commission": -74.94,
-          "Videos posted": -66.82,
+          "Videos posted": -66.59,
           "Creators posting": -50.0,
           "Video views": -39.24,
           "LIVE GMV": -77.61,
@@ -459,7 +459,7 @@
           "Samples approved": 13,
           "Samples shipped": 12.0,
           "Samples delivered": 11,
-          "Creators with sales": 15
+          "Creators with sales": 18
         },
         "daily": [
           [
@@ -608,10 +608,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          597.68,
-          23,
+          621.67,
+          24,
           31447,
-          104.4,
+          108.0,
           0,
           0
         ],
@@ -658,10 +658,10 @@
         [
           "IVF MomTok",
           "ivf.momtok",
-          79.81,
-          4,
+          80.28,
+          5,
           1599,
-          11.0,
+          12.0,
           0,
           0
         ],
@@ -676,32 +676,32 @@
           0
         ],
         [
+          "Claire  Motivated  Messy",
+          "motivatedandmessy",
+          50.38,
+          2,
+          317,
+          8.4,
+          0,
+          0
+        ],
+        [
+          "Mimis",
+          "noemizr1",
+          49.56,
+          1,
+          686,
+          5.0,
+          0,
+          0
+        ],
+        [
           "lauriesfinds",
           "lauriesfindslive",
           47.49,
           1,
           0,
           7.5,
-          0,
-          0
-        ],
-        [
-          "Meilani Joy",
-          "mei1ani_",
-          33.99,
-          1,
-          116,
-          3.4,
-          0,
-          0
-        ],
-        [
-          "Sarah",
-          "sara_g26",
-          32.69,
-          1,
-          0,
-          3.4,
           0,
           0
         ]
@@ -837,7 +837,7 @@
           "Units sold": 582.0,
           "Affiliate GMV": 9572.52,
           "Commission": 1947.01,
-          "Videos posted": 632,
+          "Videos posted": 633,
           "Creators posting": 184,
           "Video views": 1222238,
           "LIVE GMV": 1991.4,
@@ -851,7 +851,7 @@
           "Units sold": -46.65,
           "Affiliate GMV": -55.64,
           "Commission": -52.01,
-          "Videos posted": 23.92,
+          "Videos posted": 24.12,
           "Creators posting": 0.55,
           "Video views": -26.33,
           "LIVE GMV": -70.4,
@@ -1188,10 +1188,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          3474.37,
-          176,
+          3498.36,
+          177,
           354887,
-          797.3,
+          800.9,
           24,
           0
         ],
@@ -1258,20 +1258,20 @@
         [
           "Mimis",
           "noemizr1",
-          218.08,
-          4,
+          267.64,
+          5,
           1156,
-          22.0,
+          27.0,
           0,
           0
         ],
         [
           "IVF MomTok",
           "ivf.momtok",
-          156.55,
-          8,
+          157.02,
+          9,
           2868,
-          22.4,
+          23.4,
           0,
           0
         ],
@@ -1294,7 +1294,7 @@
           "courtney_gonzales19",
           30.6,
           3,
-          3009,
+          3010,
           17,
           "https://tiktok.com/@courtney_gonzales19/video/7695427610460900621"
         ],
@@ -1349,7 +1349,7 @@
           "meski.sis",
           14.99,
           1,
-          1313,
+          1314,
           6,
           "https://tiktok.com/@meski.sis/video/7696523538978573582"
         ],
@@ -1417,7 +1417,7 @@
           "Units sold": 1673.0,
           "Affiliate GMV": 31151.97,
           "Commission": 6003.87,
-          "Videos posted": 1142,
+          "Videos posted": 1143,
           "Creators posting": 324,
           "Video views": 2881238,
           "LIVE GMV": 8718.4,
@@ -1431,10 +1431,10 @@
           "Units sold": -76.16,
           "Affiliate GMV": -76.65,
           "Commission": -81.38,
-          "Videos posted": -19.75,
+          "Videos posted": -19.68,
           "Creators posting": -45.91,
           "Video views": -71.93,
-          "LIVE GMV": -82.11,
+          "LIVE GMV": -81.98,
           "DMs sent": -52.97,
           "Sample requests": -25.42,
           "Samples approved": -62.82,
@@ -2068,10 +2068,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          8236.09,
-          416,
+          8260.08,
+          417,
           695593,
-          1846.2,
+          1849.8,
           46,
           0
         ],
@@ -2174,7 +2174,7 @@
           "bellahana20",
           241.08,
           7,
-          7084,
+          7090,
           49,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
@@ -2185,7 +2185,7 @@
           "christianjohnson2022",
           174.47,
           4,
-          5682,
+          5695,
           40,
           "https://tiktok.com/@christianjohnson2022/video/7686565002299346206"
         ],
@@ -2196,7 +2196,7 @@
           "sylviaapproved",
           162.65,
           15,
-          16638,
+          16640,
           44,
           "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ],
@@ -2207,7 +2207,7 @@
           "keniaher.77",
           160.72,
           8,
-          9215,
+          9232,
           35,
           "https://tiktok.com/@keniaher.77/video/7685451539456068877"
         ],
@@ -2218,7 +2218,7 @@
           "tapa_mondo",
           153.57,
           11,
-          6340,
+          6353,
           65,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
@@ -2240,7 +2240,7 @@
           "its.massielll",
           68.61,
           7,
-          4561,
+          4564,
           48,
           "https://tiktok.com/@its.massielll/video/7693018427660733710"
         ],
@@ -2251,7 +2251,7 @@
           "sylviaapproved",
           64.05,
           6,
-          11011,
+          11020,
           87,
           "https://tiktok.com/@sylviaapproved/video/7694356427460070686"
         ],
@@ -2262,7 +2262,7 @@
           "mrhotpicks",
           59.97,
           3,
-          5538,
+          5539,
           20,
           "https://tiktok.com/@mrhotpicks/video/7694099956629507359"
         ],
@@ -2273,7 +2273,7 @@
           "mroliva4",
           58.33,
           3,
-          829,
+          841,
           1,
           "https://tiktok.com/@mroliva4/video/7690982471801916702"
         ]
@@ -2297,10 +2297,10 @@
           "Units sold": 4690.0,
           "Affiliate GMV": 93528.56,
           "Commission": 20894.45,
-          "Videos posted": 1709,
+          "Videos posted": 1710,
           "Creators posting": 597,
           "Video views": 6517187,
-          "LIVE GMV": 37667.48,
+          "LIVE GMV": 37522.12,
           "DMs sent": 91670,
           "Sample requests": 1834,
           "Samples approved": 393,
@@ -2311,10 +2311,10 @@
           "Units sold": -33.46,
           "Affiliate GMV": -34.67,
           "Commission": -29.79,
-          "Videos posted": 1.67,
+          "Videos posted": 1.73,
           "Creators posting": -23.75,
           "Video views": -49.01,
-          "LIVE GMV": -16.88,
+          "LIVE GMV": -17.24,
           "DMs sent": 95.92,
           "Sample requests": -7.61,
           "Samples approved": -58.06,
@@ -3258,10 +3258,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          16323.76,
-          900,
+          16347.75,
+          901,
           1190228,
-          3984.62,
+          3988.22,
           55,
           0
         ],
@@ -3442,7 +3442,7 @@
           "bellahana20",
           241.08,
           7,
-          7084,
+          7090,
           49,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
