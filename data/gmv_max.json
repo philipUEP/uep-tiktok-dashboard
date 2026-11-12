@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-11-11"
+    "pulled_on": "2026-11-12"
   },
   "periods": {
     "week": {
@@ -660,7 +660,7 @@
           "orders": 0,
           "cost_per_order": 0,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-11-10",
           "product_ids": [
             "1732604651629416667"
@@ -682,6 +682,22 @@
             "1732530504119718107"
           ],
           "budget": 200.0
+        },
+        {
+          "name": "BFCM Seat Cushion GMV Max",
+          "campaign_id": "1881572494944289",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.5,
+          "status": "ENABLE",
+          "start": "2026-11-11",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 150.0
         }
       ]
     },
@@ -1341,7 +1357,7 @@
           "orders": 0,
           "cost_per_order": 0,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-11-10",
           "product_ids": [
             "1732604651629416667"
@@ -1363,6 +1379,22 @@
             "1732530504119718107"
           ],
           "budget": 200.0
+        },
+        {
+          "name": "BFCM Seat Cushion GMV Max",
+          "campaign_id": "1881572494944289",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.5,
+          "status": "ENABLE",
+          "start": "2026-11-11",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 150.0
         }
       ]
     },
@@ -2022,7 +2054,7 @@
           "orders": 0,
           "cost_per_order": 0,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-11-10",
           "product_ids": [
             "1732604651629416667"
@@ -2044,6 +2076,22 @@
             "1732530504119718107"
           ],
           "budget": 200.0
+        },
+        {
+          "name": "BFCM Seat Cushion GMV Max",
+          "campaign_id": "1881572494944289",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.5,
+          "status": "ENABLE",
+          "start": "2026-11-11",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 150.0
         }
       ]
     },
@@ -2703,7 +2751,7 @@
           "orders": 0,
           "cost_per_order": 0,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-11-10",
           "product_ids": [
             "1732604651629416667"
@@ -2725,6 +2773,22 @@
             "1732530504119718107"
           ],
           "budget": 200.0
+        },
+        {
+          "name": "BFCM Seat Cushion GMV Max",
+          "campaign_id": "1881572494944289",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.5,
+          "status": "ENABLE",
+          "start": "2026-11-11",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 150.0
         }
       ]
     },
@@ -2812,7 +2876,7 @@
           "spend": 1718.55,
           "roi": 1.03,
           "orders": 54,
-          "cost_per_order": 31.82,
+          "cost_per_order": 31.83,
           "roas_target": 5.4,
           "status": "DISABLE",
           "start": "2026-08-21",
@@ -3384,7 +3448,7 @@
           "orders": 0,
           "cost_per_order": 0,
           "roas_target": 2.5,
-          "status": "ENABLE",
+          "status": "DISABLE",
           "start": "2026-11-10",
           "product_ids": [
             "1732604651629416667"
@@ -3406,26 +3470,42 @@
             "1732530504119718107"
           ],
           "budget": 200.0
+        },
+        {
+          "name": "BFCM Seat Cushion GMV Max",
+          "campaign_id": "1881572494944289",
+          "revenue": 0,
+          "spend": 0,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.5,
+          "status": "ENABLE",
+          "start": "2026-11-11",
+          "product_ids": [
+            "1729394250782118107"
+          ],
+          "budget": 150.0
         }
       ]
     },
     "live7d": {
-      "range": "2026-11-05 to 2026-11-11",
+      "range": "2026-11-06 to 2026-11-12",
       "totals": {
-        "revenue": 151.94,
-        "spend": 104.9,
-        "orders": 6,
-        "roi": 1.448
+        "revenue": 226.31,
+        "spend": 179.92,
+        "orders": 9,
+        "roi": 1.258
       },
       "campaigns": [
         {
           "name": "BFCM Screendoor GMV Max ",
           "campaign_id": "1881445487256609",
-          "revenue": 151.94,
-          "spend": 100.02,
-          "roi": 1.519,
-          "orders": 6,
-          "cost_per_order": 16.67,
+          "revenue": 196.32,
+          "spend": 139.79,
+          "roi": 1.404,
+          "orders": 8,
+          "cost_per_order": 17.47,
           "roas_target": 3.1,
           "status": "ENABLE",
           "start": "2026-11-10",
@@ -3437,11 +3517,11 @@
         {
           "name": "BFCM Repel GMV Max Campaign",
           "campaign_id": "1881446278604817",
-          "revenue": 0,
-          "spend": 4.82,
-          "roi": 0,
-          "orders": 0,
-          "cost_per_order": 0,
+          "revenue": 29.99,
+          "spend": 39.79,
+          "roi": 0.754,
+          "orders": 1,
+          "cost_per_order": 39.79,
           "roas_target": 2.7,
           "status": "ENABLE",
           "start": "2026-11-10",
@@ -3454,7 +3534,7 @@
           "name": "BFCM Elevate Seat Cushion GMV Max",
           "campaign_id": "1881445716726193",
           "revenue": 0,
-          "spend": 0.04,
+          "spend": 0.3,
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
@@ -3470,15 +3550,31 @@
           "name": "BFCM Car Seat Cushion GMV Max",
           "campaign_id": "1881446038169601",
           "revenue": 0,
-          "spend": 0.02,
+          "spend": 0.03,
+          "roi": 0,
+          "orders": 0,
+          "cost_per_order": 0,
+          "roas_target": 2.5,
+          "status": "DISABLE",
+          "start": "2026-11-10",
+          "product_ids": [
+            "1732604651629416667"
+          ],
+          "budget": 150.0
+        },
+        {
+          "name": "BFCM Seat Cushion GMV Max",
+          "campaign_id": "1881572494944289",
+          "revenue": 0,
+          "spend": 0.01,
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
           "roas_target": 2.5,
           "status": "ENABLE",
-          "start": "2026-11-10",
+          "start": "2026-11-11",
           "product_ids": [
-            "1732604651629416667"
+            "1729394250782118107"
           ],
           "budget": 150.0
         },

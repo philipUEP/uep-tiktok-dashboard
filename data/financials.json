@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-11-11",
+    "pulled_on": "2026-11-12",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -48,7 +48,7 @@
       "products": [
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
+          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
           "price": 27.99,
           "total_gmv": 382.24,
           "share_pct": 24.2,
@@ -136,8 +136,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
-          "price": 73.99,
+          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "price": 109.99,
           "total_gmv": 49.99,
           "share_pct": 3.2,
           "video_gmv": 0,
@@ -158,7 +158,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas",
+          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
           "price": 69.99,
           "total_gmv": 29.99,
           "share_pct": 1.9,
@@ -416,7 +416,7 @@
       "products": [
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
+          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
           "price": 27.99,
           "total_gmv": 1037.39,
           "share_pct": 33.4,
@@ -471,8 +471,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
-          "price": 73.99,
+          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "price": 109.99,
           "total_gmv": 169.96,
           "share_pct": 5.5,
           "video_gmv": 0,
@@ -537,7 +537,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas",
+          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
           "price": 69.99,
           "total_gmv": 48.69,
           "share_pct": 1.6,
@@ -828,7 +828,7 @@
       "products": [
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
+          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
           "price": 27.99,
           "total_gmv": 4871.94,
           "share_pct": 35.6,
@@ -850,7 +850,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas",
+          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
           "price": 69.99,
           "total_gmv": 1664.55,
           "share_pct": 12.2,
@@ -894,8 +894,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
-          "price": 73.99,
+          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "price": 109.99,
           "total_gmv": 317.25,
           "share_pct": 2.3,
           "video_gmv": 0,
@@ -1251,7 +1251,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
+          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
           "price": 27.99,
           "total_gmv": 13654.37,
           "share_pct": 34.1,
@@ -1262,7 +1262,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas",
+          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
           "price": 69.99,
           "total_gmv": 3051.21,
           "share_pct": 7.6,
@@ -1350,8 +1350,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
-          "price": 73.99,
+          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "price": 109.99,
           "total_gmv": 369.98,
           "share_pct": 0.9,
           "video_gmv": 0,
@@ -1642,7 +1642,7 @@
         "total_gmv": 109761.58,
         "affiliate_gmv": 93528.56,
         "video_gmv": 55018.97,
-        "live_gmv": 37522.12,
+        "live_gmv": 37539.12,
         "shop_tab_gmv": 21248.83,
         "gmv_max_revenue": 80777.24000000002,
         "subscription_revenue": 0
@@ -1685,7 +1685,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "Flux Phenom Fiberglass Screendoor (38x82 in) - 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Closing, Velcro Hook-Tape Easy Install, Bug-Proof, No-Drill Home Solution, Soft-Close Front Doors Hardware, Velcro Attachment Door Screen",
+          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
           "price": 27.99,
           "total_gmv": 30324.74,
           "share_pct": 27.6,
@@ -1696,7 +1696,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "Repel 9-Rib Fiberglass Automatic Folding Solid Umbrella - 100MPH Heavy-Storm Windproof, Durable Lightweight Compact Waterproof Outdoor Safe Adult Umbrella, Fits Backpacks & Cars, Travel Essential, Compact Waterproof Umbrellas",
+          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
           "price": 69.99,
           "total_gmv": 3145.36,
           "share_pct": 2.9,
@@ -1740,8 +1740,8 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "Everlasting Comfort Elevate Series Premium Memory Foam Seat Cushion & Lumbar Support - U-Shaped, Medium Firmness Office Furniture Accessories for Office Chairs, Driving with Pressure Relief, Ergonomic Support",
-          "price": 73.99,
+          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "price": 109.99,
           "total_gmv": 686.15,
           "share_pct": 0.6,
           "video_gmv": 53.99,
