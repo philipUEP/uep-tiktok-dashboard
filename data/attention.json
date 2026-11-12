@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:22:18+00:00",
+  "updated_at": "2026-11-12T07:20:00+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,8 +7,8 @@
       "prior": 201.49,
       "pct": -100.0,
       "direction": "down",
-      "effect": "62 streams drew 220,555 views and sold 0 units, which points to broken cart or product attachment rather than a lost audience.",
-      "action": "Audit 5 of the zero unit lives this week, then run 5 product linked lives on Screen Door and Bidet with hosts who converted in October."
+      "effect": "62 streams drew 220,555 views and sold 0 units, which points to broken product attachment or cart links rather than a lost audience.",
+      "action": "Audit 5 zero unit lives this week starting with emilydeck6, then run 5 product linked lives on Bidet and Screen Door with October converters."
     },
     {
       "metric": "DMs sent",
@@ -16,7 +16,7 @@
       "prior": 260,
       "pct": -79.62,
       "direction": "down",
-      "effect": "Outreach runs at 7.6 DMs per day with collab invites at 0 for three weeks, so new creator starts fall further in 2 to 4 weeks.",
+      "effect": "Outreach runs at about 7.6 DMs per day with collab invites at 0 for three weeks, so new creator starts stop and the posting decline extends past November.",
       "action": "Restore 250 DMs and 150 collab invites per week and hold that level for 3 weeks."
     },
     {
@@ -25,8 +25,8 @@
       "prior": 85,
       "pct": -34.12,
       "direction": "down",
-      "effect": "Video supply leads affiliate GMV by about 2 to 4 weeks, so this drop pulls the next two weekly GMV prints lower.",
-      "action": "Ask the 11 creators with sales this week for a second video each to recover volume without new samples."
+      "effect": "Video supply leads affiliate GMV by 2 to 4 weeks, so this third straight drop pulls the next two weekly GMV prints lower.",
+      "action": "Ask the 11 creators with sales this week for one more video each to recover volume without new samples."
     },
     {
       "metric": "Affiliate GMV",
@@ -34,26 +34,26 @@
       "prior": 909.8,
       "pct": -21.41,
       "direction": "down",
-      "effect": "Third straight weekly decline averaging $220, which projects near $495 next week if the slope holds.",
-      "action": "Concentrate outreach and samples on Screen Door, Bidet and CloudFur, the products that sold this week, and review the top creator level drops."
+      "effect": "Third straight weekly decline averaging $220.47, which projects near $494.57 next week if the slope holds.",
+      "action": "Concentrate outreach and samples on Screen Door, CloudFur and Bidet, the products that sold this week."
     },
     {
-      "metric": "Repel Blitz GMV Max ROAS vs 1.2 target",
-      "current": 0.704,
-      "prior": 1.2,
-      "pct": -41.33,
+      "metric": "BFCM Repel GMV Max ROAS vs 2.7 target",
+      "current": 0.754,
+      "prior": 2.7,
+      "pct": -72.07,
       "direction": "down",
-      "effect": "The campaign returned $2,235.16 on $3,176.77 spend, roughly $941 short of break even before COGS.",
-      "action": "Keep the campaign off and exclude its creative set from the BFCM Repel campaign."
+      "effect": "The campaign returned $29.99 on $39.79 spend in the last 7 days, repeating the 0.704 ROAS pattern of Repel Blitz over the month.",
+      "action": "Pause or cap BFCM Repel and move that budget to BFCM Screendoor at 1.404 ROAS."
     },
     {
-      "metric": "Sample requests awaiting review",
-      "current": 116,
-      "prior": 149,
-      "pct": -22.15,
-      "direction": "down",
-      "effect": "The queue cleared 33 items but only 7 approvals landed against 228 requests this week, and 148 requests already expired.",
-      "action": "Approve or reject the top 30 by GPM within 48 hours and expire the remainder so approvals stop lagging demand."
+      "metric": "Sample requests expired (of 300)",
+      "current": 161,
+      "prior": 148,
+      "pct": 8.78,
+      "direction": "up",
+      "effect": "53.7% of requests expired unactioned while only 7 were approved and 102 still sit in To Review against 228 new requests this week.",
+      "action": "Approve or reject the 102 To Review rows by GPM before the Nov 17 to Nov 19 expiry dates."
     }
   ]
 }
