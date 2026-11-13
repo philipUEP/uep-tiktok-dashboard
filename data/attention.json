@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:20:00+00:00",
+  "updated_at": "2026-11-13T07:22:00+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -8,7 +8,7 @@
       "pct": -100.0,
       "direction": "down",
       "effect": "62 streams drew 220,555 views and sold 0 units, which points to broken product attachment or cart links rather than a lost audience.",
-      "action": "Audit 5 zero unit lives this week starting with emilydeck6, then run 5 product linked lives on Bidet and Screen Door with October converters."
+      "action": "Audit product attachment and cart links on last week's streams, then book two product linked sessions with lauriesfindslive and muscle_dad."
     },
     {
       "metric": "DMs sent",
@@ -16,17 +16,8 @@
       "prior": 260,
       "pct": -79.62,
       "direction": "down",
-      "effect": "Outreach runs at about 7.6 DMs per day with collab invites at 0 for three weeks, so new creator starts stop and the posting decline extends past November.",
-      "action": "Restore 250 DMs and 150 collab invites per week and hold that level for 3 weeks."
-    },
-    {
-      "metric": "Videos posted",
-      "current": 56,
-      "prior": 85,
-      "pct": -34.12,
-      "direction": "down",
-      "effect": "Video supply leads affiliate GMV by 2 to 4 weeks, so this third straight drop pulls the next two weekly GMV prints lower.",
-      "action": "Ask the 11 creators with sales this week for one more video each to recover volume without new samples."
+      "effect": "Outreach runs at about 7.6 DMs per day with collab invites at 0 for three weeks, so new creator starts stop and the posting decline extends into December.",
+      "action": "Restore 250 DMs and 150 collab invites per week and hold that level for three weeks."
     },
     {
       "metric": "Affiliate GMV",
@@ -34,26 +25,35 @@
       "prior": 909.8,
       "pct": -21.41,
       "direction": "down",
-      "effect": "Third straight weekly decline averaging $220.47, which projects near $494.57 next week if the slope holds.",
-      "action": "Concentrate outreach and samples on Screen Door, CloudFur and Bidet, the products that sold this week."
+      "effect": "Third straight decline in the channel that carries 45.2% of shop GMV, averaging a $220.47 weekly drop.",
+      "action": "Give second samples and briefs to the 11 creators with sales, led by sylviaapproved and muscle_dad."
+    },
+    {
+      "metric": "Videos posted",
+      "current": 60,
+      "prior": 85,
+      "pct": -29.41,
+      "direction": "down",
+      "effect": "Third straight decline from 98, and at this rate the next two weeks land near 42 and 30 videos, which drags affiliate GMV further.",
+      "action": "Reopen collab invites and sample shipping so posting volume returns above 85 per week."
+    },
+    {
+      "metric": "Sample requests pending review",
+      "current": 228,
+      "prior": 70,
+      "pct": 225.71,
+      "direction": "up",
+      "effect": "Inbound demand outran fulfillment about 30 to 1 with only 7 approvals and 6 shipped, and 90 requests still sit in To Review while 173 expired.",
+      "action": "Clear the To Review queue within 48 hours, starting with applicants above 80% post rate such as purnima.c88 and yummymommyfamily."
     },
     {
       "metric": "BFCM Repel GMV Max ROAS vs 2.7 target",
-      "current": 0.754,
+      "current": 0.893,
       "prior": 2.7,
-      "pct": -72.07,
+      "pct": -66.93,
       "direction": "down",
-      "effect": "The campaign returned $29.99 on $39.79 spend in the last 7 days, repeating the 0.704 ROAS pattern of Repel Blitz over the month.",
-      "action": "Pause or cap BFCM Repel and move that budget to BFCM Screendoor at 1.404 ROAS."
-    },
-    {
-      "metric": "Sample requests expired (of 300)",
-      "current": 161,
-      "prior": 148,
-      "pct": 8.78,
-      "direction": "up",
-      "effect": "53.7% of requests expired unactioned while only 7 were approved and 102 still sit in To Review against 228 new requests this week.",
-      "action": "Approve or reject the 102 To Review rows by GPM before the Nov 17 to Nov 19 expiry dates."
+      "effect": "The campaign spent $84.60 for $75.57 revenue on 3 orders, so each additional dollar at this ratio loses money.",
+      "action": "Shift budget to BFCM Screendoor, which returned ROAS 1.911 at $13.06 cost per order over 14 orders."
     }
   ]
 }
