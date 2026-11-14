@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:22:00+00:00",
+  "updated_at": "2026-11-14T07:22:04+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,8 +7,8 @@
       "prior": 201.49,
       "pct": -100.0,
       "direction": "down",
-      "effect": "62 streams drew 220,555 views and sold 0 units, which points to broken product attachment or cart links rather than a lost audience.",
-      "action": "Audit product attachment and cart links on last week's streams, then book two product linked sessions with lauriesfindslive and muscle_dad."
+      "effect": "62 streams drew 220,555 views and sold 0 units, so the loss points to broken product attachment or cart links rather than a missing audience.",
+      "action": "Audit cart and product attachment on last week's 62 streams before booking new sessions."
     },
     {
       "metric": "DMs sent",
@@ -20,40 +20,40 @@
       "action": "Restore 250 DMs and 150 collab invites per week and hold that level for three weeks."
     },
     {
+      "metric": "Videos posted",
+      "current": 60,
+      "prior": 85,
+      "pct": -29.41,
+      "direction": "down",
+      "effect": "Third straight decline from 98, and at this rate the next two weeks land near 42 and 30 videos, which drags affiliate GMV toward 550 to 650.",
+      "action": "Reopen collab invites and sample shipping so posting volume returns above 85 per week."
+    },
+    {
       "metric": "Affiliate GMV",
       "current": 715.04,
       "prior": 909.8,
       "pct": -21.41,
       "direction": "down",
       "effect": "Third straight decline in the channel that carries 45.2% of shop GMV, averaging a $220.47 weekly drop.",
-      "action": "Give second samples and briefs to the 11 creators with sales, led by sylviaapproved and muscle_dad."
-    },
-    {
-      "metric": "Videos posted",
-      "current": 60,
-      "prior": 85,
-      "pct": -29.41,
-      "direction": "down",
-      "effect": "Third straight decline from 98, and at this rate the next two weeks land near 42 and 30 videos, which drags affiliate GMV further.",
-      "action": "Reopen collab invites and sample shipping so posting volume returns above 85 per week."
-    },
-    {
-      "metric": "Sample requests pending review",
-      "current": 228,
-      "prior": 70,
-      "pct": 225.71,
-      "direction": "up",
-      "effect": "Inbound demand outran fulfillment about 30 to 1 with only 7 approvals and 6 shipped, and 90 requests still sit in To Review while 173 expired.",
-      "action": "Clear the To Review queue within 48 hours, starting with applicants above 80% post rate such as purnima.c88 and yummymommyfamily."
+      "action": "Give a second sample and a brief to the 11 creators with sales, led by sylviaapproved and muscle_dad."
     },
     {
       "metric": "BFCM Repel GMV Max ROAS vs 2.7 target",
-      "current": 0.893,
+      "current": 1.593,
       "prior": 2.7,
-      "pct": -66.93,
+      "pct": -41.0,
       "direction": "down",
-      "effect": "The campaign spent $84.60 for $75.57 revenue on 3 orders, so each additional dollar at this ratio loses money.",
-      "action": "Shift budget to BFCM Screendoor, which returned ROAS 1.911 at $13.06 cost per order over 14 orders."
+      "effect": "The campaign improved from 0.893 but still returns $227.50 on $142.84 spend at $14.28 per order, below the 2.7 target.",
+      "action": "Cap Repel budget until it clears 2.0 and keep spend on BFCM Screendoor at 2.138 ROAS."
+    },
+    {
+      "metric": "Sample requests expired in pipeline",
+      "current": 175,
+      "prior": 173,
+      "pct": 1.16,
+      "direction": "up",
+      "effect": "58.3% of the 300 tracked requests have expired while 90 sit in To Review, so the queue is discharging by expiry rather than by decision.",
+      "action": "Clear the To Review queue within 48 hours and decline non-viable requests so they stop aging."
     }
   ]
 }
