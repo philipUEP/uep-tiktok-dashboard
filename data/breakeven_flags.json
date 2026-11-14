@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-11-13T07:03:39Z",
+ "generated_on": "2026-11-14T07:03:38Z",
  "window": "2026-11-02 to 2026-11-08",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-11-13T07:03:36Z",
+ "assumptions_generated_on": "2026-11-14T07:03:35Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -11,8 +11,83 @@
   "smart_promo_fee_pct": 3.0
  },
  "campaigns": [],
- "live_campaigns": [],
- "live_window": "2026-11-07 to 2026-11-13",
+ "live_campaigns": [
+  {
+   "campaign": "BFCM Screendoor GMV Max ",
+   "campaign_id": "1881445487256609",
+   "product": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
+   "matched": true,
+   "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
+   "product_ids": [
+    "1729391862339113179"
+   ],
+   "sku_coverage": {
+    "skus_total": 7,
+    "skus_mapped": 1,
+    "units_total": 32,
+    "units_covered": 0,
+    "pct_units_covered": 0.0
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732283771626623195",
+     "name": "Mesh Black,Default",
+     "units": 23,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433417435",
+     "name": "Quilted Thermal,Default",
+     "units": 0,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732283771626688731",
+     "name": "Fiberglass Black,Default",
+     "units": 7,
+     "price": 27.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433482971",
+     "name": "Solid Thermal,Default",
+     "units": 2,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881117403",
+     "name": "Mesh White,Default",
+     "units": 0,
+     "price": 27.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881051867",
+     "name": "1732357652881051867",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 261.82,
+   "revenue": 559.68,
+   "orders": 23,
+   "roi": 2.138,
+   "roas_target": 3.1,
+   "be_roas": 4.0,
+   "pause_below_roas": 3.2,
+   "margin_ad_pct": 26.8,
+   "cm3_after_ads": -111.83,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "It is live on a target of 3.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
+   "target_is_below_break_even": true
+  }
+ ],
+ "live_window": "2026-11-08 to 2026-11-14",
  "products": [
   {
    "product": "Screen Door",
@@ -166,10 +241,10 @@
   "target_below_break_even": 0,
   "products_missing_inputs": 2,
   "week_cm3_total": 131.9,
-  "live_campaigns_judged": 0,
-  "live_pause": 0,
-  "live_cm3_after_ads_total": 0,
-  "live_spend_total": 0
+  "live_campaigns_judged": 1,
+  "live_pause": 1,
+  "live_cm3_after_ads_total": -111.83,
+  "live_spend_total": 261.82
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
