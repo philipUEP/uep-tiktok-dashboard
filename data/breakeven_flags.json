@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-11-14T07:03:38Z",
+ "generated_on": "2026-11-15T07:03:04Z",
  "window": "2026-11-02 to 2026-11-08",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-11-14T07:03:35Z",
+ "assumptions_generated_on": "2026-11-15T07:03:01Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -24,7 +24,7 @@
    "sku_coverage": {
     "skus_total": 7,
     "skus_mapped": 1,
-    "units_total": 32,
+    "units_total": 37,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -32,8 +32,15 @@
     {
      "sku_id": "1732283771626623195",
      "name": "Mesh Black,Default",
-     "units": 23,
+     "units": 27,
      "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732283771626688731",
+     "name": "Fiberglass Black,Default",
+     "units": 6,
+     "price": 27.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -44,23 +51,16 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732283771626688731",
-     "name": "Fiberglass Black,Default",
-     "units": 7,
-     "price": 27.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732384554433482971",
      "name": "Solid Thermal,Default",
-     "units": 2,
+     "units": 3,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732357652881117403",
      "name": "Mesh White,Default",
-     "units": 0,
+     "units": 1,
      "price": 27.99,
      "why": "no cost row in the cost model"
     },
@@ -72,22 +72,22 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 261.82,
-   "revenue": 559.68,
-   "orders": 23,
-   "roi": 2.138,
+   "spend": 328.83,
+   "revenue": 740.4,
+   "orders": 31,
+   "roi": 2.252,
    "roas_target": 3.1,
    "be_roas": 4.0,
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
-   "cm3_after_ads": -111.83,
+   "cm3_after_ads": -130.4,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 3.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-11-08 to 2026-11-14",
+ "live_window": "2026-11-09 to 2026-11-15",
  "products": [
   {
    "product": "Screen Door",
@@ -243,8 +243,8 @@
   "week_cm3_total": 131.9,
   "live_campaigns_judged": 1,
   "live_pause": 1,
-  "live_cm3_after_ads_total": -111.83,
-  "live_spend_total": 261.82
+  "live_cm3_after_ads_total": -130.4,
+  "live_spend_total": 328.83
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
