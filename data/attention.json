@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T07:22:04+00:00",
+  "updated_at": "2026-11-15T07:22:40+00:00",
   "items": [
     {
       "metric": "LIVE GMV",
@@ -7,53 +7,53 @@
       "prior": 201.49,
       "pct": -100.0,
       "direction": "down",
-      "effect": "62 streams drew 220,555 views and sold 0 units, so the loss points to broken product attachment or cart links rather than a missing audience.",
-      "action": "Audit cart and product attachment on last week's 62 streams before booking new sessions."
+      "effect": "Zero for a second straight week after $201.49, with 62 streams and 220,555 live views in the last complete week producing no units and 56 lives posted since Nov 9 at no GMV, which points at product attachment or cart links rather than audience.",
+      "action": "Audit product attachment and cart links on the 62 streams from last week and the 56 posted since Nov 9 before booking any new session."
+    },
+    {
+      "metric": "Samples shipped",
+      "current": 0.0,
+      "prior": 6.0,
+      "pct": -100.0,
+      "direction": "down",
+      "effect": "No sample approved or shipped this week while 188 of 300 tracked requests sit Expired, so no new creator content lands before about Dec 1 at a 2 to 3 week ship and post lag.",
+      "action": "Clear the 76 To Review requests within 48 hours on post rate and GPM and ship at least 25 this week."
+    },
+    {
+      "metric": "Video views",
+      "current": 143279,
+      "prior": 208634,
+      "pct": -31.3,
+      "direction": "down",
+      "effect": "About 23.8% fewer views per day on flat posting volume, so existing creators are losing distribution per video and the GMV drag arrives ahead of the sample gap.",
+      "action": "Rebrief the five highest-view creators on the hooks in creative_brief.json and ship a second sample to sylviaapproved and muscle_dad."
     },
     {
       "metric": "DMs sent",
-      "current": 53,
-      "prior": 260,
-      "pct": -79.62,
+      "current": 29.0,
+      "prior": 53.0,
+      "pct": -45.3,
       "direction": "down",
-      "effect": "Outreach runs at about 7.6 DMs per day with collab invites at 0 for three weeks, so new creator starts stop and the posting decline extends into December.",
+      "effect": "Third straight week of decline from 260 with collab invites at 0 for a fourth week, so the creator pipeline feeding samples and posts keeps shrinking.",
       "action": "Restore 250 DMs and 150 collab invites per week and hold that level for three weeks."
     },
     {
-      "metric": "Videos posted",
-      "current": 60,
-      "prior": 85,
-      "pct": -29.41,
+      "metric": "Videos posted (creators posting 31 vs 34)",
+      "current": 55.0,
+      "prior": 60.0,
+      "pct": -8.3,
       "direction": "down",
-      "effect": "Third straight decline from 98, and at this rate the next two weeks land near 42 and 30 videos, which drags affiliate GMV toward 550 to 650.",
-      "action": "Reopen collab invites and sample shipping so posting volume returns above 85 per week."
-    },
-    {
-      "metric": "Affiliate GMV",
-      "current": 715.04,
-      "prior": 909.8,
-      "pct": -21.41,
-      "direction": "down",
-      "effect": "Third straight decline in the channel that carries 45.2% of shop GMV, averaging a $220.47 weekly drop.",
-      "action": "Give a second sample and a brief to the 11 creators with sales, led by sylviaapproved and muscle_dad."
+      "effect": "Third straight decline from 98, and creators posting fell from 49 to 31 over the same run, which pushes affiliate GMV toward a further single-digit weekly drop.",
+      "action": "Restart the sample queue and collab invites so posting volume returns above 85 videos a week."
     },
     {
       "metric": "BFCM Repel GMV Max ROAS vs 2.7 target",
-      "current": 1.593,
+      "current": 1.356,
       "prior": 2.7,
-      "pct": -41.0,
+      "pct": -49.8,
       "direction": "down",
-      "effect": "The campaign improved from 0.893 but still returns $227.50 on $142.84 spend at $14.28 per order, below the 2.7 target.",
-      "action": "Cap Repel budget until it clears 2.0 and keep spend on BFCM Screendoor at 2.138 ROAS."
-    },
-    {
-      "metric": "Sample requests expired in pipeline",
-      "current": 175,
-      "prior": 173,
-      "pct": 1.16,
-      "direction": "up",
-      "effect": "58.3% of the 300 tracked requests have expired while 90 sit in To Review, so the queue is discharging by expiry rather than by decision.",
-      "action": "Clear the To Review queue within 48 hours and decline non-viable requests so they stop aging."
+      "effect": "Spend of $181.77 returned $246.49 on 11 orders at $16.52 per order, and the $38.93 added since yesterday returned $18.99, a 0.49 marginal ROAS.",
+      "action": "Cap Repel at $100 per day until it clears 2.0 and move the budget to BFCM Screendoor at 2.252."
     }
   ]
 }
