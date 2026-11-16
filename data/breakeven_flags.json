@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-11-15T07:03:04Z",
- "window": "2026-11-02 to 2026-11-08",
+ "generated_on": "2026-11-16T07:03:10Z",
+ "window": "2026-11-09 to 2026-11-15",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-11-15T07:03:01Z",
+ "assumptions_generated_on": "2026-11-16T07:03:07Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -10,8 +10,201 @@
   "referral_fee_pct": 6.0,
   "smart_promo_fee_pct": 3.0
  },
- "campaigns": [],
- "live_campaigns": [
+ "campaigns": [
+  {
+   "campaign": "BFCM Repel GMV Max Campaign",
+   "campaign_id": "1881446278604817",
+   "product": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
+   "matched": true,
+   "be_basis": "unpriced SKUs: no SKU under this product has a break-even row yet",
+   "product_ids": [
+    "1732530504119718107"
+   ],
+   "sku_coverage": {
+    "skus_total": 23,
+    "skus_mapped": 0,
+    "units_total": 17,
+    "units_covered": 0,
+    "pct_units_covered": 0.0
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732530562875494619",
+     "name": "Black",
+     "units": 4,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146428123",
+     "name": "Clear",
+     "units": 2,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707650287079643",
+     "name": "Navy Blue",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491651803",
+     "name": "Black 4pack",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146886875",
+     "name": "Starry Night",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146165979",
+     "name": "Slate Blue",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146755803",
+     "name": "3-PACK Black",
+     "units": 0,
+     "price": 59.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146231515",
+     "name": "Black/Red",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491455195",
+     "name": "Pastel pink",
+     "units": 2,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 4,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491520731",
+     "name": "Pastel Mint",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
+     "units": 2,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146362587",
+     "name": "Yellow",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146034907",
+     "name": "Pastel Blue",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530572481433819",
+     "name": "Lavendar",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530572481368283",
+     "name": "Rainbow",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146624731",
+     "name": "Black Fog",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530571945677019",
+     "name": "Light Blue",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146690267",
+     "name": "2-PACK Black",
+     "units": 0,
+     "price": 49.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146821339",
+     "name": "Black Premium",
+     "units": 0,
+     "price": 34.99,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 224.73,
+   "revenue": 379.43,
+   "orders": 17,
+   "roi": 1.688,
+   "roas_target": 2.7,
+   "be_roas": 2.2,
+   "pause_below_roas": 1.9,
+   "margin_ad_pct": 45.4,
+   "cm3_after_ads": -52.47,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "Raise the return target to at least 2.2x (break-even), or pause and move the budget to a campaign above break-even.",
+   "target_is_below_break_even": false,
+   "product_margin_ad_pct": 45.4
+  },
   {
    "campaign": "BFCM Screendoor GMV Max ",
    "campaign_id": "1881445487256609",
@@ -24,7 +217,7 @@
    "sku_coverage": {
     "skus_total": 7,
     "skus_mapped": 1,
-    "units_total": 37,
+    "units_total": 47,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -32,14 +225,284 @@
     {
      "sku_id": "1732283771626623195",
      "name": "Mesh Black,Default",
-     "units": 27,
+     "units": 34,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732283771626688731",
      "name": "Fiberglass Black,Default",
-     "units": 6,
+     "units": 7,
+     "price": 27.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433417435",
+     "name": "Quilted Thermal,Default",
+     "units": 0,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433482971",
+     "name": "Solid Thermal,Default",
+     "units": 4,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881117403",
+     "name": "Mesh White,Default",
+     "units": 2,
+     "price": 27.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881051867",
+     "name": "1732357652881051867",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 403.17,
+   "revenue": 954.7,
+   "orders": 41,
+   "roi": 2.368,
+   "roas_target": 3.1,
+   "be_roas": 4.0,
+   "pause_below_roas": 3.2,
+   "margin_ad_pct": 26.8,
+   "cm3_after_ads": -147.31,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "It is live on a target of 3.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
+   "target_is_below_break_even": true,
+   "product_margin_ad_pct": 26.8
+  }
+ ],
+ "live_campaigns": [
+  {
+   "campaign": "BFCM Repel GMV Max Campaign",
+   "campaign_id": "1881446278604817",
+   "product": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
+   "matched": true,
+   "be_basis": "unpriced SKUs: no SKU under this product has a break-even row yet",
+   "product_ids": [
+    "1732530504119718107"
+   ],
+   "sku_coverage": {
+    "skus_total": 23,
+    "skus_mapped": 0,
+    "units_total": 17,
+    "units_covered": 0,
+    "pct_units_covered": 0.0
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732530562875494619",
+     "name": "Black",
+     "units": 4,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146428123",
+     "name": "Clear",
+     "units": 2,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707650287079643",
+     "name": "Navy Blue",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491651803",
+     "name": "Black 4pack",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146886875",
+     "name": "Starry Night",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146165979",
+     "name": "Slate Blue",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146755803",
+     "name": "3-PACK Black",
+     "units": 0,
+     "price": 59.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146231515",
+     "name": "Black/Red",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491455195",
+     "name": "Pastel pink",
+     "units": 2,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 4,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491520731",
+     "name": "Pastel Mint",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
+     "units": 2,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146362587",
+     "name": "Yellow",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146034907",
+     "name": "Pastel Blue",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530572481433819",
+     "name": "Lavendar",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530572481368283",
+     "name": "Rainbow",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146624731",
+     "name": "Black Fog",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732530571945677019",
+     "name": "Light Blue",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146297051",
+     "name": "Gray",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146690267",
+     "name": "2-PACK Black",
+     "units": 0,
+     "price": 49.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146821339",
+     "name": "Black Premium",
+     "units": 0,
+     "price": 34.99,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 224.73,
+   "revenue": 379.43,
+   "orders": 17,
+   "roi": 1.688,
+   "roas_target": 2.7,
+   "be_roas": 2.2,
+   "pause_below_roas": 1.9,
+   "margin_ad_pct": 45.4,
+   "cm3_after_ads": -52.47,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "Raise the return target to at least 2.2x (break-even), or pause and move the budget to a campaign above break-even.",
+   "target_is_below_break_even": false
+  },
+  {
+   "campaign": "BFCM Screendoor GMV Max ",
+   "campaign_id": "1881445487256609",
+   "product": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
+   "matched": true,
+   "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
+   "product_ids": [
+    "1729391862339113179"
+   ],
+   "sku_coverage": {
+    "skus_total": 7,
+    "skus_mapped": 1,
+    "units_total": 44,
+    "units_covered": 0,
+    "pct_units_covered": 0.0
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732283771626623195",
+     "name": "Mesh Black,Default",
+     "units": 32,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732283771626688731",
+     "name": "Fiberglass Black,Default",
+     "units": 7,
      "price": 27.99,
      "why": "no cost row in the cost model"
     },
@@ -60,7 +523,7 @@
     {
      "sku_id": "1732357652881117403",
      "name": "Mesh White,Default",
-     "units": 1,
+     "units": 2,
      "price": 27.99,
      "why": "no cost row in the cost model"
     },
@@ -72,22 +535,22 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 328.83,
-   "revenue": 740.4,
-   "orders": 31,
-   "roi": 2.252,
+   "spend": 403.17,
+   "revenue": 954.7,
+   "orders": 41,
+   "roi": 2.368,
    "roas_target": 3.1,
    "be_roas": 4.0,
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
-   "cm3_after_ads": -130.4,
+   "cm3_after_ads": -147.31,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 3.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-11-09 to 2026-11-15",
+ "live_window": "2026-11-10 to 2026-11-16",
  "products": [
   {
    "product": "Screen Door",
@@ -95,14 +558,14 @@
    "input_needed": false,
    "variants": 2,
    "price": 21.99,
-   "units": 17,
-   "gmv": 382.24,
-   "units_ad": 0,
-   "ads_spend": 0,
-   "ads_revenue": 0,
-   "organic_revenue": 382.24,
-   "cm3": 81.6,
-   "cm3_per_unit": 4.8,
+   "units": 47,
+   "gmv": 994.1,
+   "units_ad": 41,
+   "ads_spend": 403.17,
+   "ads_revenue": 954.7,
+   "organic_revenue": 39.4,
+   "cm3": -132.47,
+   "cm3_per_unit": -2.82,
    "margin_ad_pct": 26.8,
    "be_roas_ad": 3.7,
    "pause_below_roas": 3.2,
@@ -111,18 +574,39 @@
    "listings_matched": 1
   },
   {
+   "product": "Repel Travel Umbrella",
+   "seller_sku": "RTU-3B",
+   "input_needed": false,
+   "variants": 3,
+   "price": 51.99,
+   "units": 17,
+   "gmv": 323.46,
+   "units_ad": 17,
+   "ads_spend": 224.73,
+   "ads_revenue": 379.43,
+   "organic_revenue": 0.0,
+   "cm3": 176.64,
+   "cm3_per_unit": 10.39,
+   "margin_ad_pct": 45.4,
+   "be_roas_ad": 2.2,
+   "pause_below_roas": 1.9,
+   "advertise": "Yes",
+   "margin_basis": "Repel Travel Umbrella \u2013 3-pack",
+   "listings_matched": 1
+  },
+  {
    "product": "Clear Rear Bidet",
    "seller_sku": "BUTT-W2-W",
    "input_needed": false,
    "variants": 3,
    "price": 34.99,
-   "units": 7,
-   "gmv": 237.92,
+   "units": 2,
+   "gmv": 99.98,
    "units_ad": 0,
    "ads_spend": 0,
    "ads_revenue": 0,
-   "organic_revenue": 237.92,
-   "cm3": 4.76,
+   "organic_revenue": 99.98,
+   "cm3": 1.36,
    "cm3_per_unit": 0.68,
    "margin_ad_pct": 17.0,
    "be_roas_ad": 5.9,
@@ -137,40 +621,19 @@
    "input_needed": false,
    "variants": 1,
    "price": 59.99,
-   "units": 1,
-   "gmv": 49.99,
+   "units": 0,
+   "gmv": 0.0,
    "units_ad": 0,
    "ads_spend": 0,
    "ads_revenue": 0,
-   "organic_revenue": 49.99,
-   "cm3": 24.01,
-   "cm3_per_unit": 24.01,
+   "organic_revenue": 0.0,
+   "cm3": 0.0,
+   "cm3_per_unit": null,
    "margin_ad_pct": 50.0,
    "be_roas_ad": 2.0,
    "pause_below_roas": 1.7,
    "advertise": "Yes",
    "margin_basis": "Elevate Seat Cushion",
-   "listings_matched": 1
-  },
-  {
-   "product": "Repel Travel Umbrella",
-   "seller_sku": "RTU-3B",
-   "input_needed": false,
-   "variants": 3,
-   "price": 51.99,
-   "units": 1,
-   "gmv": 29.99,
-   "units_ad": 0,
-   "ads_spend": 0,
-   "ads_revenue": 0,
-   "organic_revenue": 29.99,
-   "cm3": 21.53,
-   "cm3_per_unit": 21.53,
-   "margin_ad_pct": 45.4,
-   "be_roas_ad": 2.2,
-   "pause_below_roas": 1.9,
-   "advertise": "Yes",
-   "margin_basis": "Repel Travel Umbrella \u2013 3-pack",
    "listings_matched": 1
   },
   {
@@ -192,24 +655,6 @@
    "pause_below_roas": 2.1,
    "advertise": "Yes",
    "margin_basis": "Original Seat Cushion",
-   "listings_matched": 0
-  },
-  {
-   "product": "CloudFur",
-   "seller_sku": "TBD",
-   "input_needed": true,
-   "variants": 1,
-   "gmv": 265.76,
-   "units": 5,
-   "ads_spend": 0,
-   "ads_revenue": 0,
-   "units_ad": 0,
-   "cm3": null,
-   "cm3_per_unit": null,
-   "margin_ad_pct": null,
-   "be_roas_ad": null,
-   "pause_below_roas": null,
-   "advertise": "Input needed",
    "listings_matched": 1
   },
   {
@@ -229,22 +674,40 @@
    "pause_below_roas": null,
    "advertise": "Input needed",
    "listings_matched": 1
+  },
+  {
+   "product": "CloudFur",
+   "seller_sku": "TBD",
+   "input_needed": true,
+   "variants": 1,
+   "gmv": 0.0,
+   "units": 0,
+   "ads_spend": 0,
+   "ads_revenue": 0,
+   "units_ad": 0,
+   "cm3": null,
+   "cm3_per_unit": null,
+   "margin_ad_pct": null,
+   "be_roas_ad": null,
+   "pause_below_roas": null,
+   "advertise": "Input needed",
+   "listings_matched": 1
   }
  ],
  "summary": {
-  "campaigns_judged": 0,
-  "pause": 0,
+  "campaigns_judged": 2,
+  "pause": 2,
   "watch": 0,
   "keep": 0,
   "no_break_even": 0,
-  "cm3_after_ads_total": 0,
-  "target_below_break_even": 0,
+  "cm3_after_ads_total": -199.78,
+  "target_below_break_even": 1,
   "products_missing_inputs": 2,
-  "week_cm3_total": 131.9,
-  "live_campaigns_judged": 1,
-  "live_pause": 1,
-  "live_cm3_after_ads_total": -130.4,
-  "live_spend_total": 328.83
+  "week_cm3_total": 45.53,
+  "live_campaigns_judged": 2,
+  "live_pause": 2,
+  "live_cm3_after_ads_total": -199.78,
+  "live_spend_total": 627.9
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
