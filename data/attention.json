@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-11-15T07:22:40+00:00",
+  "updated_at": "2026-11-16T07:26:00+00:00",
   "items": [
-    {
-      "metric": "LIVE GMV",
-      "current": 0.0,
-      "prior": 201.49,
-      "pct": -100.0,
-      "direction": "down",
-      "effect": "Zero for a second straight week after $201.49, with 62 streams and 220,555 live views in the last complete week producing no units and 56 lives posted since Nov 9 at no GMV, which points at product attachment or cart links rather than audience.",
-      "action": "Audit product attachment and cart links on the 62 streams from last week and the 56 posted since Nov 9 before booking any new session."
-    },
     {
       "metric": "Samples shipped",
       "current": 0.0,
       "prior": 6.0,
       "pct": -100.0,
       "direction": "down",
-      "effect": "No sample approved or shipped this week while 188 of 300 tracked requests sit Expired, so no new creator content lands before about Dec 1 at a 2 to 3 week ship and post lag.",
-      "action": "Clear the 76 To Review requests within 48 hours on post rate and GPM and ship at least 25 this week."
+      "effect": "Zero samples approved or shipped this week against 67 requests waiting in To Review, so no new sample-driven creator content lands before the first week of December.",
+      "action": "Triage the 67 To Review requests today and approve every applicant with post rate above 80% and GPM above $10."
     },
     {
-      "metric": "Video views",
-      "current": 143279,
-      "prior": 208634,
-      "pct": -31.3,
+      "metric": "Samples delivered",
+      "current": 1.0,
+      "prior": 6.0,
+      "pct": -83.3,
       "direction": "down",
-      "effect": "About 23.8% fewer views per day on flat posting volume, so existing creators are losing distribution per video and the GMV drag arrives ahead of the sample gap.",
-      "action": "Rebrief the five highest-view creators on the hooks in creative_brief.json and ship a second sample to sylviaapproved and muscle_dad."
+      "effect": "Delivery at one sample per week cannot sustain 35 creators posting, and 198 of 300 tracked requests are already expired so that pool is gone without new outreach.",
+      "action": "Run one re-request pass on the 198 expired requests and ship the approved backlog before reviewing new applicants."
+    },
+    {
+      "metric": "Sample requests",
+      "current": 71.0,
+      "prior": 228.0,
+      "pct": -68.9,
+      "direction": "down",
+      "effect": "Inbound request volume fell to a third of last week, which points at the 41.5% drop in DMs sent as the upstream cause rather than at creator appetite.",
+      "action": "Lift DM volume back above 100 per week on screen door and Repel umbrellas only, holding the current 22.58% reply rate."
+    },
+    {
+      "metric": "LIVE GMV",
+      "current": 0.0,
+      "prior": 201.49,
+      "pct": -100.0,
+      "direction": "down",
+      "effect": "Second straight zero week on 56 streams and 222,351 live views, a pattern consistent with product attachment or cart links missing rather than weak audience.",
+      "action": "Audit product attachment and cart links on the 56 streams from this week and pause paid live slots until one stream shows non-zero GMV."
     },
     {
       "metric": "DMs sent",
-      "current": 29.0,
+      "current": 31.0,
       "prior": 53.0,
-      "pct": -45.3,
+      "pct": -41.5,
       "direction": "down",
-      "effect": "Third straight week of decline from 260 with collab invites at 0 for a fourth week, so the creator pipeline feeding samples and posts keeps shrinking.",
-      "action": "Restore 250 DMs and 150 collab invites per week and hold that level for three weeks."
+      "effect": "Third straight weekly decline from 260 to 53 to 31, and replies improved to 22.58% as volume fell, so send volume is now the constraint on the funnel.",
+      "action": "Restore a weekly send floor of 100 DMs and track replies per 100 sends week over week."
     },
     {
-      "metric": "Videos posted (creators posting 31 vs 34)",
-      "current": 55.0,
-      "prior": 60.0,
-      "pct": -8.3,
-      "direction": "down",
-      "effect": "Third straight decline from 98, and creators posting fell from 49 to 31 over the same run, which pushes affiliate GMV toward a further single-digit weekly drop.",
-      "action": "Restart the sample queue and collab invites so posting volume returns above 85 videos a week."
-    },
-    {
-      "metric": "BFCM Repel GMV Max ROAS vs 2.7 target",
-      "current": 1.356,
-      "prior": 2.7,
-      "pct": -49.8,
-      "direction": "down",
-      "effect": "Spend of $181.77 returned $246.49 on 11 orders at $16.52 per order, and the $38.93 added since yesterday returned $18.99, a 0.49 marginal ROAS.",
-      "action": "Cap Repel at $100 per day until it clears 2.0 and move the budget to BFCM Screendoor at 2.252."
+      "metric": "Seat cushion GMV Max spend at zero revenue",
+      "current": 21.78,
+      "prior": 0.0,
+      "pct": 0.0,
+      "direction": "up",
+      "effect": "Two enabled seat cushion campaigns spent $21.78 for $0 attributed revenue at targets of 2.5 and 2.7, while Repel sits at 1.688 against its own 2.7 target.",
+      "action": "Pause the two seat cushion campaigns and move that budget to the screen door campaign at 2.368 ROAS."
     }
   ]
 }
