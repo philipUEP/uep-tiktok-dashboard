@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-11-16T07:26:00+00:00",
+  "updated_at": "2026-11-17T07:24:00+00:00",
   "items": [
     {
       "metric": "Samples shipped",
-      "current": 0.0,
-      "prior": 6.0,
+      "current": 0,
+      "prior": 6,
       "pct": -100.0,
       "direction": "down",
-      "effect": "Zero samples approved or shipped this week against 67 requests waiting in To Review, so no new sample-driven creator content lands before the first week of December.",
-      "action": "Triage the 67 To Review requests today and approve every applicant with post rate above 80% and GPM above $10."
+      "effect": "With zero samples shipped and one delivered, no new creator content can land before early December, and affiliate GMV is 77.8% of shop GMV.",
+      "action": "Clear the 65 requests sitting in To Review before their 2026-11-24 expiry, starting with the highest post_rate and GPM handles."
     },
     {
       "metric": "Samples delivered",
-      "current": 1.0,
-      "prior": 6.0,
+      "current": 1,
+      "prior": 6,
       "pct": -83.3,
       "direction": "down",
-      "effect": "Delivery at one sample per week cannot sustain 35 creators posting, and 198 of 300 tracked requests are already expired so that pool is gone without new outreach.",
-      "action": "Run one re-request pass on the 198 expired requests and ship the approved backlog before reviewing new applicants."
+      "effect": "Delivered samples are the last stage that produces new videos, so the December content layer thins even if shipping resumes this week.",
+      "action": "Ship approved requests same day and confirm tracking on the one shipped item so it does not stall before delivery."
     },
     {
       "metric": "Sample requests",
-      "current": 71.0,
-      "prior": 228.0,
+      "current": 71,
+      "prior": 228,
       "pct": -68.9,
       "direction": "down",
-      "effect": "Inbound request volume fell to a third of last week, which points at the 41.5% drop in DMs sent as the upstream cause rather than at creator appetite.",
-      "action": "Lift DM volume back above 100 per week on screen door and Repel umbrellas only, holding the current 22.58% reply rate."
-    },
-    {
-      "metric": "LIVE GMV",
-      "current": 0.0,
-      "prior": 201.49,
-      "pct": -100.0,
-      "direction": "down",
-      "effect": "Second straight zero week on 56 streams and 222,351 live views, a pattern consistent with product attachment or cart links missing rather than weak audience.",
-      "action": "Audit product attachment and cart links on the 56 streams from this week and pause paid live slots until one stream shows non-zero GMV."
+      "effect": "Inbound requests fell back to their pre-BFCM level, so the sampling pool shrinks unless outbound starts filling it.",
+      "action": "Restart DM outbound to a written daily floor and begin sending Collab invites, which have been at zero for four weeks."
     },
     {
       "metric": "DMs sent",
-      "current": 31.0,
-      "prior": 53.0,
+      "current": 31,
+      "prior": 53,
       "pct": -41.5,
       "direction": "down",
-      "effect": "Third straight weekly decline from 260 to 53 to 31, and replies improved to 22.58% as volume fell, so send volume is now the constraint on the funnel.",
-      "action": "Restore a weekly send floor of 100 DMs and track replies per 100 sends week over week."
+      "effect": "A third straight decline (260, 53, 31) removes top-of-funnel input, so requests and new posting creators should soften again in 2 to 3 weeks.",
+      "action": "Find why the outreach flow dropped from 260 to 31 sends a week and restore a weekly send floor."
     },
     {
-      "metric": "Seat cushion GMV Max spend at zero revenue",
-      "current": 21.78,
-      "prior": 0.0,
-      "pct": 0.0,
-      "direction": "up",
-      "effect": "Two enabled seat cushion campaigns spent $21.78 for $0 attributed revenue at targets of 2.5 and 2.7, while Repel sits at 1.688 against its own 2.7 target.",
-      "action": "Pause the two seat cushion campaigns and move that budget to the screen door campaign at 2.368 ROAS."
+      "metric": "LIVE GMV",
+      "current": 0,
+      "prior": 201.49,
+      "pct": -100.0,
+      "direction": "down",
+      "effect": "Live has been at zero for two consecutive weeks on 56 streams and 222,335 views, against a 201.49 last non-zero week.",
+      "action": "Audit product attachment and cart links on this week's streams before adding more live hours."
+    },
+    {
+      "metric": "Seat Cushion GMV Max ROAS (target 2.5)",
+      "current": 0,
+      "prior": 2.5,
+      "pct": -100.0,
+      "direction": "down",
+      "effect": "Three BFCM Seat Cushion campaigns spent 24.37 over 5 to 7 days with zero revenue and zero orders, while Repel sits at 1.69 against a 2.7 target.",
+      "action": "Pause the Seat Cushion campaigns until one order lands and move the budget to BFCM Screendoor at 2.41 ROI."
     }
   ]
 }
