@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /shop/stats with product_id + include_charts",
-    "pulled_on": "2026-11-16",
+    "pulled_on": "2026-11-17",
     "range": {
       "from": "2026-11-09",
       "to": "2026-11-15"
@@ -10,8 +10,8 @@
   "products": [
     {
       "product_id": "1729391862339113179",
-      "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
-      "total_gmv": 994.1,
+      "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
+      "total_gmv": 1013.73,
       "daily": [
         {
           "date": "2026-11-09",
@@ -45,8 +45,8 @@
         },
         {
           "date": "2026-11-15",
-          "gmv": 129.26,
-          "units": 6.0
+          "gmv": 148.89,
+          "units": 7.0
         }
       ]
     },

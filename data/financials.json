@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-11-16",
+    "pulled_on": "2026-11-17",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -13,56 +13,56 @@
     "week": {
       "range": "2026-11-09 to 2026-11-15",
       "revenue": {
-        "total_gmv": 1931.13,
-        "affiliate_gmv": 1105.36,
-        "video_gmv": 993.62,
+        "total_gmv": 1950.76,
+        "affiliate_gmv": 1518.49,
+        "video_gmv": 1387.12,
         "live_gmv": 0,
-        "shop_tab_gmv": 794.0,
-        "gmv_max_revenue": 1334.13,
+        "shop_tab_gmv": 813.63,
+        "gmv_max_revenue": 1354.52,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 649.71,
-        "commission": 157.54,
+        "ad_spend": 654.68,
+        "commission": 207.5,
         "refund_amount": 331.61,
-        "shipping_fees": 577.6
+        "shipping_fees": 585.2
       },
-      "net_after_ads_commissions_refunds": 792.27,
+      "net_after_ads_commissions_refunds": 756.97,
       "ratios": {
-        "blended_roas": 2.9723,
-        "gmv_max_roas": 2.0534,
-        "commission_rate_pct": 14.25,
-        "refund_rate_pct": 17.17,
-        "aov": 25.08,
+        "blended_roas": 2.9797,
+        "gmv_max_roas": 2.069,
+        "commission_rate_pct": 13.66,
+        "refund_rate_pct": 17.0,
+        "aov": 25.01,
         "gpm": 5.51,
         "emv": 901.15,
-        "gmv_per_sample_delivered": 1105.36
+        "gmv_per_sample_delivered": 1518.49
       },
       "volume": {
-        "orders": 77,
-        "units_sold": 81.0,
-        "creators": 35,
+        "orders": 78,
+        "units_sold": 82.0,
+        "creators": 39,
         "samples_delivered": 1,
         "video_views": 180230
       },
       "products": [
         {
           "product_id": "1729391862339113179",
-          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
+          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
           "price": 27.99,
-          "total_gmv": 994.1,
-          "share_pct": 51.5,
+          "total_gmv": 1013.73,
+          "share_pct": 52.0,
           "video_gmv": 831.9,
           "live_gmv": 0,
-          "shop_tab_gmv": 262.08,
-          "units_sold": 47
+          "shop_tab_gmv": 281.71,
+          "units_sold": 48
         },
         {
           "product_id": "1732530504119718107",
           "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
           "price": 69.99,
           "total_gmv": 323.46,
-          "share_pct": 16.7,
+          "share_pct": 16.6,
           "video_gmv": 205.53,
           "live_gmv": 0,
           "shop_tab_gmv": 160.23,
@@ -73,7 +73,7 @@
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
           "price": 49.99,
           "total_gmv": 149.97,
-          "share_pct": 7.8,
+          "share_pct": 7.7,
           "video_gmv": 149.97,
           "live_gmv": 0,
           "shop_tab_gmv": 0,
@@ -95,7 +95,7 @@
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 79.99,
           "total_gmv": 99.98,
-          "share_pct": 5.2,
+          "share_pct": 5.1,
           "video_gmv": 49.99,
           "live_gmv": 0,
           "shop_tab_gmv": 99.98,
@@ -106,7 +106,7 @@
           "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 89.99,
-          "share_pct": 4.7,
+          "share_pct": 4.6,
           "video_gmv": 89.99,
           "live_gmv": 0,
           "shop_tab_gmv": 89.99,
@@ -128,7 +128,7 @@
           "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Sleep Support Leg Positioner Pillow, Ergonomic Curved Contour, Pure Foam Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee,",
           "price": 43.99,
           "total_gmv": 29.99,
-          "share_pct": 1.6,
+          "share_pct": 1.5,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 29.99,
@@ -414,56 +414,56 @@
     "14d": {
       "range": "2026-11-02 to 2026-11-15",
       "revenue": {
-        "total_gmv": 3513.86,
-        "affiliate_gmv": 1820.4,
-        "video_gmv": 1561.19,
+        "total_gmv": 3533.49,
+        "affiliate_gmv": 2233.53,
+        "video_gmv": 1954.69,
         "live_gmv": 0,
-        "shop_tab_gmv": 1376.34,
-        "gmv_max_revenue": 1334.13,
+        "shop_tab_gmv": 1395.97,
+        "gmv_max_revenue": 1354.52,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 649.71,
-        "commission": 264.04,
+        "ad_spend": 654.68,
+        "commission": 314.0,
         "refund_amount": 527.56,
-        "shipping_fees": 934.8
+        "shipping_fees": 942.4
       },
-      "net_after_ads_commissions_refunds": 2072.55,
+      "net_after_ads_commissions_refunds": 2037.25,
       "ratios": {
-        "blended_roas": 5.4084,
-        "gmv_max_roas": 2.0534,
-        "commission_rate_pct": 14.5,
-        "refund_rate_pct": 15.01,
-        "aov": 28.34,
+        "blended_roas": 5.3973,
+        "gmv_max_roas": 2.069,
+        "commission_rate_pct": 14.06,
+        "refund_rate_pct": 14.93,
+        "aov": 28.27,
         "gpm": 4.01,
         "emv": 1944.32,
-        "gmv_per_sample_delivered": 260.06
+        "gmv_per_sample_delivered": 319.08
       },
       "volume": {
-        "orders": 124,
-        "units_sold": 136.0,
-        "creators": 61,
+        "orders": 125,
+        "units_sold": 137.0,
+        "creators": 65,
         "samples_delivered": 7,
         "video_views": 388864
       },
       "products": [
         {
           "product_id": "1729391862339113179",
-          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
+          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
           "price": 27.99,
-          "total_gmv": 1376.34,
-          "share_pct": 39.2,
+          "total_gmv": 1395.97,
+          "share_pct": 39.5,
           "video_gmv": 1142.17,
           "live_gmv": 0,
-          "shop_tab_gmv": 312.19,
-          "units_sold": 64
+          "shop_tab_gmv": 331.82,
+          "units_sold": 65
         },
         {
           "product_id": "1732530504119718107",
           "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
           "price": 69.99,
           "total_gmv": 353.45,
-          "share_pct": 10.1,
+          "share_pct": 10.0,
           "video_gmv": 205.53,
           "live_gmv": 0,
           "shop_tab_gmv": 190.22,
@@ -496,7 +496,7 @@
           "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
           "price": 69.0,
           "total_gmv": 265.76,
-          "share_pct": 7.6,
+          "share_pct": 7.5,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 106.76,
@@ -540,7 +540,7 @@
           "product_name": "Heavy-Duty Boot and Glove Dryer - Powerful Fast-Drying Machine, 4 Extendable Removable Tubes, Fanless Quiet Operation, Automatic Drying Mode, 180-Min Auto Timer, 23.62\"d x13.58\"w x16.34\"h, 120v 250w Home Shoe Dryer Appliance",
           "price": 89.99,
           "total_gmv": 89.99,
-          "share_pct": 2.6,
+          "share_pct": 2.5,
           "video_gmv": 89.99,
           "live_gmv": 0,
           "shop_tab_gmv": 89.99,
@@ -551,7 +551,7 @@
           "product_name": "Everlasting Comfort Cozy Throw Blanket - 50\" x 65\" Double-Sided Animal Print & Solid, Fluffy Blankets with Long Thick Plush Warmth, Durable, Machine Washable, Dryer Safe, Fade-Stain Resistant, Aesthetic Room Plush Home Decor",
           "price": 29.99,
           "total_gmv": 89.97,
-          "share_pct": 2.6,
+          "share_pct": 2.5,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 0,
@@ -573,7 +573,7 @@
           "product_name": "Everlasting Comfort Luxury Memory Foam Tub Bath Pillow for Adults - 14.56\"l x 15.35\"w, Cover Included, 4-Cup Secure Suction Cups, Airflow Encouragement Mesh, Advanced Upper Body Support, Quick-Dry, Durable Selfcare Bathroom Gadget",
           "price": 29.99,
           "total_gmv": 58.15,
-          "share_pct": 1.7,
+          "share_pct": 1.6,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 58.15,
@@ -595,7 +595,7 @@
           "product_name": "Everlasting Comfort Orthopedic Memory Foam Knee Pillow - Sleep Support Leg Positioner Pillow, Ergonomic Curved Contour, Pure Foam Support, Adjustable Strap, Side Sleepers Pain Relief, Hip & Spine Alignment, 33db Ear Plugs, Lifetime Replacement Guarantee,",
           "price": 43.99,
           "total_gmv": 29.99,
-          "share_pct": 0.9,
+          "share_pct": 0.8,
           "video_gmv": 0,
           "live_gmv": 0,
           "shop_tab_gmv": 29.99,
@@ -815,56 +815,56 @@
     "month": {
       "range": "2026-10-17 to 2026-11-15",
       "revenue": {
-        "total_gmv": 7845.85,
-        "affiliate_gmv": 4525.05,
-        "video_gmv": 3845.25,
+        "total_gmv": 7865.48,
+        "affiliate_gmv": 4938.18,
+        "video_gmv": 4238.75,
         "live_gmv": 608.38,
-        "shop_tab_gmv": 3473.06,
-        "gmv_max_revenue": 1494.0600000000002,
+        "shop_tab_gmv": 3492.69,
+        "gmv_max_revenue": 1514.45,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 1155.48,
-        "commission": 777.3,
+        "ad_spend": 1160.4499999999998,
+        "commission": 827.26,
         "refund_amount": 1387.29,
-        "shipping_fees": 2074.8
+        "shipping_fees": 2082.4
       },
-      "net_after_ads_commissions_refunds": 4525.78,
+      "net_after_ads_commissions_refunds": 4490.48,
       "ratios": {
-        "blended_roas": 6.7901,
-        "gmv_max_roas": 1.293,
-        "commission_rate_pct": 17.18,
-        "refund_rate_pct": 17.68,
-        "aov": 27.72,
+        "blended_roas": 6.778,
+        "gmv_max_roas": 1.3051,
+        "commission_rate_pct": 16.75,
+        "refund_rate_pct": 17.64,
+        "aov": 27.7,
         "gpm": 4.49,
         "emv": 4155.46,
-        "gmv_per_sample_delivered": 226.25
+        "gmv_per_sample_delivered": 246.91
       },
       "volume": {
-        "orders": 283,
-        "units_sold": 310.0,
-        "creators": 140,
+        "orders": 284,
+        "units_sold": 311.0,
+        "creators": 144,
         "samples_delivered": 20,
         "video_views": 831092
       },
       "products": [
         {
           "product_id": "1729391862339113179",
-          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
+          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
           "price": 27.99,
-          "total_gmv": 2968.93,
-          "share_pct": 37.8,
+          "total_gmv": 2988.56,
+          "share_pct": 38.0,
           "video_gmv": 2364.45,
           "live_gmv": 27.83,
-          "shop_tab_gmv": 1014.98,
-          "units_sold": 140
+          "shop_tab_gmv": 1034.61,
+          "units_sold": 141
         },
         {
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
           "price": 79.99,
           "total_gmv": 1165.92,
-          "share_pct": 14.9,
+          "share_pct": 14.8,
           "video_gmv": 554.98,
           "live_gmv": 203.46,
           "shop_tab_gmv": 699.01,
@@ -985,7 +985,7 @@
           "product_name": "Under Door Draft Stopper - Blocks Sound, Light, Drafts, and Odors, Year Round Energy Cost Saver",
           "price": 29.99,
           "total_gmv": 129.73,
-          "share_pct": 1.7,
+          "share_pct": 1.6,
           "video_gmv": 100.18,
           "live_gmv": 0,
           "shop_tab_gmv": 49.93,
@@ -1227,35 +1227,35 @@
     "60d": {
       "range": "2026-09-17 to 2026-11-15",
       "revenue": {
-        "total_gmv": 36634.79,
-        "affiliate_gmv": 27744.48,
-        "video_gmv": 20577.78,
+        "total_gmv": 36654.42,
+        "affiliate_gmv": 28157.61,
+        "video_gmv": 20971.28,
         "live_gmv": 7247.99,
-        "shop_tab_gmv": 9576.91,
-        "gmv_max_revenue": 25674.980000000003,
+        "shop_tab_gmv": 9596.54,
+        "gmv_max_revenue": 25695.370000000003,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 16882.670000000002,
-        "commission": 5284.91,
+        "ad_spend": 16887.64,
+        "commission": 5334.87,
         "refund_amount": 5298.81,
-        "shipping_fees": 10602.0
+        "shipping_fees": 10609.6
       },
-      "net_after_ads_commissions_refunds": 9168.4,
+      "net_after_ads_commissions_refunds": 9133.1,
       "ratios": {
-        "blended_roas": 2.17,
-        "gmv_max_roas": 1.5208,
-        "commission_rate_pct": 19.05,
+        "blended_roas": 2.1705,
+        "gmv_max_roas": 1.5215,
+        "commission_rate_pct": 18.95,
         "refund_rate_pct": 14.46,
         "aov": 25.49,
         "gpm": 7.5,
         "emv": 13605.39,
-        "gmv_per_sample_delivered": 129.65
+        "gmv_per_sample_delivered": 131.58
       },
       "volume": {
-        "orders": 1437,
-        "units_sold": 1558.0,
-        "creators": 313,
+        "orders": 1438,
+        "units_sold": 1559.0,
+        "creators": 317,
         "samples_delivered": 214,
         "video_views": 2721077
       },
@@ -1273,14 +1273,14 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
+          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
           "price": 27.99,
-          "total_gmv": 13218.33,
+          "total_gmv": 13237.96,
           "share_pct": 36.1,
           "video_gmv": 11371.23,
           "live_gmv": 27.83,
-          "shop_tab_gmv": 2485.34,
-          "units_sold": 688
+          "shop_tab_gmv": 2504.97,
+          "units_sold": 689
         },
         {
           "product_id": "1732530504119718107",
@@ -1661,35 +1661,35 @@
     "90d": {
       "range": "2026-08-18 to 2026-11-15",
       "revenue": {
-        "total_gmv": 88339.35,
-        "affiliate_gmv": 73340.43,
-        "video_gmv": 45091.21,
-        "live_gmv": 27838.53,
-        "shop_tab_gmv": 19001.93,
-        "gmv_max_revenue": 64106.38999999999,
+        "total_gmv": 88358.98,
+        "affiliate_gmv": 73753.56,
+        "video_gmv": 45484.71,
+        "live_gmv": 27880.52,
+        "shop_tab_gmv": 19021.56,
+        "gmv_max_revenue": 64126.77999999999,
         "subscription_revenue": 0
       },
       "spend": {
-        "ad_spend": 46506.130000000005,
-        "commission": 15725.57,
+        "ad_spend": 46511.100000000006,
+        "commission": 15775.53,
         "refund_amount": 11665.94,
-        "shipping_fees": 25726.0
+        "shipping_fees": 25733.6
       },
-      "net_after_ads_commissions_refunds": 14441.71,
+      "net_after_ads_commissions_refunds": 14406.41,
       "ratios": {
-        "blended_roas": 1.8995,
-        "gmv_max_roas": 1.3785,
-        "commission_rate_pct": 21.44,
-        "refund_rate_pct": 13.21,
+        "blended_roas": 1.8997,
+        "gmv_max_roas": 1.3787,
+        "commission_rate_pct": 21.39,
+        "refund_rate_pct": 13.2,
         "aov": 25.68,
         "gpm": 7.97,
         "emv": 28038.0,
-        "gmv_per_sample_delivered": 206.59
+        "gmv_per_sample_delivered": 207.76
       },
       "volume": {
-        "orders": 3440,
-        "units_sold": 3697.0,
-        "creators": 517,
+        "orders": 3441,
+        "units_sold": 3698.0,
+        "creators": 521,
         "samples_delivered": 355,
         "video_views": 5607599
       },
@@ -1707,14 +1707,14 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "\u3010Holiday Deal\u3011 Flux Phenom Magnetic Screen Door 38x82 in, 52 Magnets, Hands-Free Self-Closing, No-Drill Install, for Doors, Porches & RVs",
+          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
           "price": 27.99,
-          "total_gmv": 25789.15,
+          "total_gmv": 25808.78,
           "share_pct": 29.2,
           "video_gmv": 22667.74,
           "live_gmv": 27.83,
-          "shop_tab_gmv": 4719.44,
-          "units_sold": 1479
+          "shop_tab_gmv": 4739.07,
+          "units_sold": 1480
         },
         {
           "product_id": "1732530504119718107",
