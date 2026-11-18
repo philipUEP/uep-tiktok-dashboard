@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-11-17",
+    "pulled_on": "2026-11-18",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -48,7 +48,7 @@
       "products": [
         {
           "product_id": "1729391862339113179",
-          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
+          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
           "price": 27.99,
           "total_gmv": 1013.73,
           "share_pct": 52.0,
@@ -59,7 +59,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
           "price": 69.99,
           "total_gmv": 323.46,
           "share_pct": 16.6,
@@ -213,7 +213,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker with Handle - BPA-Free, Thermal Lid, 4-Level Filter Strainer System, Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -268,7 +268,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
           "price": 79.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -378,7 +378,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
           "price": 109.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -449,7 +449,7 @@
       "products": [
         {
           "product_id": "1729391862339113179",
-          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
+          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
           "price": 27.99,
           "total_gmv": 1395.97,
           "share_pct": 39.5,
@@ -460,7 +460,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
           "price": 69.99,
           "total_gmv": 353.45,
           "share_pct": 10.0,
@@ -581,7 +581,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
           "price": 109.99,
           "total_gmv": 49.99,
           "share_pct": 1.4,
@@ -658,7 +658,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker with Handle - BPA-Free, Thermal Lid, 4-Level Filter Strainer System, Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -713,7 +713,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
           "price": 79.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -850,7 +850,7 @@
       "products": [
         {
           "product_id": "1729391862339113179",
-          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
+          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
           "price": 27.99,
           "total_gmv": 2988.56,
           "share_pct": 38.0,
@@ -872,7 +872,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
           "price": 69.99,
           "total_gmv": 689.7,
           "share_pct": 8.8,
@@ -927,7 +927,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
           "price": 79.99,
           "total_gmv": 216.68,
           "share_pct": 2.8,
@@ -949,7 +949,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
           "price": 109.99,
           "total_gmv": 169.96,
           "share_pct": 2.2,
@@ -1114,7 +1114,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker with Handle - BPA-Free, Thermal Lid, 4-Level Filter Strainer System, Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1273,7 +1273,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
+          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
           "price": 27.99,
           "total_gmv": 13237.96,
           "share_pct": 36.1,
@@ -1284,7 +1284,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
           "price": 69.99,
           "total_gmv": 3340.68,
           "share_pct": 9.1,
@@ -1372,7 +1372,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
           "price": 79.99,
           "total_gmv": 367.05,
           "share_pct": 1.0,
@@ -1383,7 +1383,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
           "price": 109.99,
           "total_gmv": 317.25,
           "share_pct": 0.9,
@@ -1570,7 +1570,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker with Handle - BPA-Free, Thermal Lid, 4-Level Filter Strainer System, Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -1664,7 +1664,7 @@
         "total_gmv": 88358.98,
         "affiliate_gmv": 73753.56,
         "video_gmv": 45484.71,
-        "live_gmv": 27880.52,
+        "live_gmv": 27811.23,
         "shop_tab_gmv": 19021.56,
         "gmv_max_revenue": 64126.77999999999,
         "subscription_revenue": 0
@@ -1707,7 +1707,7 @@
         },
         {
           "product_id": "1729391862339113179",
-          "product_name": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
+          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
           "price": 27.99,
           "total_gmv": 25808.78,
           "share_pct": 29.2,
@@ -1718,7 +1718,7 @@
         },
         {
           "product_id": "1732530504119718107",
-          "product_name": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
           "price": 69.99,
           "total_gmv": 3468.82,
           "share_pct": 3.9,
@@ -1762,7 +1762,7 @@
         },
         {
           "product_id": "1729394250782118107",
-          "product_name": "Upper Echelon Products Durable Doctor-Recommended Ergonomic 50 Shore Firmness Memory Foam Office Chair Cushion - HSA FSA Eligible, Pain Relief, Sciatica & Back Support, Body Alignment, Good Posture, Machine-Washable, Fully Assembled Office Accessory",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
           "price": 79.99,
           "total_gmv": 655.92,
           "share_pct": 0.7,
@@ -1784,7 +1784,7 @@
         },
         {
           "product_id": "1732530411400171739",
-          "product_name": "\u3010Holiday Deal\u3011 Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Non-Slip, for Office, Car & Gaming Chairs",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
           "price": 109.99,
           "total_gmv": 612.16,
           "share_pct": 0.7,
@@ -2048,7 +2048,7 @@
         },
         {
           "product_id": "1729387931860635867",
-          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker - BPA-Free, Thick Thermal Lid, 4-Level Filter Strainer System, Thick Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
+          "product_name": "Cafe Du Chateau 34oz Stainless Steel French Press Coffee Maker with Handle - BPA-Free, Thermal Lid, 4-Level Filter Strainer System, Heat-Resistant Glass Carafe, 1.75 lbs, Detailed Instructions, Lifetime Replacement Guarantee",
           "price": 37.99,
           "total_gmv": 0,
           "share_pct": 0.0,

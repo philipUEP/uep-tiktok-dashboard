@@ -33,19 +33,19 @@
     }
   ],
   "freshness": {
-    "pulled_on": "2026-11-17",
+    "pulled_on": "2026-11-18",
     "data_through": "2026-11-15",
     "status": "complete",
-    "note": "Pulled from Cruva REST API on 2026-11-17. Complete attribution through 2026-11-15."
+    "note": "Pulled from Cruva REST API on 2026-11-18. Complete attribution through 2026-11-15."
   },
   "latest_source_check": {
-    "date": "2026-11-16",
-    "seller_center_gmv": 181.2,
-    "orders": 9,
-    "units": 9,
-    "gmv_max_revenue": 144.73,
-    "gmv_max_spend": 114.86,
-    "gmv_max_roas": 1.2600557200069649,
+    "date": "2026-11-17",
+    "seller_center_gmv": 183.76,
+    "orders": 8,
+    "units": 8,
+    "gmv_max_revenue": 142.75,
+    "gmv_max_spend": 124.52,
+    "gmv_max_roas": 1.14640218438805,
     "attribution_status": "complete"
   },
   "periods": {
@@ -109,7 +109,7 @@
           "Samples approved": 0,
           "Samples shipped": 0.0,
           "Samples delivered": 1,
-          "Creators with sales": 17
+          "Creators with sales": 24
         },
         "daily": [
           [
@@ -188,20 +188,50 @@
         [
           "Sylvia",
           "sylviaapproved",
-          602.58,
-          28,
+          708.05,
+          33,
           21023,
-          91.2,
+          107.04,
           0,
           0
         ],
         [
           "MrHotPicks",
           "mrhotpicks",
-          68.37,
-          1,
+          90.72,
+          2,
           232,
-          10.2,
+          13.6,
+          0,
+          0
+        ],
+        [
+          "Joe voelz",
+          "buckeyeupnorth",
+          89.99,
+          1,
+          62,
+          9.0,
+          0,
+          0
+        ],
+        [
+          "Alex Vlogs",
+          "alexvlogs87",
+          49.99,
+          1,
+          67,
+          5.0,
+          1,
+          0
+        ],
+        [
+          "Hi Its Spencer",
+          "imkemosobiee",
+          49.99,
+          1,
+          2,
+          5.0,
           0,
           0
         ],
@@ -226,6 +256,16 @@
           0
         ],
         [
+          "stellardeals",
+          "boldvideos7",
+          41.6,
+          2,
+          23,
+          5.68,
+          0,
+          0
+        ],
+        [
           "Kenia  Hogar y mas",
           "keniaher.77",
           36.7,
@@ -244,46 +284,6 @@
           3.4,
           0,
           0
-        ],
-        [
-          "Welete",
-          "welte18",
-          33.99,
-          1,
-          0,
-          3.4,
-          0,
-          0
-        ],
-        [
-          "Lady Z  Content Creator",
-          "theflorsea",
-          32.17,
-          1,
-          0,
-          3.4,
-          0,
-          0
-        ],
-        [
-          "Retired and reselling",
-          "retired_and_reselling",
-          26.99,
-          1,
-          2935,
-          3.0,
-          2,
-          0
-        ],
-        [
-          "Bellahana",
-          "bellahana20",
-          25.75,
-          1,
-          186,
-          3.4,
-          0,
-          0
         ]
       ],
       "videos": [
@@ -294,7 +294,7 @@
           "retired_and_reselling",
           26.99,
           1,
-          2446,
+          2488,
           4,
           "https://tiktok.com/@retired_and_reselling/video/7706340461375474975"
         ],
@@ -305,7 +305,7 @@
           "repel_umbrella",
           20.51,
           1,
-          195,
+          203,
           0,
           "https://tiktok.com/@repel_umbrella/video/7706596826043911437"
         ],
@@ -316,7 +316,7 @@
           "worldsgreatestchad",
           15.95,
           1,
-          1333,
+          1352,
           0,
           "https://tiktok.com/@worldsgreatestchad/video/7706571682072382733"
         ],
@@ -327,7 +327,7 @@
           "everlasting_comfort",
           0,
           0,
-          29,
+          30,
           0,
           "https://tiktok.com/@everlasting_comfort/video/7705153997648186637"
         ],
@@ -338,7 +338,7 @@
           "everlasting_comfort",
           0,
           0,
-          39,
+          48,
           0,
           "https://tiktok.com/@everlasting_comfort/video/7705154265509121294"
         ],
@@ -360,7 +360,7 @@
           "upperechelonproducts_",
           0,
           0,
-          529,
+          532,
           0,
           "https://tiktok.com/@upperechelonproducts_/video/7705166848437865742"
         ],
@@ -371,7 +371,7 @@
           "house_of_cid",
           0,
           0,
-          1238,
+          1244,
           3,
           "https://tiktok.com/@house_of_cid/video/7705956465168747789"
         ],
@@ -459,7 +459,7 @@
           "Samples approved": 7,
           "Samples shipped": 6.0,
           "Samples delivered": 7,
-          "Creators with sales": 23
+          "Creators with sales": 30
         },
         "daily": [
           [
@@ -608,10 +608,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          810.49,
-          37,
+          915.96,
+          42,
           31989,
-          128.4,
+          144.24,
           0,
           0
         ],
@@ -636,6 +636,26 @@
           0
         ],
         [
+          "MrHotPicks",
+          "mrhotpicks",
+          90.72,
+          2,
+          483,
+          13.6,
+          0,
+          0
+        ],
+        [
+          "Joe voelz",
+          "buckeyeupnorth",
+          89.99,
+          1,
+          94,
+          9.0,
+          0,
+          0
+        ],
+        [
           "Bellahana",
           "bellahana20",
           85.23,
@@ -652,16 +672,6 @@
           5,
           1675,
           12.0,
-          0,
-          0
-        ],
-        [
-          "MrHotPicks",
-          "mrhotpicks",
-          68.37,
-          1,
-          483,
-          10.2,
           0,
           0
         ],
@@ -686,23 +696,13 @@
           0
         ],
         [
-          "lauriesfinds",
-          "lauriesfindslive",
-          47.49,
+          "Alex Vlogs",
+          "alexvlogs87",
+          49.99,
           1,
-          0,
-          7.5,
-          0,
-          0
-        ],
-        [
-          "Ary Alfaro",
-          "aracelyalfaro38",
-          33.99,
+          67,
+          5.0,
           1,
-          186,
-          3.4,
-          0,
           0
         ]
       ],
@@ -714,7 +714,7 @@
           "retired_and_reselling",
           26.99,
           1,
-          2446,
+          2488,
           4,
           "https://tiktok.com/@retired_and_reselling/video/7706340461375474975"
         ],
@@ -725,7 +725,7 @@
           "repel_umbrella",
           20.51,
           1,
-          195,
+          203,
           0,
           "https://tiktok.com/@repel_umbrella/video/7706596826043911437"
         ],
@@ -736,7 +736,7 @@
           "worldsgreatestchad",
           15.95,
           1,
-          1333,
+          1352,
           0,
           "https://tiktok.com/@worldsgreatestchad/video/7706571682072382733"
         ],
@@ -802,7 +802,7 @@
           "upperechelonproducts_",
           0,
           0,
-          559,
+          569,
           2,
           "https://tiktok.com/@upperechelonproducts_/video/7703662112974949645"
         ],
@@ -879,7 +879,7 @@
           "Samples approved": 17,
           "Samples shipped": 17.0,
           "Samples delivered": 20,
-          "Creators with sales": 45
+          "Creators with sales": 52
         },
         "daily": [
           [
@@ -1188,10 +1188,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          1681.01,
-          77,
+          1786.48,
+          82,
           100884,
-          339.8,
+          355.64,
           14,
           0
         ],
@@ -1276,17 +1276,28 @@
           0
         ],
         [
-          "The Gem Of Gemini",
-          "the.gem.of.gemini",
-          87.07,
-          4,
-          2958,
-          14.97,
-          0,
+          "MrHotPicks",
+          "mrhotpicks",
+          90.72,
+          2,
+          10044,
+          13.6,
+          29,
           0
         ]
       ],
       "videos": [
+        [
+          "7700602830247202062",
+          "#falldealsforyou #tiktokmademebuyit #bidettoilet #blackfriday ",
+          "maritzaportilloal",
+          "maritzaportilloal",
+          49.99,
+          1,
+          416,
+          15,
+          "https://tiktok.com/@maritzaportilloal/video/7700602830247202062"
+        ],
         [
           "7706340461375474975",
           "Fiberglass folding umbrella @UPPER ECHELON PRODUCTS #umbrella #rain #tiktokshopcreatorpicks #TiktokS",
@@ -1294,7 +1305,7 @@
           "retired_and_reselling",
           26.99,
           1,
-          2446,
+          2488,
           4,
           "https://tiktok.com/@retired_and_reselling/video/7706340461375474975"
         ],
@@ -1305,7 +1316,7 @@
           "repel_umbrella",
           20.51,
           1,
-          195,
+          203,
           0,
           "https://tiktok.com/@repel_umbrella/video/7706596826043911437"
         ],
@@ -1338,7 +1349,7 @@
           "worldsgreatestchad",
           15.95,
           1,
-          1333,
+          1352,
           0,
           "https://tiktok.com/@worldsgreatestchad/video/7706571682072382733"
         ],
@@ -1382,20 +1393,9 @@
           "b.fox508",
           0,
           0,
-          58,
+          64,
           1,
           "https://tiktok.com/@b.fox508/video/7696723691261955341"
-        ],
-        [
-          "7696726973757836557",
-          "#addtocart #umbrella #rainyseason #windyday #tiktokshopfalldealsforyou @UPPER ECHELON PRODUCTS @Repe",
-          "b.fox508",
-          "b.fox508",
-          0,
-          0,
-          65,
-          2,
-          "https://tiktok.com/@b.fox508/video/7696726973757836557"
         ]
       ]
     },
@@ -1434,7 +1434,7 @@
           "Videos posted": -16.35,
           "Creators posting": -44.39,
           "Video views": -70.66,
-          "LIVE GMV": -85.05,
+          "LIVE GMV": -85.03,
           "DMs sent": -64.86,
           "Sample requests": -22.57,
           "Samples approved": -58.59,
@@ -1459,7 +1459,7 @@
           "Samples approved": 217,
           "Samples shipped": 214.0,
           "Samples delivered": 214,
-          "Creators with sales": 125
+          "Creators with sales": 130
         },
         "daily": [
           [
@@ -2068,10 +2068,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          8080.43,
-          407,
+          8185.9,
+          412,
           669457,
-          1758.9,
+          1774.74,
           46,
           0
         ],
@@ -2174,8 +2174,8 @@
           "bellahana20",
           241.08,
           7,
-          7159,
-          50,
+          7167,
+          51,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
         [
@@ -2196,7 +2196,7 @@
           "sylviaapproved",
           162.65,
           15,
-          16785,
+          16895,
           45,
           "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ],
@@ -2207,7 +2207,7 @@
           "tapa_mondo",
           153.57,
           11,
-          6419,
+          6426,
           65,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ],
@@ -2218,9 +2218,20 @@
           "mrhotpicks",
           128.34,
           6,
-          5584,
+          5794,
           20,
           "https://tiktok.com/@mrhotpicks/video/7694099956629507359"
+        ],
+        [
+          "7697010109947350302",
+          "perfect umbrella for the season and even better it\u2019s pink \ud83c\udf80\ud83e\udd0d #tiktokshopfalldealsforyou #automaticum",
+          "boldvideos7",
+          "boldvideos7",
+          85.96,
+          5,
+          10882,
+          82,
+          "https://tiktok.com/@boldvideos7/video/7697010109947350302"
         ],
         [
           "7692131608479943967",
@@ -2229,7 +2240,7 @@
           "sylviaapproved",
           74.83,
           6,
-          6323,
+          6331,
           35,
           "https://tiktok.com/@sylviaapproved/video/7692131608479943967"
         ],
@@ -2251,7 +2262,7 @@
           "sylviaapproved",
           64.05,
           6,
-          11193,
+          11218,
           88,
           "https://tiktok.com/@sylviaapproved/video/7694356427460070686"
         ],
@@ -2265,17 +2276,6 @@
           923,
           1,
           "https://tiktok.com/@mroliva4/video/7690982471801916702"
-        ],
-        [
-          "7693700292164046093",
-          "#ad Sombrilla multifuncional..#sombr\u00eda#umbrella #casa#home @UPPER ECHELON PRODUCTS ",
-          "marielos_granados",
-          "marielos_granados",
-          54.28,
-          4,
-          1711,
-          9,
-          "https://tiktok.com/@marielos_granados/video/7693700292164046093"
         ]
       ]
     },
@@ -2300,7 +2300,7 @@
           "Videos posted": 1551,
           "Creators posting": 521,
           "Video views": 5607599,
-          "LIVE GMV": 27880.52,
+          "LIVE GMV": 27811.23,
           "DMs sent": 78303,
           "Sample requests": 1732,
           "Samples approved": 326,
@@ -2314,7 +2314,7 @@
           "Videos posted": -16.52,
           "Creators posting": -38.34,
           "Video views": -59.58,
-          "LIVE GMV": -46.53,
+          "LIVE GMV": -46.66,
           "DMs sent": 30.1,
           "Sample requests": -17.17,
           "Samples approved": -65.43,
@@ -2339,7 +2339,7 @@
           "Samples approved": 326,
           "Samples shipped": 346.0,
           "Samples delivered": 355,
-          "Creators with sales": 189
+          "Creators with sales": 194
         },
         "daily": [
           [
@@ -3248,10 +3248,10 @@
         [
           "Sylvia",
           "sylviaapproved",
-          14393.51,
-          776,
+          14498.98,
+          781,
           1211251,
-          3373.88,
+          3389.72,
           48,
           0
         ],
@@ -3278,10 +3278,10 @@
         [
           "stellardeals",
           "boldvideos7",
-          5920.22,
-          166,
+          5941.87,
+          167,
           7768,
-          1178.3,
+          1180.58,
           2,
           23
         ],
@@ -3387,8 +3387,8 @@
           "bellahana20",
           241.08,
           7,
-          7159,
-          50,
+          7167,
+          51,
           "https://tiktok.com/@bellahana20/video/7687300190646078733"
         ],
         [
@@ -3442,7 +3442,7 @@
           "sylviaapproved",
           162.65,
           15,
-          16785,
+          16895,
           45,
           "https://tiktok.com/@sylviaapproved/video/7691377663906254110"
         ],
@@ -3453,7 +3453,7 @@
           "tapa_mondo",
           153.57,
           11,
-          6419,
+          6426,
           65,
           "https://tiktok.com/@tapa_mondo/video/7694153031432015117"
         ]

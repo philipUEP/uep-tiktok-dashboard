@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-11-17T07:03:32Z",
+ "generated_on": "2026-11-18T07:05:25Z",
  "window": "2026-11-09 to 2026-11-15",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-11-17T07:03:29Z",
+ "assumptions_generated_on": "2026-11-18T07:05:21Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -14,7 +14,7 @@
   {
    "campaign": "BFCM Repel GMV Max Campaign",
    "campaign_id": "1881446278604817",
-   "product": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
+   "product": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
    "matched": true,
    "be_basis": "unpriced SKUs: no SKU under this product has a break-even row yet",
    "product_ids": [
@@ -71,17 +71,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146755803",
-     "name": "3-PACK Black",
-     "units": 0,
-     "price": 59.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146231515",
      "name": "Black/Red",
      "units": 0,
      "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146755803",
+     "name": "3-PACK Black",
+     "units": 0,
+     "price": 59.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -127,9 +127,9 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 1,
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -148,16 +148,16 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
+     "sku_id": "1732694432146624731",
+     "name": "Black Fog",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146624731",
-     "name": "Black Fog",
-     "units": 0,
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 1,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -208,7 +208,7 @@
   {
    "campaign": "BFCM Screendoor GMV Max ",
    "campaign_id": "1881445487256609",
-   "product": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
+   "product": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
    "matched": true,
    "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
    "product_ids": [
@@ -285,7 +285,7 @@
   {
    "campaign": "BFCM Repel GMV Max Campaign",
    "campaign_id": "1881446278604817",
-   "product": "\u3010Holiday Deal\u3011 Repel Windproof Travel Umbrella, 9-Rib Fiberglass, Auto Open/Close, 11.5 in Compact for Commute & Travel",
+   "product": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
    "matched": true,
    "be_basis": "unpriced SKUs: no SKU under this product has a break-even row yet",
    "product_ids": [
@@ -294,7 +294,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 21,
+    "units_total": 22,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -302,7 +302,7 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 6,
+     "units": 7,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
@@ -342,17 +342,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146755803",
-     "name": "3-PACK Black",
-     "units": 0,
-     "price": 59.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146231515",
      "name": "Black/Red",
      "units": 0,
      "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146755803",
+     "name": "3-PACK Black",
+     "units": 0,
+     "price": 59.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -398,9 +398,9 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 1,
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -419,16 +419,16 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
+     "sku_id": "1732694432146624731",
+     "name": "Black Fog",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146624731",
-     "name": "Black Fog",
-     "units": 0,
+     "sku_id": "1732694432146100443",
+     "name": "Red",
+     "units": 1,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -461,15 +461,15 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 260.67,
-   "revenue": 462.99,
-   "orders": 21,
-   "roi": 1.776,
+   "spend": 261.76,
+   "revenue": 474.78,
+   "orders": 22,
+   "roi": 1.814,
    "roas_target": 2.7,
    "be_roas": 2.2,
    "pause_below_roas": 1.9,
    "margin_ad_pct": 45.4,
-   "cm3_after_ads": -50.47,
+   "cm3_after_ads": -46.21,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "Raise the return target to at least 2.2x (break-even), or pause and move the budget to a campaign above break-even.",
@@ -478,7 +478,7 @@
   {
    "campaign": "BFCM Screendoor GMV Max ",
    "campaign_id": "1881445487256609",
-   "product": "FLUX PHENOM Fabric Screendoor (38x82 in), 52 Magnets, Hands-Free Automatic Self-Closing, No-Drill Install, for Patios&Porch, Apartments, RVs",
+   "product": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
    "matched": true,
    "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
    "product_ids": [
@@ -487,7 +487,7 @@
    "sku_coverage": {
     "skus_total": 7,
     "skus_mapped": 1,
-    "units_total": 41,
+    "units_total": 39,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -495,7 +495,7 @@
     {
      "sku_id": "1732283771626623195",
      "name": "Mesh Black,Default",
-     "units": 31,
+     "units": 28,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
@@ -523,7 +523,7 @@
     {
      "sku_id": "1732357652881117403",
      "name": "Mesh White,Default",
-     "units": 2,
+     "units": 3,
      "price": 27.99,
      "why": "no cost row in the cost model"
     },
@@ -535,22 +535,22 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 345.08,
-   "revenue": 884.32,
+   "spend": 345.65,
+   "revenue": 887.72,
    "orders": 39,
-   "roi": 2.563,
+   "roi": 2.568,
    "roas_target": 3.1,
    "be_roas": 4.0,
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
-   "cm3_after_ads": -108.08,
+   "cm3_after_ads": -107.74,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 3.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-11-11 to 2026-11-17",
+ "live_window": "2026-11-12 to 2026-11-18",
  "products": [
   {
    "product": "Screen Door",
@@ -655,7 +655,7 @@
    "pause_below_roas": 2.1,
    "advertise": "Yes",
    "margin_basis": "Original Seat Cushion",
-   "listings_matched": 1
+   "listings_matched": 2
   },
   {
    "product": "Repel Automatic Umbrella",
@@ -706,8 +706,8 @@
   "week_cm3_total": 49.02,
   "live_campaigns_judged": 2,
   "live_pause": 2,
-  "live_cm3_after_ads_total": -158.55,
-  "live_spend_total": 605.75
+  "live_cm3_after_ads_total": -153.95,
+  "live_spend_total": 607.41
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
