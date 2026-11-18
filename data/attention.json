@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T07:24:00+00:00",
+  "updated_at": "2026-11-18T07:20:00+00:00",
   "items": [
     {
       "metric": "Samples shipped",
@@ -7,8 +7,8 @@
       "prior": 6,
       "pct": -100.0,
       "direction": "down",
-      "effect": "With zero samples shipped and one delivered, no new creator content can land before early December, and affiliate GMV is 77.8% of shop GMV.",
-      "action": "Clear the 65 requests sitting in To Review before their 2026-11-24 expiry, starting with the highest post_rate and GPM handles."
+      "effect": "With zero shipped and zero approved this week, no new creator videos can land before early December, and affiliate GMV is 77.8% of shop GMV.",
+      "action": "Clear the 69 requests in To Review today, highest GPM and post_rate first, before the 2026-11-20 expiries."
     },
     {
       "metric": "Samples delivered",
@@ -16,8 +16,8 @@
       "prior": 6,
       "pct": -83.3,
       "direction": "down",
-      "effect": "Delivered samples are the last stage that produces new videos, so the December content layer thins even if shipping resumes this week.",
-      "action": "Ship approved requests same day and confirm tracking on the one shipped item so it does not stall before delivery."
+      "effect": "Delivered samples are the last stage before a video, so the December content layer thins even if shipping restarts this week.",
+      "action": "Ship approved requests same day and confirm tracking on the single in flight sample so it does not stall."
     },
     {
       "metric": "Sample requests",
@@ -25,8 +25,8 @@
       "prior": 228,
       "pct": -68.9,
       "direction": "down",
-      "effect": "Inbound requests fell back to their pre-BFCM level, so the sampling pool shrinks unless outbound starts filling it.",
-      "action": "Restart DM outbound to a written daily floor and begin sending Collab invites, which have been at zero for four weeks."
+      "effect": "Requests fell back from the BFCM spike to the earlier 61 to 70 run rate, so the sampling pool only refills if outbound resumes.",
+      "action": "Restore a written daily DM floor of 40 and switch Collab invites back on, since that channel carried 28,018 sends in the 60 day window."
     },
     {
       "metric": "DMs sent",
@@ -34,17 +34,17 @@
       "prior": 53,
       "pct": -41.5,
       "direction": "down",
-      "effect": "A third straight decline (260, 53, 31) removes top-of-funnel input, so requests and new posting creators should soften again in 2 to 3 weeks.",
-      "action": "Find why the outreach flow dropped from 260 to 31 sends a week and restore a weekly send floor."
+      "effect": "A third straight decline (260, 53, 31) removes top of funnel input, so replies and requests should soften again in two to three weeks.",
+      "action": "Find why the outreach flow fell from 260 to 31 sends a week and put a weekly floor in place."
     },
     {
-      "metric": "LIVE GMV",
+      "metric": "LIVE GMV (vs last non-zero week)",
       "current": 0,
       "prior": 201.49,
       "pct": -100.0,
       "direction": "down",
-      "effect": "Live has been at zero for two consecutive weeks on 56 streams and 222,335 views, against a 201.49 last non-zero week.",
-      "action": "Audit product attachment and cart links on this week's streams before adding more live hours."
+      "effect": "56 streams and 222,335 views produced zero attributed GMV for a second week, which points at product attachment or cart links rather than reach.",
+      "action": "Audit product tagging and cart links on this week's streams before adding more live hours."
     },
     {
       "metric": "Seat Cushion GMV Max ROAS (target 2.5)",
@@ -52,8 +52,8 @@
       "prior": 2.5,
       "pct": -100.0,
       "direction": "down",
-      "effect": "Three BFCM Seat Cushion campaigns spent 24.37 over 5 to 7 days with zero revenue and zero orders, while Repel sits at 1.69 against a 2.7 target.",
-      "action": "Pause the Seat Cushion campaigns until one order lands and move the budget to BFCM Screendoor at 2.41 ROI."
+      "effect": "The two enabled Seat Cushion campaigns spent 24.34 with zero revenue and zero orders, while Repel runs at 1.685 against a 2.7 target.",
+      "action": "Pause both Seat Cushion campaigns until one order lands and move the budget to BFCM Screendoor at 2.407."
     }
   ]
 }
