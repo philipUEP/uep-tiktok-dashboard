@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-11-18",
+    "pulled_on": "2026-11-19",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -34,16 +34,16 @@
         "commission_rate_pct": 13.66,
         "refund_rate_pct": 17.0,
         "aov": 25.01,
-        "gpm": 5.51,
-        "emv": 901.15,
+        "gpm": 6.21,
+        "emv": 1117.51,
         "gmv_per_sample_delivered": 1518.49
       },
       "volume": {
         "orders": 78,
         "units_sold": 82.0,
-        "creators": 39,
+        "creators": 40,
         "samples_delivered": 1,
-        "video_views": 180230
+        "video_views": 223503
       },
       "products": [
         {
@@ -435,16 +435,16 @@
         "commission_rate_pct": 14.06,
         "refund_rate_pct": 14.93,
         "aov": 28.27,
-        "gpm": 4.01,
-        "emv": 1944.32,
+        "gpm": 4.52,
+        "emv": 2160.68,
         "gmv_per_sample_delivered": 319.08
       },
       "volume": {
         "orders": 125,
         "units_sold": 137.0,
-        "creators": 65,
+        "creators": 66,
         "samples_delivered": 7,
-        "video_views": 388864
+        "video_views": 432137
       },
       "products": [
         {
@@ -836,16 +836,16 @@
         "commission_rate_pct": 16.75,
         "refund_rate_pct": 17.64,
         "aov": 27.7,
-        "gpm": 4.49,
-        "emv": 4155.46,
+        "gpm": 4.72,
+        "emv": 4371.82,
         "gmv_per_sample_delivered": 246.91
       },
       "volume": {
         "orders": 284,
         "units_sold": 311.0,
-        "creators": 144,
+        "creators": 145,
         "samples_delivered": 20,
-        "video_views": 831092
+        "video_views": 874365
       },
       "products": [
         {
@@ -1248,16 +1248,16 @@
         "commission_rate_pct": 18.95,
         "refund_rate_pct": 14.46,
         "aov": 25.49,
-        "gpm": 7.5,
-        "emv": 13605.39,
+        "gpm": 7.52,
+        "emv": 13821.75,
         "gmv_per_sample_delivered": 131.58
       },
       "volume": {
         "orders": 1438,
         "units_sold": 1559.0,
-        "creators": 317,
+        "creators": 318,
         "samples_delivered": 214,
-        "video_views": 2721077
+        "video_views": 2764350
       },
       "products": [
         {
@@ -1664,7 +1664,7 @@
         "total_gmv": 88358.98,
         "affiliate_gmv": 73753.56,
         "video_gmv": 45484.71,
-        "live_gmv": 27811.23,
+        "live_gmv": 27880.52,
         "shop_tab_gmv": 19021.56,
         "gmv_max_revenue": 64126.77999999999,
         "subscription_revenue": 0
@@ -1682,16 +1682,16 @@
         "commission_rate_pct": 21.39,
         "refund_rate_pct": 13.2,
         "aov": 25.68,
-        "gpm": 7.97,
-        "emv": 28038.0,
+        "gpm": 7.98,
+        "emv": 28254.36,
         "gmv_per_sample_delivered": 207.76
       },
       "volume": {
         "orders": 3441,
         "units_sold": 3698.0,
-        "creators": 521,
+        "creators": 522,
         "samples_delivered": 355,
-        "video_views": 5607599
+        "video_views": 5650872
       },
       "products": [
         {

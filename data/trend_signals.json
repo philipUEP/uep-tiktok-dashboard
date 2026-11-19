@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:04:36.749066+00:00",
+  "generated_at": "2026-11-19T07:04:51.050939+00:00",
   "weeks": [
     {
       "total_gmv": 1958.73,
@@ -58,15 +58,15 @@
       "total_units_sold": 82.0,
       "affiliate_gmv": 1518.49,
       "live_gmv": 0,
-      "video_views": 180230,
+      "video_views": 223503,
       "dms_sent": 31,
       "tc_invites_sent": 0,
       "replies": 7,
       "sample_requests": 71,
       "samples_shipped": 0,
       "samples_delivered": 1,
-      "videos_posted": 74,
-      "distinct_creators": 39,
+      "videos_posted": 75,
+      "distinct_creators": 40,
       "_range": "2026-11-09 to 2026-11-15"
     }
   ],
@@ -105,7 +105,7 @@
       166929.0,
       184781.0,
       208634.0,
-      180230.0
+      223503.0
     ],
     "dms_sent": [
       130.0,
@@ -147,13 +147,13 @@
       98.0,
       85.0,
       60.0,
-      74.0
+      75.0
     ],
     "distinct_creators": [
       49.0,
       35.0,
       34.0,
-      39.0
+      40.0
     ]
   },
   "changes": [
@@ -200,17 +200,17 @@
     {
       "metric": "video_views",
       "label": "Video views",
-      "current": 180230.0,
+      "current": 223503.0,
       "prior": 208634.0,
-      "pct": -13.6,
-      "direction": "down"
+      "pct": 7.1,
+      "direction": "up"
     },
     {
       "metric": "distinct_creators",
       "label": "Creators posting",
-      "current": 39.0,
+      "current": 40.0,
       "prior": 34.0,
-      "pct": 14.7,
+      "pct": 17.6,
       "direction": "up"
     },
     {
@@ -224,9 +224,9 @@
     {
       "metric": "videos_posted",
       "label": "Videos posted",
-      "current": 74.0,
+      "current": 75.0,
       "prior": 60.0,
-      "pct": 23.3,
+      "pct": 25.0,
       "direction": "up"
     },
     {
@@ -289,7 +289,7 @@
   "ratios": {
     "gmv_per_sample_shipped": null,
     "reply_rate_pct": 22.58,
-    "videos_per_creator": 1.9,
+    "videos_per_creator": 1.88,
     "live_share_of_gmv_pct": 0.0,
     "affiliate_share_of_gmv_pct": 77.8
   },
