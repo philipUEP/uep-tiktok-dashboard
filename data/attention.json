@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T07:20:00+00:00",
+  "updated_at": "2026-11-19T07:20:00+00:00",
   "items": [
     {
       "metric": "Samples shipped",
@@ -7,8 +7,8 @@
       "prior": 6,
       "pct": -100.0,
       "direction": "down",
-      "effect": "With zero shipped and zero approved this week, no new creator videos can land before early December, and affiliate GMV is 77.8% of shop GMV.",
-      "action": "Clear the 69 requests in To Review today, highest GPM and post_rate first, before the 2026-11-20 expiries."
+      "effect": "Zero shipped and zero approved this week means the next creator video cohort cannot land before early December, and affiliate GMV is 77.8% of shop GMV.",
+      "action": "Clear the 59 requests in To Review today, post rate first, before more of them expire."
     },
     {
       "metric": "Samples delivered",
@@ -16,8 +16,8 @@
       "prior": 6,
       "pct": -83.3,
       "direction": "down",
-      "effect": "Delivered samples are the last stage before a video, so the December content layer thins even if shipping restarts this week.",
-      "action": "Ship approved requests same day and confirm tracking on the single in flight sample so it does not stall."
+      "effect": "Delivery is the last stage before a video, so the December content layer thins even if shipping restarts this week.",
+      "action": "Ship approved requests same day and confirm tracking on the one sample in flight."
     },
     {
       "metric": "Sample requests",
@@ -26,7 +26,7 @@
       "pct": -68.9,
       "direction": "down",
       "effect": "Requests fell back from the BFCM spike to the earlier 61 to 70 run rate, so the sampling pool only refills if outbound resumes.",
-      "action": "Restore a written daily DM floor of 40 and switch Collab invites back on, since that channel carried 28,018 sends in the 60 day window."
+      "action": "Turn Collab invites back on and restore a written daily DM floor of 40."
     },
     {
       "metric": "DMs sent",
@@ -35,7 +35,7 @@
       "pct": -41.5,
       "direction": "down",
       "effect": "A third straight decline (260, 53, 31) removes top of funnel input, so replies and requests should soften again in two to three weeks.",
-      "action": "Find why the outreach flow fell from 260 to 31 sends a week and put a weekly floor in place."
+      "action": "Find why outreach fell from 260 to 31 sends a week and put a weekly floor in place."
     },
     {
       "metric": "LIVE GMV (vs last non-zero week)",
@@ -44,16 +44,16 @@
       "pct": -100.0,
       "direction": "down",
       "effect": "56 streams and 222,335 views produced zero attributed GMV for a second week, which points at product attachment or cart links rather than reach.",
-      "action": "Audit product tagging and cart links on this week's streams before adding more live hours."
+      "action": "Audit product tagging and cart links on this week's streams before adding live hours."
     },
     {
-      "metric": "Seat Cushion GMV Max ROAS (target 2.5)",
-      "current": 0,
+      "metric": "Seat Cushion GMV Max ROAS, last 7 days (target 2.5)",
+      "current": 0.427,
       "prior": 2.5,
-      "pct": -100.0,
+      "pct": -82.9,
       "direction": "down",
-      "effect": "The two enabled Seat Cushion campaigns spent 24.34 with zero revenue and zero orders, while Repel runs at 1.685 against a 2.7 target.",
-      "action": "Pause both Seat Cushion campaigns until one order lands and move the budget to BFCM Screendoor at 2.407."
+      "effect": "BFCM Seat Cushion spent 124.59 for 53.19 revenue on one order, and BFCM Elevate Seat Cushion spent 14.52 for zero.",
+      "action": "Pause both Seat Cushion campaigns and move the budget to BFCM Screendoor at 2.407."
     }
   ]
 }
