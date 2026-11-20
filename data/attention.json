@@ -1,59 +1,59 @@
 {
-  "updated_at": "2026-11-19T07:20:00+00:00",
+  "updated_at": "2026-11-20T07:22:10+00:00",
   "items": [
     {
-      "metric": "Samples shipped",
-      "current": 0,
-      "prior": 6,
+      "metric": "Samples shipped (week)",
+      "current": 0.0,
+      "prior": 6.0,
       "pct": -100.0,
       "direction": "down",
-      "effect": "Zero shipped and zero approved this week means the next creator video cohort cannot land before early December, and affiliate GMV is 77.8% of shop GMV.",
-      "action": "Clear the 59 requests in To Review today, post rate first, before more of them expire."
+      "effect": "No new samples shipped this week means the creator cohort that would post in three to four weeks is already thinner than the current one.",
+      "action": "Clear the 54 requests in To Review today and restart outbound shipments on the screen door at 10 per week."
     },
     {
-      "metric": "Samples delivered",
-      "current": 1,
-      "prior": 6,
-      "pct": -83.3,
-      "direction": "down",
-      "effect": "Delivery is the last stage before a video, so the December content layer thins even if shipping restarts this week.",
-      "action": "Ship approved requests same day and confirm tracking on the one sample in flight."
-    },
-    {
-      "metric": "Sample requests",
-      "current": 71,
-      "prior": 228,
-      "pct": -68.9,
-      "direction": "down",
-      "effect": "Requests fell back from the BFCM spike to the earlier 61 to 70 run rate, so the sampling pool only refills if outbound resumes.",
-      "action": "Turn Collab invites back on and restore a written daily DM floor of 40."
-    },
-    {
-      "metric": "DMs sent",
-      "current": 31,
-      "prior": 53,
-      "pct": -41.5,
-      "direction": "down",
-      "effect": "A third straight decline (260, 53, 31) removes top of funnel input, so replies and requests should soften again in two to three weeks.",
-      "action": "Find why outreach fell from 260 to 31 sends a week and put a weekly floor in place."
-    },
-    {
-      "metric": "LIVE GMV (vs last non-zero week)",
-      "current": 0,
+      "metric": "LIVE GMV (week)",
+      "current": 0.0,
       "prior": 201.49,
       "pct": -100.0,
       "direction": "down",
-      "effect": "56 streams and 222,335 views produced zero attributed GMV for a second week, which points at product attachment or cart links rather than reach.",
-      "action": "Audit product tagging and cart links on this week's streams before adding live hours."
+      "effect": "56 streams drew 222,335 views with zero GMV, so live traffic is arriving without a working path to checkout.",
+      "action": "Audit one live room for pinned products and checkout, then repeat on the highest-view stream this week."
     },
     {
-      "metric": "Seat Cushion GMV Max ROAS, last 7 days (target 2.5)",
-      "current": 0.427,
-      "prior": 2.5,
-      "pct": -82.9,
+      "metric": "Samples delivered (week)",
+      "current": 1.0,
+      "prior": 6.0,
+      "pct": -83.3,
       "direction": "down",
-      "effect": "BFCM Seat Cushion spent 124.59 for 53.19 revenue on one order, and BFCM Elevate Seat Cushion spent 14.52 for zero.",
-      "action": "Pause both Seat Cushion campaigns and move the budget to BFCM Screendoor at 2.407."
+      "effect": "Delivered samples are the last step before content, so a drop to 1 removes roughly five creator videos from the December pipeline.",
+      "action": "Report the status of every shipped but undelivered sample and follow up on carrier exceptions."
+    },
+    {
+      "metric": "DMs sent (week)",
+      "current": 31.0,
+      "prior": 53.0,
+      "pct": -41.5,
+      "direction": "down",
+      "effect": "Outbound DM volume has fallen for three straight weeks (260 to 53 to 31), which starves the top of the outreach funnel.",
+      "action": "Set a daily DM floor of 15 per operating day and check send counts in the 17:00 review."
+    },
+    {
+      "metric": "Collab invites (week)",
+      "current": 0.0,
+      "prior": 0.0,
+      "pct": 0.0,
+      "direction": "down",
+      "effect": "Zero collab invites in every recorded week means the shop relies entirely on DM-sourced and inbound creators.",
+      "action": "Test five collab invites to existing top-20 creators and measure acceptance within seven days."
+    },
+    {
+      "metric": "Seat Cushion GMV Max ROAS",
+      "current": 0.0,
+      "prior": 1.7,
+      "pct": -100.0,
+      "direction": "down",
+      "effect": "Two seat cushion campaigns spent $24.34 with zero revenue and zero orders against 1.7 and 2.2 targets.",
+      "action": "Pause both campaigns and move the budget to the screen door campaign running at 2.407 ROAS."
     }
   ]
 }
