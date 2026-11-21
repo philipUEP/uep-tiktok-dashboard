@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T07:22:10+00:00",
+  "updated_at": "2026-11-21T07:21:25+00:00",
   "items": [
     {
       "metric": "Samples shipped (week)",
@@ -7,26 +7,17 @@
       "prior": 6.0,
       "pct": -100.0,
       "direction": "down",
-      "effect": "No new samples shipped this week means the creator cohort that would post in three to four weeks is already thinner than the current one.",
-      "action": "Clear the 54 requests in To Review today and restart outbound shipments on the screen door at 10 per week."
+      "effect": "No samples shipped for a full week means the creator cohort that would post in three to four weeks is already thinner than the current one.",
+      "action": "Clear the 55 requests in To Review today and ship approved samples within 48 hours."
     },
     {
-      "metric": "LIVE GMV (week)",
-      "current": 0.0,
-      "prior": 201.49,
-      "pct": -100.0,
+      "metric": "Sample requests (week)",
+      "current": 71.0,
+      "prior": 228.0,
+      "pct": -68.9,
       "direction": "down",
-      "effect": "56 streams drew 222,335 views with zero GMV, so live traffic is arriving without a working path to checkout.",
-      "action": "Audit one live room for pinned products and checkout, then repeat on the highest-view stream this week."
-    },
-    {
-      "metric": "Samples delivered (week)",
-      "current": 1.0,
-      "prior": 6.0,
-      "pct": -83.3,
-      "direction": "down",
-      "effect": "Delivered samples are the last step before content, so a drop to 1 removes roughly five creator videos from the December pipeline.",
-      "action": "Report the status of every shipped but undelivered sample and follow up on carrier exceptions."
+      "effect": "Inbound demand fell back to its 70 per week baseline after a one week spike, which shrinks the pool feeding next month's affiliate posts.",
+      "action": "Re-invite the top 25 of the 201 expired requests this week to rebuild the inbound pool."
     },
     {
       "metric": "DMs sent (week)",
@@ -38,22 +29,31 @@
       "action": "Set a daily DM floor of 15 per operating day and check send counts in the 17:00 review."
     },
     {
-      "metric": "Collab invites (week)",
+      "metric": "LIVE GMV (week)",
       "current": 0.0,
-      "prior": 0.0,
-      "pct": 0.0,
-      "direction": "down",
-      "effect": "Zero collab invites in every recorded week means the shop relies entirely on DM-sourced and inbound creators.",
-      "action": "Test five collab invites to existing top-20 creators and measure acceptance within seven days."
-    },
-    {
-      "metric": "Seat Cushion GMV Max ROAS",
-      "current": 0.0,
-      "prior": 1.7,
+      "prior": 201.49,
       "pct": -100.0,
       "direction": "down",
-      "effect": "Two seat cushion campaigns spent $24.34 with zero revenue and zero orders against 1.7 and 2.2 targets.",
-      "action": "Pause both campaigns and move the budget to the screen door campaign running at 2.407 ROAS."
+      "effect": "56 streams drew 222,335 views with zero GMV for a second week, so live traffic is arriving without a working path to checkout.",
+      "action": "Audit one live room for pinned products and a completed checkout, then repeat on the highest-view stream."
+    },
+    {
+      "metric": "BFCM Repel GMV Max ROAS (target 2.2)",
+      "current": 1.685,
+      "prior": 2.2,
+      "pct": -23.4,
+      "direction": "down",
+      "effect": "The campaign returns 1.685 per dollar on $225.17 spend, so each incremental dollar buys less revenue than the stated target.",
+      "action": "Cut the budget from $200 to $150 or set the target to 1.7 for one week, and pause the two zero revenue Seat Cushion campaigns."
+    },
+    {
+      "metric": "Samples awaiting review",
+      "current": 55.0,
+      "prior": 54.0,
+      "pct": 1.9,
+      "direction": "up",
+      "effect": "The review queue is not shrinking while 201 of 300 requests have expired, so approval speed rather than rejection at 1.0% is the constraint.",
+      "action": "Work the To Review queue top to bottom today and report the remaining count at end of day."
     }
   ]
 }
