@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-11-20",
+    "pulled_on": "2026-11-21",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -345,7 +345,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Breathable Airy Mesh Cover, Adjustable Straps, Removable Machine-Wash Cover, Contoured Shape, Posture Aid, Body Alignment, Low Back Pain Relief for Office, Car",
+          "product_name": "Everlasting Comfort Contour Support Lumbar Pillow - Durable Memory Foam, Breathable Airy Mesh Cover, Adjustable Back Rest Straps, Removable Machine Wash Cover, Posture Aid, Body Alignment, Low Back Pain Relief, Back Health Solution for Office, Car",
           "price": 43.99,
           "total_gmv": 0,
           "share_pct": 0.0,
@@ -603,7 +603,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Breathable Airy Mesh Cover, Adjustable Straps, Removable Machine-Wash Cover, Contoured Shape, Posture Aid, Body Alignment, Low Back Pain Relief for Office, Car",
+          "product_name": "Everlasting Comfort Contour Support Lumbar Pillow - Durable Memory Foam, Breathable Airy Mesh Cover, Adjustable Back Rest Straps, Removable Machine Wash Cover, Posture Aid, Body Alignment, Low Back Pain Relief, Back Health Solution for Office, Car",
           "price": 43.99,
           "total_gmv": 14.99,
           "share_pct": 0.4,
@@ -1070,7 +1070,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Breathable Airy Mesh Cover, Adjustable Straps, Removable Machine-Wash Cover, Contoured Shape, Posture Aid, Body Alignment, Low Back Pain Relief for Office, Car",
+          "product_name": "Everlasting Comfort Contour Support Lumbar Pillow - Durable Memory Foam, Breathable Airy Mesh Cover, Adjustable Back Rest Straps, Removable Machine Wash Cover, Posture Aid, Body Alignment, Low Back Pain Relief, Back Health Solution for Office, Car",
           "price": 43.99,
           "total_gmv": 14.99,
           "share_pct": 0.2,
@@ -1548,7 +1548,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Breathable Airy Mesh Cover, Adjustable Straps, Removable Machine-Wash Cover, Contoured Shape, Posture Aid, Body Alignment, Low Back Pain Relief for Office, Car",
+          "product_name": "Everlasting Comfort Contour Support Lumbar Pillow - Durable Memory Foam, Breathable Airy Mesh Cover, Adjustable Back Rest Straps, Removable Machine Wash Cover, Posture Aid, Body Alignment, Low Back Pain Relief, Back Health Solution for Office, Car",
           "price": 43.99,
           "total_gmv": 14.99,
           "share_pct": 0.0,
@@ -1664,7 +1664,7 @@
         "total_gmv": 88358.98,
         "affiliate_gmv": 73753.56,
         "video_gmv": 45484.71,
-        "live_gmv": 27880.52,
+        "live_gmv": 27954.78,
         "shop_tab_gmv": 19021.56,
         "gmv_max_revenue": 64126.77999999999,
         "subscription_revenue": 0
@@ -1883,7 +1883,7 @@
         },
         {
           "product_id": "1730130752085856475",
-          "product_name": "Everlasting Comfort Ergonomic Durable Memory Foam Lumbar Pillow - Breathable Airy Mesh Cover, Adjustable Straps, Removable Machine-Wash Cover, Contoured Shape, Posture Aid, Body Alignment, Low Back Pain Relief for Office, Car",
+          "product_name": "Everlasting Comfort Contour Support Lumbar Pillow - Durable Memory Foam, Breathable Airy Mesh Cover, Adjustable Back Rest Straps, Removable Machine Wash Cover, Posture Aid, Body Alignment, Low Back Pain Relief, Back Health Solution for Office, Car",
           "price": 43.99,
           "total_gmv": 176.08,
           "share_pct": 0.2,
