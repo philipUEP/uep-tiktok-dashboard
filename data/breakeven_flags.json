@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-11-21T07:05:21Z",
+ "generated_on": "2026-11-22T07:05:28Z",
  "window": "2026-11-09 to 2026-11-15",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-11-21T07:05:17Z",
+ "assumptions_generated_on": "2026-11-22T07:05:24Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -43,6 +43,13 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732707650287079643",
+     "name": "Navy Blue",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732707643491651803",
      "name": "Black 4pack",
      "units": 0,
@@ -53,13 +60,6 @@
      "sku_id": "1732694432146886875",
      "name": "Starry Night",
      "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707650287079643",
-     "name": "Navy Blue",
-     "units": 1,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -99,16 +99,16 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 2,
+     "sku_id": "1732707643491520731",
+     "name": "Pastel Mint",
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 4,
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
+     "units": 2,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -120,23 +120,9 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491520731",
-     "name": "Pastel Mint",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732530572481433819",
-     "name": "Lavendar",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146034907",
-     "name": "Pastel Blue",
-     "units": 1,
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 4,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -148,9 +134,23 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732530572481433819",
+     "name": "Lavendar",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732530572481368283",
      "name": "Rainbow",
      "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146034907",
+     "name": "Pastel Blue",
+     "units": 1,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -283,161 +283,6 @@
  ],
  "live_campaigns": [
   {
-   "campaign": "BFCM Screendoor GMV Max ",
-   "campaign_id": "1881445487256609",
-   "product": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-   "matched": true,
-   "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
-   "product_ids": [
-    "1729391862339113179"
-   ],
-   "sku_coverage": {
-    "skus_total": 7,
-    "skus_mapped": 1,
-    "units_total": 31,
-    "units_covered": 0,
-    "pct_units_covered": 0.0
-   },
-   "unmapped_skus": [
-    {
-     "sku_id": "1732283771626623195",
-     "name": "Mesh Black,Default",
-     "units": 27,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732283771626688731",
-     "name": "Fiberglass Black,Default",
-     "units": 3,
-     "price": 27.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732384554433417435",
-     "name": "Quilted Thermal,Default",
-     "units": 0,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732384554433482971",
-     "name": "Solid Thermal,Default",
-     "units": 0,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732357652881117403",
-     "name": "Mesh White,Default",
-     "units": 1,
-     "price": 27.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732357652881051867",
-     "name": "1732357652881051867",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    }
-   ],
-   "spend": 290.24,
-   "revenue": 688.46,
-   "orders": 31,
-   "roi": 2.372,
-   "roas_target": 3.1,
-   "be_roas": 4.0,
-   "pause_below_roas": 3.2,
-   "margin_ad_pct": 26.8,
-   "cm3_after_ads": -105.73,
-   "status": "ENABLE",
-   "flag": "Pause",
-   "action": "It is live on a target of 3.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
-   "target_is_below_break_even": true
-  },
-  {
-   "campaign": "BFCM Seat Cushion GMV Max",
-   "campaign_id": "1881572494944289",
-   "product": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
-   "matched": true,
-   "be_basis": "SKU blend: blended over 1 of 8 SKUs (33% of units sold)",
-   "product_ids": [
-    "1729394250782118107"
-   ],
-   "sku_coverage": {
-    "skus_total": 8,
-    "skus_mapped": 1,
-    "units_total": 3,
-    "units_covered": 1,
-    "pct_units_covered": 33.3
-   },
-   "unmapped_skus": [
-    {
-     "sku_id": "1732571230965436635",
-     "name": "Gel Top \u00b7 Black",
-     "units": 0,
-     "price": 67.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732571230965371099",
-     "name": "Gel Infused \u00b7 Black",
-     "units": 0,
-     "price": 63.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1729394250782445787",
-     "name": "",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732571230000156891",
-     "name": "XL Original \u00b7 Black",
-     "units": 2,
-     "price": 69.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732256663212429531",
-     "name": "Gel-Infused Combo",
-     "units": 0,
-     "price": 79.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1729394250782380251",
-     "name": "Original \u00b7 Gray",
-     "units": 0,
-     "price": 59.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1729394250782314715",
-     "name": "",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    }
-   ],
-   "spend": 201.5,
-   "revenue": 142.47,
-   "orders": 3,
-   "roi": 0.707,
-   "roas_target": 1.7,
-   "be_roas": 2.5,
-   "pause_below_roas": 2.1,
-   "margin_ad_pct": 40.2,
-   "cm3_after_ads": -144.23,
-   "status": "ENABLE",
-   "flag": "Pause",
-   "action": "It is live on a target of 1.70x, which is below its 2.5x break-even, so it can hit target and still lose money. Raise the return target to at least 2.5x (break-even), or pause and move the budget to a campaign above break-even.",
-   "target_is_below_break_even": true
-  },
-  {
    "campaign": "BFCM Repel GMV Max Campaign",
    "campaign_id": "1881446278604817",
    "product": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
@@ -449,7 +294,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 29,
+    "units_total": 28,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -457,13 +302,20 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 12,
+     "units": 14,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146428123",
      "name": "Clear",
+     "units": 1,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707650287079643",
+     "name": "Navy Blue",
      "units": 1,
      "price": 29.99,
      "why": "no cost row in the cost model"
@@ -479,13 +331,6 @@
      "sku_id": "1732694432146886875",
      "name": "Starry Night",
      "units": 2,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707650287079643",
-     "name": "Navy Blue",
-     "units": 1,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -520,21 +365,21 @@
     {
      "sku_id": "1732707643491455195",
      "name": "Pastel pink",
-     "units": 3,
+     "units": 4,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491520731",
+     "name": "Pastel Mint",
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146559195",
      "name": "White Fog",
-     "units": 3,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732707643491586267",
-     "name": "Pastel Lavendar",
-     "units": 1,
+     "units": 2,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -546,8 +391,15 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491520731",
-     "name": "Pastel Mint",
+     "sku_id": "1732707643491586267",
+     "name": "Pastel Lavendar",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146100443",
+     "name": "Red",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
@@ -560,22 +412,15 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146034907",
-     "name": "Pastel Blue",
-     "units": 1,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 1,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732530572481368283",
      "name": "Rainbow",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146034907",
+     "name": "Pastel Blue",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
@@ -616,22 +461,177 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 322.41,
-   "revenue": 620.31,
-   "orders": 29,
-   "roi": 1.924,
+   "spend": 321.57,
+   "revenue": 589.92,
+   "orders": 27,
+   "roi": 1.834,
    "roas_target": 2.2,
    "be_roas": 2.2,
    "pause_below_roas": 1.9,
    "margin_ad_pct": 45.4,
-   "cm3_after_ads": -40.79,
+   "cm3_after_ads": -53.75,
    "status": "ENABLE",
-   "flag": "Watch",
+   "flag": "Pause",
    "action": "Raise the return target to at least 2.2x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": false
+  },
+  {
+   "campaign": "BFCM Screendoor GMV Max ",
+   "campaign_id": "1881445487256609",
+   "product": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
+   "matched": true,
+   "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
+   "product_ids": [
+    "1729391862339113179"
+   ],
+   "sku_coverage": {
+    "skus_total": 7,
+    "skus_mapped": 1,
+    "units_total": 29,
+    "units_covered": 0,
+    "pct_units_covered": 0.0
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732283771626623195",
+     "name": "Mesh Black,Default",
+     "units": 25,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732283771626688731",
+     "name": "Fiberglass Black,Default",
+     "units": 2,
+     "price": 27.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433417435",
+     "name": "Quilted Thermal,Default",
+     "units": 1,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433482971",
+     "name": "Solid Thermal,Default",
+     "units": 0,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881117403",
+     "name": "Mesh White,Default",
+     "units": 1,
+     "price": 27.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881051867",
+     "name": "1732357652881051867",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 256.67,
+   "revenue": 569.3,
+   "orders": 26,
+   "roi": 2.218,
+   "roas_target": 3.1,
+   "be_roas": 4.0,
+   "pause_below_roas": 3.2,
+   "margin_ad_pct": 26.8,
+   "cm3_after_ads": -104.1,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "It is live on a target of 3.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
+   "target_is_below_break_even": true
+  },
+  {
+   "campaign": "BFCM Seat Cushion GMV Max",
+   "campaign_id": "1881572494944289",
+   "product": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+   "matched": true,
+   "be_basis": "SKU blend: blended over 1 of 8 SKUs (50% of units sold)",
+   "product_ids": [
+    "1729394250782118107"
+   ],
+   "sku_coverage": {
+    "skus_total": 8,
+    "skus_mapped": 1,
+    "units_total": 4,
+    "units_covered": 2,
+    "pct_units_covered": 50.0
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732571230965436635",
+     "name": "Gel Top \u00b7 Black",
+     "units": 0,
+     "price": 67.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1729394250782445787",
+     "name": "",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732571230965371099",
+     "name": "Gel Infused \u00b7 Black",
+     "units": 0,
+     "price": 63.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732256663212429531",
+     "name": "Gel-Infused Combo",
+     "units": 0,
+     "price": 79.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732571230000156891",
+     "name": "XL Original \u00b7 Black",
+     "units": 2,
+     "price": 69.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1729394250782380251",
+     "name": "Original \u00b7 Gray",
+     "units": 0,
+     "price": 59.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1729394250782314715",
+     "name": "",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 234.37,
+   "revenue": 178.56,
+   "orders": 4,
+   "roi": 0.762,
+   "roas_target": 1.7,
+   "be_roas": 2.5,
+   "pause_below_roas": 2.1,
+   "margin_ad_pct": 40.2,
+   "cm3_after_ads": -162.59,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "It is live on a target of 1.70x, which is below its 2.5x break-even, so it can hit target and still lose money. Raise the return target to at least 2.5x (break-even), or pause and move the budget to a campaign above break-even.",
+   "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-11-15 to 2026-11-21",
+ "live_window": "2026-11-16 to 2026-11-22",
  "products": [
   {
    "product": "Screen Door",
@@ -786,9 +786,9 @@
   "products_missing_inputs": 2,
   "week_cm3_total": 49.02,
   "live_campaigns_judged": 3,
-  "live_pause": 2,
-  "live_cm3_after_ads_total": -290.75,
-  "live_spend_total": 814.15
+  "live_pause": 3,
+  "live_cm3_after_ads_total": -320.44,
+  "live_spend_total": 812.61
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }

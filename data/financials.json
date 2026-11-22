@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /shop/stats, /ads/campaigns, /timeseries/products, /shop/skus",
-    "pulled_on": "2026-11-21",
+    "pulled_on": "2026-11-22",
     "note": "Operational P&L view. COGS is not populated in Cruva, so no gross-profit line is computed; the net line excludes COGS."
   },
   "cogs": {
@@ -1664,7 +1664,7 @@
         "total_gmv": 88358.98,
         "affiliate_gmv": 73753.56,
         "video_gmv": 45484.71,
-        "live_gmv": 27954.78,
+        "live_gmv": 27922.79,
         "shop_tab_gmv": 19021.56,
         "gmv_max_revenue": 64126.77999999999,
         "subscription_revenue": 0
