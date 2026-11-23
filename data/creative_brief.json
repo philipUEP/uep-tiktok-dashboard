@@ -1,12 +1,383 @@
 {
   "_provenance": {
     "source": "Cruva REST API /affiliate/videos/list (AI analysis fields)",
-    "pulled_on": "2026-11-22",
+    "pulled_on": "2026-11-23",
     "sort": "gmv desc"
   },
   "periods": {
     "week": {
-      "range": "2026-11-09 to 2026-11-15",
+      "range": "2026-11-16 to 2026-11-22",
+      "videos": [
+        {
+          "rank": 1,
+          "title": "Mucho m\u00e1s c\u00f3modo. #cojindeasiento #tiktokshopcybermonday #tiktokshopblackfriday #discoveryourgift #dolordeespalda",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7710318985358658847",
+          "product_id": "1729394250782118107",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+          "view_count": 289,
+          "like_count": 2,
+          "gmv": 36.09,
+          "units_sold": 1,
+          "gmv_per_view": 0.1249,
+          "hooks": [
+            {
+              "hook": "Si en ninguna silla te puedes acomodar, esta es porque ocupas un coj\u00edn de asiento.",
+              "score": 8,
+              "explanation": "Addresses a common physical discomfort right away and offers a direct solution."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Esta parte va a ayudar a reducir esa presi\u00f3n que sientes al momento de sentarte en tu coxis",
+              "score": 9,
+              "explanation": "Highlights the ergonomic design feature that directly relieves tailbone pressure."
+            },
+            {
+              "selling_point": "Si se llega a ensuciar, se lo puedes quitar y lo puedes lavar",
+              "score": 8,
+              "explanation": "Emphasizes ease of cleaning with a removable, washable cover."
+            },
+            {
+              "selling_point": "Cuando sientes el coj\u00edn de asiento, no se te va a estar resbalando de un lado para otro",
+              "score": 8,
+              "explanation": "Mentions the anti-slip bottom feature for stability."
+            }
+          ],
+          "content_overview": "A person demonstrates a memory foam seat cushion with a cutout, explaining its benefits for tailbone and back pain, showing its removable cover and non-slip backing, and recommending it for any chair.",
+          "on_screen_text": "dolor en la coxis o la espalda al momento de estar sentada mucho tiempo?",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 34,
+          "tone": "educational",
+          "target_audience": "People who experience back or tailbone pain from sitting for long periods at work or home."
+        },
+        {
+          "rank": 2,
+          "title": "An easy way to upgrade the chair you already have \ud83d\ude4c Memory foam, a tailbone cutout, and a non-slip bottom for those long days sitting at a desk. @UPPER ECHELON PRODUCTS  #seatcushion  #TikTokShopBlackFriday #TikTokShopCyberMonday #DiscoverYourGift #comfor",
+          "handle": "courtney_gonzales19",
+          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7709915619193277710",
+          "product_id": "1729394250782118107",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+          "view_count": 1335,
+          "like_count": 6,
+          "gmv": 21.65,
+          "units_sold": 1,
+          "gmv_per_view": 0.0162,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": "A person is shown holding and demonstrating a black memory foam seat cushion with a U-shaped cutout, designed for office chairs or other seating.",
+          "on_screen_text": "If you sit for HOURS every day, watch this.",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 13,
+          "tone": "casual",
+          "target_audience": "Office workers, remote employees, and individuals who sit for long hours and look for ergonomic seating comfort."
+        },
+        {
+          "rank": 3,
+          "title": "\"Reliable strength meets travel-friendly design!\" \ud83c\udf27\ufe0f\ud83d\udc91\u26a1 Windproof, sturdy, and built to keep your dat",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7706600200793509133",
+          "product_id": "1732530504119718107",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
+          "view_count": 95,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 4,
+          "title": "\"Compact and lightweight\u2014open and close with ONE button!\" \ud83c\udf92\u2614\u26a1 Fits effortlessly into any bag and dep",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7706600548736224525",
+          "product_id": "1732530504119718107",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
+          "view_count": 337,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 5,
+          "title": "\"Struggling with stubborn umbrellas is now over!\" \ud83c\udf27\ufe0f\ud83d\udca8\u26a1 9 reinforced ribs hold up to 100 mph winds, f",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7706600911015021837",
+          "product_id": "1732530504119718107",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
+          "view_count": 93,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 6,
+          "title": "\"You checked the weather, the forecast changed its mind!\" \ud83c\udf27\ufe0f\u26a1 Keep a Repel close: open fast, pack aw",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7706601361579789582",
+          "product_id": "1732530504119718107",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
+          "view_count": 219,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 7,
+          "title": "\"Inside the wind-tunnel test: watch the canopy hit 100 mph!\" \ud83c\udf2a\ufe0f\u26a1 Flexible ribs and double vents hold",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7706601749548649741",
+          "product_id": "1732530504119718107",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
+          "view_count": 225,
+          "like_count": 2,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 8,
+          "title": "\"Spinal stenosis? Watch the simple fix nobody is talking about!\" \ud83e\ude7a\ud83d\udcba\u26a1 Tilts the pelvis forward, float",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706607520181193998",
+          "product_id": "1732530411400171739",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
+          "view_count": 284,
+          "like_count": 2,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 9,
+          "title": "\"Here\u2019s what\u2019s happening to your sciatic nerve every time you sit down!\" \ud83d\udcba\u26a1 It was never about a sof",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706609126331239693",
+          "product_id": "1732604651629416667",
+          "product_name": "Everlasting Comfort Memory Foam Car Seat Cushion with Seat Padding - Washable Cover, Back & Sciatica Relief, Automotive Car Interior Accessory for Driving",
+          "view_count": 334,
+          "like_count": 2,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [
+            {
+              "hook": "Here's what's happening to your sciatic nerve every single time you sit down.",
+              "score": 9,
+              "explanation": "Creates immediate curiosity and addresses a common pain point with a compelling anatomical visualization."
+            },
+            {
+              "hook": "The cutout removes the seat from under the nerve entirely.",
+              "score": 8,
+              "explanation": "Clearly introduces the unique mechanism and differentiator of the product."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "U-shaped channel relieves pressure on the sciatic nerve",
+              "score": 9,
+              "explanation": "Explains the exact anatomical benefit of the cushion design compared to flat seats."
+            },
+            {
+              "selling_point": "28% less peak pressure",
+              "score": 8,
+              "explanation": "Provides quantitative proof of pressure reduction at the damaged point."
+            },
+            {
+              "selling_point": "FSA and HSA eligible with lifetime warranty and 30-day money-back guarantee",
+              "score": 8,
+              "explanation": "Highlights financial convenience, low risk, and product durability."
+            }
+          ],
+          "content_overview": "The video explains how standard flat seats put damaging pressure on the sciatic nerve and introduces the Everlasting Comfort seat cushion with a U-shaped cutout. It demonstrates how the cushion redistributes weight, relieves pressure, and outperforms other alternatives like gel or plain foam cushions. Finally, it highlights social proof, guarantees, and versatility for different chairs.",
+          "on_screen_text": "Here's what happening to your sciatic nerve every single time you sit down, This is a pressure-relief seat cushion, with a U-shaped channel cut through the back of it, No routine, no fifteen minutes a day, nothing to charge, You just sit down, On a flat seat, your entire upper body load funnels into two small points of bone, the sciatic nerve runs through sits directly underneath them, Three hours in, that pressure hasn't moved. It's just gotten deeper, standard seat shows contact across about twenty percent of the surface., On this one, eighty-five percent, The cutout removes the seat from under the nerve entirely, The contour spreads the rest of the load across the whole surface, Twenty-eight percent less peak pressure at the point that was doing the damage., It was never about softness, It's about contact, You've probably already tried to solve this, The gel one that goes flat by lunch, The foam one that packed down in a month, The donut that never sat straight, The copycat purple one everybody's running ads for, a channel under the nerve, They just changed how soft the pressure felt on the way in, The first thing people notice is the drive home, Not that something got fixed, That the last hour didn't feel like the first three, By the end of the first week, most people stop rearranging themselves every ten minutes, They just sit longer before they need to get up, The cushion goes where you go, Desk chair, truck seat, kitchen table, Anywhere you're stuck sitting, Three million sold, A hundred and twenty-six thousand reviews, No appointments, No waiting rooms, No fourth cushion that goes flat, You put it on the chair, That's the whole thing, Thirty-day money-back guarantee, LIFETIME WARRANTY on the cushion itself, FSA HSA, It was never about a softer seat, It's about what's underneath you, Surgeon-recommended pressure relief, Tap to see the cushion",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 80,
+          "tone": "educational",
+          "target_audience": "People who experience lower back or sciatic nerve pain from sitting for long periods, such as drivers, office workers, and remote employees."
+        },
+        {
+          "rank": 10,
+          "title": "\"Elevate Series dropped their price for 24 hours!\" \ud83d\udea8\ud83d\udcba\u26a1 High-density memory foam, tailbone cutout, 3M",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706615460401286414",
+          "product_id": "1732530411400171739",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
+          "view_count": 16,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 11,
+          "title": "\"If the last two hours of your workday feel impossible from sciatica\u2014watch this!\" \ud83d\udda5\ufe0f\u26a1 U-cutout lifts",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706616195247574285",
+          "product_id": "1732530411400171739",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
+          "view_count": 237,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 12,
+          "title": "\"Girl, my back is done after that flight!\" \u2708\ufe0f\ud83c\udf92\u26a1 Slide it straight out of your tote and into your air",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706616606067002638",
+          "product_id": "1732604651629416667",
+          "product_name": "Everlasting Comfort Memory Foam Car Seat Cushion with Seat Padding - Washable Cover, Back & Sciatica Relief, Automotive Car Interior Accessory for Driving",
+          "view_count": 287,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 13,
+          "title": "\"I ranked the most popular seat cushions from F to S tier\u2014and it\u2019s not even close!\" \ud83d\udcca\ud83e\ude91\u26a1 85% lab-test",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706618066179755278",
+          "product_id": "1732530411400171739",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
+          "view_count": 67,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 14,
+          "title": "\"Puppy-approved, nap-tested!\" \ud83d\udc36\u2601\ufe0f\ud83d\udca4 Ultra-plush, sculpted faux fur, and 100% shed-free\u2014the coziest sp",
+          "handle": "cloudfur_uep",
+          "video_url": "https://tiktok.com/@cloudfur_uep/video/7707741661455011102",
+          "product_id": "1732777280888475867",
+          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
+          "view_count": 1,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 15,
+          "title": "\"Finally comfortable. Finally CloudFur!\" \ud83d\udecb\ufe0f\u2601\ufe0f\ud83d\ude0c Ultra-plush, sculpted faux fur, and 100% shed-free\u2014th",
+          "handle": "cloudfurclub",
+          "video_url": "https://tiktok.com/@cloudfurclub/video/7707744164909305102",
+          "product_id": "1732777280888475867",
+          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
+          "view_count": 0,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": null,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        }
+      ],
+      "total_found": 110,
+      "has_more": true
+    },
+    "14d": {
+      "range": "2026-11-09 to 2026-11-22",
       "videos": [
         {
           "rank": 1,
@@ -15,11 +386,11 @@
           "video_url": "https://tiktok.com/@alexvlogs87/video/7706700322516765965",
           "product_id": "1730129060140454107",
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
-          "view_count": 151,
+          "view_count": 214,
           "like_count": 7,
           "gmv": 49.99,
           "units_sold": 1,
-          "gmv_per_view": 0.3311,
+          "gmv_per_view": 0.2336,
           "hooks": [
             {
               "hook": "Amigos mira lo que me acaba de llegar del TikTok Shop",
@@ -53,16 +424,102 @@
         },
         {
           "rank": 2,
+          "title": "Mucho m\u00e1s c\u00f3modo. #cojindeasiento #tiktokshopcybermonday #tiktokshopblackfriday #discoveryourgift #dolordeespalda",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7710318985358658847",
+          "product_id": "1729394250782118107",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+          "view_count": 289,
+          "like_count": 2,
+          "gmv": 36.09,
+          "units_sold": 1,
+          "gmv_per_view": 0.1249,
+          "hooks": [
+            {
+              "hook": "Si en ninguna silla te puedes acomodar, esta es porque ocupas un coj\u00edn de asiento.",
+              "score": 8,
+              "explanation": "Addresses a common physical discomfort right away and offers a direct solution."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Esta parte va a ayudar a reducir esa presi\u00f3n que sientes al momento de sentarte en tu coxis",
+              "score": 9,
+              "explanation": "Highlights the ergonomic design feature that directly relieves tailbone pressure."
+            },
+            {
+              "selling_point": "Si se llega a ensuciar, se lo puedes quitar y lo puedes lavar",
+              "score": 8,
+              "explanation": "Emphasizes ease of cleaning with a removable, washable cover."
+            },
+            {
+              "selling_point": "Cuando sientes el coj\u00edn de asiento, no se te va a estar resbalando de un lado para otro",
+              "score": 8,
+              "explanation": "Mentions the anti-slip bottom feature for stability."
+            }
+          ],
+          "content_overview": "A person demonstrates a memory foam seat cushion with a cutout, explaining its benefits for tailbone and back pain, showing its removable cover and non-slip backing, and recommending it for any chair.",
+          "on_screen_text": "dolor en la coxis o la espalda al momento de estar sentada mucho tiempo?",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 34,
+          "tone": "educational",
+          "target_audience": "People who experience back or tailbone pain from sitting for long periods at work or home."
+        },
+        {
+          "rank": 3,
+          "title": "Una opci\u00f3n pr\u00e1ctica para tu hogar y espacios al aire libre. Esta puerta de malla magn\u00e9tica mide 38x8",
+          "handle": "laurapaniagua59",
+          "video_url": "https://tiktok.com/@laurapaniagua59/video/7708367072929058079",
+          "product_id": "1729391862339113179",
+          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
+          "view_count": 309,
+          "like_count": 3,
+          "gmv": 31.66,
+          "units_sold": 2,
+          "gmv_per_view": 0.1025,
+          "hooks": [
+            {
+              "hook": "Mira esta mosquitera magn\u00e9tica de puerta.",
+              "score": 8,
+              "explanation": "Directly introduces the product and its type immediately, grabbing the viewer's attention."
+            },
+            {
+              "hook": "Si quieres aire fresco en casa con la puerta abierta, esta mosquitera es para ti.",
+              "score": 8,
+              "explanation": "Addresses a relatable viewer desire (fresh air) right away."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Magnetic closure from top to bottom",
+              "score": 8,
+              "explanation": "Highlights the full-length magnetic seam feature for effective closure."
+            },
+            {
+              "selling_point": "Allows fresh air into the house with the door open",
+              "score": 8,
+              "explanation": "Emphasizes the practical lifestyle benefit of keeping doors open while maintaining a barrier."
+            }
+          ],
+          "content_overview": "A person presents the Flux Phenom Magnetic Screen Door, showcasing its box and packaging in a retail setting before demonstrating it installed on a doorway. The narrator explains its features like top-to-bottom magnetic closure and invites viewers to purchase it.",
+          "on_screen_text": "",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 14,
+          "tone": "casual",
+          "target_audience": "Homeowners or renters looking for a screen door solution to let fresh air in while keeping bugs out."
+        },
+        {
+          "rank": 4,
           "title": "Fiberglass folding umbrella @UPPER ECHELON PRODUCTS #umbrella #rain #tiktokshopcreatorpicks #TiktokS",
           "handle": "retired_and_reselling",
           "video_url": "https://tiktok.com/@retired_and_reselling/video/7706340461375474975",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 2684,
+          "view_count": 2687,
           "like_count": 5,
           "gmv": 26.99,
           "units_sold": 1,
-          "gmv_per_view": 0.0101,
+          "gmv_per_view": 0.01,
           "hooks": [
             {
               "hook": "This is the easy open and close fiberglass umbrella.",
@@ -95,7 +552,28 @@
           "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use travel umbrella for commuting or outdoor use."
         },
         {
-          "rank": 3,
+          "rank": 5,
+          "title": "An easy way to upgrade the chair you already have \ud83d\ude4c Memory foam, a tailbone cutout, and a non-slip bottom for those long days sitting at a desk. @UPPER ECHELON PRODUCTS  #seatcushion  #TikTokShopBlackFriday #TikTokShopCyberMonday #DiscoverYourGift #comfor",
+          "handle": "courtney_gonzales19",
+          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7709915619193277710",
+          "product_id": "1729394250782118107",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+          "view_count": 1335,
+          "like_count": 6,
+          "gmv": 21.65,
+          "units_sold": 1,
+          "gmv_per_view": 0.0162,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": "A person is shown holding and demonstrating a black memory foam seat cushion with a U-shaped cutout, designed for office chairs or other seating.",
+          "on_screen_text": "If you sit for HOURS every day, watch this.",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 13,
+          "tone": "casual",
+          "target_audience": "Office workers, remote employees, and individuals who sit for long hours and look for ergonomic seating comfort."
+        },
+        {
+          "rank": 6,
           "title": "\"Still taking the walk. Take the scenic route!\" \ud83c\udf32\u2614\u26a1 Built for coastal winds, forest paths, and mount",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7706596826043911437",
@@ -116,17 +594,17 @@
           "target_audience": "Outdoor enthusiasts, travelers, and commuters looking for reliable umbrellas for all weather conditions."
         },
         {
-          "rank": 4,
+          "rank": 7,
           "title": "The umbrella that finally ends rainy-day dread. \u2602\ufe0f One click \u2014 open, covered, dry. #bfcm #Christmasg",
           "handle": "worldsgreatestchad",
           "video_url": "https://tiktok.com/@worldsgreatestchad/video/7706571682072382733",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 1489,
+          "view_count": 1505,
           "like_count": 0,
           "gmv": 15.95,
           "units_sold": 1,
-          "gmv_per_view": 0.0107,
+          "gmv_per_view": 0.0106,
           "hooks": [
             {
               "hook": "Have you heard the best selling umbrella over on Prime just made its way over to TikTok?",
@@ -164,13 +642,13 @@
           "target_audience": "Commuters, travelers, parents, and everyday shoppers looking for a durable, reliable umbrella."
         },
         {
-          "rank": 5,
+          "rank": 8,
           "title": "\"This is the fastest way to stop sciatic pain the moment you sit down!\" \ud83e\ude91\u26a1 Doctor-recommended, lab-t",
           "handle": "everlasting_comfort",
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7705153997648186637",
           "product_id": "1732530411400171739",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
-          "view_count": 44,
+          "view_count": 45,
           "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
@@ -185,13 +663,13 @@
           "target_audience": null
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "\"The problem isn't you, it's the seat!\" \ud83e\ude91\u26a1 Suspend your tailbone, take pressure off the sciatic nerv",
           "handle": "everlasting_comfort",
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7705154265509121294",
           "product_id": "1732530411400171739",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
-          "view_count": 88,
+          "view_count": 92,
           "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
@@ -206,7 +684,7 @@
           "target_audience": null
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "\"Meet CloudFur: The best blanket on shop!\" \u2601\ufe0f\ud83d\udc99\u26a1 Legit the softest blankie you're ever going to feel ",
           "handle": "cloudfurclub",
           "video_url": "https://tiktok.com/@cloudfurclub/video/7705166160253193502",
@@ -227,7 +705,7 @@
           "target_audience": null
         },
         {
-          "rank": 8,
+          "rank": 11,
           "title": "\"Hands full? Just walk right through!\" \ud83d\udc3e\ud83d\udeaa\u26a1 Kids, pets, groceries\u2014no problem! It snaps shut behind yo",
           "handle": "upperechelonproducts_",
           "video_url": "https://tiktok.com/@upperechelonproducts_/video/7705166848437865742",
@@ -265,13 +743,13 @@
           "target_audience": "Homeowners, pet owners, and families looking for convenient insect protection for their doors."
         },
         {
-          "rank": 9,
+          "rank": 12,
           "title": "#magneticscreendoor #diyproject #tiktokshopblackfriday #tiktokmademebuyit ",
           "handle": "house_of_cid",
           "video_url": "https://tiktok.com/@house_of_cid/video/7705956465168747789",
           "product_id": "1729391862339113179",
           "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-          "view_count": 1282,
+          "view_count": 1286,
           "like_count": 3,
           "gmv": 0.0,
           "units_sold": 0,
@@ -286,7 +764,7 @@
           "target_audience": "Homeowners, pet owners, and people looking for easy-to-install screen solutions for doors and porches."
         },
         {
-          "rank": 10,
+          "rank": 13,
           "title": "Looking for a simple upgrade to your daily bathroom routine? This ultra-slim bidet attachment fits m",
           "handle": "gatata31",
           "video_url": "https://tiktok.com/@gatata31/video/7706003111160171789",
@@ -307,7 +785,7 @@
           "target_audience": null
         },
         {
-          "rank": 11,
+          "rank": 14,
           "title": "Looking for a simple, practical upgrade for your bathroom? This ultra-slim bidet attachment fits mos",
           "handle": "lexisse1",
           "video_url": "https://tiktok.com/@lexisse1/video/7706006278329404686",
@@ -328,585 +806,14 @@
           "target_audience": null
         },
         {
-          "rank": 12,
+          "rank": 15,
           "title": "\"Long day at your desk? Your feet don't have to dangle!\" \ud83e\ude91\u26a1 This ergonomic memory foam footrest is r",
           "handle": "upperechelonproducts_",
           "video_url": "https://tiktok.com/@upperechelonproducts_/video/7706169542262689038",
           "product_id": "1730130928473313499",
           "product_name": "Everlasting Comfort Adjustable Rectangular Memory Foam Under Desk Foot Rest - 17.5x13x6\" Ergonomic High-Density Foam Footrest Furniture Accessories, Breathable Washable Cover, for Office & Gaming Use, Improves Posture, Supports Better Circulation",
-          "view_count": 177,
+          "view_count": 178,
           "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 13,
-          "title": "If you have a cozy girl in your life this is the perfect gift. @UPPER ECHELON PRODUCTS #TikTokShopBl",
-          "handle": "christianjohnson2022",
-          "video_url": "https://tiktok.com/@christianjohnson2022/video/7706213352762051871",
-          "product_id": "1732777280888475867",
-          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
-          "view_count": 467,
-          "like_count": 7,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [
-            {
-              "hook": "This is exactly what the girlies want for Christmas.",
-              "score": 8,
-              "explanation": "Directly targets gift shoppers and holiday trends, creating immediate relevance."
-            },
-            {
-              "hook": "There's only one other blanket on the market that I know of that can compare to the quality of this, and it's twice the price.",
-              "score": 9,
-              "explanation": "Creates a strong value proposition and curiosity by comparing it to a more expensive competitor."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "The material stretches with you.",
-              "score": 7,
-              "explanation": "Highlights a unique and functional feature for a throw blanket."
-            },
-            {
-              "selling_point": "It is so warm and so cozy.",
-              "score": 8,
-              "explanation": "Emphasizes the core comfort benefits buyers look for in plush blankets."
-            },
-            {
-              "selling_point": "It can compare to the quality of this, and it's twice the price.",
-              "score": 9,
-              "explanation": "Positions the product as a high-value alternative to expensive market competitors."
-            }
-          ],
-          "content_overview": "A creator presents a double-sided faux fur blanket, showcasing its size, stretch, and softness on a bed and couch while explaining its value and gift appeal for the holidays.",
-          "on_screen_text": "",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 32,
-          "tone": "casual",
-          "target_audience": "Shoppers looking for cozy holiday gifts, home decor enthusiasts, and people seeking high-quality faux fur blankets."
-        },
-        {
-          "rank": 14,
-          "title": "@UPPER ECHELON PRODUCTS #TikTokShopBlackFriday #tiktokshopcybermoday #DiscoverYourGift #blanket #gif",
-          "handle": "christianjohnson2022",
-          "video_url": "https://tiktok.com/@christianjohnson2022/video/7706221936241659167",
-          "product_id": "1732777280888475867",
-          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
-          "view_count": 342,
-          "like_count": 9,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 15,
-          "title": "@UPPER ECHELON PRODUCTS #TikTokShopBlackFriday #tiktokshopcybermoday #DiscoverYourGift #blanket #gif",
-          "handle": "christianjohnson2022",
-          "video_url": "https://tiktok.com/@christianjohnson2022/video/7706226154402794782",
-          "product_id": "1732777280888475867",
-          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
-          "view_count": 386,
-          "like_count": 6,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [
-            {
-              "hook": "What are you doing?",
-              "score": 6,
-              "explanation": "Starts with an engaging conversational question that draws viewer curiosity."
-            },
-            {
-              "hook": "It's my new blanket. Feel it.",
-              "score": 7,
-              "explanation": "Invites sensory interaction right at the beginning of the video."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "It has that silky faux fur on both sides.",
-              "score": 9,
-              "explanation": "Highlights the premium dual-sided faux fur material as a key comfort benefit."
-            },
-            {
-              "selling_point": "I did not pay that for it.",
-              "score": 8,
-              "explanation": "Emphasizes great value and affordability compared to expected pricing."
-            }
-          ],
-          "content_overview": "A creator presents a new faux fur blanket, asking a companion to feel its texture, showcasing the brand tag, and expressing excitement over how affordable it was.",
-          "on_screen_text": "@christianjohnson2022",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 22,
-          "tone": "casual",
-          "target_audience": "Shoppers looking for cozy home decor, blankets, and holiday gifts."
-        }
-      ],
-      "total_found": 65,
-      "has_more": true
-    },
-    "14d": {
-      "range": "2026-11-02 to 2026-11-15",
-      "videos": [
-        {
-          "rank": 1,
-          "title": "Boot Dryer Set #bootdryer #bootdryerwithheat ",
-          "handle": "alexvlogs87",
-          "video_url": "https://tiktok.com/@alexvlogs87/video/7706700322516765965",
-          "product_id": "1730129060140454107",
-          "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
-          "view_count": 151,
-          "like_count": 7,
-          "gmv": 49.99,
-          "units_sold": 1,
-          "gmv_per_view": 0.3311,
-          "hooks": [
-            {
-              "hook": "Amigos mira lo que me acaba de llegar del TikTok Shop",
-              "score": 8,
-              "explanation": "The creator opens with an exciting unboxing announcement to grab viewer attention immediately."
-            },
-            {
-              "hook": "Ya viene el invierno, la vuelta a la esquina y...",
-              "score": 7,
-              "explanation": "Ties the product to a seasonal pain point that viewers can easily relate to."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Te evitas de andar poni\u00e9ndolo en los calentones all\u00e1",
-              "score": 9,
-              "explanation": "Highlights the convenience of avoiding traditional drying methods like heaters."
-            },
-            {
-              "selling_point": "Muy pr\u00e1ctico y barato recomendado",
-              "score": 9,
-              "explanation": "Emphasizes that the product is practical, affordable, and highly recommended."
-            }
-          ],
-          "content_overview": "A man sits in his living room, unboxes a boot dryer ordered from TikTok Shop, assembles it, and demonstrates how it works by placing work boots on it. He praises the product as a practical and affordable solution for drying wet winter boots, recommending it to viewers.",
-          "on_screen_text": "EVERLASTING COMFORT\n2 YEAR REPLACEMENT\nSTANDARD BOOT DRYER\nEASY ASSEMBLY\nSIMPLE DESIGN\nSILENT OPERATION",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 50,
-          "tone": "casual",
-          "target_audience": "People living in cold or wet climates who need a practical way to dry their work boots or shoes during winter."
-        },
-        {
-          "rank": 2,
-          "title": "Fiberglass folding umbrella @UPPER ECHELON PRODUCTS #umbrella #rain #tiktokshopcreatorpicks #TiktokS",
-          "handle": "retired_and_reselling",
-          "video_url": "https://tiktok.com/@retired_and_reselling/video/7706340461375474975",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 2684,
-          "like_count": 5,
-          "gmv": 26.99,
-          "units_sold": 1,
-          "gmv_per_view": 0.0101,
-          "hooks": [
-            {
-              "hook": "This is the easy open and close fiberglass umbrella.",
-              "score": 8,
-              "explanation": "Clearly introduces the product and its primary convenience feature right at the start."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "With the push of a button, it'll open. Push it again, it'll close.",
-              "score": 9,
-              "explanation": "Demonstrates the auto open and close functionality which is a major convenience benefit."
-            },
-            {
-              "selling_point": "Lightweight, it's compact and with a nice case",
-              "score": 8,
-              "explanation": "Highlights portability and accessories included with the umbrella."
-            },
-            {
-              "selling_point": "Right now these are on sale.",
-              "score": 7,
-              "explanation": "Creates a sense of urgency and perceived value due to discount pricing."
-            }
-          ],
-          "content_overview": "A creator demonstrates a yellow compact umbrella, showing how it opens and closes automatically with the push of a button. He also shows the included carrying case and promotes a sale with a link below.",
-          "on_screen_text": "",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 13,
-          "tone": "casual",
-          "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use travel umbrella for commuting or outdoor use."
-        },
-        {
-          "rank": 3,
-          "title": "\"Still taking the walk. Take the scenic route!\" \ud83c\udf32\u2614\u26a1 Built for coastal winds, forest paths, and mount",
-          "handle": "repel_umbrella",
-          "video_url": "https://tiktok.com/@repel_umbrella/video/7706596826043911437",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 213,
-          "like_count": 0,
-          "gmv": 20.51,
-          "units_sold": 1,
-          "gmv_per_view": 0.0963,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": "A montage of people walking in various scenic locations and weather conditions while using different colored umbrellas. The video transitions through beaches, grassy fields, mountains, forests, and bridges.",
-          "on_screen_text": "Still taking the walk. Take the scenic route.",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 10,
-          "tone": "inspirational",
-          "target_audience": "Outdoor enthusiasts, travelers, and commuters looking for reliable umbrellas for all weather conditions."
-        },
-        {
-          "rank": 4,
-          "title": "Disfruta del aire fresco en tu casa sin preocuparte por los insectos que entren. \ud83e\ude9f Esta puerta panta",
-          "handle": "josedv43",
-          "video_url": "https://tiktok.com/@josedv43/video/7705522571839687949",
-          "product_id": "1729391862339113179",
-          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-          "view_count": 1680,
-          "like_count": 3,
-          "gmv": 17.81,
-          "units_sold": 1,
-          "gmv_per_view": 0.0106,
-          "hooks": [
-            {
-              "hook": "Esto es justo lo de mi puerta, una mosquitera que me tiene loco.",
-              "score": 8,
-              "explanation": "Directly addresses a common household frustration and immediately introduces the solution."
-            },
-            {
-              "hook": "Mira qu\u00e9 malla tan pareja y sin taladrar nada.",
-              "score": 9,
-              "explanation": "Highlights key product benefits visually and verbally, emphasizing ease of installation without damage."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Mira qu\u00e9 malla tan pareja y sin taladrar nada.",
-              "score": 9,
-              "explanation": "Emphasizes the clean mesh appearance and the major convenience of tool-free, no-drill installation."
-            }
-          ],
-          "content_overview": "A person showcases a magnetic mesh screen door display in a retail setting, expressing enthusiasm for its clean mesh and easy, no-drill installation.",
-          "on_screen_text": "@josedv43\nAI-generated\nflux",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 13,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for an easy, drill-free way to keep insects out through patio or entry doors."
-        },
-        {
-          "rank": 5,
-          "title": "The umbrella that finally ends rainy-day dread. \u2602\ufe0f One click \u2014 open, covered, dry. #bfcm #Christmasg",
-          "handle": "worldsgreatestchad",
-          "video_url": "https://tiktok.com/@worldsgreatestchad/video/7706571682072382733",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 1489,
-          "like_count": 0,
-          "gmv": 15.95,
-          "units_sold": 1,
-          "gmv_per_view": 0.0107,
-          "hooks": [
-            {
-              "hook": "Have you heard the best selling umbrella over on Prime just made its way over to TikTok?",
-              "score": 8,
-              "explanation": "Creates a curiosity gap by referencing a top-selling product moving to a new platform."
-            },
-            {
-              "hook": "These Repel umbrellas have over 10,000 five star reviews.",
-              "score": 7,
-              "explanation": "Social proof hook that instantly establishes credibility and high demand."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "This umbrella has nine resin coated carbon fiber ribs designed to withstand up to 100 mile an hour winds",
-              "score": 9,
-              "explanation": "Highlights extreme durability and wind resistance backed by specific design features."
-            },
-            {
-              "selling_point": "The canopy is Teflon coated so water just beads right off",
-              "score": 8,
-              "explanation": "Emphasizes quick-drying convenience and water-repellent performance."
-            },
-            {
-              "selling_point": "One button opens, the same button closes",
-              "score": 8,
-              "explanation": "Focuses on effortless, one-handed operation for multitasking users."
-            }
-          ],
-          "content_overview": "A presenter demonstrates the features of the Repel Windproof Travel Umbrella, highlighting its strong carbon fiber ribs, dual canopy system, Teflon water-repelling coating, and one-button open-and-close mechanism.",
-          "on_screen_text": "Windproof Travel Umbrella - Compact & Withstands Winds",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 50,
-          "tone": "casual",
-          "target_audience": "Commuters, travelers, parents, and everyday shoppers looking for a durable, reliable umbrella."
-        },
-        {
-          "rank": 6,
-          "title": "CloudFur: Where comfort meets softness! \u2601\ufe0f\u2728 Just running your hand over this plush, textured faux fu",
-          "handle": "cloudfur_uep",
-          "video_url": "https://tiktok.com/@cloudfur_uep/video/7701793599133961502",
-          "product_id": "1732777280888475867",
-          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
-          "view_count": 278,
-          "like_count": 1,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 7,
-          "title": "\"Finally, something that actually works\u2014no more sciatic leg pain, I can drive longer!\" Relieves pres",
-          "handle": "everlasting_comfort",
-          "video_url": "https://tiktok.com/@everlasting_comfort/video/7702486977135774989",
-          "product_id": "1732604651629416667",
-          "product_name": "Everlasting Comfort Memory Foam Car Seat Cushion with Seat Padding - Washable Cover, Back & Sciatica Relief, Automotive Car Interior Accessory for Driving",
-          "view_count": 355,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [
-            {
-              "hook": "If your husband drives a truck all day and lives with sciatica watch this.",
-              "score": 9,
-              "explanation": "Directly calls out a specific target audience with a painful problem, creating immediate curiosity and relevance."
-            },
-            {
-              "hook": "Finally something that actually works.",
-              "score": 7,
-              "explanation": "Uses a strong declaration of effectiveness after setting up a problem, driving interest in the solution."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "The U shaped cut out takes pressure off the sciatic nerve.",
-              "score": 9,
-              "explanation": "Explains the specific ergonomic mechanism by which the product relieves pain."
-            },
-            {
-              "selling_point": "Also it never goes flat.",
-              "score": 8,
-              "explanation": "Highlights product durability and ongoing support quality, addressing a common pain point with cushions."
-            },
-            {
-              "selling_point": "No more sciatic leg pain I can drive longer.",
-              "score": 8,
-              "explanation": "Demonstrates the direct real-world benefit and outcome experienced by the user."
-            }
-          ],
-          "content_overview": "A woman introduces a memory foam seat cushion designed for truck drivers suffering from sciatica, demonstrates how it fits and works inside a truck, and shows her husband praising its pain-relief benefits after driving.",
-          "on_screen_text": "@everlasting_comfort if your husband drives a truck all day and lives with sciatica watch this i got him this seat cushion for his sciatica looks so good and fits perfect non slip base stays put the u shaped cut out takes pressure off the sciatic nerve also it never goes flat finally something that actually works no more sciatic leg pain i can drive longer thanks honey best daily gift for any truck driver check it out start sitting better with everlasting comfort order now!",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 22,
-          "tone": "casual",
-          "target_audience": "Truck drivers, people with back or sciatic pain from prolonged sitting, and spouses looking for practical gifts for drivers."
-        },
-        {
-          "rank": 8,
-          "title": "Sun, rain, or mountain winds\u2014never let bad weather slow down your adventure! \u2614\u26a1 Compact, durable, an",
-          "handle": "repel_umbrella",
-          "video_url": "https://tiktok.com/@repel_umbrella/video/7702489479474351374",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 112,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 9,
-          "title": "Head keeps drifting on long flights? \u2708\ufe0f\u26a1 This isn't your ordinary travel pillow\u2014get full front + sid",
-          "handle": "upperechelonproducts_",
-          "video_url": "https://tiktok.com/@upperechelonproducts_/video/7702491130679545102",
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Pillow for Travel Rest Needs",
-          "view_count": 66,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 10,
-          "title": "Repel 9-Rib Fiberglass Automatic Folding Umbrella #viral #fyp #dealsforyoudays #tiktokshopcreatorpic",
-          "handle": "glambyben",
-          "video_url": "https://tiktok.com/@glambyben/video/7703583387109428510",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 298,
-          "like_count": 2,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [
-            {
-              "hook": "If you are looking for an affordable umbrella, go and grab this one.",
-              "score": 8,
-              "explanation": "Directly addresses a viewer's need for an affordable product with a clear call to action right at the start."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "It looks like we are in spring. Very beautiful umbrella.",
-              "score": 7,
-              "explanation": "Highlights the aesthetic appeal and stylish design of the umbrella."
-            },
-            {
-              "selling_point": "You can use this to go drop or pick up your kid from school because it is very big.",
-              "score": 8,
-              "explanation": "Demonstrates practical utility and size by showing it can cover both an adult and a child."
-            },
-            {
-              "selling_point": "I love the fact that it is very portable. Once you're done, you can just fold it and pin it up like this.",
-              "score": 8,
-              "explanation": "Emphasizes ease of use, compact folding, and portability for everyday carry."
-            }
-          ],
-          "content_overview": "A woman stands in a kitchen and reviews an affordable, large, and portable umbrella, demonstrating how it opens, its large coverage size, and how easily it folds back up for storage.",
-          "on_screen_text": "@glambyben",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 53,
-          "tone": "casual",
-          "target_audience": "Parents, students, and everyday shoppers looking for a practical, portable, and large umbrella for rainy weather."
-        },
-        {
-          "rank": 11,
-          "title": "Welcome to the UEP Office Tour! \ud83c\udfe2\u26a1 Where Repel umbrellas, CloudFur throws, and ergonomic essentials ",
-          "handle": "upperechelonproducts_",
-          "video_url": "https://tiktok.com/@upperechelonproducts_/video/7703662112974949645",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 569,
-          "like_count": 2,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 12,
-          "title": "Sound on: Repel Umbrella ASMR! \ud83d\udd0a\u26a1 Instant auto-open deployment and storm-ready strength in every sna",
-          "handle": "repel_umbrella",
-          "video_url": "https://tiktok.com/@repel_umbrella/video/7703665547581443341",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 387,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 13,
-          "title": "Repel Umbrella: Quick Walk approved! \ud83d\udeb6\u200d\u2642\ufe0f\u26a1 Instant auto-collapse right at the door and storm-proof c",
-          "handle": "repel_umbrella",
-          "video_url": "https://tiktok.com/@repel_umbrella/video/7703666039904537870",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 114,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 14,
-          "title": "\"Enjoy the rain from the dry side \u2602\ufe0f\" Crystal-clear visibility, instant auto-collapse, and complete ",
-          "handle": "repel_umbrella",
-          "video_url": "https://tiktok.com/@repel_umbrella/video/7703666604860607757",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 181,
-          "like_count": 1,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 15,
-          "title": "\"Most Selling Umbrella \ud83c\udf0e\"! Unbeatable storm-proof strength meets bright sunny style. Find out why ev",
-          "handle": "repel_umbrella",
-          "video_url": "https://tiktok.com/@repel_umbrella/video/7703667087872412942",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 437,
-          "like_count": 1,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
@@ -920,11 +827,11 @@
           "target_audience": null
         }
       ],
-      "total_found": 125,
+      "total_found": 185,
       "has_more": true
     },
     "month": {
-      "range": "2026-10-17 to 2026-11-15",
+      "range": "2026-10-24 to 2026-11-22",
       "videos": [
         {
           "rank": 1,
@@ -966,11 +873,11 @@
           "video_url": "https://tiktok.com/@alexvlogs87/video/7706700322516765965",
           "product_id": "1730129060140454107",
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
-          "view_count": 151,
+          "view_count": 214,
           "like_count": 7,
           "gmv": 49.99,
           "units_sold": 1,
-          "gmv_per_view": 0.3311,
+          "gmv_per_view": 0.2336,
           "hooks": [
             {
               "hook": "Amigos mira lo que me acaba de llegar del TikTok Shop",
@@ -1004,16 +911,102 @@
         },
         {
           "rank": 3,
+          "title": "Mucho m\u00e1s c\u00f3modo. #cojindeasiento #tiktokshopcybermonday #tiktokshopblackfriday #discoveryourgift #dolordeespalda",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7710318985358658847",
+          "product_id": "1729394250782118107",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+          "view_count": 289,
+          "like_count": 2,
+          "gmv": 36.09,
+          "units_sold": 1,
+          "gmv_per_view": 0.1249,
+          "hooks": [
+            {
+              "hook": "Si en ninguna silla te puedes acomodar, esta es porque ocupas un coj\u00edn de asiento.",
+              "score": 8,
+              "explanation": "Addresses a common physical discomfort right away and offers a direct solution."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Esta parte va a ayudar a reducir esa presi\u00f3n que sientes al momento de sentarte en tu coxis",
+              "score": 9,
+              "explanation": "Highlights the ergonomic design feature that directly relieves tailbone pressure."
+            },
+            {
+              "selling_point": "Si se llega a ensuciar, se lo puedes quitar y lo puedes lavar",
+              "score": 8,
+              "explanation": "Emphasizes ease of cleaning with a removable, washable cover."
+            },
+            {
+              "selling_point": "Cuando sientes el coj\u00edn de asiento, no se te va a estar resbalando de un lado para otro",
+              "score": 8,
+              "explanation": "Mentions the anti-slip bottom feature for stability."
+            }
+          ],
+          "content_overview": "A person demonstrates a memory foam seat cushion with a cutout, explaining its benefits for tailbone and back pain, showing its removable cover and non-slip backing, and recommending it for any chair.",
+          "on_screen_text": "dolor en la coxis o la espalda al momento de estar sentada mucho tiempo?",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 34,
+          "tone": "educational",
+          "target_audience": "People who experience back or tailbone pain from sitting for long periods at work or home."
+        },
+        {
+          "rank": 4,
+          "title": "Una opci\u00f3n pr\u00e1ctica para tu hogar y espacios al aire libre. Esta puerta de malla magn\u00e9tica mide 38x8",
+          "handle": "laurapaniagua59",
+          "video_url": "https://tiktok.com/@laurapaniagua59/video/7708367072929058079",
+          "product_id": "1729391862339113179",
+          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
+          "view_count": 309,
+          "like_count": 3,
+          "gmv": 31.66,
+          "units_sold": 2,
+          "gmv_per_view": 0.1025,
+          "hooks": [
+            {
+              "hook": "Mira esta mosquitera magn\u00e9tica de puerta.",
+              "score": 8,
+              "explanation": "Directly introduces the product and its type immediately, grabbing the viewer's attention."
+            },
+            {
+              "hook": "Si quieres aire fresco en casa con la puerta abierta, esta mosquitera es para ti.",
+              "score": 8,
+              "explanation": "Addresses a relatable viewer desire (fresh air) right away."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Magnetic closure from top to bottom",
+              "score": 8,
+              "explanation": "Highlights the full-length magnetic seam feature for effective closure."
+            },
+            {
+              "selling_point": "Allows fresh air into the house with the door open",
+              "score": 8,
+              "explanation": "Emphasizes the practical lifestyle benefit of keeping doors open while maintaining a barrier."
+            }
+          ],
+          "content_overview": "A person presents the Flux Phenom Magnetic Screen Door, showcasing its box and packaging in a retail setting before demonstrating it installed on a doorway. The narrator explains its features like top-to-bottom magnetic closure and invites viewers to purchase it.",
+          "on_screen_text": "",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 14,
+          "tone": "casual",
+          "target_audience": "Homeowners or renters looking for a screen door solution to let fresh air in while keeping bugs out."
+        },
+        {
+          "rank": 5,
           "title": "Fiberglass folding umbrella @UPPER ECHELON PRODUCTS #umbrella #rain #tiktokshopcreatorpicks #TiktokS",
           "handle": "retired_and_reselling",
           "video_url": "https://tiktok.com/@retired_and_reselling/video/7706340461375474975",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 2684,
+          "view_count": 2687,
           "like_count": 5,
           "gmv": 26.99,
           "units_sold": 1,
-          "gmv_per_view": 0.0101,
+          "gmv_per_view": 0.01,
           "hooks": [
             {
               "hook": "This is the easy open and close fiberglass umbrella.",
@@ -1046,50 +1039,28 @@
           "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use travel umbrella for commuting or outdoor use."
         },
         {
-          "rank": 4,
-          "title": "I love thisssssss\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d #fyp #magneticscreendoor #musthaves #tiktokshopblackfriday #shopnow ",
-          "handle": "qui_qui95",
-          "video_url": "https://tiktok.com/@qui_qui95/video/7698917185778994463",
-          "product_id": "1729391862339113179",
-          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-          "view_count": 744,
-          "like_count": 2,
-          "gmv": 23.79,
+          "rank": 6,
+          "title": "An easy way to upgrade the chair you already have \ud83d\ude4c Memory foam, a tailbone cutout, and a non-slip bottom for those long days sitting at a desk. @UPPER ECHELON PRODUCTS  #seatcushion  #TikTokShopBlackFriday #TikTokShopCyberMonday #DiscoverYourGift #comfor",
+          "handle": "courtney_gonzales19",
+          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7709915619193277710",
+          "product_id": "1729394250782118107",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+          "view_count": 1335,
+          "like_count": 6,
+          "gmv": 21.65,
           "units_sold": 1,
-          "gmv_per_view": 0.032,
-          "hooks": [
-            {
-              "hook": "Friend, if you want one of these net thingies, It's worth it",
-              "score": 7,
-              "explanation": "The speaker immediately addresses the viewer with a friendly recommendation about the product's value."
-            },
-            {
-              "hook": "Y 'all, I love it.",
-              "score": 6,
-              "explanation": "Expresses strong personal satisfaction with the product early in the review."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Keeps bugs out effectively",
-              "score": 8,
-              "explanation": "Highlights the primary functional benefit of replacing an old screen door with this net."
-            },
-            {
-              "selling_point": "Hands-free automatic self-closing magnetism",
-              "score": 9,
-              "explanation": "Explains how the magnetic feature automatically closes the door behind people."
-            }
-          ],
-          "content_overview": "A creator shares their positive experience using a magnetic screen door after removing their old raggedy screen door. They demonstrate how it keeps bugs out, automatically closes using magnets, and mention that staples can be used for extra security though they aren't strictly necessary. The video ends with a call to action to click the link below.",
-          "on_screen_text": "Magnetic Screen Door VEVOR",
+          "gmv_per_view": 0.0162,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": "A person is shown holding and demonstrating a black memory foam seat cushion with a U-shaped cutout, designed for office chairs or other seating.",
+          "on_screen_text": "If you sit for HOURS every day, watch this.",
           "product_visible_3s": true,
-          "product_screen_time_seconds": 43,
+          "product_screen_time_seconds": 13,
           "tone": "casual",
-          "target_audience": "Homeowners or renters looking for an easy, budget-friendly screen door replacement to keep bugs out of their homes."
+          "target_audience": "Office workers, remote employees, and individuals who sit for long hours and look for ergonomic seating comfort."
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "\"Still taking the walk. Take the scenic route!\" \ud83c\udf32\u2614\u26a1 Built for coastal winds, forest paths, and mount",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7706596826043911437",
@@ -1110,55 +1081,17 @@
           "target_audience": "Outdoor enthusiasts, travelers, and commuters looking for reliable umbrellas for all weather conditions."
         },
         {
-          "rank": 6,
-          "title": "Dile adi\u00f3s a los paraguas que se doblan. \u2614\ufe0f lmaterial \u00fanico y resistente #paraguas #windproofumbrell",
-          "handle": "erikal0728",
-          "video_url": "https://tiktok.com/@erikal0728/video/7697867914514369805",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 429,
-          "like_count": 35,
-          "gmv": 19.99,
-          "units_sold": 1,
-          "gmv_per_view": 0.0466,
-          "hooks": [
-            {
-              "hook": "Este paraguas est\u00e1 dise\u00f1ado para soportar condiciones de viento intenso y ha sido probado con vientos de hasta 100 millas por hora",
-              "score": 9,
-              "explanation": "The hook immediately highlights extreme durability and wind resistance backed by a specific metric."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Probado con vientos de hasta 100 millas por hora",
-              "score": 10,
-              "explanation": "Provides concrete proof of the umbrella's exceptional windproof capability."
-            },
-            {
-              "selling_point": "Disponible en diferentes colores y dise\u00f1os",
-              "score": 7,
-              "explanation": "Offers aesthetic variety ranging from neutral classics to colorful options."
-            }
-          ],
-          "content_overview": "A person demonstrates the Repel umbrella by opening and closing it outdoors near a potted plant. The video highlights its durability against strong winds up to 100 mph and showcases the variety of available colors and designs.",
-          "on_screen_text": "Paraguas resistente \n@erikal0728\nMaterial \u00fanico y resistente\nDise\u00f1ado para resistir vientos intensos",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 38,
-          "tone": "casual",
-          "target_audience": "Shoppers and travelers looking for a durable, wind-resistant, and portable umbrella for rainy and windy weather."
-        },
-        {
-          "rank": 7,
+          "rank": 8,
           "title": "Disfruta del aire fresco en tu casa sin preocuparte por los insectos que entren. \ud83e\ude9f Esta puerta panta",
           "handle": "josedv43",
           "video_url": "https://tiktok.com/@josedv43/video/7705522571839687949",
           "product_id": "1729391862339113179",
           "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-          "view_count": 1680,
-          "like_count": 3,
+          "view_count": 2099,
+          "like_count": 4,
           "gmv": 17.81,
           "units_sold": 1,
-          "gmv_per_view": 0.0106,
+          "gmv_per_view": 0.0085,
           "hooks": [
             {
               "hook": "Esto es justo lo de mi puerta, una mosquitera que me tiene loco.",
@@ -1186,55 +1119,17 @@
           "target_audience": "Homeowners and renters looking for an easy, drill-free way to keep insects out through patio or entry doors."
         },
         {
-          "rank": 8,
-          "title": "#fyp ",
-          "handle": "donawow3",
-          "video_url": "https://tiktok.com/@donawow3/video/7697431189937835295",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 6792,
-          "like_count": 241,
-          "gmv": 16.99,
-          "units_sold": 1,
-          "gmv_per_view": 0.0025,
-          "hooks": [
-            {
-              "hook": "Si andas buscando mira, una sombrilla port\u00e1til que la puedas cargar en el carro...",
-              "score": 8,
-              "explanation": "Directly addresses a common everyday problem and introduces a practical solution right away."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Esta resiste los vientos, de los vientos pesados esta te la resiste.",
-              "score": 9,
-              "explanation": "Highlights durability against heavy winds, making it stand out from standard umbrellas."
-            },
-            {
-              "selling_point": "Una sombrilla port\u00e1til que la puedas cargar en el carro, en tu bolsa, en tu mochila...",
-              "score": 8,
-              "explanation": "Emphasizes portability and convenience for daily travel and on-the-go storage."
-            }
-          ],
-          "content_overview": "A woman enthusiastically showcases a portable, wind-resistant purple umbrella. She demonstrates how to unwrap it from its pouch, highlights its sturdy construction against heavy winds, and shows its automatic opening button.",
-          "on_screen_text": "@donawow3",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 93,
-          "tone": "playful",
-          "target_audience": "Shoppers and commuters looking for a compact, durable, and wind-resistant umbrella for daily travel."
-        },
-        {
           "rank": 9,
           "title": "The umbrella that finally ends rainy-day dread. \u2602\ufe0f One click \u2014 open, covered, dry. #bfcm #Christmasg",
           "handle": "worldsgreatestchad",
           "video_url": "https://tiktok.com/@worldsgreatestchad/video/7706571682072382733",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 1489,
+          "view_count": 1505,
           "like_count": 0,
           "gmv": 15.95,
           "units_sold": 1,
-          "gmv_per_view": 0.0107,
+          "gmv_per_view": 0.0106,
           "hooks": [
             {
               "hook": "Have you heard the best selling umbrella over on Prime just made its way over to TikTok?",
@@ -1273,34 +1168,34 @@
         },
         {
           "rank": 10,
-          "title": "Rainy days are so much easier with an umbrella that opens and folds with a click! \u2614\ufe0f\ud83e\udd0d The Repel 22-R",
-          "handle": "casacon.katherine",
-          "video_url": "https://tiktok.com/@casacon.katherine/video/7698427121911319821",
+          "title": "POV: Rain wasn't about to cancel your plans \ud83c\udf27\ufe0f\u2728 Never let a sudden downpour ruin your schedule, outf",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7698474962226597133",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 531,
-          "like_count": 15,
-          "gmv": 11.28,
-          "units_sold": 1,
-          "gmv_per_view": 0.0212,
+          "view_count": 3,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
           "hooks": [],
           "selling_points": [],
-          "content_overview": "A faceless demonstration video shows a compact black travel umbrella being unrolled, opened, and closed automatically with the push of a button. The video highlights the umbrella's convenient one-click mechanism and compact size for travel.",
-          "on_screen_text": "Opens and closes with one click\n@casacon.katherine",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 13,
-          "tone": "casual",
-          "target_audience": "Commuters, travelers, and shoppers looking for a compact, convenient umbrella."
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
         },
         {
           "rank": 11,
-          "title": "#umbrella #rainyday #windyday #tiktokshopfalldealsforyou #tiktokshopcreatorpicks @UPPER ECHELON PROD",
-          "handle": "b.fox508",
-          "video_url": "https://tiktok.com/@b.fox508/video/7696708033161825549",
+          "title": "Buy nice, not twice! \ud83d\udca8\u2614 We put the Repel Umbrella to the ultimate high-altitude rooftop wind test, a",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7698476518468504846",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 38,
-          "like_count": 4,
+          "view_count": 7,
+          "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
@@ -1315,13 +1210,13 @@
         },
         {
           "rank": 12,
-          "title": "#umbrella #rainyseason #automaticumbrella #tiktokshopfalldealsforyou #windproofumbrella @UPPER ECHEL",
-          "handle": "b.fox508",
-          "video_url": "https://tiktok.com/@b.fox508/video/7696711589130538254",
+          "title": "",
+          "handle": "repel_umbrella",
+          "video_url": "https://tiktok.com/@repel_umbrella/video/7698477257630698765",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 84,
-          "like_count": 4,
+          "view_count": 9,
+          "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
@@ -1336,13 +1231,13 @@
         },
         {
           "rank": 13,
-          "title": "#addtocart #umbrella #raingear #windproofumbrella #tiktokshopfalldealsforyou @UPPER ECHELON PRODUCTS",
-          "handle": "b.fox508",
-          "video_url": "https://tiktok.com/@b.fox508/video/7696715676387380494",
+          "title": "",
+          "handle": "upperechelonproducts_",
+          "video_url": "https://tiktok.com/@upperechelonproducts_/video/7698780584906181901",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 67,
-          "like_count": 3,
+          "view_count": 40,
+          "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
@@ -1357,13 +1252,13 @@
         },
         {
           "rank": 14,
-          "title": "#raingear #umbrella #automaticumbrella #tiktokshopfalldealsforyou #rainyseason @UPPER ECHELON PRODUC",
-          "handle": "b.fox508",
-          "video_url": "https://tiktok.com/@b.fox508/video/7696723691261955341",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 64,
-          "like_count": 1,
+          "title": "Ladies, if your husband drives a truck all day and his back is killing him, watch this! \ud83d\ude9a\ud83d\udca5 Long hour",
+          "handle": "upperechelonproducts_",
+          "video_url": "https://tiktok.com/@upperechelonproducts_/video/7698782048344886541",
+          "product_id": "1732604651629416667",
+          "product_name": "Everlasting Comfort Memory Foam Car Seat Cushion with Seat Padding - Washable Cover, Back & Sciatica Relief, Automotive Car Interior Accessory for Driving",
+          "view_count": 17,
+          "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
@@ -1378,31 +1273,48 @@
         },
         {
           "rank": 15,
-          "title": "#addtocart #umbrella #rainyseason #windyday #tiktokshopfalldealsforyou @UPPER ECHELON PRODUCTS @Repe",
-          "handle": "b.fox508",
-          "video_url": "https://tiktok.com/@b.fox508/video/7696726973757836557",
-          "product_id": "1732530504119718107",
-          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 67,
-          "like_count": 2,
+          "title": "From \"This sucks!\" to \"Oh wow, that's perfect!\" \ud83d\udecb\ufe0f\u2728 We put people through a blind sitting test on ha",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7698788917914488078",
+          "product_id": "1732530411400171739",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
+          "view_count": 304,
+          "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
           "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
+          "hooks": [
+            {
+              "hook": "We work for Everlasting Comfort, one of the top seat cushion brands on Amazon.",
+              "score": 8,
+              "explanation": "Establishes immediate brand authority and credibility by citing top status on a major retailer."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "This is our Elevate series, which is a thicker model made with like clinical-grade memory foam.",
+              "score": 9,
+              "explanation": "Highlights superior product quality and clinical-grade materials for enhanced comfort and support."
+            },
+            {
+              "selling_point": "So if you have back pain, sciatica, that's what they're there for.",
+              "score": 9,
+              "explanation": "Directly targets specific pain relief benefits for consumers suffering from back and nerve issues."
+            }
+          ],
+          "content_overview": "Two representatives from Everlasting Comfort present their car seat and Elevate series memory foam cushions at an outdoor booth, explaining their features for back pain and sciatica while inviting people to test them.",
+          "on_screen_text": "Sitting in a cloud, I'm Kurt, she is Leslie, everlasting comfort, Top seat cushion brands on Amazon, CAR SEAT, ELEVATE, IF YOU HAVE: BACK PAIN, SCIATICA, THAT'S WHAT THEY'RE THERE FOR, NO CUSHION",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 20,
+          "tone": "casual",
+          "target_audience": "People suffering from back pain, sciatica, or prolonged sitting discomfort looking for ergonomic seat cushions."
         }
       ],
-      "total_found": 445,
+      "total_found": 357,
       "has_more": true
     },
     "60d": {
-      "range": "2026-09-17 to 2026-11-15",
+      "range": "2026-09-24 to 2026-11-22",
       "videos": [
         {
           "rank": 1,
@@ -1411,11 +1323,11 @@
           "video_url": "https://tiktok.com/@mrhotpicks/video/7694099956629507359",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 7921,
-          "like_count": 22,
+          "view_count": 8304,
+          "like_count": 24,
           "gmv": 292.26,
           "units_sold": 14,
-          "gmv_per_view": 0.0369,
+          "gmv_per_view": 0.0352,
           "hooks": [
             {
               "hook": "You ever wonder why your kids hate bringing umbrellas to school even though it's raining?",
@@ -1459,11 +1371,11 @@
           "video_url": "https://tiktok.com/@boldvideos7/video/7697010109947350302",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 36850,
-          "like_count": 437,
+          "view_count": 39572,
+          "like_count": 458,
           "gmv": 263.16,
           "units_sold": 14,
-          "gmv_per_view": 0.0071,
+          "gmv_per_view": 0.0067,
           "hooks": [],
           "selling_points": [],
           "content_overview": "A short video demonstrating the opening and closing mechanism of a pink, wind-resistant umbrella against an outdoor urban backdrop.",
@@ -1475,98 +1387,12 @@
         },
         {
           "rank": 3,
-          "title": "",
-          "handle": "bellahana20",
-          "video_url": "https://tiktok.com/@bellahana20/video/7687300190646078733",
-          "product_id": "1730105130585657563",
-          "product_name": "Everlasting Comfort 2.5L Top Fill Cooling Mist Humidifier - Low Noise Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20hr Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy-Saving, High-Low Settings, Cleaning Kit Included, Humidifier for Bedroom",
-          "view_count": 7176,
-          "like_count": 52,
-          "gmv": 241.08,
-          "units_sold": 7,
-          "gmv_per_view": 0.0336,
-          "hooks": [
-            {
-              "hook": "\u1264\u1273\u127d\u1201 \u12a8\u1270\u12ad\u1276\u1265\u129d \u12c8\u12ed\u121d \u12a8\u121a\u1291\u121a\u1291\u121a\u1291\u121b \u1275\u1320\u1240\u1219 \u12a8\u1206\u1290 \u1208\u12a5\u122d\u1231 \u1290\u1308\u122d \u1290\u12cd \u12e8\u121a\u1228\u12f3\u127d\u1201 \u1264\u1273\u127d\u1201 \u12a8\u12f0\u1228\u1240 \u12a5\u122d\u1325\u1260\u1275\u1295 \u1208\u1218\u134d\u1320\u122d",
-              "score": 8,
-              "explanation": "Directly addresses a common home issue (dry air) and offers a practical solution right away."
-            },
-            {
-              "hook": "\u12a5\u1294 \u12a8\u12a0\u1218\u1275 \u1260\u120b\u12ed \u1290\u12cd \u12e8\u1270\u1320\u1240\u121d\u12a9\u1260\u1275 \u12a5\u1235\u12ab\u1201\u1295 \u12a5\u12e8\u1270\u1320\u1240\u121d\u12a9\u1260\u1275 \u12eb\u1208\u1201\u1275 \u1355\u122e\u12f3\u12ad\u1275 \u1290\u12cd",
-              "score": 7,
-              "explanation": "Establishes long-term product reliability and personal experience to build trust."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "\u1260\u12db \u12eb\u1208 \u12cd\u1203 \u1235\u1208\u121a\u12dd \u1260\u1235\u121d\u1295\u1275 \u1230\u12a0\u1273\u1275 \u12ed\u1246\u12ed\u120b\u127d\u128b\u120d",
-              "score": 8,
-              "explanation": "Highlights long run time and capacity for convenience."
-            },
-            {
-              "selling_point": "\u12a5\u1231\u1295 \u12a0\u12f0\u1228\u12a9\u1260\u1275 \u1208\u123d\u1273 \u1235\u1208\u1218\u1348\u120d\u1308\u12cd \u1260\u1243 \u1264\u1274\u1295 \u12a5\u12cd\u12f5 \u1290\u12cd \u12e8\u121a\u12eb\u12f0\u122d\u1308\u12cd",
-              "score": 9,
-              "explanation": "Emphasizes the aromatic benefits using essential oils to make the home smell wonderful."
-            }
-          ],
-          "content_overview": "The creator demonstrates a top-fill cool mist humidifier on a coffee table in a neatly decorated living room. She explains how to fill it with water and essential oils, showcases the vapor output and LED lighting, and shares her positive long-term experience using the product.",
-          "on_screen_text": "@bellahana20 Aroma Oil HOTEL FRAGRANCE OILS",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 46,
-          "tone": "casual",
-          "target_audience": "Homeowners and apartment dwellers looking to improve indoor air moisture and add pleasant fragrances to their living space."
-        },
-        {
-          "rank": 4,
-          "title": "@AFM Agency #traveltok #travelessentials #neckpillow #travelpillow #airportessentials ",
-          "handle": "christianjohnson2022",
-          "video_url": "https://tiktok.com/@christianjohnson2022/video/7686565002299346206",
-          "product_id": "1732604928188453083",
-          "product_name": "Everlasting Comfort Travel Neck Pillow - Neck Support Pillow for Travel Rest Needs",
-          "view_count": 5845,
-          "like_count": 40,
-          "gmv": 174.47,
-          "units_sold": 4,
-          "gmv_per_view": 0.0298,
-          "hooks": [
-            {
-              "hook": "They said throw away those donut neck pillows because this brand new drop is way better.",
-              "score": 8,
-              "explanation": "This hook immediately creates curiosity and challenges a familiar product category, compelling viewers to watch to see what makes the new drop superior."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "Unlike the original neck pillow, this one can be worn five different ways.",
-              "score": 9,
-              "explanation": "Highlights versatility, addressing a common pain point with standard travel pillows."
-            },
-            {
-              "selling_point": "It has a washable cover.",
-              "score": 8,
-              "explanation": "Emphasizes hygiene and easy maintenance, which is a key purchase driver for travel items."
-            },
-            {
-              "selling_point": "It has a velcro strap so you can secure it in place and it also makes it easy to carry it.",
-              "score": 8,
-              "explanation": "Shows practical functionality for securing the pillow during travel and convenient transport."
-            }
-          ],
-          "content_overview": "A creator demonstrates a versatile travel neck pillow that can be worn in five different ways and secured with a velcro strap. She shows how to use it in various seating positions, on a tray table, and attaches it to a backpack while traveling. The video concludes with a recommendation and a link for viewers planning a trip.",
-          "on_screen_text": "@christianjohnson2022",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 32,
-          "tone": "casual",
-          "target_audience": "Frequent travelers, plane passengers, and shoppers looking for comfortable travel accessories."
-        },
-        {
-          "rank": 5,
           "title": "Best umbrella out there! #umbrella #heavydutyumbrella #rainyday #winter #repelumbrella ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7691377663906254110",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 17329,
+          "view_count": 17372,
           "like_count": 45,
           "gmv": 172.14,
           "units_sold": 16,
@@ -1608,13 +1434,13 @@
           "target_audience": "Shoppers and commuters looking for a durable, compact umbrella for stormy weather."
         },
         {
-          "rank": 6,
+          "rank": 4,
           "title": "#automaticumbrella #umbrella #windproofumbrella #umbrellas #tiktokshopcreatorpicks   ",
           "handle": "tapa_mondo",
           "video_url": "https://tiktok.com/@tapa_mondo/video/7694153031432015117",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 6538,
+          "view_count": 6548,
           "like_count": 67,
           "gmv": 153.57,
           "units_sold": 11,
@@ -1651,17 +1477,17 @@
           "target_audience": "Adults looking for a durable, high-performance umbrella that can withstand strong winds."
         },
         {
-          "rank": 7,
+          "rank": 5,
           "title": "#ad Sombrilla multifuncional..#sombr\u00eda#umbrella #casa#home @UPPER ECHELON PRODUCTS ",
           "handle": "marielos_granados",
           "video_url": "https://tiktok.com/@marielos_granados/video/7693700292164046093",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 1918,
+          "view_count": 1930,
           "like_count": 9,
           "gmv": 85.45,
           "units_sold": 6,
-          "gmv_per_view": 0.0446,
+          "gmv_per_view": 0.0443,
           "hooks": [
             {
               "hook": "Esta es la \u00fanica sombrilla que se abre y se cierra completamente sola.",
@@ -1694,13 +1520,13 @@
           "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use umbrella for rainy days."
         },
         {
-          "rank": 8,
+          "rank": 6,
           "title": "#umbrella #tiktokshopfalldealsforyou #rainyday #rain #shopwithconfidence ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7692131608479943967",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 6427,
+          "view_count": 6429,
           "like_count": 35,
           "gmv": 74.83,
           "units_sold": 6,
@@ -1737,13 +1563,13 @@
           "target_audience": "Commuters, drivers, and everyday shoppers looking for a durable, wind-resistant, and easy-to-use umbrella for rainy days."
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "S\u00faper buena calidad \ud83d\udcaf\ud83e\udd0c\ud83c\udffb",
           "handle": "its.massielll",
           "video_url": "https://tiktok.com/@its.massielll/video/7693018427660733710",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 4595,
+          "view_count": 4597,
           "like_count": 49,
           "gmv": 68.61,
           "units_sold": 7,
@@ -1780,13 +1606,13 @@
           "target_audience": "Students, parents, and everyday shoppers looking for a compact, portable, and easy-to-use umbrella."
         },
         {
-          "rank": 10,
+          "rank": 8,
           "title": "#tiktokshopfalldealsforyou #pink #umbrella #rainyday #rain",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7694356427460070686",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 11446,
+          "view_count": 11460,
           "like_count": 90,
           "gmv": 64.05,
           "units_sold": 6,
@@ -1801,7 +1627,7 @@
           "target_audience": "People looking for stylish yet durable rain gear, particularly those who prefer pink or cute accessories."
         },
         {
-          "rank": 11,
+          "rank": 9,
           "title": "Magnetic Screen Door - Fiberglass, 38x82 inch, 52 Full-Length Magnets, 1mm Mesh, Automatic Self-Clos",
           "handle": "mroliva4",
           "video_url": "https://tiktok.com/@mroliva4/video/7690982471801916702",
@@ -1844,13 +1670,13 @@
           "target_audience": "Homeowners, pet owners, and renters looking for an easy, no-drill pest screen solution for patios and balconies."
         },
         {
-          "rank": 12,
+          "rank": 10,
           "title": "I found the best Umbrella ever ! \u2602\ufe0f #umbrella #heavydutyumbrella #rain #rainyday #repelumbrella ",
           "handle": "tinkaagiovanni_",
           "video_url": "https://tiktok.com/@tinkaagiovanni_/video/7693324466977279245",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 3561,
+          "view_count": 3574,
           "like_count": 79,
           "gmv": 53.56,
           "units_sold": 4,
@@ -1877,7 +1703,7 @@
           "target_audience": "Shoppers and everyday commuters looking for convenient rain gear solutions."
         },
         {
-          "rank": 13,
+          "rank": 11,
           "title": "#falldealsforyou #tiktokmademebuyit #bidettoilet #blackfriday ",
           "handle": "maritzaportilloal",
           "video_url": "https://tiktok.com/@maritzaportilloal/video/7700602830247202062",
@@ -1910,17 +1736,17 @@
           "target_audience": "Homeowners or shoppers interested in bathroom upgrades, bidet attachments, and personal hygiene products."
         },
         {
-          "rank": 14,
+          "rank": 12,
           "title": "Boot Dryer Set #bootdryer #bootdryerwithheat ",
           "handle": "alexvlogs87",
           "video_url": "https://tiktok.com/@alexvlogs87/video/7706700322516765965",
           "product_id": "1730129060140454107",
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
-          "view_count": 151,
+          "view_count": 214,
           "like_count": 7,
           "gmv": 49.99,
           "units_sold": 1,
-          "gmv_per_view": 0.3311,
+          "gmv_per_view": 0.2336,
           "hooks": [
             {
               "hook": "Amigos mira lo que me acaba de llegar del TikTok Shop",
@@ -1953,17 +1779,17 @@
           "target_audience": "People living in cold or wet climates who need a practical way to dry their work boots or shoes during winter."
         },
         {
-          "rank": 15,
+          "rank": 13,
           "title": "Lifetime warranty, windproof umbrella \u2602\ufe0f. #tiktokshop #umbrella #repelumbrella #newyork ",
           "handle": "sasashoo",
           "video_url": "https://tiktok.com/@sasashoo/video/7690360928306777374",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 700,
+          "view_count": 701,
           "like_count": 3,
           "gmv": 49.27,
           "units_sold": 2,
-          "gmv_per_view": 0.0704,
+          "gmv_per_view": 0.0703,
           "hooks": [
             {
               "hook": "Today I decided to try the Repel umbrella which is actually super small and nice.",
@@ -1999,59 +1825,92 @@
           "product_screen_time_seconds": 30,
           "tone": "casual",
           "target_audience": "Shoppers looking for a reliable, compact, and windproof travel umbrella for everyday use or bad weather."
-        }
-      ],
-      "total_found": 1122,
-      "has_more": true
-    },
-    "90d": {
-      "range": "2026-08-18 to 2026-11-15",
-      "videos": [
+        },
         {
-          "rank": 1,
-          "title": "@UPPER ECHELON PRODUCTS bidet is the easiest way to upgrade your bathroom\u203c\ufe0f#tiktockshopbacktoschool ",
-          "handle": "theevergreeneditco",
-          "video_url": "https://tiktok.com/@theevergreeneditco/video/7677230038281964830",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 4977,
-          "like_count": 12,
-          "gmv": 355.45,
-          "units_sold": 14,
-          "gmv_per_view": 0.0714,
+          "rank": 14,
+          "title": "I think I know which Asian umbrella is better #repelumbrella #umbrella #automaticumbrella #tiktoksho",
+          "handle": "worldsgreatestchad",
+          "video_url": "https://tiktok.com/@worldsgreatestchad/video/7694302109830827277",
+          "product_id": "1732530504119718107",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
+          "view_count": 3274,
+          "like_count": 9,
+          "gmv": 47.98,
+          "units_sold": 3,
+          "gmv_per_view": 0.0147,
           "hooks": [
             {
-              "hook": "This is my top selling product on TikTok Shop right now, and there is a reason why.",
+              "hook": "Chinese umbrella or Japanese umbrella, which one is better?",
               "score": 9,
-              "explanation": "Instantly captures attention by framing the product as a top seller and creating curiosity about why it is popular."
-            },
-            {
-              "hook": "This is an easy to install bidet.",
-              "score": 8,
-              "explanation": "Clearly addresses a primary customer desire for hassle-free installation."
+              "explanation": "Presents an immediate comparison and curiosity gap between two competing products, drawing the viewer in to see which wins."
             }
           ],
           "selling_points": [
             {
-              "selling_point": "This has a self-cleaning bidet nozzle.",
-              "score": 8,
-              "explanation": "Highlights a hygienic feature that appeals to hygiene-conscious buyers."
+              "selling_point": "Nine resin reinforced fiberglass ribs and wind tunnel tested to over 100 mph",
+              "score": 10,
+              "explanation": "Provides strong proof of durability and high wind resistance compared to standard umbrellas."
             },
             {
-              "selling_point": "It also comes with a standard wash and feminine wash control, adjustable water pressure, an install kit with the hardware, easy to follow directions, and it also has a two year warranty.",
+              "selling_point": "Air pockets to tune the lower and upper canopy",
               "score": 9,
-              "explanation": "Provides a comprehensive overview of features and value included in the box."
+              "explanation": "Explains the engineering design that prevents the umbrella from flipping inside out in strong winds."
+            },
+            {
+              "selling_point": "UV protected and one button opens the same button closes",
+              "score": 8,
+              "explanation": "Highlights everyday convenience features like sun protection and one-touch automatic opening and closing."
             }
           ],
-          "content_overview": "The creator presents their top-selling TikTok Shop product, which is a bidet attachment. They showcase the bidet unit, the box, and the installation kit while explaining its key features, ease of installation, and warranty.",
-          "on_screen_text": "Easy bathroom upgrade",
+          "content_overview": "A presenter compares a flimsy Chinese umbrella with a high-end Japanese umbrella, testing and highlighting the superior durability, wind tunnel testing up to 100 mph, UV protection, and one-touch open/close mechanism of the Japanese umbrella.",
+          "on_screen_text": "Asian Umbrella Battle \ud83c\udde8\ud83c\uddf3 Vs \ud83c\uddef\ud83c\uddf5 @worldsgreatestchad 43mph wind speed 74mph wind speed 78mph wind speed 100mph wind tunnel laboratory",
           "product_visible_3s": true,
-          "product_screen_time_seconds": 33,
-          "tone": "casual",
-          "target_audience": "TikTok shoppers looking for easy home and bathroom upgrades."
+          "product_screen_time_seconds": 31,
+          "tone": "humorous",
+          "target_audience": "Shoppers looking for durable rain gear, travelers, and consumers interested in product comparison reviews."
         },
         {
-          "rank": 2,
+          "rank": 15,
+          "title": "#tiktokshopstockup #tiktokshopcreatorpick ",
+          "handle": "mileidys_mily",
+          "video_url": "https://tiktok.com/@mileidys_mily/video/7692589468401847565",
+          "product_id": "1732530504119718107",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
+          "view_count": 4394,
+          "like_count": 109,
+          "gmv": 40.98,
+          "units_sold": 2,
+          "gmv_per_view": 0.0093,
+          "hooks": [
+            {
+              "hook": "Para que no haya problemas ni ni confusiones, orden\u00e9 tres sombrillas",
+              "score": 8,
+              "explanation": "The creator opens with a relatable everyday problem of losing or sharing umbrellas, immediately capturing the viewer's attention by ordering three at once."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Miren qu\u00e9 buena est\u00e1",
+              "score": 7,
+              "explanation": "Demonstrates the product's quality and durability when opening it up live on camera."
+            }
+          ],
+          "content_overview": "A woman unboxes a package containing multiple umbrellas, explaining that she bought three because her daughter and mother always take or misplace hers. She then opens one up to show its quality and size.",
+          "on_screen_text": "@mileidys_mily",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 25,
+          "tone": "casual",
+          "target_audience": "Everyday shoppers, parents, and adults looking for reliable umbrellas for family members and their cars."
+        }
+      ],
+      "total_found": 1157,
+      "has_more": true
+    },
+    "90d": {
+      "range": "2026-08-25 to 2026-11-22",
+      "videos": [
+        {
+          "rank": 1,
           "title": "Por eso los chinos est\u00e1n 20 anos adelantados\u2026 #bidettoilet #bidet #upperechelonproducts #uep #wiping",
           "handle": "viralshopdealz",
           "video_url": "https://tiktok.com/@viralshopdealz/video/7678725393917971742",
@@ -2078,65 +1937,17 @@
           "target_audience": "Adults looking to improve their bathroom hygiene and toilet paper usage habits."
         },
         {
-          "rank": 3,
-          "title": "It\u2019s crazy how this isn\u2019t a standard! #TiktokShopCreatorPicks #christmas #tiktokshopbacktoschool #bi",
-          "handle": "muscle_dad",
-          "video_url": "https://tiktok.com/@muscle_dad/video/7677238294895152398",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 4256,
-          "like_count": 5,
-          "gmv": 314.93,
-          "units_sold": 7,
-          "gmv_per_view": 0.074,
-          "hooks": [
-            {
-              "hook": "For everyone who is waiting, they finally released the two pack for less than the price of one.",
-              "score": 9,
-              "explanation": "Immediately grabs attention by offering a high-value deal on a popular product."
-            },
-            {
-              "hook": "Stop thinking about getting a bidet. You're getting this risk free, they're doing free returns within 30 days.",
-              "score": 8,
-              "explanation": "Addresses purchase hesitation directly by highlighting a risk-free return policy."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "It's got the dual spraying action, which is going to allow you to clean up the rear. It's also going to allow the ladies to clean up those lady parts.",
-              "score": 9,
-              "explanation": "Highlights key hygiene features with separate nozzles for versatile cleaning."
-            },
-            {
-              "selling_point": "One of the most affordable easy upgrades you can grab right now.",
-              "score": 8,
-              "explanation": "Emphasizes cost-effectiveness and simple installation as a major home upgrade."
-            },
-            {
-              "selling_point": "You're getting this risk free, they're doing free returns within 30 days.",
-              "score": 8,
-              "explanation": "Provides a strong incentive to buy by minimizing financial risk through easy returns."
-            }
-          ],
-          "content_overview": "A creator demonstrates and promotes a bidet attachment installed on a toilet, highlighting its dual-nozzle features, self-cleaning function, affordability, and a special two-pack sale with free returns.",
-          "on_screen_text": "Easy bidet install.. TikTok @muscle_dad ClearRear The Bidet",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 39,
-          "tone": "casual",
-          "target_audience": "Homeowners and renters looking for affordable bathroom upgrades and improved personal hygiene solutions."
-        },
-        {
-          "rank": 4,
+          "rank": 2,
           "title": "Your kids will actually want this umbrella #umbrella #automaticumbrella #windproofumbrella #rainysea",
           "handle": "mrhotpicks",
           "video_url": "https://tiktok.com/@mrhotpicks/video/7694099956629507359",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 7921,
-          "like_count": 22,
+          "view_count": 8304,
+          "like_count": 24,
           "gmv": 292.26,
           "units_sold": 14,
-          "gmv_per_view": 0.0369,
+          "gmv_per_view": 0.0352,
           "hooks": [
             {
               "hook": "You ever wonder why your kids hate bringing umbrellas to school even though it's raining?",
@@ -2174,17 +1985,17 @@
           "target_audience": "Parents, caregivers, and people looking for durable, high-quality umbrellas for children or everyday use."
         },
         {
-          "rank": 5,
+          "rank": 3,
           "title": "perfect umbrella for the season and even better it\u2019s pink \ud83c\udf80\ud83e\udd0d #tiktokshopfalldealsforyou #automaticum",
           "handle": "boldvideos7",
           "video_url": "https://tiktok.com/@boldvideos7/video/7697010109947350302",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 36850,
-          "like_count": 437,
+          "view_count": 39572,
+          "like_count": 458,
           "gmv": 263.16,
           "units_sold": 14,
-          "gmv_per_view": 0.0071,
+          "gmv_per_view": 0.0067,
           "hooks": [],
           "selling_points": [],
           "content_overview": "A short video demonstrating the opening and closing mechanism of a pink, wind-resistant umbrella against an outdoor urban backdrop.",
@@ -2195,7 +2006,7 @@
           "target_audience": "Shoppers and individuals looking for durable, compact, and stylish umbrellas for everyday use."
         },
         {
-          "rank": 6,
+          "rank": 4,
           "title": "",
           "handle": "bellahana20",
           "video_url": "https://tiktok.com/@bellahana20/video/7687300190646078733",
@@ -2238,7 +2049,7 @@
           "target_audience": "Homeowners and apartment dwellers looking to improve indoor air moisture and add pleasant fragrances to their living space."
         },
         {
-          "rank": 7,
+          "rank": 5,
           "title": "#magneticdoorscreen #doorscreen #screendoor #fyp ",
           "handle": "icu185",
           "video_url": "https://tiktok.com/@icu185/video/7683016023418653983",
@@ -2281,7 +2092,7 @@
           "target_audience": "Homeowners, renters, parents, and pet owners looking for an easy-to-install insect screen for their doors."
         },
         {
-          "rank": 8,
+          "rank": 6,
           "title": "",
           "handle": "1373bel",
           "video_url": "https://tiktok.com/@1373bel/video/7683330512680766733",
@@ -2319,7 +2130,7 @@
           "target_audience": "Home cooks, homemakers, and individuals looking to eliminate cooking smells and improve indoor air quality."
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "Ahora si las moscas no dejar\u00e1n a mi casa #atrapamoscas #moscas #cortina #tiktokshop ",
           "handle": "keniaher.77",
           "video_url": "https://tiktok.com/@keniaher.77/video/7685451539456068877",
@@ -2357,7 +2168,7 @@
           "target_audience": "Homeowners or renters looking for an easy-to-install insect screen for their doors."
         },
         {
-          "rank": 10,
+          "rank": 8,
           "title": "@AFM Agency #traveltok #travelessentials #neckpillow #travelpillow #airportessentials ",
           "handle": "christianjohnson2022",
           "video_url": "https://tiktok.com/@christianjohnson2022/video/7686565002299346206",
@@ -2400,13 +2211,13 @@
           "target_audience": "Frequent travelers, plane passengers, and shoppers looking for comfortable travel accessories."
         },
         {
-          "rank": 11,
+          "rank": 9,
           "title": "Best umbrella out there! #umbrella #heavydutyumbrella #rainyday #winter #repelumbrella ",
           "handle": "sylviaapproved",
           "video_url": "https://tiktok.com/@sylviaapproved/video/7691377663906254110",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 17329,
+          "view_count": 17372,
           "like_count": 45,
           "gmv": 172.14,
           "units_sold": 16,
@@ -2448,13 +2259,13 @@
           "target_audience": "Shoppers and commuters looking for a durable, compact umbrella for stormy weather."
         },
         {
-          "rank": 12,
+          "rank": 10,
           "title": "#automaticumbrella #umbrella #windproofumbrella #umbrellas #tiktokshopcreatorpicks   ",
           "handle": "tapa_mondo",
           "video_url": "https://tiktok.com/@tapa_mondo/video/7694153031432015117",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 6538,
+          "view_count": 6548,
           "like_count": 67,
           "gmv": 153.57,
           "units_sold": 11,
@@ -2491,7 +2302,7 @@
           "target_audience": "Adults looking for a durable, high-performance umbrella that can withstand strong winds."
         },
         {
-          "rank": 13,
+          "rank": 11,
           "title": "#onthisday ",
           "handle": "boni_kiyya",
           "video_url": "https://tiktok.com/@boni_kiyya/video/7681020510536289550",
@@ -2534,83 +2345,179 @@
           "target_audience": "Homeowners, parents, and individuals looking for home fragrance and air humidification solutions."
         },
         {
-          "rank": 14,
-          "title": "@UPPER ECHELON PRODUCTS I used to think bidets were only for fancy hotels, but now my bathroom is th",
-          "handle": "lazyko83",
-          "video_url": "https://tiktok.com/@lazyko83/video/7677296937711832351",
-          "product_id": "1729385884864975067",
-          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 5528,
-          "like_count": 55,
-          "gmv": 122.31,
-          "units_sold": 4,
-          "gmv_per_view": 0.0221,
+          "rank": 12,
+          "title": "Este humidificador se volvi\u00f3 mi favorito para estos d\u00edas \ud83e\udd27\ud83d\udc97 #humidifier #humidificador #congestionre",
+          "handle": "macneggga",
+          "video_url": "https://tiktok.com/@macneggga/video/7683413553163914526",
+          "product_id": "1730105130585657563",
+          "product_name": "Everlasting Comfort 2.5L Top Fill Cooling Mist Humidifier - Low Noise Ultrasonic, Easy to Fill & Clean, Auto Shut-Off, 20hr Run Time, Corrosion-Resistant, 24V Plug-In, 24W Energy-Saving, High-Low Settings, Cleaning Kit Included, Humidifier for Bedroom",
+          "view_count": 2383,
+          "like_count": 9,
+          "gmv": 115.97,
+          "units_sold": 3,
+          "gmv_per_view": 0.0487,
           "hooks": [
             {
-              "hook": "Holy shit, y'all. Look how powerful that thing is. Feeling bougie as hell.",
+              "hook": "Cuando perla ten\u00eda cinco meses, este humidificador me ayudaba en aquellas noches largas",
               "score": 8,
-              "explanation": "Strong enthusiastic reaction that grabs attention and highlights the upgrade."
+              "explanation": "The hook immediately establishes a personal, relatable problem (sick baby) and a proven solution from personal experience."
             },
             {
-              "hook": "Hey guys, let's install this bidet together.",
+              "hook": "Y ahora que ella amaneci\u00f3 congestionada, record\u00e9 que lo ten\u00eda",
               "score": 7,
-              "explanation": "Direct invitation to the viewer to follow along with a DIY project."
+              "explanation": "Creates immediate relevance for parents dealing with sudden congestion in their children."
             }
           ],
           "selling_points": [
             {
-              "selling_point": "So this is all there is to it, so should be pretty easy to put together.",
+              "selling_point": "Este humidificador me ayudaba en aquellas noches largas",
               "score": 8,
-              "explanation": "Emphasizes ease of installation with minimal parts."
+              "explanation": "Highlights the product's effectiveness in providing comfort and relief during difficult nights."
+            },
+            {
+              "selling_point": "Haremos sentir la m\u00e1s c\u00f3moda y as\u00ed pueda descansar mejor",
+              "score": 9,
+              "explanation": "Focuses on the ultimate benefit for parents: comforting the sick child so they can sleep better."
             }
           ],
-          "content_overview": "A creator enthusiastically introduces a new bidet attachment, showing its powerful spray before walking the viewer step-by-step through the simple installation process, including turning off the water, removing the toilet seat, and installing the bidet plate.",
-          "on_screen_text": "Officially entering my rich, bougie, clean-booty era \u2728, Let's install this together \ud83d\ude4c, Just a few parts!, Don't forget to turn the water off & flush to empty the bowl., Take the toilet seat off, Put this piece on & line up the holes., Put the toilet seat back using the existing hardware.",
+          "content_overview": "A parent shares their personal experience using a humidifier during cold and flu season to help their congested toddler sleep comfortably. The video shows the humidifier operating with different colored lights in a child's room while the narrator explains how it helps during sick days. The content aims to recommend the product to other parents facing similar seasonal challenges.",
+          "on_screen_text": "Un esencial cuando llega la temporada de gripe. Si tienes peques, esto te puede interesar.",
           "product_visible_3s": true,
-          "product_screen_time_seconds": 15,
-          "tone": "playful",
-          "target_audience": "Homeowners or renters looking for an easy, affordable bathroom upgrade to improve personal hygiene."
+          "product_screen_time_seconds": 13,
+          "tone": "emotional",
+          "target_audience": "Parents and caregivers of young children and toddlers looking for remedies during flu and cold season."
+        },
+        {
+          "rank": 13,
+          "title": "Flux Phenom Magnetic Screen Door 38 x 82 in, Magnetic Mesh Screen Door, Automatic Self-Closing Bug S",
+          "handle": "yolilucas123tiktokshop",
+          "video_url": "https://tiktok.com/@yolilucas123tiktokshop/video/7677806839886646542",
+          "product_id": "1729391862339113179",
+          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
+          "view_count": 5793,
+          "like_count": 16,
+          "gmv": 100.82,
+          "units_sold": 6,
+          "gmv_per_view": 0.0174,
+          "hooks": [
+            {
+              "hook": "Hasta de 12 se est\u00e1n llevando la mallita que se coloca en la puerta",
+              "score": 8,
+              "explanation": "Creates social proof and urgency by stating high demand."
+            },
+            {
+              "hook": "Para que las moscas ni zancudos entran para tu casa",
+              "score": 8,
+              "explanation": "Addresses a universal pest problem directly."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Aqu\u00ed ya te trae todo lo necesario para que t\u00fa nada m\u00e1s lo instales en la puerta de tu casa",
+              "score": 9,
+              "explanation": "Highlights ease of installation and completeness of the kit."
+            },
+            {
+              "selling_point": "Aqu\u00ed abajito las encuentras con un precio bien econ\u00f3mico",
+              "score": 8,
+              "explanation": "Emphasizes affordability and availability on the platform."
+            }
+          ],
+          "content_overview": "A woman holding a magnetic screen door and its installation kit explains its benefits for keeping bugs out of the house. She highlights the ease of installation, affordable price, and encourages viewers to order one.",
+          "on_screen_text": "yoliilucas123tiktokshop, Buscar similares, UPGRADED FIBERGLASS MAGNETIC SCREEN DOOR 38\"X82\" INSTALLATION WITH POWERFUL MAGNETS",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 22,
+          "tone": "casual",
+          "target_audience": "Homeowners and renters looking for an affordable, easy-to-install solution to keep bugs and mosquitoes out of their homes."
+        },
+        {
+          "rank": 14,
+          "title": "#clearrearbidetattachment #bidettoilet #bidets ",
+          "handle": "crisp720",
+          "video_url": "https://tiktok.com/@crisp720/video/7681112989516221710",
+          "product_id": "1729385884864975067",
+          "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
+          "view_count": 14744,
+          "like_count": 31,
+          "gmv": 95.52,
+          "units_sold": 3,
+          "gmv_per_view": 0.0065,
+          "hooks": [
+            {
+              "hook": "Pues el precio de este bidet trasero ha bajado de nuevo.",
+              "score": 8,
+              "explanation": "Grabs attention immediately by highlighting a price drop on a popular product."
+            },
+            {
+              "hook": "No puedo creer que el precio se haya bajado de nuevo.",
+              "score": 7,
+              "explanation": "Creates curiosity and excitement about an unbelievable discount."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Es un bidet no el\u00e9ctrico que se instala en unos 15 minutos y se adapta a la mayor\u00eda de los inodoros.",
+              "score": 9,
+              "explanation": "Highlights ease of installation, compatibility, and lack of electrical requirements."
+            },
+            {
+              "selling_point": "El precio de este bidet trasero ha bajado de nuevo.",
+              "score": 8,
+              "explanation": "Emphasizes affordability and great value for money due to a price drop."
+            }
+          ],
+          "content_overview": "The video demonstrates a bidet attachment installed on a toilet while a voiceover discusses its discounted price, easy installation, and compatibility with most toilets. It concludes with a call to action to click the link to purchase.",
+          "on_screen_text": "@crisp720",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 16,
+          "tone": "casual",
+          "target_audience": "Homeowners or renters looking for an affordable, easy-to-install bathroom upgrade."
         },
         {
           "rank": 15,
-          "title": "More than a summer screen! Works like a dog door, snaps shut automatically, lets fresh air in while ",
-          "handle": "courtney_gonzales19",
-          "video_url": "https://tiktok.com/@courtney_gonzales19/video/7676555459486141727",
-          "product_id": "1729391862339113179",
-          "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-          "view_count": 3907,
-          "like_count": 13,
-          "gmv": 116.93,
+          "title": "#ad Sombrilla multifuncional..#sombr\u00eda#umbrella #casa#home @UPPER ECHELON PRODUCTS ",
+          "handle": "marielos_granados",
+          "video_url": "https://tiktok.com/@marielos_granados/video/7693700292164046093",
+          "product_id": "1732530504119718107",
+          "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
+          "view_count": 1930,
+          "like_count": 9,
+          "gmv": 85.45,
           "units_sold": 6,
-          "gmv_per_view": 0.0299,
+          "gmv_per_view": 0.0443,
           "hooks": [
             {
-              "hook": "A magnetic screen door is not just a summer purchase and something you will use only in the summer.",
-              "score": 8,
-              "explanation": "Challenges common assumptions about seasonal product use, capturing viewer interest immediately."
+              "hook": "Esta es la \u00fanica sombrilla que se abre y se cierra completamente sola.",
+              "score": 9,
+              "explanation": "Makes a strong, unique product claim that instantly captures curiosity."
             }
           ],
           "selling_points": [
             {
-              "selling_point": "Holds together seamlessly by fifty-two magnets.",
+              "selling_point": "Solamente presionando el bot\u00f3n en frente la vas a abrir y la vas a cerrar sola",
               "score": 9,
-              "explanation": "Highlights product durability and strong magnetic sealing performance."
+              "explanation": "Highlights the convenience of automatic opening and closing mechanism."
             },
             {
-              "selling_point": "Also weighted at the bottom so you don't have to worry about it opening randomly",
+              "selling_point": "De la parte de adentro es s\u00faper resistente, a diferencia de otras estas varillas no se doblan",
               "score": 8,
-              "explanation": "Emphasizes stability and wind resistance features."
+              "explanation": "Emphasizes durability and wind resistance compared to standard umbrellas."
+            },
+            {
+              "selling_point": "Son peque\u00f1as, as\u00ed que las puedes andar hasta en tu cartera.",
+              "score": 8,
+              "explanation": "Focuses on portability and compact size for everyday carry."
             }
           ],
-          "content_overview": "A creator demonstrates a magnetic screen door, highlighting that it is useful beyond the summer months. She showcases how the 52 magnets seal the door automatically and points out the weighted bottom to prevent random opening. The video serves as a practical demonstration of the product's features and utility.",
-          "on_screen_text": "PSA: A MAGNETIC SCREEN DOOR ISN'T JUST A SUMMER THING @courtney_gonzales19",
+          "content_overview": "A creator demonstrates a compact, automatic umbrella, showing how it opens and closes with the push of a single button. She highlights its sturdy interior ribs designed to withstand heavy wind and explains that it is small enough to fit inside a purse.",
+          "on_screen_text": "@marielos_granados",
           "product_visible_3s": true,
-          "product_screen_time_seconds": 27,
+          "product_screen_time_seconds": 26,
           "tone": "casual",
-          "target_audience": "Homeowners and renters looking for practical bug screens and home improvement solutions for doors."
+          "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use umbrella for rainy days."
         }
       ],
-      "total_found": 1542,
+      "total_found": 1512,
       "has_more": true
     }
   }
