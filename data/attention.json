@@ -1,59 +1,59 @@
 {
- "updated_at": "2026-11-22T07:21:41+00:00",
- "items": [
-  {
-   "metric": "Affiliate GMV (week)",
-   "current": 511.83,
-   "prior": 1518.49,
-   "pct": -66.3,
-   "direction": "down",
-   "effect": "Affiliate share of GMV fell from 77.8% to 29.8%, so paid ads now carry roughly 78% of the shop's revenue.",
-   "action": "Restart outbound creator outreach this week and refill the sample pipeline before scaling ad spend further."
-  },
-  {
-   "metric": "Video views (week)",
-   "current": 124846.0,
-   "prior": 223503.0,
-   "pct": -44.1,
-   "direction": "down",
-   "effect": "Views per video fell from 2,980 to 1,189 even though videos posted rose 40%, which points to creative fatigue rather than a posting shortfall.",
-   "action": "Cut the bottom half of posting creators and brief the top 10 on the hooks already proven in creative_brief.json."
-  },
-  {
-   "metric": "Creators posting (week)",
-   "current": 28.0,
-   "prior": 40.0,
-   "pct": -30.0,
-   "direction": "down",
-   "effect": "Twelve fewer creators posted while total videos rose, so output is concentrated in fewer accounts and one dropout now moves GMV.",
-   "action": "Re-activate the 12 creators active last week but silent this week with a direct DM and an expiring sample offer."
-  },
-  {
-   "metric": "Replies (week, 3 week run)",
-   "current": 5.0,
-   "prior": 7.0,
-   "pct": -28.6,
-   "direction": "down",
-   "effect": "Replies have fallen 14 to 7 to 5 across three weeks, which starves the sample request flow that feeds next month's posts.",
-   "action": "Hold DMs at 15 per operating day and review openers against the 14.71% baseline reply rate weekly."
-  },
-  {
-   "metric": "BFCM Seat Cushion GMV Max ROAS (target 1.7)",
-   "current": 0.762,
-   "prior": 1.7,
-   "pct": -55.2,
-   "direction": "down",
-   "effect": "The campaign spent 234.37 dollars for 4 orders at a cost per order of 58.59 against a 25.01 shop AOV, so each order loses money before COGS.",
-   "action": "Pause the Seat Cushion campaign until new creative lands and move its budget to the 2.218 ROAS screen door campaign."
-  },
-  {
-   "metric": "Samples awaiting review",
-   "current": 58.0,
-   "prior": 55.0,
-   "pct": 5.5,
-   "direction": "up",
-   "effect": "The review queue grew for a second day while 200 of 300 requests are already expired, so approval speed is the binding constraint.",
-   "action": "Clear the To Review queue top to bottom today and report the remaining count at the 17:00 review."
-  }
- ]
+  "updated_at": "2026-11-23T07:20:00+00:00",
+  "items": [
+    {
+      "metric": "Views per video (week)",
+      "current": 1383,
+      "prior": 2980,
+      "pct": -53.6,
+      "direction": "down",
+      "effect": "Reach per video halved while videos posted rose 53.3%, so the drop is creative and account mix, not output.",
+      "action": "Cut posting to the top 40 creators by GMV and brief them on the seat cushion hooks already scoring 8 to 9 in creative_brief.json."
+    },
+    {
+      "metric": "Affiliate GMV (week)",
+      "current": 1131.93,
+      "prior": 1518.49,
+      "pct": -25.5,
+      "direction": "down",
+      "effect": "Affiliate share of GMV fell from 77.8% to 58.9%, leaving paid ads to carry 75.6% of shop revenue.",
+      "action": "Restart outbound creator outreach at 15 DMs per operating day and refill the sample pipeline before adding ad budget."
+    },
+    {
+      "metric": "Creators posting (week)",
+      "current": 31,
+      "prior": 40,
+      "pct": -22.5,
+      "direction": "down",
+      "effect": "More videos came from nine fewer accounts, so one creator dropping out now moves total GMV.",
+      "action": "Re-activate the nine creators silent this week with a direct DM and an expiring sample offer."
+    },
+    {
+      "metric": "Replies (week, three week run 14 to 7 to 5)",
+      "current": 5,
+      "prior": 7,
+      "pct": -28.6,
+      "direction": "down",
+      "effect": "Reply rate fell to 13.51% from 22.58%, which starves the sample flow that feeds creator posts in three to four weeks.",
+      "action": "Raise DM volume from 37 per week to 15 per operating day and review openers against the 22.58% baseline weekly."
+    },
+    {
+      "metric": "BFCM Seat Cushion GMV Max ROAS (target 1.7)",
+      "current": 0.781,
+      "prior": 1.7,
+      "pct": -54.1,
+      "direction": "down",
+      "effect": "The campaign spent 274.95 dollars for 5 orders at 54.99 per order against a 22.86 AOV, so each order loses money before COGS.",
+      "action": "Pause the Seat Cushion and Elevate Seat Cushion campaigns and move 296.54 dollars of weekly spend to the 2.061 ROAS Screendoor campaign."
+    },
+    {
+      "metric": "Sample requests awaiting review",
+      "current": 56,
+      "prior": 58,
+      "pct": -3.4,
+      "direction": "down",
+      "effect": "56 requests sit unreviewed, 201 of 300 have expired and zero shipped this week, so December creator supply is thin.",
+      "action": "Clear the To Review queue top to bottom today and hold approval turnaround under 48 hours."
+    }
+  ]
 }
