@@ -1,14 +1,14 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-11-23"
+    "pulled_on": "2026-11-24"
   },
   "periods": {
     "week": {
       "range": "2026-11-16 to 2026-11-22",
       "totals": {
         "revenue": 1452.63,
-        "spend": 954.15,
+        "spend": 954.28,
         "orders": 62,
         "roi": 1.522
       },
@@ -17,11 +17,11 @@
           "name": "BFCM Repel GMV Max Campaign",
           "campaign_id": "1881446278604817",
           "revenue": 627.9,
-          "spend": 361.59,
+          "spend": 361.66,
           "roi": 1.736,
           "orders": 29,
           "cost_per_order": 12.47,
-          "roas_target": 2.2,
+          "roas_target": 1.8,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -33,11 +33,11 @@
           "name": "BFCM Screendoor GMV Max ",
           "campaign_id": "1881445487256609",
           "revenue": 610.08,
-          "spend": 296.02,
+          "spend": 296.08,
           "roi": 2.061,
           "orders": 28,
           "cost_per_order": 10.57,
-          "roas_target": 3.1,
+          "roas_target": 2.1,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -705,7 +705,7 @@
       "range": "2026-11-09 to 2026-11-22",
       "totals": {
         "revenue": 2807.15,
-        "spend": 1608.83,
+        "spend": 1608.96,
         "orders": 121,
         "roi": 1.745
       },
@@ -714,11 +714,11 @@
           "name": "BFCM Screendoor GMV Max ",
           "campaign_id": "1881445487256609",
           "revenue": 1585.17,
-          "spend": 701.16,
+          "spend": 701.22,
           "roi": 2.261,
           "orders": 70,
           "cost_per_order": 10.02,
-          "roas_target": 3.1,
+          "roas_target": 2.1,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -730,11 +730,11 @@
           "name": "BFCM Repel GMV Max Campaign",
           "campaign_id": "1881446278604817",
           "revenue": 1007.33,
-          "spend": 586.76,
+          "spend": 586.83,
           "roi": 1.717,
           "orders": 46,
           "cost_per_order": 12.76,
-          "roas_target": 2.2,
+          "roas_target": 1.8,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -1402,7 +1402,7 @@
       "range": "2026-10-24 to 2026-11-22",
       "totals": {
         "revenue": 2807.15,
-        "spend": 1608.83,
+        "spend": 1608.96,
         "orders": 121,
         "roi": 1.745
       },
@@ -1411,11 +1411,11 @@
           "name": "BFCM Screendoor GMV Max ",
           "campaign_id": "1881445487256609",
           "revenue": 1585.17,
-          "spend": 701.16,
+          "spend": 701.22,
           "roi": 2.261,
           "orders": 70,
           "cost_per_order": 10.02,
-          "roas_target": 3.1,
+          "roas_target": 2.1,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -1427,11 +1427,11 @@
           "name": "BFCM Repel GMV Max Campaign",
           "campaign_id": "1881446278604817",
           "revenue": 1007.33,
-          "spend": 586.76,
+          "spend": 586.83,
           "roi": 1.717,
           "orders": 46,
           "cost_per_order": 12.76,
-          "roas_target": 2.2,
+          "roas_target": 1.8,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -2099,7 +2099,7 @@
       "range": "2026-09-24 to 2026-11-22",
       "totals": {
         "revenue": 22028.89,
-        "spend": 14689.56,
+        "spend": 14689.69,
         "orders": 840,
         "roi": 1.5
       },
@@ -2156,11 +2156,11 @@
           "name": "BFCM Screendoor GMV Max ",
           "campaign_id": "1881445487256609",
           "revenue": 1585.17,
-          "spend": 701.16,
+          "spend": 701.22,
           "roi": 2.261,
           "orders": 70,
           "cost_per_order": 10.02,
-          "roas_target": 3.1,
+          "roas_target": 2.1,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -2172,11 +2172,11 @@
           "name": "BFCM Repel GMV Max Campaign",
           "campaign_id": "1881446278604817",
           "revenue": 1007.33,
-          "spend": 586.76,
+          "spend": 586.83,
           "roi": 1.717,
           "orders": 46,
           "cost_per_order": 12.76,
-          "roas_target": 2.2,
+          "roas_target": 1.8,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -2796,7 +2796,7 @@
       "range": "2026-08-25 to 2026-11-22",
       "totals": {
         "revenue": 52839.8,
-        "spend": 36447.38,
+        "spend": 36447.51,
         "orders": 1916,
         "roi": 1.45
       },
@@ -2895,11 +2895,11 @@
           "name": "BFCM Screendoor GMV Max ",
           "campaign_id": "1881445487256609",
           "revenue": 1585.17,
-          "spend": 701.16,
+          "spend": 701.22,
           "roi": 2.261,
           "orders": 70,
           "cost_per_order": 10.02,
-          "roas_target": 3.1,
+          "roas_target": 2.1,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -2911,11 +2911,11 @@
           "name": "BFCM Repel GMV Max Campaign",
           "campaign_id": "1881446278604817",
           "revenue": 1007.33,
-          "spend": 586.76,
+          "spend": 586.83,
           "roi": 1.717,
           "orders": 46,
           "cost_per_order": 12.76,
-          "roas_target": 2.2,
+          "roas_target": 1.8,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -3490,23 +3490,23 @@
       ]
     },
     "live7d": {
-      "range": "2026-11-17 to 2026-11-23",
+      "range": "2026-11-18 to 2026-11-24",
       "totals": {
-        "revenue": 1307.9,
-        "spend": 839.3,
-        "orders": 55,
-        "roi": 1.558
+        "revenue": 1343.39,
+        "spend": 834.24,
+        "orders": 57,
+        "roi": 1.61
       },
       "campaigns": [
         {
           "name": "BFCM Screendoor GMV Max ",
           "campaign_id": "1881445487256609",
-          "revenue": 548.91,
-          "spend": 256.09,
-          "roi": 2.143,
-          "orders": 25,
-          "cost_per_order": 10.24,
-          "roas_target": 3.1,
+          "revenue": 603.39,
+          "spend": 259.67,
+          "roi": 2.324,
+          "orders": 28,
+          "cost_per_order": 9.27,
+          "roas_target": 2.1,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -3517,12 +3517,12 @@
         {
           "name": "BFCM Repel GMV Max Campaign",
           "campaign_id": "1881446278604817",
-          "revenue": 544.34,
-          "spend": 321.43,
-          "roi": 1.693,
-          "orders": 25,
-          "cost_per_order": 12.86,
-          "roas_target": 2.2,
+          "revenue": 525.35,
+          "spend": 319.34,
+          "roi": 1.645,
+          "orders": 24,
+          "cost_per_order": 13.31,
+          "roas_target": 1.8,
           "status": "ENABLE",
           "start": "2026-11-10",
           "product_ids": [
@@ -3534,10 +3534,10 @@
           "name": "BFCM Seat Cushion GMV Max",
           "campaign_id": "1881572494944289",
           "revenue": 214.65,
-          "spend": 243.04,
-          "roi": 0.883,
+          "spend": 237.53,
+          "roi": 0.904,
           "orders": 5,
-          "cost_per_order": 48.61,
+          "cost_per_order": 47.51,
           "roas_target": 1.7,
           "status": "ENABLE",
           "start": "2026-11-11",
@@ -3550,7 +3550,7 @@
           "name": "BFCM Elevate Seat Cushion GMV Max",
           "campaign_id": "1881445716726193",
           "revenue": 0,
-          "spend": 18.74,
+          "spend": 17.7,
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,
