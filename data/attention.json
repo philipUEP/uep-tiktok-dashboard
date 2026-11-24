@@ -1,32 +1,14 @@
 {
-  "updated_at": "2026-11-23T07:20:00+00:00",
+  "updated_at": "2026-11-24T07:20:00+00:00",
   "items": [
     {
       "metric": "Views per video (week)",
-      "current": 1383,
+      "current": 1876,
       "prior": 2980,
-      "pct": -53.6,
+      "pct": -37.1,
       "direction": "down",
-      "effect": "Reach per video halved while videos posted rose 53.3%, so the drop is creative and account mix, not output.",
-      "action": "Cut posting to the top 40 creators by GMV and brief them on the seat cushion hooks already scoring 8 to 9 in creative_brief.json."
-    },
-    {
-      "metric": "Affiliate GMV (week)",
-      "current": 1131.93,
-      "prior": 1518.49,
-      "pct": -25.5,
-      "direction": "down",
-      "effect": "Affiliate share of GMV fell from 77.8% to 58.9%, leaving paid ads to carry 75.6% of shop revenue.",
-      "action": "Restart outbound creator outreach at 15 DMs per operating day and refill the sample pipeline before adding ad budget."
-    },
-    {
-      "metric": "Creators posting (week)",
-      "current": 31,
-      "prior": 40,
-      "pct": -22.5,
-      "direction": "down",
-      "effect": "More videos came from nine fewer accounts, so one creator dropping out now moves total GMV.",
-      "action": "Re-activate the nine creators silent this week with a direct DM and an expiring sample offer."
+      "effect": "Reach per video fell 37.1% while videos posted rose 58.7% to 119, so extra volume is not buying distribution.",
+      "action": "Shift posting to the top 40 creators by GMV and brief them on the seat cushion hooks already scoring 8 to 9 in creative_brief.json."
     },
     {
       "metric": "Replies (week, three week run 14 to 7 to 5)",
@@ -34,8 +16,26 @@
       "prior": 7,
       "pct": -28.6,
       "direction": "down",
-      "effect": "Reply rate fell to 13.51% from 22.58%, which starves the sample flow that feeds creator posts in three to four weeks.",
-      "action": "Raise DM volume from 37 per week to 15 per operating day and review openers against the 22.58% baseline weekly."
+      "effect": "Reply rate is 13.51%, which thins sample approvals and the creator posts that land three to four weeks later.",
+      "action": "Raise DM volume from 37 per week to 15 per operating day and review reply rate weekly."
+    },
+    {
+      "metric": "Creators posting (week)",
+      "current": 32,
+      "prior": 40,
+      "pct": -20.0,
+      "direction": "down",
+      "effect": "Affiliate GMV fell 18.7% to 1,234.90 and affiliate share dropped to 64.3% from 77.8%, leaving paid ads to carry 75.6% of GMV.",
+      "action": "Re-activate the eight creators silent this week with a direct DM and an expiring sample offer."
+    },
+    {
+      "metric": "LIVE GMV (week, 47 streams)",
+      "current": 0,
+      "prior": 0,
+      "pct": 0.0,
+      "direction": "down",
+      "effect": "47 streams drew 58,631 views and converted nothing, a third straight week at zero GMV.",
+      "action": "Give the live roster one bundle script with a checkout call every 10 minutes and move the airtime to affiliate outreach if LIVE GMV is still zero on 2026-11-30."
     },
     {
       "metric": "BFCM Seat Cushion GMV Max ROAS (target 1.7)",
@@ -43,17 +43,17 @@
       "prior": 1.7,
       "pct": -54.1,
       "direction": "down",
-      "effect": "The campaign spent 274.95 dollars for 5 orders at 54.99 per order against a 22.86 AOV, so each order loses money before COGS.",
-      "action": "Pause the Seat Cushion and Elevate Seat Cushion campaigns and move 296.54 dollars of weekly spend to the 2.061 ROAS Screendoor campaign."
+      "effect": "The campaign spent 274.95 dollars for 5 orders at 54.99 per order against a 22.86 AOV, so every order loses money before COGS.",
+      "action": "Pause Seat Cushion and Elevate Seat Cushion and move 296.54 dollars of weekly spend to the 2.061 ROAS Screendoor campaign."
     },
     {
       "metric": "Sample requests awaiting review",
-      "current": 56,
-      "prior": 58,
-      "pct": -3.4,
+      "current": 33,
+      "prior": 56,
+      "pct": -41.1,
       "direction": "down",
-      "effect": "56 requests sit unreviewed, 201 of 300 have expired and zero shipped this week, so December creator supply is thin.",
-      "action": "Clear the To Review queue top to bottom today and hold approval turnaround under 48 hours."
+      "effect": "205 of 300 requests have expired, only 1 of the week's 300 posted and rejection is 3 of 4 decided outcomes.",
+      "action": "Clear the 33 To Review today, hold approval turnaround under 48 hours and send one re-request wave to expired handles this week."
     }
   ]
 }
