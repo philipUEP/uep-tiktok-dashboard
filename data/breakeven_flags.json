@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-11-24T07:06:53Z",
+ "generated_on": "2026-11-25T07:11:29Z",
  "window": "2026-11-16 to 2026-11-22",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-11-24T07:06:46Z",
+ "assumptions_generated_on": "2026-11-25T07:11:19Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -64,17 +64,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146165979",
-     "name": "Slate Blue",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146755803",
      "name": "3-PACK Black",
      "units": 0,
      "price": 59.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146165979",
+     "name": "Slate Blue",
+     "units": 0,
+     "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -99,17 +99,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491455195",
-     "name": "Pastel pink",
-     "units": 4,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732530572481433819",
      "name": "Lavendar",
      "units": 0,
      "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491455195",
+     "name": "Pastel pink",
+     "units": 4,
+     "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -148,17 +148,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732530571945677019",
      "name": "Light Blue",
      "units": 0,
      "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 0,
+     "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -365,6 +365,80 @@
  ],
  "live_campaigns": [
   {
+   "campaign": "BFCM Screendoor GMV Max ",
+   "campaign_id": "1881445487256609",
+   "product": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
+   "matched": true,
+   "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
+   "product_ids": [
+    "1729391862339113179"
+   ],
+   "sku_coverage": {
+    "skus_total": 7,
+    "skus_mapped": 1,
+    "units_total": 29,
+    "units_covered": 0,
+    "pct_units_covered": 0.0
+   },
+   "unmapped_skus": [
+    {
+     "sku_id": "1732283771626623195",
+     "name": "Mesh Black,Default",
+     "units": 25,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732283771626688731",
+     "name": "Fiberglass Black,Default",
+     "units": 2,
+     "price": 27.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433482971",
+     "name": "Solid Thermal,Default",
+     "units": 0,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732384554433417435",
+     "name": "Quilted Thermal,Default",
+     "units": 1,
+     "price": 23.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881117403",
+     "name": "Mesh White,Default",
+     "units": 1,
+     "price": 27.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732357652881051867",
+     "name": "1732357652881051867",
+     "units": 0,
+     "price": null,
+     "why": "no cost row in the cost model"
+    }
+   ],
+   "spend": 268.78,
+   "revenue": 586.4,
+   "orders": 27,
+   "roi": 2.182,
+   "roas_target": 2.1,
+   "be_roas": 4.0,
+   "pause_below_roas": 3.2,
+   "margin_ad_pct": 26.8,
+   "cm3_after_ads": -111.62,
+   "status": "ENABLE",
+   "flag": "Pause",
+   "action": "It is live on a target of 2.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
+   "target_is_below_break_even": true
+  },
+  {
    "campaign": "BFCM Repel GMV Max Campaign",
    "campaign_id": "1881446278604817",
    "product": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
@@ -376,7 +450,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 25,
+    "units_total": 10,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -384,14 +458,14 @@
     {
      "sku_id": "1732530562875494619",
      "name": "Black",
-     "units": 13,
+     "units": 7,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146428123",
      "name": "Clear",
-     "units": 2,
+     "units": 1,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -405,20 +479,13 @@
     {
      "sku_id": "1732694432146886875",
      "name": "Starry Night",
-     "units": 2,
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732707650287079643",
      "name": "Navy Blue",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732694432146165979",
-     "name": "Slate Blue",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
@@ -431,16 +498,23 @@
      "why": "no cost row in the cost model"
     },
     {
+     "sku_id": "1732694432146165979",
+     "name": "Slate Blue",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
      "sku_id": "1732694432146362587",
      "name": "Yellow",
-     "units": 1,
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146231515",
      "name": "Black/Red",
-     "units": 3,
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -452,17 +526,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491455195",
-     "name": "Pastel pink",
-     "units": 3,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732530572481433819",
      "name": "Lavendar",
      "units": 0,
      "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732707643491455195",
+     "name": "Pastel pink",
+     "units": 1,
+     "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -501,17 +575,17 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146493659",
-     "name": "Blue Sky",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732530571945677019",
      "name": "Light Blue",
      "units": 0,
      "price": null,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146493659",
+     "name": "Blue Sky",
+     "units": 0,
+     "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
@@ -543,92 +617,18 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 319.34,
-   "revenue": 525.35,
-   "orders": 24,
-   "roi": 1.645,
+   "spend": 243.37,
+   "revenue": 220.29,
+   "orders": 10,
+   "roi": 0.905,
    "roas_target": 1.8,
    "be_roas": 2.2,
    "pause_below_roas": 1.9,
    "margin_ad_pct": 45.4,
-   "cm3_after_ads": -80.83,
+   "cm3_after_ads": -143.36,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 1.80x, which is below its 2.2x break-even, so it can hit target and still lose money. Raise the return target to at least 2.2x (break-even), or pause and move the budget to a campaign above break-even.",
-   "target_is_below_break_even": true
-  },
-  {
-   "campaign": "BFCM Screendoor GMV Max ",
-   "campaign_id": "1881445487256609",
-   "product": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-   "matched": true,
-   "be_basis": "SKU blend: average of 1 of 7 SKUs (none of them sold in this window)",
-   "product_ids": [
-    "1729391862339113179"
-   ],
-   "sku_coverage": {
-    "skus_total": 7,
-    "skus_mapped": 1,
-    "units_total": 31,
-    "units_covered": 0,
-    "pct_units_covered": 0.0
-   },
-   "unmapped_skus": [
-    {
-     "sku_id": "1732283771626623195",
-     "name": "Mesh Black,Default",
-     "units": 28,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732283771626688731",
-     "name": "Fiberglass Black,Default",
-     "units": 2,
-     "price": 27.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732384554433482971",
-     "name": "Solid Thermal,Default",
-     "units": 0,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732384554433417435",
-     "name": "Quilted Thermal,Default",
-     "units": 1,
-     "price": 23.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732357652881117403",
-     "name": "Mesh White,Default",
-     "units": 0,
-     "price": 27.99,
-     "why": "no cost row in the cost model"
-    },
-    {
-     "sku_id": "1732357652881051867",
-     "name": "1732357652881051867",
-     "units": 0,
-     "price": null,
-     "why": "no cost row in the cost model"
-    }
-   ],
-   "spend": 259.67,
-   "revenue": 603.39,
-   "orders": 28,
-   "roi": 2.324,
-   "roas_target": 2.1,
-   "be_roas": 4.0,
-   "pause_below_roas": 3.2,
-   "margin_ad_pct": 26.8,
-   "cm3_after_ads": -97.96,
-   "status": "ENABLE",
-   "flag": "Pause",
-   "action": "It is live on a target of 2.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   },
   {
@@ -698,22 +698,22 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 237.53,
+   "spend": 241.71,
    "revenue": 214.65,
    "orders": 5,
-   "roi": 0.904,
+   "roi": 0.888,
    "roas_target": 1.7,
    "be_roas": 2.5,
    "pause_below_roas": 2.1,
    "margin_ad_pct": 40.2,
-   "cm3_after_ads": -151.24,
+   "cm3_after_ads": -155.42,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 1.70x, which is below its 2.5x break-even, so it can hit target and still lose money. Raise the return target to at least 2.5x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-11-18 to 2026-11-24",
+ "live_window": "2026-11-19 to 2026-11-25",
  "products": [
   {
    "product": "Screen Door",
@@ -869,8 +869,8 @@
   "week_cm3_total": 35.57,
   "live_campaigns_judged": 3,
   "live_pause": 3,
-  "live_cm3_after_ads_total": -330.03,
-  "live_spend_total": 816.54
+  "live_cm3_after_ads_total": -410.4,
+  "live_spend_total": 753.86
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }

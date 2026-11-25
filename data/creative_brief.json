@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST API /affiliate/videos/list (AI analysis fields)",
-    "pulled_on": "2026-11-24",
+    "pulled_on": "2026-11-25",
     "sort": "gmv desc"
   },
   "periods": {
@@ -15,11 +15,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7710318985358658847",
           "product_id": "1729394250782118107",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
-          "view_count": 384,
-          "like_count": 2,
+          "view_count": 420,
+          "like_count": 3,
           "gmv": 36.09,
           "units_sold": 1,
-          "gmv_per_view": 0.094,
+          "gmv_per_view": 0.0859,
           "hooks": [
             {
               "hook": "Si en ninguna silla te puedes acomodar, esta es porque ocupas un coj\u00edn de asiento.",
@@ -53,16 +53,64 @@
         },
         {
           "rank": 2,
+          "title": "Para los gamers! #seatcushion #gamers #tiktokshopcybermonday #tiktokshopblackfriday #discoveryourgift",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7710316018207313183",
+          "product_id": "1729394250782118107",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+          "view_count": 1152,
+          "like_count": 2,
+          "gmv": 29.25,
+          "units_sold": 1,
+          "gmv_per_view": 0.0254,
+          "hooks": [
+            {
+              "hook": "Si la pasa sentado todo el d\u00eda, toda la noche en una de estas sillas.",
+              "score": 8,
+              "explanation": "Addresses the viewer directly about their seating habits and discomfort right at the start."
+            },
+            {
+              "hook": "Este hoyito aqu\u00ed va a ayudar a reducir ese dolor esa presi\u00f3n en la coxis.",
+              "score": 7,
+              "explanation": "Highlights a specific pain point and introduces the product feature that solves it."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Reduces tailbone pain and pressure",
+              "score": 9,
+              "explanation": "The U-shaped cutout helps relieve pressure on the coccyx during long sitting sessions."
+            },
+            {
+              "selling_point": "Removable and washable cover",
+              "score": 8,
+              "explanation": "The cover can be easily removed and washed for convenient maintenance."
+            },
+            {
+              "selling_point": "Non-slip bottom design",
+              "score": 8,
+              "explanation": "The anti-slip bottom keeps the cushion securely in place while sitting."
+            }
+          ],
+          "content_overview": "A person demonstrates an ergonomic seat cushion designed for gaming chairs and office chairs, highlighting features like the tailbone cutout, removable cover, and non-slip bottom.",
+          "on_screen_text": "",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 30,
+          "tone": "casual",
+          "target_audience": "Gamers, office workers, and anyone who sits for long hours and experiences back or tailbone pain."
+        },
+        {
+          "rank": 3,
           "title": "An easy way to upgrade the chair you already have \ud83d\ude4c Memory foam, a tailbone cutout, and a non-slip bottom for those long days sitting at a desk. @UPPER ECHELON PRODUCTS  #seatcushion  #TikTokShopBlackFriday #TikTokShopCyberMonday #DiscoverYourGift #comfor",
           "handle": "courtney_gonzales19",
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7709915619193277710",
           "product_id": "1729394250782118107",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
-          "view_count": 1355,
+          "view_count": 1363,
           "like_count": 6,
           "gmv": 21.65,
           "units_sold": 1,
-          "gmv_per_view": 0.016,
+          "gmv_per_view": 0.0159,
           "hooks": [],
           "selling_points": [],
           "content_overview": "A person is shown holding and demonstrating a black memory foam seat cushion with a U-shaped cutout, designed for office chairs or other seating.",
@@ -73,7 +121,7 @@
           "target_audience": "Office workers, remote employees, and individuals who sit for long hours and look for ergonomic seating comfort."
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "\"Reliable strength meets travel-friendly design!\" \ud83c\udf27\ufe0f\ud83d\udc91\u26a1 Windproof, sturdy, and built to keep your dat",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7706600200793509133",
@@ -94,13 +142,13 @@
           "target_audience": null
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "\"Compact and lightweight\u2014open and close with ONE button!\" \ud83c\udf92\u2614\u26a1 Fits effortlessly into any bag and dep",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7706600548736224525",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 338,
+          "view_count": 341,
           "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
@@ -115,7 +163,7 @@
           "target_audience": null
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "\"Struggling with stubborn umbrellas is now over!\" \ud83c\udf27\ufe0f\ud83d\udca8\u26a1 9 reinforced ribs hold up to 100 mph winds, f",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7706600911015021837",
@@ -136,7 +184,7 @@
           "target_audience": null
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "\"You checked the weather, the forecast changed its mind!\" \ud83c\udf27\ufe0f\u26a1 Keep a Repel close: open fast, pack aw",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7706601361579789582",
@@ -157,34 +205,13 @@
           "target_audience": null
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "\"Inside the wind-tunnel test: watch the canopy hit 100 mph!\" \ud83c\udf2a\ufe0f\u26a1 Flexible ribs and double vents hold",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7706601749548649741",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 233,
-          "like_count": 2,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 8,
-          "title": "\"Spinal stenosis? Watch the simple fix nobody is talking about!\" \ud83e\ude7a\ud83d\udcba\u26a1 Tilts the pelvis forward, float",
-          "handle": "everlasting_comfort",
-          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706607520181193998",
-          "product_id": "1732530411400171739",
-          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
-          "view_count": 286,
+          "view_count": 236,
           "like_count": 2,
           "gmv": 0.0,
           "units_sold": 0,
@@ -200,12 +227,33 @@
         },
         {
           "rank": 9,
+          "title": "\"Spinal stenosis? Watch the simple fix nobody is talking about!\" \ud83e\ude7a\ud83d\udcba\u26a1 Tilts the pelvis forward, float",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706607520181193998",
+          "product_id": "1732530411400171739",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
+          "view_count": 290,
+          "like_count": 2,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 10,
           "title": "\"Here\u2019s what\u2019s happening to your sciatic nerve every time you sit down!\" \ud83d\udcba\u26a1 It was never about a sof",
           "handle": "everlasting_comfort",
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7706609126331239693",
           "product_id": "1732604651629416667",
           "product_name": "Everlasting Comfort Memory Foam Car Seat Cushion with Seat Padding - Washable Cover, Back & Sciatica Relief, Automotive Car Interior Accessory for Driving",
-          "view_count": 341,
+          "view_count": 342,
           "like_count": 3,
           "gmv": 0.0,
           "units_sold": 0,
@@ -247,34 +295,13 @@
           "target_audience": "People who experience lower back or sciatic nerve pain from sitting for long periods, such as drivers, office workers, and remote employees."
         },
         {
-          "rank": 10,
+          "rank": 11,
           "title": "\"Elevate Series dropped their price for 24 hours!\" \ud83d\udea8\ud83d\udcba\u26a1 High-density memory foam, tailbone cutout, 3M",
           "handle": "everlasting_comfort",
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7706615460401286414",
           "product_id": "1732530411400171739",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
-          "view_count": 21,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
-        },
-        {
-          "rank": 11,
-          "title": "\"If the last two hours of your workday feel impossible from sciatica\u2014watch this!\" \ud83d\udda5\ufe0f\u26a1 U-cutout lifts",
-          "handle": "everlasting_comfort",
-          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706616195247574285",
-          "product_id": "1732530411400171739",
-          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
-          "view_count": 249,
+          "view_count": 25,
           "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
@@ -290,6 +317,27 @@
         },
         {
           "rank": 12,
+          "title": "\"If the last two hours of your workday feel impossible from sciatica\u2014watch this!\" \ud83d\udda5\ufe0f\u26a1 U-cutout lifts",
+          "handle": "everlasting_comfort",
+          "video_url": "https://tiktok.com/@everlasting_comfort/video/7706616195247574285",
+          "product_id": "1732530411400171739",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
+          "view_count": 258,
+          "like_count": 0,
+          "gmv": 0.0,
+          "units_sold": 0,
+          "gmv_per_view": 0.0,
+          "hooks": [],
+          "selling_points": [],
+          "content_overview": null,
+          "on_screen_text": null,
+          "product_visible_3s": null,
+          "product_screen_time_seconds": null,
+          "tone": null,
+          "target_audience": null
+        },
+        {
+          "rank": 13,
           "title": "\"Girl, my back is done after that flight!\" \u2708\ufe0f\ud83c\udf92\u26a1 Slide it straight out of your tote and into your air",
           "handle": "everlasting_comfort",
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7706616606067002638",
@@ -310,13 +358,13 @@
           "target_audience": null
         },
         {
-          "rank": 13,
+          "rank": 14,
           "title": "\"I ranked the most popular seat cushions from F to S tier\u2014and it\u2019s not even close!\" \ud83d\udcca\ud83e\ude91\u26a1 85% lab-test",
           "handle": "everlasting_comfort",
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7706618066179755278",
           "product_id": "1732530411400171739",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
-          "view_count": 213,
+          "view_count": 214,
           "like_count": 0,
           "gmv": 0.0,
           "units_sold": 0,
@@ -331,7 +379,7 @@
           "target_audience": null
         },
         {
-          "rank": 14,
+          "rank": 15,
           "title": "\"Puppy-approved, nap-tested!\" \ud83d\udc36\u2601\ufe0f\ud83d\udca4 Ultra-plush, sculpted faux fur, and 100% shed-free\u2014the coziest sp",
           "handle": "cloudfur_uep",
           "video_url": "https://tiktok.com/@cloudfur_uep/video/7707741661455011102",
@@ -350,30 +398,9 @@
           "product_screen_time_seconds": null,
           "tone": null,
           "target_audience": null
-        },
-        {
-          "rank": 15,
-          "title": "\"Finally comfortable. Finally CloudFur!\" \ud83d\udecb\ufe0f\u2601\ufe0f\ud83d\ude0c Ultra-plush, sculpted faux fur, and 100% shed-free\u2014th",
-          "handle": "cloudfurclub",
-          "video_url": "https://tiktok.com/@cloudfurclub/video/7707744164909305102",
-          "product_id": "1732777280888475867",
-          "product_name": "\u3010Holiday Deal\u3011 CloudFur Faux Fur Throw Blanket, Soft Fluffy Plush 50 x 60 Inch Blanket for Couch and Sofa, Cozy Home Decor, Holiday Gift for Women and Men",
-          "view_count": 0,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": null,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
         }
       ],
-      "total_found": 110,
+      "total_found": 111,
       "has_more": true
     },
     "14d": {
@@ -386,11 +413,11 @@
           "video_url": "https://tiktok.com/@alexvlogs87/video/7706700322516765965",
           "product_id": "1730129060140454107",
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
-          "view_count": 236,
+          "view_count": 259,
           "like_count": 7,
           "gmv": 49.99,
           "units_sold": 1,
-          "gmv_per_view": 0.2118,
+          "gmv_per_view": 0.193,
           "hooks": [
             {
               "hook": "Amigos mira lo que me acaba de llegar del TikTok Shop",
@@ -429,11 +456,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7710318985358658847",
           "product_id": "1729394250782118107",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
-          "view_count": 384,
-          "like_count": 2,
+          "view_count": 420,
+          "like_count": 3,
           "gmv": 36.09,
           "units_sold": 1,
-          "gmv_per_view": 0.094,
+          "gmv_per_view": 0.0859,
           "hooks": [
             {
               "hook": "Si en ninguna silla te puedes acomodar, esta es porque ocupas un coj\u00edn de asiento.",
@@ -472,11 +499,11 @@
           "video_url": "https://tiktok.com/@laurapaniagua59/video/7708367072929058079",
           "product_id": "1729391862339113179",
           "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-          "view_count": 321,
+          "view_count": 348,
           "like_count": 3,
           "gmv": 31.66,
           "units_sold": 2,
-          "gmv_per_view": 0.0986,
+          "gmv_per_view": 0.091,
           "hooks": [
             {
               "hook": "Mira esta mosquitera magn\u00e9tica de puerta.",
@@ -510,16 +537,64 @@
         },
         {
           "rank": 4,
+          "title": "Para los gamers! #seatcushion #gamers #tiktokshopcybermonday #tiktokshopblackfriday #discoveryourgift",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7710316018207313183",
+          "product_id": "1729394250782118107",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+          "view_count": 1152,
+          "like_count": 2,
+          "gmv": 29.25,
+          "units_sold": 1,
+          "gmv_per_view": 0.0254,
+          "hooks": [
+            {
+              "hook": "Si la pasa sentado todo el d\u00eda, toda la noche en una de estas sillas.",
+              "score": 8,
+              "explanation": "Addresses the viewer directly about their seating habits and discomfort right at the start."
+            },
+            {
+              "hook": "Este hoyito aqu\u00ed va a ayudar a reducir ese dolor esa presi\u00f3n en la coxis.",
+              "score": 7,
+              "explanation": "Highlights a specific pain point and introduces the product feature that solves it."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Reduces tailbone pain and pressure",
+              "score": 9,
+              "explanation": "The U-shaped cutout helps relieve pressure on the coccyx during long sitting sessions."
+            },
+            {
+              "selling_point": "Removable and washable cover",
+              "score": 8,
+              "explanation": "The cover can be easily removed and washed for convenient maintenance."
+            },
+            {
+              "selling_point": "Non-slip bottom design",
+              "score": 8,
+              "explanation": "The anti-slip bottom keeps the cushion securely in place while sitting."
+            }
+          ],
+          "content_overview": "A person demonstrates an ergonomic seat cushion designed for gaming chairs and office chairs, highlighting features like the tailbone cutout, removable cover, and non-slip bottom.",
+          "on_screen_text": "",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 30,
+          "tone": "casual",
+          "target_audience": "Gamers, office workers, and anyone who sits for long hours and experiences back or tailbone pain."
+        },
+        {
+          "rank": 5,
           "title": "Fiberglass folding umbrella @UPPER ECHELON PRODUCTS #umbrella #rain #tiktokshopcreatorpicks #TiktokS",
           "handle": "retired_and_reselling",
           "video_url": "https://tiktok.com/@retired_and_reselling/video/7706340461375474975",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 2707,
+          "view_count": 2713,
           "like_count": 5,
           "gmv": 26.99,
           "units_sold": 1,
-          "gmv_per_view": 0.01,
+          "gmv_per_view": 0.0099,
           "hooks": [
             {
               "hook": "This is the easy open and close fiberglass umbrella.",
@@ -552,17 +627,17 @@
           "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use travel umbrella for commuting or outdoor use."
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "An easy way to upgrade the chair you already have \ud83d\ude4c Memory foam, a tailbone cutout, and a non-slip bottom for those long days sitting at a desk. @UPPER ECHELON PRODUCTS  #seatcushion  #TikTokShopBlackFriday #TikTokShopCyberMonday #DiscoverYourGift #comfor",
           "handle": "courtney_gonzales19",
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7709915619193277710",
           "product_id": "1729394250782118107",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
-          "view_count": 1355,
+          "view_count": 1363,
           "like_count": 6,
           "gmv": 21.65,
           "units_sold": 1,
-          "gmv_per_view": 0.016,
+          "gmv_per_view": 0.0159,
           "hooks": [],
           "selling_points": [],
           "content_overview": "A person is shown holding and demonstrating a black memory foam seat cushion with a U-shaped cutout, designed for office chairs or other seating.",
@@ -573,17 +648,17 @@
           "target_audience": "Office workers, remote employees, and individuals who sit for long hours and look for ergonomic seating comfort."
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "\"Still taking the walk. Take the scenic route!\" \ud83c\udf32\u2614\u26a1 Built for coastal winds, forest paths, and mount",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7706596826043911437",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 213,
+          "view_count": 216,
           "like_count": 0,
           "gmv": 20.51,
           "units_sold": 1,
-          "gmv_per_view": 0.0963,
+          "gmv_per_view": 0.095,
           "hooks": [],
           "selling_points": [],
           "content_overview": "A montage of people walking in various scenic locations and weather conditions while using different colored umbrellas. The video transitions through beaches, grassy fields, mountains, forests, and bridges.",
@@ -594,17 +669,17 @@
           "target_audience": "Outdoor enthusiasts, travelers, and commuters looking for reliable umbrellas for all weather conditions."
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "The umbrella that finally ends rainy-day dread. \u2602\ufe0f One click \u2014 open, covered, dry. #bfcm #Christmasg",
           "handle": "worldsgreatestchad",
           "video_url": "https://tiktok.com/@worldsgreatestchad/video/7706571682072382733",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 1510,
-          "like_count": 0,
+          "view_count": 1527,
+          "like_count": 1,
           "gmv": 15.95,
           "units_sold": 1,
-          "gmv_per_view": 0.0106,
+          "gmv_per_view": 0.0104,
           "hooks": [
             {
               "hook": "Have you heard the best selling umbrella over on Prime just made its way over to TikTok?",
@@ -642,7 +717,7 @@
           "target_audience": "Commuters, travelers, parents, and everyday shoppers looking for a durable, reliable umbrella."
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "\"This is the fastest way to stop sciatic pain the moment you sit down!\" \ud83e\ude91\u26a1 Doctor-recommended, lab-t",
           "handle": "everlasting_comfort",
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7705153997648186637",
@@ -663,7 +738,7 @@
           "target_audience": null
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "\"The problem isn't you, it's the seat!\" \ud83e\ude91\u26a1 Suspend your tailbone, take pressure off the sciatic nerv",
           "handle": "everlasting_comfort",
           "video_url": "https://tiktok.com/@everlasting_comfort/video/7705154265509121294",
@@ -684,7 +759,7 @@
           "target_audience": null
         },
         {
-          "rank": 10,
+          "rank": 11,
           "title": "\"Meet CloudFur: The best blanket on shop!\" \u2601\ufe0f\ud83d\udc99\u26a1 Legit the softest blankie you're ever going to feel ",
           "handle": "cloudfurclub",
           "video_url": "https://tiktok.com/@cloudfurclub/video/7705166160253193502",
@@ -705,7 +780,7 @@
           "target_audience": null
         },
         {
-          "rank": 11,
+          "rank": 12,
           "title": "\"Hands full? Just walk right through!\" \ud83d\udc3e\ud83d\udeaa\u26a1 Kids, pets, groceries\u2014no problem! It snaps shut behind yo",
           "handle": "upperechelonproducts_",
           "video_url": "https://tiktok.com/@upperechelonproducts_/video/7705166848437865742",
@@ -743,7 +818,7 @@
           "target_audience": "Homeowners, pet owners, and families looking for convenient insect protection for their doors."
         },
         {
-          "rank": 12,
+          "rank": 13,
           "title": "#magneticscreendoor #diyproject #tiktokshopblackfriday #tiktokmademebuyit ",
           "handle": "house_of_cid",
           "video_url": "https://tiktok.com/@house_of_cid/video/7705956465168747789",
@@ -764,7 +839,7 @@
           "target_audience": "Homeowners, pet owners, and people looking for easy-to-install screen solutions for doors and porches."
         },
         {
-          "rank": 13,
+          "rank": 14,
           "title": "Looking for a simple upgrade to your daily bathroom routine? This ultra-slim bidet attachment fits m",
           "handle": "gatata31",
           "video_url": "https://tiktok.com/@gatata31/video/7706003111160171789",
@@ -785,7 +860,7 @@
           "target_audience": null
         },
         {
-          "rank": 14,
+          "rank": 15,
           "title": "Looking for a simple, practical upgrade for your bathroom? This ultra-slim bidet attachment fits mos",
           "handle": "lexisse1",
           "video_url": "https://tiktok.com/@lexisse1/video/7706006278329404686",
@@ -804,30 +879,9 @@
           "product_screen_time_seconds": null,
           "tone": null,
           "target_audience": null
-        },
-        {
-          "rank": 15,
-          "title": "\"Long day at your desk? Your feet don't have to dangle!\" \ud83e\ude91\u26a1 This ergonomic memory foam footrest is r",
-          "handle": "upperechelonproducts_",
-          "video_url": "https://tiktok.com/@upperechelonproducts_/video/7706169542262689038",
-          "product_id": "1730130928473313499",
-          "product_name": "Everlasting Comfort Adjustable Rectangular Memory Foam Under Desk Foot Rest - 17.5x13x6\" Ergonomic High-Density Foam Footrest Furniture Accessories, Breathable Washable Cover, for Office & Gaming Use, Improves Posture, Supports Better Circulation",
-          "view_count": 178,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [],
-          "selling_points": [],
-          "content_overview": null,
-          "on_screen_text": null,
-          "product_visible_3s": null,
-          "product_screen_time_seconds": null,
-          "tone": null,
-          "target_audience": null
         }
       ],
-      "total_found": 185,
+      "total_found": 186,
       "has_more": true
     },
     "month": {
@@ -840,11 +894,11 @@
           "video_url": "https://tiktok.com/@maritzaportilloal/video/7700602830247202062",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 420,
+          "view_count": 421,
           "like_count": 15,
           "gmv": 49.99,
           "units_sold": 1,
-          "gmv_per_view": 0.119,
+          "gmv_per_view": 0.1187,
           "hooks": [
             {
               "hook": "Ahora s\u00ed, amigos, les voy a ense\u00f1ar c\u00f3mo usar su bidet.",
@@ -873,11 +927,11 @@
           "video_url": "https://tiktok.com/@alexvlogs87/video/7706700322516765965",
           "product_id": "1730129060140454107",
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
-          "view_count": 236,
+          "view_count": 259,
           "like_count": 7,
           "gmv": 49.99,
           "units_sold": 1,
-          "gmv_per_view": 0.2118,
+          "gmv_per_view": 0.193,
           "hooks": [
             {
               "hook": "Amigos mira lo que me acaba de llegar del TikTok Shop",
@@ -916,11 +970,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7710318985358658847",
           "product_id": "1729394250782118107",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
-          "view_count": 384,
-          "like_count": 2,
+          "view_count": 420,
+          "like_count": 3,
           "gmv": 36.09,
           "units_sold": 1,
-          "gmv_per_view": 0.094,
+          "gmv_per_view": 0.0859,
           "hooks": [
             {
               "hook": "Si en ninguna silla te puedes acomodar, esta es porque ocupas un coj\u00edn de asiento.",
@@ -959,11 +1013,11 @@
           "video_url": "https://tiktok.com/@laurapaniagua59/video/7708367072929058079",
           "product_id": "1729391862339113179",
           "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-          "view_count": 321,
+          "view_count": 348,
           "like_count": 3,
           "gmv": 31.66,
           "units_sold": 2,
-          "gmv_per_view": 0.0986,
+          "gmv_per_view": 0.091,
           "hooks": [
             {
               "hook": "Mira esta mosquitera magn\u00e9tica de puerta.",
@@ -997,16 +1051,64 @@
         },
         {
           "rank": 5,
+          "title": "Para los gamers! #seatcushion #gamers #tiktokshopcybermonday #tiktokshopblackfriday #discoveryourgift",
+          "handle": "sylviaapproved",
+          "video_url": "https://tiktok.com/@sylviaapproved/video/7710316018207313183",
+          "product_id": "1729394250782118107",
+          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
+          "view_count": 1152,
+          "like_count": 2,
+          "gmv": 29.25,
+          "units_sold": 1,
+          "gmv_per_view": 0.0254,
+          "hooks": [
+            {
+              "hook": "Si la pasa sentado todo el d\u00eda, toda la noche en una de estas sillas.",
+              "score": 8,
+              "explanation": "Addresses the viewer directly about their seating habits and discomfort right at the start."
+            },
+            {
+              "hook": "Este hoyito aqu\u00ed va a ayudar a reducir ese dolor esa presi\u00f3n en la coxis.",
+              "score": 7,
+              "explanation": "Highlights a specific pain point and introduces the product feature that solves it."
+            }
+          ],
+          "selling_points": [
+            {
+              "selling_point": "Reduces tailbone pain and pressure",
+              "score": 9,
+              "explanation": "The U-shaped cutout helps relieve pressure on the coccyx during long sitting sessions."
+            },
+            {
+              "selling_point": "Removable and washable cover",
+              "score": 8,
+              "explanation": "The cover can be easily removed and washed for convenient maintenance."
+            },
+            {
+              "selling_point": "Non-slip bottom design",
+              "score": 8,
+              "explanation": "The anti-slip bottom keeps the cushion securely in place while sitting."
+            }
+          ],
+          "content_overview": "A person demonstrates an ergonomic seat cushion designed for gaming chairs and office chairs, highlighting features like the tailbone cutout, removable cover, and non-slip bottom.",
+          "on_screen_text": "",
+          "product_visible_3s": true,
+          "product_screen_time_seconds": 30,
+          "tone": "casual",
+          "target_audience": "Gamers, office workers, and anyone who sits for long hours and experiences back or tailbone pain."
+        },
+        {
+          "rank": 6,
           "title": "Fiberglass folding umbrella @UPPER ECHELON PRODUCTS #umbrella #rain #tiktokshopcreatorpicks #TiktokS",
           "handle": "retired_and_reselling",
           "video_url": "https://tiktok.com/@retired_and_reselling/video/7706340461375474975",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 2707,
+          "view_count": 2713,
           "like_count": 5,
           "gmv": 26.99,
           "units_sold": 1,
-          "gmv_per_view": 0.01,
+          "gmv_per_view": 0.0099,
           "hooks": [
             {
               "hook": "This is the easy open and close fiberglass umbrella.",
@@ -1039,17 +1141,17 @@
           "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use travel umbrella for commuting or outdoor use."
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "An easy way to upgrade the chair you already have \ud83d\ude4c Memory foam, a tailbone cutout, and a non-slip bottom for those long days sitting at a desk. @UPPER ECHELON PRODUCTS  #seatcushion  #TikTokShopBlackFriday #TikTokShopCyberMonday #DiscoverYourGift #comfor",
           "handle": "courtney_gonzales19",
           "video_url": "https://tiktok.com/@courtney_gonzales19/video/7709915619193277710",
           "product_id": "1729394250782118107",
           "product_name": "\u3010Black Friday\u3011Everlasting Comfort Memory Foam Seat Cushion, U-Shaped Cutout, Non-Slip, for Office, Car & Airplane Seats",
-          "view_count": 1355,
+          "view_count": 1363,
           "like_count": 6,
           "gmv": 21.65,
           "units_sold": 1,
-          "gmv_per_view": 0.016,
+          "gmv_per_view": 0.0159,
           "hooks": [],
           "selling_points": [],
           "content_overview": "A person is shown holding and demonstrating a black memory foam seat cushion with a U-shaped cutout, designed for office chairs or other seating.",
@@ -1060,17 +1162,17 @@
           "target_audience": "Office workers, remote employees, and individuals who sit for long hours and look for ergonomic seating comfort."
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "\"Still taking the walk. Take the scenic route!\" \ud83c\udf32\u2614\u26a1 Built for coastal winds, forest paths, and mount",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7706596826043911437",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 213,
+          "view_count": 216,
           "like_count": 0,
           "gmv": 20.51,
           "units_sold": 1,
-          "gmv_per_view": 0.0963,
+          "gmv_per_view": 0.095,
           "hooks": [],
           "selling_points": [],
           "content_overview": "A montage of people walking in various scenic locations and weather conditions while using different colored umbrellas. The video transitions through beaches, grassy fields, mountains, forests, and bridges.",
@@ -1081,17 +1183,17 @@
           "target_audience": "Outdoor enthusiasts, travelers, and commuters looking for reliable umbrellas for all weather conditions."
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Disfruta del aire fresco en tu casa sin preocuparte por los insectos que entren. \ud83e\ude9f Esta puerta panta",
           "handle": "josedv43",
           "video_url": "https://tiktok.com/@josedv43/video/7705522571839687949",
           "product_id": "1729391862339113179",
           "product_name": "\u3010Black Friday\u3011Flux Phenom Magnetic Screen Door (38x82 in), Hands-Free Automatic Self-Closing, 52 Magnets, No-Drill Install, for Patios & Porches, Apartments, RVs",
-          "view_count": 2290,
-          "like_count": 4,
+          "view_count": 2419,
+          "like_count": 5,
           "gmv": 17.81,
           "units_sold": 1,
-          "gmv_per_view": 0.0078,
+          "gmv_per_view": 0.0074,
           "hooks": [
             {
               "hook": "Esto es justo lo de mi puerta, una mosquitera que me tiene loco.",
@@ -1119,17 +1221,17 @@
           "target_audience": "Homeowners and renters looking for an easy, drill-free way to keep insects out through patio or entry doors."
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "The umbrella that finally ends rainy-day dread. \u2602\ufe0f One click \u2014 open, covered, dry. #bfcm #Christmasg",
           "handle": "worldsgreatestchad",
           "video_url": "https://tiktok.com/@worldsgreatestchad/video/7706571682072382733",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 1510,
-          "like_count": 0,
+          "view_count": 1527,
+          "like_count": 1,
           "gmv": 15.95,
           "units_sold": 1,
-          "gmv_per_view": 0.0106,
+          "gmv_per_view": 0.0104,
           "hooks": [
             {
               "hook": "Have you heard the best selling umbrella over on Prime just made its way over to TikTok?",
@@ -1167,7 +1269,7 @@
           "target_audience": "Commuters, travelers, parents, and everyday shoppers looking for a durable, reliable umbrella."
         },
         {
-          "rank": 10,
+          "rank": 11,
           "title": "POV: Rain wasn't about to cancel your plans \ud83c\udf27\ufe0f\u2728 Never let a sudden downpour ruin your schedule, outf",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7698474962226597133",
@@ -1188,7 +1290,7 @@
           "target_audience": null
         },
         {
-          "rank": 11,
+          "rank": 12,
           "title": "Buy nice, not twice! \ud83d\udca8\u2614 We put the Repel Umbrella to the ultimate high-altitude rooftop wind test, a",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7698476518468504846",
@@ -1209,7 +1311,7 @@
           "target_audience": null
         },
         {
-          "rank": 12,
+          "rank": 13,
           "title": "",
           "handle": "repel_umbrella",
           "video_url": "https://tiktok.com/@repel_umbrella/video/7698477257630698765",
@@ -1230,7 +1332,7 @@
           "target_audience": null
         },
         {
-          "rank": 13,
+          "rank": 14,
           "title": "",
           "handle": "upperechelonproducts_",
           "video_url": "https://tiktok.com/@upperechelonproducts_/video/7698780584906181901",
@@ -1251,7 +1353,7 @@
           "target_audience": null
         },
         {
-          "rank": 14,
+          "rank": 15,
           "title": "Ladies, if your husband drives a truck all day and his back is killing him, watch this! \ud83d\ude9a\ud83d\udca5 Long hour",
           "handle": "upperechelonproducts_",
           "video_url": "https://tiktok.com/@upperechelonproducts_/video/7698782048344886541",
@@ -1270,47 +1372,9 @@
           "product_screen_time_seconds": null,
           "tone": null,
           "target_audience": null
-        },
-        {
-          "rank": 15,
-          "title": "From \"This sucks!\" to \"Oh wow, that's perfect!\" \ud83d\udecb\ufe0f\u2728 We put people through a blind sitting test on ha",
-          "handle": "everlasting_comfort",
-          "video_url": "https://tiktok.com/@everlasting_comfort/video/7698788917914488078",
-          "product_id": "1732530411400171739",
-          "product_name": "\u3010Black Friday\u3011Everlasting Comfort Elevate Memory Foam Seat Cushion & Lumbar Support, Contoured Design, Non-Slip, for Office, Car & Gaming Chairs",
-          "view_count": 304,
-          "like_count": 0,
-          "gmv": 0.0,
-          "units_sold": 0,
-          "gmv_per_view": 0.0,
-          "hooks": [
-            {
-              "hook": "We work for Everlasting Comfort, one of the top seat cushion brands on Amazon.",
-              "score": 8,
-              "explanation": "Establishes immediate brand authority and credibility by citing top status on a major retailer."
-            }
-          ],
-          "selling_points": [
-            {
-              "selling_point": "This is our Elevate series, which is a thicker model made with like clinical-grade memory foam.",
-              "score": 9,
-              "explanation": "Highlights superior product quality and clinical-grade materials for enhanced comfort and support."
-            },
-            {
-              "selling_point": "So if you have back pain, sciatica, that's what they're there for.",
-              "score": 9,
-              "explanation": "Directly targets specific pain relief benefits for consumers suffering from back and nerve issues."
-            }
-          ],
-          "content_overview": "Two representatives from Everlasting Comfort present their car seat and Elevate series memory foam cushions at an outdoor booth, explaining their features for back pain and sciatica while inviting people to test them.",
-          "on_screen_text": "Sitting in a cloud, I'm Kurt, she is Leslie, everlasting comfort, Top seat cushion brands on Amazon, CAR SEAT, ELEVATE, IF YOU HAVE: BACK PAIN, SCIATICA, THAT'S WHAT THEY'RE THERE FOR, NO CUSHION",
-          "product_visible_3s": true,
-          "product_screen_time_seconds": 20,
-          "tone": "casual",
-          "target_audience": "People suffering from back pain, sciatica, or prolonged sitting discomfort looking for ergonomic seat cushions."
         }
       ],
-      "total_found": 357,
+      "total_found": 358,
       "has_more": true
     },
     "60d": {
@@ -1323,11 +1387,11 @@
           "video_url": "https://tiktok.com/@mrhotpicks/video/7694099956629507359",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 8603,
+          "view_count": 8870,
           "like_count": 25,
           "gmv": 292.26,
           "units_sold": 14,
-          "gmv_per_view": 0.034,
+          "gmv_per_view": 0.0329,
           "hooks": [
             {
               "hook": "You ever wonder why your kids hate bringing umbrellas to school even though it's raining?",
@@ -1371,11 +1435,11 @@
           "video_url": "https://tiktok.com/@boldvideos7/video/7697010109947350302",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 42524,
-          "like_count": 478,
+          "view_count": 44779,
+          "like_count": 499,
           "gmv": 276.13,
           "units_sold": 15,
-          "gmv_per_view": 0.0065,
+          "gmv_per_view": 0.0062,
           "hooks": [],
           "selling_points": [],
           "content_overview": "A short video demonstrating the opening and closing mechanism of a pink, wind-resistant umbrella against an outdoor urban backdrop.",
@@ -1392,11 +1456,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7691377663906254110",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 17406,
+          "view_count": 17526,
           "like_count": 46,
           "gmv": 172.14,
           "units_sold": 16,
-          "gmv_per_view": 0.0099,
+          "gmv_per_view": 0.0098,
           "hooks": [
             {
               "hook": "This is literally the umbrella everybody needs.",
@@ -1440,7 +1504,7 @@
           "video_url": "https://tiktok.com/@tapa_mondo/video/7694153031432015117",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 6556,
+          "view_count": 6563,
           "like_count": 67,
           "gmv": 153.57,
           "units_sold": 11,
@@ -1483,7 +1547,7 @@
           "video_url": "https://tiktok.com/@marielos_granados/video/7693700292164046093",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 1959,
+          "view_count": 1961,
           "like_count": 9,
           "gmv": 85.45,
           "units_sold": 6,
@@ -1526,7 +1590,7 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7692131608479943967",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 6431,
+          "view_count": 6438,
           "like_count": 35,
           "gmv": 74.83,
           "units_sold": 6,
@@ -1569,7 +1633,7 @@
           "video_url": "https://tiktok.com/@its.massielll/video/7693018427660733710",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 4597,
+          "view_count": 4599,
           "like_count": 49,
           "gmv": 68.61,
           "units_sold": 7,
@@ -1612,8 +1676,8 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7694356427460070686",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 11473,
-          "like_count": 90,
+          "view_count": 11493,
+          "like_count": 91,
           "gmv": 64.05,
           "units_sold": 6,
           "gmv_per_view": 0.0056,
@@ -1676,7 +1740,7 @@
           "video_url": "https://tiktok.com/@tinkaagiovanni_/video/7693324466977279245",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 3583,
+          "view_count": 3601,
           "like_count": 79,
           "gmv": 53.56,
           "units_sold": 4,
@@ -1709,11 +1773,11 @@
           "video_url": "https://tiktok.com/@maritzaportilloal/video/7700602830247202062",
           "product_id": "1729385884864975067",
           "product_name": "Clear Rear Ultra-Slim Bidet Attachment for Toilet - Non-Electric Dual Retractable Self-Cleaning Nozzles, Fresh Water Sprayer, Adjustable Water Pressure, Front & Rear Wash, No-Tool 15 Minute Install, Fits Most Toilets",
-          "view_count": 420,
+          "view_count": 421,
           "like_count": 15,
           "gmv": 49.99,
           "units_sold": 1,
-          "gmv_per_view": 0.119,
+          "gmv_per_view": 0.1187,
           "hooks": [
             {
               "hook": "Ahora s\u00ed, amigos, les voy a ense\u00f1ar c\u00f3mo usar su bidet.",
@@ -1742,11 +1806,11 @@
           "video_url": "https://tiktok.com/@alexvlogs87/video/7706700322516765965",
           "product_id": "1730129060140454107",
           "product_name": "Convection Boot Dryer for Work Boots, Silent Boot Warmer, Energy-Efficient Shoe Dryer with Fanless Feature to Reduce Odor",
-          "view_count": 236,
+          "view_count": 259,
           "like_count": 7,
           "gmv": 49.99,
           "units_sold": 1,
-          "gmv_per_view": 0.2118,
+          "gmv_per_view": 0.193,
           "hooks": [
             {
               "hook": "Amigos mira lo que me acaba de llegar del TikTok Shop",
@@ -1785,11 +1849,11 @@
           "video_url": "https://tiktok.com/@sasashoo/video/7690360928306777374",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 701,
+          "view_count": 702,
           "like_count": 3,
           "gmv": 49.27,
           "units_sold": 2,
-          "gmv_per_view": 0.0703,
+          "gmv_per_view": 0.0702,
           "hooks": [
             {
               "hook": "Today I decided to try the Repel umbrella which is actually super small and nice.",
@@ -1833,7 +1897,7 @@
           "video_url": "https://tiktok.com/@worldsgreatestchad/video/7694302109830827277",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 3277,
+          "view_count": 3279,
           "like_count": 9,
           "gmv": 47.98,
           "units_sold": 3,
@@ -1876,7 +1940,7 @@
           "video_url": "https://tiktok.com/@mileidys_mily/video/7692589468401847565",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 4394,
+          "view_count": 4397,
           "like_count": 109,
           "gmv": 40.98,
           "units_sold": 2,
@@ -1903,7 +1967,7 @@
           "target_audience": "Everyday shoppers, parents, and adults looking for reliable umbrellas for family members and their cars."
         }
       ],
-      "total_found": 1157,
+      "total_found": 1158,
       "has_more": true
     },
     "90d": {
@@ -1943,11 +2007,11 @@
           "video_url": "https://tiktok.com/@mrhotpicks/video/7694099956629507359",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 8603,
+          "view_count": 8870,
           "like_count": 25,
           "gmv": 292.26,
           "units_sold": 14,
-          "gmv_per_view": 0.034,
+          "gmv_per_view": 0.0329,
           "hooks": [
             {
               "hook": "You ever wonder why your kids hate bringing umbrellas to school even though it's raining?",
@@ -1991,11 +2055,11 @@
           "video_url": "https://tiktok.com/@boldvideos7/video/7697010109947350302",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 42524,
-          "like_count": 478,
+          "view_count": 44779,
+          "like_count": 499,
           "gmv": 276.13,
           "units_sold": 15,
-          "gmv_per_view": 0.0065,
+          "gmv_per_view": 0.0062,
           "hooks": [],
           "selling_points": [],
           "content_overview": "A short video demonstrating the opening and closing mechanism of a pink, wind-resistant umbrella against an outdoor urban backdrop.",
@@ -2217,11 +2281,11 @@
           "video_url": "https://tiktok.com/@sylviaapproved/video/7691377663906254110",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 17406,
+          "view_count": 17526,
           "like_count": 46,
           "gmv": 172.14,
           "units_sold": 16,
-          "gmv_per_view": 0.0099,
+          "gmv_per_view": 0.0098,
           "hooks": [
             {
               "hook": "This is literally the umbrella everybody needs.",
@@ -2265,7 +2329,7 @@
           "video_url": "https://tiktok.com/@tapa_mondo/video/7694153031432015117",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 6556,
+          "view_count": 6563,
           "like_count": 67,
           "gmv": 153.57,
           "units_sold": 11,
@@ -2480,7 +2544,7 @@
           "video_url": "https://tiktok.com/@marielos_granados/video/7693700292164046093",
           "product_id": "1732530504119718107",
           "product_name": "\u3010Black Friday\u3011Repel Travel Umbrella, 100MPH Windproof Tested, 9-Rib Fiberglass, Auto Open/Close, Lightweight for Commute & Travel",
-          "view_count": 1959,
+          "view_count": 1961,
           "like_count": 9,
           "gmv": 85.45,
           "units_sold": 6,
@@ -2517,7 +2581,7 @@
           "target_audience": "Shoppers looking for a reliable, compact, and easy-to-use umbrella for rainy days."
         }
       ],
-      "total_found": 1512,
+      "total_found": 1513,
       "has_more": true
     }
   }
