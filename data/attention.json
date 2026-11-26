@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T07:20:00+00:00",
+  "updated_at": "2026-11-26T07:21:57+00:00",
   "items": [
     {
       "metric": "Replies (week, three week run 14 to 7 to 5)",
@@ -7,8 +7,8 @@
       "prior": 7,
       "pct": -28.6,
       "direction": "down",
-      "effect": "Reply rate is 13.5% and a third consecutive drop caps sample approvals and the creator posts that follow three to four weeks later.",
-      "action": "Raise DM volume from 37 to 75 per week and re-message the eight creators who went silent this week."
+      "effect": "At a 13.51% reply rate this is the third straight drop and it caps sample approvals and the creator posts that land three to four weeks later.",
+      "action": "Lift DM volume from 37 to 90 per week and add one follow-up touch to non-repliers before 2026-12-01."
     },
     {
       "metric": "Creators posting (week)",
@@ -16,26 +16,26 @@
       "prior": 40,
       "pct": -20.0,
       "direction": "down",
-      "effect": "Affiliate GMV fell 18.7% to 1,234.90 and the top two creators now hold 36.7% of it, so output is thinner and more concentrated.",
-      "action": "Re-activate the eight silent creators with a direct DM and an expiring sample offer before 2026-12-01."
+      "effect": "Videos rose 61.3% to 121 on 20% fewer creators, so affiliate GMV fell 18.7% and the top two creators now hold 36.7% of it.",
+      "action": "Run a win-back DM to the 8 creators who posted last week but not this week with an expiring sample or bundle offer."
     },
     {
-      "metric": "Affiliate GMV (week)",
+      "metric": "Affiliate GMV (week, share 64.3% of GMV)",
       "current": 1234.9,
       "prior": 1518.49,
       "pct": -18.7,
       "direction": "down",
-      "effect": "Affiliate share of GMV dropped to 64.3% from 77.8%, leaving GMV Max ads to carry 75.6% of revenue.",
-      "action": "Hold affiliate at or above 70% of GMV by pairing the DM wave with a post reminder to creators who have samples in hand."
+      "effect": "Affiliate share dropped from 77.8% to 64.3%, leaving GMV Max ads to carry 75.6% of revenue at a 1.522 blended ROAS.",
+      "action": "Hold affiliate at or above 70% of GMV by pairing the DM wave with a post reminder to creators holding samples."
     },
     {
-      "metric": "LIVE GMV (week, 47 streams)",
+      "metric": "LIVE GMV (47 streams, 58,631 views, three week zero run)",
       "current": 0,
       "prior": 0,
       "pct": 0.0,
       "direction": "down",
-      "effect": "47 streams drew 58,631 views and produced zero GMV for a third straight week.",
-      "action": "Give the live roster a bundle script with a checkout call every 10 minutes and move the airtime to affiliate outreach if LIVE GMV is still zero on 2026-11-30."
+      "effect": "Three straight weeks of zero LIVE GMV means 58,631 views and the 47 stream roster are converting nothing.",
+      "action": "Give the live roster a bundle script with a checkout call every 10 minutes or move the airtime to affiliate posts by 2026-11-30."
     },
     {
       "metric": "BFCM Seat Cushion GMV Max ROAS (target 1.7)",
@@ -43,17 +43,17 @@
       "prior": 1.7,
       "pct": -54.1,
       "direction": "down",
-      "effect": "The campaign spent 274.95 dollars for 5 orders at 54.99 per order against a 22.86 AOV, so every order loses money before COGS.",
-      "action": "Pause Seat Cushion and Elevate Seat Cushion and move that spend to the Screendoor campaign at 2.061 ROAS."
+      "effect": "The campaign spent 274.95 dollars for 5 orders at 54.99 cost per order, 60.30 dollars underwater before COGS.",
+      "action": "Pause Seat Cushion and Elevate Seat Cushion and move the budget to BFCM Screendoor at 2.061 ROAS."
     },
     {
-      "metric": "BFCM Repel GMV Max ROAS (last 7 days, target 1.8)",
-      "current": 0.905,
-      "prior": 1.736,
-      "pct": -47.9,
-      "direction": "down",
-      "effect": "The umbrella campaign fell below breakeven on the rolling 7 day window while still taking 243.37 of spend for 10 orders.",
-      "action": "Cut bid or budget 25% and swap in the seat cushion Spanish hooks that score 8 in creative_brief.json."
+      "metric": "Sample requests expired (191 of 300, flag threshold 50%)",
+      "current": 63.7,
+      "prior": 50.0,
+      "pct": 27.4,
+      "direction": "up",
+      "effect": "Expiry, not creator interest, is the binding constraint: 51 fresh requests sit in To Review while only 3 of 300 requests reached Posted.",
+      "action": "Clear the 51 To Review requests within 48 hours and set a 48 hour approval SLA with affiliate ops."
     }
   ]
 }
