@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "source": "Cruva REST /ads/campaigns",
-    "pulled_on": "2026-11-26"
+    "pulled_on": "2026-11-27"
   },
   "periods": {
     "week": {
@@ -3570,22 +3570,22 @@
       ]
     },
     "live7d": {
-      "range": "2026-11-20 to 2026-11-26",
+      "range": "2026-11-21 to 2026-11-27",
       "totals": {
-        "revenue": 1241.56,
-        "spend": 911.83,
-        "orders": 53,
-        "roi": 1.362
+        "revenue": 1184.2,
+        "spend": 921.27,
+        "orders": 50,
+        "roi": 1.285
       },
       "campaigns": [
         {
           "name": "BFCM Screendoor GMV Max ",
           "campaign_id": "1881445487256609",
-          "revenue": 859.67,
-          "spend": 422.02,
-          "roi": 2.037,
-          "orders": 40,
-          "cost_per_order": 10.55,
+          "revenue": 802.31,
+          "spend": 424.54,
+          "roi": 1.89,
+          "orders": 37,
+          "cost_per_order": 11.47,
           "roas_target": 2.1,
           "status": "ENABLE",
           "start": "2026-11-10",
@@ -3598,10 +3598,10 @@
           "name": "BFCM Repel GMV Max Campaign",
           "campaign_id": "1881446278604817",
           "revenue": 203.33,
-          "spend": 240.78,
-          "roi": 0.844,
+          "spend": 243.25,
+          "roi": 0.836,
           "orders": 9,
-          "cost_per_order": 26.75,
+          "cost_per_order": 27.03,
           "roas_target": 1.8,
           "status": "ENABLE",
           "start": "2026-11-10",
@@ -3614,10 +3614,10 @@
           "name": "BFCM Seat Cushion GMV Max",
           "campaign_id": "1881572494944289",
           "revenue": 178.56,
-          "spend": 239.04,
-          "roi": 0.747,
+          "spend": 241.02,
+          "roi": 0.741,
           "orders": 4,
-          "cost_per_order": 59.76,
+          "cost_per_order": 60.26,
           "roas_target": 1.7,
           "status": "ENABLE",
           "start": "2026-11-11",
@@ -3630,7 +3630,7 @@
           "name": "BFCM Elevate Seat Cushion GMV Max",
           "campaign_id": "1881445716726193",
           "revenue": 0,
-          "spend": 9.99,
+          "spend": 12.46,
           "roi": 0,
           "orders": 0,
           "cost_per_order": 0,

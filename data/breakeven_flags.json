@@ -1,8 +1,8 @@
 {
- "generated_on": "2026-11-26T07:13:55Z",
+ "generated_on": "2026-11-27T07:08:49Z",
  "window": "2026-11-16 to 2026-11-22",
  "source": "Google Sheets 1XozV2gPcRuSCECMa7FIF9ELmOH4icawplxL-FFH3dcI tab 'Break-even by Product'",
- "assumptions_generated_on": "2026-11-26T07:13:41Z",
+ "assumptions_generated_on": "2026-11-27T07:08:41Z",
  "assumptions": {
   "watch_band_pct": 15.0,
   "min_ad_spend": 200.0,
@@ -85,16 +85,16 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146231515",
-     "name": "Black/Red",
-     "units": 3,
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
+     "units": 2,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 2,
+     "sku_id": "1732694432146231515",
+     "name": "Black/Red",
+     "units": 3,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -127,13 +127,6 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491520731",
-     "name": "Pastel Mint",
-     "units": 0,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146624731",
      "name": "Black Fog",
      "units": 0,
@@ -148,8 +141,8 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
+     "sku_id": "1732707643491520731",
+     "name": "Pastel Mint",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
@@ -157,6 +150,13 @@
     {
      "sku_id": "1732694432146493659",
      "name": "Blue Sky",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146100443",
+     "name": "Red",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
@@ -376,7 +376,7 @@
    "sku_coverage": {
     "skus_total": 23,
     "skus_mapped": 0,
-    "units_total": 10,
+    "units_total": 9,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -438,16 +438,16 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146231515",
-     "name": "Black/Red",
+     "sku_id": "1732694432146559195",
+     "name": "White Fog",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146559195",
-     "name": "White Fog",
-     "units": 1,
+     "sku_id": "1732694432146231515",
+     "name": "Black/Red",
+     "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
@@ -480,13 +480,6 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732707643491520731",
-     "name": "Pastel Mint",
-     "units": 1,
-     "price": 29.99,
-     "why": "no cost row in the cost model"
-    },
-    {
      "sku_id": "1732694432146624731",
      "name": "Black Fog",
      "units": 0,
@@ -501,15 +494,22 @@
      "why": "no cost row in the cost model"
     },
     {
-     "sku_id": "1732694432146100443",
-     "name": "Red",
-     "units": 0,
+     "sku_id": "1732707643491520731",
+     "name": "Pastel Mint",
+     "units": 1,
      "price": 29.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732694432146493659",
      "name": "Blue Sky",
+     "units": 0,
+     "price": 29.99,
+     "why": "no cost row in the cost model"
+    },
+    {
+     "sku_id": "1732694432146100443",
+     "name": "Red",
      "units": 0,
      "price": 29.99,
      "why": "no cost row in the cost model"
@@ -543,15 +543,15 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 240.78,
+   "spend": 243.25,
    "revenue": 203.33,
    "orders": 9,
-   "roi": 0.844,
+   "roi": 0.836,
    "roas_target": 1.8,
    "be_roas": 2.2,
    "pause_below_roas": 1.9,
    "margin_ad_pct": 45.4,
-   "cm3_after_ads": -148.47,
+   "cm3_after_ads": -150.94,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 1.80x, which is below its 2.2x break-even, so it can hit target and still lose money. Raise the return target to at least 2.2x (break-even), or pause and move the budget to a campaign above break-even.",
@@ -624,15 +624,15 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 239.04,
+   "spend": 241.02,
    "revenue": 178.56,
    "orders": 4,
-   "roi": 0.747,
+   "roi": 0.741,
    "roas_target": 1.7,
    "be_roas": 2.5,
    "pause_below_roas": 2.1,
    "margin_ad_pct": 40.2,
-   "cm3_after_ads": -167.26,
+   "cm3_after_ads": -169.24,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 1.70x, which is below its 2.5x break-even, so it can hit target and still lose money. Raise the return target to at least 2.5x (break-even), or pause and move the budget to a campaign above break-even.",
@@ -650,7 +650,7 @@
    "sku_coverage": {
     "skus_total": 7,
     "skus_mapped": 1,
-    "units_total": 43,
+    "units_total": 37,
     "units_covered": 0,
     "pct_units_covered": 0.0
    },
@@ -658,14 +658,14 @@
     {
      "sku_id": "1732283771626623195",
      "name": "Mesh Black,Default",
-     "units": 37,
+     "units": 31,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
     {
      "sku_id": "1732283771626688731",
      "name": "Fiberglass Black,Default",
-     "units": 3,
+     "units": 4,
      "price": 27.99,
      "why": "no cost row in the cost model"
     },
@@ -679,7 +679,7 @@
     {
      "sku_id": "1732384554433417435",
      "name": "Quilted Thermal,Default",
-     "units": 2,
+     "units": 1,
      "price": 23.99,
      "why": "no cost row in the cost model"
     },
@@ -698,22 +698,22 @@
      "why": "no cost row in the cost model"
     }
    ],
-   "spend": 422.02,
-   "revenue": 859.67,
-   "orders": 40,
-   "roi": 2.037,
+   "spend": 424.54,
+   "revenue": 802.31,
+   "orders": 37,
+   "roi": 1.89,
    "roas_target": 2.1,
    "be_roas": 4.0,
    "pause_below_roas": 3.2,
    "margin_ad_pct": 26.8,
-   "cm3_after_ads": -191.63,
+   "cm3_after_ads": -209.52,
    "status": "ENABLE",
    "flag": "Pause",
    "action": "It is live on a target of 2.10x, which is below its 4.0x break-even, so it can hit target and still lose money. Raise the return target to at least 4.0x (break-even), or pause and move the budget to a campaign above break-even.",
    "target_is_below_break_even": true
   }
  ],
- "live_window": "2026-11-20 to 2026-11-26",
+ "live_window": "2026-11-21 to 2026-11-27",
  "products": [
   {
    "product": "Screen Door",
@@ -869,8 +869,8 @@
   "week_cm3_total": 35.57,
   "live_campaigns_judged": 3,
   "live_pause": 3,
-  "live_cm3_after_ads_total": -507.36,
-  "live_spend_total": 901.84
+  "live_cm3_after_ads_total": -529.7,
+  "live_spend_total": 908.81
  },
  "privacy_note": "Per-product COGS, MCF and storage are withheld from this file: it is published on a public URL. The full cost stack stays in breakeven_flags_full.json."
 }
