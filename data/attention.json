@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T07:21:57+00:00",
+  "updated_at": "2026-11-27T07:21:42+00:00",
   "items": [
     {
       "metric": "Replies (week, three week run 14 to 7 to 5)",
@@ -7,8 +7,8 @@
       "prior": 7,
       "pct": -28.6,
       "direction": "down",
-      "effect": "At a 13.51% reply rate this is the third straight drop and it caps sample approvals and the creator posts that land three to four weeks later.",
-      "action": "Lift DM volume from 37 to 90 per week and add one follow-up touch to non-repliers before 2026-12-01."
+      "effect": "Third straight weekly drop at a 13.51% reply rate caps sample approvals near 6 per week and thins creator posts three to four weeks out.",
+      "action": "Lift DM volume from 37 to 90 per week with one 24 hour follow up to non-repliers."
     },
     {
       "metric": "Creators posting (week)",
@@ -16,8 +16,8 @@
       "prior": 40,
       "pct": -20.0,
       "direction": "down",
-      "effect": "Videos rose 61.3% to 121 on 20% fewer creators, so affiliate GMV fell 18.7% and the top two creators now hold 36.7% of it.",
-      "action": "Run a win-back DM to the 8 creators who posted last week but not this week with an expiring sample or bundle offer."
+      "effect": "Videos rose 61.3% to 121 on 20% fewer creators, concentrating reach so the top two creators now hold 36.7% of affiliate GMV.",
+      "action": "Win back the creators who posted last week but not this week with a bundle offer and a sample restock."
     },
     {
       "metric": "Affiliate GMV (week, share 64.3% of GMV)",
@@ -25,8 +25,8 @@
       "prior": 1518.49,
       "pct": -18.7,
       "direction": "down",
-      "effect": "Affiliate share dropped from 77.8% to 64.3%, leaving GMV Max ads to carry 75.6% of revenue at a 1.522 blended ROAS.",
-      "action": "Hold affiliate at or above 70% of GMV by pairing the DM wave with a post reminder to creators holding samples."
+      "effect": "Affiliate share fell from 77.8% to 64.3% while sylviaapproved dropped 65.9%, so ads now carry 75.6% of revenue at a 1.522 ROAS.",
+      "action": "Hold affiliate at or above 70% of GMV by pairing the DM wave with post reminders to creators holding samples."
     },
     {
       "metric": "LIVE GMV (47 streams, 58,631 views, three week zero run)",
@@ -34,8 +34,8 @@
       "prior": 0,
       "pct": 0.0,
       "direction": "down",
-      "effect": "Three straight weeks of zero LIVE GMV means 58,631 views and the 47 stream roster are converting nothing.",
-      "action": "Give the live roster a bundle script with a checkout call every 10 minutes or move the airtime to affiliate posts by 2026-11-30."
+      "effect": "Three straight weeks of zero LIVE GMV leaves 58,631 views and the 47 stream roster converting nothing.",
+      "action": "Add a pinned bundle and a checkout call every 10 minutes, or move the airtime to affiliate posts by 2026-12-04."
     },
     {
       "metric": "BFCM Seat Cushion GMV Max ROAS (target 1.7)",
@@ -43,17 +43,17 @@
       "prior": 1.7,
       "pct": -54.1,
       "direction": "down",
-      "effect": "The campaign spent 274.95 dollars for 5 orders at 54.99 cost per order, 60.30 dollars underwater before COGS.",
-      "action": "Pause Seat Cushion and Elevate Seat Cushion and move the budget to BFCM Screendoor at 2.061 ROAS."
+      "effect": "The campaign spent 274.95 dollars for 5 orders at 54.99 cost per order, and with Elevate Seat Cushion the pair is 81.89 underwater before COGS.",
+      "action": "Pause both seat cushion campaigns and move the budget to BFCM Screendoor at 2.061 ROAS."
     },
     {
-      "metric": "Sample requests expired (191 of 300, flag threshold 50%)",
-      "current": 63.7,
-      "prior": 50.0,
-      "pct": 27.4,
-      "direction": "up",
-      "effect": "Expiry, not creator interest, is the binding constraint: 51 fresh requests sit in To Review while only 3 of 300 requests reached Posted.",
-      "action": "Clear the 51 To Review requests within 48 hours and set a 48 hour approval SLA with affiliate ops."
+      "metric": "Sample requests expired (189 of 300, flag threshold 50%)",
+      "current": 63.0,
+      "prior": 63.7,
+      "pct": -1.1,
+      "direction": "down",
+      "effect": "Expiry rather than rejection (1.3%) is the binding constraint, with 53 fresh requests sitting in To Review and only 4 of 300 reaching Posted.",
+      "action": "Clear the 53 To Review requests within 48 hours and set a 48 hour approval SLA with affiliate ops."
     }
   ]
 }
